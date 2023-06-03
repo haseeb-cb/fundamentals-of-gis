@@ -126,8 +126,9 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	 1.  Open the *symbology* properties for the Waterbodies layer
 	 2. Apart from the color fill and a few ready-made styles, the main view does not offer very sophisticated visualizing options, so it is suggested to click on the *Simple fill*
 	 3. Press the *Fill color* button and change the color of the layer to blue
-	 4. If you want a transparent fill, press on the arrow on the right of the *Fill* button and select Transparent fillOne you are satisfied with the layer styles, press *Apply* and *OK*
- -  It is also possible to **visualize the layers based on the information stored in the attribute table**. This can be done by selecting Categorized or Graduated instead of Single Symbol from the dropdown menu on the top of the page.	
+	 4. If you want a transparent fill, press on the arrow on the right of the *Fill* button and select Transparent fill
+	 5. One you are satisfied with the layer styles, press *Apply* and *OK*
+4. It is also possible to **visualize the layers based on the information stored in the attribute table**. This can be done by selecting Categorized or Graduated instead of Single Symbol from the dropdown menu on the top of the page.	
 	
 	1. Open the HSL_Helsinki_stops layer symbology
 	2. Choose *Graduated* from the dropdown menu
@@ -139,12 +140,12 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 
 **Now, using the previous tips and tricks as your support, change the styles of all the layers in the project.**
 
- 4.  Next, we shall move the focus from visualization to the **actual data**. Start by examining what data is included in the project and what information is stored in the layers by right clicking on the layer name and selecting *Open Attribute Table*.
+ 5.  Next, we shall move the focus from visualization to the **actual data**. Start by examining what data is included in the project and what information is stored in the layers by right clicking on the layer name and selecting *Open Attribute Table*.
 	 1. Open the *attribute table* of the layer called Helsinki_small_areas. Take a moment to examine the table, what can you see?
 	 As you can see, the file consists of a list of the small-sized areas within the city of Helsinki with their corresponding codes and creation dates but little else. Next, we are going to calculate the area for each small area of Helsinki. 
 	 2.  In the *attribute table*, toggle *Editing mode* and then click on the *Field Calculator* button
  - Field calculator picture
- 5.  Now we’ll **write an expression that calculates the area of each small area of Helsinki in square kilometers**. On the right side of the Expression window is a list of drop-down menus.
+ 6.  Now we’ll **write an expression that calculates the area of each small area of Helsinki in square kilometers**. On the right side of the Expression window is a list of drop-down menus.
 	 1. Open the *Geometry* drop-down menu
 	 2. Double-click the *\$area* expression (you can also type *\$area* in the blank *Expression window*)
 	 3. Just the *\$area* expression would calculate the area in square meters, but we want square kilometers. So we will divide it by 1 000 000. Click or type the division symbol (/), and type 1000000 after the division
@@ -152,21 +153,20 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	 5. Set the *Output field type* to *Decimal number (real)*, and *Output field length* to 10 and 2 (try the other options and look how this changes the preview value)Click *OK*
 	 6. Finally, click the *Save Edits* button and disable *Editing* mode to make the changes permanent
 
- 5.  **Using the field we just created in the attribute table, explore the small areas of Helsinki**, which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.
+ 7.  **Using the field we just created in the attribute table, explore the small areas of Helsinki**, which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.
+	 1. Open the *Field and Values* drop-down menu, which will show all the attribute fields
+	 2. Double-click on the area field you made earlier (Area_km2)
+	 3. Type "< 5" to the right of the field in the text field
+	 4. Click *Select features*
 	
-	1. Open the *Field and Values* drop-down menu, which will show all the attribute fields
-	2. Double-click on the area field you made earlier (Area_km2)
-	3. Type "< 5" to the right of the field in the text field
-	4. Click *Select features*
-	
-	Your selection now includes all the areas under 5 square kilometers in this layer, with selected objects shown in **yellow in on the map** and **blue on the attribute table**.
+Your selection now includes all the areas under 5 square kilometers in this layer, with selected objects shown in **yellow in on the map** and **blue on the attribute table**.
 	Alternative expressions include:
  -  "Area_km2" = 5, select the features the area of which is exactly 5 square meters
  - "Area_km2" > 2 AND "Area_km2" < 5, select the features the area of which is between 2 and 5 square kilometers  
 
 	5. Close the *Select by expression* window and deselect all the features by clicking *Deselect all* 
 
- - **Next, we’re going to create and calculate another field into the Helsinki_small_areas attribute table using the HSL_Helsinki_stops point data.** First open the *attribute table* of HSL_Helsinki_stops to familiarize yourself with its contents. The Boardings column depicts the amount of boardings on stops in Helsinki on average per day. We will calculate and visualize the public transit passenger numbers per area for every Helsinki small area.
+ 8. **Next, we’re going to create and calculate another field into the Helsinki_small_areas attribute table using the HSL_Helsinki_stops point data.** First open the *attribute table* of HSL_Helsinki_stops to familiarize yourself with its contents. The Boardings column depicts the amount of boardings on stops in Helsinki on average per day. We will calculate and visualize the public transit passenger numbers per area for every Helsinki small area.
 	
 	1. Check if the *Processing Toolbox* is active in the top right of the main QGIS window, if not open it by selecting *Processing* > *Toolbox* from the top of the window
 	2. Type “Join attributes by location” into the search bar. Select the one that has (Summary) after it.
@@ -235,23 +235,23 @@ QiOiJsYXllcnMgcGFuZWwifSwiaGxoa2RDRW0zNGwzVnJUVyI6
 eyJzdGFydCI6Nzc3NSwiZW5kIjo3NzgxLCJ0ZXh0Ijoib2JqZW
 N0In0sIkZYZlFGZkY5RlpPTnBZRmEiOnsic3RhcnQiOjc4MTYs
 ImVuZCI6NzgyNSwidGV4dCI6ImF0dHJpYnV0ZSJ9LCJJOHl4QU
-RjNjNTa09nRDN5Ijp7InN0YXJ0IjoxMTA1OSwiZW5kIjoxMTA4
-MywidGV4dCI6IlN5bWJvbG9neSBleGFtcGxlIHBpY3R1ciJ9LC
-I5WUpOdThvOHVvdWJZQ2doIjp7InN0YXJ0IjoxMTg2MiwiZW5k
-IjoxMTg2OSwidGV4dCI6IkVkaXRpbmcifSwiTnhKZEZXQ0JsVX
-MyNHNjTCI6eyJzdGFydCI6MTE4OTksImVuZCI6MTE5MDQsInRl
+RjNjNTa09nRDN5Ijp7InN0YXJ0IjoxMTA2NCwiZW5kIjoxMTA4
+OCwidGV4dCI6IlN5bWJvbG9neSBleGFtcGxlIHBpY3R1ciJ9LC
+I5WUpOdThvOHVvdWJZQ2doIjp7InN0YXJ0IjoxMTg2NywiZW5k
+IjoxMTg3NCwidGV4dCI6IkVkaXRpbmcifSwiTnhKZEZXQ0JsVX
+MyNHNjTCI6eyJzdGFydCI6MTE5MDQsImVuZCI6MTE5MDksInRl
 eHQiOiJGaWVsZCJ9LCJzUUVwbkYzNjdzZWF2THNjIjp7InN0YX
-J0IjoxMTkyNywiZW5kIjoxMTk1MSwidGV4dCI6IkZpZWxkIGNh
+J0IjoxMTkzMiwiZW5kIjoxMTk1NiwidGV4dCI6IkZpZWxkIGNh
 bGN1bGF0b3IgcGljdHVyZSJ9LCJBY1dUSmttcjlha253MlFWIj
-p7InN0YXJ0IjoxMjgwNiwiZW5kIjoxMjgxMywidGV4dCI6IkVk
+p7InN0YXJ0IjoxMjgxMSwiZW5kIjoxMjgxOCwidGV4dCI6IkVk
 aXRpbmcifSwiM1hVaWhUcmdOVFhubHJwMyI6eyJzdGFydCI6MT
-I3NzQsImVuZCI6MTI3ODQsInRleHQiOiJTYXZlIEVkaXRzIn0s
-ImV2TFdZb0FHWDB5dXVJWHMiOnsic3RhcnQiOjEzMjU3LCJlbm
-QiOjEzMjc1LCJ0ZXh0IjoiUHJvY2Vzc2luZyBUb29sYm94In0s
-IlFnanFjSGsxV2VidmRRZFUiOnsic3RhcnQiOjEzMTgyLCJlbm
-QiOjEzMjExLCJ0ZXh0IjoiU2VsZWN0IGZlYXR1cmVzIGJ5IGV4
+I3NzksImVuZCI6MTI3ODksInRleHQiOiJTYXZlIEVkaXRzIn0s
+ImV2TFdZb0FHWDB5dXVJWHMiOnsic3RhcnQiOjEzMjYyLCJlbm
+QiOjEzMjgwLCJ0ZXh0IjoiUHJvY2Vzc2luZyBUb29sYm94In0s
+IlFnanFjSGsxV2VidmRRZFUiOnsic3RhcnQiOjEzMTg3LCJlbm
+QiOjEzMjE2LCJ0ZXh0IjoiU2VsZWN0IGZlYXR1cmVzIGJ5IGV4
 cHJlc3Npb24ifSwiSFRCajVOQWlqamlQSG5kdiI6eyJzdGFydC
-I6MTQwMjAsImVuZCI6MTQwMzIsInRleHQiOiJEZXNlbGVjdCBh
+I6MTQwMjYsImVuZCI6MTQwMzgsInRleHQiOiJEZXNlbGVjdCBh
 bGwifX0sImNvbW1lbnRzIjp7IndzcFZ2U2tJdW16TG1pdU0iOn
 siZGlzY3Vzc2lvbklkIjoiNlI1OWJjc3J1TEhYSDJBOCIsInN1
 YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBjb3ZlciBwaW
@@ -360,7 +360,7 @@ IkFYY2JVV3h0NzdHRE95WEYiOnsiZGlzY3Vzc2lvbklkIjoiZX
 ZMV1lvQUdYMHl1dUlYcyIsInN1YiI6ImdoOjQwMzA0Nzg4Iiwi
 dGV4dCI6IkVhcmxpZXIgaW4gY3Jhc2ggY291cnNlLCBhZGQgZX
 hhbXBsZXMgb2YgdG9vbHMgYW5kIGhvdyB0aGV5IHdvcmsiLCJj
-cmVhdGVkIjoxNjg1Nzg3ODk5MDU5fX0sImhpc3RvcnkiOlstMT
-Y4ODk4NDUxNyw2ODExODQ4NzQsLTE4MTkwMDE4NzEsLTQ3NzAw
-MjIzNCwtMTY0NzU2NzM3MiwtMTY2Mzc0MDQxMl19
+cmVhdGVkIjoxNjg1Nzg3ODk5MDU5fX0sImhpc3RvcnkiOlstND
+QzODgwNDI0LDY4MTE4NDg3NCwtMTgxOTAwMTg3MSwtNDc3MDAy
+MjM0LC0xNjQ3NTY3MzcyLC0xNjYzNzQwNDEyXX0=
 -->
