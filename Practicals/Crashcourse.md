@@ -197,6 +197,7 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 - Picture of current attribute table with new fields
 
 10.  Head to the layer’s *symbology* tab and select **Graduated** from the drop-down menu. **Select the PassArea column as the data source and press Classify**. Choose a suitable classification method and visualize the data as desired. You can edit the class bounds and the legend values manually by double clicking on them. Which areas are the most passenger heavy and which are not? Why?
+
 11. Now it is time for the finishing touches. To make the map easier to interpret, we are going to **add labels** to it.
 		1. Right-click the layer we just visualized and go to *Layer properties* > *Labels*
 		2. Select *Single labels* form the drop-down menu to enable labeling
@@ -227,8 +228,11 @@ The last phase of this practical will concentrate on creating a map output.
 	6. **Adding a North arrow or an image**: To do this, press Add North Arrow and click on the layout.
 If you want to modify the look of the arrow, go to Item properties and open the Search directories tab (see the picture on the right). Click on the desired arrow.
 
-4. Once you are satisfied with your map, **save the project** and go to *Layout* > *Export as image* to **save your layout as an image file**. If you want to adjust the export resolution (default is 300 dpi, higher value = higher resolution image and larger file size), you can do that prior to exporting from the Layout panel. Save your map under your course folder and insert the finished map to your course report.
+4. Once you are satisfied with your map, **save the project** and go to *Layout* > *Export as image* to **save your layout as an image file**. If you want to adjust the export resolution (default is 300 dpi, higher value = higher resolution image and larger file size), you can do that prior to exporting from the Layout panel. **Save your map under your course folder and submit the finished map on Moodle.**
 
+(Hungry for more? furhter reading on the print composer in the QGIS manual: https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/index.html
+
+#
  
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI2UjU5YmNzcnVMSFhIMkE4Ijp7In
@@ -309,18 +313,18 @@ eHQiOiItIEpvaW4gYXR0cmlidXRlcyBieSBMb2NhdGlvbiBwaW
 N0dXJlcyJ9LCJJY2RGdGdKUWJQQk1HTmpDIjp7InN0YXJ0Ijox
 NjgyOCwiZW5kIjoxNjg3NiwidGV4dCI6ImN0dXJlIG9mIGN1cn
 JlbnQgYXR0cmlidXRlIHRhYmxlIHdpdGggbmV3IGZpZWxkcyJ9
-LCJQUVhKa1N0WTJnc3V2ejVEIjp7InN0YXJ0IjoxNzg2NSwiZW
-5kIjoxNzg4OSwidGV4dCI6Ii0gTGF5b3V0IG1hbmFnZXIgcGlj
+LCJQUVhKa1N0WTJnc3V2ejVEIjp7InN0YXJ0IjoxNzg2NiwiZW
+5kIjoxNzg5MCwidGV4dCI6Ii0gTGF5b3V0IG1hbmFnZXIgcGlj
 dHVyZSJ9LCJMRUdUbE01UTNXaHRnYVBYIjp7InN0YXJ0IjoxNz
-k4OCwiZW5kIjoxODAwNCwidGV4dCI6Ik5ldyBQcmludCBsYXlv
+k4OSwiZW5kIjoxODAwNSwidGV4dCI6Ik5ldyBQcmludCBsYXlv
 dXQifSwiT3Y3ZFNhd3Q3aUxoQWZFciI6eyJzdGFydCI6MTgyND
-gsImVuZCI6MTgyNjYsInRleHQiOiJBZGQgbmV3IG1hcCBidXR0
+ksImVuZCI6MTgyNjcsInRleHQiOiJBZGQgbmV3IG1hcCBidXR0
 b24ifSwibFNXamU3Z1A2cmxJbmdheSI6eyJzdGFydCI6MTg2MT
-UsImVuZCI6MTg2MjQsInRleHQiOiJNb3ZlIGl0ZW0ifSwiWXla
-VGFkUnBwS3JlMTJQVCI6eyJzdGFydCI6MTg3MjYsImVuZCI6MT
-g3NDMsInRleHQiOiJNb3ZlIGl0ZW0gY29udGVudCJ9LCJKeENB
-VGNid20yUDAyNDgwIjp7InN0YXJ0IjoxOTI3NSwiZW5kIjoyMD
-cxMiwidGV4dCI6IioqQWRkaW5nIGEgbGFiZWwqKjogWW91IGNh
+YsImVuZCI6MTg2MjUsInRleHQiOiJNb3ZlIGl0ZW0ifSwiWXla
+VGFkUnBwS3JlMTJQVCI6eyJzdGFydCI6MTg3MjcsImVuZCI6MT
+g3NDQsInRleHQiOiJNb3ZlIGl0ZW0gY29udGVudCJ9LCJKeENB
+VGNid20yUDAyNDgwIjp7InN0YXJ0IjoxOTI3NiwiZW5kIjoyMD
+cxMywidGV4dCI6IioqQWRkaW5nIGEgbGFiZWwqKjogWW91IGNh
 biBjaGFuZ2UgdGhlIGRlZmF1bHQgdGV4dCBhcyB3ZWxsIGFzIH
 RoZSBmb250IGFuZCBjb2zigKYifX0sImNvbW1lbnRzIjp7Indz
 cFZ2U2tJdW16TG1pdU0iOnsiZGlzY3Vzc2lvbklkIjoiNlI1OW
@@ -459,7 +463,7 @@ OCIsInRleHQiOiJBZGQgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nz
 kwNTg3MDkwfSwiaURFa0drRGRxdjRORzBtWiI6eyJkaXNjdXNz
 aW9uSWQiOiJKeENBVGNid20yUDAyNDgwIiwic3ViIjoiZ2g6ND
 AzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGltYWdlcyIsImNyZWF0ZWQi
-OjE2ODU3OTA4NTQ1Nzh9fSwiaGlzdG9yeSI6WzEwOTUzNzE0NT
-IsMTIxNzQzNjc2Miw2ODExODQ4NzQsLTE4MTkwMDE4NzEsLTQ3
+OjE2ODU3OTA4NTQ1Nzh9fSwiaGlzdG9yeSI6WzIwMTMxNDEzMj
+YsMTIxNzQzNjc2Miw2ODExODQ4NzQsLTE4MTkwMDE4NzEsLTQ3
 NzAwMjIzNCwtMTY0NzU2NzM3MiwtMTY2Mzc0MDQxMl19
 -->
