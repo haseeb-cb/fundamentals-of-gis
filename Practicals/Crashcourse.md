@@ -173,7 +173,8 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 
 	5. Close the *Select by expression* window and deselect all the features by clicking *Deselect all* 
 
-8. **Next, we’re going to create and calculate another field into the Helsinki_small_areas attribute table using the HSL_Helsinki_stops point data.** First open the attribute table of HSL_Helsinki_stops to familiarize yourself with its contents. The Boardings column depicts the amount of boardings on stops in Helsinki on average per day. We will calculate and visualize the public transit passenger numbers per area for every Helsinki small area.
+8. **Next, we’re going to create and calculate another field into the Helsinki_small_areas attribute table using the HSL_Helsinki_stops point data.** First open the *attribute table* of HSL_Helsinki_stops to familiarize yourself with its contents. The Boardings column depicts the amount of boardings on stops in Helsinki on average per day. We will calculate and visualize the public transit passenger numbers per area for every Helsinki small area.
+	1. 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI2UjU5YmNzcnVMSFhIMkE4Ijp7In
 N0YXJ0Ijo3OCwiZW5kIjo4OSwidGV4dCI6IkNvdmVyIGltYWdl
@@ -349,6 +350,6 @@ aW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nzg2NjM3NDY4fSwiSEJDdF
 F1dnZPVjh1Ukg2WSI6eyJkaXNjdXNzaW9uSWQiOiJIVEJqNU5B
 aWpqaVBIbmR2Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ij
 oiQWRkIGltYWdlIiwiY3JlYXRlZCI6MTY4NTc4NzI0MzQ2MH19
-LCJoaXN0b3J5IjpbLTE4MTkwMDE4NzEsLTQ3NzAwMjIzNCwtMT
-Y0NzU2NzM3MiwtMTY2Mzc0MDQxMl19
+LCJoaXN0b3J5IjpbNjgxMTg0ODc0LC0xODE5MDAxODcxLC00Nz
+cwMDIyMzQsLTE2NDc1NjczNzIsLTE2NjM3NDA0MTJdfQ==
 -->
