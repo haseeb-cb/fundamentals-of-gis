@@ -142,22 +142,21 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 **Now, using the previous tips and tricks as your support, change the styles of all the layers in the project.**
 
  4.  Next, we shall move the focus from visualization to the **actual data**. Start by examining what data is included in the project and what information is stored in the layers by right clicking on the layer name and selecting *Open Attribute Table*.
+ 
 	 1. Open the *attribute table* of the layer called Helsinki_small_areas. Take a moment to examine the table, what can you see?
 	 As you can see, the file consists of a list of the small-sized areas within the city of Helsinki with their corresponding codes and creation dates but little else. Next, we are going to calculate the area for each small area of Helsinki. 
 	 2.  In the *attribute table*, toggle *Editing mode* and then click on the *Field Calculator* button
  - Field calculator picture
-  Now we’ll **write an expression that calculates the area of each small area of Helsinki in square kilometers**. On the right side of the Expression window is a list of drop-down menus.
-	
-	
-	1. Open the *Geometry* drop-down menu
-	2. Double-click the *\$area* expression (you can also type *\$area* in the blank *Expression window*)
-	3.  Just the *\$area* expression would calculate the area in square meters, but we want square kilometers. So we will divide it by 1 000 000. Click or type the division symbol (/), and type 1000000 after the division
-	4. Set an informative *Output field name* (For example: Area_km2)
-	5. Set the *Output field type* to *Decimal number (real)*, and *Output field length* to 10 and 2 (try the other options and look how this changes the preview value)
-	6. Click *OK*
-	7. Finally, click the *Save Edits* button and disable *Editing* mode to make the changes permanent
+ 6.  Now we’ll **write an expression that calculates the area of each small area of Helsinki in square kilometers**. On the right side of the Expression window is a list of drop-down menus.
+	 1. Open the *Geometry* drop-down menu
+	 2. Double-click the *\$area* expression (you can also type *\$area* in the blank *Expression window*)
+	 3. Just the *\$area* expression would calculate the area in square meters, but we want square kilometers. So we will divide it by 1 000 000. Click or type the division symbol (/), and type 1000000 after the division
+	 4. Set an informative *Output field name* (For example: Area_km2)
+	 5. Set the *Output field type* to *Decimal number (real)*, and *Output field length* to 10 and 2 (try the other options and look how this changes the preview value)
+	 6. Click *OK*
+	 7. Finally, click the *Save Edits* button and disable *Editing* mode to make the changes permanent
 
- - **Using the field we just created in the attribute table, explore the small areas of Helsinki**, which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.
+ 7. **Using the field we just created in the attribute table, explore the small areas of Helsinki**, which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.
 	
 	1. Open the *Field and Values* drop-down menu, which will show all the attribute fields
 	2. Double-click on the area field you made earlier (Area_km2)
@@ -242,21 +241,21 @@ N0In0sIkZYZlFGZkY5RlpPTnBZRmEiOnsic3RhcnQiOjc4MTYs
 ImVuZCI6NzgyNSwidGV4dCI6ImF0dHJpYnV0ZSJ9LCJJOHl4QU
 RjNjNTa09nRDN5Ijp7InN0YXJ0IjoxMTA4NCwiZW5kIjoxMTEw
 OCwidGV4dCI6IlN5bWJvbG9neSBleGFtcGxlIHBpY3R1ciJ9LC
-I5WUpOdThvOHVvdWJZQ2doIjp7InN0YXJ0IjoxMTg4NywiZW5k
-IjoxMTg5NCwidGV4dCI6IkVkaXRpbmcifSwiTnhKZEZXQ0JsVX
-MyNHNjTCI6eyJzdGFydCI6MTE5MjQsImVuZCI6MTE5MjksInRl
+I5WUpOdThvOHVvdWJZQ2doIjp7InN0YXJ0IjoxMTg4OSwiZW5k
+IjoxMTg5NiwidGV4dCI6IkVkaXRpbmcifSwiTnhKZEZXQ0JsVX
+MyNHNjTCI6eyJzdGFydCI6MTE5MjYsImVuZCI6MTE5MzEsInRl
 eHQiOiJGaWVsZCJ9LCJzUUVwbkYzNjdzZWF2THNjIjp7InN0YX
-J0IjoxMTk1MiwiZW5kIjoxMTk3NiwidGV4dCI6IkZpZWxkIGNh
+J0IjoxMTk1NCwiZW5kIjoxMTk3OCwidGV4dCI6IkZpZWxkIGNh
 bGN1bGF0b3IgcGljdHVyZSJ9LCJBY1dUSmttcjlha253MlFWIj
-p7InN0YXJ0IjoxMjgzMiwiZW5kIjoxMjgzOSwidGV4dCI6IkVk
+p7InN0YXJ0IjoxMjgzOSwiZW5kIjoxMjg0NiwidGV4dCI6IkVk
 aXRpbmcifSwiM1hVaWhUcmdOVFhubHJwMyI6eyJzdGFydCI6MT
-I4MDAsImVuZCI6MTI4MTAsInRleHQiOiJTYXZlIEVkaXRzIn0s
-ImV2TFdZb0FHWDB5dXVJWHMiOnsic3RhcnQiOjEzMjgxLCJlbm
-QiOjEzMjk5LCJ0ZXh0IjoiUHJvY2Vzc2luZyBUb29sYm94In0s
-IlFnanFjSGsxV2VidmRRZFUiOnsic3RhcnQiOjEzMjA2LCJlbm
-QiOjEzMjM1LCJ0ZXh0IjoiU2VsZWN0IGZlYXR1cmVzIGJ5IGV4
+I4MDcsImVuZCI6MTI4MTcsInRleHQiOiJTYXZlIEVkaXRzIn0s
+ImV2TFdZb0FHWDB5dXVJWHMiOnsic3RhcnQiOjEzMjg5LCJlbm
+QiOjEzMzA3LCJ0ZXh0IjoiUHJvY2Vzc2luZyBUb29sYm94In0s
+IlFnanFjSGsxV2VidmRRZFUiOnsic3RhcnQiOjEzMjE0LCJlbm
+QiOjEzMjQzLCJ0ZXh0IjoiU2VsZWN0IGZlYXR1cmVzIGJ5IGV4
 cHJlc3Npb24ifSwiSFRCajVOQWlqamlQSG5kdiI6eyJzdGFydC
-I6MTQwNDQsImVuZCI6MTQwNTYsInRleHQiOiJEZXNlbGVjdCBh
+I6MTQwNTIsImVuZCI6MTQwNjQsInRleHQiOiJEZXNlbGVjdCBh
 bGwifX0sImNvbW1lbnRzIjp7IndzcFZ2U2tJdW16TG1pdU0iOn
 siZGlzY3Vzc2lvbklkIjoiNlI1OWJjc3J1TEhYSDJBOCIsInN1
 YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBjb3ZlciBwaW
@@ -365,7 +364,7 @@ IkFYY2JVV3h0NzdHRE95WEYiOnsiZGlzY3Vzc2lvbklkIjoiZX
 ZMV1lvQUdYMHl1dUlYcyIsInN1YiI6ImdoOjQwMzA0Nzg4Iiwi
 dGV4dCI6IkVhcmxpZXIgaW4gY3Jhc2ggY291cnNlLCBhZGQgZX
 hhbXBsZXMgb2YgdG9vbHMgYW5kIGhvdyB0aGV5IHdvcmsiLCJj
-cmVhdGVkIjoxNjg1Nzg3ODk5MDU5fX0sImhpc3RvcnkiOlstMT
-k0MTYzMDQ5LDY4MTE4NDg3NCwtMTgxOTAwMTg3MSwtNDc3MDAy
+cmVhdGVkIjoxNjg1Nzg3ODk5MDU5fX0sImhpc3RvcnkiOlsxMT
+Y1MjU2MjczLDY4MTE4NDg3NCwtMTgxOTAwMTg3MSwtNDc3MDAy
 MjM0LC0xNjQ3NTY3MzcyLC0xNjYzNzQwNDEyXX0=
 -->
