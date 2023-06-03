@@ -140,7 +140,8 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 
 5. Next, we shall move the focus from visualization to the **actual data**. Start by examining what data is included in the project and what information is stored in the layers by right clicking on the layer name and selecting *Open Attribute Table*.
 	
-	1. Open the *attribute table* of the layer    
+	1. Open the *attribute table* of the layer called Helsinki_small_areas. Take a moment to examine the table, what can you see? 
+	2.     
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI2UjU5YmNzcnVMSFhIMkE4Ijp7In
 N0YXJ0Ijo3OCwiZW5kIjo4OSwidGV4dCI6IkNvdmVyIGltYWdl
@@ -275,6 +276,6 @@ F0dHJpYnV0ZSBkYXRhPyIsImNyZWF0ZWQiOjE2ODU3ODM2MTQw
 Mzd9LCJyeVlGSUVlOXkybEVFeDVKIjp7ImRpc2N1c3Npb25JZC
 I6Ikk4eXhBRGM2M1NrT2dEM3kiLCJzdWIiOiJnaDo0MDMwNDc4
 OCIsInRleHQiOiJBZGQgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nz
-g1MjQ1NzA5fX0sImhpc3RvcnkiOls3MTQ0NTYwMDMsLTE2NDc1
-NjczNzIsLTE2NjM3NDA0MTJdfQ==
+g1MjQ1NzA5fX0sImhpc3RvcnkiOlsxMTg3Mjg2MDE2LC0xNjQ3
+NTY3MzcyLC0xNjYzNzQwNDEyXX0=
 -->
