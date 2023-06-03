@@ -188,7 +188,9 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 	- Temporary layers will be lost when closing QGIS and are best not used for further processing
 	8. Save the joined layer as ESRI Shapefile, with a sensible name (for example "Helsinki_small_areas_HSL.shp"), and within the folder for your project you made earlier
 	9. Delete the temporary Joined Layer from the Layers window
-9.   
+
+9.   **Now we’ll calculate yet another field** using the field calculator by dividing the number of passengers by the square kilometer area of the Helsinki small areas.
+	1.  
 
  
 <!--stackedit_data:
@@ -382,7 +384,7 @@ aW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nzg4NjU3NDUyfSwidU5qS3
 MydXdSVWE2QWdLTiI6eyJkaXNjdXNzaW9uSWQiOiJjVTdRWFRV
 QmtaaW82Z3pNIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ij
 oiQWRkIGltYWdlcyIsImNyZWF0ZWQiOjE2ODU3ODg2OTc0MzZ9
-fSwiaGlzdG9yeSI6WzE0Mzc5NTQ0MDYsNjgxMTg0ODc0LC0xOD
-E5MDAxODcxLC00NzcwMDIyMzQsLTE2NDc1NjczNzIsLTE2NjM3
-NDA0MTJdfQ==
+fSwiaGlzdG9yeSI6Wy0xMzQ3Mzg2NjAzLDY4MTE4NDg3NCwtMT
+gxOTAwMTg3MSwtNDc3MDAyMjM0LC0xNjQ3NTY3MzcyLC0xNjYz
+NzQwNDEyXX0=
 -->
