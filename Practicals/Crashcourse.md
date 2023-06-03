@@ -127,7 +127,10 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
     3.  Press the *Fill color* button and change the color of the layer to blue
     4.  If you want a transparent fill, press on the arrow on the right of the *Fill* button and select Transparent fill
     5.  One you are satisfied with the layer styles, press *Apply* and *OK*
-4.  It is also possible to **visualize the layers based on the information stored in the attribute table**. This can be done by selecting Categorized or Graduated instead of Single Symbol from the dropdown menu on the top of the page.
+4.  It is also possible to **visualize the layers based on the information stored in the attribute table**. This can be done by selecting Categorized or Graduated instead of Single Symbol from the dropdown menu on the top of the page.	
+	1. Open the HSL_Helsinki_stops layer symbology
+	2. Choose 
+	3. 
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI2UjU5YmNzcnVMSFhIMkE4Ijp7In
@@ -258,5 +261,5 @@ OjE2ODU3ODM2MDUwMjF9LCJtMEdESkZaQXhCakxxc1VFIjp7Im
 Rpc2N1c3Npb25JZCI6IkZYZlFGZkY5RlpPTnBZRmEiLCJzdWIi
 OiJnaDo0MDMwNDc4OCIsInRleHQiOiJXaGF0IGlzIGF0dHJpYn
 V0ZSBkYXRhPyIsImNyZWF0ZWQiOjE2ODU3ODM2MTQwMzd9fSwi
-aGlzdG9yeSI6Wy0xNjYzNzQwNDEyXX0=
+aGlzdG9yeSI6Wy0yMDY0NjA4NzUsLTE2NjM3NDA0MTJdfQ==
 -->
