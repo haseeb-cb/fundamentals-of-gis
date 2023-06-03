@@ -150,12 +150,16 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 - Field calculator picture
 6. Now we’ll **write an expression that calculates the area of each small area of Helsinki in square kilometers**. On the right side of the Expression window is a list of drop-down menus.
 	
-	1. Set an informative *Output field name* (For example: Area_km2)
-	2. Set the *Output field type* to *Decimal number (real)*, and *Output field length* to 10 and 2 (try the other options and look how this
-	3. Open the *Geometry* drop-down menu
-	4. Double-click the *\$area* expression (you can also type *\$area* in the blank *Expression window*)
-	5.  Just the *\$area* expression would calculate the area in square meters, but we want square kilometers. So we will divide it by 1 000 000. Click or type the division symbol (/), and type 1000000 after the division and click OK
-	6. Click the *Save Edits* button and disable *Editing* mode
+	
+	1. Open the *Geometry* drop-down menu
+	2. Double-click the *\$area* expression (you can also type *\$area* in the blank *Expression window*)
+	3.  Just the *\$area* expression would calculate the area in square meters, but we want square kilometers. So we will divide it by 1 000 000. Click or type the division symbol (/), and type 1000000 after the division
+	4. Set an informative *Output field name* (For example: Area_km2)
+	5. Set the *Output field type* to *Decimal number (real)*, and *Output field length* to 10 and 2 (try the other options and look how this changes the preview value)
+	6. Click *OK*
+	7. Finally, click the *Save Edits* button and disable *Editing* mode to make the changes permanent
+
+7. 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI2UjU5YmNzcnVMSFhIMkE4Ijp7In
 N0YXJ0Ijo3OCwiZW5kIjo4OSwidGV4dCI6IkNvdmVyIGltYWdl
@@ -218,9 +222,9 @@ MyNHNjTCI6eyJzdGFydCI6MTE5MjYsImVuZCI6MTE5MzEsInRl
 eHQiOiJGaWVsZCJ9LCJzUUVwbkYzNjdzZWF2THNjIjp7InN0YX
 J0IjoxMTk1MywiZW5kIjoxMTk3NywidGV4dCI6IkZpZWxkIGNh
 bGN1bGF0b3IgcGljdHVyZSJ9LCJBY1dUSmttcjlha253MlFWIj
-p7InN0YXJ0IjoxMjc5NCwiZW5kIjoxMjgwMSwidGV4dCI6IkVk
+p7InN0YXJ0IjoxMjgzNCwiZW5kIjoxMjg0MSwidGV4dCI6IkVk
 aXRpbmcifSwiM1hVaWhUcmdOVFhubHJwMyI6eyJzdGFydCI6MT
-I3NjIsImVuZCI6MTI3NzIsInRleHQiOiJTYXZlIEVkaXRzIn19
+I4MDIsImVuZCI6MTI4MTIsInRleHQiOiJTYXZlIEVkaXRzIn19
 LCJjb21tZW50cyI6eyJ3c3BWdlNrSXVtekxtaXVNIjp7ImRpc2
 N1c3Npb25JZCI6IjZSNTliY3NydUxIWEgyQTgiLCJzdWIiOiJn
 aDo0MDMwNDc4OCIsInRleHQiOiJBZGQgY292ZXIgcGljdHVyZS
@@ -315,6 +319,6 @@ aW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nzg2Mjg4NDM1fSwiYlQ4ZT
 Qwb2lXUGRmcXBwOSI6eyJkaXNjdXNzaW9uSWQiOiIzWFVpaFRy
 Z05UWG5scnAzIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ij
 oiQWRkIGltYWdlIiwiY3JlYXRlZCI6MTY4NTc4NjI5NTc1MX19
-LCJoaXN0b3J5IjpbMjEyNDQ2ODI5NiwtMTY0NzU2NzM3MiwtMT
+LCJoaXN0b3J5IjpbMTUyNTM2MzUyMiwtMTY0NzU2NzM3MiwtMT
 Y2Mzc0MDQxMl19
 -->
