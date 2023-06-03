@@ -166,7 +166,10 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	3. Type "< 5" to the right of the field in the text field
 	4. Click *Select features*
 	
-	You  now 
+	Your selection now includes all the areas under 5 square kilometers in this layer.
+	Alternative expressions include:
+-  "Area_km2" = 5, this would select the features the area of which is exactly 5 square meters
+- "
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI2UjU5YmNzcnVMSFhIMkE4Ijp7In
 N0YXJ0Ijo3OCwiZW5kIjo4OSwidGV4dCI6IkNvdmVyIGltYWdl
@@ -337,6 +340,6 @@ B0aGlzPyIsImNyZWF0ZWQiOjE2ODU3ODY2MjgwNzZ9LCJjVVBh
 cFRsOWNIcUNjZFNrIjp7ImRpc2N1c3Npb25JZCI6IlFnanFjSG
 sxV2VidmRRZFUiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQi
 OiJBZGQgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nzg2NjM3NDY4fX
-0sImhpc3RvcnkiOlsxNDI4MzM2ODc0LC00NzcwMDIyMzQsLTE2
+0sImhpc3RvcnkiOlsxODMxNjE5MDYxLC00NzcwMDIyMzQsLTE2
 NDc1NjczNzIsLTE2NjM3NDA0MTJdfQ==
 -->
