@@ -179,7 +179,9 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	2. Type “Join attributes by location” into the search bar. Select the one that has (Summary) after it.
 	3. The parameter window for the algorithm opens and here you have to specify what the algorithm does and with what data
 	4. Set the follow values:
-	-  
+	- *Base layer*: Helsinki_small_areas
+	- *Join layer*: HSL_Helsinki_stops
+	- Geo  
 
  
 <!--stackedit_data:
@@ -361,7 +363,7 @@ IkFYY2JVV3h0NzdHRE95WEYiOnsiZGlzY3Vzc2lvbklkIjoiZX
 ZMV1lvQUdYMHl1dUlYcyIsInN1YiI6ImdoOjQwMzA0Nzg4Iiwi
 dGV4dCI6IkVhcmxpZXIgaW4gY3Jhc2ggY291cnNlLCBhZGQgZX
 hhbXBsZXMgb2YgdG9vbHMgYW5kIGhvdyB0aGV5IHdvcmsiLCJj
-cmVhdGVkIjoxNjg1Nzg3ODk5MDU5fX0sImhpc3RvcnkiOlsxMD
-gxMzk0OTM1LDY4MTE4NDg3NCwtMTgxOTAwMTg3MSwtNDc3MDAy
+cmVhdGVkIjoxNjg1Nzg3ODk5MDU5fX0sImhpc3RvcnkiOlstMj
+c4ODE3OTAyLDY4MTE4NDg3NCwtMTgxOTAwMTg3MSwtNDc3MDAy
 MjM0LC0xNjQ3NTY3MzcyLC0xNjYzNzQwNDEyXX0=
 -->
