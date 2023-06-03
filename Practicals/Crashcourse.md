@@ -204,7 +204,8 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 		4. You can edit the lable placement and appearance, for example add a halo around it by selecting buffer in the lower section
 
 ### 2.2 Creating a map output in QGIS
-
+The last phase of this practical will concentrate on creating a map output.
+- Map 
 
 
 
@@ -406,7 +407,7 @@ YWdlcyIsImNyZWF0ZWQiOjE2ODU3ODg2OTc0MzZ9LCJuNE5MY3
 h6bVMwM090dk5RIjp7ImRpc2N1c3Npb25JZCI6IkljZEZ0Z0pR
 YlBCTUdOakMiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOi
 JBZGQgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nzg5NDM0MjkzfX0s
-Imhpc3RvcnkiOlsxMjE3NDM2NzYyLDY4MTE4NDg3NCwtMTgxOT
-AwMTg3MSwtNDc3MDAyMjM0LC0xNjQ3NTY3MzcyLC0xNjYzNzQw
-NDEyXX0=
+Imhpc3RvcnkiOls3MDMxNzgwMDcsMTIxNzQzNjc2Miw2ODExOD
+Q4NzQsLTE4MTkwMDE4NzEsLTQ3NzAwMjIzNCwtMTY0NzU2NzM3
+MiwtMTY2Mzc0MDQxMl19
 -->
