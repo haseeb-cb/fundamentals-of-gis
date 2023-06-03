@@ -138,7 +138,7 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 
 **Now, using the previous tips and tricks as your support, change the styles of all the layers in the project.**
 
-5. 
+5. Next, we shall move the focus from visualization to the *actual data*. Start by examining what data is included in the project and what information is stored in the layers by right clicking on the layer name and selecting Open Attribute Table.
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI2UjU5YmNzcnVMSFhIMkE4Ijp7In
 N0YXJ0Ijo3OCwiZW5kIjo4OSwidGV4dCI6IkNvdmVyIGltYWdl
@@ -273,6 +273,6 @@ F0dHJpYnV0ZSBkYXRhPyIsImNyZWF0ZWQiOjE2ODU3ODM2MTQw
 Mzd9LCJyeVlGSUVlOXkybEVFeDVKIjp7ImRpc2N1c3Npb25JZC
 I6Ikk4eXhBRGM2M1NrT2dEM3kiLCJzdWIiOiJnaDo0MDMwNDc4
 OCIsInRleHQiOiJBZGQgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nz
-g1MjQ1NzA5fX0sImhpc3RvcnkiOlstMjAwNDI0OTA1OSwtMTY2
+g1MjQ1NzA5fX0sImhpc3RvcnkiOlstMTY0NzU2NzM3MiwtMTY2
 Mzc0MDQxMl19
 -->
