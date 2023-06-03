@@ -198,7 +198,10 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 
 10.  Head to the layer’s *symbology* tab and select **Graduated** from the drop-down menu. **Select the PassArea column as the data source and press Classify**. Choose a suitable classification method and visualize the data as desired. You can edit the class bounds and the legend values manually by double clicking on them. Which areas are the most passenger heavy and which are not? Why?
 11. Now it is time for the finishing touches. To make the map easier to interpret, we are going to **add labels** to it.
-	1.
+		1. Right-click the layer we just visualized and go to *Layer properties* > *Labels*
+		2. Select *Single labels* form the drop-down menu to enable labeling
+		3. Choose the column from the list that contains the area names (name_fi)
+		4. You can edit the lable placement and appearance, for example add a halo around it by selecting buffer in the lower section. If you want to, you can try adding some additional features into the 	
 
  
 <!--stackedit_data:
@@ -398,7 +401,7 @@ YWdlcyIsImNyZWF0ZWQiOjE2ODU3ODg2OTc0MzZ9LCJuNE5MY3
 h6bVMwM090dk5RIjp7ImRpc2N1c3Npb25JZCI6IkljZEZ0Z0pR
 YlBCTUdOakMiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOi
 JBZGQgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nzg5NDM0MjkzfX0s
-Imhpc3RvcnkiOls2NTc5NzAwNjQsNjgxMTg0ODc0LC0xODE5MD
-AxODcxLC00NzcwMDIyMzQsLTE2NDc1NjczNzIsLTE2NjM3NDA0
-MTJdfQ==
+Imhpc3RvcnkiOlstMTcxMTk2MDQyLDY4MTE4NDg3NCwtMTgxOT
+AwMTg3MSwtNDc3MDAyMjM0LC0xNjQ3NTY3MzcyLC0xNjYzNzQw
+NDEyXX0=
 -->
