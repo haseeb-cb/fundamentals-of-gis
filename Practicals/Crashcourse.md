@@ -166,10 +166,12 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	3. Type "< 5" to the right of the field in the text field
 	4. Click *Select features*
 	
-	Your selection now includes all the areas under 5 square kilometers in this layer, with selected objects shown in .
+	Your selection now includes all the areas under 5 square kilometers in this layer, with selected objects shown in **yellow in on the map** and **blue on the attribute table**.
 	Alternative expressions include:
 -  "Area_km2" = 5, select the features the area of which is exactly 5 square meters
 - "Area_km2" > 2 AND "Area_km2" < 5, select the features the area of which is between 2 and 5 square kilometers  
+
+	5. 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI2UjU5YmNzcnVMSFhIMkE4Ijp7In
 N0YXJ0Ijo3OCwiZW5kIjo4OSwidGV4dCI6IkNvdmVyIGltYWdl
@@ -340,6 +342,6 @@ B0aGlzPyIsImNyZWF0ZWQiOjE2ODU3ODY2MjgwNzZ9LCJjVVBh
 cFRsOWNIcUNjZFNrIjp7ImRpc2N1c3Npb25JZCI6IlFnanFjSG
 sxV2VidmRRZFUiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQi
 OiJBZGQgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nzg2NjM3NDY4fX
-0sImhpc3RvcnkiOls3ODk3MDIzMTUsLTQ3NzAwMjIzNCwtMTY0
-NzU2NzM3MiwtMTY2Mzc0MDQxMl19
+0sImhpc3RvcnkiOlstMTM0MzQ4MDIxMiwtNDc3MDAyMjM0LC0x
+NjQ3NTY3MzcyLC0xNjYzNzQwNDEyXX0=
 -->
