@@ -159,7 +159,10 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	6. Click *OK*
 	7. Finally, click the *Save Edits* button and disable *Editing* mode to make the changes permanent
 
-7. **Using the field we just created in the attribute table, explore the small areas of Helsinki**, which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression* . Alternatively you can find tools from the *Processing Toolbox*.
+7. **Using the field we just created in the attribute table, explore the small areas of Helsinki**, which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.
+	
+	1. Open the *Field and Values* drop-down menu
+	2. 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI2UjU5YmNzcnVMSFhIMkE4Ijp7In
 N0YXJ0Ijo3OCwiZW5kIjo4OSwidGV4dCI6IkNvdmVyIGltYWdl
@@ -225,8 +228,8 @@ bGN1bGF0b3IgcGljdHVyZSJ9LCJBY1dUSmttcjlha253MlFWIj
 p7InN0YXJ0IjoxMjgzNCwiZW5kIjoxMjg0MSwidGV4dCI6IkVk
 aXRpbmcifSwiM1hVaWhUcmdOVFhubHJwMyI6eyJzdGFydCI6MT
 I4MDIsImVuZCI6MTI4MTIsInRleHQiOiJTYXZlIEVkaXRzIn0s
-ImV2TFdZb0FHWDB5dXVJWHMiOnsic3RhcnQiOjEzMjg0LCJlbm
-QiOjEzMzAyLCJ0ZXh0IjoiUHJvY2Vzc2luZyBUb29sYm94In0s
+ImV2TFdZb0FHWDB5dXVJWHMiOnsic3RhcnQiOjEzMjgzLCJlbm
+QiOjEzMzAxLCJ0ZXh0IjoiUHJvY2Vzc2luZyBUb29sYm94In0s
 IlFnanFjSGsxV2VidmRRZFUiOnsic3RhcnQiOjEzMjA4LCJlbm
 QiOjEzMjM3LCJ0ZXh0IjoiU2VsZWN0IGZlYXR1cmVzIGJ5IGV4
 cHJlc3Npb24ifX0sImNvbW1lbnRzIjp7IndzcFZ2U2tJdW16TG
@@ -330,6 +333,6 @@ B0aGlzPyIsImNyZWF0ZWQiOjE2ODU3ODY2MjgwNzZ9LCJjVVBh
 cFRsOWNIcUNjZFNrIjp7ImRpc2N1c3Npb25JZCI6IlFnanFjSG
 sxV2VidmRRZFUiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQi
 OiJBZGQgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nzg2NjM3NDY4fX
-0sImhpc3RvcnkiOlstNDc3MDAyMjM0LC0xNjQ3NTY3MzcyLC0x
-NjYzNzQwNDEyXX0=
+0sImhpc3RvcnkiOlstMjEzMTY3ODg0MCwtNDc3MDAyMjM0LC0x
+NjQ3NTY3MzcyLC0xNjYzNzQwNDEyXX0=
 -->
