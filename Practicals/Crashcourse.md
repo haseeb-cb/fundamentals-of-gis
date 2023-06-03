@@ -181,7 +181,10 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	4. Set the follow values:
 	- *Base layer*: Helsinki_small_areas
 	- *Join layer*: HSL_Helsinki_stops
-	- Geo  
+	- *Geometric predicate*: contains (What do you think the other options mean?)
+	-  *Field to summarise*: Boardings
+	- *Summaries to calculate*: *Sum*
+	- 
 
  
 <!--stackedit_data:
@@ -363,7 +366,7 @@ IkFYY2JVV3h0NzdHRE95WEYiOnsiZGlzY3Vzc2lvbklkIjoiZX
 ZMV1lvQUdYMHl1dUlYcyIsInN1YiI6ImdoOjQwMzA0Nzg4Iiwi
 dGV4dCI6IkVhcmxpZXIgaW4gY3Jhc2ggY291cnNlLCBhZGQgZX
 hhbXBsZXMgb2YgdG9vbHMgYW5kIGhvdyB0aGV5IHdvcmsiLCJj
-cmVhdGVkIjoxNjg1Nzg3ODk5MDU5fX0sImhpc3RvcnkiOlstMj
-c4ODE3OTAyLDY4MTE4NDg3NCwtMTgxOTAwMTg3MSwtNDc3MDAy
+cmVhdGVkIjoxNjg1Nzg3ODk5MDU5fX0sImhpc3RvcnkiOlstOT
+Q3MzMyNTA5LDY4MTE4NDg3NCwtMTgxOTAwMTg3MSwtNDc3MDAy
 MjM0LC0xNjQ3NTY3MzcyLC0xNjYzNzQwNDEyXX0=
 -->
