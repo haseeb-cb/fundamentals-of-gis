@@ -232,7 +232,9 @@ If you want to modify the look of the arrow, go to Item properties and open the 
 
 (Hungry for more? furhter reading on the print composer in the QGIS manual: https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/index.html
 
-#
+# Congratulations! You are now done with the first part of this Crash Course. How are you liking (Q)GIS so far?
+
+## 3. Optional exercise
  
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI2UjU5YmNzcnVMSFhIMkE4Ijp7In
@@ -463,7 +465,7 @@ OCIsInRleHQiOiJBZGQgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nz
 kwNTg3MDkwfSwiaURFa0drRGRxdjRORzBtWiI6eyJkaXNjdXNz
 aW9uSWQiOiJKeENBVGNid20yUDAyNDgwIiwic3ViIjoiZ2g6ND
 AzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGltYWdlcyIsImNyZWF0ZWQi
-OjE2ODU3OTA4NTQ1Nzh9fSwiaGlzdG9yeSI6WzIwMTMxNDEzMj
-YsMTIxNzQzNjc2Miw2ODExODQ4NzQsLTE4MTkwMDE4NzEsLTQ3
+OjE2ODU3OTA4NTQ1Nzh9fSwiaGlzdG9yeSI6WzEyNDU0NTcyOT
+ksMTIxNzQzNjc2Miw2ODExODQ4NzQsLTE4MTkwMDE4NzEsLTQ3
 NzAwMjIzNCwtMTY0NzU2NzM3MiwtMTY2Mzc0MDQxMl19
 -->
