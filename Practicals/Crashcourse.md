@@ -131,7 +131,10 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	1. Open the HSL_Helsinki_stops layer symbology
 	2. Choose *Graduated* from the dropdown menu
 	3. Choose "Boardings)" as the value from which the data is gathered
-	4. Set the *Mode* to *Natural breaks (Jenks)* 
+	4. Set the *Mode* to *Natural breaks (Jenks)* and press *Classify*
+	5. Select a fitting *Color ramp* from the drop-down menu
+	6. Press *Applyy* and *OK*
+	7.  
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI2UjU5YmNzcnVMSFhIMkE4Ijp7In
@@ -262,5 +265,5 @@ OjE2ODU3ODM2MDUwMjF9LCJtMEdESkZaQXhCakxxc1VFIjp7Im
 Rpc2N1c3Npb25JZCI6IkZYZlFGZkY5RlpPTnBZRmEiLCJzdWIi
 OiJnaDo0MDMwNDc4OCIsInRleHQiOiJXaGF0IGlzIGF0dHJpYn
 V0ZSBkYXRhPyIsImNyZWF0ZWQiOjE2ODU3ODM2MTQwMzd9fSwi
-aGlzdG9yeSI6Wy0xOTg4NzM5NjgyLC0xNjYzNzQwNDEyXX0=
+aGlzdG9yeSI6Wy0zOTIyNTQ5NzQsLTE2NjM3NDA0MTJdfQ==
 -->
