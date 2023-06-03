@@ -116,20 +116,20 @@ The **measure** tool can be used to make simple distance and area calculations o
 
 Managing the **layers** is key in GIS. Right now, the added layers are arbitrarily symbolized and ordered, and do not come out very useful or informative. Thus, we need to get our hands dirty.
 
-1.  Start by **changing the order of the layers** by dragging them in the layers panel on the left side of the map view. A good order, for example, can be as follows from top to bottom: HSL_Helsinki_stops, Helsinki_buildings, Waterbodies, Helsinki_small_areas and Helsinki_Municipality.
+ -  Start by **changing the order of the layers** by dragging them in the layers panel on the left side of the map view. A good order, for example, can be as follows from top to bottom: HSL_Helsinki_stops, Helsinki_buildings, Waterbodies, Helsinki_small_areas and Helsinki_Municipality.
 
-2.  You can also **change the visibility of the layers** by checking or unchecking the tick boxes next to the layer name or by adjusting **transparency**. The latter can be done under the *Style* tab in the *Layer properties* window, which can be accessed by right-clicking on the layer name and selecting *Properties*. This is also where you can change other style properties such as **symbol size and color**, **layer rendering** or create e.g. **choropleth maps**, but we will look into these in more detail later on.
+ -  You can also **change the visibility of the layers** by checking or unchecking the tick boxes next to the layer name or by adjusting **transparency**. The latter can be done under the *Style* tab in the *Layer properties* window, which can be accessed by right-clicking on the layer name and selecting *Properties*. This is also where you can change other style properties such as **symbol size and color**, **layer rendering** or create e.g. **choropleth maps**, but we will look into these in more detail later on.
 
     In addition to editing a layer’s style properties, the Layer properties window can also be used for e.g. examining the **layer’s general information** such as its coordinate system and source, adding **labels** to the map as well as managing **joins** and layer **metadata**.
 
-3.  Next, we want to **change the styles and the symbology of the layers**. You can navigate back to the *Symbology* tab in the *Layer Properties* window. The window looks slightly different depending on whether we have a raster or vector file, and what feature type is in question. You can see this for instance by comparing the style tabs of the HSL Stops (point feature) and Waterbodies (polygon feature) layers.
+ -  Next, we want to **change the styles and the symbology of the layers**. You can navigate back to the *Symbology* tab in the *Layer Properties* window. The window looks slightly different depending on whether we have a raster or vector file, and what feature type is in question. You can see this for instance by comparing the style tabs of the HSL Stops (point feature) and Waterbodies (polygon feature) layers.
     
     1.  Open the *symbology* properties for the Waterbodies layer
     2.  Apart from the color fill and a few ready-made styles, the main view does not offer very sophisticated visualizing options, so it is suggested to click on the *Simple fill*
     3.  Press the *Fill color* button and change the color of the layer to blue
     4.  If you want a transparent fill, press on the arrow on the right of the *Fill* button and select Transparent fill
     5.  One you are satisfied with the layer styles, press *Apply* and *OK*
-4.  It is also possible to **visualize the layers based on the information stored in the attribute table**. This can be done by selecting Categorized or Graduated instead of Single Symbol from the dropdown menu on the top of the page.	
+ -  It is also possible to **visualize the layers based on the information stored in the attribute table**. This can be done by selecting Categorized or Graduated instead of Single Symbol from the dropdown menu on the top of the page.	
 	
 	1. Open the HSL_Helsinki_stops layer symbology
 	2. Choose *Graduated* from the dropdown menu
@@ -137,18 +137,18 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	4. Set the *Mode* to *Natural breaks (Jenks)* and press *Classify*
 	5. Select a fitting *Color ramp* from the drop-down menu
 	6. Press *Apply* and *OK*
-- Symbology example picture
+ - Symbology example picture
 
 **Now, using the previous tips and tricks as your support, change the styles of all the layers in the project.**
 
-5. Next, we shall move the focus from visualization to the **actual data**. Start by examining what data is included in the project and what information is stored in the layers by right clicking on the layer name and selecting *Open Attribute Table*.
+ - Next, we shall move the focus from visualization to the **actual data**. Start by examining what data is included in the project and what information is stored in the layers by right clicking on the layer name and selecting *Open Attribute Table*.
 	
 	1. Open the *attribute table* of the layer called Helsinki_small_areas. Take a moment to examine the table, what can you see?
 	 
 		As you can see, the file consists of a list of the small-sized areas within the city of Helsinki with their corresponding codes and creation dates but little else. Next, we are going to calculate the area for each small area of Helsinki.   
 	2.  In the *attribute table*, toggle *Editing mode* and then click on the *Field Calculator* button
-- Field calculator picture
-6. Now we’ll **write an expression that calculates the area of each small area of Helsinki in square kilometers**. On the right side of the Expression window is a list of drop-down menus.
+ - Field calculator picture
+ - Now we’ll **write an expression that calculates the area of each small area of Helsinki in square kilometers**. On the right side of the Expression window is a list of drop-down menus.
 	
 	
 	1. Open the *Geometry* drop-down menu
@@ -159,7 +159,7 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	6. Click *OK*
 	7. Finally, click the *Save Edits* button and disable *Editing* mode to make the changes permanent
 
-7. **Using the field we just created in the attribute table, explore the small areas of Helsinki**, which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.
+ - **Using the field we just created in the attribute table, explore the small areas of Helsinki**, which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.
 	
 	1. Open the *Field and Values* drop-down menu, which will show all the attribute fields
 	2. Double-click on the area field you made earlier (Area_km2)
@@ -168,16 +168,20 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	
 	Your selection now includes all the areas under 5 square kilometers in this layer, with selected objects shown in **yellow in on the map** and **blue on the attribute table**.
 	Alternative expressions include:
--  "Area_km2" = 5, select the features the area of which is exactly 5 square meters
-- "Area_km2" > 2 AND "Area_km2" < 5, select the features the area of which is between 2 and 5 square kilometers  
+ -  "Area_km2" = 5, select the features the area of which is exactly 5 square meters
+ - "Area_km2" > 2 AND "Area_km2" < 5, select the features the area of which is between 2 and 5 square kilometers  
 
 	5. Close the *Select by expression* window and deselect all the features by clicking *Deselect all* 
 
-8. **Next, we’re going to create and calculate another field into the Helsinki_small_areas attribute table using the HSL_Helsinki_stops point data.** First open the *attribute table* of HSL_Helsinki_stops to familiarize yourself with its contents. The Boardings column depicts the amount of boardings on stops in Helsinki on average per day. We will calculate and visualize the public transit passenger numbers per area for every Helsinki small area.
+ - **Next, we’re going to create and calculate another field into the Helsinki_small_areas attribute table using the HSL_Helsinki_stops point data.** First open the *attribute table* of HSL_Helsinki_stops to familiarize yourself with its contents. The Boardings column depicts the amount of boardings on stops in Helsinki on average per day. We will calculate and visualize the public transit passenger numbers per area for every Helsinki small area.
 	
 	1. Check if the *Processing Toolbox* is active in the top right of the main QGIS window, if not open it by selecting *Processing* > *Toolbox* from the top of the window
 	2. Type “Join attributes by location” into the search bar. Select the one that has (Summary) after it.
-	3. 
+	3. The parameter window for the algorithm opens and here you have to specify what the algorithm does and with what data
+	4. Set the follow values:
+	-  
+
+ 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI2UjU5YmNzcnVMSFhIMkE4Ijp7In
 N0YXJ0Ijo3OCwiZW5kIjo4OSwidGV4dCI6IkNvdmVyIGltYWdl
@@ -232,23 +236,23 @@ QiOiJsYXllcnMgcGFuZWwifSwiaGxoa2RDRW0zNGwzVnJUVyI6
 eyJzdGFydCI6Nzc3NSwiZW5kIjo3NzgxLCJ0ZXh0Ijoib2JqZW
 N0In0sIkZYZlFGZkY5RlpPTnBZRmEiOnsic3RhcnQiOjc4MTYs
 ImVuZCI6NzgyNSwidGV4dCI6ImF0dHJpYnV0ZSJ9LCJJOHl4QU
-RjNjNTa09nRDN5Ijp7InN0YXJ0IjoxMTA4MywiZW5kIjoxMTEw
-NywidGV4dCI6IlN5bWJvbG9neSBleGFtcGxlIHBpY3R1ciJ9LC
-I5WUpOdThvOHVvdWJZQ2doIjp7InN0YXJ0IjoxMTg4OSwiZW5k
-IjoxMTg5NiwidGV4dCI6IkVkaXRpbmcifSwiTnhKZEZXQ0JsVX
-MyNHNjTCI6eyJzdGFydCI6MTE5MjYsImVuZCI6MTE5MzEsInRl
+RjNjNTa09nRDN5Ijp7InN0YXJ0IjoxMTA4NCwiZW5kIjoxMTEw
+OCwidGV4dCI6IlN5bWJvbG9neSBleGFtcGxlIHBpY3R1ciJ9LC
+I5WUpOdThvOHVvdWJZQ2doIjp7InN0YXJ0IjoxMTg5MCwiZW5k
+IjoxMTg5NywidGV4dCI6IkVkaXRpbmcifSwiTnhKZEZXQ0JsVX
+MyNHNjTCI6eyJzdGFydCI6MTE5MjcsImVuZCI6MTE5MzIsInRl
 eHQiOiJGaWVsZCJ9LCJzUUVwbkYzNjdzZWF2THNjIjp7InN0YX
-J0IjoxMTk1MywiZW5kIjoxMTk3NywidGV4dCI6IkZpZWxkIGNh
+J0IjoxMTk1NSwiZW5kIjoxMTk3OSwidGV4dCI6IkZpZWxkIGNh
 bGN1bGF0b3IgcGljdHVyZSJ9LCJBY1dUSmttcjlha253MlFWIj
-p7InN0YXJ0IjoxMjgzNCwiZW5kIjoxMjg0MSwidGV4dCI6IkVk
+p7InN0YXJ0IjoxMjgzNiwiZW5kIjoxMjg0MywidGV4dCI6IkVk
 aXRpbmcifSwiM1hVaWhUcmdOVFhubHJwMyI6eyJzdGFydCI6MT
-I4MDIsImVuZCI6MTI4MTIsInRleHQiOiJTYXZlIEVkaXRzIn0s
-ImV2TFdZb0FHWDB5dXVJWHMiOnsic3RhcnQiOjEzMjgzLCJlbm
-QiOjEzMzAxLCJ0ZXh0IjoiUHJvY2Vzc2luZyBUb29sYm94In0s
-IlFnanFjSGsxV2VidmRRZFUiOnsic3RhcnQiOjEzMjA4LCJlbm
-QiOjEzMjM3LCJ0ZXh0IjoiU2VsZWN0IGZlYXR1cmVzIGJ5IGV4
+I4MDQsImVuZCI6MTI4MTQsInRleHQiOiJTYXZlIEVkaXRzIn0s
+ImV2TFdZb0FHWDB5dXVJWHMiOnsic3RhcnQiOjEzMjg1LCJlbm
+QiOjEzMzAzLCJ0ZXh0IjoiUHJvY2Vzc2luZyBUb29sYm94In0s
+IlFnanFjSGsxV2VidmRRZFUiOnsic3RhcnQiOjEzMjEwLCJlbm
+QiOjEzMjM5LCJ0ZXh0IjoiU2VsZWN0IGZlYXR1cmVzIGJ5IGV4
 cHJlc3Npb24ifSwiSFRCajVOQWlqamlQSG5kdiI6eyJzdGFydC
-I6MTQwNDQsImVuZCI6MTQwNTYsInRleHQiOiJEZXNlbGVjdCBh
+I6MTQwNDgsImVuZCI6MTQwNjAsInRleHQiOiJEZXNlbGVjdCBh
 bGwifX0sImNvbW1lbnRzIjp7IndzcFZ2U2tJdW16TG1pdU0iOn
 siZGlzY3Vzc2lvbklkIjoiNlI1OWJjc3J1TEhYSDJBOCIsInN1
 YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBjb3ZlciBwaW
@@ -352,8 +356,12 @@ RRZFUiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQg
 aW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nzg2NjM3NDY4fSwiSEJDdF
 F1dnZPVjh1Ukg2WSI6eyJkaXNjdXNzaW9uSWQiOiJIVEJqNU5B
 aWpqaVBIbmR2Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ij
-oiQWRkIGltYWdlIiwiY3JlYXRlZCI6MTY4NTc4NzI0MzQ2MH19
-LCJoaXN0b3J5IjpbLTc1NzMxOTA0MSw2ODExODQ4NzQsLTE4MT
-kwMDE4NzEsLTQ3NzAwMjIzNCwtMTY0NzU2NzM3MiwtMTY2Mzc0
-MDQxMl19
+oiQWRkIGltYWdlIiwiY3JlYXRlZCI6MTY4NTc4NzI0MzQ2MH0s
+IkFYY2JVV3h0NzdHRE95WEYiOnsiZGlzY3Vzc2lvbklkIjoiZX
+ZMV1lvQUdYMHl1dUlYcyIsInN1YiI6ImdoOjQwMzA0Nzg4Iiwi
+dGV4dCI6IkVhcmxpZXIgaW4gY3Jhc2ggY291cnNlLCBhZGQgZX
+hhbXBsZXMgb2YgdG9vbHMgYW5kIGhvdyB0aGV5IHdvcmsiLCJj
+cmVhdGVkIjoxNjg1Nzg3ODk5MDU5fX0sImhpc3RvcnkiOlsxMD
+gxMzk0OTM1LDY4MTE4NDg3NCwtMTgxOTAwMTg3MSwtNDc3MDAy
+MjM0LC0xNjQ3NTY3MzcyLC0xNjYzNzQwNDEyXX0=
 -->
