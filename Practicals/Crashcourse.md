@@ -218,6 +218,14 @@ The last phase of this practical will concentrate on creating a map output.
 	NB! Remember, that **if you make changes in your working view, you need to press *Update preview / Refresh view*** in order to see the changes in the print composer view!
 
 3. A proper map should always have at least these three elements: a **north arrow**, a **scale bar** and a **legend**. All of these can be found in QGIS under the Layout-tab or the left hand-side toolbar in the Print layout. Add the mentioned elements to your map and visualize them as desired.
+		
+	1. **Adding a label**: You can change the default text as well as the font and colors of the label from the Item properties window in the lower right corner.
+	2. **Adding a scale bar**: Click where you want to add it and customize it as desired. The size and the colors can be modified from the right-side Item properties panel.
+	3. **Adding a legend**: You probably have to modify the legend a bit so that it looks informative on the map. The modification can be done from the Item properties. For example, delete the unnecessary items from your legend by clicking the minus symbol (tick the Auto update box off first).
+	4. Adding a North arrow or an image. To do this, press Add North Arrow and click on the layout. If you want to modify the look of the arrow, go to Item properties and open the Search directories tab (see the picture on the right). Click on the desired arrow.
+	5. Adding a legend. You probably have to modify the legend a bit so that it looks informative on the map. The modification can be done from the Item properties. For example, delete the unnecessary items from your legend by clicking the minus symbol (tick the Auto update box off first).
+	6. Adding a North arrow or an image. To do this, press Add North Arrow and click on the layout.
+If you want to modify the look of the arrow, go to Item properties and open the Search directories tab (see the picture on the right). Click on the desired arrow.
 
 
 
@@ -444,8 +452,8 @@ AzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGltYWdlIiwiY3JlYXRlZCI6
 MTY4NTc5MDU2NTY1OX0sInFkRkV2bmJlRjVjVVI1QW8iOnsiZG
 lzY3Vzc2lvbklkIjoiWXlaVGFkUnBwS3JlMTJQVCIsInN1YiI6
 ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBpbWFnZSIsImNyZW
-F0ZWQiOjE2ODU3OTA1ODcwOTB9fSwiaGlzdG9yeSI6WzEyNzc0
-NzU4NTUsMTIxNzQzNjc2Miw2ODExODQ4NzQsLTE4MTkwMDE4Nz
-EsLTQ3NzAwMjIzNCwtMTY0NzU2NzM3MiwtMTY2Mzc0MDQxMl19
+F0ZWQiOjE2ODU3OTA1ODcwOTB9fSwiaGlzdG9yeSI6WzI4MDgw
+Mjk4NCwxMjE3NDM2NzYyLDY4MTE4NDg3NCwtMTgxOTAwMTg3MS
+wtNDc3MDAyMjM0LC0xNjQ3NTY3MzcyLC0xNjYzNzQwNDEyXX0=
 
 -->
