@@ -94,6 +94,7 @@ In order to get a proper touch of QGIS and how the different tools work, we will
 2.  Select *Vector* from the menu
 3.  Press the “…” button next to the *Vector Dataset(s)* field
 4.  Navigate to the folder where you saved the data for this practical and select the following files from the folder (Click + Ctrl to select multiple items):
+    
     1.  Helsinki_small_areas.shp
     2.  Helsinki_Municipality.shp
     3.  Helsinki_buildings.shp
@@ -122,12 +123,14 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
     In addition to editing a layer’s style properties, the Layer properties window can also be used for e.g. examining the **layer’s general information** such as its coordinate system and source, adding **labels** to the map as well as managing **joins** and layer **metadata**.
 
 3.  Next, we want to **change the styles and the symbology of the layers**. You can navigate back to the *Symbology* tab in the *Layer Properties* window. The window looks slightly different depending on whether we have a raster or vector file, and what feature type is in question. You can see this for instance by comparing the style tabs of the HSL Stops (point feature) and Waterbodies (polygon feature) layers.
+    
     1.  Open the *symbology* properties for the Waterbodies layer
     2.  Apart from the color fill and a few ready-made styles, the main view does not offer very sophisticated visualizing options, so it is suggested to click on the *Simple fill*
     3.  Press the *Fill color* button and change the color of the layer to blue
     4.  If you want a transparent fill, press on the arrow on the right of the *Fill* button and select Transparent fill
     5.  One you are satisfied with the layer styles, press *Apply* and *OK*
 4.  It is also possible to **visualize the layers based on the information stored in the attribute table**. This can be done by selecting Categorized or Graduated instead of Single Symbol from the dropdown menu on the top of the page.	
+	
 	1. Open the HSL_Helsinki_stops layer symbology
 	2. Choose *Graduated* from the dropdown menu
 	3. Choose "Boardings)" as the value from which the data is gathered
@@ -146,9 +149,11 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	2.  In the *attribute table*, toggle *Editing mode* and then click on the *Field Calculator* button
 - Field calculator picture
 6. Now we’ll **write an expression that calculates the area of each small area of Helsinki in square kilometers**. On the right side of the Expression window is a list of drop-down menus.
+	
 	1. Open the *Geometry* drop-down menu
 	2. Double-click the *\$area* expression (you can also type *\$area* in the blank *Expression window*)
-	3.  Just the *\$area* expression would calculate the area in square meters, but we want square kilometers. So we will divide it by 1 000 000. Click or type the division symbol (/), and type 
+	3.  Just the *\$area* expression would calculate the area in square meters, but we want square kilometers. So we will divide it by 1 000 000. Click or type the division symbol (/), and type 1000000 after the division and click OK
+	4. Click the *Save Edits* button and disable *Editing
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI2UjU5YmNzcnVMSFhIMkE4Ijp7In
 N0YXJ0Ijo3OCwiZW5kIjo4OSwidGV4dCI6IkNvdmVyIGltYWdl
@@ -191,25 +196,25 @@ JlZSBwYW5lbHMgKEJyb3dzZXIsIExheWVyIFN0eWxlIGFuZCBM
 YXllcnMpIG9u4oCmIn0sImp0WG1Sd3FkWXlDZzg2ZmEiOnsic3
 RhcnQiOjU1NDYsImVuZCI6NTU2OSwidGV4dCI6IkV4YW1wbGUg
 aW1hZ2Ugb2YgcGx1Z2luIn0sInppb1NkVWQ4cGNLRkVDblIiOn
-sic3RhcnQiOjY3MjgsImVuZCI6NzAzNSwidGV4dCI6IlRoZXNl
+sic3RhcnQiOjY3MzMsImVuZCI6NzA0MCwidGV4dCI6IlRoZXNl
 IGRhdGEgc2V0cyBhcmUgYWxsIGRvd25sb2FkZWQgZnJvbSBQYU
 lUdWxpIGFuZCBIZWxzaW5raSBSZWdpb24gSW5mb3NoYXJlIGTi
-gKYifSwiTXc5QWd4cGdlTzdnMVBvUCI6eyJzdGFydCI6NzY5Ny
-wiZW5kIjo3NzE0LCJ0ZXh0IjoiSWRlbnRpZnkgRmVhdHVyZXMi
-fSwiNTh4TGt3ZTBwclA4MTVWVCI6eyJzdGFydCI6ODAxOSwiZW
-5kIjo4MDI2LCJ0ZXh0IjoibWVhc3VyZSJ9LCJhYkRBMEVIazdP
-MjQzWDdkIjp7InN0YXJ0Ijo4NTYwLCJlbmQiOjg1NzIsInRleH
+gKYifSwiTXc5QWd4cGdlTzdnMVBvUCI6eyJzdGFydCI6NzcwMi
+wiZW5kIjo3NzE5LCJ0ZXh0IjoiSWRlbnRpZnkgRmVhdHVyZXMi
+fSwiNTh4TGt3ZTBwclA4MTVWVCI6eyJzdGFydCI6ODAyNCwiZW
+5kIjo4MDMxLCJ0ZXh0IjoibWVhc3VyZSJ9LCJhYkRBMEVIazdP
+MjQzWDdkIjp7InN0YXJ0Ijo4NTY1LCJlbmQiOjg1NzcsInRleH
 QiOiJsYXllcnMgcGFuZWwifSwiaGxoa2RDRW0zNGwzVnJUVyI6
-eyJzdGFydCI6Nzc3MCwiZW5kIjo3Nzc2LCJ0ZXh0Ijoib2JqZW
-N0In0sIkZYZlFGZkY5RlpPTnBZRmEiOnsic3RhcnQiOjc4MTEs
-ImVuZCI6NzgyMCwidGV4dCI6ImF0dHJpYnV0ZSJ9LCJJOHl4QU
-RjNjNTa09nRDN5Ijp7InN0YXJ0IjoxMTA3MSwiZW5kIjoxMTA5
-NSwidGV4dCI6IlN5bWJvbG9neSBleGFtcGxlIHBpY3R1ciJ9LC
-I5WUpOdThvOHVvdWJZQ2doIjp7InN0YXJ0IjoxMTg3NywiZW5k
-IjoxMTg4NCwidGV4dCI6IkVkaXRpbmcifSwiTnhKZEZXQ0JsVX
-MyNHNjTCI6eyJzdGFydCI6MTE5MTQsImVuZCI6MTE5MTksInRl
+eyJzdGFydCI6Nzc3NSwiZW5kIjo3NzgxLCJ0ZXh0Ijoib2JqZW
+N0In0sIkZYZlFGZkY5RlpPTnBZRmEiOnsic3RhcnQiOjc4MTYs
+ImVuZCI6NzgyNSwidGV4dCI6ImF0dHJpYnV0ZSJ9LCJJOHl4QU
+RjNjNTa09nRDN5Ijp7InN0YXJ0IjoxMTA4MywiZW5kIjoxMTEw
+NywidGV4dCI6IlN5bWJvbG9neSBleGFtcGxlIHBpY3R1ciJ9LC
+I5WUpOdThvOHVvdWJZQ2doIjp7InN0YXJ0IjoxMTg4OSwiZW5k
+IjoxMTg5NiwidGV4dCI6IkVkaXRpbmcifSwiTnhKZEZXQ0JsVX
+MyNHNjTCI6eyJzdGFydCI6MTE5MjYsImVuZCI6MTE5MzEsInRl
 eHQiOiJGaWVsZCJ9LCJzUUVwbkYzNjdzZWF2THNjIjp7InN0YX
-J0IjoxMTk0MSwiZW5kIjoxMTk2NSwidGV4dCI6IkZpZWxkIGNh
+J0IjoxMTk1MywiZW5kIjoxMTk3NywidGV4dCI6IkZpZWxkIGNh
 bGN1bGF0b3IgcGljdHVyZSJ9fSwiY29tbWVudHMiOnsid3NwVn
 ZTa0l1bXpMbWl1TSI6eyJkaXNjdXNzaW9uSWQiOiI2UjU5YmNz
 cnVMSFhIMkE4Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ij
@@ -298,6 +303,6 @@ dCI6IkFkZCBpbWFnZSIsImNyZWF0ZWQiOjE2ODU3ODU3NzM5OT
 Z9LCJFNkxEODgySGpnRzM5aHJFIjp7ImRpc2N1c3Npb25JZCI6
 InNRRXBuRjM2N3NlYXZMc2MiLCJzdWIiOiJnaDo0MDMwNDc4OC
 IsInRleHQiOiJBZGQgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nzg1
-ODQyOTcxfX0sImhpc3RvcnkiOls3NDE4NjIxNDAsLTE2NDc1Nj
+ODQyOTcxfX0sImhpc3RvcnkiOlstNjMyNjE3NjEsLTE2NDc1Nj
 czNzIsLTE2NjM3NDA0MTJdfQ==
 -->
