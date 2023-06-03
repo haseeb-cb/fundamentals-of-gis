@@ -189,12 +189,14 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 	8. Save the joined layer as ESRI Shapefile, with a sensible name (for example "Helsinki_small_areas_HSL.shp"), and within the folder for your project you made earlier
 	9. Delete the temporary Joined Layer from the Layers window
 
-9.   **Now we’ll calculate yet another field** using the field calculator by dividing the number of passengers by the square kilometer area of the Helsinki small areas.
-		1.  Calculate this field using the Field calculator (don’t forget to toggle editing mode): output field name should be informative e.g. “PassArea”, set Output field type to decimal
-		2. Set output field length to 10 and precision to 2
+9.   **Now we’ll calculate yet another field** using the *field calculator* by dividing the number of passengers by the square kilometer area of the Helsinki small areas.
+		1.  Calculate this field using the *Field calculator* (don’t forget to toggle editing mode): output field name should be informative e.g. “PassArea”, set Output field type to decimal
+		2. Set output *field length* to 10 and *precision* to 2
 		3. Then you must enter the calculation into the Expression field, you can either use the drop-down menus (Fields and values) or simply type it in. The calculation should be similar to this (change if your fields are named differently): "Boardings_" / "Area_km2"
-		4. Click OK. Remember to Save edits and Disable editing mode.
-- Picture of current 
+		4. Click OK. Remember to *Save edits* and *Disable editing mode.
+- Picture of current attribute table with new fields
+
+10.  Head to the layer’s symbology* tab and select Graduated from the dropdown menu. Select the PassArea column as the data source and press Classify. Choose a suitable classification method and visualize the data as desired. You can edit the class bounds and the legend values manually by double clicking on them. Which areas are the most passenger heavy and which are not? Why?
 
  
 <!--stackedit_data:
@@ -388,7 +390,7 @@ aW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nzg4NjU3NDUyfSwidU5qS3
 MydXdSVWE2QWdLTiI6eyJkaXNjdXNzaW9uSWQiOiJjVTdRWFRV
 QmtaaW82Z3pNIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ij
 oiQWRkIGltYWdlcyIsImNyZWF0ZWQiOjE2ODU3ODg2OTc0MzZ9
-fSwiaGlzdG9yeSI6WzE1NTU1NTA2MDksNjgxMTg0ODc0LC0xOD
-E5MDAxODcxLC00NzcwMDIyMzQsLTE2NDc1NjczNzIsLTE2NjM3
-NDA0MTJdfQ==
+fSwiaGlzdG9yeSI6WzUzNDEwNjY1MSw2ODExODQ4NzQsLTE4MT
+kwMDE4NzEsLTQ3NzAwMjIzNCwtMTY0NzU2NzM3MiwtMTY2Mzc0
+MDQxMl19
 -->
