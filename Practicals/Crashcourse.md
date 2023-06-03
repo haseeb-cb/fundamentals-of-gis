@@ -148,7 +148,7 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 6. Now we’ll **write an expression that calculates the area of each small area of Helsinki in square kilometers**. On the right side of the Expression window is a list of drop-down menus.
 	1. Open the *Geometry* drop-down menu
 	2. Double-click the *\$area* expression (you can also type *\$area* in the blank *Expression window*)
-	3.  If you would only use the *\$area* expression,m 
+	3.  Just the *\$area* expression would calculate the area in square meters, but we want square kilometers. So we will divide it by 1 000 000. Click or type the division symbol (/), and type 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI2UjU5YmNzcnVMSFhIMkE4Ijp7In
 N0YXJ0Ijo3OCwiZW5kIjo4OSwidGV4dCI6IkNvdmVyIGltYWdl
@@ -298,6 +298,6 @@ dCI6IkFkZCBpbWFnZSIsImNyZWF0ZWQiOjE2ODU3ODU3NzM5OT
 Z9LCJFNkxEODgySGpnRzM5aHJFIjp7ImRpc2N1c3Npb25JZCI6
 InNRRXBuRjM2N3NlYXZMc2MiLCJzdWIiOiJnaDo0MDMwNDc4OC
 IsInRleHQiOiJBZGQgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nzg1
-ODQyOTcxfX0sImhpc3RvcnkiOlstNTY5NjE0OTEsLTE2NDc1Nj
+ODQyOTcxfX0sImhpc3RvcnkiOls3NDE4NjIxNDAsLTE2NDc1Nj
 czNzIsLTE2NjM3NDA0MTJdfQ==
 -->
