@@ -207,15 +207,19 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 The last phase of this practical will concentrate on creating a map output.
 - Layout manager picture
 
-In QGIS, the map layout is done in a separate window called a **Print layout**. Press on the *New Print layout* button in the *File toolbar* or go to *Project* > *New print layout*. Give a name for the composer in the opening window, and an empty map window should appear on the screen.
+1. In QGIS, the map layout is done in a separate window called a **Print layout**. Press on the *New Print layout* button in the *File toolbar* or go to *Project* > *New print layout*. Give a name for the composer in the opening window, and an empty map window should appear on the screen.
 
-The next step is to add the content to the screen. Press the **Add new map button** in the left side panel and drag from the corners to match the paper orientation. Now, you should see the same view as in the working view. If you want, you can change the paper orientation in the right-side *Composition panel* under the section *Paper and quality*.
+2. The next step is to add the content to the screen. Press the **Add new map button** in the left side panel and drag from the corners to match the paper orientation. Now, you should see the same view as in the working view. If you want, you can change the paper orientation in the right-side *Composition panel* under the section *Paper and quality*.
 
-You can orientate in two ways in the composer: 
+	You can orientate in two ways in the composer: 
 - To move the window, select *Move item* or press the keyboard shortcut **V** and drag as desired 
 - To move the content on the map, select *Move item content* or press the keyboard shortcut C and drag as desired 
 
-NB! Remember, that if you make changes in your working view, you need to press Update preview / Refresh view in order to see the changes in the print composer view!
+	NB! Remember, that **if you make changes in your working view, you need to press *Update preview / Refresh view*** in order to see the changes in the print composer view!
+
+3. A proper map should always have at least these three elements: a **north arrow**, a **scale bar** and a **legend**. All of these can be found in QGIS under the Layout-tab or the left hand-side toolbar in the Print layout. Add the mentioned elements to your map and visualize them as desired.
+
+
 
  
 <!--stackedit_data:
@@ -300,13 +304,13 @@ JlbnQgYXR0cmlidXRlIHRhYmxlIHdpdGggbmV3IGZpZWxkcyJ9
 LCJQUVhKa1N0WTJnc3V2ejVEIjp7InN0YXJ0IjoxNzg2NSwiZW
 5kIjoxNzg4OSwidGV4dCI6Ii0gTGF5b3V0IG1hbmFnZXIgcGlj
 dHVyZSJ9LCJMRUdUbE01UTNXaHRnYVBYIjp7InN0YXJ0IjoxNz
-k4NSwiZW5kIjoxODAwMSwidGV4dCI6Ik5ldyBQcmludCBsYXlv
+k4OCwiZW5kIjoxODAwNCwidGV4dCI6Ik5ldyBQcmludCBsYXlv
 dXQifSwiT3Y3ZFNhd3Q3aUxoQWZFciI6eyJzdGFydCI6MTgyND
-IsImVuZCI6MTgyNjAsInRleHQiOiJBZGQgbmV3IG1hcCBidXR0
-b24ifSwibFNXamU3Z1A2cmxJbmdheSI6eyJzdGFydCI6MTg2MD
-gsImVuZCI6MTg2MTcsInRleHQiOiJNb3ZlIGl0ZW0ifSwiWXla
-VGFkUnBwS3JlMTJQVCI6eyJzdGFydCI6MTg3MTksImVuZCI6MT
-g3MzYsInRleHQiOiJNb3ZlIGl0ZW0gY29udGVudCJ9fSwiY29t
+gsImVuZCI6MTgyNjYsInRleHQiOiJBZGQgbmV3IG1hcCBidXR0
+b24ifSwibFNXamU3Z1A2cmxJbmdheSI6eyJzdGFydCI6MTg2MT
+UsImVuZCI6MTg2MjQsInRleHQiOiJNb3ZlIGl0ZW0ifSwiWXla
+VGFkUnBwS3JlMTJQVCI6eyJzdGFydCI6MTg3MjYsImVuZCI6MT
+g3NDMsInRleHQiOiJNb3ZlIGl0ZW0gY29udGVudCJ9fSwiY29t
 bWVudHMiOnsid3NwVnZTa0l1bXpMbWl1TSI6eyJkaXNjdXNzaW
 9uSWQiOiI2UjU5YmNzcnVMSFhIMkE4Iiwic3ViIjoiZ2g6NDAz
 MDQ3ODgiLCJ0ZXh0IjoiQWRkIGNvdmVyIHBpY3R1cmUiLCJjcm
@@ -440,8 +444,8 @@ AzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGltYWdlIiwiY3JlYXRlZCI6
 MTY4NTc5MDU2NTY1OX0sInFkRkV2bmJlRjVjVVI1QW8iOnsiZG
 lzY3Vzc2lvbklkIjoiWXlaVGFkUnBwS3JlMTJQVCIsInN1YiI6
 ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBpbWFnZSIsImNyZW
-F0ZWQiOjE2ODU3OTA1ODcwOTB9fSwiaGlzdG9yeSI6WzExMzIx
-NTE0MDUsMTIxNzQzNjc2Miw2ODExODQ4NzQsLTE4MTkwMDE4Nz
+F0ZWQiOjE2ODU3OTA1ODcwOTB9fSwiaGlzdG9yeSI6WzEyNzc0
+NzU4NTUsMTIxNzQzNjc2Miw2ODExODQ4NzQsLTE4MTkwMDE4Nz
 EsLTQ3NzAwMjIzNCwtMTY0NzU2NzM3MiwtMTY2Mzc0MDQxMl19
 
 -->
