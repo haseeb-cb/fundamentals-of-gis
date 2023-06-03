@@ -129,8 +129,9 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
     5.  One you are satisfied with the layer styles, press *Apply* and *OK*
 4.  It is also possible to **visualize the layers based on the information stored in the attribute table**. This can be done by selecting Categorized or Graduated instead of Single Symbol from the dropdown menu on the top of the page.	
 	1. Open the HSL_Helsinki_stops layer symbology
-	2. Choose 
-	3. 
+	2. Choose *Graduated* from the dropdown menu
+	3. Choose "Boardings)" as the value from which the data is gathered
+	4. Set the *Mode* to *Natural breaks (Jenks)* 
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI2UjU5YmNzcnVMSFhIMkE4Ijp7In
@@ -261,5 +262,5 @@ OjE2ODU3ODM2MDUwMjF9LCJtMEdESkZaQXhCakxxc1VFIjp7Im
 Rpc2N1c3Npb25JZCI6IkZYZlFGZkY5RlpPTnBZRmEiLCJzdWIi
 OiJnaDo0MDMwNDc4OCIsInRleHQiOiJXaGF0IGlzIGF0dHJpYn
 V0ZSBkYXRhPyIsImNyZWF0ZWQiOjE2ODU3ODM2MTQwMzd9fSwi
-aGlzdG9yeSI6Wy0yMDY0NjA4NzUsLTE2NjM3NDA0MTJdfQ==
+aGlzdG9yeSI6Wy0xOTg4NzM5NjgyLC0xNjYzNzQwNDEyXX0=
 -->
