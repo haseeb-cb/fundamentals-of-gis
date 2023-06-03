@@ -184,7 +184,8 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	- *Geometric predicate*: contains (What do you think the other options mean?)
 	-  *Field to summarise*: Boardings
 	- *Summaries to calculate*: *Sum*
-	- 
+	- *Discard records which could not be joined*: Yes
+	5. Click *Run*
 
  
 <!--stackedit_data:
@@ -366,7 +367,7 @@ IkFYY2JVV3h0NzdHRE95WEYiOnsiZGlzY3Vzc2lvbklkIjoiZX
 ZMV1lvQUdYMHl1dUlYcyIsInN1YiI6ImdoOjQwMzA0Nzg4Iiwi
 dGV4dCI6IkVhcmxpZXIgaW4gY3Jhc2ggY291cnNlLCBhZGQgZX
 hhbXBsZXMgb2YgdG9vbHMgYW5kIGhvdyB0aGV5IHdvcmsiLCJj
-cmVhdGVkIjoxNjg1Nzg3ODk5MDU5fX0sImhpc3RvcnkiOlstOT
-Q3MzMyNTA5LDY4MTE4NDg3NCwtMTgxOTAwMTg3MSwtNDc3MDAy
-MjM0LC0xNjQ3NTY3MzcyLC0xNjYzNzQwNDEyXX0=
+cmVhdGVkIjoxNjg1Nzg3ODk5MDU5fX0sImhpc3RvcnkiOlstMT
+E0MTM5NzMxNyw2ODExODQ4NzQsLTE4MTkwMDE4NzEsLTQ3NzAw
+MjIzNCwtMTY0NzU2NzM3MiwtMTY2Mzc0MDQxMl19
 -->
