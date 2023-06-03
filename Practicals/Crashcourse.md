@@ -123,12 +123,10 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
  In addition to editing a layer’s style properties, the Layer properties window can also be used for e.g. examining the **layer’s general information** such as its coordinate system and source, adding **labels** to the map as well as managing **joins** and layer **metadata**.
 
  3.  Next, we want to **change the styles and the symbology of the layers**. You can navigate back to the *Symbology* tab in the *Layer Properties* window. The window looks slightly different depending on whether we have a raster or vector file, and what feature type is in question. You can see this for instance by comparing the style tabs of the HSL Stops (point feature) and Waterbodies (polygon feature) layers.
-    
-    1.  Open the *symbology* properties for the Waterbodies layer
-    2.  Apart from the color fill and a few ready-made styles, the main view does not offer very sophisticated visualizing options, so it is suggested to click on the *Simple fill*
-    3.  Press the *Fill color* button and change the color of the layer to blue
-    4.  If you want a transparent fill, press on the arrow on the right of the *Fill* button and select Transparent fill
-    5.  One you are satisfied with the layer styles, press *Apply* and *OK*
+	 1.  Open the *symbology* properties for the Waterbodies layer
+	 2. Apart from the color fill and a few ready-made styles, the main view does not offer very sophisticated visualizing options, so it is suggested to click on the *Simple fill*
+	 3. Press the *Fill color* button and change the color of the layer to blue
+	 4. If you want a transparent fill, press on the arrow on the right of the *Fill* button and select Transparent fillOne you are satisfied with the layer styles, press *Apply* and *OK*
  -  It is also possible to **visualize the layers based on the information stored in the attribute table**. This can be done by selecting Categorized or Graduated instead of Single Symbol from the dropdown menu on the top of the page.	
 	
 	1. Open the HSL_Helsinki_stops layer symbology
@@ -142,21 +140,19 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 **Now, using the previous tips and tricks as your support, change the styles of all the layers in the project.**
 
  4.  Next, we shall move the focus from visualization to the **actual data**. Start by examining what data is included in the project and what information is stored in the layers by right clicking on the layer name and selecting *Open Attribute Table*.
- 
 	 1. Open the *attribute table* of the layer called Helsinki_small_areas. Take a moment to examine the table, what can you see?
 	 As you can see, the file consists of a list of the small-sized areas within the city of Helsinki with their corresponding codes and creation dates but little else. Next, we are going to calculate the area for each small area of Helsinki. 
 	 2.  In the *attribute table*, toggle *Editing mode* and then click on the *Field Calculator* button
  - Field calculator picture
- 6.  Now we’ll **write an expression that calculates the area of each small area of Helsinki in square kilometers**. On the right side of the Expression window is a list of drop-down menus.
+ 5.  Now we’ll **write an expression that calculates the area of each small area of Helsinki in square kilometers**. On the right side of the Expression window is a list of drop-down menus.
 	 1. Open the *Geometry* drop-down menu
 	 2. Double-click the *\$area* expression (you can also type *\$area* in the blank *Expression window*)
 	 3. Just the *\$area* expression would calculate the area in square meters, but we want square kilometers. So we will divide it by 1 000 000. Click or type the division symbol (/), and type 1000000 after the division
 	 4. Set an informative *Output field name* (For example: Area_km2)
-	 5. Set the *Output field type* to *Decimal number (real)*, and *Output field length* to 10 and 2 (try the other options and look how this changes the preview value)
-	 6. Click *OK*
-	 7. Finally, click the *Save Edits* button and disable *Editing* mode to make the changes permanent
+	 5. Set the *Output field type* to *Decimal number (real)*, and *Output field length* to 10 and 2 (try the other options and look how this changes the preview value)Click *OK*
+	 6. Finally, click the *Save Edits* button and disable *Editing* mode to make the changes permanent
 
- 7. **Using the field we just created in the attribute table, explore the small areas of Helsinki**, which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.
+ 5.  **Using the field we just created in the attribute table, explore the small areas of Helsinki**, which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.
 	
 	1. Open the *Field and Values* drop-down menu, which will show all the attribute fields
 	2. Double-click on the area field you made earlier (Area_km2)
@@ -239,23 +235,23 @@ QiOiJsYXllcnMgcGFuZWwifSwiaGxoa2RDRW0zNGwzVnJUVyI6
 eyJzdGFydCI6Nzc3NSwiZW5kIjo3NzgxLCJ0ZXh0Ijoib2JqZW
 N0In0sIkZYZlFGZkY5RlpPTnBZRmEiOnsic3RhcnQiOjc4MTYs
 ImVuZCI6NzgyNSwidGV4dCI6ImF0dHJpYnV0ZSJ9LCJJOHl4QU
-RjNjNTa09nRDN5Ijp7InN0YXJ0IjoxMTA4NCwiZW5kIjoxMTEw
-OCwidGV4dCI6IlN5bWJvbG9neSBleGFtcGxlIHBpY3R1ciJ9LC
-I5WUpOdThvOHVvdWJZQ2doIjp7InN0YXJ0IjoxMTg4OSwiZW5k
-IjoxMTg5NiwidGV4dCI6IkVkaXRpbmcifSwiTnhKZEZXQ0JsVX
-MyNHNjTCI6eyJzdGFydCI6MTE5MjYsImVuZCI6MTE5MzEsInRl
+RjNjNTa09nRDN5Ijp7InN0YXJ0IjoxMTA1OSwiZW5kIjoxMTA4
+MywidGV4dCI6IlN5bWJvbG9neSBleGFtcGxlIHBpY3R1ciJ9LC
+I5WUpOdThvOHVvdWJZQ2doIjp7InN0YXJ0IjoxMTg2MiwiZW5k
+IjoxMTg2OSwidGV4dCI6IkVkaXRpbmcifSwiTnhKZEZXQ0JsVX
+MyNHNjTCI6eyJzdGFydCI6MTE4OTksImVuZCI6MTE5MDQsInRl
 eHQiOiJGaWVsZCJ9LCJzUUVwbkYzNjdzZWF2THNjIjp7InN0YX
-J0IjoxMTk1NCwiZW5kIjoxMTk3OCwidGV4dCI6IkZpZWxkIGNh
+J0IjoxMTkyNywiZW5kIjoxMTk1MSwidGV4dCI6IkZpZWxkIGNh
 bGN1bGF0b3IgcGljdHVyZSJ9LCJBY1dUSmttcjlha253MlFWIj
-p7InN0YXJ0IjoxMjgzOSwiZW5kIjoxMjg0NiwidGV4dCI6IkVk
+p7InN0YXJ0IjoxMjgwNiwiZW5kIjoxMjgxMywidGV4dCI6IkVk
 aXRpbmcifSwiM1hVaWhUcmdOVFhubHJwMyI6eyJzdGFydCI6MT
-I4MDcsImVuZCI6MTI4MTcsInRleHQiOiJTYXZlIEVkaXRzIn0s
-ImV2TFdZb0FHWDB5dXVJWHMiOnsic3RhcnQiOjEzMjg5LCJlbm
-QiOjEzMzA3LCJ0ZXh0IjoiUHJvY2Vzc2luZyBUb29sYm94In0s
-IlFnanFjSGsxV2VidmRRZFUiOnsic3RhcnQiOjEzMjE0LCJlbm
-QiOjEzMjQzLCJ0ZXh0IjoiU2VsZWN0IGZlYXR1cmVzIGJ5IGV4
+I3NzQsImVuZCI6MTI3ODQsInRleHQiOiJTYXZlIEVkaXRzIn0s
+ImV2TFdZb0FHWDB5dXVJWHMiOnsic3RhcnQiOjEzMjU3LCJlbm
+QiOjEzMjc1LCJ0ZXh0IjoiUHJvY2Vzc2luZyBUb29sYm94In0s
+IlFnanFjSGsxV2VidmRRZFUiOnsic3RhcnQiOjEzMTgyLCJlbm
+QiOjEzMjExLCJ0ZXh0IjoiU2VsZWN0IGZlYXR1cmVzIGJ5IGV4
 cHJlc3Npb24ifSwiSFRCajVOQWlqamlQSG5kdiI6eyJzdGFydC
-I6MTQwNTIsImVuZCI6MTQwNjQsInRleHQiOiJEZXNlbGVjdCBh
+I6MTQwMjAsImVuZCI6MTQwMzIsInRleHQiOiJEZXNlbGVjdCBh
 bGwifX0sImNvbW1lbnRzIjp7IndzcFZ2U2tJdW16TG1pdU0iOn
 siZGlzY3Vzc2lvbklkIjoiNlI1OWJjc3J1TEhYSDJBOCIsInN1
 YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBjb3ZlciBwaW
@@ -364,7 +360,7 @@ IkFYY2JVV3h0NzdHRE95WEYiOnsiZGlzY3Vzc2lvbklkIjoiZX
 ZMV1lvQUdYMHl1dUlYcyIsInN1YiI6ImdoOjQwMzA0Nzg4Iiwi
 dGV4dCI6IkVhcmxpZXIgaW4gY3Jhc2ggY291cnNlLCBhZGQgZX
 hhbXBsZXMgb2YgdG9vbHMgYW5kIGhvdyB0aGV5IHdvcmsiLCJj
-cmVhdGVkIjoxNjg1Nzg3ODk5MDU5fX0sImhpc3RvcnkiOlsxMT
-Y1MjU2MjczLDY4MTE4NDg3NCwtMTgxOTAwMTg3MSwtNDc3MDAy
-MjM0LC0xNjQ3NTY3MzcyLC0xNjYzNzQwNDEyXX0=
+cmVhdGVkIjoxNjg1Nzg3ODk5MDU5fX0sImhpc3RvcnkiOlstMT
+Y4ODk4NDUxNyw2ODExODQ4NzQsLTE4MTkwMDE4NzEsLTQ3NzAw
+MjIzNCwtMTY0NzU2NzM3MiwtMTY2Mzc0MDQxMl19
 -->
