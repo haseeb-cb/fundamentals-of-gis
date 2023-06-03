@@ -182,7 +182,8 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 	- *Discard records which could not be joined*: Yes
 	5. Click *Run*
 - Join attributes by Location pictures
-	6. A new temporary layer, Joined Layer, was created in the *Layers Panel* and by opening its *attribute table* you should see it’s similar to the Helsinki_small_areas attribute table, but with a new field, Boardings_sum is the sum of all the passengers from every bus and train stop within that particular small area of Helsinki.
+	6. A new temporary layer, Joined Layer, was created in the *Layers Panel* and by opening its *attribute table* you should see it’s similar to the Helsinki_small_areas attribute table, but with a new field, "Boardings_sum", which is the sum of all the passengers from every bus and train stop within that particular small area of Helsinki.
+	7. Right-click the Joined Layer and select *Make permanent* 
 
  
 <!--stackedit_data:
@@ -376,7 +377,7 @@ aW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nzg4NjU3NDUyfSwidU5qS3
 MydXdSVWE2QWdLTiI6eyJkaXNjdXNzaW9uSWQiOiJjVTdRWFRV
 QmtaaW82Z3pNIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ij
 oiQWRkIGltYWdlcyIsImNyZWF0ZWQiOjE2ODU3ODg2OTc0MzZ9
-fSwiaGlzdG9yeSI6Wzk2NDAzMzkzMSw2ODExODQ4NzQsLTE4MT
-kwMDE4NzEsLTQ3NzAwMjIzNCwtMTY0NzU2NzM3MiwtMTY2Mzc0
-MDQxMl19
+fSwiaGlzdG9yeSI6WzE1OTQ5Mjc1MjQsNjgxMTg0ODc0LC0xOD
+E5MDAxODcxLC00NzcwMDIyMzQsLTE2NDc1NjczNzIsLTE2NjM3
+NDA0MTJdfQ==
 -->
