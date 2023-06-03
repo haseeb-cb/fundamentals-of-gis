@@ -116,13 +116,13 @@ The **measure** tool can be used to make simple distance and area calculations o
 
 Managing the **layers** is key in GIS. Right now, the added layers are arbitrarily symbolized and ordered, and do not come out very useful or informative. Thus, we need to get our hands dirty.
 
- -  Start by **changing the order of the layers** by dragging them in the layers panel on the left side of the map view. A good order, for example, can be as follows from top to bottom: HSL_Helsinki_stops, Helsinki_buildings, Waterbodies, Helsinki_small_areas and Helsinki_Municipality.
+ 1.  Start by **changing the order of the layers** by dragging them in the layers panel on the left side of the map view. A good order, for example, can be as follows from top to bottom: HSL_Helsinki_stops, Helsinki_buildings, Waterbodies, Helsinki_small_areas and Helsinki_Municipality.
 
- -  You can also **change the visibility of the layers** by checking or unchecking the tick boxes next to the layer name or by adjusting **transparency**. The latter can be done under the *Style* tab in the *Layer properties* window, which can be accessed by right-clicking on the layer name and selecting *Properties*. This is also where you can change other style properties such as **symbol size and color**, **layer rendering** or create e.g. **choropleth maps**, but we will look into these in more detail later on.
+ 2.  You can also **change the visibility of the layers** by checking or unchecking the tick boxes next to the layer name or by adjusting **transparency**. The latter can be done under the *Style* tab in the *Layer properties* window, which can be accessed by right-clicking on the layer name and selecting *Properties*. This is also where you can change other style properties such as **symbol size and color**, **layer rendering** or create e.g. **choropleth maps**, but we will look into these in more detail later on.
 
-    In addition to editing a layer’s style properties, the Layer properties window can also be used for e.g. examining the **layer’s general information** such as its coordinate system and source, adding **labels** to the map as well as managing **joins** and layer **metadata**.
+ In addition to editing a layer’s style properties, the Layer properties window can also be used for e.g. examining the **layer’s general information** such as its coordinate system and source, adding **labels** to the map as well as managing **joins** and layer **metadata**.
 
- -  Next, we want to **change the styles and the symbology of the layers**. You can navigate back to the *Symbology* tab in the *Layer Properties* window. The window looks slightly different depending on whether we have a raster or vector file, and what feature type is in question. You can see this for instance by comparing the style tabs of the HSL Stops (point feature) and Waterbodies (polygon feature) layers.
+ 3.  Next, we want to **change the styles and the symbology of the layers**. You can navigate back to the *Symbology* tab in the *Layer Properties* window. The window looks slightly different depending on whether we have a raster or vector file, and what feature type is in question. You can see this for instance by comparing the style tabs of the HSL Stops (point feature) and Waterbodies (polygon feature) layers.
     
     1.  Open the *symbology* properties for the Waterbodies layer
     2.  Apart from the color fill and a few ready-made styles, the main view does not offer very sophisticated visualizing options, so it is suggested to click on the *Simple fill*
@@ -141,14 +141,12 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 
 **Now, using the previous tips and tricks as your support, change the styles of all the layers in the project.**
 
- - Next, we shall move the focus from visualization to the **actual data**. Start by examining what data is included in the project and what information is stored in the layers by right clicking on the layer name and selecting *Open Attribute Table*.
-	
-	1. Open the *attribute table* of the layer called Helsinki_small_areas. Take a moment to examine the table, what can you see?
-	 
-		As you can see, the file consists of a list of the small-sized areas within the city of Helsinki with their corresponding codes and creation dates but little else. Next, we are going to calculate the area for each small area of Helsinki.   
-	2.  In the *attribute table*, toggle *Editing mode* and then click on the *Field Calculator* button
+ 4.  Next, we shall move the focus from visualization to the **actual data**. Start by examining what data is included in the project and what information is stored in the layers by right clicking on the layer name and selecting *Open Attribute Table*.
+	 1. Open the *attribute table* of the layer called Helsinki_small_areas. Take a moment to examine the table, what can you see?
+	 As you can see, the file consists of a list of the small-sized areas within the city of Helsinki with their corresponding codes and creation dates but little else. Next, we are going to calculate the area for each small area of Helsinki. 
+	 2.  In the *attribute table*, toggle *Editing mode* and then click on the *Field Calculator* button
  - Field calculator picture
- - Now we’ll **write an expression that calculates the area of each small area of Helsinki in square kilometers**. On the right side of the Expression window is a list of drop-down menus.
+  Now we’ll **write an expression that calculates the area of each small area of Helsinki in square kilometers**. On the right side of the Expression window is a list of drop-down menus.
 	
 	
 	1. Open the *Geometry* drop-down menu
@@ -237,28 +235,28 @@ gKYifSwiTXc5QWd4cGdlTzdnMVBvUCI6eyJzdGFydCI6NzcwMi
 wiZW5kIjo3NzE5LCJ0ZXh0IjoiSWRlbnRpZnkgRmVhdHVyZXMi
 fSwiNTh4TGt3ZTBwclA4MTVWVCI6eyJzdGFydCI6ODAyNCwiZW
 5kIjo4MDMxLCJ0ZXh0IjoibWVhc3VyZSJ9LCJhYkRBMEVIazdP
-MjQzWDdkIjp7InN0YXJ0Ijo4NTY1LCJlbmQiOjg1NzcsInRleH
+MjQzWDdkIjp7InN0YXJ0Ijo4NTY2LCJlbmQiOjg1NzgsInRleH
 QiOiJsYXllcnMgcGFuZWwifSwiaGxoa2RDRW0zNGwzVnJUVyI6
 eyJzdGFydCI6Nzc3NSwiZW5kIjo3NzgxLCJ0ZXh0Ijoib2JqZW
 N0In0sIkZYZlFGZkY5RlpPTnBZRmEiOnsic3RhcnQiOjc4MTYs
 ImVuZCI6NzgyNSwidGV4dCI6ImF0dHJpYnV0ZSJ9LCJJOHl4QU
 RjNjNTa09nRDN5Ijp7InN0YXJ0IjoxMTA4NCwiZW5kIjoxMTEw
 OCwidGV4dCI6IlN5bWJvbG9neSBleGFtcGxlIHBpY3R1ciJ9LC
-I5WUpOdThvOHVvdWJZQ2doIjp7InN0YXJ0IjoxMTg5MCwiZW5k
-IjoxMTg5NywidGV4dCI6IkVkaXRpbmcifSwiTnhKZEZXQ0JsVX
-MyNHNjTCI6eyJzdGFydCI6MTE5MjcsImVuZCI6MTE5MzIsInRl
+I5WUpOdThvOHVvdWJZQ2doIjp7InN0YXJ0IjoxMTg4NywiZW5k
+IjoxMTg5NCwidGV4dCI6IkVkaXRpbmcifSwiTnhKZEZXQ0JsVX
+MyNHNjTCI6eyJzdGFydCI6MTE5MjQsImVuZCI6MTE5MjksInRl
 eHQiOiJGaWVsZCJ9LCJzUUVwbkYzNjdzZWF2THNjIjp7InN0YX
-J0IjoxMTk1NSwiZW5kIjoxMTk3OSwidGV4dCI6IkZpZWxkIGNh
+J0IjoxMTk1MiwiZW5kIjoxMTk3NiwidGV4dCI6IkZpZWxkIGNh
 bGN1bGF0b3IgcGljdHVyZSJ9LCJBY1dUSmttcjlha253MlFWIj
-p7InN0YXJ0IjoxMjgzNiwiZW5kIjoxMjg0MywidGV4dCI6IkVk
+p7InN0YXJ0IjoxMjgzMiwiZW5kIjoxMjgzOSwidGV4dCI6IkVk
 aXRpbmcifSwiM1hVaWhUcmdOVFhubHJwMyI6eyJzdGFydCI6MT
-I4MDQsImVuZCI6MTI4MTQsInRleHQiOiJTYXZlIEVkaXRzIn0s
-ImV2TFdZb0FHWDB5dXVJWHMiOnsic3RhcnQiOjEzMjg1LCJlbm
-QiOjEzMzAzLCJ0ZXh0IjoiUHJvY2Vzc2luZyBUb29sYm94In0s
-IlFnanFjSGsxV2VidmRRZFUiOnsic3RhcnQiOjEzMjEwLCJlbm
-QiOjEzMjM5LCJ0ZXh0IjoiU2VsZWN0IGZlYXR1cmVzIGJ5IGV4
+I4MDAsImVuZCI6MTI4MTAsInRleHQiOiJTYXZlIEVkaXRzIn0s
+ImV2TFdZb0FHWDB5dXVJWHMiOnsic3RhcnQiOjEzMjgxLCJlbm
+QiOjEzMjk5LCJ0ZXh0IjoiUHJvY2Vzc2luZyBUb29sYm94In0s
+IlFnanFjSGsxV2VidmRRZFUiOnsic3RhcnQiOjEzMjA2LCJlbm
+QiOjEzMjM1LCJ0ZXh0IjoiU2VsZWN0IGZlYXR1cmVzIGJ5IGV4
 cHJlc3Npb24ifSwiSFRCajVOQWlqamlQSG5kdiI6eyJzdGFydC
-I6MTQwNDgsImVuZCI6MTQwNjAsInRleHQiOiJEZXNlbGVjdCBh
+I6MTQwNDQsImVuZCI6MTQwNTYsInRleHQiOiJEZXNlbGVjdCBh
 bGwifX0sImNvbW1lbnRzIjp7IndzcFZ2U2tJdW16TG1pdU0iOn
 siZGlzY3Vzc2lvbklkIjoiNlI1OWJjc3J1TEhYSDJBOCIsInN1
 YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBjb3ZlciBwaW
@@ -368,6 +366,6 @@ ZMV1lvQUdYMHl1dUlYcyIsInN1YiI6ImdoOjQwMzA0Nzg4Iiwi
 dGV4dCI6IkVhcmxpZXIgaW4gY3Jhc2ggY291cnNlLCBhZGQgZX
 hhbXBsZXMgb2YgdG9vbHMgYW5kIGhvdyB0aGV5IHdvcmsiLCJj
 cmVhdGVkIjoxNjg1Nzg3ODk5MDU5fX0sImhpc3RvcnkiOlstMT
-E0MTM5NzMxNyw2ODExODQ4NzQsLTE4MTkwMDE4NzEsLTQ3NzAw
-MjIzNCwtMTY0NzU2NzM3MiwtMTY2Mzc0MDQxMl19
+k0MTYzMDQ5LDY4MTE4NDg3NCwtMTgxOTAwMTg3MSwtNDc3MDAy
+MjM0LC0xNjQ3NTY3MzcyLC0xNjYzNzQwNDEyXX0=
 -->
