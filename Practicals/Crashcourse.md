@@ -190,7 +190,11 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 	9. Delete the temporary Joined Layer from the Layers window
 
 9.   **Now we’ll calculate yet another field** using the field calculator by dividing the number of passengers by the square kilometer area of the Helsinki small areas.
-	1.  
+		1.  Calculate this field using the Field calculator (don’t forget to toggle editing mode): output field name should be informative e.g. “PassArea”, set Output field type to decimal
+		2. Set output field length to 10 and precision to 2
+		3. Then you must enter the calculation into the Expression field, you can either use the drop-down menus (Fields and values) or simply type it in. The calculation should be similar to this (change if your fields are named differently): "Boardings_" / "Area_km2"
+		4. Click OK. Remember to Save edits and Disable editing mode.
+- Picture of current 
 
  
 <!--stackedit_data:
@@ -384,7 +388,7 @@ aW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nzg4NjU3NDUyfSwidU5qS3
 MydXdSVWE2QWdLTiI6eyJkaXNjdXNzaW9uSWQiOiJjVTdRWFRV
 QmtaaW82Z3pNIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ij
 oiQWRkIGltYWdlcyIsImNyZWF0ZWQiOjE2ODU3ODg2OTc0MzZ9
-fSwiaGlzdG9yeSI6Wy0xMzQ3Mzg2NjAzLDY4MTE4NDg3NCwtMT
-gxOTAwMTg3MSwtNDc3MDAyMjM0LC0xNjQ3NTY3MzcyLC0xNjYz
-NzQwNDEyXX0=
+fSwiaGlzdG9yeSI6WzE1NTU1NTA2MDksNjgxMTg0ODc0LC0xOD
+E5MDAxODcxLC00NzcwMDIyMzQsLTE2NDc1NjczNzIsLTE2NjM3
+NDA0MTJdfQ==
 -->
