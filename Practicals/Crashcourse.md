@@ -175,7 +175,9 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 
 8. **Next, we’re going to create and calculate another field into the Helsinki_small_areas attribute table using the HSL_Helsinki_stops point data.** First open the *attribute table* of HSL_Helsinki_stops to familiarize yourself with its contents. The Boardings column depicts the amount of boardings on stops in Helsinki on average per day. We will calculate and visualize the public transit passenger numbers per area for every Helsinki small area.
 	
-	1. Check if the *Processing Toolbox* is active in the top right of the main QGIS window, if not open it by selecting *Processing
+	1. Check if the *Processing Toolbox* is active in the top right of the main QGIS window, if not open it by selecting *Processing* > *Toolbox* from the top of the window
+	2. Type “Join attributes by location” into the search bar. Select the one that has (Summary) after it.
+	3. 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI2UjU5YmNzcnVMSFhIMkE4Ijp7In
 N0YXJ0Ijo3OCwiZW5kIjo4OSwidGV4dCI6IkNvdmVyIGltYWdl
@@ -351,7 +353,7 @@ aW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nzg2NjM3NDY4fSwiSEJDdF
 F1dnZPVjh1Ukg2WSI6eyJkaXNjdXNzaW9uSWQiOiJIVEJqNU5B
 aWpqaVBIbmR2Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ij
 oiQWRkIGltYWdlIiwiY3JlYXRlZCI6MTY4NTc4NzI0MzQ2MH19
-LCJoaXN0b3J5IjpbNDMxMzQ0Mzg3LDY4MTE4NDg3NCwtMTgxOT
-AwMTg3MSwtNDc3MDAyMjM0LC0xNjQ3NTY3MzcyLC0xNjYzNzQw
-NDEyXX0=
+LCJoaXN0b3J5IjpbLTc1NzMxOTA0MSw2ODExODQ4NzQsLTE4MT
+kwMDE4NzEsLTQ3NzAwMjIzNCwtMTY0NzU2NzM3MiwtMTY2Mzc0
+MDQxMl19
 -->
