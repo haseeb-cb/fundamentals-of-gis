@@ -161,8 +161,9 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 
 7. **Using the field we just created in the attribute table, explore the small areas of Helsinki**, which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.
 	
-	1. Open the *Field and Values* drop-down menu
-	2. 
+	1. Open the *Field and Values* drop-down menu, which will show all the attribute fields
+	2. Double-click on the area field you made earlier (Area_km2)
+	3. Type "< 5"  
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI2UjU5YmNzcnVMSFhIMkE4Ijp7In
 N0YXJ0Ijo3OCwiZW5kIjo4OSwidGV4dCI6IkNvdmVyIGltYWdl
@@ -333,6 +334,6 @@ B0aGlzPyIsImNyZWF0ZWQiOjE2ODU3ODY2MjgwNzZ9LCJjVVBh
 cFRsOWNIcUNjZFNrIjp7ImRpc2N1c3Npb25JZCI6IlFnanFjSG
 sxV2VidmRRZFUiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQi
 OiJBZGQgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nzg2NjM3NDY4fX
-0sImhpc3RvcnkiOlstMjEzMTY3ODg0MCwtNDc3MDAyMjM0LC0x
-NjQ3NTY3MzcyLC0xNjYzNzQwNDEyXX0=
+0sImhpc3RvcnkiOlstMjQ3NTQ3Nzc3LC00NzcwMDIyMzQsLTE2
+NDc1NjczNzIsLTE2NjM3NDA0MTJdfQ==
 -->
