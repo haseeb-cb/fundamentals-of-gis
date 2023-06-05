@@ -75,10 +75,13 @@ If you want to create new empty layers, go to *Layer* \> *Create Layer*.
 **Panels** offer a single major function. Similarly, to toolbars, they can be toggled from *View* \> *Panels*. Below is an example of three panels (Browser, Layer Style and Statistics) on top of each other.
 
 The *Browser panel* is a tool for browsing, searching, inspecting, copying and loading QGIS resources. Using the Browser panel you can locate, inspect and add data. 
+
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_browser_panel.png)
 The *Layer panel* lists all the layers in the project and helps you manage their visibility and shape the map. You can access the layers by right clicking them, and toggle their visibility by toggling the check box in the layer panel. 
+
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_layer_panel.png)
 The *Processing Toolbox* shows the list of all available **algorithms** grouped in different blocks called _Providers_, and custom **models** and **scripts** you can add to extend the set of tools. Hence the toolbox is the access point to run them, whether as a single process or as a batch process involving several executions of the same algorithm on different sets of inputs.
+
 ![](https://docs.qgis.org/3.4/en/_images/toolbox3.png)
 
 ### 1.3 Plugins
@@ -128,8 +131,8 @@ For a start, take your time to move around and get acquainted with the basic too
 Managing the **layers** is key in GIS. Right now, the added layers are arbitrarily symbolized and ordered, and do not come out very useful or informative. Thus, we need to get our hands dirty.
 
  1.  Start by **changing the order of the layers** by dragging them in the layers panel on the left side of the map view. A good order, for example, can be as follows from top to bottom: HSL_Helsinki_stops, Helsinki_buildings, Waterbodies, Helsinki_small_areas and Helsinki_Municipality.
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_layers.png)
  2.  You can also **change the visibility of the layers** by checking or unchecking the tick boxes next to the layer name or by adjusting **transparency**. The latter can be done under the *Style* tab in the *Layer properties* window, which can be accessed by right-clicking on the layer name and selecting *Properties*. This is also where you can change other style properties such as **symbol size and color**, **layer rendering** or create e.g. **choropleth maps**, but we will look into these in more detail later on.
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_layers.png)
 
  In addition to editing a layer’s style properties, the Layer properties window can also be used for e.g. examining the **layer’s general information** such as its coordinate system and source, adding **labels** to the map as well as managing **joins** and layer **metadata**.
 
@@ -257,17 +260,17 @@ In0sIk44Y2hQZHpkSExxcHdLS04iOnsic3RhcnQiOjQzNjksIm
 VuZCI6NDQ5NSwidGV4dCI6IlRoZSBkYXRhIHVzZWQgaW4gdGhp
 cyBjb3Vyc2Ugd2lsbCBtb3N0bHkgYmUgaW4gRVBTRyAzMDY3IC
 hFVFJTLVRNMzVGSU4pLCB3aGljaOKApiJ9LCJ6aW9TZFVkOHBj
-S0ZFQ25SIjp7InN0YXJ0Ijo5MDQ0LCJlbmQiOjkzNTEsInRleH
+S0ZFQ25SIjp7InN0YXJ0Ijo5MDQ3LCJlbmQiOjkzNTQsInRleH
 QiOiJUaGVzZSBkYXRhIHNldHMgYXJlIGFsbCBkb3dubG9hZGVk
 IGZyb20gUGFJVHVsaSBhbmQgSGVsc2lua2kgUmVnaW9uIEluZm
 9zaGFyZSBk4oCmIn0sIlBRWEprU3RZMmdzdXZ6NUQiOnsic3Rh
-cnQiOjIxNDA4LCJlbmQiOjIxNDMyLCJ0ZXh0IjoiLSBMYXlvdX
+cnQiOjIxNDExLCJlbmQiOjIxNDM1LCJ0ZXh0IjoiLSBMYXlvdX
 QgbWFuYWdlciBwaWN0dXJlIn0sInluaDVib1FpT01UaWxaTVci
 Onsic3RhcnQiOjczLCJlbmQiOjE5MSwidGV4dCI6IiFbQ292ZX
 IgcGljdHVyZV0oaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRl
 bnQuY29tL3Jvd2FuOGsvZnVuZGFtZW50YWxzLW9mLWdpcy/igK
-YifSwiWWJZUW02bGpVNDJmeTZQNiI6eyJzdGFydCI6Njg5MCwi
-ZW5kIjo2OTkxLCJ0ZXh0IjoiIVtdKGh0dHBzOi8vcmF3LmdpdG
+YifSwiWWJZUW02bGpVNDJmeTZQNiI6eyJzdGFydCI6Njg5Miwi
+ZW5kIjo2OTkzLCJ0ZXh0IjoiIVtdKGh0dHBzOi8vcmF3LmdpdG
 h1YnVzZXJjb250ZW50LmNvbS9yb3dhbjhrL2Z1bmRhbWVudGFs
 cy1vZi1naXMvbWFzdGVyL0Fzc2V0c+KApiJ9fSwiY29tbWVudH
 MiOnsiOVJaT0J0VGlDUk9uNk01ciI6eyJkaXNjdXNzaW9uSWQi
@@ -297,11 +300,11 @@ aWdodCB0byBqYWlsIiwiY3JlYXRlZCI6MTY4NTk0NDA3NDk2NX
 0sIkMySHlZR1ZBMWJ3ZVY4YkYiOnsiZGlzY3Vzc2lvbklkIjoi
 WWJZUW02bGpVNDJmeTZQNiIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
 widGV4dCI6IlVwZGF0ZSBpbWFnZSIsImNyZWF0ZWQiOjE2ODU5
-NTUzMzQ2MzF9fSwiaGlzdG9yeSI6WzUwNjg5OTI0Niw2NjkyND
-AyMTUsLTIwMzI0MTQ1NzAsMzA2MTQxNzQ0LDY5ODM2MzgyOSwt
-MzU0NzY2ODIxLC0xMjMxODM4NDQ4LDE1MTAyMzQ3OTUsMjM4NT
-MxNDQ1LC0xMTQ2OTUxNDIxLDIwMjE5ODgwNTIsLTE3MjM4OTQ5
-OTQsODM3MjMzNzcsLTE5Mzg5MTY2MTIsMTIwODA3MzA4NSwtMj
-A5ODcxMDg0MywxNTE0MzQ3OTE5LDE4Mzk3ODY1OTQsLTE2MzU3
-NTE2MjQsMjQ2NzUwMTkwXX0=
+NTUzMzQ2MzF9fSwiaGlzdG9yeSI6Wy0yNTE4MzE1MzUsNjY5Mj
+QwMjE1LC0yMDMyNDE0NTcwLDMwNjE0MTc0NCw2OTgzNjM4Mjks
+LTM1NDc2NjgyMSwtMTIzMTgzODQ0OCwxNTEwMjM0Nzk1LDIzOD
+UzMTQ0NSwtMTE0Njk1MTQyMSwyMDIxOTg4MDUyLC0xNzIzODk0
+OTk0LDgzNzIzMzc3LC0xOTM4OTE2NjEyLDEyMDgwNzMwODUsLT
+IwOTg3MTA4NDMsMTUxNDM0NzkxOSwxODM5Nzg2NTk0LC0xNjM1
+NzUxNjI0LDI0Njc1MDE5MF19
 -->
