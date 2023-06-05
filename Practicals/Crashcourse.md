@@ -62,7 +62,7 @@ The **Attributes toolbar** includes some of the most common tools that enable fo
 
 ![Attributes toolbar](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_attributes_toolbar.PNG)
 
- **Adding data in QGIS:** The **Data Source Manager** offers a handy way to add a vector or raster layer. There are also special buttons for different kinds of database layers and interface services. The figure on the below offers a closer look at the tool. Similar functionality can be found in *Layer* \> *Add Layer*.
+ ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_data_source_manager.png)**Adding data in QGIS:** The **Data Source Manager** offers a handy way to add a vector or raster layer. There are also special buttons for different kinds of database layers and interface services. The figure on the below offers a closer look at the tool. Similar functionality can be found in *Layer* \> *Add Layer*.
 
 ![Data Source Manager](https://docs.qgis.org/3.28/en/_images/datasource_manager.png)
 
@@ -120,6 +120,7 @@ For a start, take your time to move around and get acquainted with the basic too
 Managing the **layers** is key in GIS. Right now, the added layers are arbitrarily symbolized and ordered, and do not come out very useful or informative. Thus, we need to get our hands dirty.
 
  1.  Start by **changing the order of the layers** by dragging them in the layers panel on the left side of the map view. A good order, for example, can be as follows from top to bottom: HSL_Helsinki_stops, Helsinki_buildings, Waterbodies, Helsinki_small_areas and Helsinki_Municipality.
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_layers.png)
 
  2.  You can also **change the visibility of the layers** by checking or unchecking the tick boxes next to the layer name or by adjusting **transparency**. The latter can be done under the *Style* tab in the *Layer properties* window, which can be accessed by right-clicking on the layer name and selecting *Properties*. This is also where you can change other style properties such as **symbol size and color**, **layer rendering** or create e.g. **choropleth maps**, but we will look into these in more detail later on.
 
@@ -251,21 +252,21 @@ UGR6ZEhMcXB3S0tOIjp7InN0YXJ0Ijo0MjExLCJlbmQiOjQzMz
 csInRleHQiOiJUaGUgZGF0YSB1c2VkIGluIHRoaXMgY291cnNl
 IHdpbGwgbW9zdGx5IGJlIGluIEVQU0cgMzA2NyAoRVRSUy1UTT
 M1RklOKSwgd2hpY2jigKYifSwieDBONkl5TGtncGNRaUo5OSI6
-eyJzdGFydCI6NTk2MCwiZW5kIjo2MDAzLCJ0ZXh0IjoiTGF5ZX
+eyJzdGFydCI6NjA2OSwiZW5kIjo2MTEyLCJ0ZXh0IjoiTGF5ZX
 JzIGFuZCBCcm93c2VyIHBhbmVscyBpbnRyb2R1Y2VkIGFib3Zl
-LiJ9LCJ6aW9TZFVkOHBjS0ZFQ25SIjp7InN0YXJ0Ijo3OTE4LC
-JlbmQiOjgyMjUsInRleHQiOiJUaGVzZSBkYXRhIHNldHMgYXJl
+LiJ9LCJ6aW9TZFVkOHBjS0ZFQ25SIjp7InN0YXJ0Ijo4MDI3LC
+JlbmQiOjgzMzQsInRleHQiOiJUaGVzZSBkYXRhIHNldHMgYXJl
 IGFsbCBkb3dubG9hZGVkIGZyb20gUGFJVHVsaSBhbmQgSGVsc2
 lua2kgUmVnaW9uIEluZm9zaGFyZSBk4oCmIn0sImFiREEwRUhr
-N08yNDNYN2QiOnsic3RhcnQiOjk4NzYsImVuZCI6OTg4OCwidG
+N08yNDNYN2QiOnsic3RhcnQiOjk5ODUsImVuZCI6OTk5NywidG
 V4dCI6ImxheWVycyBwYW5lbCJ9LCJobGhrZENFbTM0bDNWclRX
-Ijp7InN0YXJ0Ijo5MDIzLCJlbmQiOjkwMjksInRleHQiOiJvYm
-plY3QifSwiRlhmUUZmRjlGWk9OcFlGYSI6eyJzdGFydCI6OTA2
-NCwiZW5kIjo5MDczLCJ0ZXh0IjoiYXR0cmlidXRlIn0sImV2TF
-dZb0FHWDB5dXVJWHMiOnsic3RhcnQiOjE1MTQ3LCJlbmQiOjE1
-MTQ3LCJ0ZXh0IjoiUHJvY2Vzc2luZyBUb29sYm94In0sIlBRWE
-prU3RZMmdzdXZ6NUQiOnsic3RhcnQiOjIwMTg1LCJlbmQiOjIw
-MjA5LCJ0ZXh0IjoiLSBMYXlvdXQgbWFuYWdlciBwaWN0dXJlIn
+Ijp7InN0YXJ0Ijo5MTMyLCJlbmQiOjkxMzgsInRleHQiOiJvYm
+plY3QifSwiRlhmUUZmRjlGWk9OcFlGYSI6eyJzdGFydCI6OTE3
+MywiZW5kIjo5MTgyLCJ0ZXh0IjoiYXR0cmlidXRlIn0sImV2TF
+dZb0FHWDB5dXVJWHMiOnsic3RhcnQiOjE1MzUzLCJlbmQiOjE1
+MzUzLCJ0ZXh0IjoiUHJvY2Vzc2luZyBUb29sYm94In0sIlBRWE
+prU3RZMmdzdXZ6NUQiOnsic3RhcnQiOjIwMzkxLCJlbmQiOjIw
+NDE1LCJ0ZXh0IjoiLSBMYXlvdXQgbWFuYWdlciBwaWN0dXJlIn
 0sInluaDVib1FpT01UaWxaTVciOnsic3RhcnQiOjczLCJlbmQi
 OjE5MSwidGV4dCI6IiFbQ292ZXIgcGljdHVyZV0oaHR0cHM6Ly
 9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3Jvd2FuOGsvZnVu
@@ -326,11 +327,11 @@ JnaDo0MDMwNDc4OCIsInRleHQiOiJnaXRodWIiLCJjcmVhdGVk
 IjoxNjg1OTQ0OTczMzU4fSwiSW14bERrSUI1NFF1c211NSI6ey
 JkaXNjdXNzaW9uSWQiOiJhYkRBMEVIazdPMjQzWDdkIiwic3Vi
 IjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiZ2l0aHViIiwiY3JlYX
-RlZCI6MTY4NTk0NTUzNDY2Mn19LCJoaXN0b3J5IjpbLTEyMzE4
-Mzg0NDgsMTUxMDIzNDc5NSwyMzg1MzE0NDUsLTExNDY5NTE0Mj
-EsMjAyMTk4ODA1MiwtMTcyMzg5NDk5NCw4MzcyMzM3NywtMTkz
-ODkxNjYxMiwxMjA4MDczMDg1LC0yMDk4NzEwODQzLDE1MTQzND
-c5MTksMTgzOTc4NjU5NCwtMTYzNTc1MTYyNCwyNDY3NTAxOTAs
-MTQ5NzQ3MTAxNywxMjQ1NDU3Mjk5LDEyMTc0MzY3NjIsNjgxMT
-g0ODc0LC0xODE5MDAxODcxLC00NzcwMDIyMzRdfQ==
+RlZCI6MTY4NTk0NTUzNDY2Mn19LCJoaXN0b3J5IjpbLTE0Njgy
+MTQxMDEsLTEyMzE4Mzg0NDgsMTUxMDIzNDc5NSwyMzg1MzE0ND
+UsLTExNDY5NTE0MjEsMjAyMTk4ODA1MiwtMTcyMzg5NDk5NCw4
+MzcyMzM3NywtMTkzODkxNjYxMiwxMjA4MDczMDg1LC0yMDk4Nz
+EwODQzLDE1MTQzNDc5MTksMTgzOTc4NjU5NCwtMTYzNTc1MTYy
+NCwyNDY3NTAxOTAsMTQ5NzQ3MTAxNywxMjQ1NDU3Mjk5LDEyMT
+c0MzY3NjIsNjgxMTg0ODc0LC0xODE5MDAxODcxXX0=
 -->
