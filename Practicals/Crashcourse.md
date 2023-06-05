@@ -182,8 +182,8 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 	1. Check if the *Processing Toolbox* is active in the top right of the main QGIS window, if not open it by selecting *Processing* > *Toolbox* from the top of the window
 	2. Type “Join attributes by location” into the search bar. Select the one that has (Summary) after it.
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_join_attributes_by_location.png)
-	4. The parameter window for the algorithm opens and here you have to specify what the algorithm does and with what data
-	5. Set the follow values:
+	3. The parameter window for the algorithm opens and here you have to specify what the algorithm does and with what data
+	4. Set the follow values:
 	- *Base layer*: Helsinki_small_areas
 	- *Join layer*: HSL_Helsinki_stops
 	- *Geometric predicate*: contains (What do you think the other options mean?)
@@ -191,9 +191,7 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 	- *Summaries to calculate*: *Sum*
 	- *Discard records which could not be joined*: Yes
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_join_attributes_by_location1.png)
-	6. Click *Run*
-- Join attributes by Location pictures
-
+	5. Click *Run*
 	6. A new temporary layer, Joined Layer, was created in the *Layers Panel* and by opening its *attribute table* you should see it’s similar to the Helsinki_small_areas attribute table, but with a new field, "Boardings_sum", which is the sum of all the passengers from every bus and train stop within that particular small area of Helsinki.
 	7. Right-click the Joined Layer and select *Make permanent* to save the temporary scratch layer for further processing
 	- Temporary layers will be lost when closing QGIS and are best not used for further processing
@@ -275,15 +273,15 @@ InRleHQiOiJvYmplY3QifSwiRlhmUUZmRjlGWk9OcFlGYSI6ey
 JzdGFydCI6ODk2NSwiZW5kIjo4OTc0LCJ0ZXh0IjoiYXR0cmli
 dXRlIn0sImV2TFdZb0FHWDB5dXVJWHMiOnsic3RhcnQiOjE1MD
 MwLCJlbmQiOjE1MDQ4LCJ0ZXh0IjoiUHJvY2Vzc2luZyBUb29s
-Ym94In0sIkljZEZ0Z0pRYlBCTUdOakMiOnsic3RhcnQiOjE5MD
-M2LCJlbmQiOjE5MDg0LCJ0ZXh0IjoiY3R1cmUgb2YgY3VycmVu
+Ym94In0sIkljZEZ0Z0pRYlBCTUdOakMiOnsic3RhcnQiOjE4OT
+k2LCJlbmQiOjE5MDQ0LCJ0ZXh0IjoiY3R1cmUgb2YgY3VycmVu
 dCBhdHRyaWJ1dGUgdGFibGUgd2l0aCBuZXcgZmllbGRzIn0sIl
-BRWEprU3RZMmdzdXZ6NUQiOnsic3RhcnQiOjIwMDc0LCJlbmQi
-OjIwMDk4LCJ0ZXh0IjoiLSBMYXlvdXQgbWFuYWdlciBwaWN0dX
-JlIn0sImxTV2plN2dQNnJsSW5nYXkiOnsic3RhcnQiOjIwOTQ3
-LCJlbmQiOjIwOTU2LCJ0ZXh0IjoiTW92ZSBpdGVtIn0sIll5Wl
-RhZFJwcEtyZTEyUFQiOnsic3RhcnQiOjIxMDU4LCJlbmQiOjIx
-MDc1LCJ0ZXh0IjoiTW92ZSBpdGVtIGNvbnRlbnQifSwieW5oNW
+BRWEprU3RZMmdzdXZ6NUQiOnsic3RhcnQiOjIwMDM0LCJlbmQi
+OjIwMDU4LCJ0ZXh0IjoiLSBMYXlvdXQgbWFuYWdlciBwaWN0dX
+JlIn0sImxTV2plN2dQNnJsSW5nYXkiOnsic3RhcnQiOjIwOTA3
+LCJlbmQiOjIwOTE2LCJ0ZXh0IjoiTW92ZSBpdGVtIn0sIll5Wl
+RhZFJwcEtyZTEyUFQiOnsic3RhcnQiOjIxMDE4LCJlbmQiOjIx
+MDM1LCJ0ZXh0IjoiTW92ZSBpdGVtIGNvbnRlbnQifSwieW5oNW
 JvUWlPTVRpbFpNVyI6eyJzdGFydCI6NzYsImVuZCI6MTk0LCJ0
 ZXh0IjoiIVtDb3ZlciBwaWN0dXJlXShodHRwczovL3Jhdy5naX
 RodWJ1c2VyY29udGVudC5jb20vcm93YW44ay9mdW5kYW1lbnRh
@@ -371,8 +369,8 @@ aDo0MDMwNDc4OCIsInRleHQiOiJnaXRodWIiLCJjcmVhdGVkIj
 oxNjg1OTQ3ODM3NjQ3fSwiTDZHWUMzN1hOM3lKb2I1OCI6eyJk
 aXNjdXNzaW9uSWQiOiJZeVpUYWRScHBLcmUxMlBUIiwic3ViIj
 oiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiZ2l0aHViIiwiY3JlYXRl
-ZCI6MTY4NTk0Nzg0NDUzOX19LCJoaXN0b3J5IjpbLTEyMTExND
-A2NiwyMzg1MzE0NDUsLTExNDY5NTE0MjEsMjAyMTk4ODA1Miwt
+ZCI6MTY4NTk0Nzg0NDUzOX19LCJoaXN0b3J5IjpbMTAxNTQ3Mz
+MxMCwyMzg1MzE0NDUsLTExNDY5NTE0MjEsMjAyMTk4ODA1Miwt
 MTcyMzg5NDk5NCw4MzcyMzM3NywtMTkzODkxNjYxMiwxMjA4MD
 czMDg1LC0yMDk4NzEwODQzLDE1MTQzNDc5MTksMTgzOTc4NjU5
 NCwtMTYzNTc1MTYyNCwyNDY3NTAxOTAsMTQ5NzQ3MTAxNywxMj
