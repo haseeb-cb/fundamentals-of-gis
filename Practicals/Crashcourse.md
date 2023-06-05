@@ -224,13 +224,10 @@ The last phase of this practical will concentrate on creating a map output.
 
 3. A proper map should always have at least these three elements: a **north arrow**, a **scale bar** and a **legend**. All of these can be found in QGIS under the Layout-tab or the left hand-side toolbar in the Print layout. Add the mentioned elements to your map and visualize them as desired.
 		
-	1. **Adding a label**: You can change the default text as well as the font and colors of the label from the Item properties window in the lower right corner.
+	1.![](https://docs.qgis.org/3.28/en/_images/mActionLabel.png) **Adding a label**: You can change the default text as well as the font and colors of the label from the Item properties window in the lower right corner.
 	2. **Adding a scale bar**: Click where you want to add it and customize it as desired. The size and the colors can be modified from the right-side Item properties panel.
 	3. **Adding a legend**: You probably have to modify the legend a bit so that it looks informative on the map. The modification can be done from the Item properties. For example, delete the unnecessary items from your legend by clicking the minus symbol (tick the Auto update box off first).
 	4. **Adding a North arrow or an image**: To do this, press Add North Arrow and click on the layout. If you want to modify the look of the arrow, go to Item properties and open the Search directories tab (see the picture on the right). Click on the desired arrow.
-	5. **Adding a legend**: You probably have to modify the legend a bit so that it looks informative on the map. The modification can be done from the Item properties. For example, delete the unnecessary items from your legend by clicking the minus symbol (tick the Auto update box off first).
-	6. **Adding a North arrow or an image**: To do this, press Add North Arrow and click on the layout.
-If you want to modify the look of the arrow, go to Item properties and open the Search directories tab (see the picture on the right). Click on the desired arrow.
 
 4. Once you are satisfied with your map, **save the project** and go to *Layout* > *Export as image* to **save your layout as an image file**. If you want to adjust the export resolution (default is 300 dpi, higher value = higher resolution image and larger file size), you can do that prior to exporting from the Layout panel. **Save your map under your course folder and submit the finished map on Moodle.**
 
@@ -303,7 +300,7 @@ ImxTV2plN2dQNnJsSW5nYXkiOnsic3RhcnQiOjE5ODgyLCJlbm
 QiOjE5ODkxLCJ0ZXh0IjoiTW92ZSBpdGVtIn0sIll5WlRhZFJw
 cEtyZTEyUFQiOnsic3RhcnQiOjE5OTkzLCJlbmQiOjIwMDEwLC
 J0ZXh0IjoiTW92ZSBpdGVtIGNvbnRlbnQifSwiSnhDQVRjYndt
-MlAwMjQ4MCI6eyJzdGFydCI6MjA1ODksImVuZCI6MjIwMjYsIn
+MlAwMjQ4MCI6eyJzdGFydCI6MjA2NDgsImVuZCI6MjE1MzAsIn
 RleHQiOiIqKkFkZGluZyBhIGxhYmVsKio6IFlvdSBjYW4gY2hh
 bmdlIHRoZSBkZWZhdWx0IHRleHQgYXMgd2VsbCBhcyB0aGUgZm
 9udCBhbmQgY29s4oCmIn0sInluaDVib1FpT01UaWxaTVciOnsi
@@ -453,12 +450,11 @@ dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJnaXRodWIiLCJjcm
 VhdGVkIjoxNjg1OTQ3ODM3NjQ3fSwiTDZHWUMzN1hOM3lKb2I1
 OCI6eyJkaXNjdXNzaW9uSWQiOiJZeVpUYWRScHBLcmUxMlBUIi
 wic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiZ2l0aHViIiwi
-Y3JlYXRlZCI6MTY4NTk0Nzg0NDUzOX19LCJoaXN0b3J5IjpbLT
-EwODQxMTMxMDIsLTExNDY5NTE0MjEsMjAyMTk4ODA1MiwtMTcy
-Mzg5NDk5NCw4MzcyMzM3NywtMTkzODkxNjYxMiwxMjA4MDczMD
-g1LC0yMDk4NzEwODQzLDE1MTQzNDc5MTksMTgzOTc4NjU5NCwt
-MTYzNTc1MTYyNCwyNDY3NTAxOTAsMTQ5NzQ3MTAxNywxMjQ1ND
-U3Mjk5LDEyMTc0MzY3NjIsNjgxMTg0ODc0LC0xODE5MDAxODcx
-LC00NzcwMDIyMzQsLTE2NDc1NjczNzIsLTE2NjM3NDA0MTJdfQ
-==
+Y3JlYXRlZCI6MTY4NTk0Nzg0NDUzOX19LCJoaXN0b3J5IjpbMT
+g4MTc0MjUzNywtMTE0Njk1MTQyMSwyMDIxOTg4MDUyLC0xNzIz
+ODk0OTk0LDgzNzIzMzc3LC0xOTM4OTE2NjEyLDEyMDgwNzMwOD
+UsLTIwOTg3MTA4NDMsMTUxNDM0NzkxOSwxODM5Nzg2NTk0LC0x
+NjM1NzUxNjI0LDI0Njc1MDE5MCwxNDk3NDcxMDE3LDEyNDU0NT
+cyOTksMTIxNzQzNjc2Miw2ODExODQ4NzQsLTE4MTkwMDE4NzEs
+LTQ3NzAwMjIzNCwtMTY0NzU2NzM3MiwtMTY2Mzc0MDQxMl19
 -->
