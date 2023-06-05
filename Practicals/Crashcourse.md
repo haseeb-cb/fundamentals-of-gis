@@ -67,10 +67,9 @@ The **Attributes toolbar** includes some of the most common tools that enable fo
 
 ![Attributes toolbar](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_attributes_toolbar.PNG)
 
- ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_data_source_manager.png)**Adding data in QGIS:** The **Data Source Manager** offers a handy way to add a vector or raster layer. There are also special buttons for different kinds of database layers and interface services. The figure on the below offers a closer look at the tool. Similar functionality can be found in *Layer* \> *Add Layer*.
+ ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_data_source_manager.png) **Adding data in QGIS:** The **Data Source Manager** offers a handy way to add a vector or raster layer. There are also special buttons for different kinds of database layers and interface services. The figure on the below offers a closer look at the tool. Similar functionality can be found in *Layer* \> *Add Layer*.
 
 ![Data Source Manager](https://docs.qgis.org/3.28/en/_images/datasource_manager.png)
-
 If you want to create new empty layers, go to *Layer* \> *Create Layer*.
 
 **Panels** offer a single major function. Similarly, to toolbars, they can be toggled from *View* \> *Panels*. Below is an example of three panels (Browser, Layer Style and Statistics) on top of each other.
@@ -298,11 +297,11 @@ aWdodCB0byBqYWlsIiwiY3JlYXRlZCI6MTY4NTk0NDA3NDk2NX
 0sIkMySHlZR1ZBMWJ3ZVY4YkYiOnsiZGlzY3Vzc2lvbklkIjoi
 WWJZUW02bGpVNDJmeTZQNiIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
 widGV4dCI6IlVwZGF0ZSBpbWFnZSIsImNyZWF0ZWQiOjE2ODU5
-NTUzMzQ2MzF9fSwiaGlzdG9yeSI6Wy0xODIxNzEyODQ4LDY2OT
-I0MDIxNSwtMjAzMjQxNDU3MCwzMDYxNDE3NDQsNjk4MzYzODI5
-LC0zNTQ3NjY4MjEsLTEyMzE4Mzg0NDgsMTUxMDIzNDc5NSwyMz
-g1MzE0NDUsLTExNDY5NTE0MjEsMjAyMTk4ODA1MiwtMTcyMzg5
-NDk5NCw4MzcyMzM3NywtMTkzODkxNjYxMiwxMjA4MDczMDg1LC
-0yMDk4NzEwODQzLDE1MTQzNDc5MTksMTgzOTc4NjU5NCwtMTYz
-NTc1MTYyNCwyNDY3NTAxOTBdfQ==
+NTUzMzQ2MzF9fSwiaGlzdG9yeSI6WzUwNjg5OTI0Niw2NjkyND
+AyMTUsLTIwMzI0MTQ1NzAsMzA2MTQxNzQ0LDY5ODM2MzgyOSwt
+MzU0NzY2ODIxLC0xMjMxODM4NDQ4LDE1MTAyMzQ3OTUsMjM4NT
+MxNDQ1LC0xMTQ2OTUxNDIxLDIwMjE5ODgwNTIsLTE3MjM4OTQ5
+OTQsODM3MjMzNzcsLTE5Mzg5MTY2MTIsMTIwODA3MzA4NSwtMj
+A5ODcxMDg0MywxNTE0MzQ3OTE5LDE4Mzk3ODY1OTQsLTE2MzU3
+NTE2MjQsMjQ2NzUwMTkwXX0=
 -->
