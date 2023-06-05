@@ -25,7 +25,6 @@ If you have time after that, try out the second part! They will introduce joinin
 **Note:** If you have not yet downloaded QGIS, do so now from this link: <https://www.qgis.org/en/site/forusers/download.html> See QGIS installation instructions for details.
 
 
-
 ## The basics of QGIS
 
 ### Getting started with QGIS
@@ -70,12 +69,12 @@ If you want to create new empty layers, go to *Layer* \> *Create Layer*.
 
 **Panels** offer a single major function. Similarly, to toolbars, they can be toggled from *View* \> *Panels*. Below is an example of three panels (Browser, Layer Style and Statistics) on top of each other.
 
-![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_panels.png)
 The *Browser panel* is a tool for browsing, searching, inspecting, copying and loading QGIS resources. Using the Browser panel you can locate, inspect and add data. 
-- Browser panel picture
-
-The *Layer panel* lists all the layers in the project and helps you manage their visibility and shape the map. You can access the layers by right clicking them, and toggle their vissibility by toggling the check box in the layer panel. 
-- Layer panel picture
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_browser_panel.png)
+The *Layer panel* lists all the layers in the project and helps you manage their visibility and shape the map. You can access the layers by right clicking them, and toggle their visibility by toggling the check box in the layer panel. 
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_layer_panel.png)
+The *Processing Toolbox* shows the list of all available **algorithms** grouped in different blocks called _Providers_, and custom **models** and **scripts** you can add to extend the set of tools. Hence the toolbox is the access point to run them, whether as a single process or as a batch process involving several executions of the same algorithm on different sets of inputs.
+![](https://docs.qgis.org/3.4/en/_images/toolbox3.png)
 
 ### 1.3 Plugins
 
@@ -102,7 +101,6 @@ In order to get a proper touch of QGIS and how the different tools work, we will
 2.  Select *Vector* from the menu
 3.  Press the “…” button next to the *Vector Dataset(s)* field
 4.  Navigate to the folder where you saved the data for this practical and select the following files from the folder (Click + Ctrl to select multiple items):
-    
     1.  Helsinki_small_areas.shp
     2.  Helsinki_Municipality.shp
     3.  Helsinki_buildings.shp
@@ -126,7 +124,6 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 
  1.  Start by **changing the order of the layers** by dragging them in the layers panel on the left side of the map view. A good order, for example, can be as follows from top to bottom: HSL_Helsinki_stops, Helsinki_buildings, Waterbodies, Helsinki_small_areas and Helsinki_Municipality.
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_layers.png)
-
  2.  You can also **change the visibility of the layers** by checking or unchecking the tick boxes next to the layer name or by adjusting **transparency**. The latter can be done under the *Style* tab in the *Layer properties* window, which can be accessed by right-clicking on the layer name and selecting *Properties*. This is also where you can change other style properties such as **symbol size and color**, **layer rendering** or create e.g. **choropleth maps**, but we will look into these in more detail later on.
 
  In addition to editing a layer’s style properties, the Layer properties window can also be used for e.g. examining the **layer’s general information** such as its coordinate system and source, adding **labels** to the map as well as managing **joins** and layer **metadata**.
@@ -163,7 +160,7 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	 5. Set the *Output field type* to *Decimal number (real)*, and *Output field length* to 10 and 2 (try the other options and look how this changes the preview value)Click *OK*
 	 6. Finally, click the *Save Edits* button ![](https://docs.qgis.org/3.28/en/_images/mActionSaveEdits.png) and disable *Editing* mode ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png) to make the changes permanent
 
- 7.  **Using the field we just created in the attribute table, explore the small areas of Helsinki**, which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*.Alternatively you can find tools from the *Processing Toolbox*.
+ 7.  **Using the field we just created in the attribute table, explore the small areas of Helsinki**, which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_select_by_expression1.png)
  
 	 1. Open the *Field and Values* drop-down menu, which will show all the attribute fields
@@ -248,87 +245,63 @@ The last phase of this practical will concentrate on creating a map output.
  
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJLMjRpODd1c0ttRlpVUklKIjp7In
-N0YXJ0IjoxNTQ1LCJlbmQiOjE1NTcsInRleHQiOiItICAgRmln
+N0YXJ0IjoxNTQ0LCJlbmQiOjE1NTYsInRleHQiOiItICAgRmln
 dXJlIDEifSwiV2pRZ1NtVkNWTzBZdlY5QiI6eyJzdGFydCI6Mj
-E5MiwiZW5kIjoyMjgwLCJ0ZXh0IjoiUmVtZW1iZXIgdG8gc2F2
+E5MSwiZW5kIjoyMjc5LCJ0ZXh0IjoiUmVtZW1iZXIgdG8gc2F2
 ZSB5b3VyIHByb2plY3RzIG9mdGVuIHRvIHByZXZlbnQgd29yay
 Bmcm9tIGJlaW5nIGxvc3QgaW4gY2FzZSBvZuKApiJ9LCJOOGNo
-UGR6ZEhMcXB3S0tOIjp7InN0YXJ0Ijo0MTU1LCJlbmQiOjQyOD
-EsInRleHQiOiJUaGUgZGF0YSB1c2VkIGluIHRoaXMgY291cnNl
+UGR6ZEhMcXB3S0tOIjp7InN0YXJ0Ijo0MTU0LCJlbmQiOjQyOD
+AsInRleHQiOiJUaGUgZGF0YSB1c2VkIGluIHRoaXMgY291cnNl
 IHdpbGwgbW9zdGx5IGJlIGluIEVQU0cgMzA2NyAoRVRSUy1UTT
 M1RklOKSwgd2hpY2jigKYifSwiemlvU2RVZDhwY0tGRUNuUiI6
-eyJzdGFydCI6ODM2OCwiZW5kIjo4Njc1LCJ0ZXh0IjoiVGhlc2
+eyJzdGFydCI6ODgyOSwiZW5kIjo5MTM2LCJ0ZXh0IjoiVGhlc2
 UgZGF0YSBzZXRzIGFyZSBhbGwgZG93bmxvYWRlZCBmcm9tIFBh
 SVR1bGkgYW5kIEhlbHNpbmtpIFJlZ2lvbiBJbmZvc2hhcmUgZO
-KApiJ9LCJobGhrZENFbTM0bDNWclRXIjp7InN0YXJ0Ijo5NDcz
-LCJlbmQiOjk0NzksInRleHQiOiJvYmplY3QifSwiRlhmUUZmRj
-lGWk9OcFlGYSI6eyJzdGFydCI6OTUxNCwiZW5kIjo5NTIzLCJ0
-ZXh0IjoiYXR0cmlidXRlIn0sImV2TFdZb0FHWDB5dXVJWHMiOn
-sic3RhcnQiOjE1Njk0LCJlbmQiOjE1Njk0LCJ0ZXh0IjoiUHJv
-Y2Vzc2luZyBUb29sYm94In0sIlBRWEprU3RZMmdzdXZ6NUQiOn
-sic3RhcnQiOjIwNzMyLCJlbmQiOjIwNzU2LCJ0ZXh0IjoiLSBM
-YXlvdXQgbWFuYWdlciBwaWN0dXJlIn0sInluaDVib1FpT01UaW
-xaTVciOnsic3RhcnQiOjczLCJlbmQiOjE5MSwidGV4dCI6IiFb
-Q292ZXIgcGljdHVyZV0oaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcm
-NvbnRlbnQuY29tL3Jvd2FuOGsvZnVuZGFtZW50YWxzLW9mLWdp
-cy/igKYifSwibjByNnVaWGJLSVkwS01pWSI6eyJzdGFydCI6Nj
-Q2MywiZW5kIjo2NDg0LCJ0ZXh0IjoiQnJvd3NlciBwYW5lbCBw
-aWN0dXJlIn0sIm1iWVllQnJOM2g2SEJFTUYiOnsic3RhcnQiOj
-Y3MjUsImVuZCI6Njc0NCwidGV4dCI6IkxheWVyIHBhbmVsIHBp
-Y3R1cmUifX0sImNvbW1lbnRzIjp7InVQS3RESlpZNUNBVWt3Tk
-EiOnsiZGlzY3Vzc2lvbklkIjoiSzI0aTg3dXNLbUZaVVJJSiIs
-InN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dX
-JlIiwiY3JlYXRlZCI6MTY4NTc4MzA0ODM4OX0sIjlSWk9CdFRp
-Q1JPbjZNNXIiOnsiZGlzY3Vzc2lvbklkIjoiV2pRZ1NtVkNWTz
-BZdlY5QiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFk
-ZCBtZW1lIiwiY3JlYXRlZCI6MTY4NTc4MzA4Mzk1MX0sIktIQ1
-ZwM3M0TURDdjJXaXQiOnsiZGlzY3Vzc2lvbklkIjoiTjhjaFBk
-emRITHFwd0tLTiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dC
-I6IkNvbWUgYmFjayB0byBjaGVjayBpZiBhY2N1cmF0ZSIsImNy
-ZWF0ZWQiOjE2ODU3ODMyMjg2Mzd9LCI3UkVPZUhBb1pPWXVSQ2
-JZIjp7ImRpc2N1c3Npb25JZCI6Inppb1NkVWQ4cGNLRkVDblIi
-LCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJNYWtlIHN0dW
-RlbnRzIGdhdGhlciB0aGUgZGF0YSB0aGVtc2VsdmVzIiwiY3Jl
-YXRlZCI6MTY4NTc4MzQ5MDUzM30sIkJNeFhHSTJYQkRvaUJWNV
-QiOnsiZGlzY3Vzc2lvbklkIjoiemlvU2RVZDhwY0tGRUNuUiIs
-InN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Im9yIGFkZCBsaW
-5rcyIsImNyZWF0ZWQiOjE2ODU3ODM1MDYxMTd9LCJDSGZSVlN5
-bkpCTHZaSkVRIjp7ImRpc2N1c3Npb25JZCI6ImhsaGtkQ0VtMz
-RsM1ZyVFciLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJX
-aGF0IGFyZSBvYmplY3RzPyIsImNyZWF0ZWQiOjE2ODU3ODM2MD
-UwMjF9LCJtMEdESkZaQXhCakxxc1VFIjp7ImRpc2N1c3Npb25J
-ZCI6IkZYZlFGZkY5RlpPTnBZRmEiLCJzdWIiOiJnaDo0MDMwND
-c4OCIsInRleHQiOiJXaGF0IGlzIGF0dHJpYnV0ZSBkYXRhPyIs
-ImNyZWF0ZWQiOjE2ODU3ODM2MTQwMzd9LCJrZ0pFWUQ2WnZacj
-QzMEd1Ijp7ImRpc2N1c3Npb25JZCI6ImV2TFdZb0FHWDB5dXVJ
-WHMiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgaW
-50cm9kdWN0aW9uIHRvIHRoaXM/IiwiY3JlYXRlZCI6MTY4NTc4
-NjYyODA3Nn0sIkFYY2JVV3h0NzdHRE95WEYiOnsiZGlzY3Vzc2
-lvbklkIjoiZXZMV1lvQUdYMHl1dUlYcyIsInN1YiI6ImdoOjQw
-MzA0Nzg4IiwidGV4dCI6IkVhcmxpZXIgaW4gY3Jhc2ggY291cn
-NlLCBhZGQgZXhhbXBsZXMgb2YgdG9vbHMgYW5kIGhvdyB0aGV5
-IHdvcmsiLCJjcmVhdGVkIjoxNjg1Nzg3ODk5MDU5fSwiMDFDaU
-Y4aUc4b3QzYWIxbiI6eyJkaXNjdXNzaW9uSWQiOiJQUVhKa1N0
-WTJnc3V2ejVEIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ij
-oiQWRkIGltYWdlIiwiY3JlYXRlZCI6MTY4NTc5MDMyMzgwOX0s
-IjU3TFhqU3pIc3phSGNoSlUiOnsiZGlzY3Vzc2lvbklkIjoieW
-5oNWJvUWlPTVRpbFpNVyIsInN1YiI6ImdoOjQwMzA0Nzg4Iiwi
-dGV4dCI6IlVwZGF0ZSBjb3ZlciBwaWN0dXJlIiwiY3JlYXRlZC
-I6MTY4NTk0MzU4NzM1OH0sIlBWYWEyeWR4VHk4RUN3VGoiOnsi
-ZGlzY3Vzc2lvbklkIjoiV2pRZ1NtVkNWTzBZdlY5QiIsInN1Yi
-I6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlN0cmFpZ2h0IHRvIGph
-aWwiLCJjcmVhdGVkIjoxNjg1OTQ0MDc0OTY1fSwiYnFmTjRFcl
-NKY0t6a09hYiI6eyJkaXNjdXNzaW9uSWQiOiJuMHI2dVpYYktJ
-WTBLTWlZIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQW
-QgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1OTUxNzM3OTQzfSwiRkdM
-NE5INVJRUFRwNFgyNCI6eyJkaXNjdXNzaW9uSWQiOiJtYllZZU
-JyTjNoNkhCRU1GIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0
-IjoiQWRkIGltYWdlIiwiY3JlYXRlZCI6MTY4NTk1MTkyNTE2MX
-19LCJoaXN0b3J5IjpbNjk4MzYzODI5LC0zNTQ3NjY4MjEsLTEy
-MzE4Mzg0NDgsMTUxMDIzNDc5NSwyMzg1MzE0NDUsLTExNDY5NT
-E0MjEsMjAyMTk4ODA1MiwtMTcyMzg5NDk5NCw4MzcyMzM3Nywt
-MTkzODkxNjYxMiwxMjA4MDczMDg1LC0yMDk4NzEwODQzLDE1MT
-QzNDc5MTksMTgzOTc4NjU5NCwtMTYzNTc1MTYyNCwyNDY3NTAx
-OTAsMTQ5NzQ3MTAxNywxMjQ1NDU3Mjk5LDEyMTc0MzY3NjIsNj
-gxMTg0ODc0XX0=
+KApiJ9LCJQUVhKa1N0WTJnc3V2ejVEIjp7InN0YXJ0IjoyMTE5
+MywiZW5kIjoyMTIxNywidGV4dCI6Ii0gTGF5b3V0IG1hbmFnZX
+IgcGljdHVyZSJ9LCJ5bmg1Ym9RaU9NVGlsWk1XIjp7InN0YXJ0
+Ijo3MywiZW5kIjoxOTEsInRleHQiOiIhW0NvdmVyIHBpY3R1cm
+VdKGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9y
+b3dhbjhrL2Z1bmRhbWVudGFscy1vZi1naXMv4oCmIn0sIlliWV
+FtNmxqVTQyZnk2UDYiOnsic3RhcnQiOjY2NzUsImVuZCI6Njc3
+NiwidGV4dCI6IiFbXShodHRwczovL3Jhdy5naXRodWJ1c2VyY2
+9udGVudC5jb20vcm93YW44ay9mdW5kYW1lbnRhbHMtb2YtZ2lz
+L21hc3Rlci9Bc3NldHPigKYifX0sImNvbW1lbnRzIjp7InVQS3
+RESlpZNUNBVWt3TkEiOnsiZGlzY3Vzc2lvbklkIjoiSzI0aTg3
+dXNLbUZaVVJJSiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dC
+I6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NTc4MzA0ODM4
+OX0sIjlSWk9CdFRpQ1JPbjZNNXIiOnsiZGlzY3Vzc2lvbklkIj
+oiV2pRZ1NtVkNWTzBZdlY5QiIsInN1YiI6ImdoOjQwMzA0Nzg4
+IiwidGV4dCI6IkFkZCBtZW1lIiwiY3JlYXRlZCI6MTY4NTc4Mz
+A4Mzk1MX0sIktIQ1ZwM3M0TURDdjJXaXQiOnsiZGlzY3Vzc2lv
+bklkIjoiTjhjaFBkemRITHFwd0tLTiIsInN1YiI6ImdoOjQwMz
+A0Nzg4IiwidGV4dCI6IkNvbWUgYmFjayB0byBjaGVjayBpZiBh
+Y2N1cmF0ZSIsImNyZWF0ZWQiOjE2ODU3ODMyMjg2Mzd9LCI3Uk
+VPZUhBb1pPWXVSQ2JZIjp7ImRpc2N1c3Npb25JZCI6Inppb1Nk
+VWQ4cGNLRkVDblIiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleH
+QiOiJNYWtlIHN0dWRlbnRzIGdhdGhlciB0aGUgZGF0YSB0aGVt
+c2VsdmVzIiwiY3JlYXRlZCI6MTY4NTc4MzQ5MDUzM30sIkJNeF
+hHSTJYQkRvaUJWNVQiOnsiZGlzY3Vzc2lvbklkIjoiemlvU2RV
+ZDhwY0tGRUNuUiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dC
+I6Im9yIGFkZCBsaW5rcyIsImNyZWF0ZWQiOjE2ODU3ODM1MDYx
+MTd9LCIwMUNpRjhpRzhvdDNhYjFuIjp7ImRpc2N1c3Npb25JZC
+I6IlBRWEprU3RZMmdzdXZ6NUQiLCJzdWIiOiJnaDo0MDMwNDc4
+OCIsInRleHQiOiJBZGQgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nz
+kwMzIzODA5fSwiNTdMWGpTekhzemFIY2hKVSI6eyJkaXNjdXNz
+aW9uSWQiOiJ5bmg1Ym9RaU9NVGlsWk1XIiwic3ViIjoiZ2g6ND
+AzMDQ3ODgiLCJ0ZXh0IjoiVXBkYXRlIGNvdmVyIHBpY3R1cmUi
+LCJjcmVhdGVkIjoxNjg1OTQzNTg3MzU4fSwiUFZhYTJ5ZHhUeT
+hFQ3dUaiI6eyJkaXNjdXNzaW9uSWQiOiJXalFnU21WQ1ZPMFl2
+VjlCIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiU3RyYW
+lnaHQgdG8gamFpbCIsImNyZWF0ZWQiOjE2ODU5NDQwNzQ5NjV9
+LCJDMkh5WUdWQTFid2VWOGJGIjp7ImRpc2N1c3Npb25JZCI6Il
+liWVFtNmxqVTQyZnk2UDYiLCJzdWIiOiJnaDo0MDMwNDc4OCIs
+InRleHQiOiJVcGRhdGUgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1OT
+U1MzM0NjMxfX0sImhpc3RvcnkiOls2NjkyNDAyMTUsLTIwMzI0
+MTQ1NzAsMzA2MTQxNzQ0LDY5ODM2MzgyOSwtMzU0NzY2ODIxLC
+0xMjMxODM4NDQ4LDE1MTAyMzQ3OTUsMjM4NTMxNDQ1LC0xMTQ2
+OTUxNDIxLDIwMjE5ODgwNTIsLTE3MjM4OTQ5OTQsODM3MjMzNz
+csLTE5Mzg5MTY2MTIsMTIwODA3MzA4NSwtMjA5ODcxMDg0Mywx
+NTE0MzQ3OTE5LDE4Mzk3ODY1OTQsLTE2MzU3NTE2MjQsMjQ2Nz
+UwMTkwLDE0OTc0NzEwMTddfQ==
 -->
