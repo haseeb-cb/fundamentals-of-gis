@@ -45,6 +45,8 @@ Start by setting the **default language** in QGIS to English (if it isn’t alre
 
 The state of a working session in QGIS is called a **project**. Similarly, to a e.g., a workspace in ArcGIS, a project is considered the ensemble of layers, projections, table relations and other properties, such as symbols and styles, of a specific session. Remember to save your projects often to prevent work from being lost in case of a crash. Also note that project files do not contain geospatial data, they merely contain information on where the program will find it.
 
+![meme](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_save_meme.jpg)
+
 *Here a few basic functions that are worth knowing before starting to play around with data and layers:*
 
 ![Save icon](https://docs.qgis.org/3.28/en/_images/mActionFileSave.png) **Saving in QGIS**: You can save your project by clicking either the *save* ![](https://docs.qgis.org/3.28/en/_images/mActionFileSave.png) or the *save as* icon. You can also use the keyboard shortcut *Ctrl + S* (or *Command + S*) or go to *Project* \> *Save*. The file format of a project file is \*.qgs
@@ -264,21 +266,21 @@ eyJkaXNjdXNzaW9ucyI6eyJXalFnU21WQ1ZPMFl2VjlCIjp7In
 N0YXJ0IjoyNDA2LCJlbmQiOjI0OTQsInRleHQiOiJSZW1lbWJl
 ciB0byBzYXZlIHlvdXIgcHJvamVjdHMgb2Z0ZW4gdG8gcHJldm
 VudCB3b3JrIGZyb20gYmVpbmcgbG9zdCBpbiBjYXNlIG9m4oCm
-In0sIk44Y2hQZHpkSExxcHdLS04iOnsic3RhcnQiOjQzNjksIm
-VuZCI6NDQ5NSwidGV4dCI6IlRoZSBkYXRhIHVzZWQgaW4gdGhp
+In0sIk44Y2hQZHpkSExxcHdLS04iOnsic3RhcnQiOjQ0NzQsIm
+VuZCI6NDYwMCwidGV4dCI6IlRoZSBkYXRhIHVzZWQgaW4gdGhp
 cyBjb3Vyc2Ugd2lsbCBtb3N0bHkgYmUgaW4gRVBTRyAzMDY3IC
 hFVFJTLVRNMzVGSU4pLCB3aGljaOKApiJ9LCJ6aW9TZFVkOHBj
-S0ZFQ25SIjp7InN0YXJ0Ijo5MDUxLCJlbmQiOjkzNTgsInRleH
+S0ZFQ25SIjp7InN0YXJ0Ijo5MTU2LCJlbmQiOjk0NjMsInRleH
 QiOiJUaGVzZSBkYXRhIHNldHMgYXJlIGFsbCBkb3dubG9hZGVk
 IGZyb20gUGFJVHVsaSBhbmQgSGVsc2lua2kgUmVnaW9uIEluZm
 9zaGFyZSBk4oCmIn0sIlBRWEprU3RZMmdzdXZ6NUQiOnsic3Rh
-cnQiOjIxNDIxLCJlbmQiOjIxNDQ1LCJ0ZXh0IjoiLSBMYXlvdX
+cnQiOjIxNTI2LCJlbmQiOjIxNTUwLCJ0ZXh0IjoiLSBMYXlvdX
 QgbWFuYWdlciBwaWN0dXJlIn0sInluaDVib1FpT01UaWxaTVci
 Onsic3RhcnQiOjczLCJlbmQiOjE5MSwidGV4dCI6IiFbQ292ZX
 IgcGljdHVyZV0oaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRl
 bnQuY29tL3Jvd2FuOGsvZnVuZGFtZW50YWxzLW9mLWdpcy/igK
-YifSwiWWJZUW02bGpVNDJmeTZQNiI6eyJzdGFydCI6Njg5Mywi
-ZW5kIjo2OTk0LCJ0ZXh0IjoiIVtdKGh0dHBzOi8vcmF3LmdpdG
+YifSwiWWJZUW02bGpVNDJmeTZQNiI6eyJzdGFydCI6Njk5OCwi
+ZW5kIjo3MDk5LCJ0ZXh0IjoiIVtdKGh0dHBzOi8vcmF3LmdpdG
 h1YnVzZXJjb250ZW50LmNvbS9yb3dhbjhrL2Z1bmRhbWVudGFs
 cy1vZi1naXMvbWFzdGVyL0Fzc2V0c+KApiJ9fSwiY29tbWVudH
 MiOnsiOVJaT0J0VGlDUk9uNk01ciI6eyJkaXNjdXNzaW9uSWQi
@@ -308,11 +310,11 @@ aWdodCB0byBqYWlsIiwiY3JlYXRlZCI6MTY4NTk0NDA3NDk2NX
 0sIkMySHlZR1ZBMWJ3ZVY4YkYiOnsiZGlzY3Vzc2lvbklkIjoi
 WWJZUW02bGpVNDJmeTZQNiIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
 widGV4dCI6IlVwZGF0ZSBpbWFnZSIsImNyZWF0ZWQiOjE2ODU5
-NTUzMzQ2MzF9fSwiaGlzdG9yeSI6Wy00ODI0MDk4MjEsLTEzOT
-k2Mjc4MzUsNjY5MjQwMjE1LC0yMDMyNDE0NTcwLDMwNjE0MTc0
-NCw2OTgzNjM4MjksLTM1NDc2NjgyMSwtMTIzMTgzODQ0OCwxNT
-EwMjM0Nzk1LDIzODUzMTQ0NSwtMTE0Njk1MTQyMSwyMDIxOTg4
-MDUyLC0xNzIzODk0OTk0LDgzNzIzMzc3LC0xOTM4OTE2NjEyLD
-EyMDgwNzMwODUsLTIwOTg3MTA4NDMsMTUxNDM0NzkxOSwxODM5
-Nzg2NTk0LC0xNjM1NzUxNjI0XX0=
+NTUzMzQ2MzF9fSwiaGlzdG9yeSI6Wzg0ODgxMzMzMCwtNDgyND
+A5ODIxLC0xMzk5NjI3ODM1LDY2OTI0MDIxNSwtMjAzMjQxNDU3
+MCwzMDYxNDE3NDQsNjk4MzYzODI5LC0zNTQ3NjY4MjEsLTEyMz
+E4Mzg0NDgsMTUxMDIzNDc5NSwyMzg1MzE0NDUsLTExNDY5NTE0
+MjEsMjAyMTk4ODA1MiwtMTcyMzg5NDk5NCw4MzcyMzM3NywtMT
+kzODkxNjYxMiwxMjA4MDczMDg1LC0yMDk4NzEwODQzLDE1MTQz
+NDc5MTksMTgzOTc4NjU5NF19
 -->
