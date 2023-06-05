@@ -132,8 +132,8 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 
  1.  Start by **changing the order of the layers** by dragging them in the layers panel on the left side of the map view. A good order, for example, can be as follows from top to bottom: HSL_Helsinki_stops, Helsinki_buildings, Waterbodies, Helsinki_small_areas and Helsinki_Municipality.
  2.  You can also **change the visibility of the layers** by checking or unchecking the tick boxes next to the layer name or by adjusting **transparency**. The latter can be done under the *Style* tab in the *Layer properties* window, which can be accessed by right-clicking on the layer name and selecting *Properties*. This is also where you can change other style properties such as **symbol size and color**, **layer rendering** or create e.g. **choropleth maps**, but we will look into these in more detail later on.
+ 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_layers.png)
-
  In addition to editing a layer’s style properties, the Layer properties window can also be used for e.g. examining the **layer’s general information** such as its coordinate system and source, adding **labels** to the map as well as managing **joins** and layer **metadata**.
 
  3.  Next, we want to **change the styles and the symbology of the layers**. You can navigate back to the *Symbology* tab in the *Layer Properties* window. The window looks slightly different depending on whether we have a raster or vector file, and what feature type is in question. You can see this for instance by comparing the style tabs of the HSL Stops (point feature) and Waterbodies (polygon feature) layers.
@@ -264,7 +264,7 @@ S0ZFQ25SIjp7InN0YXJ0Ijo5MDQ3LCJlbmQiOjkzNTQsInRleH
 QiOiJUaGVzZSBkYXRhIHNldHMgYXJlIGFsbCBkb3dubG9hZGVk
 IGZyb20gUGFJVHVsaSBhbmQgSGVsc2lua2kgUmVnaW9uIEluZm
 9zaGFyZSBk4oCmIn0sIlBRWEprU3RZMmdzdXZ6NUQiOnsic3Rh
-cnQiOjIxNDExLCJlbmQiOjIxNDM1LCJ0ZXh0IjoiLSBMYXlvdX
+cnQiOjIxNDEyLCJlbmQiOjIxNDM2LCJ0ZXh0IjoiLSBMYXlvdX
 QgbWFuYWdlciBwaWN0dXJlIn0sInluaDVib1FpT01UaWxaTVci
 Onsic3RhcnQiOjczLCJlbmQiOjE5MSwidGV4dCI6IiFbQ292ZX
 IgcGljdHVyZV0oaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRl
@@ -300,7 +300,7 @@ aWdodCB0byBqYWlsIiwiY3JlYXRlZCI6MTY4NTk0NDA3NDk2NX
 0sIkMySHlZR1ZBMWJ3ZVY4YkYiOnsiZGlzY3Vzc2lvbklkIjoi
 WWJZUW02bGpVNDJmeTZQNiIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
 widGV4dCI6IlVwZGF0ZSBpbWFnZSIsImNyZWF0ZWQiOjE2ODU5
-NTUzMzQ2MzF9fSwiaGlzdG9yeSI6Wy0yNTE4MzE1MzUsNjY5Mj
+NTUzMzQ2MzF9fSwiaGlzdG9yeSI6Wy0yNjY3NTk5ODcsNjY5Mj
 QwMjE1LC0yMDMyNDE0NTcwLDMwNjE0MTc0NCw2OTgzNjM4Mjks
 LTM1NDc2NjgyMSwtMTIzMTgzODQ0OCwxNTEwMjM0Nzk1LDIzOD
 UzMTQ0NSwtMTE0Njk1MTQyMSwyMDIxOTg4MDUyLC0xNzIzODk0
