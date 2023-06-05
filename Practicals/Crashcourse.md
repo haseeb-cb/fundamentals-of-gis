@@ -220,7 +220,7 @@ The last phase of this practical will concentrate on creating a map output.
 - To move the window, select *Move item* or press the keyboard shortcut **V** and drag as desired 
 - To move the content on the map, select *Move item content* or press the keyboard shortcut C and drag as desired 
 
-	NB! Remember, that **if you make changes in your working view, you need to press *Update preview / Refresh view*** in order to see the changes in the print composer view!
+	NB! Remember, that **if you make changes in your working view, you need to press ***Refresh view*** ![](https://docs.qgis.org/3.28/en/_images/mActionRefresh.png) in order to see the changes in the print composer view!
 
 3. A proper map should always have at least these three elements: a **north arrow**, a **scale bar** and a **legend**. All of these can be found in QGIS under the Layout-tab or the left hand-side toolbar in the Print layout. Add the mentioned elements to your map and visualize them as desired.
 		
@@ -303,7 +303,7 @@ ImxTV2plN2dQNnJsSW5nYXkiOnsic3RhcnQiOjE5ODgyLCJlbm
 QiOjE5ODkxLCJ0ZXh0IjoiTW92ZSBpdGVtIn0sIll5WlRhZFJw
 cEtyZTEyUFQiOnsic3RhcnQiOjE5OTkzLCJlbmQiOjIwMDEwLC
 J0ZXh0IjoiTW92ZSBpdGVtIGNvbnRlbnQifSwiSnhDQVRjYndt
-MlAwMjQ4MCI6eyJzdGFydCI6MjA1NDIsImVuZCI6MjE5NzksIn
+MlAwMjQ4MCI6eyJzdGFydCI6MjA1ODksImVuZCI6MjIwMjYsIn
 RleHQiOiIqKkFkZGluZyBhIGxhYmVsKio6IFlvdSBjYW4gY2hh
 bmdlIHRoZSBkZWZhdWx0IHRleHQgYXMgd2VsbCBhcyB0aGUgZm
 9udCBhbmQgY29s4oCmIn0sInluaDVib1FpT01UaWxaTVciOnsi
@@ -447,11 +447,18 @@ Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiZ2l0aHViIiwiY3JlYXRlZC
 I6MTY4NTk0NzEwMTUzOX0sIjNYNktIS1FyNzBKYUYyWXIiOnsi
 ZGlzY3Vzc2lvbklkIjoiSWNkRnRnSlFiUEJNR05qQyIsInN1Yi
 I6ImdoOjQwMzA0Nzg4IiwidGV4dCI6ImdpdGh1YiIsImNyZWF0
-ZWQiOjE2ODU5NDcxODQ4ODN9fSwiaGlzdG9yeSI6Wy0xMTQ2OT
-UxNDIxLDIwMjE5ODgwNTIsLTE3MjM4OTQ5OTQsODM3MjMzNzcs
-LTE5Mzg5MTY2MTIsMTIwODA3MzA4NSwtMjA5ODcxMDg0MywxNT
-E0MzQ3OTE5LDE4Mzk3ODY1OTQsLTE2MzU3NTE2MjQsMjQ2NzUw
-MTkwLDE0OTc0NzEwMTcsMTI0NTQ1NzI5OSwxMjE3NDM2NzYyLD
-Y4MTE4NDg3NCwtMTgxOTAwMTg3MSwtNDc3MDAyMjM0LC0xNjQ3
-NTY3MzcyLC0xNjYzNzQwNDEyXX0=
+ZWQiOjE2ODU5NDcxODQ4ODN9LCJKTU04aEc1MVMwSHdvS3o5Ij
+p7ImRpc2N1c3Npb25JZCI6ImxTV2plN2dQNnJsSW5nYXkiLCJz
+dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJnaXRodWIiLCJjcm
+VhdGVkIjoxNjg1OTQ3ODM3NjQ3fSwiTDZHWUMzN1hOM3lKb2I1
+OCI6eyJkaXNjdXNzaW9uSWQiOiJZeVpUYWRScHBLcmUxMlBUIi
+wic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiZ2l0aHViIiwi
+Y3JlYXRlZCI6MTY4NTk0Nzg0NDUzOX19LCJoaXN0b3J5IjpbLT
+EwODQxMTMxMDIsLTExNDY5NTE0MjEsMjAyMTk4ODA1MiwtMTcy
+Mzg5NDk5NCw4MzcyMzM3NywtMTkzODkxNjYxMiwxMjA4MDczMD
+g1LC0yMDk4NzEwODQzLDE1MTQzNDc5MTksMTgzOTc4NjU5NCwt
+MTYzNTc1MTYyNCwyNDY3NTAxOTAsMTQ5NzQ3MTAxNywxMjQ1ND
+U3Mjk5LDEyMTc0MzY3NjIsNjgxMTg0ODc0LC0xODE5MDAxODcx
+LC00NzcwMDIyMzQsLTE2NDc1NjczNzIsLTE2NjM3NDA0MTJdfQ
+==
 -->
