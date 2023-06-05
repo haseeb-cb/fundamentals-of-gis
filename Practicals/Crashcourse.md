@@ -34,12 +34,12 @@ If you have time after that, try out the second part! They will introduce joinin
 **Launch QGIS** and the QGIS graphical user interface (GUI) opens (Figure 1).
 
 ![QGIS layout](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_layout.png)
-
  1. Toolbars
  2. Layers list / Browser panel
  3. Map canvas
  4. Processing toolbox panel
- 5. L
+ 5. Locator bar
+ 6. Status bar
 
 Start by setting the **default language** in QGIS to English (if it isn’t already) by navigating to the language settings: *Settings menu* \> *Options* \> *General* \> *User Interface Translation*. Tick the “*Override system locale*” box and choose English from the dropdown menu and close the window by pressing OK. For the change to take effect, restart the application.
 
@@ -251,24 +251,24 @@ The last phase of this practical will concentrate on creating a map output.
  
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJXalFnU21WQ1ZPMFl2VjlCIjp7In
-N0YXJ0IjoyMzgyLCJlbmQiOjI0NzAsInRleHQiOiJSZW1lbWJl
+N0YXJ0IjoyNDA2LCJlbmQiOjI0OTQsInRleHQiOiJSZW1lbWJl
 ciB0byBzYXZlIHlvdXIgcHJvamVjdHMgb2Z0ZW4gdG8gcHJldm
 VudCB3b3JrIGZyb20gYmVpbmcgbG9zdCBpbiBjYXNlIG9m4oCm
-In0sIk44Y2hQZHpkSExxcHdLS04iOnsic3RhcnQiOjQzNDUsIm
-VuZCI6NDQ3MSwidGV4dCI6IlRoZSBkYXRhIHVzZWQgaW4gdGhp
+In0sIk44Y2hQZHpkSExxcHdLS04iOnsic3RhcnQiOjQzNjksIm
+VuZCI6NDQ5NSwidGV4dCI6IlRoZSBkYXRhIHVzZWQgaW4gdGhp
 cyBjb3Vyc2Ugd2lsbCBtb3N0bHkgYmUgaW4gRVBTRyAzMDY3IC
 hFVFJTLVRNMzVGSU4pLCB3aGljaOKApiJ9LCJ6aW9TZFVkOHBj
-S0ZFQ25SIjp7InN0YXJ0Ijo5MDIwLCJlbmQiOjkzMjcsInRleH
+S0ZFQ25SIjp7InN0YXJ0Ijo5MDQ0LCJlbmQiOjkzNTEsInRleH
 QiOiJUaGVzZSBkYXRhIHNldHMgYXJlIGFsbCBkb3dubG9hZGVk
 IGZyb20gUGFJVHVsaSBhbmQgSGVsc2lua2kgUmVnaW9uIEluZm
 9zaGFyZSBk4oCmIn0sIlBRWEprU3RZMmdzdXZ6NUQiOnsic3Rh
-cnQiOjIxMzg0LCJlbmQiOjIxNDA4LCJ0ZXh0IjoiLSBMYXlvdX
+cnQiOjIxNDA4LCJlbmQiOjIxNDMyLCJ0ZXh0IjoiLSBMYXlvdX
 QgbWFuYWdlciBwaWN0dXJlIn0sInluaDVib1FpT01UaWxaTVci
 Onsic3RhcnQiOjczLCJlbmQiOjE5MSwidGV4dCI6IiFbQ292ZX
 IgcGljdHVyZV0oaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRl
 bnQuY29tL3Jvd2FuOGsvZnVuZGFtZW50YWxzLW9mLWdpcy/igK
-YifSwiWWJZUW02bGpVNDJmeTZQNiI6eyJzdGFydCI6Njg2Niwi
-ZW5kIjo2OTY3LCJ0ZXh0IjoiIVtdKGh0dHBzOi8vcmF3LmdpdG
+YifSwiWWJZUW02bGpVNDJmeTZQNiI6eyJzdGFydCI6Njg5MCwi
+ZW5kIjo2OTkxLCJ0ZXh0IjoiIVtdKGh0dHBzOi8vcmF3LmdpdG
 h1YnVzZXJjb250ZW50LmNvbS9yb3dhbjhrL2Z1bmRhbWVudGFs
 cy1vZi1naXMvbWFzdGVyL0Fzc2V0c+KApiJ9fSwiY29tbWVudH
 MiOnsiOVJaT0J0VGlDUk9uNk01ciI6eyJkaXNjdXNzaW9uSWQi
@@ -298,7 +298,7 @@ aWdodCB0byBqYWlsIiwiY3JlYXRlZCI6MTY4NTk0NDA3NDk2NX
 0sIkMySHlZR1ZBMWJ3ZVY4YkYiOnsiZGlzY3Vzc2lvbklkIjoi
 WWJZUW02bGpVNDJmeTZQNiIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
 widGV4dCI6IlVwZGF0ZSBpbWFnZSIsImNyZWF0ZWQiOjE2ODU5
-NTUzMzQ2MzF9fSwiaGlzdG9yeSI6Wy0xNTg2Mzg3OTYwLDY2OT
+NTUzMzQ2MzF9fSwiaGlzdG9yeSI6Wy0xODIxNzEyODQ4LDY2OT
 I0MDIxNSwtMjAzMjQxNDU3MCwzMDYxNDE3NDQsNjk4MzYzODI5
 LC0zNTQ3NjY4MjEsLTEyMzE4Mzg0NDgsMTUxMDIzNDc5NSwyMz
 g1MzE0NDUsLTExNDY5NTE0MjEsMjAyMTk4ODA1MiwtMTcyMzg5
