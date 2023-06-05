@@ -44,7 +44,7 @@ The state of a working session in QGIS is called a **project**. Similarly, to a 
 
 ![Save icon](https://docs.qgis.org/3.28/en/_images/mActionFileSave.png) **Saving in QGIS**: You can save your project by clicking either the *save* ![](https://docs.qgis.org/3.28/en/_images/mActionFileSave.png) or the *save as* icon. You can also use the keyboard shortcut *Ctrl + S* (or *Command + S*) or go to *Project* \> *Save*. The file format of a project file is \*.qgs
 
-![](https://docs.qgis.org/3.28/en/_images/mActionFileNew.png) ![enter image description here](https://docs.qgis.org/3.28/en/_images/mActionFileOpen.png) **Creating and opening a project in QGIS:** If you want to start a new project, you can click on the *New* icon ![](https://docs.qgis.org/3.28/en/_images/mActionFileNew.png) with a blank page, or alternatively go to *Project* \> *New* or use the keyboard shortcut *Ctrl + N* (or Command + N). To open an already existing project, click on the folder-like *Open* icon ![enter image description here](https://docs.qgis.org/3.28/en/_images/mActionFileOpen.png) to pick up where you left off.
+![](https://docs.qgis.org/3.28/en/_images/mActionFileNew.png) ![](https://docs.qgis.org/3.28/en/_images/mActionFileOpen.png) **Creating and opening a project in QGIS:** If you want to start a new project, you can click on the *New* icon ![](https://docs.qgis.org/3.28/en/_images/mActionFileNew.png) with a blank page, or alternatively go to *Project* \> *New* or use the keyboard shortcut *Ctrl + N* (or Command + N). To open an already existing project, click on the folder-like *Open* icon ![](https://docs.qgis.org/3.28/en/_images/mActionFileOpen.png) to pick up where you left off.
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_project_CRS.PNG) **Changing the coordinate system of a project in QGIS:** You can see the current coordinate system of the project in the status bar in the lower right corner. You can change the coordinate system by clicking on the sign and selecting a new coordinate system from the list in the project properties window that pops open. You can access the same window also by going to *Project* \> *Properties* \> *CRS*. The default coordinate system in QGIS is set automatically to EPSG:4326 (WGS 84). You can change the default if you wish by going to *Settings* \> *Options* \> *CRS*. The data used in this course will mostly be in EPSG 3067 (ETRS-TM35FIN), which is the standard for nationwide data in Finland.
 
@@ -71,6 +71,7 @@ If you want to create new empty layers, go to *Layer* \> *Create Layer*.
 **Panels** offer a single major function, like the Layers and Browser panels introduced above. Similarly, to toolbars, they can be toggled from *View* \> *Panels*. Below is an example of three panels (Browser, Layer Style and Statistics) on top of each other.
 
 ![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_panels.png)
+The Browser
 
 ### 1.3 Plugins
 
@@ -248,82 +249,77 @@ dXJlIDEifSwiV2pRZ1NtVkNWTzBZdlY5QiI6eyJzdGFydCI6Mj
 E5MiwiZW5kIjoyMjgwLCJ0ZXh0IjoiUmVtZW1iZXIgdG8gc2F2
 ZSB5b3VyIHByb2plY3RzIG9mdGVuIHRvIHByZXZlbnQgd29yay
 Bmcm9tIGJlaW5nIGxvc3QgaW4gY2FzZSBvZuKApiJ9LCJOOGNo
-UGR6ZEhMcXB3S0tOIjp7InN0YXJ0Ijo0MjExLCJlbmQiOjQzMz
-csInRleHQiOiJUaGUgZGF0YSB1c2VkIGluIHRoaXMgY291cnNl
+UGR6ZEhMcXB3S0tOIjp7InN0YXJ0Ijo0MTU1LCJlbmQiOjQyOD
+EsInRleHQiOiJUaGUgZGF0YSB1c2VkIGluIHRoaXMgY291cnNl
 IHdpbGwgbW9zdGx5IGJlIGluIEVQU0cgMzA2NyAoRVRSUy1UTT
 M1RklOKSwgd2hpY2jigKYifSwieDBONkl5TGtncGNRaUo5OSI6
-eyJzdGFydCI6NjA2OSwiZW5kIjo2MTEyLCJ0ZXh0IjoiTGF5ZX
+eyJzdGFydCI6NjAxMywiZW5kIjo2MDU2LCJ0ZXh0IjoiTGF5ZX
 JzIGFuZCBCcm93c2VyIHBhbmVscyBpbnRyb2R1Y2VkIGFib3Zl
-LiJ9LCJ6aW9TZFVkOHBjS0ZFQ25SIjp7InN0YXJ0Ijo4MDI3LC
-JlbmQiOjgzMzQsInRleHQiOiJUaGVzZSBkYXRhIHNldHMgYXJl
+LiJ9LCJ6aW9TZFVkOHBjS0ZFQ25SIjp7InN0YXJ0Ijo3OTgzLC
+JlbmQiOjgyOTAsInRleHQiOiJUaGVzZSBkYXRhIHNldHMgYXJl
 IGFsbCBkb3dubG9hZGVkIGZyb20gUGFJVHVsaSBhbmQgSGVsc2
 lua2kgUmVnaW9uIEluZm9zaGFyZSBk4oCmIn0sImhsaGtkQ0Vt
-MzRsM1ZyVFciOnsic3RhcnQiOjkxMzIsImVuZCI6OTEzOCwidG
+MzRsM1ZyVFciOnsic3RhcnQiOjkwODgsImVuZCI6OTA5NCwidG
 V4dCI6Im9iamVjdCJ9LCJGWGZRRmZGOUZaT05wWUZhIjp7InN0
-YXJ0Ijo5MTczLCJlbmQiOjkxODIsInRleHQiOiJhdHRyaWJ1dG
-UifSwiZXZMV1lvQUdYMHl1dUlYcyI6eyJzdGFydCI6MTUzNTMs
-ImVuZCI6MTUzNTMsInRleHQiOiJQcm9jZXNzaW5nIFRvb2xib3
-gifSwiUFFYSmtTdFkyZ3N1dno1RCI6eyJzdGFydCI6MjAzOTEs
-ImVuZCI6MjA0MTUsInRleHQiOiItIExheW91dCBtYW5hZ2VyIH
+YXJ0Ijo5MTI5LCJlbmQiOjkxMzgsInRleHQiOiJhdHRyaWJ1dG
+UifSwiZXZMV1lvQUdYMHl1dUlYcyI6eyJzdGFydCI6MTUzMDks
+ImVuZCI6MTUzMDksInRleHQiOiJQcm9jZXNzaW5nIFRvb2xib3
+gifSwiUFFYSmtTdFkyZ3N1dno1RCI6eyJzdGFydCI6MjAzNDcs
+ImVuZCI6MjAzNzEsInRleHQiOiItIExheW91dCBtYW5hZ2VyIH
 BpY3R1cmUifSwieW5oNWJvUWlPTVRpbFpNVyI6eyJzdGFydCI6
 NzMsImVuZCI6MTkxLCJ0ZXh0IjoiIVtDb3ZlciBwaWN0dXJlXS
 hodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vcm93
-YW44ay9mdW5kYW1lbnRhbHMtb2YtZ2lzL+KApiJ9LCIwT1lHek
-5lcDJhOW8xSEpZIjp7InN0YXJ0Ijo1NDI4LCJlbmQiOjU0Mjgs
-InRleHQiOiJpY29uIHBpY3R1cmUifX0sImNvbW1lbnRzIjp7In
-VQS3RESlpZNUNBVWt3TkEiOnsiZGlzY3Vzc2lvbklkIjoiSzI0
-aTg3dXNLbUZaVVJJSiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidG
-V4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NTc4MzA0
-ODM4OX0sIjlSWk9CdFRpQ1JPbjZNNXIiOnsiZGlzY3Vzc2lvbk
-lkIjoiV2pRZ1NtVkNWTzBZdlY5QiIsInN1YiI6ImdoOjQwMzA0
-Nzg4IiwidGV4dCI6IkFkZCBtZW1lIiwiY3JlYXRlZCI6MTY4NT
-c4MzA4Mzk1MX0sIktIQ1ZwM3M0TURDdjJXaXQiOnsiZGlzY3Vz
-c2lvbklkIjoiTjhjaFBkemRITHFwd0tLTiIsInN1YiI6ImdoOj
-QwMzA0Nzg4IiwidGV4dCI6IkNvbWUgYmFjayB0byBjaGVjayBp
-ZiBhY2N1cmF0ZSIsImNyZWF0ZWQiOjE2ODU3ODMyMjg2Mzd9LC
-JCVVdZREs5aEpzZFRWSkt6Ijp7ImRpc2N1c3Npb25JZCI6Ingw
-TjZJeUxrZ3BjUWlKOTkiLCJzdWIiOiJnaDo0MDMwNDc4OCIsIn
-RleHQiOiJDb3JyZWN0IGxheW91dCIsImNyZWF0ZWQiOjE2ODU3
-ODMyOTQ2MjF9LCI3UkVPZUhBb1pPWXVSQ2JZIjp7ImRpc2N1c3
-Npb25JZCI6Inppb1NkVWQ4cGNLRkVDblIiLCJzdWIiOiJnaDo0
-MDMwNDc4OCIsInRleHQiOiJNYWtlIHN0dWRlbnRzIGdhdGhlci
-B0aGUgZGF0YSB0aGVtc2VsdmVzIiwiY3JlYXRlZCI6MTY4NTc4
-MzQ5MDUzM30sIkJNeFhHSTJYQkRvaUJWNVQiOnsiZGlzY3Vzc2
-lvbklkIjoiemlvU2RVZDhwY0tGRUNuUiIsInN1YiI6ImdoOjQw
-MzA0Nzg4IiwidGV4dCI6Im9yIGFkZCBsaW5rcyIsImNyZWF0ZW
-QiOjE2ODU3ODM1MDYxMTd9LCJDSGZSVlN5bkpCTHZaSkVRIjp7
-ImRpc2N1c3Npb25JZCI6ImhsaGtkQ0VtMzRsM1ZyVFciLCJzdW
-IiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJXaGF0IGFyZSBvYmpl
-Y3RzPyIsImNyZWF0ZWQiOjE2ODU3ODM2MDUwMjF9LCJtMEdESk
-ZaQXhCakxxc1VFIjp7ImRpc2N1c3Npb25JZCI6IkZYZlFGZkY5
-RlpPTnBZRmEiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOi
-JXaGF0IGlzIGF0dHJpYnV0ZSBkYXRhPyIsImNyZWF0ZWQiOjE2
-ODU3ODM2MTQwMzd9LCJrZ0pFWUQ2WnZacjQzMEd1Ijp7ImRpc2
-N1c3Npb25JZCI6ImV2TFdZb0FHWDB5dXVJWHMiLCJzdWIiOiJn
-aDo0MDMwNDc4OCIsInRleHQiOiJBZGQgaW50cm9kdWN0aW9uIH
-RvIHRoaXM/IiwiY3JlYXRlZCI6MTY4NTc4NjYyODA3Nn0sIkFY
-Y2JVV3h0NzdHRE95WEYiOnsiZGlzY3Vzc2lvbklkIjoiZXZMV1
-lvQUdYMHl1dUlYcyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4
-dCI6IkVhcmxpZXIgaW4gY3Jhc2ggY291cnNlLCBhZGQgZXhhbX
-BsZXMgb2YgdG9vbHMgYW5kIGhvdyB0aGV5IHdvcmsiLCJjcmVh
-dGVkIjoxNjg1Nzg3ODk5MDU5fSwiMDFDaUY4aUc4b3QzYWIxbi
-I6eyJkaXNjdXNzaW9uSWQiOiJQUVhKa1N0WTJnc3V2ejVEIiwi
-c3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGltYWdlIi
-wiY3JlYXRlZCI6MTY4NTc5MDMyMzgwOX0sIjU3TFhqU3pIc3ph
-SGNoSlUiOnsiZGlzY3Vzc2lvbklkIjoieW5oNWJvUWlPTVRpbF
-pNVyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0
-ZSBjb3ZlciBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NTk0MzU4Nz
-M1OH0sIlBWYWEyeWR4VHk4RUN3VGoiOnsiZGlzY3Vzc2lvbklk
-IjoiV2pRZ1NtVkNWTzBZdlY5QiIsInN1YiI6ImdoOjQwMzA0Nz
-g4IiwidGV4dCI6IlN0cmFpZ2h0IHRvIGphaWwiLCJjcmVhdGVk
-IjoxNjg1OTQ0MDc0OTY1fSwiVXRqWUo3R2NPN0VFNng3QSI6ey
-JkaXNjdXNzaW9uSWQiOiIwT1lHek5lcDJhOW8xSEpZIiwic3Vi
-IjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiZ2l0aHViIiwiY3JlYX
-RlZCI6MTY4NTk0NDk3MzM1OH19LCJoaXN0b3J5IjpbLTM1NDc2
-NjgyMSwtMTIzMTgzODQ0OCwxNTEwMjM0Nzk1LDIzODUzMTQ0NS
-wtMTE0Njk1MTQyMSwyMDIxOTg4MDUyLC0xNzIzODk0OTk0LDgz
-NzIzMzc3LC0xOTM4OTE2NjEyLDEyMDgwNzMwODUsLTIwOTg3MT
-A4NDMsMTUxNDM0NzkxOSwxODM5Nzg2NTk0LC0xNjM1NzUxNjI0
-LDI0Njc1MDE5MCwxNDk3NDcxMDE3LDEyNDU0NTcyOTksMTIxNz
-QzNjc2Miw2ODExODQ4NzQsLTE4MTkwMDE4NzFdfQ==
+YW44ay9mdW5kYW1lbnRhbHMtb2YtZ2lzL+KApiJ9fSwiY29tbW
+VudHMiOnsidVBLdERKWlk1Q0FVa3dOQSI6eyJkaXNjdXNzaW9u
+SWQiOiJLMjRpODd1c0ttRlpVUklKIiwic3ViIjoiZ2g6NDAzMD
+Q3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjox
+Njg1NzgzMDQ4Mzg5fSwiOVJaT0J0VGlDUk9uNk01ciI6eyJkaX
+NjdXNzaW9uSWQiOiJXalFnU21WQ1ZPMFl2VjlCIiwic3ViIjoi
+Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIG1lbWUiLCJjcmVhdG
+VkIjoxNjg1NzgzMDgzOTUxfSwiS0hDVnAzczRNREN2MldpdCI6
+eyJkaXNjdXNzaW9uSWQiOiJOOGNoUGR6ZEhMcXB3S0tOIiwic3
+ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQ29tZSBiYWNrIHRv
+IGNoZWNrIGlmIGFjY3VyYXRlIiwiY3JlYXRlZCI6MTY4NTc4Mz
+IyODYzN30sIkJVV1lESzloSnNkVFZKS3oiOnsiZGlzY3Vzc2lv
+bklkIjoieDBONkl5TGtncGNRaUo5OSIsInN1YiI6ImdoOjQwMz
+A0Nzg4IiwidGV4dCI6IkNvcnJlY3QgbGF5b3V0IiwiY3JlYXRl
+ZCI6MTY4NTc4MzI5NDYyMX0sIjdSRU9lSEFvWk9ZdVJDYlkiOn
+siZGlzY3Vzc2lvbklkIjoiemlvU2RVZDhwY0tGRUNuUiIsInN1
+YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Ik1ha2Ugc3R1ZGVudH
+MgZ2F0aGVyIHRoZSBkYXRhIHRoZW1zZWx2ZXMiLCJjcmVhdGVk
+IjoxNjg1NzgzNDkwNTMzfSwiQk14WEdJMlhCRG9pQlY1VCI6ey
+JkaXNjdXNzaW9uSWQiOiJ6aW9TZFVkOHBjS0ZFQ25SIiwic3Vi
+IjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ijoib3IgYWRkIGxpbmtzIi
+wiY3JlYXRlZCI6MTY4NTc4MzUwNjExN30sIkNIZlJWU3luSkJM
+dlpKRVEiOnsiZGlzY3Vzc2lvbklkIjoiaGxoa2RDRW0zNGwzVn
+JUVyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IldoYXQg
+YXJlIG9iamVjdHM/IiwiY3JlYXRlZCI6MTY4NTc4MzYwNTAyMX
+0sIm0wR0RKRlpBeEJqTHFzVUUiOnsiZGlzY3Vzc2lvbklkIjoi
+RlhmUUZmRjlGWk9OcFlGYSIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
+widGV4dCI6IldoYXQgaXMgYXR0cmlidXRlIGRhdGE/IiwiY3Jl
+YXRlZCI6MTY4NTc4MzYxNDAzN30sImtnSkVZRDZadlpyNDMwR3
+UiOnsiZGlzY3Vzc2lvbklkIjoiZXZMV1lvQUdYMHl1dUlYcyIs
+InN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBpbnRyb2
+R1Y3Rpb24gdG8gdGhpcz8iLCJjcmVhdGVkIjoxNjg1Nzg2NjI4
+MDc2fSwiQVhjYlVXeHQ3N0dET3lYRiI6eyJkaXNjdXNzaW9uSW
+QiOiJldkxXWW9BR1gweXV1SVhzIiwic3ViIjoiZ2g6NDAzMDQ3
+ODgiLCJ0ZXh0IjoiRWFybGllciBpbiBjcmFzaCBjb3Vyc2UsIG
+FkZCBleGFtcGxlcyBvZiB0b29scyBhbmQgaG93IHRoZXkgd29y
+ayIsImNyZWF0ZWQiOjE2ODU3ODc4OTkwNTl9LCIwMUNpRjhpRz
+hvdDNhYjFuIjp7ImRpc2N1c3Npb25JZCI6IlBRWEprU3RZMmdz
+dXZ6NUQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZG
+QgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1NzkwMzIzODA5fSwiNTdM
+WGpTekhzemFIY2hKVSI6eyJkaXNjdXNzaW9uSWQiOiJ5bmg1Ym
+9RaU9NVGlsWk1XIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0
+IjoiVXBkYXRlIGNvdmVyIHBpY3R1cmUiLCJjcmVhdGVkIjoxNj
+g1OTQzNTg3MzU4fSwiUFZhYTJ5ZHhUeThFQ3dUaiI6eyJkaXNj
+dXNzaW9uSWQiOiJXalFnU21WQ1ZPMFl2VjlCIiwic3ViIjoiZ2
+g6NDAzMDQ3ODgiLCJ0ZXh0IjoiU3RyYWlnaHQgdG8gamFpbCIs
+ImNyZWF0ZWQiOjE2ODU5NDQwNzQ5NjV9fSwiaGlzdG9yeSI6Wy
+02MTA2NTAyNjEsLTM1NDc2NjgyMSwtMTIzMTgzODQ0OCwxNTEw
+MjM0Nzk1LDIzODUzMTQ0NSwtMTE0Njk1MTQyMSwyMDIxOTg4MD
+UyLC0xNzIzODk0OTk0LDgzNzIzMzc3LC0xOTM4OTE2NjEyLDEy
+MDgwNzMwODUsLTIwOTg3MTA4NDMsMTUxNDM0NzkxOSwxODM5Nz
+g2NTk0LC0xNjM1NzUxNjI0LDI0Njc1MDE5MCwxNDk3NDcxMDE3
+LDEyNDU0NTcyOTksMTIxNzQzNjc2Miw2ODExODQ4NzRdfQ==
 -->
