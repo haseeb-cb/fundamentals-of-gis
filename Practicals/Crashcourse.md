@@ -212,9 +212,9 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 The last phase of this practical will concentrate on creating a map output.
 - Layout manager picture
 
-1. In QGIS, the map layout is done in a separate window called a **Print layout**. Press on the *New Print layout* button in the *File toolbar* or go to *Project* > *New print layout*. Give a name for the composer in the opening window, and an empty map window should appear on the screen.
+1. In QGIS, the map layout is done in a separate window called a **Print layout**. Press on the *New Print layout* button ![](https://docs.qgis.org/3.28/en/_images/mActionNewLayout.png)in the *File toolbar* or go to *Project* > *New print layout*. Give a name for the composer in the opening window, and an empty map window should appear on the screen.
 
-2. The next step is to add the content to the screen. Press the **Add new map button** in the left side panel and drag from the corners to match the paper orientation. Now, you should see the same view as in the working view. If you want, you can change the paper orientation in the right-side *Composition panel* under the section *Paper and quality*.
+2. The next step is to add the content to the screen. Press the *Add new map*** button in the left side panel and drag from the corners to match the paper orientation. Now, you should see the same view as in the working view. If you want, you can change the paper orientation in the right-side *Composition panel* under the section *Paper and quality*.
 
 	You can orientate in two ways in the composer: 
 - To move the window, select *Move item* or press the keyboard shortcut **V** and drag as desired 
@@ -301,13 +301,13 @@ U3RZMmdzdXZ6NUQiOnsic3RhcnQiOjE5MDA5LCJlbmQiOjE5MD
 MzLCJ0ZXh0IjoiLSBMYXlvdXQgbWFuYWdlciBwaWN0dXJlIn0s
 IkxFR1RsTTVRM1dodGdhUFgiOnsic3RhcnQiOjE5MTMyLCJlbm
 QiOjE5MTQ4LCJ0ZXh0IjoiTmV3IFByaW50IGxheW91dCJ9LCJP
-djdkU2F3dDdpTGhBZkVyIjp7InN0YXJ0IjoxOTM5MiwiZW5kIj
-oxOTQxMCwidGV4dCI6IkFkZCBuZXcgbWFwIGJ1dHRvbiJ9LCJs
-U1dqZTdnUDZybEluZ2F5Ijp7InN0YXJ0IjoxOTc1OSwiZW5kIj
-oxOTc2OCwidGV4dCI6Ik1vdmUgaXRlbSJ9LCJZeVpUYWRScHBL
-cmUxMlBUIjp7InN0YXJ0IjoxOTg3MCwiZW5kIjoxOTg4NywidG
+djdkU2F3dDdpTGhBZkVyIjp7InN0YXJ0IjoxOTQ1NCwiZW5kIj
+oxOTQ2NSwidGV4dCI6IkFkZCBuZXcgbWFwIGJ1dHRvbiJ9LCJs
+U1dqZTdnUDZybEluZ2F5Ijp7InN0YXJ0IjoxOTgyMiwiZW5kIj
+oxOTgzMSwidGV4dCI6Ik1vdmUgaXRlbSJ9LCJZeVpUYWRScHBL
+cmUxMlBUIjp7InN0YXJ0IjoxOTkzMywiZW5kIjoxOTk1MCwidG
 V4dCI6Ik1vdmUgaXRlbSBjb250ZW50In0sIkp4Q0FUY2J3bTJQ
-MDI0ODAiOnsic3RhcnQiOjIwNDE5LCJlbmQiOjIxODU2LCJ0ZX
+MDI0ODAiOnsic3RhcnQiOjIwNDgyLCJlbmQiOjIxOTE5LCJ0ZX
 h0IjoiKipBZGRpbmcgYSBsYWJlbCoqOiBZb3UgY2FuIGNoYW5n
 ZSB0aGUgZGVmYXVsdCB0ZXh0IGFzIHdlbGwgYXMgdGhlIGZvbn
 QgYW5kIGNvbOKApiJ9LCJ5bmg1Ym9RaU9NVGlsWk1XIjp7InN0
@@ -458,10 +458,10 @@ wiY3JlYXRlZCI6MTY4NTk0NzEwMTUzOX0sIjNYNktIS1FyNzBK
 YUYyWXIiOnsiZGlzY3Vzc2lvbklkIjoiSWNkRnRnSlFiUEJNR0
 5qQyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6ImdpdGh1
 YiIsImNyZWF0ZWQiOjE2ODU5NDcxODQ4ODN9fSwiaGlzdG9yeS
-I6WzIwMjE5ODgwNTIsLTE3MjM4OTQ5OTQsODM3MjMzNzcsLTE5
-Mzg5MTY2MTIsMTIwODA3MzA4NSwtMjA5ODcxMDg0MywxNTE0Mz
-Q3OTE5LDE4Mzk3ODY1OTQsLTE2MzU3NTE2MjQsMjQ2NzUwMTkw
-LDE0OTc0NzEwMTcsMTI0NTQ1NzI5OSwxMjE3NDM2NzYyLDY4MT
-E4NDg3NCwtMTgxOTAwMTg3MSwtNDc3MDAyMjM0LC0xNjQ3NTY3
-MzcyLC0xNjYzNzQwNDEyXX0=
+I6WzE5Mzg0ODY3NDMsMjAyMTk4ODA1MiwtMTcyMzg5NDk5NCw4
+MzcyMzM3NywtMTkzODkxNjYxMiwxMjA4MDczMDg1LC0yMDk4Nz
+EwODQzLDE1MTQzNDc5MTksMTgzOTc4NjU5NCwtMTYzNTc1MTYy
+NCwyNDY3NTAxOTAsMTQ5NzQ3MTAxNywxMjQ1NDU3Mjk5LDEyMT
+c0MzY3NjIsNjgxMTg0ODc0LC0xODE5MDAxODcxLC00NzcwMDIy
+MzQsLTE2NDc1NjczNzIsLTE2NjM3NDA0MTJdfQ==
 -->
