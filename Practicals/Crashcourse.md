@@ -77,9 +77,11 @@ If you want to create new empty layers, go to *Layer* \> *Create Layer*.
 The *Browser panel* is a tool for browsing, searching, inspecting, copying and loading QGIS resources. Using the Browser panel you can locate, inspect and add data. 
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_browser_panel.png)
+
 The *Layer panel* lists all the layers in the project and helps you manage their visibility and shape the map. You can access the layers by right clicking them, and toggle their visibility by toggling the check box in the layer panel. 
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_layer_panel.png)
+
 The *Processing Toolbox* shows the list of all available **algorithms** grouped in different blocks called _Providers_, and custom **models** and **scripts** you can add to extend the set of tools. Hence the toolbox is the access point to run them, whether as a single process or as a batch process involving several executions of the same algorithm on different sets of inputs.
 
 ![](https://docs.qgis.org/3.4/en/_images/toolbox3.png)
@@ -260,17 +262,17 @@ In0sIk44Y2hQZHpkSExxcHdLS04iOnsic3RhcnQiOjQzNjksIm
 VuZCI6NDQ5NSwidGV4dCI6IlRoZSBkYXRhIHVzZWQgaW4gdGhp
 cyBjb3Vyc2Ugd2lsbCBtb3N0bHkgYmUgaW4gRVBTRyAzMDY3IC
 hFVFJTLVRNMzVGSU4pLCB3aGljaOKApiJ9LCJ6aW9TZFVkOHBj
-S0ZFQ25SIjp7InN0YXJ0Ijo5MDQ3LCJlbmQiOjkzNTQsInRleH
+S0ZFQ25SIjp7InN0YXJ0Ijo5MDQ5LCJlbmQiOjkzNTYsInRleH
 QiOiJUaGVzZSBkYXRhIHNldHMgYXJlIGFsbCBkb3dubG9hZGVk
 IGZyb20gUGFJVHVsaSBhbmQgSGVsc2lua2kgUmVnaW9uIEluZm
 9zaGFyZSBk4oCmIn0sIlBRWEprU3RZMmdzdXZ6NUQiOnsic3Rh
-cnQiOjIxNDEyLCJlbmQiOjIxNDM2LCJ0ZXh0IjoiLSBMYXlvdX
+cnQiOjIxNDE0LCJlbmQiOjIxNDM4LCJ0ZXh0IjoiLSBMYXlvdX
 QgbWFuYWdlciBwaWN0dXJlIn0sInluaDVib1FpT01UaWxaTVci
 Onsic3RhcnQiOjczLCJlbmQiOjE5MSwidGV4dCI6IiFbQ292ZX
 IgcGljdHVyZV0oaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRl
 bnQuY29tL3Jvd2FuOGsvZnVuZGFtZW50YWxzLW9mLWdpcy/igK
-YifSwiWWJZUW02bGpVNDJmeTZQNiI6eyJzdGFydCI6Njg5Miwi
-ZW5kIjo2OTkzLCJ0ZXh0IjoiIVtdKGh0dHBzOi8vcmF3LmdpdG
+YifSwiWWJZUW02bGpVNDJmeTZQNiI6eyJzdGFydCI6Njg5Mywi
+ZW5kIjo2OTk0LCJ0ZXh0IjoiIVtdKGh0dHBzOi8vcmF3LmdpdG
 h1YnVzZXJjb250ZW50LmNvbS9yb3dhbjhrL2Z1bmRhbWVudGFs
 cy1vZi1naXMvbWFzdGVyL0Fzc2V0c+KApiJ9fSwiY29tbWVudH
 MiOnsiOVJaT0J0VGlDUk9uNk01ciI6eyJkaXNjdXNzaW9uSWQi
@@ -300,11 +302,11 @@ aWdodCB0byBqYWlsIiwiY3JlYXRlZCI6MTY4NTk0NDA3NDk2NX
 0sIkMySHlZR1ZBMWJ3ZVY4YkYiOnsiZGlzY3Vzc2lvbklkIjoi
 WWJZUW02bGpVNDJmeTZQNiIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
 widGV4dCI6IlVwZGF0ZSBpbWFnZSIsImNyZWF0ZWQiOjE2ODU5
-NTUzMzQ2MzF9fSwiaGlzdG9yeSI6Wy0yNjY3NTk5ODcsNjY5Mj
-QwMjE1LC0yMDMyNDE0NTcwLDMwNjE0MTc0NCw2OTgzNjM4Mjks
-LTM1NDc2NjgyMSwtMTIzMTgzODQ0OCwxNTEwMjM0Nzk1LDIzOD
-UzMTQ0NSwtMTE0Njk1MTQyMSwyMDIxOTg4MDUyLC0xNzIzODk0
-OTk0LDgzNzIzMzc3LC0xOTM4OTE2NjEyLDEyMDgwNzMwODUsLT
-IwOTg3MTA4NDMsMTUxNDM0NzkxOSwxODM5Nzg2NTk0LC0xNjM1
-NzUxNjI0LDI0Njc1MDE5MF19
+NTUzMzQ2MzF9fSwiaGlzdG9yeSI6Wy0xMzk5NjI3ODM1LDY2OT
+I0MDIxNSwtMjAzMjQxNDU3MCwzMDYxNDE3NDQsNjk4MzYzODI5
+LC0zNTQ3NjY4MjEsLTEyMzE4Mzg0NDgsMTUxMDIzNDc5NSwyMz
+g1MzE0NDUsLTExNDY5NTE0MjEsMjAyMTk4ODA1MiwtMTcyMzg5
+NDk5NCw4MzcyMzM3NywtMTkzODkxNjYxMiwxMjA4MDczMDg1LC
+0yMDk4NzEwODQzLDE1MTQzNDc5MTksMTgzOTc4NjU5NCwtMTYz
+NTc1MTYyNCwyNDY3NTAxOTBdfQ==
 -->
