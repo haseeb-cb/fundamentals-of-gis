@@ -33,7 +33,13 @@ If you have time after that, try out the second part! They will introduce joinin
 
 **Launch QGIS** and the QGIS graphical user interface (GUI) opens (Figure 1).
 
--   Figure 1
+![QGIS layout](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_layout.png)
+ 1. Toolbars
+ 2. Layers list / Browser panel
+ 3. Map canvas
+ 4. Processing toolbox panel
+ 5. Locator bar
+ 6. Status bar
 
 Start by setting the **default language** in QGIS to English (if it isn’t already) by navigating to the language settings: *Settings menu* \> *Options* \> *General* \> *User Interface Translation*. Tick the “*Override system locale*” box and choose English from the dropdown menu and close the window by pressing OK. For the change to take effect, restart the application.
 
@@ -61,19 +67,23 @@ The **Attributes toolbar** includes some of the most common tools that enable fo
 
 ![Attributes toolbar](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_attributes_toolbar.PNG)
 
- ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_data_source_manager.png)**Adding data in QGIS:** The **Data Source Manager** offers a handy way to add a vector or raster layer. There are also special buttons for different kinds of database layers and interface services. The figure on the below offers a closer look at the tool. Similar functionality can be found in *Layer* \> *Add Layer*.
+ ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_data_source_manager.png) **Adding data in QGIS:** The **Data Source Manager** offers a handy way to add a vector or raster layer. There are also special buttons for different kinds of database layers and interface services. The figure on the below offers a closer look at the tool. Similar functionality can be found in *Layer* \> *Add Layer*.
 
 ![Data Source Manager](https://docs.qgis.org/3.28/en/_images/datasource_manager.png)
-
 If you want to create new empty layers, go to *Layer* \> *Create Layer*.
 
 **Panels** offer a single major function. Similarly, to toolbars, they can be toggled from *View* \> *Panels*. Below is an example of three panels (Browser, Layer Style and Statistics) on top of each other.
 
 The *Browser panel* is a tool for browsing, searching, inspecting, copying and loading QGIS resources. Using the Browser panel you can locate, inspect and add data. 
+
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_browser_panel.png)
+
 The *Layer panel* lists all the layers in the project and helps you manage their visibility and shape the map. You can access the layers by right clicking them, and toggle their visibility by toggling the check box in the layer panel. 
+
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_layer_panel.png)
+
 The *Processing Toolbox* shows the list of all available **algorithms** grouped in different blocks called _Providers_, and custom **models** and **scripts** you can add to extend the set of tools. Hence the toolbox is the access point to run them, whether as a single process or as a batch process involving several executions of the same algorithm on different sets of inputs.
+
 ![](https://docs.qgis.org/3.4/en/_images/toolbox3.png)
 
 ### 1.3 Plugins
@@ -90,6 +100,8 @@ Let’s download a very handy plugin called **QuickMapServices**, which gives ac
 4.  You can find the newly installed plugin in the main QGIS window under *Web* \> *QuickMapServices*
 
 (Hungry for more? Further reading on plugins in the QGIS manual: <https://docs.qgis.org/3.22/en/docs/user_manual/plugins/index.html>)
+
+
 
 ## 2 Warm-up exercise
 
@@ -123,9 +135,9 @@ For a start, take your time to move around and get acquainted with the basic too
 Managing the **layers** is key in GIS. Right now, the added layers are arbitrarily symbolized and ordered, and do not come out very useful or informative. Thus, we need to get our hands dirty.
 
  1.  Start by **changing the order of the layers** by dragging them in the layers panel on the left side of the map view. A good order, for example, can be as follows from top to bottom: HSL_Helsinki_stops, Helsinki_buildings, Waterbodies, Helsinki_small_areas and Helsinki_Municipality.
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_layers.png)
  2.  You can also **change the visibility of the layers** by checking or unchecking the tick boxes next to the layer name or by adjusting **transparency**. The latter can be done under the *Style* tab in the *Layer properties* window, which can be accessed by right-clicking on the layer name and selecting *Properties*. This is also where you can change other style properties such as **symbol size and color**, **layer rendering** or create e.g. **choropleth maps**, but we will look into these in more detail later on.
-
+ 
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_layers.png)
  In addition to editing a layer’s style properties, the Layer properties window can also be used for e.g. examining the **layer’s general information** such as its coordinate system and source, adding **labels** to the map as well as managing **joins** and layer **metadata**.
 
  3.  Next, we want to **change the styles and the symbology of the layers**. You can navigate back to the *Symbology* tab in the *Layer Properties* window. The window looks slightly different depending on whether we have a raster or vector file, and what feature type is in question. You can see this for instance by comparing the style tabs of the HSL Stops (point feature) and Waterbodies (polygon feature) layers.
@@ -214,6 +226,8 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 		3. Choose the column from the list that contains the area names (name_fi)
 		4. You can edit the lable placement and appearance, for example add a halo around it by selecting buffer in the lower section
 
+---
+
 ### 2.2 Creating a map output in QGIS
 The last phase of this practical will concentrate on creating a map output.
 - Layout manager picture
@@ -239,69 +253,66 @@ The last phase of this practical will concentrate on creating a map output.
 
 (Hungry for more? furhter reading on the print composer in the QGIS manual: https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/index.html
 
+
+
 # Congratulations! You are now done with the first part of this Crash Course. How are you liking (Q)GIS so far?
 
 ## 3. Optional exercise
  
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJLMjRpODd1c0ttRlpVUklKIjp7In
-N0YXJ0IjoxNTQ0LCJlbmQiOjE1NTYsInRleHQiOiItICAgRmln
-dXJlIDEifSwiV2pRZ1NtVkNWTzBZdlY5QiI6eyJzdGFydCI6Mj
-E5MSwiZW5kIjoyMjc5LCJ0ZXh0IjoiUmVtZW1iZXIgdG8gc2F2
-ZSB5b3VyIHByb2plY3RzIG9mdGVuIHRvIHByZXZlbnQgd29yay
-Bmcm9tIGJlaW5nIGxvc3QgaW4gY2FzZSBvZuKApiJ9LCJOOGNo
-UGR6ZEhMcXB3S0tOIjp7InN0YXJ0Ijo0MTU0LCJlbmQiOjQyOD
-AsInRleHQiOiJUaGUgZGF0YSB1c2VkIGluIHRoaXMgY291cnNl
-IHdpbGwgbW9zdGx5IGJlIGluIEVQU0cgMzA2NyAoRVRSUy1UTT
-M1RklOKSwgd2hpY2jigKYifSwiemlvU2RVZDhwY0tGRUNuUiI6
-eyJzdGFydCI6ODgyOSwiZW5kIjo5MTM2LCJ0ZXh0IjoiVGhlc2
-UgZGF0YSBzZXRzIGFyZSBhbGwgZG93bmxvYWRlZCBmcm9tIFBh
-SVR1bGkgYW5kIEhlbHNpbmtpIFJlZ2lvbiBJbmZvc2hhcmUgZO
-KApiJ9LCJQUVhKa1N0WTJnc3V2ejVEIjp7InN0YXJ0IjoyMTE5
-MywiZW5kIjoyMTIxNywidGV4dCI6Ii0gTGF5b3V0IG1hbmFnZX
-IgcGljdHVyZSJ9LCJ5bmg1Ym9RaU9NVGlsWk1XIjp7InN0YXJ0
-Ijo3MywiZW5kIjoxOTEsInRleHQiOiIhW0NvdmVyIHBpY3R1cm
-VdKGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9y
-b3dhbjhrL2Z1bmRhbWVudGFscy1vZi1naXMv4oCmIn0sIlliWV
-FtNmxqVTQyZnk2UDYiOnsic3RhcnQiOjY2NzUsImVuZCI6Njc3
-NiwidGV4dCI6IiFbXShodHRwczovL3Jhdy5naXRodWJ1c2VyY2
-9udGVudC5jb20vcm93YW44ay9mdW5kYW1lbnRhbHMtb2YtZ2lz
-L21hc3Rlci9Bc3NldHPigKYifX0sImNvbW1lbnRzIjp7InVQS3
-RESlpZNUNBVWt3TkEiOnsiZGlzY3Vzc2lvbklkIjoiSzI0aTg3
-dXNLbUZaVVJJSiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dC
-I6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NTc4MzA0ODM4
-OX0sIjlSWk9CdFRpQ1JPbjZNNXIiOnsiZGlzY3Vzc2lvbklkIj
-oiV2pRZ1NtVkNWTzBZdlY5QiIsInN1YiI6ImdoOjQwMzA0Nzg4
-IiwidGV4dCI6IkFkZCBtZW1lIiwiY3JlYXRlZCI6MTY4NTc4Mz
-A4Mzk1MX0sIktIQ1ZwM3M0TURDdjJXaXQiOnsiZGlzY3Vzc2lv
-bklkIjoiTjhjaFBkemRITHFwd0tLTiIsInN1YiI6ImdoOjQwMz
-A0Nzg4IiwidGV4dCI6IkNvbWUgYmFjayB0byBjaGVjayBpZiBh
-Y2N1cmF0ZSIsImNyZWF0ZWQiOjE2ODU3ODMyMjg2Mzd9LCI3Uk
-VPZUhBb1pPWXVSQ2JZIjp7ImRpc2N1c3Npb25JZCI6Inppb1Nk
-VWQ4cGNLRkVDblIiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleH
-QiOiJNYWtlIHN0dWRlbnRzIGdhdGhlciB0aGUgZGF0YSB0aGVt
-c2VsdmVzIiwiY3JlYXRlZCI6MTY4NTc4MzQ5MDUzM30sIkJNeF
-hHSTJYQkRvaUJWNVQiOnsiZGlzY3Vzc2lvbklkIjoiemlvU2RV
-ZDhwY0tGRUNuUiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dC
-I6Im9yIGFkZCBsaW5rcyIsImNyZWF0ZWQiOjE2ODU3ODM1MDYx
-MTd9LCIwMUNpRjhpRzhvdDNhYjFuIjp7ImRpc2N1c3Npb25JZC
-I6IlBRWEprU3RZMmdzdXZ6NUQiLCJzdWIiOiJnaDo0MDMwNDc4
-OCIsInRleHQiOiJBZGQgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nz
-kwMzIzODA5fSwiNTdMWGpTekhzemFIY2hKVSI6eyJkaXNjdXNz
-aW9uSWQiOiJ5bmg1Ym9RaU9NVGlsWk1XIiwic3ViIjoiZ2g6ND
-AzMDQ3ODgiLCJ0ZXh0IjoiVXBkYXRlIGNvdmVyIHBpY3R1cmUi
-LCJjcmVhdGVkIjoxNjg1OTQzNTg3MzU4fSwiUFZhYTJ5ZHhUeT
-hFQ3dUaiI6eyJkaXNjdXNzaW9uSWQiOiJXalFnU21WQ1ZPMFl2
-VjlCIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiU3RyYW
-lnaHQgdG8gamFpbCIsImNyZWF0ZWQiOjE2ODU5NDQwNzQ5NjV9
-LCJDMkh5WUdWQTFid2VWOGJGIjp7ImRpc2N1c3Npb25JZCI6Il
-liWVFtNmxqVTQyZnk2UDYiLCJzdWIiOiJnaDo0MDMwNDc4OCIs
-InRleHQiOiJVcGRhdGUgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1OT
-U1MzM0NjMxfX0sImhpc3RvcnkiOls2NjkyNDAyMTUsLTIwMzI0
-MTQ1NzAsMzA2MTQxNzQ0LDY5ODM2MzgyOSwtMzU0NzY2ODIxLC
-0xMjMxODM4NDQ4LDE1MTAyMzQ3OTUsMjM4NTMxNDQ1LC0xMTQ2
-OTUxNDIxLDIwMjE5ODgwNTIsLTE3MjM4OTQ5OTQsODM3MjMzNz
-csLTE5Mzg5MTY2MTIsMTIwODA3MzA4NSwtMjA5ODcxMDg0Mywx
-NTE0MzQ3OTE5LDE4Mzk3ODY1OTQsLTE2MzU3NTE2MjQsMjQ2Nz
-UwMTkwLDE0OTc0NzEwMTddfQ==
+eyJkaXNjdXNzaW9ucyI6eyJXalFnU21WQ1ZPMFl2VjlCIjp7In
+N0YXJ0IjoyNDA2LCJlbmQiOjI0OTQsInRleHQiOiJSZW1lbWJl
+ciB0byBzYXZlIHlvdXIgcHJvamVjdHMgb2Z0ZW4gdG8gcHJldm
+VudCB3b3JrIGZyb20gYmVpbmcgbG9zdCBpbiBjYXNlIG9m4oCm
+In0sIk44Y2hQZHpkSExxcHdLS04iOnsic3RhcnQiOjQzNjksIm
+VuZCI6NDQ5NSwidGV4dCI6IlRoZSBkYXRhIHVzZWQgaW4gdGhp
+cyBjb3Vyc2Ugd2lsbCBtb3N0bHkgYmUgaW4gRVBTRyAzMDY3IC
+hFVFJTLVRNMzVGSU4pLCB3aGljaOKApiJ9LCJ6aW9TZFVkOHBj
+S0ZFQ25SIjp7InN0YXJ0Ijo5MDUxLCJlbmQiOjkzNTgsInRleH
+QiOiJUaGVzZSBkYXRhIHNldHMgYXJlIGFsbCBkb3dubG9hZGVk
+IGZyb20gUGFJVHVsaSBhbmQgSGVsc2lua2kgUmVnaW9uIEluZm
+9zaGFyZSBk4oCmIn0sIlBRWEprU3RZMmdzdXZ6NUQiOnsic3Rh
+cnQiOjIxNDIxLCJlbmQiOjIxNDQ1LCJ0ZXh0IjoiLSBMYXlvdX
+QgbWFuYWdlciBwaWN0dXJlIn0sInluaDVib1FpT01UaWxaTVci
+Onsic3RhcnQiOjczLCJlbmQiOjE5MSwidGV4dCI6IiFbQ292ZX
+IgcGljdHVyZV0oaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRl
+bnQuY29tL3Jvd2FuOGsvZnVuZGFtZW50YWxzLW9mLWdpcy/igK
+YifSwiWWJZUW02bGpVNDJmeTZQNiI6eyJzdGFydCI6Njg5Mywi
+ZW5kIjo2OTk0LCJ0ZXh0IjoiIVtdKGh0dHBzOi8vcmF3LmdpdG
+h1YnVzZXJjb250ZW50LmNvbS9yb3dhbjhrL2Z1bmRhbWVudGFs
+cy1vZi1naXMvbWFzdGVyL0Fzc2V0c+KApiJ9fSwiY29tbWVudH
+MiOnsiOVJaT0J0VGlDUk9uNk01ciI6eyJkaXNjdXNzaW9uSWQi
+OiJXalFnU21WQ1ZPMFl2VjlCIiwic3ViIjoiZ2g6NDAzMDQ3OD
+giLCJ0ZXh0IjoiQWRkIG1lbWUiLCJjcmVhdGVkIjoxNjg1Nzgz
+MDgzOTUxfSwiS0hDVnAzczRNREN2MldpdCI6eyJkaXNjdXNzaW
+9uSWQiOiJOOGNoUGR6ZEhMcXB3S0tOIiwic3ViIjoiZ2g6NDAz
+MDQ3ODgiLCJ0ZXh0IjoiQ29tZSBiYWNrIHRvIGNoZWNrIGlmIG
+FjY3VyYXRlIiwiY3JlYXRlZCI6MTY4NTc4MzIyODYzN30sIjdS
+RU9lSEFvWk9ZdVJDYlkiOnsiZGlzY3Vzc2lvbklkIjoiemlvU2
+RVZDhwY0tGRUNuUiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4
+dCI6Ik1ha2Ugc3R1ZGVudHMgZ2F0aGVyIHRoZSBkYXRhIHRoZW
+1zZWx2ZXMiLCJjcmVhdGVkIjoxNjg1NzgzNDkwNTMzfSwiQk14
+WEdJMlhCRG9pQlY1VCI6eyJkaXNjdXNzaW9uSWQiOiJ6aW9TZF
+VkOHBjS0ZFQ25SIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0
+Ijoib3IgYWRkIGxpbmtzIiwiY3JlYXRlZCI6MTY4NTc4MzUwNj
+ExN30sIjAxQ2lGOGlHOG90M2FiMW4iOnsiZGlzY3Vzc2lvbklk
+IjoiUFFYSmtTdFkyZ3N1dno1RCIsInN1YiI6ImdoOjQwMzA0Nz
+g4IiwidGV4dCI6IkFkZCBpbWFnZSIsImNyZWF0ZWQiOjE2ODU3
+OTAzMjM4MDl9LCI1N0xYalN6SHN6YUhjaEpVIjp7ImRpc2N1c3
+Npb25JZCI6InluaDVib1FpT01UaWxaTVciLCJzdWIiOiJnaDo0
+MDMwNDc4OCIsInRleHQiOiJVcGRhdGUgY292ZXIgcGljdHVyZS
+IsImNyZWF0ZWQiOjE2ODU5NDM1ODczNTh9LCJQVmFhMnlkeFR5
+OEVDd1RqIjp7ImRpc2N1c3Npb25JZCI6IldqUWdTbVZDVk8wWX
+ZWOUIiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJTdHJh
+aWdodCB0byBqYWlsIiwiY3JlYXRlZCI6MTY4NTk0NDA3NDk2NX
+0sIkMySHlZR1ZBMWJ3ZVY4YkYiOnsiZGlzY3Vzc2lvbklkIjoi
+WWJZUW02bGpVNDJmeTZQNiIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
+widGV4dCI6IlVwZGF0ZSBpbWFnZSIsImNyZWF0ZWQiOjE2ODU5
+NTUzMzQ2MzF9fSwiaGlzdG9yeSI6Wy00ODI0MDk4MjEsLTEzOT
+k2Mjc4MzUsNjY5MjQwMjE1LC0yMDMyNDE0NTcwLDMwNjE0MTc0
+NCw2OTgzNjM4MjksLTM1NDc2NjgyMSwtMTIzMTgzODQ0OCwxNT
+EwMjM0Nzk1LDIzODUzMTQ0NSwtMTE0Njk1MTQyMSwyMDIxOTg4
+MDUyLC0xNzIzODk0OTk0LDgzNzIzMzc3LC0xOTM4OTE2NjEyLD
+EyMDgwNzMwODUsLTIwOTg3MTA4NDMsMTUxNDM0NzkxOSwxODM5
+Nzg2NTk0LC0xNjM1NzUxNjI0XX0=
 -->
