@@ -71,7 +71,8 @@ If you want to create new empty layers, go to *Layer* \> *Create Layer*.
 **Panels** offer a single major function, like the Layers and Browser panels introduced above. Similarly, to toolbars, they can be toggled from *View* \> *Panels*. Below is an example of three panels (Browser, Layer Style and Statistics) on top of each other.
 
 ![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_panels.png)
-The Browser
+The *Browser panel* is a tool for browsing, searching, inspecting, copying and loading QGIS resources. Using the Browser panel you can locate, inspect and add data. 
+- Brow
 
 ### 1.3 Plugins
 
@@ -255,17 +256,17 @@ IHdpbGwgbW9zdGx5IGJlIGluIEVQU0cgMzA2NyAoRVRSUy1UTT
 M1RklOKSwgd2hpY2jigKYifSwieDBONkl5TGtncGNRaUo5OSI6
 eyJzdGFydCI6NjAxMywiZW5kIjo2MDU2LCJ0ZXh0IjoiTGF5ZX
 JzIGFuZCBCcm93c2VyIHBhbmVscyBpbnRyb2R1Y2VkIGFib3Zl
-LiJ9LCJ6aW9TZFVkOHBjS0ZFQ25SIjp7InN0YXJ0Ijo3OTgzLC
-JlbmQiOjgyOTAsInRleHQiOiJUaGVzZSBkYXRhIHNldHMgYXJl
+LiJ9LCJ6aW9TZFVkOHBjS0ZFQ25SIjp7InN0YXJ0Ijo4MTQ0LC
+JlbmQiOjg0NTEsInRleHQiOiJUaGVzZSBkYXRhIHNldHMgYXJl
 IGFsbCBkb3dubG9hZGVkIGZyb20gUGFJVHVsaSBhbmQgSGVsc2
 lua2kgUmVnaW9uIEluZm9zaGFyZSBk4oCmIn0sImhsaGtkQ0Vt
-MzRsM1ZyVFciOnsic3RhcnQiOjkwODgsImVuZCI6OTA5NCwidG
+MzRsM1ZyVFciOnsic3RhcnQiOjkyNDksImVuZCI6OTI1NSwidG
 V4dCI6Im9iamVjdCJ9LCJGWGZRRmZGOUZaT05wWUZhIjp7InN0
-YXJ0Ijo5MTI5LCJlbmQiOjkxMzgsInRleHQiOiJhdHRyaWJ1dG
-UifSwiZXZMV1lvQUdYMHl1dUlYcyI6eyJzdGFydCI6MTUzMDks
-ImVuZCI6MTUzMDksInRleHQiOiJQcm9jZXNzaW5nIFRvb2xib3
-gifSwiUFFYSmtTdFkyZ3N1dno1RCI6eyJzdGFydCI6MjAzNDcs
-ImVuZCI6MjAzNzEsInRleHQiOiItIExheW91dCBtYW5hZ2VyIH
+YXJ0Ijo5MjkwLCJlbmQiOjkyOTksInRleHQiOiJhdHRyaWJ1dG
+UifSwiZXZMV1lvQUdYMHl1dUlYcyI6eyJzdGFydCI6MTU0NzAs
+ImVuZCI6MTU0NzAsInRleHQiOiJQcm9jZXNzaW5nIFRvb2xib3
+gifSwiUFFYSmtTdFkyZ3N1dno1RCI6eyJzdGFydCI6MjA1MDgs
+ImVuZCI6MjA1MzIsInRleHQiOiItIExheW91dCBtYW5hZ2VyIH
 BpY3R1cmUifSwieW5oNWJvUWlPTVRpbFpNVyI6eyJzdGFydCI6
 NzMsImVuZCI6MTkxLCJ0ZXh0IjoiIVtDb3ZlciBwaWN0dXJlXS
 hodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vcm93
@@ -315,8 +316,8 @@ IjoiVXBkYXRlIGNvdmVyIHBpY3R1cmUiLCJjcmVhdGVkIjoxNj
 g1OTQzNTg3MzU4fSwiUFZhYTJ5ZHhUeThFQ3dUaiI6eyJkaXNj
 dXNzaW9uSWQiOiJXalFnU21WQ1ZPMFl2VjlCIiwic3ViIjoiZ2
 g6NDAzMDQ3ODgiLCJ0ZXh0IjoiU3RyYWlnaHQgdG8gamFpbCIs
-ImNyZWF0ZWQiOjE2ODU5NDQwNzQ5NjV9fSwiaGlzdG9yeSI6Wy
-02MTA2NTAyNjEsLTM1NDc2NjgyMSwtMTIzMTgzODQ0OCwxNTEw
+ImNyZWF0ZWQiOjE2ODU5NDQwNzQ5NjV9fSwiaGlzdG9yeSI6Wz
+E2NzU3NDQ2OTQsLTM1NDc2NjgyMSwtMTIzMTgzODQ0OCwxNTEw
 MjM0Nzk1LDIzODUzMTQ0NSwtMTE0Njk1MTQyMSwyMDIxOTg4MD
 UyLC0xNzIzODk0OTk0LDgzNzIzMzc3LC0xOTM4OTE2NjEyLDEy
 MDgwNzMwODUsLTIwOTg3MTA4NDMsMTUxNDM0NzkxOSwxODM5Nz
