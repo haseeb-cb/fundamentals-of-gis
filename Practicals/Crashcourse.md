@@ -101,6 +101,8 @@ Let’s download a very handy plugin called **QuickMapServices**, which gives ac
 
 (Hungry for more? Further reading on plugins in the QGIS manual: <https://docs.qgis.org/3.22/en/docs/user_manual/plugins/index.html>)
 
+
+
 ## 2 Warm-up exercise
 
 ### 2.1 Add and explore data
@@ -224,6 +226,8 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 		3. Choose the column from the list that contains the area names (name_fi)
 		4. You can edit the lable placement and appearance, for example add a halo around it by selecting buffer in the lower section
 
+---
+
 ### 2.2 Creating a map output in QGIS
 The last phase of this practical will concentrate on creating a map output.
 - Layout manager picture
@@ -249,6 +253,8 @@ The last phase of this practical will concentrate on creating a map output.
 
 (Hungry for more? furhter reading on the print composer in the QGIS manual: https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/index.html
 
+
+
 # Congratulations! You are now done with the first part of this Crash Course. How are you liking (Q)GIS so far?
 
 ## 3. Optional exercise
@@ -262,11 +268,11 @@ In0sIk44Y2hQZHpkSExxcHdLS04iOnsic3RhcnQiOjQzNjksIm
 VuZCI6NDQ5NSwidGV4dCI6IlRoZSBkYXRhIHVzZWQgaW4gdGhp
 cyBjb3Vyc2Ugd2lsbCBtb3N0bHkgYmUgaW4gRVBTRyAzMDY3IC
 hFVFJTLVRNMzVGSU4pLCB3aGljaOKApiJ9LCJ6aW9TZFVkOHBj
-S0ZFQ25SIjp7InN0YXJ0Ijo5MDQ5LCJlbmQiOjkzNTYsInRleH
+S0ZFQ25SIjp7InN0YXJ0Ijo5MDUxLCJlbmQiOjkzNTgsInRleH
 QiOiJUaGVzZSBkYXRhIHNldHMgYXJlIGFsbCBkb3dubG9hZGVk
 IGZyb20gUGFJVHVsaSBhbmQgSGVsc2lua2kgUmVnaW9uIEluZm
 9zaGFyZSBk4oCmIn0sIlBRWEprU3RZMmdzdXZ6NUQiOnsic3Rh
-cnQiOjIxNDE0LCJlbmQiOjIxNDM4LCJ0ZXh0IjoiLSBMYXlvdX
+cnQiOjIxNDIxLCJlbmQiOjIxNDQ1LCJ0ZXh0IjoiLSBMYXlvdX
 QgbWFuYWdlciBwaWN0dXJlIn0sInluaDVib1FpT01UaWxaTVci
 Onsic3RhcnQiOjczLCJlbmQiOjE5MSwidGV4dCI6IiFbQ292ZX
 IgcGljdHVyZV0oaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRl
@@ -302,11 +308,11 @@ aWdodCB0byBqYWlsIiwiY3JlYXRlZCI6MTY4NTk0NDA3NDk2NX
 0sIkMySHlZR1ZBMWJ3ZVY4YkYiOnsiZGlzY3Vzc2lvbklkIjoi
 WWJZUW02bGpVNDJmeTZQNiIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
 widGV4dCI6IlVwZGF0ZSBpbWFnZSIsImNyZWF0ZWQiOjE2ODU5
-NTUzMzQ2MzF9fSwiaGlzdG9yeSI6Wy0xMzk5NjI3ODM1LDY2OT
-I0MDIxNSwtMjAzMjQxNDU3MCwzMDYxNDE3NDQsNjk4MzYzODI5
-LC0zNTQ3NjY4MjEsLTEyMzE4Mzg0NDgsMTUxMDIzNDc5NSwyMz
-g1MzE0NDUsLTExNDY5NTE0MjEsMjAyMTk4ODA1MiwtMTcyMzg5
-NDk5NCw4MzcyMzM3NywtMTkzODkxNjYxMiwxMjA4MDczMDg1LC
-0yMDk4NzEwODQzLDE1MTQzNDc5MTksMTgzOTc4NjU5NCwtMTYz
-NTc1MTYyNCwyNDY3NTAxOTBdfQ==
+NTUzMzQ2MzF9fSwiaGlzdG9yeSI6Wy00ODI0MDk4MjEsLTEzOT
+k2Mjc4MzUsNjY5MjQwMjE1LC0yMDMyNDE0NTcwLDMwNjE0MTc0
+NCw2OTgzNjM4MjksLTM1NDc2NjgyMSwtMTIzMTgzODQ0OCwxNT
+EwMjM0Nzk1LDIzODUzMTQ0NSwtMTE0Njk1MTQyMSwyMDIxOTg4
+MDUyLC0xNzIzODk0OTk0LDgzNzIzMzc3LC0xOTM4OTE2NjEyLD
+EyMDgwNzMwODUsLTIwOTg3MTA4NDMsMTUxNDM0NzkxOSwxODM5
+Nzg2NTk0LC0xNjM1NzUxNjI0XX0=
 -->
