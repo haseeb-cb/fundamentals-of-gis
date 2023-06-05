@@ -74,6 +74,7 @@ The *Browser panel* is a tool for browsing, searching, inspecting, copying and l
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_browser_panel.png)
 The *Layer panel* lists all the layers in the project and helps you manage their visibility and shape the map. You can access the layers by right clicking them, and toggle their vissibility by toggling the check box in the layer panel. 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_layer_panel.png)
+The *Processing Toolbox* shows the list of all available **algorithms** grouped in different blocks called _Providers_, and custom **models** and **scripts** you can add to extend the set of tools. Hence the toolbox is the access point to run them, whether as a single process or as a batch process involving several executions of the same algorithm on different sets of inputs.
 
 ### 1.3 Plugins
 
@@ -254,13 +255,13 @@ UGR6ZEhMcXB3S0tOIjp7InN0YXJ0Ijo0MTU1LCJlbmQiOjQyOD
 EsInRleHQiOiJUaGUgZGF0YSB1c2VkIGluIHRoaXMgY291cnNl
 IHdpbGwgbW9zdGx5IGJlIGluIEVQU0cgMzA2NyAoRVRSUy1UTT
 M1RklOKSwgd2hpY2jigKYifSwiemlvU2RVZDhwY0tGRUNuUiI6
-eyJzdGFydCI6ODM5NywiZW5kIjo4NzA0LCJ0ZXh0IjoiVGhlc2
+eyJzdGFydCI6ODc3NiwiZW5kIjo5MDgzLCJ0ZXh0IjoiVGhlc2
 UgZGF0YSBzZXRzIGFyZSBhbGwgZG93bmxvYWRlZCBmcm9tIFBh
 SVR1bGkgYW5kIEhlbHNpbmtpIFJlZ2lvbiBJbmZvc2hhcmUgZO
-KApiJ9LCJldkxXWW9BR1gweXV1SVhzIjp7InN0YXJ0IjoxNTcy
-MywiZW5kIjoxNTcyMywidGV4dCI6IlByb2Nlc3NpbmcgVG9vbG
-JveCJ9LCJQUVhKa1N0WTJnc3V2ejVEIjp7InN0YXJ0IjoyMDc2
-MSwiZW5kIjoyMDc4NSwidGV4dCI6Ii0gTGF5b3V0IG1hbmFnZX
+KApiJ9LCJldkxXWW9BR1gweXV1SVhzIjp7InN0YXJ0IjoxNjEw
+MiwiZW5kIjoxNjEwMiwidGV4dCI6IlByb2Nlc3NpbmcgVG9vbG
+JveCJ9LCJQUVhKa1N0WTJnc3V2ejVEIjp7InN0YXJ0IjoyMTE0
+MCwiZW5kIjoyMTE2NCwidGV4dCI6Ii0gTGF5b3V0IG1hbmFnZX
 IgcGljdHVyZSJ9LCJ5bmg1Ym9RaU9NVGlsWk1XIjp7InN0YXJ0
 Ijo3MywiZW5kIjoxOTEsInRleHQiOiIhW0NvdmVyIHBpY3R1cm
 VdKGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9y
@@ -300,11 +301,11 @@ cGRhdGUgY292ZXIgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODU5ND
 M1ODczNTh9LCJQVmFhMnlkeFR5OEVDd1RqIjp7ImRpc2N1c3Np
 b25JZCI6IldqUWdTbVZDVk8wWXZWOUIiLCJzdWIiOiJnaDo0MD
 MwNDc4OCIsInRleHQiOiJTdHJhaWdodCB0byBqYWlsIiwiY3Jl
-YXRlZCI6MTY4NTk0NDA3NDk2NX19LCJoaXN0b3J5IjpbLTU1OT
-Q3NzAyLDY5ODM2MzgyOSwtMzU0NzY2ODIxLC0xMjMxODM4NDQ4
-LDE1MTAyMzQ3OTUsMjM4NTMxNDQ1LC0xMTQ2OTUxNDIxLDIwMj
-E5ODgwNTIsLTE3MjM4OTQ5OTQsODM3MjMzNzcsLTE5Mzg5MTY2
-MTIsMTIwODA3MzA4NSwtMjA5ODcxMDg0MywxNTE0MzQ3OTE5LD
-E4Mzk3ODY1OTQsLTE2MzU3NTE2MjQsMjQ2NzUwMTkwLDE0OTc0
-NzEwMTcsMTI0NTQ1NzI5OSwxMjE3NDM2NzYyXX0=
+YXRlZCI6MTY4NTk0NDA3NDk2NX19LCJoaXN0b3J5IjpbLTExMz
+MxNDA0ODgsNjk4MzYzODI5LC0zNTQ3NjY4MjEsLTEyMzE4Mzg0
+NDgsMTUxMDIzNDc5NSwyMzg1MzE0NDUsLTExNDY5NTE0MjEsMj
+AyMTk4ODA1MiwtMTcyMzg5NDk5NCw4MzcyMzM3NywtMTkzODkx
+NjYxMiwxMjA4MDczMDg1LC0yMDk4NzEwODQzLDE1MTQzNDc5MT
+ksMTgzOTc4NjU5NCwtMTYzNTc1MTYyNCwyNDY3NTAxOTAsMTQ5
+NzQ3MTAxNywxMjQ1NDU3Mjk5LDEyMTc0MzY3NjJdfQ==
 -->
