@@ -160,10 +160,9 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	 5. Set the *Output field type* to *Decimal number (real)*, and *Output field length* to 10 and 2 (try the other options and look how this changes the preview value)Click *OK*
 	 6. Finally, click the *Save Edits* button ![](https://docs.qgis.org/3.28/en/_images/mActionSaveEdits.png) and disable *Editing* mode ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png) to make the changes permanent
 
- 7.  **Using the field we just created in the attribute table, explore the small areas of Helsinki**, which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. 
-
+ 7.  **Using the field we just created in the attribute table, explore the small areas of Helsinki**, which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*.Alternatively you can find tools from the *Processing Toolbox*.
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_select_by_expression1.png)
- Alternatively you can find tools from the *Processing Toolbox*.
+ 
 	 1. Open the *Field and Values* drop-down menu, which will show all the attribute fields
 	 2. Double-click on the area field you made earlier (Area_km2)
 	 3. Type "< 5" to the right of the field in the text field
@@ -273,16 +272,16 @@ NFbTM0bDNWclRXIjp7InN0YXJ0Ijo4OTI0LCJlbmQiOjg5MzAs
 InRleHQiOiJvYmplY3QifSwiRlhmUUZmRjlGWk9OcFlGYSI6ey
 JzdGFydCI6ODk2NSwiZW5kIjo4OTc0LCJ0ZXh0IjoiYXR0cmli
 dXRlIn0sImV2TFdZb0FHWDB5dXVJWHMiOnsic3RhcnQiOjE1MD
-MwLCJlbmQiOjE1MDQ4LCJ0ZXh0IjoiUHJvY2Vzc2luZyBUb29s
+Q4LCJlbmQiOjE1MDQ4LCJ0ZXh0IjoiUHJvY2Vzc2luZyBUb29s
 Ym94In0sIkljZEZ0Z0pRYlBCTUdOakMiOnsic3RhcnQiOjE4OT
-k2LCJlbmQiOjE5MDQ0LCJ0ZXh0IjoiY3R1cmUgb2YgY3VycmVu
+k0LCJlbmQiOjE5MDQyLCJ0ZXh0IjoiY3R1cmUgb2YgY3VycmVu
 dCBhdHRyaWJ1dGUgdGFibGUgd2l0aCBuZXcgZmllbGRzIn0sIl
-BRWEprU3RZMmdzdXZ6NUQiOnsic3RhcnQiOjIwMDM0LCJlbmQi
-OjIwMDU4LCJ0ZXh0IjoiLSBMYXlvdXQgbWFuYWdlciBwaWN0dX
-JlIn0sImxTV2plN2dQNnJsSW5nYXkiOnsic3RhcnQiOjIwOTA3
-LCJlbmQiOjIwOTE2LCJ0ZXh0IjoiTW92ZSBpdGVtIn0sIll5Wl
-RhZFJwcEtyZTEyUFQiOnsic3RhcnQiOjIxMDE4LCJlbmQiOjIx
-MDM1LCJ0ZXh0IjoiTW92ZSBpdGVtIGNvbnRlbnQifSwieW5oNW
+BRWEprU3RZMmdzdXZ6NUQiOnsic3RhcnQiOjIwMDMyLCJlbmQi
+OjIwMDU2LCJ0ZXh0IjoiLSBMYXlvdXQgbWFuYWdlciBwaWN0dX
+JlIn0sImxTV2plN2dQNnJsSW5nYXkiOnsic3RhcnQiOjIwOTA1
+LCJlbmQiOjIwOTE0LCJ0ZXh0IjoiTW92ZSBpdGVtIn0sIll5Wl
+RhZFJwcEtyZTEyUFQiOnsic3RhcnQiOjIxMDE2LCJlbmQiOjIx
+MDMzLCJ0ZXh0IjoiTW92ZSBpdGVtIGNvbnRlbnQifSwieW5oNW
 JvUWlPTVRpbFpNVyI6eyJzdGFydCI6NzYsImVuZCI6MTk0LCJ0
 ZXh0IjoiIVtDb3ZlciBwaWN0dXJlXShodHRwczovL3Jhdy5naX
 RodWJ1c2VyY29udGVudC5jb20vcm93YW44ay9mdW5kYW1lbnRh
@@ -370,11 +369,11 @@ aDo0MDMwNDc4OCIsInRleHQiOiJnaXRodWIiLCJjcmVhdGVkIj
 oxNjg1OTQ3ODM3NjQ3fSwiTDZHWUMzN1hOM3lKb2I1OCI6eyJk
 aXNjdXNzaW9uSWQiOiJZeVpUYWRScHBLcmUxMlBUIiwic3ViIj
 oiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiZ2l0aHViIiwiY3JlYXRl
-ZCI6MTY4NTk0Nzg0NDUzOX19LCJoaXN0b3J5IjpbNTUxMTM5NT
-YwLDIzODUzMTQ0NSwtMTE0Njk1MTQyMSwyMDIxOTg4MDUyLC0x
-NzIzODk0OTk0LDgzNzIzMzc3LC0xOTM4OTE2NjEyLDEyMDgwNz
-MwODUsLTIwOTg3MTA4NDMsMTUxNDM0NzkxOSwxODM5Nzg2NTk0
-LC0xNjM1NzUxNjI0LDI0Njc1MDE5MCwxNDk3NDcxMDE3LDEyND
-U0NTcyOTksMTIxNzQzNjc2Miw2ODExODQ4NzQsLTE4MTkwMDE4
-NzEsLTQ3NzAwMjIzNCwtMTY0NzU2NzM3Ml19
+ZCI6MTY4NTk0Nzg0NDUzOX19LCJoaXN0b3J5IjpbMTg1ODg1MT
+E5OSwyMzg1MzE0NDUsLTExNDY5NTE0MjEsMjAyMTk4ODA1Miwt
+MTcyMzg5NDk5NCw4MzcyMzM3NywtMTkzODkxNjYxMiwxMjA4MD
+czMDg1LC0yMDk4NzEwODQzLDE1MTQzNDc5MTksMTgzOTc4NjU5
+NCwtMTYzNTc1MTYyNCwyNDY3NTAxOTAsMTQ5NzQ3MTAxNywxMj
+Q1NDU3Mjk5LDEyMTc0MzY3NjIsNjgxMTg0ODc0LC0xODE5MDAx
+ODcxLC00NzcwMDIyMzQsLTE2NDc1NjczNzJdfQ==
 -->
