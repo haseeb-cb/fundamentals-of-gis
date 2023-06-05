@@ -75,6 +75,7 @@ The *Browser panel* is a tool for browsing, searching, inspecting, copying and l
 The *Layer panel* lists all the layers in the project and helps you manage their visibility and shape the map. You can access the layers by right clicking them, and toggle their vissibility by toggling the check box in the layer panel. 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_layer_panel.png)
 The *Processing Toolbox* shows the list of all available **algorithms** grouped in different blocks called _Providers_, and custom **models** and **scripts** you can add to extend the set of tools. Hence the toolbox is the access point to run them, whether as a single process or as a batch process involving several executions of the same algorithm on different sets of inputs.
+![](https://docs.qgis.org/3.4/en/_images/toolbox3.png)
 
 ### 1.3 Plugins
 
@@ -161,7 +162,7 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	 5. Set the *Output field type* to *Decimal number (real)*, and *Output field length* to 10 and 2 (try the other options and look how this changes the preview value)Click *OK*
 	 6. Finally, click the *Save Edits* button ![](https://docs.qgis.org/3.28/en/_images/mActionSaveEdits.png) and disable *Editing* mode ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png) to make the changes permanent
 
- 7.  **Using the field we just created in the attribute table, explore the small areas of Helsinki**, which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*.Alternatively you can find tools from the *Processing Toolbox*.
+ 7.  **Using the field we just created in the attribute table, explore the small areas of Helsinki**, which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_select_by_expression1.png)
  
 	 1. Open the *Field and Values* drop-down menu, which will show all the attribute fields
@@ -255,13 +256,11 @@ UGR6ZEhMcXB3S0tOIjp7InN0YXJ0Ijo0MTU1LCJlbmQiOjQyOD
 EsInRleHQiOiJUaGUgZGF0YSB1c2VkIGluIHRoaXMgY291cnNl
 IHdpbGwgbW9zdGx5IGJlIGluIEVQU0cgMzA2NyAoRVRSUy1UTT
 M1RklOKSwgd2hpY2jigKYifSwiemlvU2RVZDhwY0tGRUNuUiI6
-eyJzdGFydCI6ODc3NiwiZW5kIjo5MDgzLCJ0ZXh0IjoiVGhlc2
+eyJzdGFydCI6ODgzMSwiZW5kIjo5MTM4LCJ0ZXh0IjoiVGhlc2
 UgZGF0YSBzZXRzIGFyZSBhbGwgZG93bmxvYWRlZCBmcm9tIFBh
 SVR1bGkgYW5kIEhlbHNpbmtpIFJlZ2lvbiBJbmZvc2hhcmUgZO
-KApiJ9LCJldkxXWW9BR1gweXV1SVhzIjp7InN0YXJ0IjoxNjEw
-MiwiZW5kIjoxNjEwMiwidGV4dCI6IlByb2Nlc3NpbmcgVG9vbG
-JveCJ9LCJQUVhKa1N0WTJnc3V2ejVEIjp7InN0YXJ0IjoyMTE0
-MCwiZW5kIjoyMTE2NCwidGV4dCI6Ii0gTGF5b3V0IG1hbmFnZX
+KApiJ9LCJQUVhKa1N0WTJnc3V2ejVEIjp7InN0YXJ0IjoyMTE5
+NiwiZW5kIjoyMTIyMCwidGV4dCI6Ii0gTGF5b3V0IG1hbmFnZX
 IgcGljdHVyZSJ9LCJ5bmg1Ym9RaU9NVGlsWk1XIjp7InN0YXJ0
 Ijo3MywiZW5kIjoxOTEsInRleHQiOiIhW0NvdmVyIHBpY3R1cm
 VdKGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9y
@@ -283,29 +282,21 @@ dGhlIGRhdGEgdGhlbXNlbHZlcyIsImNyZWF0ZWQiOjE2ODU3OD
 M0OTA1MzN9LCJCTXhYR0kyWEJEb2lCVjVUIjp7ImRpc2N1c3Np
 b25JZCI6Inppb1NkVWQ4cGNLRkVDblIiLCJzdWIiOiJnaDo0MD
 MwNDc4OCIsInRleHQiOiJvciBhZGQgbGlua3MiLCJjcmVhdGVk
-IjoxNjg1NzgzNTA2MTE3fSwia2dKRVlENlp2WnI0MzBHdSI6ey
-JkaXNjdXNzaW9uSWQiOiJldkxXWW9BR1gweXV1SVhzIiwic3Vi
-IjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGludHJvZHVjdG
-lvbiB0byB0aGlzPyIsImNyZWF0ZWQiOjE2ODU3ODY2MjgwNzZ9
-LCJBWGNiVVd4dDc3R0RPeVhGIjp7ImRpc2N1c3Npb25JZCI6Im
-V2TFdZb0FHWDB5dXVJWHMiLCJzdWIiOiJnaDo0MDMwNDc4OCIs
-InRleHQiOiJFYXJsaWVyIGluIGNyYXNoIGNvdXJzZSwgYWRkIG
-V4YW1wbGVzIG9mIHRvb2xzIGFuZCBob3cgdGhleSB3b3JrIiwi
-Y3JlYXRlZCI6MTY4NTc4Nzg5OTA1OX0sIjAxQ2lGOGlHOG90M2
-FiMW4iOnsiZGlzY3Vzc2lvbklkIjoiUFFYSmtTdFkyZ3N1dno1
-RCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBpbW
-FnZSIsImNyZWF0ZWQiOjE2ODU3OTAzMjM4MDl9LCI1N0xYalN6
-SHN6YUhjaEpVIjp7ImRpc2N1c3Npb25JZCI6InluaDVib1FpT0
-1UaWxaTVciLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJV
-cGRhdGUgY292ZXIgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODU5ND
-M1ODczNTh9LCJQVmFhMnlkeFR5OEVDd1RqIjp7ImRpc2N1c3Np
-b25JZCI6IldqUWdTbVZDVk8wWXZWOUIiLCJzdWIiOiJnaDo0MD
-MwNDc4OCIsInRleHQiOiJTdHJhaWdodCB0byBqYWlsIiwiY3Jl
-YXRlZCI6MTY4NTk0NDA3NDk2NX19LCJoaXN0b3J5IjpbLTExMz
-MxNDA0ODgsNjk4MzYzODI5LC0zNTQ3NjY4MjEsLTEyMzE4Mzg0
-NDgsMTUxMDIzNDc5NSwyMzg1MzE0NDUsLTExNDY5NTE0MjEsMj
-AyMTk4ODA1MiwtMTcyMzg5NDk5NCw4MzcyMzM3NywtMTkzODkx
-NjYxMiwxMjA4MDczMDg1LC0yMDk4NzEwODQzLDE1MTQzNDc5MT
-ksMTgzOTc4NjU5NCwtMTYzNTc1MTYyNCwyNDY3NTAxOTAsMTQ5
-NzQ3MTAxNywxMjQ1NDU3Mjk5LDEyMTc0MzY3NjJdfQ==
+IjoxNjg1NzgzNTA2MTE3fSwiMDFDaUY4aUc4b3QzYWIxbiI6ey
+JkaXNjdXNzaW9uSWQiOiJQUVhKa1N0WTJnc3V2ejVEIiwic3Vi
+IjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGltYWdlIiwiY3
+JlYXRlZCI6MTY4NTc5MDMyMzgwOX0sIjU3TFhqU3pIc3phSGNo
+SlUiOnsiZGlzY3Vzc2lvbklkIjoieW5oNWJvUWlPTVRpbFpNVy
+IsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSBj
+b3ZlciBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NTk0MzU4NzM1OH
+0sIlBWYWEyeWR4VHk4RUN3VGoiOnsiZGlzY3Vzc2lvbklkIjoi
+V2pRZ1NtVkNWTzBZdlY5QiIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
+widGV4dCI6IlN0cmFpZ2h0IHRvIGphaWwiLCJjcmVhdGVkIjox
+Njg1OTQ0MDc0OTY1fX0sImhpc3RvcnkiOlszMDYxNDE3NDQsNj
+k4MzYzODI5LC0zNTQ3NjY4MjEsLTEyMzE4Mzg0NDgsMTUxMDIz
+NDc5NSwyMzg1MzE0NDUsLTExNDY5NTE0MjEsMjAyMTk4ODA1Mi
+wtMTcyMzg5NDk5NCw4MzcyMzM3NywtMTkzODkxNjYxMiwxMjA4
+MDczMDg1LC0yMDk4NzEwODQzLDE1MTQzNDc5MTksMTgzOTc4Nj
+U5NCwtMTYzNTc1MTYyNCwyNDY3NTAxOTAsMTQ5NzQ3MTAxNywx
+MjQ1NDU3Mjk5LDEyMTc0MzY3NjJdfQ==
 -->
