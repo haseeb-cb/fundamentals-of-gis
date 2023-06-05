@@ -2,7 +2,9 @@
 
 # Crash Course
 
--   Cover image[^1]
+
+
+![Cover picture](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/CC-cover-placeholder.png)
 
 [^1]: Image note
 
@@ -43,9 +45,9 @@ The state of a working session in QGIS is called a **project**. Similarly, to a 
 
 *Here a few basic functions that are worth knowing before starting to play around with data and layers:*
 
-**Saving in QGIS**: You can save your project by clicking either the *save* or the *save as* icon. You can also use the keyboard shortcut *Ctrl + S* (or *Command + S*) or go to *Project* \> *Save*. The file format of a project file is \*.qgs
+![Save icon](https://docs.qgis.org/3.28/en/_images/mActionFileSave.png) **Saving in QGIS**: You can save your project by clicking either the *save* ![](https://docs.qgis.org/3.28/en/_images/mActionFileSave.png) or the *save as* icon. You can also use the keyboard shortcut *Ctrl + S* (or *Command + S*) or go to *Project* \> *Save*. The file format of a project file is \*.qgs
 
-**Creating and opening a project in QGIS:** If you want to start a new project, you can click on the *New* icon with a blank page, or alternatively go to *Project* \> *New* or use the keyboard shortcut *Ctrl + N* (or Command + N). To open an already existing project, click on the folder-like *Open* icon to pick up where you left off.
+![](https://docs.qgis.org/3.28/en/_images/mActionFileNew.png) ![enter image description here](https://docs.qgis.org/3.28/en/_images/mActionFileOpen.png) **Creating and opening a project in QGIS:** If you want to start a new project, you can click on the *New* icon ![](https://docs.qgis.org/3.28/en/_images/mActionFileNew.png) with a blank page, or alternatively go to *Project* \> *New* or use the keyboard shortcut *Ctrl + N* (or Command + N). To open an already existing project, click on the folder-like *Open* icon ![enter image description here](https://docs.qgis.org/3.28/en/_images/mActionFileOpen.png) to pick up where you left off.
 
 **Changing the coordinate system of a project in QGIS:** You can see the current coordinate system of the project in the status bar in the lower right corner. You can change the coordinate system by clicking on the sign and selecting a new coordinate system from the list in the project properties window that pops open. You can access the same window also by going to *Project* \> *Properties* \> *CRS*. The default coordinate system in QGIS is set automatically to EPSG:4326 (WGS 84). You can change the default if you wish by going to *Settings* \> *Options* \> *CRS*. The data used in this course will mostly be in EPSG 3067 (ETRS-TM35FIN), which is the standard for nationwide data in Finland.
 
@@ -63,7 +65,9 @@ The **Attributes toolbar** includes some of the most common tools that enable fo
 
 -   Picture of attributes toolbar
 
-**Adding data in QGIS:** The **Data Source Manager** offers a handy way to add a vector or raster layer. There are also special buttons for different kinds of database layers and interface services. The figure on the right offers a closer look at the tool. Similar functionality can be found in *Layer* \> *Add Layer*.
+(icon picture) **Adding data in QGIS:** The **Data Source Manager** offers a handy way to add a vector or raster layer. There are also special buttons for different kinds of database layers and interface services. The figure on the below offers a closer look at the tool. Similar functionality can be found in *Layer* \> *Add Layer*.
+
+![Data Source Manager](https://docs.qgis.org/3.28/en/_images/datasource_manager.png)
 
 If you want to create new empty layers, go to *Layer* \> *Create Layer*.
 
@@ -73,7 +77,7 @@ If you want to create new empty layers, go to *Layer* \> *Create Layer*.
 
 Only a fraction of all the possible tools and functions are visible in the default view of QGIS as a lot of functionality is done via **plugins**. You can manage plugins in the QGIS plugin manager: select *Plugins* \> *Manage* and install plugins. Here you can see what plugins are already installed to your repository and install new or update/uninstall current plugins.
 
--   Example image of plugin
+![Plugins](https://docs.qgis.org/3.28/en/_images/plugin_details.png)
 
 Let’s download a very handy plugin called **QuickMapServices**, which gives access to a wide selection of background maps.
 
@@ -110,9 +114,9 @@ For a start, take your time to move around and get acquainted with the basic too
 
 **Whilst moving around, try out the following two tools:**
 
-The **Identify Features** tool is essentially an info-tool that identifies the object(s) selected with it and lists the attribute data available for all the layers in that particular location. If you only want to look at information from a specific layer, use the drop-down menu to specify the layer you want to examine.
+![](https://docs.qgis.org/3.28/en/_images/mActionIdentify.png) The **Identify Features** tool is essentially an info-tool that identifies the object(s) selected with it and lists the attribute data available for all the layers in that particular location. If you only want to look at information from a specific layer, use the drop-down menu to specify the layer you want to examine.
 
-The **measure** tool can be used to make simple distance and area calculations on the map, as well as for measuring angles. The tool can calculate both the length of single line segments and the sum of all drawn lines. The measurement unit can be changed from the tool options.
+![](https://docs.qgis.org/3.28/en/_images/mActionMeasure.png) The **measure** tool can be used to make simple distance and area calculations on the map, as well as for measuring angles. The tool can calculate both the length of single line segments and the sum of all drawn lines. The measurement unit can be changed from the tool options.
 
 Managing the **layers** is key in GIS. Right now, the added layers are arbitrarily symbolized and ordered, and do not come out very useful or informative. Thus, we need to get our hands dirty.
 
@@ -143,7 +147,7 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
  5.  Next, we shall move the focus from visualization to the **actual data**. Start by examining what data is included in the project and what information is stored in the layers by right clicking on the layer name and selecting *Open Attribute Table*.
 	 1. Open the *attribute table* of the layer called Helsinki_small_areas. Take a moment to examine the table, what can you see?
 	 As you can see, the file consists of a list of the small-sized areas within the city of Helsinki with their corresponding codes and creation dates but little else. Next, we are going to calculate the area for each small area of Helsinki. 
-	 2.  In the *attribute table*, toggle *Editing mode* and then click on the *Field Calculator* button
+	 2.  In the *attribute table*, toggle *Editing mode* ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png) and then click on the *Field Calculator* button ![](https://docs.qgis.org/3.28/en/_images/mActionCalculateField.png)
  - Field calculator picture
  6.  Now we’ll **write an expression that calculates the area of each small area of Helsinki in square kilometers**. On the right side of the Expression window is a list of drop-down menus.
 	 1. Open the *Geometry* drop-down menu
@@ -151,7 +155,7 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	 3. Just the *\$area* expression would calculate the area in square meters, but we want square kilometers. So we will divide it by 1 000 000. Click or type the division symbol (/), and type 1000000 after the division
 	 4. Set an informative *Output field name* (For example: Area_km2)
 	 5. Set the *Output field type* to *Decimal number (real)*, and *Output field length* to 10 and 2 (try the other options and look how this changes the preview value)Click *OK*
-	 6. Finally, click the *Save Edits* button and disable *Editing* mode to make the changes permanent
+	 6. Finally, click the *Save Edits* button ![](https://docs.qgis.org/3.28/en/_images/mActionSaveEdits.png) and disable *Editing* mode ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png) to make the changes permanent
 
  7.  **Using the field we just created in the attribute table, explore the small areas of Helsinki**, which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.
 	 1. Open the *Field and Values* drop-down menu, which will show all the attribute fields
@@ -164,7 +168,7 @@ Your selection now includes all the areas under 5 square kilometers in this laye
  -  "Area_km2" = 5, select the features the area of which is exactly 5 square meters
  - "Area_km2" > 2 AND "Area_km2" < 5, select the features the area of which is between 2 and 5 square kilometers  
 
-	5. Close the *Select by expression* window and deselect all the features by clicking *Deselect all* 
+	5. Close the *Select by expression* window and deselect all the features by clicking *Deselect all* ![](https://docs.qgis.org/3.28/en/_images/mActionDeselectAll.png)
 
 - Select features by expression picture 
 
@@ -208,25 +212,22 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 The last phase of this practical will concentrate on creating a map output.
 - Layout manager picture
 
-1. In QGIS, the map layout is done in a separate window called a **Print layout**. Press on the *New Print layout* button in the *File toolbar* or go to *Project* > *New print layout*. Give a name for the composer in the opening window, and an empty map window should appear on the screen.
+1. In QGIS, the map layout is done in a separate window called a **Print layout**. Press on the *New Print layout* button ![](https://docs.qgis.org/3.28/en/_images/mActionNewLayout.png) in the *File toolbar* or go to *Project* > *New print layout*. Give a name for the composer in the opening window, and an empty map window should appear on the screen.
 
-2. The next step is to add the content to the screen. Press the **Add new map button** in the left side panel and drag from the corners to match the paper orientation. Now, you should see the same view as in the working view. If you want, you can change the paper orientation in the right-side *Composition panel* under the section *Paper and quality*.
+2. The next step is to add the content to the screen. Press the *Add new map* button ![](https://docs.qgis.org/3.28/en/_images/mActionNewMap.png) in the left side panel and drag from the corners to match the paper orientation. Now, you should see the same view as in the working view. If you want, you can change the paper orientation in the right-side *Composition panel* under the section *Paper and quality*.
 
 	You can orientate in two ways in the composer: 
 - To move the window, select *Move item* or press the keyboard shortcut **V** and drag as desired 
 - To move the content on the map, select *Move item content* or press the keyboard shortcut C and drag as desired 
 
-	NB! Remember, that **if you make changes in your working view, you need to press *Update preview / Refresh view*** in order to see the changes in the print composer view!
+	NB! Remember, that **if you make changes in your working view, you need to press ***Refresh view*** ![](https://docs.qgis.org/3.28/en/_images/mActionRefresh.png) in order to see the changes in the print composer view!
 
 3. A proper map should always have at least these three elements: a **north arrow**, a **scale bar** and a **legend**. All of these can be found in QGIS under the Layout-tab or the left hand-side toolbar in the Print layout. Add the mentioned elements to your map and visualize them as desired.
 		
-	1. **Adding a label**: You can change the default text as well as the font and colors of the label from the Item properties window in the lower right corner.
-	2. **Adding a scale bar**: Click where you want to add it and customize it as desired. The size and the colors can be modified from the right-side Item properties panel.
-	3. **Adding a legend**: You probably have to modify the legend a bit so that it looks informative on the map. The modification can be done from the Item properties. For example, delete the unnecessary items from your legend by clicking the minus symbol (tick the Auto update box off first).
-	4. **Adding a North arrow or an image**: To do this, press Add North Arrow and click on the layout. If you want to modify the look of the arrow, go to Item properties and open the Search directories tab (see the picture on the right). Click on the desired arrow.
-	5. **Adding a legend**: You probably have to modify the legend a bit so that it looks informative on the map. The modification can be done from the Item properties. For example, delete the unnecessary items from your legend by clicking the minus symbol (tick the Auto update box off first).
-	6. **Adding a North arrow or an image**: To do this, press Add North Arrow and click on the layout.
-If you want to modify the look of the arrow, go to Item properties and open the Search directories tab (see the picture on the right). Click on the desired arrow.
+	1. ![](https://docs.qgis.org/3.28/en/_images/mActionLabel.png) **Adding a label**: You can change the default text as well as the font and colors of the label from the Item properties window in the lower right corner.
+	2. ![](https://docs.qgis.org/3.28/en/_images/mActionScaleBar.png) **Adding a scale bar**: Click where you want to add it and customize it as desired. The size and the colors can be modified from the right-side Item properties panel.
+	3. ![](https://docs.qgis.org/3.28/en/_images/mActionAddLegend.png) **Adding a legend**: You probably have to modify the legend a bit so that it looks informative on the map. The modification can be done from the Item properties. For example, delete the unnecessary items from your legend by clicking the minus symbol (tick the Auto update box off first).
+	4. ![enter image description here](https://docs.qgis.org/3.28/en/_images/north_arrow.png) **Adding a North arrow or an image**: To do this, press Add North Arrow and click on the layout. If you want to modify the look of the arrow, go to Item properties and open the Search directories tab (see the picture on the right). Click on the desired arrow.
 
 4. Once you are satisfied with your map, **save the project** and go to *Layout* > *Export as image* to **save your layout as an image file**. If you want to adjust the export resolution (default is 300 dpi, higher value = higher resolution image and larger file size), you can do that prior to exporting from the Layout panel. **Save your map under your course folder and submit the finished map on Moodle.**
 
@@ -237,235 +238,217 @@ If you want to modify the look of the arrow, go to Item properties and open the 
 ## 3. Optional exercise
  
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyI2UjU5YmNzcnVMSFhIMkE4Ijp7In
-N0YXJ0Ijo3OCwiZW5kIjo4OSwidGV4dCI6IkNvdmVyIGltYWdl
-In0sInBWZTF0NHR5TmJGeFJwUU4iOnsic3RhcnQiOjExMDQsIm
-VuZCI6MTI2NCwidGV4dCI6IioqRmlyc3QgbWFrZSBzdXJlIHlv
-dSBoYXZlIGRvd25sb2FkZWQgdGhlIGRhdGEgemlwIGNvbnRhaW
-5pbmcgdGhlIGNyYXNoIGNvdXJzZeKApiJ9LCJLMjRpODd1c0tt
-RlpVUklKIjp7InN0YXJ0IjoxMzQ1LCJlbmQiOjEzNTcsInRleH
-QiOiItICAgRmlndXJlIDEifSwidVNWbDltdnEwUTJuN1RMRyI6
-eyJzdGFydCI6MTc5NywiZW5kIjoyMjA4LCJ0ZXh0IjoiU2ltaW
-xhcmx5LCB0byBhIGUuZy4sIGEgd29ya3NwYWNlIGluIEFyY0dJ
-UywgYSBwcm9qZWN0IGlzIGNvbnNpZGVyZWQgdGhlIGVuc2VtYu
-KApiJ9LCJXalFnU21WQ1ZPMFl2VjlCIjp7InN0YXJ0IjoxOTky
-LCJlbmQiOjIwODAsInRleHQiOiJSZW1lbWJlciB0byBzYXZlIH
-lvdXIgcHJvamVjdHMgb2Z0ZW4gdG8gcHJldmVudCB3b3JrIGZy
-b20gYmVpbmcgbG9zdCBpbiBjYXNlIG9m4oCmIn0sIjVNVU1QR2
-FXNXQ4d096RGciOnsic3RhcnQiOjIzMTYsImVuZCI6MjMzNCwi
-dGV4dCI6IioqU2F2aW5nIGluIFFHSVMqKiJ9LCJTRHlsOFFVMH
-RFcElzTU5xIjp7InN0YXJ0IjoyNTU5LCJlbmQiOjI2MDIsInRl
-eHQiOiIqKkNyZWF0aW5nIGFuZCBvcGVuaW5nIGEgcHJvamVjdC
-BpbiBRR0lTOioqIn0sIkluSTR6WnJSTjRNVFJhQjMiOnsic3Rh
-cnQiOjI4OTYsImVuZCI6Mjk1MiwidGV4dCI6IioqQ2hhbmdpbm
-cgdGhlIGNvb3JkaW5hdGUgc3lzdGVtIG9mIGEgcHJvamVjdCBp
-biBRR0lTOioqIn0sIk44Y2hQZHpkSExxcHdLS04iOnsic3Rhcn
-QiOjM0NjgsImVuZCI6MzU5NCwidGV4dCI6IlRoZSBkYXRhIHVz
-ZWQgaW4gdGhpcyBjb3Vyc2Ugd2lsbCBtb3N0bHkgYmUgaW4gRV
-BTRyAzMDY3IChFVFJTLVRNMzVGSU4pLCB3aGljaOKApiJ9LCI4
-UkE2ZGVsSVlteTFRcG1SIjp7InN0YXJ0Ijo0MTk4LCJlbmQiOj
-QyMzEsInRleHQiOiJQaWN0dXJlIG9mIG1hcCBuYXZpZ2F0aW9u
-IHRvb2xiYXIifSwicGNpT2dndXdGaUI2c1VVRiI6eyJzdGFydC
-I6NDQ2NCwiZW5kIjo0NDkzLCJ0ZXh0IjoiUGljdHVyZSBvZiBh
-dHRyaWJ1dGVzIHRvb2xiYXIifSwicUUzQ1h4MGxINEk3dWtBNC
-I6eyJzdGFydCI6NDY5OCwiZW5kIjo0NzA0LCJ0ZXh0IjoiZmln
-dXJlIn0sIngwTjZJeUxrZ3BjUWlKOTkiOnsic3RhcnQiOjQ5ND
-AsImVuZCI6NDk4MywidGV4dCI6IkxheWVycyBhbmQgQnJvd3Nl
-ciBwYW5lbHMgaW50cm9kdWNlZCBhYm92ZS4ifSwib1Q5eGU2cX
-d2VVVyZjdCbyI6eyJzdGFydCI6NTA1MywiZW5kIjo1MTUwLCJ0
-ZXh0IjoiT24gdGhlIGxlZnQgaXMgYW4gZXhhbXBsZSBvZiB0aH
-JlZSBwYW5lbHMgKEJyb3dzZXIsIExheWVyIFN0eWxlIGFuZCBM
-YXllcnMpIG9u4oCmIn0sImp0WG1Sd3FkWXlDZzg2ZmEiOnsic3
-RhcnQiOjU1NDYsImVuZCI6NTU2OSwidGV4dCI6IkV4YW1wbGUg
-aW1hZ2Ugb2YgcGx1Z2luIn0sInppb1NkVWQ4cGNLRkVDblIiOn
-sic3RhcnQiOjY3MzMsImVuZCI6NzA0MCwidGV4dCI6IlRoZXNl
-IGRhdGEgc2V0cyBhcmUgYWxsIGRvd25sb2FkZWQgZnJvbSBQYU
-lUdWxpIGFuZCBIZWxzaW5raSBSZWdpb24gSW5mb3NoYXJlIGTi
-gKYifSwiTXc5QWd4cGdlTzdnMVBvUCI6eyJzdGFydCI6NzcwMi
-wiZW5kIjo3NzE5LCJ0ZXh0IjoiSWRlbnRpZnkgRmVhdHVyZXMi
-fSwiNTh4TGt3ZTBwclA4MTVWVCI6eyJzdGFydCI6ODAyNCwiZW
-5kIjo4MDMxLCJ0ZXh0IjoibWVhc3VyZSJ9LCJhYkRBMEVIazdP
-MjQzWDdkIjp7InN0YXJ0Ijo4NTY2LCJlbmQiOjg1NzgsInRleH
-QiOiJsYXllcnMgcGFuZWwifSwiaGxoa2RDRW0zNGwzVnJUVyI6
-eyJzdGFydCI6Nzc3NSwiZW5kIjo3NzgxLCJ0ZXh0Ijoib2JqZW
-N0In0sIkZYZlFGZkY5RlpPTnBZRmEiOnsic3RhcnQiOjc4MTYs
-ImVuZCI6NzgyNSwidGV4dCI6ImF0dHJpYnV0ZSJ9LCJJOHl4QU
-RjNjNTa09nRDN5Ijp7InN0YXJ0IjoxMTA2NCwiZW5kIjoxMTA4
-OCwidGV4dCI6IlN5bWJvbG9neSBleGFtcGxlIHBpY3R1ciJ9LC
-I5WUpOdThvOHVvdWJZQ2doIjp7InN0YXJ0IjoxMTg2NywiZW5k
-IjoxMTg3NCwidGV4dCI6IkVkaXRpbmcifSwiTnhKZEZXQ0JsVX
-MyNHNjTCI6eyJzdGFydCI6MTE5MDQsImVuZCI6MTE5MDksInRl
-eHQiOiJGaWVsZCJ9LCJzUUVwbkYzNjdzZWF2THNjIjp7InN0YX
-J0IjoxMTkzMiwiZW5kIjoxMTk1NiwidGV4dCI6IkZpZWxkIGNh
-bGN1bGF0b3IgcGljdHVyZSJ9LCJBY1dUSmttcjlha253MlFWIj
-p7InN0YXJ0IjoxMjgxMSwiZW5kIjoxMjgxOCwidGV4dCI6IkVk
-aXRpbmcifSwiM1hVaWhUcmdOVFhubHJwMyI6eyJzdGFydCI6MT
-I3NzksImVuZCI6MTI3ODksInRleHQiOiJTYXZlIEVkaXRzIn0s
-ImV2TFdZb0FHWDB5dXVJWHMiOnsic3RhcnQiOjEzMjYyLCJlbm
-QiOjEzMjgwLCJ0ZXh0IjoiUHJvY2Vzc2luZyBUb29sYm94In0s
-IlFnanFjSGsxV2VidmRRZFUiOnsic3RhcnQiOjEzMTg3LCJlbm
-QiOjEzMjE2LCJ0ZXh0IjoiU2VsZWN0IGZlYXR1cmVzIGJ5IGV4
-cHJlc3Npb24ifSwiSFRCajVOQWlqamlQSG5kdiI6eyJzdGFydC
-I6MTQwMjYsImVuZCI6MTQwMzgsInRleHQiOiJEZXNlbGVjdCBh
-bGwifSwiSEtYc0Njb0ZLRmY0ZXhQUyI6eyJzdGFydCI6MTQwND
-IsImVuZCI6MTQwODEsInRleHQiOiItIFNlbGVjdCBmZWF0dXJl
-cyBieSBleHByZXNzaW9uIHBpY3R1cmUifSwiY1U3UVhUVUJrWm
-lvNmd6TSI6eyJzdGFydCI6MTUyNTIsImVuZCI6MTUyOTAsInRl
-eHQiOiItIEpvaW4gYXR0cmlidXRlcyBieSBMb2NhdGlvbiBwaW
-N0dXJlcyJ9LCJJY2RGdGdKUWJQQk1HTmpDIjp7InN0YXJ0Ijox
-NjgyOCwiZW5kIjoxNjg3NiwidGV4dCI6ImN0dXJlIG9mIGN1cn
-JlbnQgYXR0cmlidXRlIHRhYmxlIHdpdGggbmV3IGZpZWxkcyJ9
-LCJQUVhKa1N0WTJnc3V2ejVEIjp7InN0YXJ0IjoxNzg2NiwiZW
-5kIjoxNzg5MCwidGV4dCI6Ii0gTGF5b3V0IG1hbmFnZXIgcGlj
-dHVyZSJ9LCJMRUdUbE01UTNXaHRnYVBYIjp7InN0YXJ0IjoxNz
-k4OSwiZW5kIjoxODAwNSwidGV4dCI6Ik5ldyBQcmludCBsYXlv
-dXQifSwiT3Y3ZFNhd3Q3aUxoQWZFciI6eyJzdGFydCI6MTgyND
-ksImVuZCI6MTgyNjcsInRleHQiOiJBZGQgbmV3IG1hcCBidXR0
-b24ifSwibFNXamU3Z1A2cmxJbmdheSI6eyJzdGFydCI6MTg2MT
-YsImVuZCI6MTg2MjUsInRleHQiOiJNb3ZlIGl0ZW0ifSwiWXla
-VGFkUnBwS3JlMTJQVCI6eyJzdGFydCI6MTg3MjcsImVuZCI6MT
-g3NDQsInRleHQiOiJNb3ZlIGl0ZW0gY29udGVudCJ9LCJKeENB
-VGNid20yUDAyNDgwIjp7InN0YXJ0IjoxOTI3NiwiZW5kIjoyMD
-cxMywidGV4dCI6IioqQWRkaW5nIGEgbGFiZWwqKjogWW91IGNh
-biBjaGFuZ2UgdGhlIGRlZmF1bHQgdGV4dCBhcyB3ZWxsIGFzIH
-RoZSBmb250IGFuZCBjb2zigKYifX0sImNvbW1lbnRzIjp7Indz
-cFZ2U2tJdW16TG1pdU0iOnsiZGlzY3Vzc2lvbklkIjoiNlI1OW
-Jjc3J1TEhYSDJBOCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4
-dCI6IkFkZCBjb3ZlciBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NT
-c4Mjk2NDk1N30sIlNSZnlLOHp2MHl3dndzZm0iOnsiZGlzY3Vz
-c2lvbklkIjoicFZlMXQ0dHlOYkZ4UnBRTiIsInN1YiI6ImdoOj
-QwMzA0Nzg4IiwidGV4dCI6IkFkZCByZWNvbW1lbmRhdGlvbnMg
-b24gbWFraW5nIGEgZm9sZGVyIGZvciBlYWNoIHByYWN0aWNhbC
-IsImNyZWF0ZWQiOjE2ODU3ODMwMzkzNTd9LCJ1UEt0REpaWTVD
-QVVrd05BIjp7ImRpc2N1c3Npb25JZCI6IksyNGk4N3VzS21GWl
-VSSUoiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQg
-cGljdHVyZSIsImNyZWF0ZWQiOjE2ODU3ODMwNDgzODl9LCJyeW
-NSdG15Z0lyeVpTZWQ2Ijp7ImRpc2N1c3Npb25JZCI6InVTVmw5
-bXZxMFEybjdUTEciLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleH
-QiOiJEdW1iIHRoaXMgZG93biBvciBleHBsYWluIGl0IG1vcmUg
-dGhvcm91Z2hseSIsImNyZWF0ZWQiOjE2ODU3ODMwNzE3NDB9LC
-I5UlpPQnRUaUNST242TTVyIjp7ImRpc2N1c3Npb25JZCI6Ildq
-UWdTbVZDVk8wWXZWOUIiLCJzdWIiOiJnaDo0MDMwNDc4OCIsIn
-RleHQiOiJBZGQgbWVtZSIsImNyZWF0ZWQiOjE2ODU3ODMwODM5
-NTF9LCJHUEh3UmFQSEM5ZkpyUkVRIjp7ImRpc2N1c3Npb25JZC
-I6IjVNVU1QR2FXNXQ4d096RGciLCJzdWIiOiJnaDo0MDMwNDc4
-OCIsInRleHQiOiJBZGQgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nz
-gzMTkzNjM3fSwiZFZNYTNlVFgyNlBPRmVrTSI6eyJkaXNjdXNz
-aW9uSWQiOiJTRHlsOFFVMHRFcElzTU5xIiwic3ViIjoiZ2g6ND
-AzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGltYWdlIiwiY3JlYXRlZCI6
-MTY4NTc4MzIwMjE1MH0sIk5oZVIwU2U3eFlWdHlvMGciOnsiZG
-lzY3Vzc2lvbklkIjoiSW5JNHpaclJONE1UUmFCMyIsInN1YiI6
-ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBpbWFnZSIsImNyZW
-F0ZWQiOjE2ODU3ODMyMTQ0NzB9LCJLSENWcDNzNE1EQ3YyV2l0
-Ijp7ImRpc2N1c3Npb25JZCI6Ik44Y2hQZHpkSExxcHdLS04iLC
-JzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJDb21lIGJhY2sg
-dG8gY2hlY2sgaWYgYWNjdXJhdGUiLCJjcmVhdGVkIjoxNjg1Nz
-gzMjI4NjM3fSwiZ005V2p5c25DOTVHa0Q5dSI6eyJkaXNjdXNz
-aW9uSWQiOiI4UkE2ZGVsSVlteTFRcG1SIiwic3ViIjoiZ2g6ND
-AzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGltYWdlIiwiY3JlYXRlZCI6
-MTY4NTc4MzI0MjU1OH0sIllkNG9mbXFnU3VxcGpiUVIiOnsiZG
-lzY3Vzc2lvbklkIjoicGNpT2dndXdGaUI2c1VVRiIsInN1YiI6
-ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBpbWFnZSIsImNyZW
-F0ZWQiOjE2ODU3ODMyNDgzMjZ9LCJpTnZhSGh3QzJYUVNkSVNv
-Ijp7ImRpc2N1c3Npb25JZCI6InFFM0NYeDBsSDRJN3VrQTQiLC
-JzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgaW1hZ2Ug
-YW5kIGNvcnJlY3QgdGV4dCIsImNyZWF0ZWQiOjE2ODU3ODMyNj
-IzMzN9LCJCVVdZREs5aEpzZFRWSkt6Ijp7ImRpc2N1c3Npb25J
-ZCI6IngwTjZJeUxrZ3BjUWlKOTkiLCJzdWIiOiJnaDo0MDMwND
-c4OCIsInRleHQiOiJDb3JyZWN0IGxheW91dCIsImNyZWF0ZWQi
-OjE2ODU3ODMyOTQ2MjF9LCJvcVNlTWhNczZ1Q0Y5MXl2Ijp7Im
-Rpc2N1c3Npb25JZCI6Im9UOXhlNnF3dlVVcmY3Qm8iLCJzdWIi
-OiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgaW1hZ2UgYW5kIG
-NvcnJlY3QgdGV4dCIsImNyZWF0ZWQiOjE2ODU3ODMzMDkyMjF9
-LCJUTmJRMnRGa2N1ck5neTNDIjp7ImRpc2N1c3Npb25JZCI6Im
-p0WG1Sd3FkWXlDZzg2ZmEiLCJzdWIiOiJnaDo0MDMwNDc4OCIs
-InRleHQiOiJBZGQgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1NzgzMz
-U5NTc0fSwiN1JFT2VIQW9aT1l1UkNiWSI6eyJkaXNjdXNzaW9u
-SWQiOiJ6aW9TZFVkOHBjS0ZFQ25SIiwic3ViIjoiZ2g6NDAzMD
-Q3ODgiLCJ0ZXh0IjoiTWFrZSBzdHVkZW50cyBnYXRoZXIgdGhl
-IGRhdGEgdGhlbXNlbHZlcyIsImNyZWF0ZWQiOjE2ODU3ODM0OT
-A1MzN9LCJCTXhYR0kyWEJEb2lCVjVUIjp7ImRpc2N1c3Npb25J
-ZCI6Inppb1NkVWQ4cGNLRkVDblIiLCJzdWIiOiJnaDo0MDMwND
-c4OCIsInRleHQiOiJvciBhZGQgbGlua3MiLCJjcmVhdGVkIjox
-Njg1NzgzNTA2MTE3fSwiRzVJZTFQRmhWUjFpejBKZiI6eyJkaX
-NjdXNzaW9uSWQiOiJNdzlBZ3hwZ2VPN2cxUG9QIiwic3ViIjoi
-Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGltYWdlIiwiY3JlYX
-RlZCI6MTY4NTc4MzU1NzkzNX0sIkFpSE8zYlhsTTNiSzlFOHoi
-OnsiZGlzY3Vzc2lvbklkIjoiNTh4TGt3ZTBwclA4MTVWVCIsIn
+eyJkaXNjdXNzaW9ucyI6eyJwVmUxdDR0eU5iRnhScFFOIjp7In
+N0YXJ0IjoxMjA1LCJlbmQiOjEzNjUsInRleHQiOiIqKkZpcnN0
+IG1ha2Ugc3VyZSB5b3UgaGF2ZSBkb3dubG9hZGVkIHRoZSBkYX
+RhIHppcCBjb250YWluaW5nIHRoZSBjcmFzaCBjb3Vyc2XigKYi
+fSwiSzI0aTg3dXNLbUZaVVJJSiI6eyJzdGFydCI6MTQ0NiwiZW
+5kIjoxNDU4LCJ0ZXh0IjoiLSAgIEZpZ3VyZSAxIn0sInVTVmw5
+bXZxMFEybjdUTEciOnsic3RhcnQiOjE4OTgsImVuZCI6MjMwOS
+widGV4dCI6IlNpbWlsYXJseSwgdG8gYSBlLmcuLCBhIHdvcmtz
+cGFjZSBpbiBBcmNHSVMsIGEgcHJvamVjdCBpcyBjb25zaWRlcm
+VkIHRoZSBlbnNlbWLigKYifSwiV2pRZ1NtVkNWTzBZdlY5QiI6
+eyJzdGFydCI6MjA5MywiZW5kIjoyMTgxLCJ0ZXh0IjoiUmVtZW
+1iZXIgdG8gc2F2ZSB5b3VyIHByb2plY3RzIG9mdGVuIHRvIHBy
+ZXZlbnQgd29yayBmcm9tIGJlaW5nIGxvc3QgaW4gY2FzZSBvZu
+KApiJ9LCJJbkk0elpyUk40TVRSYUIzIjp7InN0YXJ0IjozNDM4
+LCJlbmQiOjM0OTQsInRleHQiOiIqKkNoYW5naW5nIHRoZSBjb2
+9yZGluYXRlIHN5c3RlbSBvZiBhIHByb2plY3QgaW4gUUdJUzoq
+KiJ9LCJOOGNoUGR6ZEhMcXB3S0tOIjp7InN0YXJ0Ijo0MDEwLC
+JlbmQiOjQxMzYsInRleHQiOiJUaGUgZGF0YSB1c2VkIGluIHRo
+aXMgY291cnNlIHdpbGwgbW9zdGx5IGJlIGluIEVQU0cgMzA2Ny
+AoRVRSUy1UTTM1RklOKSwgd2hpY2jigKYifSwiOFJBNmRlbElZ
+bXkxUXBtUiI6eyJzdGFydCI6NDc0MCwiZW5kIjo0NzczLCJ0ZX
+h0IjoiUGljdHVyZSBvZiBtYXAgbmF2aWdhdGlvbiB0b29sYmFy
+In0sInBjaU9nZ3V3RmlCNnNVVUYiOnsic3RhcnQiOjUwMDYsIm
+VuZCI6NTAzNSwidGV4dCI6IlBpY3R1cmUgb2YgYXR0cmlidXRl
+cyB0b29sYmFyIn0sIngwTjZJeUxrZ3BjUWlKOTkiOnsic3Rhcn
+QiOjU1ODMsImVuZCI6NTYyNiwidGV4dCI6IkxheWVycyBhbmQg
+QnJvd3NlciBwYW5lbHMgaW50cm9kdWNlZCBhYm92ZS4ifSwib1
+Q5eGU2cXd2VVVyZjdCbyI6eyJzdGFydCI6NTY5NiwiZW5kIjo1
+NzkzLCJ0ZXh0IjoiT24gdGhlIGxlZnQgaXMgYW4gZXhhbXBsZS
+BvZiB0aHJlZSBwYW5lbHMgKEJyb3dzZXIsIExheWVyIFN0eWxl
+IGFuZCBMYXllcnMpIG9u4oCmIn0sInppb1NkVWQ4cGNLRkVDbl
+IiOnsic3RhcnQiOjc0MTcsImVuZCI6NzcyNCwidGV4dCI6IlRo
+ZXNlIGRhdGEgc2V0cyBhcmUgYWxsIGRvd25sb2FkZWQgZnJvbS
+BQYUlUdWxpIGFuZCBIZWxzaW5raSBSZWdpb24gSW5mb3NoYXJl
+IGTigKYifSwiYWJEQTBFSGs3TzI0M1g3ZCI6eyJzdGFydCI6OT
+M3NSwiZW5kIjo5Mzg3LCJ0ZXh0IjoibGF5ZXJzIHBhbmVsIn0s
+ImhsaGtkQ0VtMzRsM1ZyVFciOnsic3RhcnQiOjg1MjIsImVuZC
+I6ODUyOCwidGV4dCI6Im9iamVjdCJ9LCJGWGZRRmZGOUZaT05w
+WUZhIjp7InN0YXJ0Ijo4NTYzLCJlbmQiOjg1NzIsInRleHQiOi
+JhdHRyaWJ1dGUifSwiSTh5eEFEYzYzU2tPZ0QzeSI6eyJzdGFy
+dCI6MTE4NzMsImVuZCI6MTE4OTcsInRleHQiOiJTeW1ib2xvZ3
+kgZXhhbXBsZSBwaWN0dXIifSwic1FFcG5GMzY3c2VhdkxzYyI6
+eyJzdGFydCI6MTI4NzgsImVuZCI6MTI5MDIsInRleHQiOiJGaW
+VsZCBjYWxjdWxhdG9yIHBpY3R1cmUifSwiZXZMV1lvQUdYMHl1
+dUlYcyI6eyJzdGFydCI6MTQzNDAsImVuZCI6MTQzNTgsInRleH
+QiOiJQcm9jZXNzaW5nIFRvb2xib3gifSwiUWdqcWNIazFXZWJ2
+ZFFkVSI6eyJzdGFydCI6MTQyNjUsImVuZCI6MTQyOTQsInRleH
+QiOiJTZWxlY3QgZmVhdHVyZXMgYnkgZXhwcmVzc2lvbiJ9LCJI
+S1hzQ2NvRktGZjRleFBTIjp7InN0YXJ0IjoxNTE4NSwiZW5kIj
+oxNTIyNCwidGV4dCI6Ii0gU2VsZWN0IGZlYXR1cmVzIGJ5IGV4
+cHJlc3Npb24gcGljdHVyZSJ9LCJjVTdRWFRVQmtaaW82Z3pNIj
+p7InN0YXJ0IjoxNjM5NSwiZW5kIjoxNjQzMywidGV4dCI6Ii0g
+Sm9pbiBhdHRyaWJ1dGVzIGJ5IExvY2F0aW9uIHBpY3R1cmVzIn
+0sIkljZEZ0Z0pRYlBCTUdOakMiOnsic3RhcnQiOjE3OTcxLCJl
+bmQiOjE4MDE5LCJ0ZXh0IjoiY3R1cmUgb2YgY3VycmVudCBhdH
+RyaWJ1dGUgdGFibGUgd2l0aCBuZXcgZmllbGRzIn0sIlBRWEpr
+U3RZMmdzdXZ6NUQiOnsic3RhcnQiOjE5MDA5LCJlbmQiOjE5MD
+MzLCJ0ZXh0IjoiLSBMYXlvdXQgbWFuYWdlciBwaWN0dXJlIn0s
+ImxTV2plN2dQNnJsSW5nYXkiOnsic3RhcnQiOjE5ODgyLCJlbm
+QiOjE5ODkxLCJ0ZXh0IjoiTW92ZSBpdGVtIn0sIll5WlRhZFJw
+cEtyZTEyUFQiOnsic3RhcnQiOjE5OTkzLCJlbmQiOjIwMDEwLC
+J0ZXh0IjoiTW92ZSBpdGVtIGNvbnRlbnQifSwieW5oNWJvUWlP
+TVRpbFpNVyI6eyJzdGFydCI6NzYsImVuZCI6MTk0LCJ0ZXh0Ij
+oiIVtDb3ZlciBwaWN0dXJlXShodHRwczovL3Jhdy5naXRodWJ1
+c2VyY29udGVudC5jb20vcm93YW44ay9mdW5kYW1lbnRhbHMtb2
+YtZ2lzL+KApiJ9LCIwT1lHek5lcDJhOW8xSEpZIjp7InN0YXJ0
+Ijo1MDM4LCJlbmQiOjUwNTAsInRleHQiOiJpY29uIHBpY3R1cm
+UifX0sImNvbW1lbnRzIjp7IlNSZnlLOHp2MHl3dndzZm0iOnsi
+ZGlzY3Vzc2lvbklkIjoicFZlMXQ0dHlOYkZ4UnBRTiIsInN1Yi
+I6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCByZWNvbW1lbmRh
+dGlvbnMgb24gbWFraW5nIGEgZm9sZGVyIGZvciBlYWNoIHByYW
+N0aWNhbCIsImNyZWF0ZWQiOjE2ODU3ODMwMzkzNTd9LCJ1UEt0
+REpaWTVDQVVrd05BIjp7ImRpc2N1c3Npb25JZCI6IksyNGk4N3
+VzS21GWlVSSUoiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQi
+OiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODU3ODMwNDgzOD
+l9LCJyeWNSdG15Z0lyeVpTZWQ2Ijp7ImRpc2N1c3Npb25JZCI6
+InVTVmw5bXZxMFEybjdUTEciLCJzdWIiOiJnaDo0MDMwNDc4OC
+IsInRleHQiOiJEdW1iIHRoaXMgZG93biBvciBleHBsYWluIGl0
+IG1vcmUgdGhvcm91Z2hseSIsImNyZWF0ZWQiOjE2ODU3ODMwNz
+E3NDB9LCI5UlpPQnRUaUNST242TTVyIjp7ImRpc2N1c3Npb25J
+ZCI6IldqUWdTbVZDVk8wWXZWOUIiLCJzdWIiOiJnaDo0MDMwND
+c4OCIsInRleHQiOiJBZGQgbWVtZSIsImNyZWF0ZWQiOjE2ODU3
+ODMwODM5NTF9LCJOaGVSMFNlN3hZVnR5bzBnIjp7ImRpc2N1c3
+Npb25JZCI6IkluSTR6WnJSTjRNVFJhQjMiLCJzdWIiOiJnaDo0
+MDMwNDc4OCIsInRleHQiOiJBZGQgaW1hZ2UiLCJjcmVhdGVkIj
+oxNjg1NzgzMjE0NDcwfSwiS0hDVnAzczRNREN2MldpdCI6eyJk
+aXNjdXNzaW9uSWQiOiJOOGNoUGR6ZEhMcXB3S0tOIiwic3ViIj
+oiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQ29tZSBiYWNrIHRvIGNo
+ZWNrIGlmIGFjY3VyYXRlIiwiY3JlYXRlZCI6MTY4NTc4MzIyOD
+YzN30sImdNOVdqeXNuQzk1R2tEOXUiOnsiZGlzY3Vzc2lvbklk
+IjoiOFJBNmRlbElZbXkxUXBtUiIsInN1YiI6ImdoOjQwMzA0Nz
+g4IiwidGV4dCI6IkFkZCBpbWFnZSIsImNyZWF0ZWQiOjE2ODU3
+ODMyNDI1NTh9LCJZZDRvZm1xZ1N1cXBqYlFSIjp7ImRpc2N1c3
+Npb25JZCI6InBjaU9nZ3V3RmlCNnNVVUYiLCJzdWIiOiJnaDo0
+MDMwNDc4OCIsInRleHQiOiJBZGQgaW1hZ2UiLCJjcmVhdGVkIj
+oxNjg1NzgzMjQ4MzI2fSwiQlVXWURLOWhKc2RUVkpLeiI6eyJk
+aXNjdXNzaW9uSWQiOiJ4ME42SXlMa2dwY1FpSjk5Iiwic3ViIj
+oiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQ29ycmVjdCBsYXlvdXQi
+LCJjcmVhdGVkIjoxNjg1NzgzMjk0NjIxfSwib3FTZU1oTXM2dU
+NGOTF5diI6eyJkaXNjdXNzaW9uSWQiOiJvVDl4ZTZxd3ZVVXJm
+N0JvIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIG
+ltYWdlIGFuZCBjb3JyZWN0IHRleHQiLCJjcmVhdGVkIjoxNjg1
+NzgzMzA5MjIxfSwiN1JFT2VIQW9aT1l1UkNiWSI6eyJkaXNjdX
+NzaW9uSWQiOiJ6aW9TZFVkOHBjS0ZFQ25SIiwic3ViIjoiZ2g6
+NDAzMDQ3ODgiLCJ0ZXh0IjoiTWFrZSBzdHVkZW50cyBnYXRoZX
+IgdGhlIGRhdGEgdGhlbXNlbHZlcyIsImNyZWF0ZWQiOjE2ODU3
+ODM0OTA1MzN9LCJCTXhYR0kyWEJEb2lCVjVUIjp7ImRpc2N1c3
+Npb25JZCI6Inppb1NkVWQ4cGNLRkVDblIiLCJzdWIiOiJnaDo0
+MDMwNDc4OCIsInRleHQiOiJvciBhZGQgbGlua3MiLCJjcmVhdG
+VkIjoxNjg1NzgzNTA2MTE3fSwiN1RoN1pZSkh1N0dnbDdhcCI6
+eyJkaXNjdXNzaW9uSWQiOiJhYkRBMEVIazdPMjQzWDdkIiwic3
+ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGltYWdlIiwi
+Y3JlYXRlZCI6MTY4NTc4MzU5MjczNH0sIkNIZlJWU3luSkJMdl
+pKRVEiOnsiZGlzY3Vzc2lvbklkIjoiaGxoa2RDRW0zNGwzVnJU
+VyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IldoYXQgYX
+JlIG9iamVjdHM/IiwiY3JlYXRlZCI6MTY4NTc4MzYwNTAyMX0s
+Im0wR0RKRlpBeEJqTHFzVUUiOnsiZGlzY3Vzc2lvbklkIjoiRl
+hmUUZmRjlGWk9OcFlGYSIsInN1YiI6ImdoOjQwMzA0Nzg4Iiwi
+dGV4dCI6IldoYXQgaXMgYXR0cmlidXRlIGRhdGE/IiwiY3JlYX
+RlZCI6MTY4NTc4MzYxNDAzN30sInJ5WUZJRWU5eTJsRUV4NUoi
+OnsiZGlzY3Vzc2lvbklkIjoiSTh5eEFEYzYzU2tPZ0QzeSIsIn
 N1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBpbWFnZSIs
-ImNyZWF0ZWQiOjE2ODU3ODM1NjI5MTd9LCI3VGg3WllKSHU3R2
-dsN2FwIjp7ImRpc2N1c3Npb25JZCI6ImFiREEwRUhrN08yNDNY
-N2QiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgaW
-1hZ2UiLCJjcmVhdGVkIjoxNjg1NzgzNTkyNzM0fSwiQ0hmUlZT
-eW5KQkx2WkpFUSI6eyJkaXNjdXNzaW9uSWQiOiJobGhrZENFbT
-M0bDNWclRXIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ijoi
-V2hhdCBhcmUgb2JqZWN0cz8iLCJjcmVhdGVkIjoxNjg1NzgzNj
-A1MDIxfSwibTBHREpGWkF4QmpMcXNVRSI6eyJkaXNjdXNzaW9u
-SWQiOiJGWGZRRmZGOUZaT05wWUZhIiwic3ViIjoiZ2g6NDAzMD
-Q3ODgiLCJ0ZXh0IjoiV2hhdCBpcyBhdHRyaWJ1dGUgZGF0YT8i
-LCJjcmVhdGVkIjoxNjg1NzgzNjE0MDM3fSwicnlZRklFZTl5Mm
-xFRXg1SiI6eyJkaXNjdXNzaW9uSWQiOiJJOHl4QURjNjNTa09n
-RDN5Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIG
-ltYWdlIiwiY3JlYXRlZCI6MTY4NTc4NTI0NTcwOX0sImF3NnNB
-Y0VVTzVEYTRzR0oiOnsiZGlzY3Vzc2lvbklkIjoiOVlKTnU4bz
-h1b3ViWUNnaCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
-IkFkZCBpbWFnZSIsImNyZWF0ZWQiOjE2ODU3ODU3NDM0MjB9LC
-J4MXQwNm03NkVBZ1hLWUs1Ijp7ImRpc2N1c3Npb25JZCI6Ik54
-SmRGV0NCbFVzMjRzY0wiLCJzdWIiOiJnaDo0MDMwNDc4OCIsIn
-RleHQiOiJBZGQgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nzg1Nzcz
-OTk2fSwiRTZMRDg4MkhqZ0czOWhyRSI6eyJkaXNjdXNzaW9uSW
-QiOiJzUUVwbkYzNjdzZWF2THNjIiwic3ViIjoiZ2g6NDAzMDQ3
-ODgiLCJ0ZXh0IjoiQWRkIGltYWdlIiwiY3JlYXRlZCI6MTY4NT
-c4NTg0Mjk3MX0sIjRUU2pWNHlwdFllTWJFaVEiOnsiZGlzY3Vz
-c2lvbklkIjoiQWNXVEprbXI5YWtudzJRViIsInN1YiI6ImdoOj
-QwMzA0Nzg4IiwidGV4dCI6IkFkZCBpbWFnZSIsImNyZWF0ZWQi
-OjE2ODU3ODYyODg0MzV9LCJiVDhlNDBvaVdQZGZxcHA5Ijp7Im
-Rpc2N1c3Npb25JZCI6IjNYVWloVHJnTlRYbmxycDMiLCJzdWIi
-OiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgaW1hZ2UiLCJjcm
-VhdGVkIjoxNjg1Nzg2Mjk1NzUxfSwia2dKRVlENlp2WnI0MzBH
-dSI6eyJkaXNjdXNzaW9uSWQiOiJldkxXWW9BR1gweXV1SVhzIi
-wic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGludHJv
-ZHVjdGlvbiB0byB0aGlzPyIsImNyZWF0ZWQiOjE2ODU3ODY2Mj
-gwNzZ9LCJjVVBhcFRsOWNIcUNjZFNrIjp7ImRpc2N1c3Npb25J
-ZCI6IlFnanFjSGsxV2VidmRRZFUiLCJzdWIiOiJnaDo0MDMwND
+ImNyZWF0ZWQiOjE2ODU3ODUyNDU3MDl9LCJFNkxEODgySGpnRz
+M5aHJFIjp7ImRpc2N1c3Npb25JZCI6InNRRXBuRjM2N3NlYXZM
+c2MiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgaW
+1hZ2UiLCJjcmVhdGVkIjoxNjg1Nzg1ODQyOTcxfSwia2dKRVlE
+Nlp2WnI0MzBHdSI6eyJkaXNjdXNzaW9uSWQiOiJldkxXWW9BR1
+gweXV1SVhzIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ijoi
+QWRkIGludHJvZHVjdGlvbiB0byB0aGlzPyIsImNyZWF0ZWQiOj
+E2ODU3ODY2MjgwNzZ9LCJjVVBhcFRsOWNIcUNjZFNrIjp7ImRp
+c2N1c3Npb25JZCI6IlFnanFjSGsxV2VidmRRZFUiLCJzdWIiOi
+JnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgaW1hZ2UiLCJjcmVh
+dGVkIjoxNjg1Nzg2NjM3NDY4fSwiQVhjYlVXeHQ3N0dET3lYRi
+I6eyJkaXNjdXNzaW9uSWQiOiJldkxXWW9BR1gweXV1SVhzIiwi
+c3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiRWFybGllciBpbi
+BjcmFzaCBjb3Vyc2UsIGFkZCBleGFtcGxlcyBvZiB0b29scyBh
+bmQgaG93IHRoZXkgd29yayIsImNyZWF0ZWQiOjE2ODU3ODc4OT
+kwNTl9LCJsR3NSSUg2U2dpRWVUZEdHIjp7ImRpc2N1c3Npb25J
+ZCI6IkhLWHNDY29GS0ZmNGV4UFMiLCJzdWIiOiJnaDo0MDMwND
 c4OCIsInRleHQiOiJBZGQgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1
-Nzg2NjM3NDY4fSwiSEJDdFF1dnZPVjh1Ukg2WSI6eyJkaXNjdX
-NzaW9uSWQiOiJIVEJqNU5BaWpqaVBIbmR2Iiwic3ViIjoiZ2g6
-NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGltYWdlIiwiY3JlYXRlZC
-I6MTY4NTc4NzI0MzQ2MH0sIkFYY2JVV3h0NzdHRE95WEYiOnsi
-ZGlzY3Vzc2lvbklkIjoiZXZMV1lvQUdYMHl1dUlYcyIsInN1Yi
-I6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkVhcmxpZXIgaW4gY3Jh
-c2ggY291cnNlLCBhZGQgZXhhbXBsZXMgb2YgdG9vbHMgYW5kIG
-hvdyB0aGV5IHdvcmsiLCJjcmVhdGVkIjoxNjg1Nzg3ODk5MDU5
-fSwibEdzUklINlNnaUVlVGRHRyI6eyJkaXNjdXNzaW9uSWQiOi
-JIS1hzQ2NvRktGZjRleFBTIiwic3ViIjoiZ2g6NDAzMDQ3ODgi
-LCJ0ZXh0IjoiQWRkIGltYWdlIiwiY3JlYXRlZCI6MTY4NTc4OD
-Y1NzQ1Mn0sInVOaktzMnV3UlVhNkFnS04iOnsiZGlzY3Vzc2lv
-bklkIjoiY1U3UVhUVUJrWmlvNmd6TSIsInN1YiI6ImdoOjQwMz
-A0Nzg4IiwidGV4dCI6IkFkZCBpbWFnZXMiLCJjcmVhdGVkIjox
-Njg1Nzg4Njk3NDM2fSwibjROTGN4em1TMDNPdHZOUSI6eyJkaX
-NjdXNzaW9uSWQiOiJJY2RGdGdKUWJQQk1HTmpDIiwic3ViIjoi
-Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGltYWdlIiwiY3JlYX
-RlZCI6MTY4NTc4OTQzNDI5M30sIjAxQ2lGOGlHOG90M2FiMW4i
-OnsiZGlzY3Vzc2lvbklkIjoiUFFYSmtTdFkyZ3N1dno1RCIsIn
-N1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBpbWFnZSIs
-ImNyZWF0ZWQiOjE2ODU3OTAzMjM4MDl9LCJNNkVTbmJ6TVpHT3
-FZbnR5Ijp7ImRpc2N1c3Npb25JZCI6IkxFR1RsTTVRM1dodGdh
-UFgiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgaW
-1hZ2UiLCJjcmVhdGVkIjoxNjg1NzkwNDA4NDM0fSwiR05pS1lr
-eDV5RFB4UGNWSyI6eyJkaXNjdXNzaW9uSWQiOiJPdjdkU2F3dD
-dpTGhBZkVyIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ijoi
-QWRkIGltYWdlIiwiY3JlYXRlZCI6MTY4NTc5MDQ0ODYyNX0sIm
-5DRDRHdW1vMTdMWWtjd2QiOnsiZGlzY3Vzc2lvbklkIjoibFNX
-amU3Z1A2cmxJbmdheSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidG
-V4dCI6IkFkZCBpbWFnZSIsImNyZWF0ZWQiOjE2ODU3OTA1NjU2
-NTl9LCJxZEZFdm5iZUY1Y1VSNUFvIjp7ImRpc2N1c3Npb25JZC
-I6Ill5WlRhZFJwcEtyZTEyUFQiLCJzdWIiOiJnaDo0MDMwNDc4
-OCIsInRleHQiOiJBZGQgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1Nz
-kwNTg3MDkwfSwiaURFa0drRGRxdjRORzBtWiI6eyJkaXNjdXNz
-aW9uSWQiOiJKeENBVGNid20yUDAyNDgwIiwic3ViIjoiZ2g6ND
-AzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGltYWdlcyIsImNyZWF0ZWQi
-OjE2ODU3OTA4NTQ1Nzh9fSwiaGlzdG9yeSI6WzEyNDU0NTcyOT
-ksMTIxNzQzNjc2Miw2ODExODQ4NzQsLTE4MTkwMDE4NzEsLTQ3
-NzAwMjIzNCwtMTY0NzU2NzM3MiwtMTY2Mzc0MDQxMl19
+Nzg4NjU3NDUyfSwidU5qS3MydXdSVWE2QWdLTiI6eyJkaXNjdX
+NzaW9uSWQiOiJjVTdRWFRVQmtaaW82Z3pNIiwic3ViIjoiZ2g6
+NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGltYWdlcyIsImNyZWF0ZW
+QiOjE2ODU3ODg2OTc0MzZ9LCJuNE5MY3h6bVMwM090dk5RIjp7
+ImRpc2N1c3Npb25JZCI6IkljZEZ0Z0pRYlBCTUdOakMiLCJzdW
+IiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgaW1hZ2UiLCJj
+cmVhdGVkIjoxNjg1Nzg5NDM0MjkzfSwiMDFDaUY4aUc4b3QzYW
+IxbiI6eyJkaXNjdXNzaW9uSWQiOiJQUVhKa1N0WTJnc3V2ejVE
+Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGltYW
+dlIiwiY3JlYXRlZCI6MTY4NTc5MDMyMzgwOX0sIm5DRDRHdW1v
+MTdMWWtjd2QiOnsiZGlzY3Vzc2lvbklkIjoibFNXamU3Z1A2cm
+xJbmdheSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFk
+ZCBpbWFnZSIsImNyZWF0ZWQiOjE2ODU3OTA1NjU2NTl9LCJxZE
+ZFdm5iZUY1Y1VSNUFvIjp7ImRpc2N1c3Npb25JZCI6Ill5WlRh
+ZFJwcEtyZTEyUFQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleH
+QiOiJBZGQgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1NzkwNTg3MDkw
+fSwiNTdMWGpTekhzemFIY2hKVSI6eyJkaXNjdXNzaW9uSWQiOi
+J5bmg1Ym9RaU9NVGlsWk1XIiwic3ViIjoiZ2g6NDAzMDQ3ODgi
+LCJ0ZXh0IjoiVXBkYXRlIGNvdmVyIHBpY3R1cmUiLCJjcmVhdG
+VkIjoxNjg1OTQzNTg3MzU4fSwiUFZhYTJ5ZHhUeThFQ3dUaiI6
+eyJkaXNjdXNzaW9uSWQiOiJXalFnU21WQ1ZPMFl2VjlCIiwic3
+ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiU3RyYWlnaHQgdG8g
+amFpbCIsImNyZWF0ZWQiOjE2ODU5NDQwNzQ5NjV9LCJTcWtoQ1
+R2cmU0aHFWYXpNIjp7ImRpc2N1c3Npb25JZCI6IkluSTR6WnJS
+TjRNVFJhQjMiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOi
+JHaXRodWIiLCJjcmVhdGVkIjoxNjg1OTQ0NDUzNTQxfSwiMUxw
+M2pta0dKRFJlakhwOSI6eyJkaXNjdXNzaW9uSWQiOiI4UkE2ZG
+VsSVlteTFRcG1SIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0
+IjoiZ2l0aHViIiwiY3JlYXRlZCI6MTY4NTk0NDY5MTgwNX0sIm
+NLdnBBYVpZNWs0dGZuUFAiOnsiZGlzY3Vzc2lvbklkIjoicGNp
+T2dndXdGaUI2c1VVRiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidG
+V4dCI6ImdpdGh1YiIsImNyZWF0ZWQiOjE2ODU5NDQ2OTYyMTV9
+LCJVdGpZSjdHY083RUU2eDdBIjp7ImRpc2N1c3Npb25JZCI6Ij
+BPWUd6TmVwMmE5bzFISlkiLCJzdWIiOiJnaDo0MDMwNDc4OCIs
+InRleHQiOiJnaXRodWIiLCJjcmVhdGVkIjoxNjg1OTQ0OTczMz
+U4fSwibzNweU1kclNQdTN4QVlMRiI6eyJkaXNjdXNzaW9uSWQi
+OiJvVDl4ZTZxd3ZVVXJmN0JvIiwic3ViIjoiZ2g6NDAzMDQ3OD
+giLCJ0ZXh0IjoiR2l0aHViIiwiY3JlYXRlZCI6MTY4NTk0NTE4
+NDkzNH0sIklteGxEa0lCNTRRdXNtdTUiOnsiZGlzY3Vzc2lvbk
+lkIjoiYWJEQTBFSGs3TzI0M1g3ZCIsInN1YiI6ImdoOjQwMzA0
+Nzg4IiwidGV4dCI6ImdpdGh1YiIsImNyZWF0ZWQiOjE2ODU5ND
+U1MzQ2NjJ9LCJqNVNJUWJmTXU1aEhEUHNvIjp7ImRpc2N1c3Np
+b25JZCI6Ikk4eXhBRGM2M1NrT2dEM3kiLCJzdWIiOiJnaDo0MD
+MwNDc4OCIsInRleHQiOiJnaXRodWIiLCJjcmVhdGVkIjoxNjg1
+OTQ1NjY5MDIxfSwiR1lvZVhPcWdXVm9zUjNJViI6eyJkaXNjdX
+NzaW9uSWQiOiJzUUVwbkYzNjdzZWF2THNjIiwic3ViIjoiZ2g6
+NDAzMDQ3ODgiLCJ0ZXh0IjoiZ2l0aHViIiwiY3JlYXRlZCI6MT
+Y4NTk0NjEyMDQyMH0sIkNHa2NwUUZhMlFNdnNhSVoiOnsiZGlz
+Y3Vzc2lvbklkIjoiUWdqcWNIazFXZWJ2ZFFkVSIsInN1YiI6Im
+doOjQwMzA0Nzg4IiwidGV4dCI6ImdpdGh1YiIsImNyZWF0ZWQi
+OjE2ODU5NDY1MjI1MDF9LCJhcE1SSEhhdHA0d0xPcEJyIjp7Im
+Rpc2N1c3Npb25JZCI6IkhLWHNDY29GS0ZmNGV4UFMiLCJzdWIi
+OiJnaDo0MDMwNDc4OCIsInRleHQiOiJHaXRodWIiLCJjcmVhdG
+VkIjoxNjg1OTQ2NjczNzczfSwiMkdLRjRhdVRqTkVTUTJ2MCI6
+eyJkaXNjdXNzaW9uSWQiOiJjVTdRWFRVQmtaaW82Z3pNIiwic3
+ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiZ2l0aHViIiwiY3Jl
+YXRlZCI6MTY4NTk0NzEwMTUzOX0sIjNYNktIS1FyNzBKYUYyWX
+IiOnsiZGlzY3Vzc2lvbklkIjoiSWNkRnRnSlFiUEJNR05qQyIs
+InN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6ImdpdGh1YiIsIm
+NyZWF0ZWQiOjE2ODU5NDcxODQ4ODN9LCJKTU04aEc1MVMwSHdv
+S3o5Ijp7ImRpc2N1c3Npb25JZCI6ImxTV2plN2dQNnJsSW5nYX
+kiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJnaXRodWIi
+LCJjcmVhdGVkIjoxNjg1OTQ3ODM3NjQ3fSwiTDZHWUMzN1hOM3
+lKb2I1OCI6eyJkaXNjdXNzaW9uSWQiOiJZeVpUYWRScHBLcmUx
+MlBUIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiZ2l0aH
+ViIiwiY3JlYXRlZCI6MTY4NTk0Nzg0NDUzOX19LCJoaXN0b3J5
+IjpbMjM4NTMxNDQ1LC0xMTQ2OTUxNDIxLDIwMjE5ODgwNTIsLT
+E3MjM4OTQ5OTQsODM3MjMzNzcsLTE5Mzg5MTY2MTIsMTIwODA3
+MzA4NSwtMjA5ODcxMDg0MywxNTE0MzQ3OTE5LDE4Mzk3ODY1OT
+QsLTE2MzU3NTE2MjQsMjQ2NzUwMTkwLDE0OTc0NzEwMTcsMTI0
+NTQ1NzI5OSwxMjE3NDM2NzYyLDY4MTE4NDg3NCwtMTgxOTAwMT
+g3MSwtNDc3MDAyMjM0LC0xNjQ3NTY3MzcyLC0xNjYzNzQwNDEy
+XX0=
 -->
