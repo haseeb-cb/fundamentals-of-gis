@@ -2,6 +2,9 @@
 
 # Introduction to Geographic Information Systems (GIS) and QGIS
 
+## Course introduction
+### 
+
 ## What is GIS?
 
 ### GIS data types
@@ -19,6 +22,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDMwMDIxMiwxMjkwNzk5MDEsLTIwOD
-g3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTIyMDIzOTA5OCwxMjYwMzAwMjEyLDEyOT
+A3OTkwMSwtMjA4ODc0NjYxMl19
 -->
