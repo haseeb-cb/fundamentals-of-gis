@@ -9,6 +9,8 @@
 ### Structure
 - Completion methods
 - Practical schedule
+- Evaluation
+- 
 
 ### Getting help
 
@@ -32,6 +34,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MDgyMjQ3NywtMjIwMjM5MDk4LDEyNj
-AzMDAyMTIsMTI5MDc5OTAxLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTU5MzIzODA2NywxMzgwODIyNDc3LC0yMj
+AyMzkwOTgsMTI2MDMwMDIxMiwxMjkwNzk5MDEsLTIwODg3NDY2
+MTJdfQ==
 -->
