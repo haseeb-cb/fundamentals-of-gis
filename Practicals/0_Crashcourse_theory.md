@@ -27,10 +27,10 @@
 - GIS workflow
 - Spatial data
 	- Definition
-	- Types
-	- Sources
+	- Types (vector vs raster)
 	- Objects
 	- Attributes
+	- Sources
 - Coordinate systems and projection
 	- GCS
 	- CRS
@@ -52,7 +52,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjg3MDkwOTQsMTM4MDgyMjQ3NywtMj
+eyJoaXN0b3J5IjpbLTExNTM1NTU1MzAsMTM4MDgyMjQ3NywtMj
 IwMjM5MDk4LDEyNjAzMDAyMTIsMTI5MDc5OTAxLC0yMDg4NzQ2
 NjEyXX0=
 -->
