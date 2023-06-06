@@ -22,6 +22,7 @@
 ## What is GIS?
 
 - Definition
+	- Geoinformatics
 - Uses
 - Data types
 - Spatial data sources
@@ -31,15 +32,16 @@
 - CRS
 - PCS
 - Earth shape
+- Map projection
 
 
 ## What is QGIS?
 
-## Tips for good maps
+## What is a good map?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQxNTU2ODAsMTM4MDgyMjQ3NywtMj
+eyJoaXN0b3J5IjpbLTE4MzUzNjQ0MjcsMTM4MDgyMjQ3NywtMj
 IwMjM5MDk4LDEyNjAzMDAyMTIsMTI5MDc5OTAxLC0yMDg4NzQ2
 NjEyXX0=
 -->
