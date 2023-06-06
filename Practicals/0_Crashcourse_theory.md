@@ -10,6 +10,8 @@
 - GCS
 - CRS
 - PCS
+- Earth shape
+
 
 ## What is QGIS?
 
@@ -17,6 +19,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4MjEwNTQ4LDEyOTA3OTkwMSwtMjA4OD
-c0NjYxMl19
+eyJoaXN0b3J5IjpbMTI2MDMwMDIxMiwxMjkwNzk5MDEsLTIwOD
+g3NDY2MTJdfQ==
 -->
