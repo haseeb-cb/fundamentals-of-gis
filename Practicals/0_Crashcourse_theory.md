@@ -10,9 +10,13 @@
 - Completion methods
 - Practical schedule
 - Evaluation
-- 
 
 ### Getting help
+- Step by step process
+1. Materials (location, extras, etc)
+2. Googling
+3. Communal chat
+4. Directly to teachers 
 
 
 ## What is GIS?
@@ -34,7 +38,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MzIzODA2NywxMzgwODIyNDc3LC0yMj
-AyMzkwOTgsMTI2MDMwMDIxMiwxMjkwNzk5MDEsLTIwODg3NDY2
-MTJdfQ==
+eyJoaXN0b3J5IjpbMTM5Nzg4MDIwLDEzODA4MjI0NzcsLTIyMD
+IzOTA5OCwxMjYwMzAwMjEyLDEyOTA3OTkwMSwtMjA4ODc0NjYx
+Ml19
 -->
