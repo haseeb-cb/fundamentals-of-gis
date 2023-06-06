@@ -29,13 +29,15 @@
 	- Definition
 	- Types
 	- Sources
-
 - Coordinate systems and projection
 	- GCS
 	- CRS
 	- PCS
 	- Earth shape
 	- Map projection
+- Spatial data analysis methods
+	- Which exist 
+	- Which are covered in this course
 
 
 ## What is QGIS?
@@ -44,7 +46,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjgxNzE4MDEsMTM4MDgyMjQ3NywtMj
-IwMjM5MDk4LDEyNjAzMDAyMTIsMTI5MDc5OTAxLC0yMDg4NzQ2
-NjEyXX0=
+eyJoaXN0b3J5IjpbLTExOTkxNDk4MSwxMzgwODIyNDc3LC0yMj
+AyMzkwOTgsMTI2MDMwMDIxMiwxMjkwNzk5MDEsLTIwODg3NDY2
+MTJdfQ==
 -->
