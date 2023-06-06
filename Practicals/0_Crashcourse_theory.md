@@ -19,7 +19,7 @@
 4. Directly to teachers 
 
 
-## What is GIS?
+## What is GIS and why do we use it?
 
 - Definition
 	- Geoinformatics vs GIS
@@ -52,7 +52,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTM1NTU1MzAsMTM4MDgyMjQ3NywtMj
-IwMjM5MDk4LDEyNjAzMDAyMTIsMTI5MDc5OTAxLC0yMDg4NzQ2
-NjEyXX0=
+eyJoaXN0b3J5IjpbOTAwODkxODE2LDEzODA4MjI0NzcsLTIyMD
+IzOTA5OCwxMjYwMzAwMjEyLDEyOTA3OTkwMSwtMjA4ODc0NjYx
+Ml19
 -->
