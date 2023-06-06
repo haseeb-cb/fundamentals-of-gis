@@ -22,17 +22,20 @@
 ## What is GIS?
 
 - Definition
-	- Geoinformatics
-- Uses
-- Data types
-- Spatial data sources
+	- Geoinformatics vs GIS
+	- Uses
+- GIS workflow
+- Spatial data
+	- Definition
+	- Types
+	- Sources
 
-### Coordinate systems and projection
-- GCS
-- CRS
-- PCS
-- Earth shape
-- Map projection
+- Coordinate systems and projection
+	- GCS
+	- CRS
+	- PCS
+	- Earth shape
+	- Map projection
 
 
 ## What is QGIS?
@@ -41,7 +44,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzUzNjQ0MjcsMTM4MDgyMjQ3NywtMj
+eyJoaXN0b3J5IjpbLTE4NjgxNzE4MDEsMTM4MDgyMjQ3NywtMj
 IwMjM5MDk4LDEyNjAzMDAyMTIsMTI5MDc5OTAxLC0yMDg4NzQ2
 NjEyXX0=
 -->
