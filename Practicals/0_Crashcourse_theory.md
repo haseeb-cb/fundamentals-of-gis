@@ -21,9 +21,10 @@
 
 ## What is GIS?
 
-### GIS data types
-
-### Spatial data sources
+- Definition
+- Uses
+- Data types
+- Spatial data sources
 
 ### Coordinate systems and projection
 - GCS
@@ -38,7 +39,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5Nzg4MDIwLDEzODA4MjI0NzcsLTIyMD
-IzOTA5OCwxMjYwMzAwMjEyLDEyOTA3OTkwMSwtMjA4ODc0NjYx
-Ml19
+eyJoaXN0b3J5IjpbLTEzOTQxNTU2ODAsMTM4MDgyMjQ3NywtMj
+IwMjM5MDk4LDEyNjAzMDAyMTIsMTI5MDc5OTAxLC0yMDg4NzQ2
+NjEyXX0=
 -->
