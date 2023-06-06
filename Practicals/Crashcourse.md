@@ -45,7 +45,7 @@ Start by setting the **default language** in QGIS to English (if it isn’t alre
 
 The state of a working session in QGIS is called a **project**. Similarly, to a e.g., a workspace in ArcGIS, a project is considered the ensemble of layers, projections, table relations and other properties, such as symbols and styles, of a specific session. Remember to save your projects often to prevent work from being lost in case of a crash. Also note that project files do not contain geospatial data, they merely contain information on where the program will find it.
 
-![meme](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_save_meme.jpg)
+![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_save_meme.jpg)
 
 *Here a few basic functions that are worth knowing before starting to play around with data and layers:*
 
@@ -258,25 +258,23 @@ The last phase of this practical will concentrate on creating a map output.
 
 
 # Congratulations! You are now done with the first part of this Crash Course. How are you liking (Q)GIS so far?
-
-## 3. Optional exercise
  
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJOOGNoUGR6ZEhMcXB3S0tOIjp7In
-N0YXJ0Ijo0NDc0LCJlbmQiOjQ2MDAsInRleHQiOiJUaGUgZGF0
+N0YXJ0Ijo0NDk4LCJlbmQiOjQ2MjQsInRleHQiOiJUaGUgZGF0
 YSB1c2VkIGluIHRoaXMgY291cnNlIHdpbGwgbW9zdGx5IGJlIG
 luIEVQU0cgMzA2NyAoRVRSUy1UTTM1RklOKSwgd2hpY2jigKYi
-fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6OTE1NiwiZW
-5kIjo5NDYzLCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
+fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6OTE4MCwiZW
+5kIjo5NDg3LCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
 bGwgZG93bmxvYWRlZCBmcm9tIFBhSVR1bGkgYW5kIEhlbHNpbm
 tpIFJlZ2lvbiBJbmZvc2hhcmUgZOKApiJ9LCJQUVhKa1N0WTJn
-c3V2ejVEIjp7InN0YXJ0IjoyMTUyNiwiZW5kIjoyMTU1MCwidG
+c3V2ejVEIjp7InN0YXJ0IjoyMTU1MCwiZW5kIjoyMTU3NCwidG
 V4dCI6Ii0gTGF5b3V0IG1hbmFnZXIgcGljdHVyZSJ9LCJ5bmg1
 Ym9RaU9NVGlsWk1XIjp7InN0YXJ0Ijo3MywiZW5kIjoxOTEsIn
 RleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dHBzOi8vcmF3Lmdp
 dGh1YnVzZXJjb250ZW50LmNvbS9yb3dhbjhrL2Z1bmRhbWVudG
 Fscy1vZi1naXMv4oCmIn0sIlliWVFtNmxqVTQyZnk2UDYiOnsi
-c3RhcnQiOjY5OTgsImVuZCI6NzA5OSwidGV4dCI6IiFbXShodH
+c3RhcnQiOjcwMjIsImVuZCI6NzEyMywidGV4dCI6IiFbXShodH
 RwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vcm93YW44
 ay9mdW5kYW1lbnRhbHMtb2YtZ2lzL21hc3Rlci9Bc3NldHPigK
 YifX0sImNvbW1lbnRzIjp7IktIQ1ZwM3M0TURDdjJXaXQiOnsi
@@ -300,11 +298,11 @@ IHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg1OTQzNTg3MzU4fSwiQz
 JIeVlHVkExYndlVjhiRiI6eyJkaXNjdXNzaW9uSWQiOiJZYllR
 bTZsalU0MmZ5NlA2Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZX
 h0IjoiVXBkYXRlIGltYWdlIiwiY3JlYXRlZCI6MTY4NTk1NTMz
-NDYzMX19LCJoaXN0b3J5IjpbMTE4NDc0ODA1NywtNDgyNDA5OD
-IxLC0xMzk5NjI3ODM1LDY2OTI0MDIxNSwtMjAzMjQxNDU3MCwz
-MDYxNDE3NDQsNjk4MzYzODI5LC0zNTQ3NjY4MjEsLTEyMzE4Mz
-g0NDgsMTUxMDIzNDc5NSwyMzg1MzE0NDUsLTExNDY5NTE0MjEs
-MjAyMTk4ODA1MiwtMTcyMzg5NDk5NCw4MzcyMzM3NywtMTkzOD
-kxNjYxMiwxMjA4MDczMDg1LC0yMDk4NzEwODQzLDE1MTQzNDc5
-MTksMTgzOTc4NjU5NF19
+NDYzMX19LCJoaXN0b3J5IjpbLTkyMDM0MTgsMTE4NDc0ODA1Ny
+wtNDgyNDA5ODIxLC0xMzk5NjI3ODM1LDY2OTI0MDIxNSwtMjAz
+MjQxNDU3MCwzMDYxNDE3NDQsNjk4MzYzODI5LC0zNTQ3NjY4Mj
+EsLTEyMzE4Mzg0NDgsMTUxMDIzNDc5NSwyMzg1MzE0NDUsLTEx
+NDY5NTE0MjEsMjAyMTk4ODA1MiwtMTcyMzg5NDk5NCw4MzcyMz
+M3NywtMTkzODkxNjYxMiwxMjA4MDczMDg1LC0yMDk4NzEwODQz
+LDE1MTQzNDc5MTldfQ==
 -->
