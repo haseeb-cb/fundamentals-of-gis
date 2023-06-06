@@ -3,12 +3,22 @@
 # Introduction to Geographic Information Systems (GIS) and QGIS
 
 ## Course introduction
-### 
+
+### Learning outcomes
+
+### Structure
+- Completion methods
+- Practical schedule
+
+### Getting help
+
 
 ## What is GIS?
 
 ### GIS data types
+
 ### Spatial data sources
+
 ### Coordinate systems and projection
 - GCS
 - CRS
@@ -22,6 +32,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDIzOTA5OCwxMjYwMzAwMjEyLDEyOT
-A3OTkwMSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTM4MDgyMjQ3NywtMjIwMjM5MDk4LDEyNj
+AzMDAyMTIsMTI5MDc5OTAxLC0yMDg4NzQ2NjEyXX0=
 -->
