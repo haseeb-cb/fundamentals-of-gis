@@ -60,6 +60,10 @@ Following this process will help you **develop the independent troubleshooting s
 
 ## What is GIS and why do we use it?
 
+### GIS
+GIS stands for Geographic Informatin Systems
+
+ 
 - Definition
 	- Geoinformatics vs GIS
 	- Uses
@@ -106,6 +110,7 @@ BsaW5rIiwiY3JlYXRlZCI6MTY4NjEyMzU1NzM1MH0sIkxwVDNS
 Q3Rzb1REWmhReGgiOnsiZGlzY3Vzc2lvbklkIjoiZTRrb1dqOU
 1SZXJyVWdFdiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
 IkFkZCBuYW1lcyIsImNyZWF0ZWQiOjE2ODYxMjM2MTEwMDd9fS
-wiaGlzdG9yeSI6WzEwMTQ2NjcwODksMjA2NjI5Nzc5OSwtMTM2
-ODI5MzExMywtMTk3Nzc0NjQzNSw5MDA4OTE4MTZdfQ==
+wiaGlzdG9yeSI6WzE2Nzg4NDcxODAsMTAxNDY2NzA4OSwyMDY2
+Mjk3Nzk5LC0xMzY4MjkzMTEzLC0xOTc3NzQ2NDM1LDkwMDg5MT
+gxNl19
 -->
