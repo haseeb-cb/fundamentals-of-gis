@@ -31,8 +31,8 @@ The course consists of **9 exercises**, each accompanied by a piece of theory. T
 
 ### Evalution
 To complete this course the following criteria have to be met:
-
- - [ ] Test
+ - [ ] Submitted map output(s) for each exercise
+ - [ ] Submitted map reflection for each exercise
 
 ### Getting help
 - Step by step process
@@ -75,5 +75,5 @@ To complete this course the following criteria have to be met:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2ODAzODcyOSw5MDA4OTE4MTZdfQ==
+eyJoaXN0b3J5IjpbLTU4NDIyMjA2Miw5MDA4OTE4MTZdfQ==
 -->
