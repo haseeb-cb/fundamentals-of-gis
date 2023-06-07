@@ -72,7 +72,7 @@ GIS is used in a wide range of fields and industries, including:
 6.  **Natural Resource Management**: GIS is employed in assessing and managing natural resources like forests, water resources, minerals, and energy sources. It aids in land use planning, resource exploration, and environmental impact assessment.
 7.  **Business and Marketing**: GIS helps businesses in market analysis, site selection, and customer profiling. It assists in identifying target markets, optimizing sales territories, and visualizing market trends.
 
-These are just a few examples of the diverse applications of GIS. This course is not specifically tailored for any 
+These are just a few examples of the diverse applications of GIS. This course is not specifically tailored for a specific field, but it aims to give you a fundamental skillset in GIS that you can use to apply GIS in almost any field. 
 
 - Definition
 	- Geoinformatics vs GIS
@@ -120,7 +120,7 @@ BsaW5rIiwiY3JlYXRlZCI6MTY4NjEyMzU1NzM1MH0sIkxwVDNS
 Q3Rzb1REWmhReGgiOnsiZGlzY3Vzc2lvbklkIjoiZTRrb1dqOU
 1SZXJyVWdFdiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
 IkFkZCBuYW1lcyIsImNyZWF0ZWQiOjE2ODYxMjM2MTEwMDd9fS
-wiaGlzdG9yeSI6Wy03MTE5NTU5NjEsMTY3ODg0NzE4MCwxMDE0
-NjY3MDg5LDIwNjYyOTc3OTksLTEzNjgyOTMxMTMsLTE5Nzc3ND
-Y0MzUsOTAwODkxODE2XX0=
+wiaGlzdG9yeSI6Wy0xNzQwNjAwMTMyLDE2Nzg4NDcxODAsMTAx
+NDY2NzA4OSwyMDY2Mjk3Nzk5LC0xMzY4MjkzMTEzLC0xOTc3Nz
+Q2NDM1LDkwMDg5MTgxNl19
 -->
