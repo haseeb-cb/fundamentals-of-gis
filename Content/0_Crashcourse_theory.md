@@ -17,9 +17,18 @@ After completing the course you should be able to:
 ### Structure
 The course consists of **9 exercises**, each accompanied by a piece of theory. The first exercise, which goes with this theory, is meant to give you the basic skills in GIS and the software we will be using, QGIS. From there on you will build on these basic skills using the other exercises, covering vairous analyses and methods, and develop a fundamental skillset in GIS and QGIS. 
 
-| Exercise | Topic | 
-|--|--|
-|  |  |
+| Exercise | Topic | Methods |
+|--|--|--|
+| Crash Course |  | 
+| 1 |  | |
+| 2 |  | |
+| 3 |  | |
+| 4 |  |
+| 5 |  |
+| 6 |  |
+| 7 |  |
+| 8 |  |
+
 
 - Completion methods
 - Practical schedule
@@ -66,5 +75,5 @@ The course consists of **9 exercises**, each accompanied by a piece of theory. T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MTY0ODk1MSw5MDA4OTE4MTZdfQ==
+eyJoaXN0b3J5IjpbLTEyNjI2MzY4MzEsOTAwODkxODE2XX0=
 -->
