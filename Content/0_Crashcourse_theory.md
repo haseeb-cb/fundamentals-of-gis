@@ -105,8 +105,7 @@ In GIS, both vector and raster data have their respective strengths and applicat
 (Hungry for more? Further reading on vector and raster data in the QGIS documentation: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html, https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/raster_data.html)
 
 #### Spatial data sources 
-Spatial data 
-
+Spat
 ---
 - Definition
 	- Geoinformatics vs GIS
@@ -169,8 +168,8 @@ VyZSIsImNyZWF0ZWQiOjE2ODYxMjcwMzIwNzh9LCI5N01SV0dO
 YU9STTdsTGxQIjp7ImRpc2N1c3Npb25JZCI6Ik9CUjhLdXYxNH
 ZDckFRTDQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJB
 ZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYxMjcwNDg5Njd9fS
-wiaGlzdG9yeSI6WzEzNDM1Mzc1NzcsLTEwMzU3MTg4MjUsNjA3
-Njc5OCwxNjc4ODQ3MTgwLDEwMTQ2NjcwODksMjA2NjI5Nzc5OS
-wtMTM2ODI5MzExMywtMTk3Nzc0NjQzNSw5MDA4OTE4MTZdfQ==
-
+wiaGlzdG9yeSI6WzMyNzI1NTg1MSwxMzQzNTM3NTc3LC0xMDM1
+NzE4ODI1LDYwNzY3OTgsMTY3ODg0NzE4MCwxMDE0NjY3MDg5LD
+IwNjYyOTc3OTksLTEzNjgyOTMxMTMsLTE5Nzc3NDY0MzUsOTAw
+ODkxODE2XX0=
 -->
