@@ -119,6 +119,22 @@ Some common CRS include:
 ![ETRS=TM35FIN](https://upload.wikimedia.org/wikipedia/fi/1/15/ETRSTM35FIN.png)
 (Hungry for more? Coordinate Reference Systems are described in more detail in the QGIS documentation: https://docs.qgis.org/3.4/en/docs/gentle_gis_introduction/coordinate_reference_systems.html)
 
+### GIS analysis types
+The most common GIS (Geographic Information System) analysis types can vary depending on the specific application and industry. However, some of the widely used and common GIS analysis types are:
+
+1.  **Spatial Query and Selection**: This analysis involves selecting or querying spatial features based on their spatial relationship with other features. It helps answer questions like "Which points are within a certain distance of a line?" or "Which polygons intersect a specific area?"
+2.  **Spatial Overlay and Intersection**: Overlay analysis combines multiple spatial datasets to create new datasets by intersecting, unioning, or differencing features. It helps identify areas of overlap, calculate areas, and analyze spatial relationships between different layers.
+3.  **Buffer Analysis**: Buffer analysis creates a proximity zone around a specific feature or set of features. It helps assess the impact or accessibility of certain locations, such as finding all points within a certain distance of a river or road.
+4.  **Network Analysis**: Network analysis focuses on analyzing and modeling networks, such as road networks or utility networks. It includes tasks like route optimization, shortest path analysis, service area analysis, and network connectivity analysis.
+5.  **Spatial Interpolation**: Interpolation methods estimate attribute values at unsampled locations based on values observed at nearby sampled locations. It helps create continuous surfaces from point data, such as generating elevation models or estimating pollution levels.
+6.  **Hotspot Analysis**: Hotspot analysis identifies statistically significant clusters or concentrations of spatial features. It helps identify areas of high or low values, such as identifying crime hotspots or disease clusters.
+7.  **Density Analysis: Density analysis calculates the density of spatial features within a specific area. It helps identify areas of high or low density, such as population density or density of specific events.
+8.  Geocoding and Geolocation: Geocoding involves converting addresses or place names into spatial coordinates, while geolocation refers to determining the location of an entity based on its geographic features. These techniques are used for mapping, spatial referencing, and analysis.
+9.  Spatial Regression: Spatial regression methods explore relationships between spatially referenced variables, considering spatial autocorrelation and spatial dependency. It helps understand how variables interact across space and can be used for predictive modeling or identifying spatial patterns in relationships.
+10.  Thematic Mapping and Cartography: GIS analysis includes creating visually appealing and informative maps, charts, and graphs to visualize spatial patterns and analysis results effectively.
+    
+
+These are some of the most common GIS analysis types, but the field of GIS offers a vast range of analysis techniques and tools that can be tailored to specific needs and applications.
 
 ---
 - Definition
@@ -188,8 +204,9 @@ h0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2MTI3MDQ4
 OTY3fSwiYmVqTVA1VWpNRDBDMGIzRCI6eyJkaXNjdXNzaW9uSW
 QiOiI1c082Y3c0dGFSa3kwSXY3Iiwic3ViIjoiZ2g6NDAzMDQ3
 ODgiLCJ0ZXh0IjoiTGluayB0byBhcnRpY2xlIiwiY3JlYXRlZC
-I6MTY4NjEzNjcxNzg1MX19LCJoaXN0b3J5IjpbLTI1NjAwNzI5
-NywxMzQzNTM3NTc3LC0xMDM1NzE4ODI1LDYwNzY3OTgsMTY3OD
-g0NzE4MCwxMDE0NjY3MDg5LDIwNjYyOTc3OTksLTEzNjgyOTMx
-MTMsLTE5Nzc3NDY0MzUsOTAwODkxODE2XX0=
+I6MTY4NjEzNjcxNzg1MX19LCJoaXN0b3J5IjpbLTIwMDMwMTMw
+NzEsLTI1NjAwNzI5NywxMzQzNTM3NTc3LC0xMDM1NzE4ODI1LD
+YwNzY3OTgsMTY3ODg0NzE4MCwxMDE0NjY3MDg5LDIwNjYyOTc3
+OTksLTEzNjgyOTMxMTMsLTE5Nzc3NDY0MzUsOTAwODkxODE2XX
+0=
 -->
