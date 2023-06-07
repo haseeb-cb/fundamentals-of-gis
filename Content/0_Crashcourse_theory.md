@@ -128,35 +128,13 @@ The most common GIS (Geographic Information System) analysis types can vary depe
 4.  **Network Analysis**: Network analysis focuses on analyzing and modeling networks, such as road networks or utility networks. It includes tasks like route optimization, shortest path analysis, service area analysis, and network connectivity analysis.
 5.  **Spatial Interpolation**: Interpolation methods estimate attribute values at unsampled locations based on values observed at nearby sampled locations. It helps create continuous surfaces from point data, such as generating elevation models or estimating pollution levels.
 6.  **Hotspot Analysis**: Hotspot analysis identifies statistically significant clusters or concentrations of spatial features. It helps identify areas of high or low values, such as identifying crime hotspots or disease clusters.
-7.  **Density Analysis: Density analysis calculates the density of spatial features within a specific area. It helps identify areas of high or low density, such as population density or density of specific events.
-8.  Geocoding and Geolocation: Geocoding involves converting addresses or place names into spatial coordinates, while geolocation refers to determining the location of an entity based on its geographic features. These techniques are used for mapping, spatial referencing, and analysis.
-9.  Spatial Regression: Spatial regression methods explore relationships between spatially referenced variables, considering spatial autocorrelation and spatial dependency. It helps understand how variables interact across space and can be used for predictive modeling or identifying spatial patterns in relationships.
-10.  Thematic Mapping and Cartography: GIS analysis includes creating visually appealing and informative maps, charts, and graphs to visualize spatial patterns and analysis results effectively.
-    
+7.  **Density Analysis**: Density analysis calculates the density of spatial features within a specific area. It helps identify areas of high or low density, such as population density or density of specific events.
+8.  **Geocoding and Geolocation**: Geocoding involves converting addresses or place names into spatial coordinates, while geolocation refers to determining the location of an entity based on its geographic features. These techniques are used for mapping, spatial referencing, and analysis.
+9.  **Spatial Regression**: Spatial regression methods explore relationships between spatially referenced variables, considering spatial autocorrelation and spatial dependency. It helps understand how variables interact across space and can be used for predictive modeling or identifying spatial patterns in relationships.
+10.  **Thematic Mapping and Cartography**: GIS analysis includes creating visually appealing and informative maps, charts, and graphs to visualize spatial patterns and analysis results effectively.
 
-These are some of the most common GIS analysis types, but the field of GIS offers a vast range of analysis techniques and tools that can be tailored to specific needs and applications.
+These are some of the most common GIS analysis types, but the field of GIS offers a vast range of analysis techniques and tools that can be tailored to specific needs and applications. 
 
----
-- Definition
-	- Geoinformatics vs GIS
-	- Uses
-- Spatial data
-	- Definition
-	- Types (vector vs raster)
-	- Objects
-	- Attributes
-	- Sources
-- Coordinate systems and projection
-	- GCS
-	- CRS
-	- PCS
-	- Earth shape
-	- Map projection
-- Spatial data analysis methods
-	- Which exist 
-	- Which are covered in this course
-	- Examples (in research and society)
-- GIS workflow
 
 ## What is QGIS?
 
@@ -181,32 +159,37 @@ OTI2LCJlbmQiOjg5NjAsInRleHQiOiItIFJlYWwgbGlmZSBleG
 FtcGxlIG9mIHZlY3RvciBkYXRhIn0sIjVzTzZjdzR0YVJreTBJ
 djciOnsic3RhcnQiOjk3MDQsImVuZCI6OTc2NywidGV4dCI6Ik
 hvdyBhbmQgd2hlcmUgdG8gZmluZCBzcGF0aWFsIGRhdGEgaXMg
-ZGlzY3Vzc2VkIGluIGRldGFpbCBoZXJlOiJ9fSwiY29tbWVudH
-MiOnsicVpXWEZndGVMZGZ2VXNkMiI6eyJkaXNjdXNzaW9uSWQi
-OiJBekJ0bTlpSG5HS2pVUGVGIiwic3ViIjoiZ2g6NDAzMDQ3OD
-giLCJ0ZXh0IjoiQWRkIG51bWJlciIsImNyZWF0ZWQiOjE2ODYx
-MjA1NTAyODF9LCIxT2NBeDQxSWh0dHZrTWhTIjp7ImRpc2N1c3
-Npb25JZCI6Ino2SmxoRFBWRnpxb3U4MnUiLCJzdWIiOiJnaDo0
-MDMwNDc4OCIsInRleHQiOiJBZGQgbGluayIsImNyZWF0ZWQiOj
-E2ODYxMjM1NTczNTB9LCJMcFQzUkN0c29URFpoUXhoIjp7ImRp
-c2N1c3Npb25JZCI6ImU0a29XajlNUmVyclVnRXYiLCJzdWIiOi
-JnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgbmFtZXMiLCJjcmVh
-dGVkIjoxNjg2MTIzNjExMDA3fSwibUJpZ0VyNmNHbFpIOGxCMS
-I6eyJkaXNjdXNzaW9uSWQiOiJGYXBXTmo4S3liajhUeEpJIiwi
-c3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGRpYWdyYW
-0iLCJjcmVhdGVkIjoxNjg2MTI2MTkyMjE0fSwiYk5PaVNVYTFo
-cjFZQVpKYiI6eyJkaXNjdXNzaW9uSWQiOiJtWGprNzZRa291cm
-FwcVJuIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRk
-IHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2MTI3MDMyMDc4fSwiOT
-dNUldHTmFPUk03bExsUCI6eyJkaXNjdXNzaW9uSWQiOiJPQlI4
-S3V2MTR2Q3JBUUw0Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZX
-h0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2MTI3MDQ4
-OTY3fSwiYmVqTVA1VWpNRDBDMGIzRCI6eyJkaXNjdXNzaW9uSW
-QiOiI1c082Y3c0dGFSa3kwSXY3Iiwic3ViIjoiZ2g6NDAzMDQ3
-ODgiLCJ0ZXh0IjoiTGluayB0byBhcnRpY2xlIiwiY3JlYXRlZC
-I6MTY4NjEzNjcxNzg1MX19LCJoaXN0b3J5IjpbLTIwMDMwMTMw
-NzEsLTI1NjAwNzI5NywxMzQzNTM3NTc3LC0xMDM1NzE4ODI1LD
-YwNzY3OTgsMTY3ODg0NzE4MCwxMDE0NjY3MDg5LDIwNjYyOTc3
-OTksLTEzNjgyOTMxMTMsLTE5Nzc3NDY0MzUsOTAwODkxODE2XX
-0=
+ZGlzY3Vzc2VkIGluIGRldGFpbCBoZXJlOiJ9LCJieU12eGpvMG
+ZJeXJZNE5KIjp7InN0YXJ0IjoxMDk0OCwiZW5kIjoxMDk3MCwi
+dGV4dCI6IiMjIyBHSVMgYW5hbHlzaXMgdHlwZXMifX0sImNvbW
+1lbnRzIjp7InFaV1hGZ3RlTGRmdlVzZDIiOnsiZGlzY3Vzc2lv
+bklkIjoiQXpCdG05aUhuR0tqVVBlRiIsInN1YiI6ImdoOjQwMz
+A0Nzg4IiwidGV4dCI6IkFkZCBudW1iZXIiLCJjcmVhdGVkIjox
+Njg2MTIwNTUwMjgxfSwiMU9jQXg0MUlodHR2a01oUyI6eyJkaX
+NjdXNzaW9uSWQiOiJ6NkpsaERQVkZ6cW91ODJ1Iiwic3ViIjoi
+Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGxpbmsiLCJjcmVhdG
+VkIjoxNjg2MTIzNTU3MzUwfSwiTHBUM1JDdHNvVERaaFF4aCI6
+eyJkaXNjdXNzaW9uSWQiOiJlNGtvV2o5TVJlcnJVZ0V2Iiwic3
+ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIG5hbWVzIiwi
+Y3JlYXRlZCI6MTY4NjEyMzYxMTAwN30sIm1CaWdFcjZjR2xaSD
+hsQjEiOnsiZGlzY3Vzc2lvbklkIjoiRmFwV05qOEt5Ymo4VHhK
+SSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBkaW
+FncmFtIiwiY3JlYXRlZCI6MTY4NjEyNjE5MjIxNH0sImJOT2lT
+VWExaHIxWUFaSmIiOnsiZGlzY3Vzc2lvbklkIjoibVhqazc2UW
+tvdXJhcHFSbiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
+IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NjEyNzAzMjA3OH
+0sIjk3TVJXR05hT1JNN2xMbFAiOnsiZGlzY3Vzc2lvbklkIjoi
+T0JSOEt1djE0dkNyQVFMNCIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
+widGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NjEy
+NzA0ODk2N30sImJlak1QNVVqTUQwQzBiM0QiOnsiZGlzY3Vzc2
+lvbklkIjoiNXNPNmN3NHRhUmt5MEl2NyIsInN1YiI6ImdoOjQw
+MzA0Nzg4IiwidGV4dCI6IkxpbmsgdG8gYXJ0aWNsZSIsImNyZW
+F0ZWQiOjE2ODYxMzY3MTc4NTF9LCJRTlJ0UlJySzBNT1h4V09C
+Ijp7ImRpc2N1c3Npb25JZCI6ImJ5TXZ4am8wZkl5clk0TkoiLC
+JzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJJbmNsdWRlIGV4
+YW1wbGUgcGljdHVyZXMiLCJjcmVhdGVkIjoxNjg2MTM3ODg3MT
+cxfX0sImhpc3RvcnkiOlstMTM3NDU0MDExLC0yNTYwMDcyOTcs
+MTM0MzUzNzU3NywtMTAzNTcxODgyNSw2MDc2Nzk4LDE2Nzg4ND
+cxODAsMTAxNDY2NzA4OSwyMDY2Mjk3Nzk5LC0xMzY4MjkzMTEz
+LC0xOTc3NzQ2NDM1LDkwMDg5MTgxNl19
 -->
