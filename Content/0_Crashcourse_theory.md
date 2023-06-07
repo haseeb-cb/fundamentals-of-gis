@@ -102,6 +102,8 @@ Spatial data refers to **information that is associated with specific locations 
 
 In GIS, both vector and raster data have their respective strengths and applications. Vector data is well-suited for representing discrete features and precise geometries, while raster data is ideal for representing continuous surfaces and performing spatial analysis based on cell values. GIS software allows for the integration, analysis, and visualization of both types of data, enabling users to explore and understand spatial information from different perspectives.
 
+(Hungry for more? further reading on Vector and Raster  in the QGIS manual: https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/index.html)
+
 ---
 - Definition
 	- Geoinformatics vs GIS
@@ -164,7 +166,7 @@ VyZSIsImNyZWF0ZWQiOjE2ODYxMjcwMzIwNzh9LCI5N01SV0dO
 YU9STTdsTGxQIjp7ImRpc2N1c3Npb25JZCI6Ik9CUjhLdXYxNH
 ZDckFRTDQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJB
 ZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYxMjcwNDg5Njd9fS
-wiaGlzdG9yeSI6Wy0xMDM1NzE4ODI1LDYwNzY3OTgsMTY3ODg0
-NzE4MCwxMDE0NjY3MDg5LDIwNjYyOTc3OTksLTEzNjgyOTMxMT
-MsLTE5Nzc3NDY0MzUsOTAwODkxODE2XX0=
+wiaGlzdG9yeSI6WzM1ODEyODQyNCwtMTAzNTcxODgyNSw2MDc2
+Nzk4LDE2Nzg4NDcxODAsMTAxNDY2NzA4OSwyMDY2Mjk3Nzk5LC
+0xMzY4MjkzMTEzLC0xOTc3NzQ2NDM1LDkwMDg5MTgxNl19
 -->
