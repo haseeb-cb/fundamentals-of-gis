@@ -51,6 +51,9 @@ If you ever have a question or run in to an issue along this course, please foll
 4.  If at this point you still have not found a resolution, mention the teachers in the channel (@)
 
 Google tips:
+- [Simple google Search Tips](https://www.youtube.com/watch?v=oIMTM168BK8)
+- [Filter and refine your Google Search results](https://www.youtube.com/watch?v=ne8De4m_SbE)
+- [Google Search Tip: Find an exact phrase](https://www.youtube.com/watch?v=n16BVXzNSj8)
 - 
 
 Following this process will help you **develop the independent troubleshooting skills** you will need when you use GIS on your own. 
@@ -93,6 +96,7 @@ N0YXJ0IjoyMTIwLCJlbmQiOjIxMjEsInRleHQiOiJYIn19LCJj
 b21tZW50cyI6eyJxWldYRmd0ZUxkZnZVc2QyIjp7ImRpc2N1c3
 Npb25JZCI6IkF6QnRtOWlIbkdLalVQZUYiLCJzdWIiOiJnaDo0
 MDMwNDc4OCIsInRleHQiOiJBZGQgbnVtYmVyIiwiY3JlYXRlZC
-I6MTY4NjEyMDU1MDI4MX19LCJoaXN0b3J5IjpbLTcyODAzMDY2
-LC0xMzY4MjkzMTEzLC0xOTc3NzQ2NDM1LDkwMDg5MTgxNl19
+I6MTY4NjEyMDU1MDI4MX19LCJoaXN0b3J5IjpbLTU0OTUxMjQ4
+OSwtMTM2ODI5MzExMywtMTk3Nzc0NjQzNSw5MDA4OTE4MTZdfQ
+==
 -->
