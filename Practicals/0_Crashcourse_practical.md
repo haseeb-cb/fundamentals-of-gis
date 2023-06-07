@@ -57,7 +57,7 @@ The state of a working session in QGIS is called a **project**. Similarly, to a 
 
 (QGIS supports ‘**on the fly**’ (**OTF**) coordinate system transformation for both vector and raster layers. This means that the program will automatically draw the layers to match the coordinate system defined for the map canvas, if a transformation formula is available.)
 
-### 1.2 Tools, toolbars and panels
+### 1.1 Toolbars
 
 Here is a brief introduction to the **basic toolbars** in QGIS. The toolbars can be toggled in *View* \> *Toolbars* by ticking the boxes. If you can’t find a toolbar mentioned below – the toolbar might be deselected!
 
@@ -73,6 +73,8 @@ The **Attributes toolbar** includes some of the most common tools that enable fo
 
 ![Data Source Manager](https://docs.qgis.org/3.28/en/_images/datasource_manager.png)
 If you want to create new empty layers, go to *Layer* \> *Create Layer*.
+
+### 1.2 Panels
 
 **Panels** offer a single major function. Similarly, to toolbars, they can be toggled from *View* \> *Panels*. Below is an example of three panels (Browser, Layer Style and Statistics) on top of each other.
 
@@ -264,17 +266,17 @@ eyJkaXNjdXNzaW9ucyI6eyJOOGNoUGR6ZEhMcXB3S0tOIjp7In
 N0YXJ0Ijo0NTA4LCJlbmQiOjQ2MzQsInRleHQiOiJUaGUgZGF0
 YSB1c2VkIGluIHRoaXMgY291cnNlIHdpbGwgbW9zdGx5IGJlIG
 luIEVQU0cgMzA2NyAoRVRSUy1UTTM1RklOKSwgd2hpY2jigKYi
-fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6OTE5MCwiZW
-5kIjo5NDk3LCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
+fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6OTE4OCwiZW
+5kIjo5NDk1LCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
 bGwgZG93bmxvYWRlZCBmcm9tIFBhSVR1bGkgYW5kIEhlbHNpbm
 tpIFJlZ2lvbiBJbmZvc2hhcmUgZOKApiJ9LCJQUVhKa1N0WTJn
-c3V2ejVEIjp7InN0YXJ0IjoyMTU2MCwiZW5kIjoyMTU4NCwidG
+c3V2ejVEIjp7InN0YXJ0IjoyMTU1OCwiZW5kIjoyMTU4MiwidG
 V4dCI6Ii0gTGF5b3V0IG1hbmFnZXIgcGljdHVyZSJ9LCJ5bmg1
 Ym9RaU9NVGlsWk1XIjp7InN0YXJ0Ijo4MywiZW5kIjoyMDEsIn
 RleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dHBzOi8vcmF3Lmdp
 dGh1YnVzZXJjb250ZW50LmNvbS9yb3dhbjhrL2Z1bmRhbWVudG
 Fscy1vZi1naXMv4oCmIn0sIlliWVFtNmxqVTQyZnk2UDYiOnsi
-c3RhcnQiOjcwMzIsImVuZCI6NzEzMywidGV4dCI6IiFbXShodH
+c3RhcnQiOjcwMzAsImVuZCI6NzEzMSwidGV4dCI6IiFbXShodH
 RwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vcm93YW44
 ay9mdW5kYW1lbnRhbHMtb2YtZ2lzL21hc3Rlci9Bc3NldHPigK
 YifX0sImNvbW1lbnRzIjp7IktIQ1ZwM3M0TURDdjJXaXQiOnsi
@@ -298,5 +300,5 @@ IHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg1OTQzNTg3MzU4fSwiQz
 JIeVlHVkExYndlVjhiRiI6eyJkaXNjdXNzaW9uSWQiOiJZYllR
 bTZsalU0MmZ5NlA2Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZX
 h0IjoiVXBkYXRlIGltYWdlIiwiY3JlYXRlZCI6MTY4NTk1NTMz
-NDYzMX19LCJoaXN0b3J5IjpbLTUyNTUxMDU4NV19
+NDYzMX19LCJoaXN0b3J5IjpbLTEyOTIyOTA0XX0=
 -->
