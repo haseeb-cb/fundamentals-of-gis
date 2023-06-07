@@ -47,9 +47,10 @@ If you ever have a question or run in to an issue along this course, please foll
 1. Start by checking if the information in the course materials provide a solution, it might have been covered in the previous theory or exercises as well
 	- If you come across missing information in the materials, please let us know so we can make sure others don't run into the same issue! 
 2. Google, or another search engine, is the most powerful troubleshooting tool at your disposal! Try searching your question or issue, below you can find some tips on how to improve your google searches
-3. Ask your question in the chat, o 
+3. Ask your question in the chat, other students or professionals will be able to help you! Use the channel of the exercise you are working on. 
+4.  
 
-Following this process will help you develop the independent troubleshooting skills you will need when you use GIS on your own. 
+Following this process will help you **develop the independent troubleshooting skills** you will need when you use GIS on your own. 
 
 ## What is GIS and why do we use it?
 
@@ -89,6 +90,7 @@ N0YXJ0IjoyMTIwLCJlbmQiOjIxMjEsInRleHQiOiJYIn19LCJj
 b21tZW50cyI6eyJxWldYRmd0ZUxkZnZVc2QyIjp7ImRpc2N1c3
 Npb25JZCI6IkF6QnRtOWlIbkdLalVQZUYiLCJzdWIiOiJnaDo0
 MDMwNDc4OCIsInRleHQiOiJBZGQgbnVtYmVyIiwiY3JlYXRlZC
-I6MTY4NjEyMDU1MDI4MX19LCJoaXN0b3J5IjpbNDk2NTgwMTky
-LC0xMzY4MjkzMTEzLC0xOTc3NzQ2NDM1LDkwMDg5MTgxNl19
+I6MTY4NjEyMDU1MDI4MX19LCJoaXN0b3J5IjpbLTE3NzE2Mjc3
+NDcsLTEzNjgyOTMxMTMsLTE5Nzc3NDY0MzUsOTAwODkxODE2XX
+0=
 -->
