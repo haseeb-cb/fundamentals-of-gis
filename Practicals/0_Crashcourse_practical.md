@@ -15,12 +15,11 @@ Rowan van der Kaaden
 
 [^2]: What is a choropleth map?
 
-If you have time after that, try out the second part! They will introduce joining spreadsheet data with spatial data and vector clipping.
 
 **By the end of today’s crash course, you will:**
 
 -   **Be familiar with QGIS’s user interface and basic functions**
--   **Have an idea what kind of data types GIS can process**
+-   **Have an idea of what kind of data types GIS can process**
 
 **Note:** If you have not yet downloaded QGIS, do so now from this link: <https://www.qgis.org/en/site/forusers/download.html> See QGIS installation instructions for details.
 
@@ -29,7 +28,7 @@ If you have time after that, try out the second part! They will introduce joinin
 
 ### Getting started with QGIS
 
-**First make sure you have downloaded the data zip containing the crash course data.** If you have not, download it using the link in Moodle and unzip the data. **Hint**: Save each project and its accompanying data in their own folder to kepe things organized!  
+**First make sure you have downloaded the data zip containing the crash course data.** If you have not, download it using the link in Moodle and unzip the data. **Hint**: Save each project and its accompanying data in their own folder to keep things organized!  
 
 **Launch QGIS** and the QGIS graphical user interface (GUI) opens (Figure 1).
 
@@ -263,42 +262,48 @@ The last phase of this practical will concentrate on creating a map output.
  
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJOOGNoUGR6ZEhMcXB3S0tOIjp7In
-N0YXJ0Ijo0NTA4LCJlbmQiOjQ2MzQsInRleHQiOiJUaGUgZGF0
+N0YXJ0Ijo0MzczLCJlbmQiOjQ0OTksInRleHQiOiJUaGUgZGF0
 YSB1c2VkIGluIHRoaXMgY291cnNlIHdpbGwgbW9zdGx5IGJlIG
 luIEVQU0cgMzA2NyAoRVRSUy1UTTM1RklOKSwgd2hpY2jigKYi
-fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6OTE4OCwiZW
-5kIjo5NDk1LCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
+fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6OTA1MywiZW
+5kIjo5MzYwLCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
 bGwgZG93bmxvYWRlZCBmcm9tIFBhSVR1bGkgYW5kIEhlbHNpbm
 tpIFJlZ2lvbiBJbmZvc2hhcmUgZOKApiJ9LCJQUVhKa1N0WTJn
-c3V2ejVEIjp7InN0YXJ0IjoyMTU1OCwiZW5kIjoyMTU4MiwidG
+c3V2ejVEIjp7InN0YXJ0IjoyMTQyMywiZW5kIjoyMTQ0NywidG
 V4dCI6Ii0gTGF5b3V0IG1hbmFnZXIgcGljdHVyZSJ9LCJ5bmg1
 Ym9RaU9NVGlsWk1XIjp7InN0YXJ0Ijo4MywiZW5kIjoyMDEsIn
 RleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dHBzOi8vcmF3Lmdp
 dGh1YnVzZXJjb250ZW50LmNvbS9yb3dhbjhrL2Z1bmRhbWVudG
 Fscy1vZi1naXMv4oCmIn0sIlliWVFtNmxqVTQyZnk2UDYiOnsi
-c3RhcnQiOjcwMzAsImVuZCI6NzEzMSwidGV4dCI6IiFbXShodH
+c3RhcnQiOjY4OTUsImVuZCI6Njk5NiwidGV4dCI6IiFbXShodH
 RwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vcm93YW44
 ay9mdW5kYW1lbnRhbHMtb2YtZ2lzL21hc3Rlci9Bc3NldHPigK
-YifX0sImNvbW1lbnRzIjp7IktIQ1ZwM3M0TURDdjJXaXQiOnsi
-ZGlzY3Vzc2lvbklkIjoiTjhjaFBkemRITHFwd0tLTiIsInN1Yi
-I6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkNvbWUgYmFjayB0byBj
-aGVjayBpZiBhY2N1cmF0ZSIsImNyZWF0ZWQiOjE2ODU3ODMyMj
-g2Mzd9LCI3UkVPZUhBb1pPWXVSQ2JZIjp7ImRpc2N1c3Npb25J
-ZCI6Inppb1NkVWQ4cGNLRkVDblIiLCJzdWIiOiJnaDo0MDMwND
-c4OCIsInRleHQiOiJNYWtlIHN0dWRlbnRzIGdhdGhlciB0aGUg
-ZGF0YSB0aGVtc2VsdmVzIiwiY3JlYXRlZCI6MTY4NTc4MzQ5MD
-UzM30sIkJNeFhHSTJYQkRvaUJWNVQiOnsiZGlzY3Vzc2lvbklk
-IjoiemlvU2RVZDhwY0tGRUNuUiIsInN1YiI6ImdoOjQwMzA0Nz
-g4IiwidGV4dCI6Im9yIGFkZCBsaW5rcyIsImNyZWF0ZWQiOjE2
-ODU3ODM1MDYxMTd9LCIwMUNpRjhpRzhvdDNhYjFuIjp7ImRpc2
-N1c3Npb25JZCI6IlBRWEprU3RZMmdzdXZ6NUQiLCJzdWIiOiJn
-aDo0MDMwNDc4OCIsInRleHQiOiJBZGQgaW1hZ2UiLCJjcmVhdG
-VkIjoxNjg1NzkwMzIzODA5fSwiNTdMWGpTekhzemFIY2hKVSI6
-eyJkaXNjdXNzaW9uSWQiOiJ5bmg1Ym9RaU9NVGlsWk1XIiwic3
-ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiVXBkYXRlIGNvdmVy
-IHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg1OTQzNTg3MzU4fSwiQz
-JIeVlHVkExYndlVjhiRiI6eyJkaXNjdXNzaW9uSWQiOiJZYllR
-bTZsalU0MmZ5NlA2Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZX
-h0IjoiVXBkYXRlIGltYWdlIiwiY3JlYXRlZCI6MTY4NTk1NTMz
-NDYzMX19LCJoaXN0b3J5IjpbLTEyOTIyOTA0XX0=
+YifSwiSm9TdVZMc0s5MUFKdXRIRCI6eyJzdGFydCI6MjEyMywi
+ZW5kIjoyMTI5LCJ0ZXh0IjoiQXJjR0lTIn19LCJjb21tZW50cy
+I6eyJLSENWcDNzNE1EQ3YyV2l0Ijp7ImRpc2N1c3Npb25JZCI6
+Ik44Y2hQZHpkSExxcHdLS04iLCJzdWIiOiJnaDo0MDMwNDc4OC
+IsInRleHQiOiJDb21lIGJhY2sgdG8gY2hlY2sgaWYgYWNjdXJh
+dGUiLCJjcmVhdGVkIjoxNjg1NzgzMjI4NjM3fSwiN1JFT2VIQW
+9aT1l1UkNiWSI6eyJkaXNjdXNzaW9uSWQiOiJ6aW9TZFVkOHBj
+S0ZFQ25SIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiTW
+FrZSBzdHVkZW50cyBnYXRoZXIgdGhlIGRhdGEgdGhlbXNlbHZl
+cyIsImNyZWF0ZWQiOjE2ODU3ODM0OTA1MzN9LCJCTXhYR0kyWE
+JEb2lCVjVUIjp7ImRpc2N1c3Npb25JZCI6Inppb1NkVWQ4cGNL
+RkVDblIiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJvci
+BhZGQgbGlua3MiLCJjcmVhdGVkIjoxNjg1NzgzNTA2MTE3fSwi
+MDFDaUY4aUc4b3QzYWIxbiI6eyJkaXNjdXNzaW9uSWQiOiJQUV
+hKa1N0WTJnc3V2ejVEIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0
+ZXh0IjoiQWRkIGltYWdlIiwiY3JlYXRlZCI6MTY4NTc5MDMyMz
+gwOX0sIjU3TFhqU3pIc3phSGNoSlUiOnsiZGlzY3Vzc2lvbklk
+IjoieW5oNWJvUWlPTVRpbFpNVyIsInN1YiI6ImdoOjQwMzA0Nz
+g4IiwidGV4dCI6IlVwZGF0ZSBjb3ZlciBwaWN0dXJlIiwiY3Jl
+YXRlZCI6MTY4NTk0MzU4NzM1OH0sIkMySHlZR1ZBMWJ3ZVY4Yk
+YiOnsiZGlzY3Vzc2lvbklkIjoiWWJZUW02bGpVNDJmeTZQNiIs
+InN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSBpbW
+FnZSIsImNyZWF0ZWQiOjE2ODU5NTUzMzQ2MzF9LCJSUElxQzM1
+R2dZcjVwUnZLIjp7ImRpc2N1c3Npb25JZCI6IkpvU3VWTHNLOT
+FBSnV0SEQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJN
+ZW50aW9uIGluIHRob2VyeSB3aGF0IHRoaXMgaXMiLCJjcmVhdG
+VkIjoxNjg2MTE0MDc0ODM1fX0sImhpc3RvcnkiOlstMTc1ODMw
+ODMyOF19
 -->
