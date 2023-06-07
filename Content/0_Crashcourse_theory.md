@@ -74,7 +74,7 @@ GIS is used in a wide range of fields and industries, including:
 
 These are just a few examples of the diverse applications of GIS. This course is not specifically tailored for a specific field, but it aims to give you a fundamental skillset in GIS that you can use to apply GIS in almost any field. 
 
-### GIS 
+### GIS workflow
 
 - Definition
 	- Geoinformatics vs GIS
@@ -121,7 +121,7 @@ BsaW5rIiwiY3JlYXRlZCI6MTY4NjEyMzU1NzM1MH0sIkxwVDNS
 Q3Rzb1REWmhReGgiOnsiZGlzY3Vzc2lvbklkIjoiZTRrb1dqOU
 1SZXJyVWdFdiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
 IkFkZCBuYW1lcyIsImNyZWF0ZWQiOjE2ODYxMjM2MTEwMDd9fS
-wiaGlzdG9yeSI6WzE5NjgzNjU2OTAsMTY3ODg0NzE4MCwxMDE0
-NjY3MDg5LDIwNjYyOTc3OTksLTEzNjgyOTMxMTMsLTE5Nzc3ND
-Y0MzUsOTAwODkxODE2XX0=
+wiaGlzdG9yeSI6WzM2MDgzNzUzMSwxNjc4ODQ3MTgwLDEwMTQ2
+NjcwODksMjA2NjI5Nzc5OSwtMTM2ODI5MzExMywtMTk3Nzc0Nj
+QzNSw5MDA4OTE4MTZdfQ==
 -->
