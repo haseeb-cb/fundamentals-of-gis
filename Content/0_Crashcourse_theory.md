@@ -5,6 +5,8 @@
 ## Course introduction
 
 ### Learning outcomes
+After completng the course you should be able to:
+- Understand the fundamental principles of GIS, including rasters, vector, projections, geoprocessing and analysis
 
 ### Structure
 - Completion methods
@@ -52,5 +54,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAwODkxODE2XX0=
+eyJoaXN0b3J5IjpbMTcyMTkyNTIwNCw5MDA4OTE4MTZdfQ==
 -->
