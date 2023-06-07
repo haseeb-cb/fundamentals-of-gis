@@ -108,7 +108,7 @@ In GIS, both vector and raster data have their respective strengths and applicat
 How and where to find spatial data is discussed in detail here: 
 
 ### Coordinate Reference Systems (CRS) and map projections
-The basic idea of a CRS is to project the shape of the earth, or the specific area of the CRS, o . CRS are frameworks that define how geographic clocations are represented and referenced in a coordinate system. There are different CRS, often depending on the region where the data is located. When we are working with different kind of data, we often have have layers that are in different CRS. **It is important to check that the layers and the project are in the same CRS!**
+The basic idea of a CRS is to project the shape of the earth, or the specific area of the CRS, onto a flat plane like a map. In other words, CRS are frameworks that define how geographic clocations are represented and referenced in a coordinate system. There are different CRS which use different Earth shape models as a reference and projection methods, the specific CRS used is often depending on the region where the data is located. When we are working with different kind of data, it is common that we have layers that are in different CRS. **Thus, it is important to check that the layers and the project are in the same CRS!**
 
 Some common CRS include:
 - Finland: ETRS-TM35FIN (EPSG:3067) (Shown in the picture below)
@@ -186,8 +186,8 @@ h0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2MTI3MDQ4
 OTY3fSwiYmVqTVA1VWpNRDBDMGIzRCI6eyJkaXNjdXNzaW9uSW
 QiOiI1c082Y3c0dGFSa3kwSXY3Iiwic3ViIjoiZ2g6NDAzMDQ3
 ODgiLCJ0ZXh0IjoiTGluayB0byBhcnRpY2xlIiwiY3JlYXRlZC
-I6MTY4NjEzNjcxNzg1MX19LCJoaXN0b3J5IjpbLTE3NjY4NTIw
-MDAsMTM0MzUzNzU3NywtMTAzNTcxODgyNSw2MDc2Nzk4LDE2Nz
+I6MTY4NjEzNjcxNzg1MX19LCJoaXN0b3J5IjpbLTE2MDUwNTEy
+NjIsMTM0MzUzNzU3NywtMTAzNTcxODgyNSw2MDc2Nzk4LDE2Nz
 g4NDcxODAsMTAxNDY2NzA4OSwyMDY2Mjk3Nzk5LC0xMzY4Mjkz
 MTEzLC0xOTc3NzQ2NDM1LDkwMDg5MTgxNl19
 -->
