@@ -58,7 +58,7 @@ The state of a working session in QGIS is called a **project**. Similarly, to a 
 
 ### 1.1 Toolbars
 
-Here is a brief introduction to the **basic toolbars** in QGIS. The toolbars can be toggled in *View* \> *Toolbars* by ticking the boxes. If you can’t find a toolbar mentioned below – the toolbar might be deselected!
+Here is a brief introduction to the **basic toolbars** in QGIS. The toolbars can be toggled in *View* \> *Toolbars* by ticking the boxes. If you can’t find a toolbar mentioned below – the toolbar might not be toggled on!
 
 The **Map Navigation toolbar** lets you zoom and pan the map view.
 
@@ -68,7 +68,7 @@ The **Attributes toolbar** includes some of the most common tools that enable fo
 
 ![Attributes toolbar](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_attributes_toolbar.PNG)
 
- ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_data_source_manager.png) **Adding data in QGIS:** The **Data Source Manager** offers a handy way to add a vector or raster layer. There are also special buttons for different kinds of database layers and interface services. The figure on the below offers a closer look at the tool. Similar functionality can be found in *Layer* \> *Add Layer*.
+ ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_data_source_manager.png) **Adding data in QGIS:** The **Data Source Manager** offers a handy way to add a vector or raster layer. There are also special buttons for different kinds of database layers and interface services. The figure below offers a closer look at the tool. Similar functionality can be found in *Layer* \> *Add Layer*.
 
 ![Data Source Manager](https://docs.qgis.org/3.28/en/_images/datasource_manager.png)
 If you want to create new empty layers, go to *Layer* \> *Create Layer*.
@@ -265,45 +265,53 @@ eyJkaXNjdXNzaW9ucyI6eyJOOGNoUGR6ZEhMcXB3S0tOIjp7In
 N0YXJ0Ijo0MzczLCJlbmQiOjQ0OTksInRleHQiOiJUaGUgZGF0
 YSB1c2VkIGluIHRoaXMgY291cnNlIHdpbGwgbW9zdGx5IGJlIG
 luIEVQU0cgMzA2NyAoRVRSUy1UTTM1RklOKSwgd2hpY2jigKYi
-fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6OTA1MywiZW
-5kIjo5MzYwLCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
+fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6OTA1MCwiZW
+5kIjo5MzU3LCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
 bGwgZG93bmxvYWRlZCBmcm9tIFBhSVR1bGkgYW5kIEhlbHNpbm
 tpIFJlZ2lvbiBJbmZvc2hhcmUgZOKApiJ9LCJQUVhKa1N0WTJn
-c3V2ejVEIjp7InN0YXJ0IjoyMTQyMywiZW5kIjoyMTQ0NywidG
+c3V2ejVEIjp7InN0YXJ0IjoyMTQyMCwiZW5kIjoyMTQ0NCwidG
 V4dCI6Ii0gTGF5b3V0IG1hbmFnZXIgcGljdHVyZSJ9LCJ5bmg1
 Ym9RaU9NVGlsWk1XIjp7InN0YXJ0Ijo4MywiZW5kIjoyMDEsIn
 RleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dHBzOi8vcmF3Lmdp
 dGh1YnVzZXJjb250ZW50LmNvbS9yb3dhbjhrL2Z1bmRhbWVudG
 Fscy1vZi1naXMv4oCmIn0sIlliWVFtNmxqVTQyZnk2UDYiOnsi
-c3RhcnQiOjY4OTUsImVuZCI6Njk5NiwidGV4dCI6IiFbXShodH
+c3RhcnQiOjY4OTIsImVuZCI6Njk5MywidGV4dCI6IiFbXShodH
 RwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vcm93YW44
 ay9mdW5kYW1lbnRhbHMtb2YtZ2lzL21hc3Rlci9Bc3NldHPigK
 YifSwiSm9TdVZMc0s5MUFKdXRIRCI6eyJzdGFydCI6MjEyMywi
-ZW5kIjoyMTI5LCJ0ZXh0IjoiQXJjR0lTIn19LCJjb21tZW50cy
-I6eyJLSENWcDNzNE1EQ3YyV2l0Ijp7ImRpc2N1c3Npb25JZCI6
-Ik44Y2hQZHpkSExxcHdLS04iLCJzdWIiOiJnaDo0MDMwNDc4OC
-IsInRleHQiOiJDb21lIGJhY2sgdG8gY2hlY2sgaWYgYWNjdXJh
-dGUiLCJjcmVhdGVkIjoxNjg1NzgzMjI4NjM3fSwiN1JFT2VIQW
-9aT1l1UkNiWSI6eyJkaXNjdXNzaW9uSWQiOiJ6aW9TZFVkOHBj
-S0ZFQ25SIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiTW
-FrZSBzdHVkZW50cyBnYXRoZXIgdGhlIGRhdGEgdGhlbXNlbHZl
-cyIsImNyZWF0ZWQiOjE2ODU3ODM0OTA1MzN9LCJCTXhYR0kyWE
-JEb2lCVjVUIjp7ImRpc2N1c3Npb25JZCI6Inppb1NkVWQ4cGNL
-RkVDblIiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJvci
-BhZGQgbGlua3MiLCJjcmVhdGVkIjoxNjg1NzgzNTA2MTE3fSwi
-MDFDaUY4aUc4b3QzYWIxbiI6eyJkaXNjdXNzaW9uSWQiOiJQUV
-hKa1N0WTJnc3V2ejVEIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0
-ZXh0IjoiQWRkIGltYWdlIiwiY3JlYXRlZCI6MTY4NTc5MDMyMz
-gwOX0sIjU3TFhqU3pIc3phSGNoSlUiOnsiZGlzY3Vzc2lvbklk
-IjoieW5oNWJvUWlPTVRpbFpNVyIsInN1YiI6ImdoOjQwMzA0Nz
-g4IiwidGV4dCI6IlVwZGF0ZSBjb3ZlciBwaWN0dXJlIiwiY3Jl
-YXRlZCI6MTY4NTk0MzU4NzM1OH0sIkMySHlZR1ZBMWJ3ZVY4Yk
-YiOnsiZGlzY3Vzc2lvbklkIjoiWWJZUW02bGpVNDJmeTZQNiIs
-InN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSBpbW
-FnZSIsImNyZWF0ZWQiOjE2ODU5NTUzMzQ2MzF9LCJSUElxQzM1
-R2dZcjVwUnZLIjp7ImRpc2N1c3Npb25JZCI6IkpvU3VWTHNLOT
-FBSnV0SEQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJN
-ZW50aW9uIGluIHRob2VyeSB3aGF0IHRoaXMgaXMiLCJjcmVhdG
-VkIjoxNjg2MTE0MDc0ODM1fX0sImhpc3RvcnkiOlstMTc1ODMw
-ODMyOF19
+ZW5kIjoyMTI5LCJ0ZXh0IjoiQXJjR0lTIn0sImRadGEyMk9hV2
+pqcWlQek0iOnsic3RhcnQiOjU2ODcsImVuZCI6NTk5OCwidGV4
+dCI6IioqQWRkaW5nIGRhdGEgaW4gUUdJUzoqKiBUaGUgKipEYX
+RhIFNvdXJjZSBNYW5hZ2VyKiogb2ZmZXJzIGEgaGFuZHkgd2F5
+IHRvIGFkZOKApiJ9fSwiY29tbWVudHMiOnsiS0hDVnAzczRNRE
+N2MldpdCI6eyJkaXNjdXNzaW9uSWQiOiJOOGNoUGR6ZEhMcXB3
+S0tOIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQ29tZS
+BiYWNrIHRvIGNoZWNrIGlmIGFjY3VyYXRlIiwiY3JlYXRlZCI6
+MTY4NTc4MzIyODYzN30sIjdSRU9lSEFvWk9ZdVJDYlkiOnsiZG
+lzY3Vzc2lvbklkIjoiemlvU2RVZDhwY0tGRUNuUiIsInN1YiI6
+ImdoOjQwMzA0Nzg4IiwidGV4dCI6Ik1ha2Ugc3R1ZGVudHMgZ2
+F0aGVyIHRoZSBkYXRhIHRoZW1zZWx2ZXMiLCJjcmVhdGVkIjox
+Njg1NzgzNDkwNTMzfSwiQk14WEdJMlhCRG9pQlY1VCI6eyJkaX
+NjdXNzaW9uSWQiOiJ6aW9TZFVkOHBjS0ZFQ25SIiwic3ViIjoi
+Z2g6NDAzMDQ3ODgiLCJ0ZXh0Ijoib3IgYWRkIGxpbmtzIiwiY3
+JlYXRlZCI6MTY4NTc4MzUwNjExN30sIjAxQ2lGOGlHOG90M2Fi
+MW4iOnsiZGlzY3Vzc2lvbklkIjoiUFFYSmtTdFkyZ3N1dno1RC
+IsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBpbWFn
+ZSIsImNyZWF0ZWQiOjE2ODU3OTAzMjM4MDl9LCI1N0xYalN6SH
+N6YUhjaEpVIjp7ImRpc2N1c3Npb25JZCI6InluaDVib1FpT01U
+aWxaTVciLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJVcG
+RhdGUgY292ZXIgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODU5NDM1
+ODczNTh9LCJDMkh5WUdWQTFid2VWOGJGIjp7ImRpc2N1c3Npb2
+5JZCI6IlliWVFtNmxqVTQyZnk2UDYiLCJzdWIiOiJnaDo0MDMw
+NDc4OCIsInRleHQiOiJVcGRhdGUgaW1hZ2UiLCJjcmVhdGVkIj
+oxNjg1OTU1MzM0NjMxfSwiUlBJcUMzNUdnWXI1cFJ2SyI6eyJk
+aXNjdXNzaW9uSWQiOiJKb1N1VkxzSzkxQUp1dEhEIiwic3ViIj
+oiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiTWVudGlvbiBpbiB0aG9l
+cnkgd2hhdCB0aGlzIGlzIiwiY3JlYXRlZCI6MTY4NjExNDA3ND
+gzNX0sImhOR3pBZ3dyeGpscXZBM2EiOnsiZGlzY3Vzc2lvbklk
+IjoiZFp0YTIyT2FXampxaVB6TSIsInN1YiI6ImdoOjQwMzA0Nz
+g4IiwidGV4dCI6IkFkZCBvdmVydmlldyBvZiB3aGVyZSB0byBm
+aW5kIGFsbCB0aGUgdG9vbHMgYW5kIHRvb2xiYXJzIiwiY3JlYX
+RlZCI6MTY4NjExNDE3NDc3MX19LCJoaXN0b3J5IjpbOTQzOTc2
+MzUxXX0=
 -->
