@@ -77,15 +77,15 @@ If you want to create new empty layers, go to *Layer* \> *Create Layer*.
 
 **Panels** offer a single major function. Similarly, to toolbars, they can be toggled from *View* \> *Panels*. Below is an example of three panels (Browser, Layer Style and Statistics) on top of each other.
 
-The *Browser panel* is a tool for browsing, searching, inspecting, copying and loading QGIS resources. Using the Browser panel you can locate, inspect and add data. 
+The ***Browser panel*** is a tool for browsing, searching, inspecting, copying and loading QGIS resources. Using the Browser panel you can locate, inspect and add data. 
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_browser_panel.png)
 
-The *Layer panel* lists all the layers in the project and helps you manage their visibility and shape the map. You can access the layers by right clicking them, and toggle their visibility by toggling the check box in the layer panel. 
+The ***Layer panel*** lists all the layers in the project and helps you manage their visibility and shape the map. You can access the layers by right clicking them, and toggle their visibility by toggling the check box in the layer panel. 
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_layer_panel.png)
 
-The *Processing Toolbox* shows the list of all available **algorithms** grouped in different blocks, this is where you will find most of 
+The ***Processing Toolbox*** shows the list of all available **algorithms** grouped in different blocks, this is where you will find most of the tools we will be using in this course. If you ever want to do an operation and you're wondering if it is available in QGIS, this is a good place to start!  
 
 ![](https://docs.qgis.org/3.4/en/_images/toolbox3.png)
 
@@ -265,17 +265,17 @@ eyJkaXNjdXNzaW9ucyI6eyJOOGNoUGR6ZEhMcXB3S0tOIjp7In
 N0YXJ0Ijo0MzczLCJlbmQiOjQ0OTksInRleHQiOiJUaGUgZGF0
 YSB1c2VkIGluIHRoaXMgY291cnNlIHdpbGwgbW9zdGx5IGJlIG
 luIEVQU0cgMzA2NyAoRVRSUy1UTTM1RklOKSwgd2hpY2jigKYi
-fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6ODgyNCwiZW
-5kIjo5MTMxLCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
+fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6ODk5NiwiZW
+5kIjo5MzAzLCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
 bGwgZG93bmxvYWRlZCBmcm9tIFBhSVR1bGkgYW5kIEhlbHNpbm
 tpIFJlZ2lvbiBJbmZvc2hhcmUgZOKApiJ9LCJQUVhKa1N0WTJn
-c3V2ejVEIjp7InN0YXJ0IjoyMTE5NCwiZW5kIjoyMTIxOCwidG
+c3V2ejVEIjp7InN0YXJ0IjoyMTM2NiwiZW5kIjoyMTM5MCwidG
 V4dCI6Ii0gTGF5b3V0IG1hbmFnZXIgcGljdHVyZSJ9LCJ5bmg1
 Ym9RaU9NVGlsWk1XIjp7InN0YXJ0Ijo4MywiZW5kIjoyMDEsIn
 RleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dHBzOi8vcmF3Lmdp
 dGh1YnVzZXJjb250ZW50LmNvbS9yb3dhbjhrL2Z1bmRhbWVudG
 Fscy1vZi1naXMv4oCmIn0sIlliWVFtNmxqVTQyZnk2UDYiOnsi
-c3RhcnQiOjY5MDcsImVuZCI6NzAwOCwidGV4dCI6IiFbXShodH
+c3RhcnQiOjY5MTUsImVuZCI6NzAxNiwidGV4dCI6IiFbXShodH
 RwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vcm93YW44
 ay9mdW5kYW1lbnRhbHMtb2YtZ2lzL21hc3Rlci9Bc3NldHPigK
 YifSwiSm9TdVZMc0s5MUFKdXRIRCI6eyJzdGFydCI6MjEyMywi
@@ -319,6 +319,6 @@ dG9vbGJhcnMiLCJjcmVhdGVkIjoxNjg2MTE0MTc0NzcxfSwiej
 B3ZXRCNHVjM1BhZko3NSI6eyJkaXNjdXNzaW9uSWQiOiJENHc5
 OWpOT2Zzb3A1akdEIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZX
 h0IjoiRXhwbGFpbiB3aHkgeW91IHdhbnQgdG8gZG8gdGhpcyIs
-ImNyZWF0ZWQiOjE2ODYxMTQyMjIwNjd9fSwiaGlzdG9yeSI6Wz
-E0OTg4NjQzMjFdfQ==
+ImNyZWF0ZWQiOjE2ODYxMTQyMjIwNjd9fSwiaGlzdG9yeSI6Wy
+02Nzg0ODk0MjNdfQ==
 -->
