@@ -104,7 +104,8 @@ In GIS, both vector and raster data have their respective strengths and applicat
 
 (Hungry for more? Further reading on vector and raster data in the QGIS documentation: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html, https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/raster_data.html)
 
-
+#### Spatial data sources 
+Sp
 
 ---
 - Definition
@@ -168,7 +169,8 @@ VyZSIsImNyZWF0ZWQiOjE2ODYxMjcwMzIwNzh9LCI5N01SV0dO
 YU9STTdsTGxQIjp7ImRpc2N1c3Npb25JZCI6Ik9CUjhLdXYxNH
 ZDckFRTDQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJB
 ZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYxMjcwNDg5Njd9fS
-wiaGlzdG9yeSI6WzI0Mzg1OTYxMywtMTAzNTcxODgyNSw2MDc2
-Nzk4LDE2Nzg4NDcxODAsMTAxNDY2NzA4OSwyMDY2Mjk3Nzk5LC
-0xMzY4MjkzMTEzLC0xOTc3NzQ2NDM1LDkwMDg5MTgxNl19
+wiaGlzdG9yeSI6Wy0yNzU2MTk1NDAsLTEwMzU3MTg4MjUsNjA3
+Njc5OCwxNjc4ODQ3MTgwLDEwMTQ2NjcwODksMjA2NjI5Nzc5OS
+wtMTM2ODI5MzExMywtMTk3Nzc0NjQzNSw5MDA4OTE4MTZdfQ==
+
 -->
