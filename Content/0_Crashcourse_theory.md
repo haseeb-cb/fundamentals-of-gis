@@ -23,9 +23,9 @@ The course consists of **9 exercises**, each accompanied by a piece of theory. T
 | 1 | Socio-spatial differentiation | Raster analysis |
 | 2 | Finding the optimal location for a new development | Digitizing, buffer analysis, overlay analysis |
 | 3 | Determining optimal land for cultivation | Digital Elevation Model (DEM), slope, hillshade, overlay analysis |
-| 4 | Understnading disease transmission |  |
-| 5 |  |
-| 6 |  |
+| 4 | Understnading disease transmission | Heatmap analysis (Kernel Density), Voronoi diagram, text processing |
+| 5 | Air quality analysis | Spatial interpolation
+| 6 | Calculating building efficiency | E
 | 7 |  |
 | 8 |  |
 
@@ -75,5 +75,5 @@ The course consists of **9 exercises**, each accompanied by a piece of theory. T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQwNTE3NjcsOTAwODkxODE2XX0=
+eyJoaXN0b3J5IjpbMTE4NzQzNzQzNiw5MDA4OTE4MTZdfQ==
 -->
