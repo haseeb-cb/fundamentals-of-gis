@@ -87,7 +87,7 @@ Spatial data refers to **information that is associated with specific locations 
 
 	Vector data provides precise and accurate representations of spatial objects. It also allows for storing attribute data associated with each object, such as names, population values, or land ownership information. 
 
-2. **Raster Data** represents spatial information as a grid of cells or pixels. Each cell corresponds to a specific location on the Earth's surface and contains a value representing a particular attribute. Key characteristics of raster data include:
+2. **Raster Data** represents spatial information by a continuous surface divided into a grid of cells or pixels. Each cell corresponds to a specific location on the Earth's surface and contains a value representing a particular attribute. Key characteristics of raster data include:
 	-  Grid: The Earth's surface is divided into a regular grid of cells, where each cell represents a specific location or area.
 	-  Resolution: Raster data has a spatial resolution that defines the size or extent of each cell. Higher resolution means smaller cell sizes, resulting in more detailed data representation.
 	-  Attribute Value: Each cell contains a value that represents a specific attribute, such as elevation, temperature, land cover type, or satellite reflectance.
@@ -146,7 +146,7 @@ Y3JlYXRlZCI6MTY4NjEyMzYxMTAwN30sIm1CaWdFcjZjR2xaSD
 hsQjEiOnsiZGlzY3Vzc2lvbklkIjoiRmFwV05qOEt5Ymo4VHhK
 SSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBkaW
 FncmFtIiwiY3JlYXRlZCI6MTY4NjEyNjE5MjIxNH19LCJoaXN0
-b3J5IjpbNTE0Mzc0NDI2LDE2Nzg4NDcxODAsMTAxNDY2NzA4OS
+b3J5IjpbODE5MDI2NzE1LDE2Nzg4NDcxODAsMTAxNDY2NzA4OS
 wyMDY2Mjk3Nzk5LC0xMzY4MjkzMTEzLC0xOTc3NzQ2NDM1LDkw
 MDg5MTgxNl19
 -->
