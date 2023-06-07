@@ -30,8 +30,9 @@ The course consists of **9 exercises**, each accompanied by a piece of theory. T
 | 8 | Wind power NIMBY (Not in my backyard) analysis | Public Paticipation GIS/SoftGIS, Directional Distribution |
 
 ### Evalution
+To complete this course the following criteria have to be met:
 
-
+ - [ ] Test
 
 ### Getting help
 - Step by step process
@@ -74,5 +75,5 @@ The course consists of **9 exercises**, each accompanied by a piece of theory. T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODM1OTMwMCw5MDA4OTE4MTZdfQ==
+eyJoaXN0b3J5IjpbMTQ2ODAzODcyOSw5MDA4OTE4MTZdfQ==
 -->
