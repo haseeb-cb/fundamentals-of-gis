@@ -47,6 +47,7 @@ To ensure that your submissions are original:
 3. Communal chat
 4. Directly to teachers 
 
+Not 
 
 ## What is GIS and why do we use it?
 
@@ -86,6 +87,6 @@ N0YXJ0IjoyMTIwLCJlbmQiOjIxMjEsInRleHQiOiJYIn19LCJj
 b21tZW50cyI6eyJxWldYRmd0ZUxkZnZVc2QyIjp7ImRpc2N1c3
 Npb25JZCI6IkF6QnRtOWlIbkdLalVQZUYiLCJzdWIiOiJnaDo0
 MDMwNDc4OCIsInRleHQiOiJBZGQgbnVtYmVyIiwiY3JlYXRlZC
-I6MTY4NjEyMDU1MDI4MX19LCJoaXN0b3J5IjpbLTE5Nzc3NDY0
-MzUsOTAwODkxODE2XX0=
+I6MTY4NjEyMDU1MDI4MX19LCJoaXN0b3J5IjpbLTkzODQ3NDk0
+NiwtMTk3Nzc0NjQzNSw5MDA4OTE4MTZdfQ==
 -->
