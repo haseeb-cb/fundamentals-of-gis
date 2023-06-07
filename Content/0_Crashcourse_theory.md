@@ -77,6 +77,8 @@ These are just a few examples of the diverse applications of GIS. This course is
 ### GIS workflow
 - Diagram 
 
+### Spatial data
+Spatial data refers to **information that is associated with specific locations or geographic extents**. 
 - Definition
 	- Geoinformatics vs GIS
 	- Uses
@@ -127,7 +129,7 @@ Y3JlYXRlZCI6MTY4NjEyMzYxMTAwN30sIm1CaWdFcjZjR2xaSD
 hsQjEiOnsiZGlzY3Vzc2lvbklkIjoiRmFwV05qOEt5Ymo4VHhK
 SSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBkaW
 FncmFtIiwiY3JlYXRlZCI6MTY4NjEyNjE5MjIxNH19LCJoaXN0
-b3J5IjpbLTcyNzU3Mjc0NywxNjc4ODQ3MTgwLDEwMTQ2NjcwOD
+b3J5IjpbLTUzNDY0MDQwNiwxNjc4ODQ3MTgwLDEwMTQ2NjcwOD
 ksMjA2NjI5Nzc5OSwtMTM2ODI5MzExMywtMTk3Nzc0NjQzNSw5
 MDA4OTE4MTZdfQ==
 -->
