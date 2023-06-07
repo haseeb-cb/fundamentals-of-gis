@@ -258,7 +258,7 @@ The last phase of this practical will concentrate on creating a map output.
 
 
 
-# Congratulations! You are now done with the first part of this Crash Course. How are you liking (Q)GIS so far?
+# Congratulations! You are now done with the first part of this course. How are you liking (Q)GIS so far?
  
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJOOGNoUGR6ZEhMcXB3S0tOIjp7In
@@ -319,6 +319,6 @@ dG9vbGJhcnMiLCJjcmVhdGVkIjoxNjg2MTE0MTc0NzcxfSwiej
 B3ZXRCNHVjM1BhZko3NSI6eyJkaXNjdXNzaW9uSWQiOiJENHc5
 OWpOT2Zzb3A1akdEIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZX
 h0IjoiRXhwbGFpbiB3aHkgeW91IHdhbnQgdG8gZG8gdGhpcyIs
-ImNyZWF0ZWQiOjE2ODYxMTQyMjIwNjd9fSwiaGlzdG9yeSI6Wz
-IwMzUzMzcyMDFdfQ==
+ImNyZWF0ZWQiOjE2ODYxMTQyMjIwNjd9fSwiaGlzdG9yeSI6Wy
+01NDI4MDQ1NjZdfQ==
 -->
