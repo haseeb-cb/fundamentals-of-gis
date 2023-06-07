@@ -78,7 +78,14 @@ These are just a few examples of the diverse applications of GIS. This course is
 - Diagram 
 
 ### Spatial data
-Spatial data refers to **information that is associated with specific locations or geographic extents**. 
+Spatial data refers to **information that is associated with specific locations or geographic extents**. Vector and raster data are the two fundamental types of spatial data used in Geographic Information Systems (GIS) to represent and analyze spatial information.
+
+1. Vector data:
+	-  Points: Represent specific locations in space, such as the coordinates of a city or a landmark.
+	-  Lines: Represent linear features, such as roads, rivers, or boundaries. Lines are defined by a series of connected points.
+-  Polygons: Represent enclosed areas or regions, such as administrative boundaries, land parcels, or thematic zones. Polygons are defined by a series of connected lines forming a closed shape.
+
+
 - Definition
 	- Geoinformatics vs GIS
 	- Uses
@@ -129,7 +136,7 @@ Y3JlYXRlZCI6MTY4NjEyMzYxMTAwN30sIm1CaWdFcjZjR2xaSD
 hsQjEiOnsiZGlzY3Vzc2lvbklkIjoiRmFwV05qOEt5Ymo4VHhK
 SSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBkaW
 FncmFtIiwiY3JlYXRlZCI6MTY4NjEyNjE5MjIxNH19LCJoaXN0
-b3J5IjpbLTUzNDY0MDQwNiwxNjc4ODQ3MTgwLDEwMTQ2NjcwOD
+b3J5IjpbMTUwOTkzNTUzOSwxNjc4ODQ3MTgwLDEwMTQ2NjcwOD
 ksMjA2NjI5Nzc5OSwtMTM2ODI5MzExMywtMTk3Nzc0NjQzNSw5
 MDA4OTE4MTZdfQ==
 -->
