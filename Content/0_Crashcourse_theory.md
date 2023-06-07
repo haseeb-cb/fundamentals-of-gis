@@ -1,6 +1,6 @@
 ### Fundamentals of Geographic Information Systems (GIS)
 
-# Introduction to Geographic Information Systems (GIS) and QGIS
+# Introduction to Geographic Information System (GIS) and QGIS
 
 ## Course introduction
 
@@ -61,7 +61,7 @@ Following this process will help you **develop the independent troubleshooting s
 ## What is GIS and why do we use it?
 
 ### GIS
-GIS stands for Geographic Informatin Systems
+GIS stands for Geographic Information System, and as the name suggests, it is a system for gathering, organising, analysing and 
 
  
 - Definition
@@ -96,10 +96,10 @@ GIS stands for Geographic Informatin Systems
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJBekJ0bTlpSG5HS2pVUGVGIjp7In
-N0YXJ0IjoyMTIwLCJlbmQiOjIxMjEsInRleHQiOiJYIn0sIno2
-SmxoRFBWRnpxb3U4MnUiOnsic3RhcnQiOjM1MTcsImVuZCI6Mz
-UyNywidGV4dCI6IkNoYXQgbGluazoifSwiZTRrb1dqOU1SZXJy
-VWdFdiI6eyJzdGFydCI6MzYyOSwiZW5kIjozNjMyLCJ0ZXh0Ij
+N0YXJ0IjoyMTE5LCJlbmQiOjIxMjAsInRleHQiOiJYIn0sIno2
+SmxoRFBWRnpxb3U4MnUiOnsic3RhcnQiOjM1MTYsImVuZCI6Mz
+UyNiwidGV4dCI6IkNoYXQgbGluazoifSwiZTRrb1dqOU1SZXJy
+VWdFdiI6eyJzdGFydCI6MzYyOCwiZW5kIjozNjMxLCJ0ZXh0Ij
 oiKEApIn19LCJjb21tZW50cyI6eyJxWldYRmd0ZUxkZnZVc2Qy
 Ijp7ImRpc2N1c3Npb25JZCI6IkF6QnRtOWlIbkdLalVQZUYiLC
 JzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgbnVtYmVy
@@ -110,7 +110,7 @@ BsaW5rIiwiY3JlYXRlZCI6MTY4NjEyMzU1NzM1MH0sIkxwVDNS
 Q3Rzb1REWmhReGgiOnsiZGlzY3Vzc2lvbklkIjoiZTRrb1dqOU
 1SZXJyVWdFdiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
 IkFkZCBuYW1lcyIsImNyZWF0ZWQiOjE2ODYxMjM2MTEwMDd9fS
-wiaGlzdG9yeSI6WzE2Nzg4NDcxODAsMTAxNDY2NzA4OSwyMDY2
-Mjk3Nzk5LC0xMzY4MjkzMTEzLC0xOTc3NzQ2NDM1LDkwMDg5MT
-gxNl19
+wiaGlzdG9yeSI6Wy0xNjQ0MzIwNDk5LDE2Nzg4NDcxODAsMTAx
+NDY2NzA4OSwyMDY2Mjk3Nzk5LC0xMzY4MjkzMTEzLC0xOTc3Nz
+Q2NDM1LDkwMDg5MTgxNl19
 -->
