@@ -104,7 +104,7 @@ In GIS, both vector and raster data have their respective strengths and applicat
 
 (Hungry for more? Further reading on vector and raster data in the QGIS documentation: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html, https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/raster_data.html)
 
-#### Spatial data sources 
+#### Spatial data sources
 How and where to find spatial data is discussed in detail here: 
 
 ### Coordinate Reference Systems (CRS) and map projections
@@ -163,7 +163,7 @@ LCJ0ZXh0IjoiLSBSZWFsIGxpZmUgZXhhbXBsZSBvZiB2ZWN0b3
 IgZGF0YSJ9LCJPQlI4S3V2MTR2Q3JBUUw0Ijp7InN0YXJ0Ijo4
 OTI2LCJlbmQiOjg5NjAsInRleHQiOiItIFJlYWwgbGlmZSBleG
 FtcGxlIG9mIHZlY3RvciBkYXRhIn0sIjVzTzZjdzR0YVJreTBJ
-djciOnsic3RhcnQiOjk3MDUsImVuZCI6OTc2OCwidGV4dCI6Ik
+djciOnsic3RhcnQiOjk3MDQsImVuZCI6OTc2NywidGV4dCI6Ik
 hvdyBhbmQgd2hlcmUgdG8gZmluZCBzcGF0aWFsIGRhdGEgaXMg
 ZGlzY3Vzc2VkIGluIGRldGFpbCBoZXJlOiJ9fSwiY29tbWVudH
 MiOnsicVpXWEZndGVMZGZ2VXNkMiI6eyJkaXNjdXNzaW9uSWQi
@@ -188,8 +188,8 @@ h0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2MTI3MDQ4
 OTY3fSwiYmVqTVA1VWpNRDBDMGIzRCI6eyJkaXNjdXNzaW9uSW
 QiOiI1c082Y3c0dGFSa3kwSXY3Iiwic3ViIjoiZ2g6NDAzMDQ3
 ODgiLCJ0ZXh0IjoiTGluayB0byBhcnRpY2xlIiwiY3JlYXRlZC
-I6MTY4NjEzNjcxNzg1MX19LCJoaXN0b3J5IjpbMTUzMjk0ODE2
-MywxMzQzNTM3NTc3LC0xMDM1NzE4ODI1LDYwNzY3OTgsMTY3OD
+I6MTY4NjEzNjcxNzg1MX19LCJoaXN0b3J5IjpbLTI1NjAwNzI5
+NywxMzQzNTM3NTc3LC0xMDM1NzE4ODI1LDYwNzY3OTgsMTY3OD
 g0NzE4MCwxMDE0NjY3MDg5LDIwNjYyOTc3OTksLTEzNjgyOTMx
 MTMsLTE5Nzc3NDY0MzUsOTAwODkxODE2XX0=
 -->
