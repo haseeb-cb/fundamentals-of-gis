@@ -22,8 +22,8 @@ The course consists of **9 exercises**, each accompanied by a piece of theory. T
 | Crash Course | Introduction | QGIS interface & Vector analysis |
 | 1 | Socio-spatial differentiation | Raster analysis |
 | 2 | Finding the optimal location for a new development | Digitizing, buffer analysis, overlay analysis |
-| 3 | Determining optimal land for cultivation | Digital El |
-| 4 |  |
+| 3 | Determining optimal land for cultivation | Digital Elevation Model (DEM), slope, hillshade, overlay analysis |
+| 4 | Understnading disease transmission |  |
 | 5 |  |
 | 6 |  |
 | 7 |  |
@@ -75,5 +75,5 @@ The course consists of **9 exercises**, each accompanied by a piece of theory. T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDE1OTk1NTgsOTAwODkxODE2XX0=
+eyJoaXN0b3J5IjpbLTE2MDQwNTE3NjcsOTAwODkxODE2XX0=
 -->
