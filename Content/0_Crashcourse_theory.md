@@ -20,14 +20,14 @@ The course consists of **9 exercises**, each accompanied by a piece of theory. T
 | Exercise | Topic | Methods |
 |--|--|--|
 | Crash Course | Introduction | QGIS interface & Vector analysis |
-| 1 | Vector analysis introduction | Digitizing, georeferencing, clipping,  |
+| 1 | Vector analysis introduction | Digitizing, georeferencing, clipping |
 | 2 | Socio-spatial differentiation | Raster analysis |
 | 3 | Finding the optimal location for a new development | Buffer analysis, overlay analysis |
 | 4 | Determining optimal land for cultivation | Digital Elevation Model (DEM), slope, hillshade, overlay analysis |
 | 5 | Understnading disease transmission | Heatmap analysis (Kernel Density), Voronoi diagram, text processing |
 | 6 | Air quality analysis | Spatial interpolation
 | 7 | Calculating building efficiency | Expressions, creating grids |
-| 8 |  |  |
+| 8 |  | Public Paticipation GIS/SoftGIS, Directional Distribution |
 
 
 
@@ -76,5 +76,5 @@ The course consists of **9 exercises**, each accompanied by a piece of theory. T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNDE2MjExMiw5MDA4OTE4MTZdfQ==
+eyJoaXN0b3J5IjpbLTEzNjQ1MTIzMTMsOTAwODkxODE2XX0=
 -->
