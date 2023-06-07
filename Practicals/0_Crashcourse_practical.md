@@ -123,7 +123,7 @@ In order to get a proper touch of QGIS and how the different tools work, we will
 5.  Press *Open*
 6.  Press *Add*
 
-These data sets are all downloaded from PaITuli and Helsinki Region Infoshare data and map services, the data itself is produced by numerous entities (National Land Survey, Helsinki Regional Transport and the City of Helsinki). You can also add the Helsinki_roads.shp layer later for visualization purposes.
+These data sets are all downloaded from Paituli and Helsinki Region Infoshare data and map services, the data itself is produced by numerous entities (National Land Survey, Helsinki Regional Transport and the City of Helsinki). You can also add the Helsinki_roads.shp layer later for visualization purposes.
 
 The shapefiles should now appear on the map canvas. Once you add the layers, the program should automatically change the project’s coordinate system to EPSG:3067, or more commonly, the ETRS89-TM35FIN (Transverse-Mercator) coordinate reference system, which is the proposed system for spatial data in Finland.
 
@@ -154,7 +154,7 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	
 	1. Open the HSL_Helsinki_stops layer symbology
 	2. Choose *Graduated* from the dropdown menu
-	3. Choose "Boardings)" as the value from which the data is gathered
+	3. Choose "Boardings" as the value from which the data is gathered
 	4. Set the *Mode* to *Natural breaks (Jenks)* and press *Classify*
 	5. Select a fitting *Color ramp* from the drop-down menu
 	6. Press *Apply* and *OK*
@@ -180,7 +180,7 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
  
 	 1. Open the *Field and Values* drop-down menu, which will show all the attribute fields
 	 2. Double-click on the area field you made earlier (Area_km2)
-	 3. Type "< 5" to the right of the field in the text field
+	 3. Type "< 5" to the right of the field in the text field, this
 	 4. Click *Select features*
 	![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_select_by_expression.png)
 Your selection now includes all the areas under 5 square kilometers in this layer, with selected objects shown in **yellow in on the map** and **blue on the attribute table**.
@@ -269,7 +269,7 @@ fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6ODk5NiwiZW
 5kIjo5MzAzLCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
 bGwgZG93bmxvYWRlZCBmcm9tIFBhSVR1bGkgYW5kIEhlbHNpbm
 tpIFJlZ2lvbiBJbmZvc2hhcmUgZOKApiJ9LCJQUVhKa1N0WTJn
-c3V2ejVEIjp7InN0YXJ0IjoyMTM2NiwiZW5kIjoyMTM5MCwidG
+c3V2ejVEIjp7InN0YXJ0IjoyMTM3MSwiZW5kIjoyMTM5NSwidG
 V4dCI6Ii0gTGF5b3V0IG1hbmFnZXIgcGljdHVyZSJ9LCJ5bmg1
 Ym9RaU9NVGlsWk1XIjp7InN0YXJ0Ijo4MywiZW5kIjoyMDEsIn
 RleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dHBzOi8vcmF3Lmdp
@@ -319,6 +319,6 @@ dG9vbGJhcnMiLCJjcmVhdGVkIjoxNjg2MTE0MTc0NzcxfSwiej
 B3ZXRCNHVjM1BhZko3NSI6eyJkaXNjdXNzaW9uSWQiOiJENHc5
 OWpOT2Zzb3A1akdEIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZX
 h0IjoiRXhwbGFpbiB3aHkgeW91IHdhbnQgdG8gZG8gdGhpcyIs
-ImNyZWF0ZWQiOjE2ODYxMTQyMjIwNjd9fSwiaGlzdG9yeSI6Wy
-02Nzg0ODk0MjNdfQ==
+ImNyZWF0ZWQiOjE2ODYxMTQyMjIwNjd9fSwiaGlzdG9yeSI6Wz
+I4NzEwMTQyNV19
 -->
