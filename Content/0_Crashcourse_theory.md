@@ -108,7 +108,10 @@ In GIS, both vector and raster data have their respective strengths and applicat
 How and where to find spatial data is discussed in detail here: 
 
 ### Coordinate Reference Systems (CRS) and map projections
-The basic idea of a CRS is to convert the 3D world into the 2D world in different ways. They are frameworks that define how geographic clocations are represented and referenced in a coordinate system 
+The basic idea of a CRS is to convert the 3D world into the 2D world in different ways. They are frameworks that define how geographic clocations are represented and referenced in a coordinate system. There are different CRS, often depending on the region where the data is located. When we are working with different kind of data, we often have have layers that are in different CRS. **It is important to check that the layers and the project are in the same CRS!**
+
+Some common CRS include:
+- Finland: ET
 
 
 ---
@@ -179,8 +182,8 @@ h0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2MTI3MDQ4
 OTY3fSwiYmVqTVA1VWpNRDBDMGIzRCI6eyJkaXNjdXNzaW9uSW
 QiOiI1c082Y3c0dGFSa3kwSXY3Iiwic3ViIjoiZ2g6NDAzMDQ3
 ODgiLCJ0ZXh0IjoiTGluayB0byBhcnRpY2xlIiwiY3JlYXRlZC
-I6MTY4NjEzNjcxNzg1MX19LCJoaXN0b3J5IjpbMTc1NDkxODA5
-MywxMzQzNTM3NTc3LC0xMDM1NzE4ODI1LDYwNzY3OTgsMTY3OD
+I6MTY4NjEzNjcxNzg1MX19LCJoaXN0b3J5IjpbLTc1NTcxNDgx
+MSwxMzQzNTM3NTc3LC0xMDM1NzE4ODI1LDYwNzY3OTgsMTY3OD
 g0NzE4MCwxMDE0NjY3MDg5LDIwNjYyOTc3OTksLTEzNjgyOTMx
 MTMsLTE5Nzc3NDY0MzUsOTAwODkxODE2XX0=
 -->
