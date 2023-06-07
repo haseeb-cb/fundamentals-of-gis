@@ -46,7 +46,7 @@ If you ever have a question or run in to an issue along this course, please foll
 ![Troubleshooting process](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/GIS_troubleshooting_process.drawio.png)
 1. Start by checking if the information in the course materials provide a solution, it might have been covered in the previous theory or exercises as well
 	- If you come across missing information in the materials, please let us know so we can make sure others don't run into the same issue! 
-2. Google, or another search engine, is the most powerful troubleshooting tool at your disposal! Try searching your question or issue, below you can find some tips on how to improve your google searches
+2. google  Try searching your question or issue, below you can find some tips on how to improve your google searches
 3. Ask your question in the chat, other students or professionals will be able to help you! Use the channel of the exercise you are working on. 
 4.  If at this point you still have not found a resolution, mention the teachers in the channel (@)
 
@@ -54,7 +54,7 @@ Google tips:
 - [Simple google Search Tips](https://www.youtube.com/watch?v=oIMTM168BK8)
 - [Filter and refine your Google Search results](https://www.youtube.com/watch?v=ne8De4m_SbE)
 - [Google Search Tip: Find an exact phrase](https://www.youtube.com/watch?v=n16BVXzNSj8)
-- 
+- [Google Search tip: Search within a site](https://www.youtube.com/watch?v=iibb0CL0ES8)
 
 Following this process will help you **develop the independent troubleshooting skills** you will need when you use GIS on your own. 
 
@@ -96,7 +96,7 @@ N0YXJ0IjoyMTIwLCJlbmQiOjIxMjEsInRleHQiOiJYIn19LCJj
 b21tZW50cyI6eyJxWldYRmd0ZUxkZnZVc2QyIjp7ImRpc2N1c3
 Npb25JZCI6IkF6QnRtOWlIbkdLalVQZUYiLCJzdWIiOiJnaDo0
 MDMwNDc4OCIsInRleHQiOiJBZGQgbnVtYmVyIiwiY3JlYXRlZC
-I6MTY4NjEyMDU1MDI4MX19LCJoaXN0b3J5IjpbLTU0OTUxMjQ4
-OSwtMTM2ODI5MzExMywtMTk3Nzc0NjQzNSw5MDA4OTE4MTZdfQ
+I6MTY4NjEyMDU1MDI4MX19LCJoaXN0b3J5IjpbMTQxMjk0NTEx
+OCwtMTM2ODI5MzExMywtMTk3Nzc0NjQzNSw5MDA4OTE4MTZdfQ
 ==
 -->
