@@ -137,7 +137,9 @@ These are some of the most common GIS analysis types, but the field of GIS offer
 
 
 ## What is QGIS?
-In short, QGIS is a GIS application that can be used for various GIS analyses. There are other GIS application, the other most common of which is ArcGIS. We are using QGIS for this course since it is open-source and free, meaning it is accesible for all, in contrast to ArcGIS which is propi
+In short, QGIS is a GIS application that can be used for various GIS analyses. There are other GIS application, the other most common of which is ArcGIS. We are using QGIS for this course since it is open-source and free, meaning it is accesible for all, in contrast to ArcGIS which is proprietary software. 
+
+So, you're going to need QGIS for this course! Please take a moment now to nesure 
 
 ## What is a good map?
 
@@ -186,7 +188,7 @@ F0ZWQiOjE2ODYxMzY3MTc4NTF9LCJRTlJ0UlJySzBNT1h4V09C
 Ijp7ImRpc2N1c3Npb25JZCI6ImJ5TXZ4am8wZkl5clk0TkoiLC
 JzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJJbmNsdWRlIGV4
 YW1wbGUgcGljdHVyZXMiLCJjcmVhdGVkIjoxNjg2MTM3ODg3MT
-cxfX0sImhpc3RvcnkiOlsxODk3MTAwMzg4LC0xMzc0NTQwMTEs
+cxfX0sImhpc3RvcnkiOlsxNjM1NjMzMDIwLC0xMzc0NTQwMTEs
 LTI1NjAwNzI5NywxMzQzNTM3NTc3LC0xMDM1NzE4ODI1LDYwNz
 Y3OTgsMTY3ODg0NzE4MCwxMDE0NjY3MDg5LDIwNjYyOTc3OTks
 LTEzNjgyOTMxMTMsLTE5Nzc3NDY0MzUsOTAwODkxODE2XX0=
