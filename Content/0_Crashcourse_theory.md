@@ -41,7 +41,8 @@ To ensure that your submissions are original:
 - Map reflection: Anti-plagiarism tool is used
 
 ### Getting help
-- Step by step process
+![troub](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/GIS_troubleshooting_process.drawio.png)
+
 1. Materials (location, extras, etc)
 2. Googling
 3. Communal chat
@@ -87,6 +88,7 @@ N0YXJ0IjoyMTIwLCJlbmQiOjIxMjEsInRleHQiOiJYIn19LCJj
 b21tZW50cyI6eyJxWldYRmd0ZUxkZnZVc2QyIjp7ImRpc2N1c3
 Npb25JZCI6IkF6QnRtOWlIbkdLalVQZUYiLCJzdWIiOiJnaDo0
 MDMwNDc4OCIsInRleHQiOiJBZGQgbnVtYmVyIiwiY3JlYXRlZC
-I6MTY4NjEyMDU1MDI4MX19LCJoaXN0b3J5IjpbLTEzNjgyOTMx
-MTMsLTE5Nzc3NDY0MzUsOTAwODkxODE2XX0=
+I6MTY4NjEyMDU1MDI4MX19LCJoaXN0b3J5IjpbLTgwMjg3MTAz
+MCwtMTM2ODI5MzExMywtMTk3Nzc0NjQzNSw5MDA4OTE4MTZdfQ
+==
 -->
