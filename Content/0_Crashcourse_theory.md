@@ -91,8 +91,8 @@ Spatial data refers to **information that is associated with specific locations 
 
 - Real life example of vector data 
 
-2. **Raster Data** represents spatial information by a continuous surface divided into a grid of cells or pixels. Each cell corresponds to a specific location on the Earth's surface and contains a value representing a particular attribute. Key characteristics of raster data include:
-	-  Grid: The Earth's surface is divided into a regular grid of cells, where each cell represents a specific location or area.
+2. **Raster Data** represents spatial information by a continuous surface divided into a grid of cells or pixels. Each cell corresponds to a specific location and contains a value representing a particular attribute. Key characteristics of raster data include:
+	-  Grid: The analyzed surface is divided into a regular grid of cells, where each cell represents a specific location or area.
 	-  Resolution: Raster data has a spatial resolution that defines the size or extent of each cell. Higher resolution means smaller cell sizes, resulting in more detailed data representation.
 	-  Attribute Value: Each cell contains a value that represents a specific attribute, such as elevation, temperature, land cover type, or satellite reflectance.
 	
@@ -147,7 +147,7 @@ MTMsImVuZCI6NjIyMCwidGV4dCI6IkRpYWdyYW0ifSwibVhqaz
 c2UWtvdXJhcHFSbiI6eyJzdGFydCI6NzgwNCwiZW5kIjo3ODM4
 LCJ0ZXh0IjoiLSBSZWFsIGxpZmUgZXhhbXBsZSBvZiB2ZWN0b3
 IgZGF0YSJ9LCJPQlI4S3V2MTR2Q3JBUUw0Ijp7InN0YXJ0Ijo4
-OTQ4LCJlbmQiOjg5ODIsInRleHQiOiItIFJlYWwgbGlmZSBleG
+OTI2LCJlbmQiOjg5NjAsInRleHQiOiItIFJlYWwgbGlmZSBleG
 FtcGxlIG9mIHZlY3RvciBkYXRhIn19LCJjb21tZW50cyI6eyJx
 WldYRmd0ZUxkZnZVc2QyIjp7ImRpc2N1c3Npb25JZCI6IkF6Qn
 RtOWlIbkdLalVQZUYiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRl
@@ -168,8 +168,7 @@ VyZSIsImNyZWF0ZWQiOjE2ODYxMjcwMzIwNzh9LCI5N01SV0dO
 YU9STTdsTGxQIjp7ImRpc2N1c3Npb25JZCI6Ik9CUjhLdXYxNH
 ZDckFRTDQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJB
 ZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYxMjcwNDg5Njd9fS
-wiaGlzdG9yeSI6Wy05OTAwNTE2NDYsLTEwMzU3MTg4MjUsNjA3
-Njc5OCwxNjc4ODQ3MTgwLDEwMTQ2NjcwODksMjA2NjI5Nzc5OS
-wtMTM2ODI5MzExMywtMTk3Nzc0NjQzNSw5MDA4OTE4MTZdfQ==
-
+wiaGlzdG9yeSI6WzI0Mzg1OTYxMywtMTAzNTcxODgyNSw2MDc2
+Nzk4LDE2Nzg4NDcxODAsMTAxNDY2NzA4OSwyMDY2Mjk3Nzk5LC
+0xMzY4MjkzMTEzLC0xOTc3NzQ2NDM1LDkwMDg5MTgxNl19
 -->
