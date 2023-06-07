@@ -19,8 +19,8 @@ The course consists of **9 exercises**, each accompanied by a piece of theory. T
 
 | Exercise | Topic | Methods |
 |--|--|--|
-| Crash Course |  | 
-| 1 |  | |
+| Crash Course | Introduction | QGIS interface & Vector analysis |
+| 1 | Socio-spatial differentiation | Raster analysis |
 | 2 |  | |
 | 3 |  | |
 | 4 |  |
@@ -75,5 +75,5 @@ The course consists of **9 exercises**, each accompanied by a piece of theory. T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjI2MzY4MzEsOTAwODkxODE2XX0=
+eyJoaXN0b3J5IjpbLTE4MDEyNjU4NjEsOTAwODkxODE2XX0=
 -->
