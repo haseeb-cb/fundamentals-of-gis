@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T07:15:50.061Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0" etag="BmOntB6XazMXSNth-W2t" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-07T07:16:18.620Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0" etag="HcZg_ekQzGFpBQ1o4uHI" version="21.3.5" type="github">
   <diagram name="Page-1" id="p_YaUgyWWCoO-w8o537r">
     <mxGraphModel dx="1718" dy="1523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_V6IDjI6f9aKt-EAS55Z-26" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Check course materials (including previous ones)&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="_V6IDjI6f9aKt-EAS55Z-26" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Check &lt;b&gt;course materials&lt;/b&gt; (including previous ones)&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="992.5" y="1040" width="305" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="_V6IDjI6f9aKt-EAS55Z-27" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Google it! (See tips)&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="_V6IDjI6f9aKt-EAS55Z-27" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Google &lt;/b&gt;it! (See tips)&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1280" y="1040" width="305" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="_V6IDjI6f9aKt-EAS55Z-28" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Ask your question in the chat&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="_V6IDjI6f9aKt-EAS55Z-28" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Ask your question in the &lt;b&gt;chat&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1570" y="1040" width="305" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="_V6IDjI6f9aKt-EAS55Z-29" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Mention the teachers &lt;br&gt;in the chat&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="_V6IDjI6f9aKt-EAS55Z-29" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Mention the &lt;b&gt;teachers &lt;/b&gt;&lt;br&gt;in the chat&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1860" y="1040" width="305" height="120" as="geometry" />
         </mxCell>
       </root>
