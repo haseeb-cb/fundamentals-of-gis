@@ -50,9 +50,9 @@ If you ever have a question or run in to an issue along this course, please foll
 	- [Simple Google Search tips](https://www.youtube.com/watch?v=oIMTM168BK8)
 	- [How to "Google It" like a Senior Software Engineer](https://www.youtube.com/watch?v=cEBkvm0-rg0)
 	- [Refine web searches](https://support.google.com/websearch/answer/2466433?hl=en)
-3. Ask your question in the chat, other students or professionals will be able to help you! Use the channel of the exercise you are working on. 
+3. Ask your question in the **chat**, other students or professionals will be able to help you! Use the channel of the exercise you are working on. 
 	- Chat link: 
-5.  If at this point you still have not found a resolution, mention the teachers in the channel (@)
+5.  If at this point you still have not found a resolution, mention the **teachers** in the channel (@)
 
 
 
@@ -93,15 +93,19 @@ Following this process will help you **develop the independent troubleshooting s
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJBekJ0bTlpSG5HS2pVUGVGIjp7In
 N0YXJ0IjoyMTIwLCJlbmQiOjIxMjEsInRleHQiOiJYIn0sIno2
-SmxoRFBWRnpxb3U4MnUiOnsic3RhcnQiOjM1MTMsImVuZCI6Mz
-UyMywidGV4dCI6IkNoYXQgbGluazoifX0sImNvbW1lbnRzIjp7
-InFaV1hGZ3RlTGRmdlVzZDIiOnsiZGlzY3Vzc2lvbklkIjoiQX
-pCdG05aUhuR0tqVVBlRiIsInN1YiI6ImdoOjQwMzA0Nzg4Iiwi
-dGV4dCI6IkFkZCBudW1iZXIiLCJjcmVhdGVkIjoxNjg2MTIwNT
-UwMjgxfSwiMU9jQXg0MUlodHR2a01oUyI6eyJkaXNjdXNzaW9u
-SWQiOiJ6NkpsaERQVkZ6cW91ODJ1Iiwic3ViIjoiZ2g6NDAzMD
-Q3ODgiLCJ0ZXh0IjoiQWRkIGxpbmsiLCJjcmVhdGVkIjoxNjg2
-MTIzNTU3MzUwfX0sImhpc3RvcnkiOlszMDczMzk5NDEsMjA2Nj
-I5Nzc5OSwtMTM2ODI5MzExMywtMTk3Nzc0NjQzNSw5MDA4OTE4
-MTZdfQ==
+SmxoRFBWRnpxb3U4MnUiOnsic3RhcnQiOjM1MTcsImVuZCI6Mz
+UyNywidGV4dCI6IkNoYXQgbGluazoifSwiZTRrb1dqOU1SZXJy
+VWdFdiI6eyJzdGFydCI6MzYyOSwiZW5kIjozNjMyLCJ0ZXh0Ij
+oiKEApIn19LCJjb21tZW50cyI6eyJxWldYRmd0ZUxkZnZVc2Qy
+Ijp7ImRpc2N1c3Npb25JZCI6IkF6QnRtOWlIbkdLalVQZUYiLC
+JzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgbnVtYmVy
+IiwiY3JlYXRlZCI6MTY4NjEyMDU1MDI4MX0sIjFPY0F4NDFJaH
+R0dmtNaFMiOnsiZGlzY3Vzc2lvbklkIjoiejZKbGhEUFZGenFv
+dTgydSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZC
+BsaW5rIiwiY3JlYXRlZCI6MTY4NjEyMzU1NzM1MH0sIkxwVDNS
+Q3Rzb1REWmhReGgiOnsiZGlzY3Vzc2lvbklkIjoiZTRrb1dqOU
+1SZXJyVWdFdiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
+IkFkZCBuYW1lcyIsImNyZWF0ZWQiOjE2ODYxMjM2MTEwMDd9fS
+wiaGlzdG9yeSI6WzEwMTQ2NjcwODksMjA2NjI5Nzc5OSwtMTM2
+ODI5MzExMywtMTk3Nzc0NjQzNSw5MDA4OTE4MTZdfQ==
 -->
