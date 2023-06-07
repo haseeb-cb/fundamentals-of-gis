@@ -27,13 +27,11 @@ The course consists of **9 exercises**, each accompanied by a piece of theory. T
 | 5 | Understnading disease transmission | Heatmap analysis (Kernel Density), Voronoi diagram, text processing |
 | 6 | Air quality analysis | Spatial interpolation
 | 7 | Calculating building efficiency | Expressions, creating grids |
-| 8 |  | Public Paticipation GIS/SoftGIS, Directional Distribution |
+| 8 | Wind power NIMBY (Not in my backyard) analysis | Public Paticipation GIS/SoftGIS, Directional Distribution |
+
+### Evalution
 
 
-
-- Completion methods
-- Practical schedule
-- Evaluation
 
 ### Getting help
 - Step by step process
@@ -76,5 +74,5 @@ The course consists of **9 exercises**, each accompanied by a piece of theory. T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjQ1MTIzMTMsOTAwODkxODE2XX0=
+eyJoaXN0b3J5IjpbMTI4ODM1OTMwMCw5MDA4OTE4MTZdfQ==
 -->
