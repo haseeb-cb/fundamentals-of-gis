@@ -60,8 +60,17 @@ Following this process will help you **develop the independent troubleshooting s
 
 ## What is GIS and why do we use it?
 
-GIS stands for **Geographic Information System**. As the name suggests, it is a system for gathering, organising, analysing, and visualising spatial data. 
+GIS, which stands for Geographic Information System, is a technology that involves capturing, storing, analyzing, and presenting geographically referenced data. It integrates various types of information, such as maps, satellite imagery, and tabular data, into a digital framework that allows users to view, understand, and analyze spatial patterns and relationships.
 
+GIS is used in a wide range of fields and industries, including:
+
+1.  **Urban Planning**: GIS helps in analyzing land use patterns, transportation networks, and infrastructure planning. It enables urban planners to make informed decisions about zoning, growth management, and resource allocation.
+2.  **Environmental Management**: GIS assists in monitoring and managing natural resources, such as forests, water bodies, and wildlife habitats. It aids in environmental impact assessments, conservation planning, and disaster management.
+3.  **Public Health**: GIS is used to analyze disease outbreaks, track the spread of infectious diseases, and plan healthcare facilities and resources. It helps in understanding health disparities, identifying high-risk areas, and optimizing public health interventions.
+4.  **Emergency Management**: GIS plays a crucial role in disaster preparedness, response, and recovery. It helps in identifying vulnerable areas, managing evacuation routes, and coordinating emergency services during natural disasters or other crises.
+5.  Transportation and Logistics: GIS is utilized in optimizing transportation routes, analyzing traffic patterns, and planning efficient logistics networks. It assists in fleet management, supply chain optimization, and location-based services.
+6.  Natural Resource Management: GIS is employed in assessing and managing natural resources like forests, water resources, minerals, and energy sources. It aids in land use planning, resource exploration, and environmental impact assessment.
+7.  Business and Marketing: GIS helps businesses in market analysis, site selection, and customer profiling. It assists in identifying target markets, optimizing sales territories, and visualizing market trends.
  
 - Definition
 	- Geoinformatics vs GIS
@@ -109,7 +118,7 @@ BsaW5rIiwiY3JlYXRlZCI6MTY4NjEyMzU1NzM1MH0sIkxwVDNS
 Q3Rzb1REWmhReGgiOnsiZGlzY3Vzc2lvbklkIjoiZTRrb1dqOU
 1SZXJyVWdFdiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
 IkFkZCBuYW1lcyIsImNyZWF0ZWQiOjE2ODYxMjM2MTEwMDd9fS
-wiaGlzdG9yeSI6WzU5NTUxMDY0OCwxNjc4ODQ3MTgwLDEwMTQ2
-NjcwODksMjA2NjI5Nzc5OSwtMTM2ODI5MzExMywtMTk3Nzc0Nj
-QzNSw5MDA4OTE4MTZdfQ==
+wiaGlzdG9yeSI6Wy0xMzUwNjQyNTcwLDE2Nzg4NDcxODAsMTAx
+NDY2NzA4OSwyMDY2Mjk3Nzk5LC0xMzY4MjkzMTEzLC0xOTc3Nz
+Q2NDM1LDkwMDg5MTgxNl19
 -->
