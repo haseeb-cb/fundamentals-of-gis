@@ -7,6 +7,12 @@
 ### Learning outcomes
 After completng the course you should be able to:
 - Understand the fundamental principles of GIS, including rasters, vector, projections, geoprocessing and analysis
+- Apply basic GIS skills to:
+	- Map Design
+	- Finding Open Access GIS data
+	- Use different types of spatial data
+	- Analyse GIS data to address geosptial problems and/or research questions
+	- Develop the aiblity to perform new anayses, troubleshoot, and find help from the GIS community to solve your problems
 
 ### Structure
 - Completion methods
@@ -54,5 +60,5 @@ After completng the course you should be able to:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTkyNTIwNCw5MDA4OTE4MTZdfQ==
+eyJoaXN0b3J5IjpbMjEyNTc5NDI1Nyw5MDA4OTE4MTZdfQ==
 -->
