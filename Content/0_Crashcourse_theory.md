@@ -145,6 +145,15 @@ You can find more information about the usage of QGIS here: https://docs.qgis.or
 
 ## What is a good map?
 
+A **good map** has: 
+1. Clear and objective symbology that represents the data correctly
+2. Is useful for the target audience
+3. An adequate projection and scale
+4. A north arrow
+5. A legend with explanations of used symbology/colours etc.
+6. Usually data sources and the used projection
+
+
 [^1]: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJBekJ0bTlpSG5HS2pVUGVGIjp7In
@@ -190,8 +199,8 @@ F0ZWQiOjE2ODYxMzY3MTc4NTF9LCJRTlJ0UlJySzBNT1h4V09C
 Ijp7ImRpc2N1c3Npb25JZCI6ImJ5TXZ4am8wZkl5clk0TkoiLC
 JzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJJbmNsdWRlIGV4
 YW1wbGUgcGljdHVyZXMiLCJjcmVhdGVkIjoxNjg2MTM3ODg3MT
-cxfX0sImhpc3RvcnkiOls4MDYxMTA0MDUsLTEzNzQ1NDAxMSwt
-MjU2MDA3Mjk3LDEzNDM1Mzc1NzcsLTEwMzU3MTg4MjUsNjA3Nj
-c5OCwxNjc4ODQ3MTgwLDEwMTQ2NjcwODksMjA2NjI5Nzc5OSwt
-MTM2ODI5MzExMywtMTk3Nzc0NjQzNSw5MDA4OTE4MTZdfQ==
+cxfX0sImhpc3RvcnkiOlstMTE5NzY1NDU2MywtMTM3NDU0MDEx
+LC0yNTYwMDcyOTcsMTM0MzUzNzU3NywtMTAzNTcxODgyNSw2MD
+c2Nzk4LDE2Nzg4NDcxODAsMTAxNDY2NzA4OSwyMDY2Mjk3Nzk5
+LC0xMzY4MjkzMTEzLC0xOTc3NzQ2NDM1LDkwMDg5MTgxNl19
 -->
