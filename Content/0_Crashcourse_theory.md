@@ -40,13 +40,9 @@ To ensure that your submissions are original:
 - Map output: Your name has to be mentioned on the map output and they are be compared with others
 - Map reflection: Anti-plagiarism tool is used
 
-### Getting help
-![troub](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/GIS_troubleshooting_process.drawio.png)
-
-1. Materials (location, extras, etc)
-2. Googling
-3. Communal chat
-4. Directly to teachers 
+### Troubleshooting
+![Troubleshooting process](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/GIS_troubleshooting_process.drawio.png)
+1. Start by checking if the information in the course materials provide a solution, it might have been 
 
 Following this process will help you develop the independent troubleshooting skills you will need when you use GIS on your own. 
 
@@ -88,7 +84,7 @@ N0YXJ0IjoyMTIwLCJlbmQiOjIxMjEsInRleHQiOiJYIn19LCJj
 b21tZW50cyI6eyJxWldYRmd0ZUxkZnZVc2QyIjp7ImRpc2N1c3
 Npb25JZCI6IkF6QnRtOWlIbkdLalVQZUYiLCJzdWIiOiJnaDo0
 MDMwNDc4OCIsInRleHQiOiJBZGQgbnVtYmVyIiwiY3JlYXRlZC
-I6MTY4NjEyMDU1MDI4MX19LCJoaXN0b3J5IjpbLTgwMjg3MTAz
-MCwtMTM2ODI5MzExMywtMTk3Nzc0NjQzNSw5MDA4OTE4MTZdfQ
+I6MTY4NjEyMDU1MDI4MX19LCJoaXN0b3J5IjpbMTE4NTMzNjU5
+MSwtMTM2ODI5MzExMywtMTk3Nzc0NjQzNSw5MDA4OTE4MTZdfQ
 ==
 -->
