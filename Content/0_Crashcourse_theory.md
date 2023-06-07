@@ -87,7 +87,7 @@ Spatial data refers to **information that is associated with specific locations 
 	-  Lines: Represent linear features, such as roads, rivers, or boundaries. Lines are defined by a series of connected points.
 	-  Polygons: Represent enclosed areas or regions, such as administrative boundaries, land parcels, or thematic zones. Polygons are defined by a series of connected lines forming a closed shape.
 
-	Vector data provides precise and accurate representations of spatial objects. It also allows for storing attribute data associated with each object, such as names, population values, or land ownership information. 
+	Vector data provides precise and accurate representations of spatial features . It also allows for storing attribute data associated with each features, such as names, population values, or land ownership information. 
 
 - Real life example of vector data 
 
@@ -140,10 +140,10 @@ UyNiwidGV4dCI6IkNoYXQgbGluazoifSwiZTRrb1dqOU1SZXJy
 VWdFdiI6eyJzdGFydCI6MzYyOCwiZW5kIjozNjMxLCJ0ZXh0Ij
 oiKEApIn0sIkZhcFdOajhLeWJqOFR4SkkiOnsic3RhcnQiOjYy
 MTMsImVuZCI6NjIyMCwidGV4dCI6IkRpYWdyYW0ifSwibVhqaz
-c2UWtvdXJhcHFSbiI6eyJzdGFydCI6NzU2OSwiZW5kIjo3NjAz
+c2UWtvdXJhcHFSbiI6eyJzdGFydCI6NzU3MywiZW5kIjo3NjA3
 LCJ0ZXh0IjoiLSBSZWFsIGxpZmUgZXhhbXBsZSBvZiB2ZWN0b3
 IgZGF0YSJ9LCJPQlI4S3V2MTR2Q3JBUUw0Ijp7InN0YXJ0Ijo4
-NzEzLCJlbmQiOjg3NDcsInRleHQiOiItIFJlYWwgbGlmZSBleG
+NzE3LCJlbmQiOjg3NTEsInRleHQiOiItIFJlYWwgbGlmZSBleG
 FtcGxlIG9mIHZlY3RvciBkYXRhIn19LCJjb21tZW50cyI6eyJx
 WldYRmd0ZUxkZnZVc2QyIjp7ImRpc2N1c3Npb25JZCI6IkF6Qn
 RtOWlIbkdLalVQZUYiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRl
@@ -164,7 +164,7 @@ VyZSIsImNyZWF0ZWQiOjE2ODYxMjcwMzIwNzh9LCI5N01SV0dO
 YU9STTdsTGxQIjp7ImRpc2N1c3Npb25JZCI6Ik9CUjhLdXYxNH
 ZDckFRTDQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJB
 ZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYxMjcwNDg5Njd9fS
-wiaGlzdG9yeSI6WzgzMDM1MDY1Miw2MDc2Nzk4LDE2Nzg4NDcx
-ODAsMTAxNDY2NzA4OSwyMDY2Mjk3Nzk5LC0xMzY4MjkzMTEzLC
-0xOTc3NzQ2NDM1LDkwMDg5MTgxNl19
+wiaGlzdG9yeSI6Wy0xMDM1NzE4ODI1LDYwNzY3OTgsMTY3ODg0
+NzE4MCwxMDE0NjY3MDg5LDIwNjYyOTc3OTksLTEzNjgyOTMxMT
+MsLTE5Nzc3NDY0MzUsOTAwODkxODE2XX0=
 -->
