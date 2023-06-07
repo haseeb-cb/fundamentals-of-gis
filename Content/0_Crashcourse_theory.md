@@ -21,7 +21,7 @@ The course consists of **9 exercises**, each accompanied by a piece of theory. T
 |--|--|--|
 | Crash Course | Introduction | QGIS interface & Vector analysis |
 | 1 | Socio-spatial differentiation | Raster analysis |
-| 2 | Finding the optimal location for a new development | Digitizing, buffer analysis |
+| 2 | Finding the optimal location for a new development | Digitizing, buffer analysis, overlay analysis |
 | 3 |  | |
 | 4 |  |
 | 5 |  |
@@ -75,5 +75,5 @@ The course consists of **9 exercises**, each accompanied by a piece of theory. T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDMyODkzLDkwMDg5MTgxNl19
+eyJoaXN0b3J5IjpbLTEyOTQ1Nzc2MzUsOTAwODkxODE2XX0=
 -->
