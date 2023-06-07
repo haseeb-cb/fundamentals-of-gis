@@ -82,12 +82,12 @@ Spatial data refers to **information that is associated with specific locations 
 
 ![enter image description here](https://cdn.mindspritesolutions.com/onestopgis/GIS-Theory-and-Techniques/Raster-Data-Analysis/Comparison-of-Vector-and-Raster-based-Data-Analysis/posts/Comparison-of-Vector-and-Raster-Based-Data-Analysis/Figure-shows-comparison-of-Vector-and-Raster.webp)
 
-1. **Vector data** provides a way to represent real world features within the GIS environment. A feature is anything you can see on the landscape. Imagine you are standing on the top of a hill. Looking down you can see houses, roads, trees, rivers, and so on. Each one of these things would be a **feature** when we represent them in a GIS Application. Vector features have **attributes**, which consist of text or numerical information that **describe** the features.  Types of vector data include:
+1. **Vector data** provides a way to represent real world features within the GIS environment. A feature is anything you can see on the landscape. Imagine you are standing on the top of a hill. Looking down you can see houses, roads, trees, rivers, and so on. Each one of these things would be a **feature** when we represent them in a GIS Application. Vector features have **attributes**, which consist of text or numerical information that **describe** the features[^1].  Types of vector data include:
 	-  Points: Represent specific locations in space, such as the coordinates of a city or a landmark.
 	-  Lines: Represent linear features, such as roads, rivers, or boundaries. Lines are defined by a series of connected points.
 	-  Polygons: Represent enclosed areas or regions, such as administrative boundaries, land parcels, or thematic zones. Polygons are defined by a series of connected lines forming a closed shape.
 
-	Vector data provides precise and accurate representations of spatial features . It also allows for storing attribute data associated with each features, such as names, population values, or land ownership information. 
+	Vector data provides precise and accurate representations of spatial features . 
 
 - Real life example of vector data 
 
@@ -103,6 +103,8 @@ Spatial data refers to **information that is associated with specific locations 
 In GIS, both vector and raster data have their respective strengths and applications. Vector data is well-suited for representing discrete features and precise geometries, while raster data is ideal for representing continuous surfaces and performing spatial analysis based on cell values. GIS software allows for the integration, analysis, and visualization of both types of data, enabling users to explore and understand spatial information from different perspectives.
 
 (Hungry for more? Further reading on vector and raster data in the QGIS documentation: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html, https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/raster_data.html)
+
+
 
 ---
 - Definition
@@ -133,7 +135,7 @@ In GIS, both vector and raster data have their respective strengths and applicat
 
 ## What is a good map?
 
-
+[^1]: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJBekJ0bTlpSG5HS2pVUGVGIjp7In
 N0YXJ0IjoyMTE5LCJlbmQiOjIxMjAsInRleHQiOiJYIn0sIno2
@@ -142,10 +144,10 @@ UyNiwidGV4dCI6IkNoYXQgbGluazoifSwiZTRrb1dqOU1SZXJy
 VWdFdiI6eyJzdGFydCI6MzYyOCwiZW5kIjozNjMxLCJ0ZXh0Ij
 oiKEApIn0sIkZhcFdOajhLeWJqOFR4SkkiOnsic3RhcnQiOjYy
 MTMsImVuZCI6NjIyMCwidGV4dCI6IkRpYWdyYW0ifSwibVhqaz
-c2UWtvdXJhcHFSbiI6eyJzdGFydCI6NzkzOCwiZW5kIjo3OTcy
+c2UWtvdXJhcHFSbiI6eyJzdGFydCI6NzgwNCwiZW5kIjo3ODM4
 LCJ0ZXh0IjoiLSBSZWFsIGxpZmUgZXhhbXBsZSBvZiB2ZWN0b3
-IgZGF0YSJ9LCJPQlI4S3V2MTR2Q3JBUUw0Ijp7InN0YXJ0Ijo5
-MDgyLCJlbmQiOjkxMTYsInRleHQiOiItIFJlYWwgbGlmZSBleG
+IgZGF0YSJ9LCJPQlI4S3V2MTR2Q3JBUUw0Ijp7InN0YXJ0Ijo4
+OTQ4LCJlbmQiOjg5ODIsInRleHQiOiItIFJlYWwgbGlmZSBleG
 FtcGxlIG9mIHZlY3RvciBkYXRhIn19LCJjb21tZW50cyI6eyJx
 WldYRmd0ZUxkZnZVc2QyIjp7ImRpc2N1c3Npb25JZCI6IkF6Qn
 RtOWlIbkdLalVQZUYiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRl
@@ -166,7 +168,7 @@ VyZSIsImNyZWF0ZWQiOjE2ODYxMjcwMzIwNzh9LCI5N01SV0dO
 YU9STTdsTGxQIjp7ImRpc2N1c3Npb25JZCI6Ik9CUjhLdXYxNH
 ZDckFRTDQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJB
 ZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYxMjcwNDg5Njd9fS
-wiaGlzdG9yeSI6Wy0xMzY5OTYxMzAsLTEwMzU3MTg4MjUsNjA3
+wiaGlzdG9yeSI6Wy05OTAwNTE2NDYsLTEwMzU3MTg4MjUsNjA3
 Njc5OCwxNjc4ODQ3MTgwLDEwMTQ2NjcwODksMjA2NjI5Nzc5OS
 wtMTM2ODI5MzExMywtMTk3Nzc0NjQzNSw5MDA4OTE4MTZdfQ==
 
