@@ -89,13 +89,16 @@ Spatial data refers to **information that is associated with specific locations 
 
 	Vector data provides precise and accurate representations of spatial objects. It also allows for storing attribute data associated with each object, such as names, population values, or land ownership information. 
 
+- Real life example of vector data 
+
 2. **Raster Data** represents spatial information by a continuous surface divided into a grid of cells or pixels. Each cell corresponds to a specific location on the Earth's surface and contains a value representing a particular attribute. Key characteristics of raster data include:
 	-  Grid: The Earth's surface is divided into a regular grid of cells, where each cell represents a specific location or area.
 	-  Resolution: Raster data has a spatial resolution that defines the size or extent of each cell. Higher resolution means smaller cell sizes, resulting in more detailed data representation.
 	-  Attribute Value: Each cell contains a value that represents a specific attribute, such as elevation, temperature, land cover type, or satellite reflectance.
 	
 	Raster data is commonly used for continuous and regularly sampled data, such as satellite imagery, digital elevation models (DEMs), or climate data. It is suitable for analyzing continuous phenomena, interpolating values, and performing terrain analysis. Raster data is less suitable for representing discrete features or sharp boundaries.
-	
+
+- Real life example of vector data 
 
 ---
 - Definition
@@ -134,21 +137,32 @@ SmxoRFBWRnpxb3U4MnUiOnsic3RhcnQiOjM1MTYsImVuZCI6Mz
 UyNiwidGV4dCI6IkNoYXQgbGluazoifSwiZTRrb1dqOU1SZXJy
 VWdFdiI6eyJzdGFydCI6MzYyOCwiZW5kIjozNjMxLCJ0ZXh0Ij
 oiKEApIn0sIkZhcFdOajhLeWJqOFR4SkkiOnsic3RhcnQiOjYy
-MTMsImVuZCI6NjIyMCwidGV4dCI6IkRpYWdyYW0ifX0sImNvbW
-1lbnRzIjp7InFaV1hGZ3RlTGRmdlVzZDIiOnsiZGlzY3Vzc2lv
-bklkIjoiQXpCdG05aUhuR0tqVVBlRiIsInN1YiI6ImdoOjQwMz
-A0Nzg4IiwidGV4dCI6IkFkZCBudW1iZXIiLCJjcmVhdGVkIjox
-Njg2MTIwNTUwMjgxfSwiMU9jQXg0MUlodHR2a01oUyI6eyJkaX
-NjdXNzaW9uSWQiOiJ6NkpsaERQVkZ6cW91ODJ1Iiwic3ViIjoi
-Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGxpbmsiLCJjcmVhdG
-VkIjoxNjg2MTIzNTU3MzUwfSwiTHBUM1JDdHNvVERaaFF4aCI6
-eyJkaXNjdXNzaW9uSWQiOiJlNGtvV2o5TVJlcnJVZ0V2Iiwic3
-ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIG5hbWVzIiwi
-Y3JlYXRlZCI6MTY4NjEyMzYxMTAwN30sIm1CaWdFcjZjR2xaSD
-hsQjEiOnsiZGlzY3Vzc2lvbklkIjoiRmFwV05qOEt5Ymo4VHhK
-SSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBkaW
-FncmFtIiwiY3JlYXRlZCI6MTY4NjEyNjE5MjIxNH19LCJoaXN0
-b3J5IjpbMjAyNDkyODgyNiwxNjc4ODQ3MTgwLDEwMTQ2NjcwOD
-ksMjA2NjI5Nzc5OSwtMTM2ODI5MzExMywtMTk3Nzc0NjQzNSw5
-MDA4OTE4MTZdfQ==
+MTMsImVuZCI6NjIyMCwidGV4dCI6IkRpYWdyYW0ifSwibVhqaz
+c2UWtvdXJhcHFSbiI6eyJzdGFydCI6NzU2OSwiZW5kIjo3NjAz
+LCJ0ZXh0IjoiLSBSZWFsIGxpZmUgZXhhbXBsZSBvZiB2ZWN0b3
+IgZGF0YSJ9LCJPQlI4S3V2MTR2Q3JBUUw0Ijp7InN0YXJ0Ijo4
+NzEzLCJlbmQiOjg3NDcsInRleHQiOiItIFJlYWwgbGlmZSBleG
+FtcGxlIG9mIHZlY3RvciBkYXRhIn19LCJjb21tZW50cyI6eyJx
+WldYRmd0ZUxkZnZVc2QyIjp7ImRpc2N1c3Npb25JZCI6IkF6Qn
+RtOWlIbkdLalVQZUYiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRl
+eHQiOiJBZGQgbnVtYmVyIiwiY3JlYXRlZCI6MTY4NjEyMDU1MD
+I4MX0sIjFPY0F4NDFJaHR0dmtNaFMiOnsiZGlzY3Vzc2lvbklk
+IjoiejZKbGhEUFZGenFvdTgydSIsInN1YiI6ImdoOjQwMzA0Nz
+g4IiwidGV4dCI6IkFkZCBsaW5rIiwiY3JlYXRlZCI6MTY4NjEy
+MzU1NzM1MH0sIkxwVDNSQ3Rzb1REWmhReGgiOnsiZGlzY3Vzc2
+lvbklkIjoiZTRrb1dqOU1SZXJyVWdFdiIsInN1YiI6ImdoOjQw
+MzA0Nzg4IiwidGV4dCI6IkFkZCBuYW1lcyIsImNyZWF0ZWQiOj
+E2ODYxMjM2MTEwMDd9LCJtQmlnRXI2Y0dsWkg4bEIxIjp7ImRp
+c2N1c3Npb25JZCI6IkZhcFdOajhLeWJqOFR4SkkiLCJzdWIiOi
+JnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgZGlhZ3JhbSIsImNy
+ZWF0ZWQiOjE2ODYxMjYxOTIyMTR9LCJiTk9pU1VhMWhyMVlBWk
+piIjp7ImRpc2N1c3Npb25JZCI6Im1Yams3NlFrb3VyYXBxUm4i
+LCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdH
+VyZSIsImNyZWF0ZWQiOjE2ODYxMjcwMzIwNzh9LCI5N01SV0dO
+YU9STTdsTGxQIjp7ImRpc2N1c3Npb25JZCI6Ik9CUjhLdXYxNH
+ZDckFRTDQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJB
+ZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYxMjcwNDg5Njd9fS
+wiaGlzdG9yeSI6WzYwNzY3OTgsMTY3ODg0NzE4MCwxMDE0NjY3
+MDg5LDIwNjYyOTc3OTksLTEzNjgyOTMxMTMsLTE5Nzc3NDY0Mz
+UsOTAwODkxODE2XX0=
 -->
