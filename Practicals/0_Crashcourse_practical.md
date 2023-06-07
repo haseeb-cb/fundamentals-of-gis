@@ -85,7 +85,7 @@ The *Layer panel* lists all the layers in the project and helps you manage their
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_layer_panel.png)
 
-The *Processing Toolbox* shows the list of all available **algorithms**, custom **models** and **scripts** you can add to extend the set of tools. Hence the toolbox is the access point to run them, whether as a single process or as a batch process involving several executions of the same algorithm on different sets of inputs.
+The *Processing Toolbox* shows the list of all available **algorithms** grouped in different blocks, this is where you will find most of 
 
 ![](https://docs.qgis.org/3.4/en/_images/toolbox3.png)
 
@@ -265,11 +265,11 @@ eyJkaXNjdXNzaW9ucyI6eyJOOGNoUGR6ZEhMcXB3S0tOIjp7In
 N0YXJ0Ijo0MzczLCJlbmQiOjQ0OTksInRleHQiOiJUaGUgZGF0
 YSB1c2VkIGluIHRoaXMgY291cnNlIHdpbGwgbW9zdGx5IGJlIG
 luIEVQU0cgMzA2NyAoRVRSUy1UTTM1RklOKSwgd2hpY2jigKYi
-fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6OTAxNCwiZW
-5kIjo5MzIxLCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
+fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6ODgyNCwiZW
+5kIjo5MTMxLCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
 bGwgZG93bmxvYWRlZCBmcm9tIFBhSVR1bGkgYW5kIEhlbHNpbm
 tpIFJlZ2lvbiBJbmZvc2hhcmUgZOKApiJ9LCJQUVhKa1N0WTJn
-c3V2ejVEIjp7InN0YXJ0IjoyMTM4NCwiZW5kIjoyMTQwOCwidG
+c3V2ejVEIjp7InN0YXJ0IjoyMTE5NCwiZW5kIjoyMTIxOCwidG
 V4dCI6Ii0gTGF5b3V0IG1hbmFnZXIgcGljdHVyZSJ9LCJ5bmg1
 Ym9RaU9NVGlsWk1XIjp7InN0YXJ0Ijo4MywiZW5kIjoyMDEsIn
 RleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dHBzOi8vcmF3Lmdp
@@ -320,5 +320,5 @@ B3ZXRCNHVjM1BhZko3NSI6eyJkaXNjdXNzaW9uSWQiOiJENHc5
 OWpOT2Zzb3A1akdEIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZX
 h0IjoiRXhwbGFpbiB3aHkgeW91IHdhbnQgdG8gZG8gdGhpcyIs
 ImNyZWF0ZWQiOjE2ODYxMTQyMjIwNjd9fSwiaGlzdG9yeSI6Wz
-EzMDkxNTg4MThdfQ==
+E0OTg4NjQzMjFdfQ==
 -->
