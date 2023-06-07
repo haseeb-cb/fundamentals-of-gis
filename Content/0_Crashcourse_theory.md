@@ -80,12 +80,17 @@ These are just a few examples of the diverse applications of GIS. This course is
 ### Spatial data
 Spatial data refers to **information that is associated with specific locations or geographic extents**. Vector and raster data are the two fundamental types of spatial data used in Geographic Information Systems (GIS) to represent and analyze spatial information.
 
-1. **Vector data**: Vector data provides precise and accurate representations of spatial objects. It allows for storing attribute data associated with each object, such as names, population values, or land ownership information. 
+1. **Vector data** represents geographic features as discrete points, lines, and polygons. Key characteristics of vector data include:
 	-  Points: Represent specific locations in space, such as the coordinates of a city or a landmark.
 	-  Lines: Represent linear features, such as roads, rivers, or boundaries. Lines are defined by a series of connected points.
 	-  Polygons: Represent enclosed areas or regions, such as administrative boundaries, land parcels, or thematic zones. Polygons are defined by a series of connected lines forming a closed shape.
 
-	
+	Vector data provides precise and accurate representations of spatial objects. It also allows for storing attribute data associated with each object, such as names, population values, or land ownership information. 
+
+2. **Raster Data** represents spatial information as a grid of cells or pixels. Each pixel corresponds to a specific location on the Earth's surface and contains a value representing a particular attribute. Key characteristics of raster data include:
+	-  Grid: The Earth's surface is divided into a regular grid of cells, where each cell represents a specific location or area.
+	-  Resolution: Raster data has a spatial resolution that defines the size or extent of each cell. Higher resolution means smaller cell sizes, resulting in more detailed data representation.
+	-  Attribute Value: Each cell contains a value that represents a specific attribute, such as elevation, temperature, land cover type, or satellite reflectance.
 	
 
 ---
@@ -139,7 +144,7 @@ Y3JlYXRlZCI6MTY4NjEyMzYxMTAwN30sIm1CaWdFcjZjR2xaSD
 hsQjEiOnsiZGlzY3Vzc2lvbklkIjoiRmFwV05qOEt5Ymo4VHhK
 SSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBkaW
 FncmFtIiwiY3JlYXRlZCI6MTY4NjEyNjE5MjIxNH19LCJoaXN0
-b3J5IjpbMTc4NTQyODc5NywxNjc4ODQ3MTgwLDEwMTQ2NjcwOD
-ksMjA2NjI5Nzc5OSwtMTM2ODI5MzExMywtMTk3Nzc0NjQzNSw5
-MDA4OTE4MTZdfQ==
+b3J5IjpbLTc0NTA4NDE5LDE2Nzg4NDcxODAsMTAxNDY2NzA4OS
+wyMDY2Mjk3Nzk5LC0xMzY4MjkzMTEzLC0xOTc3NzQ2NDM1LDkw
+MDg5MTgxNl19
 -->
