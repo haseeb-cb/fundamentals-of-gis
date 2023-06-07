@@ -60,8 +60,7 @@ Following this process will help you **develop the independent troubleshooting s
 
 ## What is GIS and why do we use it?
 
-### GIS
-GIS stands for Geographic Information System, and as the name suggests, it is a system for gathering, organising, analysing and 
+GIS stands for **Geographic Information System**. As the name suggests, it is a system for gathering, organising, analysing, and visualising spatial data. 
 
  
 - Definition
@@ -110,7 +109,7 @@ BsaW5rIiwiY3JlYXRlZCI6MTY4NjEyMzU1NzM1MH0sIkxwVDNS
 Q3Rzb1REWmhReGgiOnsiZGlzY3Vzc2lvbklkIjoiZTRrb1dqOU
 1SZXJyVWdFdiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
 IkFkZCBuYW1lcyIsImNyZWF0ZWQiOjE2ODYxMjM2MTEwMDd9fS
-wiaGlzdG9yeSI6Wy0xNjQ0MzIwNDk5LDE2Nzg4NDcxODAsMTAx
-NDY2NzA4OSwyMDY2Mjk3Nzk5LC0xMzY4MjkzMTEzLC0xOTc3Nz
-Q2NDM1LDkwMDg5MTgxNl19
+wiaGlzdG9yeSI6WzU5NTUxMDY0OCwxNjc4ODQ3MTgwLDEwMTQ2
+NjcwODksMjA2NjI5Nzc5OSwtMTM2ODI5MzExMywtMTk3Nzc0Nj
+QzNSw5MDA4OTE4MTZdfQ==
 -->
