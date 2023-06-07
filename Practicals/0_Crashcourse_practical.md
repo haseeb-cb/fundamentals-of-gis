@@ -180,11 +180,11 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
  
 	 1. Open the *Field and Values* drop-down menu, which will show all the attribute fields
 	 2. Double-click on the area field you made earlier (Area_km2)
-	 3. Type "< 5" to the right of the field in the text field, this
+	 3. Type "< 5" to the right of the field in the text field
 	 4. Click *Select features*
 	![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_select_by_expression.png)
 Your selection now includes all the areas under 5 square kilometers in this layer, with selected objects shown in **yellow in on the map** and **blue on the attribute table**.
-	Alternative expressions include:
+	Examples of ofther expressions include:
  -  "Area_km2" = 5, select the features the area of which is exactly 5 square meters
  - "Area_km2" > 2 AND "Area_km2" < 5, select the features the area of which is between 2 and 5 square kilometers  
 
@@ -192,7 +192,7 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 
 - Select features by expression picture 
 
- 8. **Next, we’re going to create and calculate another field into the Helsinki_small_areas attribute table using the HSL_Helsinki_stops point data.** First open the *attribute table* of HSL_Helsinki_stops to familiarize yourself with its contents. The Boardings column depicts the amount of boardings on stops in Helsinki on average per day. We will calculate and visualize the public transit passenger numbers per area for every Helsinki small area.
+ 8. **Next, we’re going to create and calculate another field into the Helsinki_small_areas attribute table using the HSL_Helsinki_stops point data.** First open the *attribute table* of HSL_Helsinki_stops to familiarize yourself with its contents. The Boardings column depicts the number of boardings on stops in Helsinki on average per day. We will calculate and visualize the public transit passenger numbers per area for every Helsinki small area.
 	
 	1. Check if the *Processing Toolbox* is active in the top right of the main QGIS window, if not open it by selecting *Processing* > *Toolbox* from the top of the window
 	2. Type “Join attributes by location” into the search bar. Select the one that has (Summary) after it.
@@ -269,7 +269,7 @@ fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6ODk5NiwiZW
 5kIjo5MzAzLCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
 bGwgZG93bmxvYWRlZCBmcm9tIFBhSVR1bGkgYW5kIEhlbHNpbm
 tpIFJlZ2lvbiBJbmZvc2hhcmUgZOKApiJ9LCJQUVhKa1N0WTJn
-c3V2ejVEIjp7InN0YXJ0IjoyMTM3MSwiZW5kIjoyMTM5NSwidG
+c3V2ejVEIjp7InN0YXJ0IjoyMTM3MiwiZW5kIjoyMTM5NiwidG
 V4dCI6Ii0gTGF5b3V0IG1hbmFnZXIgcGljdHVyZSJ9LCJ5bmg1
 Ym9RaU9NVGlsWk1XIjp7InN0YXJ0Ijo4MywiZW5kIjoyMDEsIn
 RleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dHBzOi8vcmF3Lmdp
@@ -320,5 +320,5 @@ B3ZXRCNHVjM1BhZko3NSI6eyJkaXNjdXNzaW9uSWQiOiJENHc5
 OWpOT2Zzb3A1akdEIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZX
 h0IjoiRXhwbGFpbiB3aHkgeW91IHdhbnQgdG8gZG8gdGhpcyIs
 ImNyZWF0ZWQiOjE2ODYxMTQyMjIwNjd9fSwiaGlzdG9yeSI6Wz
-I4NzEwMTQyNV19
+YwNTE0MTk1N119
 -->
