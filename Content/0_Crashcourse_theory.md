@@ -42,7 +42,9 @@ To ensure that your submissions are original:
 
 ### Troubleshooting
 ![Troubleshooting process](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/GIS_troubleshooting_process.drawio.png)
-1. Start by checking if the information in the course materials provide a solution, it might have been covered in the previo 
+1. Start by checking if the information in the course materials provide a solution, it might have been covered in the previous theory or exercises as well
+	- If you come across missing information in the materials, please let us know so we can make sure others don't run into the same issue! 
+2. Google, or another search engine, is the most powerful  
 
 Following this process will help you develop the independent troubleshooting skills you will need when you use GIS on your own. 
 
@@ -84,6 +86,6 @@ N0YXJ0IjoyMTIwLCJlbmQiOjIxMjEsInRleHQiOiJYIn19LCJj
 b21tZW50cyI6eyJxWldYRmd0ZUxkZnZVc2QyIjp7ImRpc2N1c3
 Npb25JZCI6IkF6QnRtOWlIbkdLalVQZUYiLCJzdWIiOiJnaDo0
 MDMwNDc4OCIsInRleHQiOiJBZGQgbnVtYmVyIiwiY3JlYXRlZC
-I6MTY4NjEyMDU1MDI4MX19LCJoaXN0b3J5IjpbNTU5NDM1ODgw
+I6MTY4NjEyMDU1MDI4MX19LCJoaXN0b3J5IjpbNDM5MDQ0NDA4
 LC0xMzY4MjkzMTEzLC0xOTc3NzQ2NDM1LDkwMDg5MTgxNl19
 -->
