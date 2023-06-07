@@ -137,9 +137,7 @@ These are some of the most common GIS analysis types, but the field of GIS offer
 
 
 ## What is QGIS?
-
-- Data files
-	- Vector and raster
+In short, QGIS is a GIS application that can be used for various GIS analyses. There are others 
 
 ## What is a good map?
 
@@ -188,8 +186,8 @@ F0ZWQiOjE2ODYxMzY3MTc4NTF9LCJRTlJ0UlJySzBNT1h4V09C
 Ijp7ImRpc2N1c3Npb25JZCI6ImJ5TXZ4am8wZkl5clk0TkoiLC
 JzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJJbmNsdWRlIGV4
 YW1wbGUgcGljdHVyZXMiLCJjcmVhdGVkIjoxNjg2MTM3ODg3MT
-cxfX0sImhpc3RvcnkiOlstMTM3NDU0MDExLC0yNTYwMDcyOTcs
-MTM0MzUzNzU3NywtMTAzNTcxODgyNSw2MDc2Nzk4LDE2Nzg4ND
-cxODAsMTAxNDY2NzA4OSwyMDY2Mjk3Nzk5LC0xMzY4MjkzMTEz
-LC0xOTc3NzQ2NDM1LDkwMDg5MTgxNl19
+cxfX0sImhpc3RvcnkiOls3MjU0NTc2MzksLTEzNzQ1NDAxMSwt
+MjU2MDA3Mjk3LDEzNDM1Mzc1NzcsLTEwMzU3MTg4MjUsNjA3Nj
+c5OCwxNjc4ODQ3MTgwLDEwMTQ2NjcwODksMjA2NjI5Nzc5OSwt
+MTM2ODI5MzExMywtMTk3Nzc0NjQzNSw5MDA4OTE4MTZdfQ==
 -->
