@@ -221,7 +221,7 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_attribute_table.png)
 
-10.  Head to the layer’s *symbology* tab and select **Graduated** from the drop-down menu. **Select the PassArea column as the data source and press Classify**. Choose a suitable classification method and visualize the data as desired. You can edit the class bounds and the legend values manually by double clicking on them. Which areas are the most passenger heavy and which are not? Why?
+10.  Head to the layer’s *symbology* tab and select **Graduated** from the drop-down menu. **Select the PassArea column as the data source and press Classify**. Try out different classification methods, what are their differences and which do you think is best for this purpose? Choose which you think is best and visualize the data as desired. You can edit the class bounds and the legend values manually by double clicking on them. Which areas are the most passenger heavy and which are not? Why?
 
 11. Now it is time for the finishing touches. To make the map easier to interpret, we are going to **add labels** to it.
 		1. Right-click the layer we just visualized and go to *Layer properties* > *Labels*
@@ -269,7 +269,7 @@ fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6ODk5NiwiZW
 5kIjo5MzAzLCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
 bGwgZG93bmxvYWRlZCBmcm9tIFBhSVR1bGkgYW5kIEhlbHNpbm
 tpIFJlZ2lvbiBJbmZvc2hhcmUgZOKApiJ9LCJQUVhKa1N0WTJn
-c3V2ejVEIjp7InN0YXJ0IjoyMTM3MiwiZW5kIjoyMTM5NiwidG
+c3V2ejVEIjp7InN0YXJ0IjoyMTQ4MSwiZW5kIjoyMTUwNSwidG
 V4dCI6Ii0gTGF5b3V0IG1hbmFnZXIgcGljdHVyZSJ9LCJ5bmg1
 Ym9RaU9NVGlsWk1XIjp7InN0YXJ0Ijo4MywiZW5kIjoyMDEsIn
 RleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dHBzOi8vcmF3Lmdp
@@ -319,6 +319,6 @@ dG9vbGJhcnMiLCJjcmVhdGVkIjoxNjg2MTE0MTc0NzcxfSwiej
 B3ZXRCNHVjM1BhZko3NSI6eyJkaXNjdXNzaW9uSWQiOiJENHc5
 OWpOT2Zzb3A1akdEIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZX
 h0IjoiRXhwbGFpbiB3aHkgeW91IHdhbnQgdG8gZG8gdGhpcyIs
-ImNyZWF0ZWQiOjE2ODYxMTQyMjIwNjd9fSwiaGlzdG9yeSI6Wz
-E3NDkxMDUwOTNdfQ==
+ImNyZWF0ZWQiOjE2ODYxMTQyMjIwNjd9fSwiaGlzdG9yeSI6Wy
+0zMjgzNDc3OTFdfQ==
 -->
