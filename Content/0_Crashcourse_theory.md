@@ -32,9 +32,11 @@ The course consists of **9 exercises**, each accompanied by a piece of theory. T
 ### Evalution
 To get the credits for this course, the following criteria have to be met:
  - [ ] Submitted original map output(s) for each exercise
+	 - With your name on the output
  - [ ] Submitted original map reflection for each exercise
  - [ ] Completed the X Moodle exams  
 
+To ensure that map outputs are original, 
 ### Getting help
 - Step by step process
 1. Materials (location, extras, etc)
@@ -77,10 +79,10 @@ To get the credits for this course, the following criteria have to be met:
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJBekJ0bTlpSG5HS2pVUGVGIjp7In
-N0YXJ0IjoyMDg3LCJlbmQiOjIwODgsInRleHQiOiJYIn19LCJj
+N0YXJ0IjoyMTIwLCJlbmQiOjIxMjEsInRleHQiOiJYIn19LCJj
 b21tZW50cyI6eyJxWldYRmd0ZUxkZnZVc2QyIjp7ImRpc2N1c3
 Npb25JZCI6IkF6QnRtOWlIbkdLalVQZUYiLCJzdWIiOiJnaDo0
 MDMwNDc4OCIsInRleHQiOiJBZGQgbnVtYmVyIiwiY3JlYXRlZC
-I6MTY4NjEyMDU1MDI4MX19LCJoaXN0b3J5IjpbMTIwNjgxNzE4
-Nyw5MDA4OTE4MTZdfQ==
+I6MTY4NjEyMDU1MDI4MX19LCJoaXN0b3J5IjpbLTkxOTczODcw
+Miw5MDA4OTE4MTZdfQ==
 -->
