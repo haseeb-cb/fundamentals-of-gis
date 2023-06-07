@@ -15,6 +15,7 @@ After completing the course you should be able to:
 - Develop the aiblity to perform new anayses, troubleshoot, and find help from the GIS community to solve your problems
 
 ### Structure
+The course consists of **9 exercises**, each accompanied by a piece of theory. The first exercise, which is the one 
 - Completion methods
 - Practical schedule
 - Evaluation
@@ -60,5 +61,5 @@ After completing the course you should be able to:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwODU4NDM4MSw5MDA4OTE4MTZdfQ==
+eyJoaXN0b3J5IjpbLTY4NzA4NTk2NCw5MDA4OTE4MTZdfQ==
 -->
