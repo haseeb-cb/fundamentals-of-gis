@@ -37,9 +37,9 @@ To get the credits for this course, the following criteria have to be met:
  - [ ] Completed the X Moodle exams  
 
 To ensure that your submissions are original:
-- Map output: Your name has to be mentioned on the map output and they will be compared with others
--  
- 
+- Map output: Your name has to be mentioned on the map output and they are be compared with others
+- Map reflection: Anti-plagiarism tool is used
+
 ### Getting help
 - Step by step process
 1. Materials (location, extras, etc)
@@ -86,6 +86,6 @@ N0YXJ0IjoyMTIwLCJlbmQiOjIxMjEsInRleHQiOiJYIn19LCJj
 b21tZW50cyI6eyJxWldYRmd0ZUxkZnZVc2QyIjp7ImRpc2N1c3
 Npb25JZCI6IkF6QnRtOWlIbkdLalVQZUYiLCJzdWIiOiJnaDo0
 MDMwNDc4OCIsInRleHQiOiJBZGQgbnVtYmVyIiwiY3JlYXRlZC
-I6MTY4NjEyMDU1MDI4MX19LCJoaXN0b3J5IjpbMzA3ODY0MjM3
-LDkwMDg5MTgxNl19
+I6MTY4NjEyMDU1MDI4MX19LCJoaXN0b3J5IjpbLTE5Nzc3NDY0
+MzUsOTAwODkxODE2XX0=
 -->
