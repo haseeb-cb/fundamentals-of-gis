@@ -49,11 +49,11 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 	- Click an easily identifiable location point on the nokia_areena_plan.tiff in the *Georeferencer* window, such as the corner of an easily recognizable building. You can zoom in and out of the window to get a more precise location.
 	
-	- After clicking, it will bring up a dialog that says *Enter Map Coordinates*. You can enter them manually if you know what the coordinates of that location should be. But, it is much simpler to select *From Map Canvas*. This makes the *Georeferencer* Window disappear (don’t worry).
+	- After clicking, it will bring up a dialog that says *Enter Map Coordinates*. You can enter them manually if you know what the coordinates of that location should be. But, it is much simpler to select *From Map Canvas*. This makes the *Georeferencer* window disappear (don’t worry).
 
-	- Next, click on the same easily identifiable location in the QGIS Map window. This tells the Georef-erencer that the coordinates of this location are the same as those at that location in the nokia_areena_plan.tiff
+	- Next, click on the same easily identifiable location on the QGIS map canvas. This tells the *Georeferencer* that the coordinates of this location are the same as those at that location in the nokia_areena_plan.tiff
 
-	- After clicking on the QIS Map window, you should see the Georeferencer reappear with the coor-dinates from the location where you clicked. Press OK.
+	- After clicking on the QIS map canvas, you should see the *Georeferencer* reappear with the coordinates from the location where you clicked. Press OK.
 
 	- Repeat this at least three more times in different locations, preferably well distributed across the map (Figure 2).
 
@@ -75,5 +75,5 @@ VkIjoxNjg2MjAyMzIxNDEwfSwiTjlBNjZHMGkyUVFVRUc2biI6
 eyJkaXNjdXNzaW9uSWQiOiIwdkxPanZRVGFXWFR6dmlIIiwic3
 ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiU2FtZSBhcyBhYm92
 ZSIsImNyZWF0ZWQiOjE2ODYyMDIzMjk0ODJ9fSwiaGlzdG9yeS
-I6WzE5MTEwMzk5MzgsLTE1OTU0ODY1NzZdfQ==
+I6WzE3MzEyOTgzOTgsLTE1OTU0ODY1NzZdfQ==
 -->
