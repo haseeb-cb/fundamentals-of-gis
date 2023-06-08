@@ -112,13 +112,13 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 15. First, let’s create a new layer for the bus stops. In the previous step, we learned how to edit an existing layer, but we can also make a new layer ourselves. In this case, we want points to represent bus stops, so we need to create a new point layer (Figure 8).
 
-	- On the menu, choose Layer -> Create Layer -> New Shapefile Layer
+	- On the menu, choose *Layer* -> *Create Layer* -> *New Shapefile Layer*
 
-	- Give the new layer a filename tampere_bus_stops
+	- Give the new layer an informative filename, like tampere_bus_stops
 
-	- Set the Geometry type to be Point
+	- Set the *Geometry type* to be *Point*
 
-	- Under Additional Dimensions, set the coordinate system to be ETS89 / TM35FIN(E,N) so that it is in the same coordinate system as the other layers
+	- Under *Additional Dimensions*, set the coordinate system to be ETS89 / TM35FIN(E,N) so that it is in the same coordinate system as the other layers
 
 	- When creating a new layer, you can specify what fields you want to be included in the attributes. There is a default field called ID already. Create a new field. Under Name write road_locat
 
@@ -199,5 +199,5 @@ IiLCJjcmVhdGVkIjoxNjg2MjA1NzcyMTE0fSwiSmM3MWhkQk5x
 ZnU4VUVHUSI6eyJkaXNjdXNzaW9uSWQiOiJOMENaRkU0VlllNn
 owZ0FQIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoicGlj
 dHVyZSIsImNyZWF0ZWQiOjE2ODYyMDU4NzQ2NDJ9fSwiaGlzdG
-9yeSI6Wy0xNTQ3NzI5MDMyLC0xNTk1NDg2NTc2XX0=
+9yeSI6Wy0yMjA0NzIyOTMsLTE1OTU0ODY1NzZdfQ==
 -->
