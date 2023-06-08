@@ -89,7 +89,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 12. First, let’s remove a building that no longer exists. There is one building at the south of the arena that has been demolished (Figure 6).
 
-	- First, choose the *Select* tool (if you don’t see it, you may need to add the Selection Toolbar like you did for the Digitizing Toolbar).
+	- First, choose the *Select* tool ![](https://docs.qgis.org/3.28/en/_images/mActionSelect.png) (if you don’t see it, you may need to add the Selection Toolbar like you did for the Digitizing Toolbar).
 
 	- Select the building to be removed by clicking it. It will turn yellow when selected.
 
@@ -173,7 +173,7 @@ EwLiBZb3UgbWF5IG5lZWQgdG8gZW5hYmxlIHRoZSAqRGlnaXRp
 emluZyBUb29sYmFyKiwgd2hpY2ggZW5hYmxlcyB5b3UgdG8gZW
 RpdOKApiJ9LCJMOUNuTGFEWW5VcnE0bERHIjp7InN0YXJ0Ijo3
 NDg3LCJlbmQiOjc0OTMsInRleHQiOiJTZWxlY3QifSwiTjBDWk
-ZFNFZZZTZ6MGdBUCI6eyJzdGFydCI6ODQyOCwiZW5kIjo4NDMy
+ZFNFZZZTZ6MGdBUCI6eyJzdGFydCI6ODQ4OSwiZW5kIjo4NDkz
 LCJ0ZXh0IjoiU2F2ZSJ9fSwiY29tbWVudHMiOnsiaDc2NG1XSG
 IzSlk3dTFOTSI6eyJkaXNjdXNzaW9uSWQiOiJXcmFjeFYwYVZS
 SlI0SUp5Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQ2
@@ -196,5 +196,6 @@ ZWF0ZWQiOjE2ODYyMDU3NDQ2NzR9LCJKYzcxaGRCTnFmdThVRU
 dRIjp7ImRpc2N1c3Npb25JZCI6Ik4wQ1pGRTRWWWU2ejBnQVAi
 LCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJwaWN0dXJlIi
 wiY3JlYXRlZCI6MTY4NjIwNTg3NDY0Mn19LCJoaXN0b3J5Ijpb
-LTIxNDQxMzk5NDcsMTM1NzA2OTY5MCwtMTU5NTQ4NjU3Nl19
+LTE1NTg2OTQ4LC0yMTQ0MTM5OTQ3LDEzNTcwNjk2OTAsLTE1OT
+U0ODY1NzZdfQ==
 -->
