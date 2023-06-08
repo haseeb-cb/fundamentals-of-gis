@@ -7,9 +7,6 @@
 ## Overview & purpose
 Urban areas undergo continuous development, and maps need to be updated regularly to account for new construction, demolition, and land use changes for example. In this tutorial, the objective is to **edit a GIS layer to show urban development**. In this case, we will be looking at the development of the Nokia Arena in the city centre of Tampere, Finland. 
 
-
-
-
 ## Objectives
 
 - Georeference the arena plans
@@ -28,7 +25,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 
 	- Use the tips from the Crash Course to improve your map
 
-2. A short reflection (200-300 words) containing at least the following:
+2. A short reflection (200-300 words) on this exercise and your map
 
 ## Exercise phases
 ### Getting familiar with the data
@@ -173,25 +170,20 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyIwdkxPanZRVGFXWFR6dmlIIjp7In
-N0YXJ0Ijo2NzYsImVuZCI6Njg5LCJ0ZXh0IjoiIyMgQ29tcGxl
-dGlvbiJ9LCJXSDNXNms3aEs0Rk9LYWJqIjp7InN0YXJ0Ijo3MT
-MzLCJlbmQiOjczMTcsInRleHQiOiIxMC4gWW91IG1heSBuZWVk
-IHRvIGVuYWJsZSB0aGUgKkRpZ2l0aXppbmcgVG9vbGJhciosIH
-doaWNoIGVuYWJsZXMgeW91IHRvIGVkaXTigKYifSwia2RuODV2
-UGdsRFRHZVZ1eCI6eyJzdGFydCI6NjY1LCJlbmQiOjY3NCwidG
-V4dCI6IkRhdGEgdXNlZCJ9fSwiY29tbWVudHMiOnsiTjlBNjZH
-MGkyUVFVRUc2biI6eyJkaXNjdXNzaW9uSWQiOiIwdkxPanZRVG
-FXWFR6dmlIIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ijoi
-U2FtZSBhcyBhYm92ZSIsImNyZWF0ZWQiOjE2ODYyMDIzMjk0OD
-J9LCJoQmQ4dm9VQWJZb2FLRWxBIjp7ImRpc2N1c3Npb25JZCI6
-IldIM1c2azdoSzRGT0thYmoiLCJzdWIiOiJnaDo0MDMwNDc4OC
-IsInRleHQiOiJBZGQgaW50cm9kdWN0aW9uIHRvIHRoaXMgaW4g
-dGhlb3J5IiwiY3JlYXRlZCI6MTY4NjIwNTM5OTQwOX0sIll5Ul
-JlaDlOUlRKZGlvMUQiOnsiZGlzY3Vzc2lvbklkIjoia2RuODV2
-UGdsRFRHZVZ1eCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dC
-I6IkFzayBKb24gZm9yIHdoYXQgZGF0YSBoZSB1c2VkIiwiY3Jl
-YXRlZCI6MTY4NjIwODcyNjY4Mn19LCJoaXN0b3J5IjpbMTY5Nj
-kxNTU1OSwtMjE0NDEzOTk0NywxMzU3MDY5NjkwLC0xNTk1NDg2
-NTc2XX0=
+eyJkaXNjdXNzaW9ucyI6eyJXSDNXNms3aEs0Rk9LYWJqIjp7In
+N0YXJ0Ijo3MTI1LCJlbmQiOjczMDksInRleHQiOiIxMC4gWW91
+IG1heSBuZWVkIHRvIGVuYWJsZSB0aGUgKkRpZ2l0aXppbmcgVG
+9vbGJhciosIHdoaWNoIGVuYWJsZXMgeW91IHRvIGVkaXTigKYi
+fSwia2RuODV2UGdsRFRHZVZ1eCI6eyJzdGFydCI6NjYyLCJlbm
+QiOjY3MSwidGV4dCI6IkRhdGEgdXNlZCJ9fSwiY29tbWVudHMi
+OnsiaEJkOHZvVUFiWW9hS0VsQSI6eyJkaXNjdXNzaW9uSWQiOi
+JXSDNXNms3aEs0Rk9LYWJqIiwic3ViIjoiZ2g6NDAzMDQ3ODgi
+LCJ0ZXh0IjoiQWRkIGludHJvZHVjdGlvbiB0byB0aGlzIGluIH
+RoZW9yeSIsImNyZWF0ZWQiOjE2ODYyMDUzOTk0MDl9LCJZeVJS
+ZWg5TlJUSmRpbzFEIjp7ImRpc2N1c3Npb25JZCI6Imtkbjg1dl
+BnbERUR2VWdXgiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQi
+OiJBc2sgSm9uIGZvciB3aGF0IGRhdGEgaGUgdXNlZCIsImNyZW
+F0ZWQiOjE2ODYyMDg3MjY2ODJ9fSwiaGlzdG9yeSI6Wy0xMzE0
+OTMyNDkyLC0yMTQ0MTM5OTQ3LDEzNTcwNjk2OTAsLTE1OTU0OD
+Y1NzZdfQ==
 -->
