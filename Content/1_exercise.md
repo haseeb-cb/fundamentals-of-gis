@@ -7,15 +7,14 @@
 ## Overview & purpose
 Urban areas undergo continuous development, and maps need to be updated regularly to account for new construction, demolition, and land use changes for example. In this tutorial, the objective is to **edit a GIS layer to show urban development**. In this case, we will be looking at the development of the Nokia Arena in the city centre of Tampere, Finland. 
 
-The learning objectives are:
-- Understand vector data
-- How to create and edit vector data
-- How to georeference a picture
-- How to project data in the right Coordinate Reference System
+
+
 
 ## Objectives
+
 - Georeference the arena plans
-- Remove the 
+- Edit the buildings layer to remove the removed buildings and add new buildings
+- Digitize the bus stops from the arena plans
 
 ## Data used
 
@@ -164,30 +163,19 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJXcmFjeFYwYVZSSlI0SUp5Ijp7In
-N0YXJ0Ijo2NzUsImVuZCI6Njg1LCJ0ZXh0IjoiT2JqZWN0aXZl
-cyJ9LCJBR0NsRE1hanRLVkZGZ0x6Ijp7InN0YXJ0Ijo3MzIsIm
-VuZCI6NzQ0LCJ0ZXh0IjoiIyMgRGF0YSB1c2VkIn0sIjB2TE9q
-dlFUYVdYVHp2aUgiOnsic3RhcnQiOjc0NiwiZW5kIjo3NTksIn
-RleHQiOiIjIyBDb21wbGV0aW9uIn0sIldIM1c2azdoSzRGT0th
-YmoiOnsic3RhcnQiOjY4MzcsImVuZCI6NzAyMSwidGV4dCI6Ij
-EwLiBZb3UgbWF5IG5lZWQgdG8gZW5hYmxlIHRoZSAqRGlnaXRp
-emluZyBUb29sYmFyKiwgd2hpY2ggZW5hYmxlcyB5b3UgdG8gZW
-RpdOKApiJ9fSwiY29tbWVudHMiOnsiaDc2NG1XSGIzSlk3dTFO
-TSI6eyJkaXNjdXNzaW9uSWQiOiJXcmFjeFYwYVZSSlI0SUp5Ii
-wic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQ29tZSBiYWNr
-IHRvIHRoaXMgYWZ0ZXIgZmluaXNoaW5nIHRoZSBleGVyY2lzZS
-BwaGFzZSIsImNyZWF0ZWQiOjE2ODYyMDIzMDAwOTB9LCJBUWk2
-dVBUSW9UMkc5QzVSIjp7ImRpc2N1c3Npb25JZCI6IkFHQ2xETW
-FqdEtWRkZnTHoiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQi
-OiJTYW1lIGFzIGFib3ZlIiwiY3JlYXRlZCI6MTY4NjIwMjMyMT
-QxMH0sIk45QTY2RzBpMlFRVUVHNm4iOnsiZGlzY3Vzc2lvbklk
-IjoiMHZMT2p2UVRhV1hUenZpSCIsInN1YiI6ImdoOjQwMzA0Nz
-g4IiwidGV4dCI6IlNhbWUgYXMgYWJvdmUiLCJjcmVhdGVkIjox
-Njg2MjAyMzI5NDgyfSwiaEJkOHZvVUFiWW9hS0VsQSI6eyJkaX
-NjdXNzaW9uSWQiOiJXSDNXNms3aEs0Rk9LYWJqIiwic3ViIjoi
-Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGludHJvZHVjdGlvbi
-B0byB0aGlzIGluIHRoZW9yeSIsImNyZWF0ZWQiOjE2ODYyMDUz
-OTk0MDl9fSwiaGlzdG9yeSI6WzUwMzk3MTE5NSwtMjE0NDEzOT
-k0NywxMzU3MDY5NjkwLC0xNTk1NDg2NTc2XX0=
+eyJkaXNjdXNzaW9ucyI6eyIwdkxPanZRVGFXWFR6dmlIIjp7In
+N0YXJ0Ijo2NzYsImVuZCI6Njg5LCJ0ZXh0IjoiIyMgQ29tcGxl
+dGlvbiJ9LCJXSDNXNms3aEs0Rk9LYWJqIjp7InN0YXJ0Ijo2Nz
+Y3LCJlbmQiOjY5NTEsInRleHQiOiIxMC4gWW91IG1heSBuZWVk
+IHRvIGVuYWJsZSB0aGUgKkRpZ2l0aXppbmcgVG9vbGJhciosIH
+doaWNoIGVuYWJsZXMgeW91IHRvIGVkaXTigKYifX0sImNvbW1l
+bnRzIjp7Ik45QTY2RzBpMlFRVUVHNm4iOnsiZGlzY3Vzc2lvbk
+lkIjoiMHZMT2p2UVRhV1hUenZpSCIsInN1YiI6ImdoOjQwMzA0
+Nzg4IiwidGV4dCI6IlNhbWUgYXMgYWJvdmUiLCJjcmVhdGVkIj
+oxNjg2MjAyMzI5NDgyfSwiaEJkOHZvVUFiWW9hS0VsQSI6eyJk
+aXNjdXNzaW9uSWQiOiJXSDNXNms3aEs0Rk9LYWJqIiwic3ViIj
+oiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGludHJvZHVjdGlv
+biB0byB0aGlzIGluIHRoZW9yeSIsImNyZWF0ZWQiOjE2ODYyMD
+UzOTk0MDl9fSwiaGlzdG9yeSI6WzEyODUxNTA1NjgsLTIxNDQx
+Mzk5NDcsMTM1NzA2OTY5MCwtMTU5NTQ4NjU3Nl19
 -->
