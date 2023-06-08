@@ -27,9 +27,8 @@ It is good to be familiar with the area you will be working with in this exercis
 
 1. Save the downloaded GIS data in an empty folder for this exercise.
 2. Open QGIS and load the tampere_buildings.shp, tampere_roads.shp, and tampere_railway.shp into QGIS (See Crash Course exercise 2.1), the project CRS will change to the CRS of these layers (ETS89/TM35FIN).
-	- Take a moment to examine the data, what 
-3. Add Google Satellite imagery: Navigate to your browser panel > expand XYZ Tiles > drag "Google Satellite" to you the layers panel (See Crash Course exercise 1.2)
-4. 
+3. Add Google Satellite imagery: Navigate to your browser panel > expand XYZ Tiles > drag "Google Satellite" to you the layers panel (See Crash Course exercise 1.2).
+4. ake a moment to examine the data, what is it about? What kind of attributes does the data have? 
 
 	We have a vector layer with the buildings in central Tampere, and a vector layer showing the roads – both of which originally came from OpenStreetMap. This data is old – it shows the area before the development of the arena. In addition, we have a raster image file that shows the designs for the Arena, taken from a planning document. Unfortunately, this raster is not spatially referenced – there is no spatial information associated with each raster cell.
 
@@ -51,5 +50,5 @@ VkIjoxNjg2MjAyMzIxNDEwfSwiTjlBNjZHMGkyUVFVRUc2biI6
 eyJkaXNjdXNzaW9uSWQiOiIwdkxPanZRVGFXWFR6dmlIIiwic3
 ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiU2FtZSBhcyBhYm92
 ZSIsImNyZWF0ZWQiOjE2ODYyMDIzMjk0ODJ9fSwiaGlzdG9yeS
-I6Wy0xNzgzOTczMl19
+I6WzE0OTM4NjUzODldfQ==
 -->
