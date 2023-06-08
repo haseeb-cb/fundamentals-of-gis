@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-06-08T08:34:54.604Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0" version="21.3.7" etag="AZiFfsQkcU2pSG1m7qvz" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-08T08:44:39.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0" etag="3c8eWRoxyGkch_5uZaSL" version="21.3.7" type="github">
   <diagram name="Page-1" id="rJfryqL6F2OneznrRgmk">
-    <mxGraphModel>
+    <mxGraphModel dx="2072" dy="1833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jPzow0EbybA86HscfBpG-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="880" y="840" width="280" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="jPzow0EbybA86HscfBpG-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="840" width="280" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="jPzow0EbybA86HscfBpG-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="840" width="280" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="jPzow0EbybA86HscfBpG-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="840" width="280" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="jPzow0EbybA86HscfBpG-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2160" y="840" width="280" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="jPzow0EbybA86HscfBpG-6" value="&lt;h1&gt;Problem&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Understand and define the subject to be researched&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="860" width="240" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="jPzow0EbybA86HscfBpG-7" value="&lt;h1&gt;Plan&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Create a plan, define what to measure and how&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="860" width="240" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="jPzow0EbybA86HscfBpG-8" value="&lt;h1&gt;Data&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Collect data, manage the data, clean the data, process the data&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="860" width="240" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="jPzow0EbybA86HscfBpG-9" value="&lt;h1&gt;Analysis&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Analyze the data, e.g. visual analysis, network analysis, statistical analysis, overlay analysis&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="860" width="240" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="jPzow0EbybA86HscfBpG-10" value="&lt;h1&gt;Conclusion&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Interpret the results, get conclusions, generate new ideas, communicate the results&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="860" width="240" height="320" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
