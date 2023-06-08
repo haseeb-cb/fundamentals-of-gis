@@ -40,6 +40,8 @@ We have a vector layer with the buildings in central Tampere, and a vector layer
 
 So, the tampere_buildings data is old and we need to update it – there are now new buildings, and an old building has been demolished. City mappers have various ways of updating the spatial databases. Some-times, maps are updated by new aerial imagery. Sometimes, they are updated based on building plans submitted to the city. And, sometimes they might be updated based on measurements carried out by surveyors. In this case, we are going to use an image from the city planning department and add it to our buildings layer, as well as remove some buildings that no longer exist.
 
+---
+
 ### Georeferencing the arena plans 
 
 5. In the downloaded data, there is a file - nokia_areena_plan.tif – that has been saved from a pdf file downloaded off the Tampere City website. It is a raster file, but it doesn’t have any spatial information associated with the grid cells or pixels. That means that QGIS doesn’t know where the raster is – it cannot project it onto a map. Luckily, there are methods for providing this information to QGIS. This process is called Georeferencing. Let’s now georeference this image. To open the georeferencer tool:
@@ -63,11 +65,16 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 7. When you are finished adding reference points, you can now perform the georeferencing calculation for the image (Figure 3).
 
-	- Press the *Settings* button on the Georeferencer menu, and set the Transformation type to Projective, set the Target SRS to the Project CRS, and give your Output Raster a name like arena_plan_modified. The Transformation type describes the type of mathematical algorithm used to modify (like rotate, twist, skew) the raster. Press OK
+	- Press the *Settings* button on the *Georeferencer* menu, and set the *Transformation type* to *Projective*, set the *Target SRS* to the *Project CRS*, and give your *Output Raster* a name like arena_plan_modified. The Transformation type describes the type of mathematical algorithm used to modify (like rotate, twist, skew) the raster. Press OK
 
 	- Press the Run arrow in the Georeferencer menu, and the georeferencing will start. It will show you the progress on the georeferencing.
 
 - Picture
+
+---
+
+### Editing the buildings layer
+
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJXcmFjeFYwYVZSSlI0SUp5Ijp7In
@@ -78,10 +85,10 @@ dlFUYVdYVHp2aUgiOnsic3RhcnQiOjY5OSwiZW5kIjo3MTIsIn
 RleHQiOiIjIyBDb21wbGV0aW9uIn0sIlc4UDdRWWZXWHJ2T1JG
 cmQiOnsic3RhcnQiOjE3OTcsImVuZCI6MTgwNCwidGV4dCI6Il
 BpY3R1cmUifSwiaUU3TmdBeFhnMGN6N3JDeSI6eyJzdGFydCI6
-NDk1MCwiZW5kIjo0OTU3LCJ0ZXh0IjoiUGljdHVyZSJ9LCJOZH
-pwUWZOM3FmOVdVQ0k0Ijp7InN0YXJ0Ijo1NTY0LCJlbmQiOjU1
-NzMsInRleHQiOiItIFBpY3R1cmUifSwicGxpQ3VQVkZqaEdTc3
-ZuUyI6eyJzdGFydCI6NTEwMSwiZW5kIjo1MTA5LCJ0ZXh0Ijoi
+NDk1NSwiZW5kIjo0OTYyLCJ0ZXh0IjoiUGljdHVyZSJ9LCJOZH
+pwUWZOM3FmOVdVQ0k0Ijp7InN0YXJ0Ijo1NTgxLCJlbmQiOjU1
+OTAsInRleHQiOiItIFBpY3R1cmUifSwicGxpQ3VQVkZqaEdTc3
+ZuUyI6eyJzdGFydCI6NTEwNiwiZW5kIjo1MTE0LCJ0ZXh0Ijoi
 U2V0dGluZ3MifX0sImNvbW1lbnRzIjp7Img3NjRtV0hiM0pZN3
 UxTk0iOnsiZGlzY3Vzc2lvbklkIjoiV3JhY3hWMGFWUkpSNElK
 eSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkNvbWUgYm
@@ -106,5 +113,5 @@ Y3JlYXRlZCI6MTY4NjIwNDg1NjMzN30sIlhwQW5KSGFhMHA4VF
 hoWE8iOnsiZGlzY3Vzc2lvbklkIjoicGxpQ3VQVkZqaEdTc3Zu
 UyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlBpY3R1cm
 UiLCJjcmVhdGVkIjoxNjg2MjA0OTE2NzcwfX0sImhpc3Rvcnki
-OlstOTI4MDExODY2LC0xNTk1NDg2NTc2XX0=
+OlstMTExMDA0ODc2LC0xNTk1NDg2NTc2XX0=
 -->
