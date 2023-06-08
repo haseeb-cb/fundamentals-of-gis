@@ -80,7 +80,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 ### Editing the buildings layer
 
 9. Let’s now remove a building from the buildings layer that no longer exists and add the arena and some surrounding buildings. This involves editing the tampere_buildings layer.
-10. You may need to enable the Digitizing Toolbar, which enables you to edit the vector files. To do this, choose View -> Toolbars and make sure Digitizing Toolbar is selected. 
+10. You may need to enable the *Digitizing Toolbar*, which enables you to edit the vector files. To do this, choose View -> Toolbars and make sure Digitizing Toolbar is selected. 
 11. Click on the tampere_buildings layer in the layers window to highlight it, then press the pencil symbol (toggle editing) in the Digitizing Toolbar. This turns editing on.
 
 
@@ -125,6 +125,6 @@ NDAzMDQ3ODgiLCJ0ZXh0IjoiUGljdHVyZSIsImNyZWF0ZWQiOj
 E2ODYyMDQ5MTY3NzB9LCJObVpJNkNvelp3ODVnc0MzIjp7ImRp
 c2N1c3Npb25JZCI6IlNEc1ZmcEJINkh4R083RUciLCJzdWIiOi
 JnaDo0MDMwNDc4OCIsInRleHQiOiJHaXRodWIiLCJjcmVhdGVk
-IjoxNjg2MjA1Mjc1MjQxfX0sImhpc3RvcnkiOlstNDIyOTkzNz
-MwLC0xNTk1NDg2NTc2XX0=
+IjoxNjg2MjA1Mjc1MjQxfX0sImhpc3RvcnkiOlstMTU0Njk1Mj
+kzMiwtMTU5NTQ4NjU3Nl19
 -->
