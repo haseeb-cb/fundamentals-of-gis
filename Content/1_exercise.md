@@ -34,6 +34,8 @@ It is good to be familiar with the area you will be working with in this exercis
 4. Take a moment to examine the data you added now, what is it about? What kind of attributes does the data have?
 	- Can you find the location of where the Nokia Arena is constructed? (hint: the coordinates are 328300 east, 6822050 north in the ETS89 / TM35FIN(E,N) coordinate system. Does the arena and new development exist in the tampere_buildings layer? What about in the Google satellite imagery?
 
+- Picture
+
 We have a vector layer with the buildings in central Tampere, and a vector layer showing the roads – both of which originally came from OpenStreetMap. This data is old – it shows the area before the development of the arena. In addition, we have a raster image file that shows the designs for the Arena, taken from a planning document. Unfortunately, this raster is not spatially referenced – there is no spatial information associated with each raster cell.
 
 So, the tampere_buildings data is old and we need to update it – there are now new buildings, and an old building has been demolished. City mappers have various ways of updating the spatial databases. Some-times, maps are updated by new aerial imagery. Sometimes, they are updated based on building plans submitted to the city. And, sometimes they might be updated based on measurements carried out by surveyors. In this case, we are going to use an image from the city planning department and add it to our buildings layer, as well as remove some buildings that no longer exist.
@@ -57,23 +59,35 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 	- Repeat this at least three more times in different locations, preferably well distributed across the map (Figure 2).
 
+- Picture
+
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJXcmFjeFYwYVZSSlI0SUp5Ijp7In
 N0YXJ0Ijo2NzMsImVuZCI6NjgzLCJ0ZXh0IjoiT2JqZWN0aXZl
 cyJ9LCJBR0NsRE1hanRLVkZGZ0x6Ijp7InN0YXJ0Ijo2ODUsIm
 VuZCI6Njk3LCJ0ZXh0IjoiIyMgRGF0YSB1c2VkIn0sIjB2TE9q
 dlFUYVdYVHp2aUgiOnsic3RhcnQiOjY5OSwiZW5kIjo3MTIsIn
-RleHQiOiIjIyBDb21wbGV0aW9uIn19LCJjb21tZW50cyI6eyJo
-NzY0bVdIYjNKWTd1MU5NIjp7ImRpc2N1c3Npb25JZCI6IldyYW
-N4VjBhVlJKUjRJSnkiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRl
-eHQiOiJDb21lIGJhY2sgdG8gdGhpcyBhZnRlciBmaW5pc2hpbm
-cgdGhlIGV4ZXJjaXNlIHBoYXNlIiwiY3JlYXRlZCI6MTY4NjIw
-MjMwMDA5MH0sIkFRaTZ1UFRJb1QyRzlDNVIiOnsiZGlzY3Vzc2
-lvbklkIjoiQUdDbERNYWp0S1ZGRmdMeiIsInN1YiI6ImdoOjQw
-MzA0Nzg4IiwidGV4dCI6IlNhbWUgYXMgYWJvdmUiLCJjcmVhdG
-VkIjoxNjg2MjAyMzIxNDEwfSwiTjlBNjZHMGkyUVFVRUc2biI6
-eyJkaXNjdXNzaW9uSWQiOiIwdkxPanZRVGFXWFR6dmlIIiwic3
-ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiU2FtZSBhcyBhYm92
-ZSIsImNyZWF0ZWQiOjE2ODYyMDIzMjk0ODJ9fSwiaGlzdG9yeS
-I6WzE3MzEyOTgzOTgsLTE1OTU0ODY1NzZdfQ==
+RleHQiOiIjIyBDb21wbGV0aW9uIn0sIlc4UDdRWWZXWHJ2T1JG
+cmQiOnsic3RhcnQiOjE3OTcsImVuZCI6MTgwNCwidGV4dCI6Il
+BpY3R1cmUifSwiaUU3TmdBeFhnMGN6N3JDeSI6eyJzdGFydCI6
+NDk1MCwiZW5kIjo0OTU3LCJ0ZXh0IjoiUGljdHVyZSJ9fSwiY2
+9tbWVudHMiOnsiaDc2NG1XSGIzSlk3dTFOTSI6eyJkaXNjdXNz
+aW9uSWQiOiJXcmFjeFYwYVZSSlI0SUp5Iiwic3ViIjoiZ2g6ND
+AzMDQ3ODgiLCJ0ZXh0IjoiQ29tZSBiYWNrIHRvIHRoaXMgYWZ0
+ZXIgZmluaXNoaW5nIHRoZSBleGVyY2lzZSBwaGFzZSIsImNyZW
+F0ZWQiOjE2ODYyMDIzMDAwOTB9LCJBUWk2dVBUSW9UMkc5QzVS
+Ijp7ImRpc2N1c3Npb25JZCI6IkFHQ2xETWFqdEtWRkZnTHoiLC
+JzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJTYW1lIGFzIGFi
+b3ZlIiwiY3JlYXRlZCI6MTY4NjIwMjMyMTQxMH0sIk45QTY2Rz
+BpMlFRVUVHNm4iOnsiZGlzY3Vzc2lvbklkIjoiMHZMT2p2UVRh
+V1hUenZpSCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Il
+NhbWUgYXMgYWJvdmUiLCJjcmVhdGVkIjoxNjg2MjAyMzI5NDgy
+fSwiallUaERzS2ZXTEFwVHBWWiI6eyJkaXNjdXNzaW9uSWQiOi
+JXOFA3UVlmV1hydk9SRnJkIiwic3ViIjoiZ2g6NDAzMDQ3ODgi
+LCJ0ZXh0IjoiR2l0aHViIiwiY3JlYXRlZCI6MTY4NjIwNDc1MT
+c3N30sImVzQW1ndHBHVVoxVUZGbE0iOnsiZGlzY3Vzc2lvbklk
+IjoiaUU3TmdBeFhnMGN6N3JDeSIsInN1YiI6ImdoOjQwMzA0Nz
+g4IiwidGV4dCI6IkdpdGh1YiIsImNyZWF0ZWQiOjE2ODYyMDQ3
+NjU1Nzl9fSwiaGlzdG9yeSI6WzEwMTY5NTQ0NzQsLTE1OTU0OD
+Y1NzZdfQ==
 -->
