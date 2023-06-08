@@ -20,8 +20,15 @@ Urban areas undergo continuous development, and maps need to be updated regularl
 
 ## Completion
 
-Work in pairs or individually. Complete the exercise and submit a short report containing at least the follo
-write a short reflection (200-300 words) containing at least the following:
+Work in pairs or individually. Complete the exercise and submit a short report containing at least the following:
+
+1. One map of the outcome of the exercise
+
+	- Remember: all maps should have a legend, a scale bar and a north arrow
+
+	- Use the tips from the Crash Course to improve your map
+
+2. A short reflection (200-300 words) containing at least the following:
 
 ## Exercise phases
 ### Getting familiar with the data
@@ -168,8 +175,8 @@ So, the tampere_buildings data is old and we need to update it – there are now
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyIwdkxPanZRVGFXWFR6dmlIIjp7In
 N0YXJ0Ijo2NzYsImVuZCI6Njg5LCJ0ZXh0IjoiIyMgQ29tcGxl
-dGlvbiJ9LCJXSDNXNms3aEs0Rk9LYWJqIjp7InN0YXJ0Ijo2OT
-UzLCJlbmQiOjcxMzcsInRleHQiOiIxMC4gWW91IG1heSBuZWVk
+dGlvbiJ9LCJXSDNXNms3aEs0Rk9LYWJqIjp7InN0YXJ0Ijo3MT
+MzLCJlbmQiOjczMTcsInRleHQiOiIxMC4gWW91IG1heSBuZWVk
 IHRvIGVuYWJsZSB0aGUgKkRpZ2l0aXppbmcgVG9vbGJhciosIH
 doaWNoIGVuYWJsZXMgeW91IHRvIGVkaXTigKYifSwia2RuODV2
 UGdsRFRHZVZ1eCI6eyJzdGFydCI6NjY1LCJlbmQiOjY3NCwidG
@@ -184,7 +191,7 @@ dGhlb3J5IiwiY3JlYXRlZCI6MTY4NjIwNTM5OTQwOX0sIll5Ul
 JlaDlOUlRKZGlvMUQiOnsiZGlzY3Vzc2lvbklkIjoia2RuODV2
 UGdsRFRHZVZ1eCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dC
 I6IkFzayBKb24gZm9yIHdoYXQgZGF0YSBoZSB1c2VkIiwiY3Jl
-YXRlZCI6MTY4NjIwODcyNjY4Mn19LCJoaXN0b3J5IjpbMTI5Nz
-cwMzc1NiwtMjE0NDEzOTk0NywxMzU3MDY5NjkwLC0xNTk1NDg2
+YXRlZCI6MTY4NjIwODcyNjY4Mn19LCJoaXN0b3J5IjpbMTY5Nj
+kxNTU1OSwtMjE0NDEzOTk0NywxMzU3MDY5NjkwLC0xNTk1NDg2
 NTc2XX0=
 -->
