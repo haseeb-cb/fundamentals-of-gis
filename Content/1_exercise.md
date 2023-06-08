@@ -41,15 +41,15 @@ So, the tampere_buildings data is old and we need to update it – there are now
 ### Georeferencing the arena plans 
 
 5. In the downloaded data, there is a file - nokia_areena_plan.tif – that has been saved from a pdf file downloaded off the Tampere City website. It is a raster file, but it doesn’t have any spatial information associated with the grid cells or pixels. That means that QGIS doesn’t know where the raster is – it cannot project it onto a map. Luckily, there are methods for providing this information to QGIS. This process is called Georeferencing. Let’s now georeference this image. To open the georeferencer tool:
-	- From the main window, choose Raster -> Georeferencer. This will open up the Georeferencer window
+	- From the main window, choose *Raster* -> *Georeferencer*. This will open up the *Georeferencer* window
 
-	- In the Georeferencer window, choose File -> Open Raster, and choose the nokia_areena_plan.tif from wherever you saved it. This will load the image into the Georeferencer window. Now, we can provide spatial data to ‘reference’ the image!
+	- In the *Georeferencer* window, choose *File* -> *Open Raster*, and choose the nokia_areena_plan.tif from the folder for this exercise. This will load the image into the *Georeferencer* window. Now, we can provide spatial data to ‘reference’ the image!
 
 6. Let’s do at least four reference points. The more locations, the more spread-out, and the more precise the better the georeferencing result will be. To Georeference: 
 
-	- Click an easily identifiable location point on the nokia_areena_plan.tiff in the Georeferencer window, such as the corner of an easily recognizable building. You can zoom in and out of the window to get a more precise location.
+	- Click an easily identifiable location point on the nokia_areena_plan.tiff in the *Georeferencer* window, such as the corner of an easily recognizable building. You can zoom in and out of the window to get a more precise location.
 	
-	- After clicking, it will bring up a dialog that says Enter Map Coordinates. You can enter them manually if you know what the coordinates of that location should be. But, it is much simpler to select From Map Canvas. This makes the Georeferencer Window disappear (don’t worry).
+	- After clicking, it will bring up a dialog that says *Enter Map Coordinates*. You can enter them manually if you know what the coordinates of that location should be. But, it is much simpler to select *From Map Canvas*. This makes the *Georeferencer* Window disappear (don’t worry).
 
 	- Next, click on the same easily identifiable location in the QGIS Map window. This tells the Georef-erencer that the coordinates of this location are the same as those at that location in the nokia_areena_plan.tiff
 
@@ -75,5 +75,5 @@ VkIjoxNjg2MjAyMzIxNDEwfSwiTjlBNjZHMGkyUVFVRUc2biI6
 eyJkaXNjdXNzaW9uSWQiOiIwdkxPanZRVGFXWFR6dmlIIiwic3
 ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiU2FtZSBhcyBhYm92
 ZSIsImNyZWF0ZWQiOjE2ODYyMDIzMjk0ODJ9fSwiaGlzdG9yeS
-I6Wy01NzU0OTE3MTUsLTE1OTU0ODY1NzZdfQ==
+I6WzE5MTEwMzk5MzgsLTE1OTU0ODY1NzZdfQ==
 -->
