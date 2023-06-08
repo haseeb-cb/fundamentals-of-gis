@@ -22,7 +22,9 @@ The learning objectives are:
 ## Exercise phases
 ### Getting familiar with the data
 1. Save the downloaded GIS data in an empty folder for this exercise
-We have a vector layer with the buildings in central Tampere, and a vector layer showing the roads – both of which originally came from OpenStreetMap. This data is old – it shows the area before the development of the arena. In addition, we have a raster image file that shows the designs for the Arena, taken from a planning document. Unfortunately, this raster is not spatially referenced – there is no spatial information associated with each raster cell.
+2. Open QGIS 
+
+	We have a vector layer with the buildings in central Tampere, and a vector layer showing the roads – both of which originally came from OpenStreetMap. This data is old – it shows the area before the development of the arena. In addition, we have a raster image file that shows the designs for the Arena, taken from a planning document. Unfortunately, this raster is not spatially referenced – there is no spatial information associated with each raster cell.
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJXcmFjeFYwYVZSSlI0SUp5Ijp7In
@@ -42,6 +44,6 @@ VkIjoxNjg2MjAyMzIxNDEwfSwiTjlBNjZHMGkyUVFVRUc2biI6
 eyJkaXNjdXNzaW9uSWQiOiIwdkxPanZRVGFXWFR6dmlIIiwic3
 ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiU2FtZSBhcyBhYm92
 ZSIsImNyZWF0ZWQiOjE2ODYyMDIzMjk0ODJ9fSwiaGlzdG9yeS
-I6Wy05NDc4NjAzMDcsLTIxNDkzNzIzMSwxMTQ0MzA2OTEwXX0=
+I6WzEzOTk0NTk2ODUsLTIxNDkzNzIzMSwxMTQ0MzA2OTEwXX0=
 
 -->
