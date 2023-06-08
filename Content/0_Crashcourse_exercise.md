@@ -207,7 +207,7 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 	- *Discard records which could not be joined*: Yes
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_join_attributes_by_location1.png)
 	5. Click *Run*
-	6. A new temporary layer, Joined Layer, was created in the *Layers Panel* and by opening its *attribute table* you should see it’s similar to the Helsinki_small_areas attribute table, but with a new field, "Boardings_sum", which is the sum of all the passengers from every bus and train stop within that particular small area of Helsinki.
+	6. A new temporary layer, Joined Layer, was created in the *Layers Panel* and by opening its *attribute table* you should see it’s similar to the Helsinki_small_areas *attribute table, but with a new field, "Boardings_sum", which is the sum of all the passengers from every bus and train stop within that particular small area of Helsinki.
 	7. Right-click the Joined Layer and select *Make permanent* to save the temporary scratch layer for further processing
 	- Temporary layers will be lost when closing QGIS and are best not used for further processing
 	8. Save the joined layer as ESRI Shapefile, with a sensible name (for example "Helsinki_small_areas_HSL.shp"), and within the folder for your project you made earlier
@@ -269,7 +269,7 @@ fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6ODk5MCwiZW
 5kIjo5Mjk3LCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
 bGwgZG93bmxvYWRlZCBmcm9tIFBhSVR1bGkgYW5kIEhlbHNpbm
 tpIFJlZ2lvbiBJbmZvc2hhcmUgZOKApiJ9LCJQUVhKa1N0WTJn
-c3V2ejVEIjp7InN0YXJ0IjoyMTQ3NSwiZW5kIjoyMTQ5OSwidG
+c3V2ejVEIjp7InN0YXJ0IjoyMTQ3NiwiZW5kIjoyMTUwMCwidG
 V4dCI6Ii0gTGF5b3V0IG1hbmFnZXIgcGljdHVyZSJ9LCJ5bmg1
 Ym9RaU9NVGlsWk1XIjp7InN0YXJ0Ijo4MywiZW5kIjoyMDEsIn
 RleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dHBzOi8vcmF3Lmdp
@@ -319,6 +319,6 @@ dG9vbGJhcnMiLCJjcmVhdGVkIjoxNjg2MTE0MTc0NzcxfSwiej
 B3ZXRCNHVjM1BhZko3NSI6eyJkaXNjdXNzaW9uSWQiOiJENHc5
 OWpOT2Zzb3A1akdEIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZX
 h0IjoiRXhwbGFpbiB3aHkgeW91IHdhbnQgdG8gZG8gdGhpcyIs
-ImNyZWF0ZWQiOjE2ODYxMTQyMjIwNjd9fSwiaGlzdG9yeSI6Wy
-01NDI4MDQ1NjZdfQ==
+ImNyZWF0ZWQiOjE2ODYxMTQyMjIwNjd9fSwiaGlzdG9yeSI6Wz
+M0MzM2NDU2OF19
 -->
