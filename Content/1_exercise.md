@@ -120,7 +120,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 	- Under *Additional Dimensions*, set the coordinate system to be ETS89 / TM35FIN(E,N) so that it is in the same coordinate system as the other layers
 
-	- When creating a new layer, you can specify what fields you want to be included in the attributes. There is a default field called ID already. Create a new field. Under *Name* write "road_locat". This will contain the road name 
+	- When creating a new layer, you can specify what fields you want to be included in the attributes. There is a default field called ID already. Create a new field. Under *Name* write "road_locat". This will contain the name of the road where the bus stop is located. 
 
 	- Under *Type*, make it *Text Data*
 
@@ -129,6 +129,13 @@ So, the tampere_buildings data is old and we need to update it – there are now
 	- Press OK
 
 16. We have now created a new layer, but it is empty – there is nothing in it yet. Now, we can edit the new tam-pere_bus_stops layer we have created to add a location and road name. This happens in a similar way to how we edited the buildings layer, but we are also going to use the identify features tool to find out the name of the roads where each bus stop is located and add it to the tampere_bus_stops attribute table as we add points.
+	- Select tampere_bus_stops in the layers panel
+	- Toggle *Editing* on in the *Digitization Toolbar*
+	- Find a red point on the georeferenced raster. Make sure the tampere_roads layer is selected in the layers panel. Using the Identify features tool, click on a line feature in the tampere_roads layers where is the bus stop is located and scroll through the attributes until you find the name of the road
+d. Next, select the tampere_bus_stops layer. Choose Add Point Feature from the Digitization Toolbar. You don’t need to close the Identify features window to do this.
+e. Click in the on the red dot in the georeferenced raster. This will add a point, and prompt you to add attributes for the fields. In ID enter numbers (1 for the first point, 2 for the second…) and the name of the road in road_locat. Press OK.
+f. Repeat this for each bus stop.
+g. Save the Edits in the Digitization Toolbar
 
 	
 
@@ -201,5 +208,5 @@ IiLCJjcmVhdGVkIjoxNjg2MjA1NzcyMTE0fSwiSmM3MWhkQk5x
 ZnU4VUVHUSI6eyJkaXNjdXNzaW9uSWQiOiJOMENaRkU0VlllNn
 owZ0FQIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoicGlj
 dHVyZSIsImNyZWF0ZWQiOjE2ODYyMDU4NzQ2NDJ9fSwiaGlzdG
-9yeSI6Wy0yMDY4MTE0MzQyLC0xNTk1NDg2NTc2XX0=
+9yeSI6WzE2MTgyNzI3MzksLTE1OTU0ODY1NzZdfQ==
 -->
