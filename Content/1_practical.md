@@ -2,9 +2,9 @@
 
 # Exercise 1: Introduction continuation
 
-## 
+## Overview & Purp
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NDMwNjkxMF19
+eyJoaXN0b3J5IjpbMTEwMTUzODQ3NCwxMTQ0MzA2OTEwXX0=
 -->
