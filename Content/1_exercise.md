@@ -118,11 +118,14 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 	- Set the Geometry type to be Point
 
-	- Under Additional Dimensions, set the coordinate system to be ETS89 / TM35FIN(E,N) so that it is in the same 
-	- coordinate system as the other layers
+	- Under Additional Dimensions, set the coordinate system to be ETS89 / TM35FIN(E,N) so that it is in the same coordinate system as the other layers
+
 	- When creating a new layer, you can specify what fields you want to be included in the attributes. There is a default field called ID already. Create a new field. Under Name write road_locat
+
 	- Under Type, make it Text Data
+
 	- Press Add to Fields List, and it will appear in the list of fields to be created
+
 	- Press OK
 
 	
@@ -196,5 +199,5 @@ IiLCJjcmVhdGVkIjoxNjg2MjA1NzcyMTE0fSwiSmM3MWhkQk5x
 ZnU4VUVHUSI6eyJkaXNjdXNzaW9uSWQiOiJOMENaRkU0VlllNn
 owZ0FQIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoicGlj
 dHVyZSIsImNyZWF0ZWQiOjE2ODYyMDU4NzQ2NDJ9fSwiaGlzdG
-9yeSI6WzE0MzQzMTU3NywtMTU5NTQ4NjU3Nl19
+9yeSI6Wy0xNTQ3NzI5MDMyLC0xNTk1NDg2NTc2XX0=
 -->
