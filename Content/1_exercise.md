@@ -105,7 +105,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 	
 	- When you are finished adding the new buildings, press the *Save* symbol in the Digitizing Toolbar.
 
-
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/Exercise1_figure8.png)
 
 ---
 
@@ -130,6 +130,8 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 	- Press OK
 
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/Exercise1_figure9.png)
+
 16. We have now created a new layer, but it is empty – there is nothing in it yet. Now, we can edit the new tam-pere_bus_stops layer we have created to add a location and road name. This happens in a similar way to how we edited the buildings layer, but we are also going to use the identify features tool to find out the name of the roads where each bus stop is located and add it to the tampere_bus_stops attribute table as we add points.
 
 	- Select tampere_bus_stops in the layers panel
@@ -148,7 +150,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 	- *Save the Edits* in the Digitization Toolbar and toggle off *editing*.
 
-- Picture
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/Exercise1_figure10.png)
 
 ---
 
@@ -174,35 +176,30 @@ Kiwgd2hpY2ggZW5hYmxlcyB5b3UgdG8gZWRpdOKApiJ9LCJMOU
 NuTGFEWW5VcnE0bERHIjp7InN0YXJ0Ijo3MzY0LCJlbmQiOjcz
 NzAsInRleHQiOiJTZWxlY3QifSwiTjBDWkZFNFZZZTZ6MGdBUC
 I6eyJzdGFydCI6ODMwNSwiZW5kIjo4MzA5LCJ0ZXh0IjoiU2F2
-ZSJ9LCJ0NGJMMHN3VGNPcDdIYTFpIjp7InN0YXJ0IjoxMTAzNi
-wiZW5kIjoxMTA0MywidGV4dCI6IlBpY3R1cmUifX0sImNvbW1l
-bnRzIjp7Img3NjRtV0hiM0pZN3UxTk0iOnsiZGlzY3Vzc2lvbk
-lkIjoiV3JhY3hWMGFWUkpSNElKeSIsInN1YiI6ImdoOjQwMzA0
-Nzg4IiwidGV4dCI6IkNvbWUgYmFjayB0byB0aGlzIGFmdGVyIG
-ZpbmlzaGluZyB0aGUgZXhlcmNpc2UgcGhhc2UiLCJjcmVhdGVk
-IjoxNjg2MjAyMzAwMDkwfSwiQVFpNnVQVElvVDJHOUM1UiI6ey
-JkaXNjdXNzaW9uSWQiOiJBR0NsRE1hanRLVkZGZ0x6Iiwic3Vi
-IjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiU2FtZSBhcyBhYm92ZS
-IsImNyZWF0ZWQiOjE2ODYyMDIzMjE0MTB9LCJOOUE2NkcwaTJR
-UVVFRzZuIjp7ImRpc2N1c3Npb25JZCI6IjB2TE9qdlFUYVdYVH
-p2aUgiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJTYW1l
-IGFzIGFib3ZlIiwiY3JlYXRlZCI6MTY4NjIwMjMyOTQ4Mn0sIl
-hwQW5KSGFhMHA4VFhoWE8iOnsiZGlzY3Vzc2lvbklkIjoicGxp
-Q3VQVkZqaEdTc3ZuUyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidG
-V4dCI6IlBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2MjA0OTE2Nzcw
-fSwiaEJkOHZvVUFiWW9hS0VsQSI6eyJkaXNjdXNzaW9uSWQiOi
-JXSDNXNms3aEs0Rk9LYWJqIiwic3ViIjoiZ2g6NDAzMDQ3ODgi
-LCJ0ZXh0IjoiQWRkIGludHJvZHVjdGlvbiB0byB0aGlzIGluIH
-RoZW9yeSIsImNyZWF0ZWQiOjE2ODYyMDUzOTk0MDl9LCJzclpI
-Yms5S1psZHBBU3QwIjp7ImRpc2N1c3Npb25JZCI6Ikw5Q25MYU
-RZblVycTRsREciLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQi
-OiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYyMDU3NDQ2Nz
-R9LCJKYzcxaGRCTnFmdThVRUdRIjp7ImRpc2N1c3Npb25JZCI6
-Ik4wQ1pGRTRWWWU2ejBnQVAiLCJzdWIiOiJnaDo0MDMwNDc4OC
-IsInRleHQiOiJwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NjIwNTg3
-NDY0Mn0sIlZnS1czV3E4VjdGU0xaeEwiOnsiZGlzY3Vzc2lvbk
-lkIjoidDRiTDBzd1RjT3A3SGExaSIsInN1YiI6ImdoOjQwMzA0
-Nzg4IiwidGV4dCI6IkdpdGh1YiIsImNyZWF0ZWQiOjE2ODYyMD
-Y2NzcwNzV9fSwiaGlzdG9yeSI6WzE4ODY1MTc0MzgsMTM1NzA2
-OTY5MCwtMTU5NTQ4NjU3Nl19
+ZSJ9fSwiY29tbWVudHMiOnsiaDc2NG1XSGIzSlk3dTFOTSI6ey
+JkaXNjdXNzaW9uSWQiOiJXcmFjeFYwYVZSSlI0SUp5Iiwic3Vi
+IjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQ29tZSBiYWNrIHRvIH
+RoaXMgYWZ0ZXIgZmluaXNoaW5nIHRoZSBleGVyY2lzZSBwaGFz
+ZSIsImNyZWF0ZWQiOjE2ODYyMDIzMDAwOTB9LCJBUWk2dVBUSW
+9UMkc5QzVSIjp7ImRpc2N1c3Npb25JZCI6IkFHQ2xETWFqdEtW
+RkZnTHoiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJTYW
+1lIGFzIGFib3ZlIiwiY3JlYXRlZCI6MTY4NjIwMjMyMTQxMH0s
+Ik45QTY2RzBpMlFRVUVHNm4iOnsiZGlzY3Vzc2lvbklkIjoiMH
+ZMT2p2UVRhV1hUenZpSCIsInN1YiI6ImdoOjQwMzA0Nzg4Iiwi
+dGV4dCI6IlNhbWUgYXMgYWJvdmUiLCJjcmVhdGVkIjoxNjg2Mj
+AyMzI5NDgyfSwiWHBBbkpIYWEwcDhUWGhYTyI6eyJkaXNjdXNz
+aW9uSWQiOiJwbGlDdVBWRmpoR1Nzdm5TIiwic3ViIjoiZ2g6ND
+AzMDQ3ODgiLCJ0ZXh0IjoiUGljdHVyZSIsImNyZWF0ZWQiOjE2
+ODYyMDQ5MTY3NzB9LCJoQmQ4dm9VQWJZb2FLRWxBIjp7ImRpc2
+N1c3Npb25JZCI6IldIM1c2azdoSzRGT0thYmoiLCJzdWIiOiJn
+aDo0MDMwNDc4OCIsInRleHQiOiJBZGQgaW50cm9kdWN0aW9uIH
+RvIHRoaXMgaW4gdGhlb3J5IiwiY3JlYXRlZCI6MTY4NjIwNTM5
+OTQwOX0sInNyWkhiazlLWmxkcEFTdDAiOnsiZGlzY3Vzc2lvbk
+lkIjoiTDlDbkxhRFluVXJxNGxERyIsInN1YiI6ImdoOjQwMzA0
+Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MT
+Y4NjIwNTc0NDY3NH0sIkpjNzFoZEJOcWZ1OFVFR1EiOnsiZGlz
+Y3Vzc2lvbklkIjoiTjBDWkZFNFZZZTZ6MGdBUCIsInN1YiI6Im
+doOjQwMzA0Nzg4IiwidGV4dCI6InBpY3R1cmUiLCJjcmVhdGVk
+IjoxNjg2MjA1ODc0NjQyfX0sImhpc3RvcnkiOls2ODc2Nzc3OD
+gsMTM1NzA2OTY5MCwtMTU5NTQ4NjU3Nl19
 -->
