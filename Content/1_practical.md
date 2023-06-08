@@ -21,7 +21,8 @@ The learning objectives are:
 
 ## Exercise phases
 
-1. Save the downloaded GIS data in an empty folder for this exercise
+1. Create an empty folder for this exercise and save the 
+2. Save the downloaded GIS data in an empty folder for this exercise
 We have a vector layer with the buildings in central Tampere, and a vector layer showing the roads – both of which originally came from OpenStreetMap. This data is old – it shows the area before the development of the arena. In addition, we have a raster image file that shows the designs for the Arena, taken from a planning document. Unfortunately, this raster is not spatially referenced – there is no spatial information associated with each raster cell.
 
 <!--stackedit_data:
@@ -42,6 +43,6 @@ VkIjoxNjg2MjAyMzIxNDEwfSwiTjlBNjZHMGkyUVFVRUc2biI6
 eyJkaXNjdXNzaW9uSWQiOiIwdkxPanZRVGFXWFR6dmlIIiwic3
 ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiU2FtZSBhcyBhYm92
 ZSIsImNyZWF0ZWQiOjE2ODYyMDIzMjk0ODJ9fSwiaGlzdG9yeS
-I6Wy0xNDE5NzQxNDQyLC0yMTQ5MzcyMzEsMTE0NDMwNjkxMF19
+I6Wy01OTU4MzA5ODQsLTIxNDkzNzIzMSwxMTQ0MzA2OTEwXX0=
 
 -->
