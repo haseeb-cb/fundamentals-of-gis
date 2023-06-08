@@ -95,7 +95,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 	- Press *Delete* on your keyboard. The building is now deleted.
 
-
+![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/Exercise1_figure6.png)
 
 13. Now, let’s add some new buildings to the layer.
 	
@@ -104,6 +104,8 @@ So, the tampere_buildings data is old and we need to update it – there are now
 	- Click around the corners of the raster drawing of the new buildings, gradually drawing a new polygon in the tampere_buildings layer. When you are finished, right-click and the polygon will close. You then get the opportunity to add new Attributes. Add attributes if you want (such as the name of the stadium), then press OK.
 	
 	- When you are finished adding the new buildings, press the *Save* symbol in the Digitizing Toolbar.
+
+
 
 ---
 
@@ -171,9 +173,9 @@ OjY2NjksImVuZCI6Njg1MywidGV4dCI6IjEwLiBZb3UgbWF5IG
 Kiwgd2hpY2ggZW5hYmxlcyB5b3UgdG8gZWRpdOKApiJ9LCJMOU
 NuTGFEWW5VcnE0bERHIjp7InN0YXJ0Ijo3MzY0LCJlbmQiOjcz
 NzAsInRleHQiOiJTZWxlY3QifSwiTjBDWkZFNFZZZTZ6MGdBUC
-I6eyJzdGFydCI6ODE2NSwiZW5kIjo4MTY5LCJ0ZXh0IjoiU2F2
-ZSJ9LCJ0NGJMMHN3VGNPcDdIYTFpIjp7InN0YXJ0IjoxMDg5NC
-wiZW5kIjoxMDkwMSwidGV4dCI6IlBpY3R1cmUifX0sImNvbW1l
+I6eyJzdGFydCI6ODMwNSwiZW5kIjo4MzA5LCJ0ZXh0IjoiU2F2
+ZSJ9LCJ0NGJMMHN3VGNPcDdIYTFpIjp7InN0YXJ0IjoxMTAzNi
+wiZW5kIjoxMTA0MywidGV4dCI6IlBpY3R1cmUifX0sImNvbW1l
 bnRzIjp7Img3NjRtV0hiM0pZN3UxTk0iOnsiZGlzY3Vzc2lvbk
 lkIjoiV3JhY3hWMGFWUkpSNElKeSIsInN1YiI6ImdoOjQwMzA0
 Nzg4IiwidGV4dCI6IkNvbWUgYmFjayB0byB0aGlzIGFmdGVyIG
@@ -201,6 +203,6 @@ IsInRleHQiOiJwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NjIwNTg3
 NDY0Mn0sIlZnS1czV3E4VjdGU0xaeEwiOnsiZGlzY3Vzc2lvbk
 lkIjoidDRiTDBzd1RjT3A3SGExaSIsInN1YiI6ImdoOjQwMzA0
 Nzg4IiwidGV4dCI6IkdpdGh1YiIsImNyZWF0ZWQiOjE2ODYyMD
-Y2NzcwNzV9fSwiaGlzdG9yeSI6WzEwODY2MzIxODYsMTM1NzA2
+Y2NzcwNzV9fSwiaGlzdG9yeSI6WzE4ODY1MTc0MzgsMTM1NzA2
 OTY5MCwtMTU5NTQ4NjU3Nl19
 -->
