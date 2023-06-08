@@ -31,7 +31,9 @@ It is good to be familiar with the area you will be working with in this exercis
 4. Take a moment to examine the data you added now, what is it about? What kind of attributes does the data have?
 	- Can you find the location of where the Nokia Arena is constructed? (hint: the coordinates are 328300 east, 6822050 north in the ETS89 / TM35FIN(E,N) coordinate system. Does the arena and new development exist in the tampere_buildings layer? What about in the Google satellite imagery?
 
-	We have a vector layer with the buildings in central Tampere, and a vector layer showing the roads – both of which originally came from OpenStreetMap. This data is old – it shows the area before the development of the arena. In addition, we have a raster image file that shows the designs for the Arena, taken from a planning document. Unfortunately, this raster is not spatially referenced – there is no spatial information associated with each raster cell.
+We have a vector layer with the buildings in central Tampere, and a vector layer showing the roads – both of which originally came from OpenStreetMap. This data is old – it shows the area before the development of the arena. In addition, we have a raster image file that shows the designs for the Arena, taken from a planning document. Unfortunately, this raster is not spatially referenced – there is no spatial information associated with each raster cell.
+
+So, the tampere_buildings data is old and we need to update it – there are now new buildings, and an old building has been demolished. City mappers have various ways of updating the spatial databases. Some-times, maps are updated by new aerial imagery. Sometimes, they are updated based on building plans submitted to the city. And, sometimes they might be updated based on measurements carried out by surveyors. In this case, we are going to use an image from the city planning department and add it to our buildings layer, as well as remove some buildings that no longer exist.
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJXcmFjeFYwYVZSSlI0SUp5Ijp7In
@@ -51,5 +53,5 @@ VkIjoxNjg2MjAyMzIxNDEwfSwiTjlBNjZHMGkyUVFVRUc2biI6
 eyJkaXNjdXNzaW9uSWQiOiIwdkxPanZRVGFXWFR6dmlIIiwic3
 ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiU2FtZSBhcyBhYm92
 ZSIsImNyZWF0ZWQiOjE2ODYyMDIzMjk0ODJ9fSwiaGlzdG9yeS
-I6Wzg2NTY0Mzc0NV19
+I6WzE1Nzc5NDQwMjZdfQ==
 -->
