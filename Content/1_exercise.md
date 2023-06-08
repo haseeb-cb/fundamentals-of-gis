@@ -114,19 +114,21 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 	- On the menu, choose *Layer* -> *Create Layer* -> *New Shapefile Layer*
 
-	- Give the new layer an informative filename, like tampere_bus_stops
+	- Give the new layer an informative filename, like "tampere_bus_stops"
 
 	- Set the *Geometry type* to be *Point*
 
 	- Under *Additional Dimensions*, set the coordinate system to be ETS89 / TM35FIN(E,N) so that it is in the same coordinate system as the other layers
 
-	- When creating a new layer, you can specify what fields you want to be included in the attributes. There is a default field called ID already. Create a new field. Under Name write road_locat
+	- When creating a new layer, you can specify what fields you want to be included in the attributes. There is a default field called ID already. Create a new field. Under *Name* write "road_locat". This will contain the road name 
 
-	- Under Type, make it Text Data
+	- Under *Type*, make it *Text Data*
 
-	- Press Add to Fields List, and it will appear in the list of fields to be created
+	- Press *Add to Fields List*, and it will appear in the list of fields to be created
 
 	- Press OK
+
+16. We have now created a new layer, but it is empty – there is nothing in it yet. Now, we can edit the new tam-pere_bus_stops layer we have created to add a location and road name. This happens in a similar way to how we edited the buildings layer, but we are also going to use the identify features tool to find out the name of the roads where each bus stop is located and add it to the tampere_bus_stops attribute table as we add points.
 
 	
 
@@ -199,5 +201,5 @@ IiLCJjcmVhdGVkIjoxNjg2MjA1NzcyMTE0fSwiSmM3MWhkQk5x
 ZnU4VUVHUSI6eyJkaXNjdXNzaW9uSWQiOiJOMENaRkU0VlllNn
 owZ0FQIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoicGlj
 dHVyZSIsImNyZWF0ZWQiOjE2ODYyMDU4NzQ2NDJ9fSwiaGlzdG
-9yeSI6Wy0yMjA0NzIyOTMsLTE1OTU0ODY1NzZdfQ==
+9yeSI6Wy0yMDY4MTE0MzQyLC0xNTk1NDg2NTc2XX0=
 -->
