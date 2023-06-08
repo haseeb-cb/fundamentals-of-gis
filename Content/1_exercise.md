@@ -37,7 +37,9 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 ### Georeferencing the arena plans 
 
-
+5. In the downloaded data, there is a file - nokia_areena_plan.tif – that has been saved from a pdf file downloaded off the Tampere City website. It is a raster file, but it doesn’t have any spatial information associated with the grid cells or pixels. That means that QGIS doesn’t know where the raster is – it cannot project it onto a map. Luckily, there are methods for providing this information to QGIS. This process is called Georeferencing. Let’s now georeference this image. To open the georeferencer tool:
+	- From the main menu, choose Raster -> Georeferencer. This will open up the Georeferencer window
+	- In the Georeferencer window, choose File -> Open Raster, and choose the nokia_areena_plan.tif from wherever you saved it. This will load the image into the Georeferencer window. Now, we can provide spatial data to ‘reference’ the image!
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJXcmFjeFYwYVZSSlI0SUp5Ijp7In
 N0YXJ0Ijo2NzMsImVuZCI6NjgzLCJ0ZXh0IjoiT2JqZWN0aXZl
@@ -56,5 +58,5 @@ VkIjoxNjg2MjAyMzIxNDEwfSwiTjlBNjZHMGkyUVFVRUc2biI6
 eyJkaXNjdXNzaW9uSWQiOiIwdkxPanZRVGFXWFR6dmlIIiwic3
 ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiU2FtZSBhcyBhYm92
 ZSIsImNyZWF0ZWQiOjE2ODYyMDIzMjk0ODJ9fSwiaGlzdG9yeS
-I6WzIwNzQzMTA4NDYsLTE1OTU0ODY1NzZdfQ==
+I6Wy0yMDI3NTk1MjI5LC0xNTk1NDg2NTc2XX0=
 -->
