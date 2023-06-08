@@ -71,9 +71,15 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 - Picture
 
+9. Once the calculation is complete, close the Georeferencer window (there is no need to save the GCP Points). There should be a new raster saved that has been georeferenced, but you may need to add it to your QGIS map now. You can drag it below the building, road, and railway layers to see how it fits (Figure 4). Now would be a good time to save your QGIS project again.
+
 ---
 
 ### Editing the buildings layer
+
+10. Let’s now remove a building from the buildings layer that no longer exists and add the arena and some sur-rounding buildings. This involves editing the tampere_buildings layer.
+11. You may need to enable the Digitizing Toolbar, which enables you to edit the vector files. To do this, choose View -> Toolbars and make sure Digitizing Toolbar is selected. 
+12. 12. Click on the tampere_buildings layer in the layers window to highlight it, then press the pencil symbol (toggle editing) in the Digitizing Toolbar. This turns editing on.
 
 
 <!--stackedit_data:
@@ -113,5 +119,5 @@ Y3JlYXRlZCI6MTY4NjIwNDg1NjMzN30sIlhwQW5KSGFhMHA4VF
 hoWE8iOnsiZGlzY3Vzc2lvbklkIjoicGxpQ3VQVkZqaEdTc3Zu
 UyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlBpY3R1cm
 UiLCJjcmVhdGVkIjoxNjg2MjA0OTE2NzcwfX0sImhpc3Rvcnki
-OlstMTc0MzQ4MTI0MCwtMTU5NTQ4NjU3Nl19
+OlstMTIzODk3NTIxNiwtMTU5NTQ4NjU3Nl19
 -->
