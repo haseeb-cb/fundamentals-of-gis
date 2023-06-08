@@ -44,7 +44,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 ### Georeferencing the arena plans 
 
-5. In the downloaded data, there is a file - nokia_areena_plan.tif – that has been saved from a pdf file downloaded off the Tampere City website. It is a raster file, but it doesn’t have any spatial information associated with the grid cells or pixels. That means that QGIS doesn’t know where the raster is – it cannot project it onto a map. Luckily, there are methods for providing this information to QGIS. This process is called Georeferencing. Let’s now georeference this image. To open the georeferencer tool:
+5. In the downloaded data, there is a file - nokia_areena_plan.tif – that has been saved from a pdf file downloaded off the Tampere City website. It is a raster file, but it doesn’t have any spatial information associated with the grid cells or pixels. That means that QGIS doesn’t know where the raster is – it cannot project it onto a map. Luckily, there are methods for providing this information to QGIS. This process is called Georeferencing. Let’s now **georeference this image**. To open the georeferencer tool:
 	- From the main window, choose *Raster* -> *Georeferencer*. This will open up the *Georeferencer* window
 
 	- In the *Georeferencer* window, choose *File* -> *Open Raster*, and choose the nokia_areena_plan.tif from the folder for this exercise. This will load the image into the *Georeferencer* window. Now, we can provide spatial data to ‘reference’ the image!
@@ -79,7 +79,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 ### Editing the buildings layer
 
-9. Let’s now remove a building from the buildings layer that no longer exists and add the arena and some surrounding buildings. This involves editing the tampere_buildings layer.
+9. Let’s now **remove a building from the buildings layer that no longer exists and add the arena and some surrounding buildings**. This involves editing the tampere_buildings layer.
 
 10. You may need to enable the *Digitizing Toolbar*, which enables you to edit the vector files. To do this, choose *View* -> *Toolbars* and make sure *Digitizing Toolbar* is selected. 
 
@@ -97,7 +97,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 - Picture
 
-14. Now, let’s add some new buildings to the layer.
+13. Now, let’s add some new buildings to the layer.
 	
 	- Select the *Add Polygon Feature* in the *Digitizing Toolbar* (Figure 7).
 	
@@ -108,6 +108,8 @@ So, the tampere_buildings data is old and we need to update it – there are now
 ---
 
 ### Bus stops
+14. Now, let’s **create a new layer with bus stops around the arena**. These are marked in red in the arena_plan_modified.tiff. GIS data on bus stops will be available from Tampere City or OSM, but here we will make our own layer to practice how this is done.
+
 	
 
 
@@ -120,22 +122,22 @@ dlFUYVdYVHp2aUgiOnsic3RhcnQiOjY5OSwiZW5kIjo3MTIsIn
 RleHQiOiIjIyBDb21wbGV0aW9uIn0sIlc4UDdRWWZXWHJ2T1JG
 cmQiOnsic3RhcnQiOjE3OTcsImVuZCI6MTgwNCwidGV4dCI6Il
 BpY3R1cmUifSwiaUU3TmdBeFhnMGN6N3JDeSI6eyJzdGFydCI6
-NDk1NSwiZW5kIjo0OTYyLCJ0ZXh0IjoiUGljdHVyZSJ9LCJOZH
-pwUWZOM3FmOVdVQ0k0Ijp7InN0YXJ0Ijo1NjAyLCJlbmQiOjU2
-MTEsInRleHQiOiItIFBpY3R1cmUifSwicGxpQ3VQVkZqaEdTc3
-ZuUyI6eyJzdGFydCI6NTEwNiwiZW5kIjo1MTE0LCJ0ZXh0Ijoi
+NDk1OSwiZW5kIjo0OTY2LCJ0ZXh0IjoiUGljdHVyZSJ9LCJOZH
+pwUWZOM3FmOVdVQ0k0Ijp7InN0YXJ0Ijo1NjA2LCJlbmQiOjU2
+MTUsInRleHQiOiItIFBpY3R1cmUifSwicGxpQ3VQVkZqaEdTc3
+ZuUyI6eyJzdGFydCI6NTExMCwiZW5kIjo1MTE4LCJ0ZXh0Ijoi
 U2V0dGluZ3MifSwiU0RzVmZwQkg2SHhHTzdFRyI6eyJzdGFydC
-I6NTk5MiwiZW5kIjo1OTk5LCJ0ZXh0IjoiUGljdHVyZSJ9LCJX
-SDNXNms3aEs0Rk9LYWJqIjp7InN0YXJ0Ijo2MjE5LCJlbmQiOj
-Y0MDMsInRleHQiOiIxMC4gWW91IG1heSBuZWVkIHRvIGVuYWJs
+I6NTk5NiwiZW5kIjo2MDAzLCJ0ZXh0IjoiUGljdHVyZSJ9LCJX
+SDNXNms3aEs0Rk9LYWJqIjp7InN0YXJ0Ijo2MjI3LCJlbmQiOj
+Y0MTEsInRleHQiOiIxMC4gWW91IG1heSBuZWVkIHRvIGVuYWJs
 ZSB0aGUgKkRpZ2l0aXppbmcgVG9vbGJhciosIHdoaWNoIGVuYW
 JsZXMgeW91IHRvIGVkaXTigKYifSwiRU9zYVZMR3FpWEE2aUdG
-VyI6eyJzdGFydCI6NjYwOCwiZW5kIjo2NjE1LCJ0ZXh0IjoiUG
+VyI6eyJzdGFydCI6NjYxNiwiZW5kIjo2NjIzLCJ0ZXh0IjoiUG
 ljdHVyZSJ9LCJMOUNuTGFEWW5VcnE0bERHIjp7InN0YXJ0Ijo2
-NzgzLCJlbmQiOjY3ODksInRleHQiOiJTZWxlY3QifSwiU1Q0Yk
-hCdlUzSEkzU05XRyI6eyJzdGFydCI6NzA2MCwiZW5kIjo3MDY3
+NzkxLCJlbmQiOjY3OTcsInRleHQiOiJTZWxlY3QifSwiU1Q0Yk
+hCdlUzSEkzU05XRyI6eyJzdGFydCI6NzA2OCwiZW5kIjo3MDc1
 LCJ0ZXh0IjoiUGljdHVyZSJ9LCJOMENaRkU0VlllNnowZ0FQIj
-p7InN0YXJ0Ijo3NTkzLCJlbmQiOjc1OTcsInRleHQiOiJTYXZl
+p7InN0YXJ0Ijo3NjAxLCJlbmQiOjc2MDUsInRleHQiOiJTYXZl
 In19LCJjb21tZW50cyI6eyJoNzY0bVdIYjNKWTd1MU5NIjp7Im
 Rpc2N1c3Npb25JZCI6IldyYWN4VjBhVlJKUjRJSnkiLCJzdWIi
 OiJnaDo0MDMwNDc4OCIsInRleHQiOiJDb21lIGJhY2sgdG8gdG
@@ -179,5 +181,5 @@ IiLCJjcmVhdGVkIjoxNjg2MjA1NzcyMTE0fSwiSmM3MWhkQk5x
 ZnU4VUVHUSI6eyJkaXNjdXNzaW9uSWQiOiJOMENaRkU0VlllNn
 owZ0FQIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoicGlj
 dHVyZSIsImNyZWF0ZWQiOjE2ODYyMDU4NzQ2NDJ9fSwiaGlzdG
-9yeSI6WzE3MDcwNjA3NjgsLTE1OTU0ODY1NzZdfQ==
+9yeSI6WzE1ODg3MDA1OTUsLTE1OTU0ODY1NzZdfQ==
 -->
