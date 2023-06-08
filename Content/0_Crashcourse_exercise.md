@@ -3,7 +3,7 @@
 # Crash Course practical
 ![Cover picture](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/CC-cover-placeholder.png)
 
-[^1]: Image note
+[^1]: Test
 
 Rowan van der Kaaden
 
@@ -207,7 +207,7 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 	- *Discard records which could not be joined*: Yes
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_join_attributes_by_location1.png)
 	5. Click *Run*
-	6. A new temporary layer, Joined Layer, was created in the *Layers Panel* and by opening its *attribute table* you should see it’s similar to the Helsinki_small_areas attribute table, but with a new field, "Boardings_sum", which is the sum of all the passengers from every bus and train stop within that particular small area of Helsinki.
+	6. A new temporary layer, Joined Layer, was created in the *Layers Panel* and by opening its *attribute table* you should see it’s similar to the Helsinki_small_areas *attribute table*, but with a new field, "Boardings_sum", which is the sum of all the passengers from every bus and train stop within that particular small area of Helsinki.
 	7. Right-click the Joined Layer and select *Make permanent* to save the temporary scratch layer for further processing
 	- Temporary layers will be lost when closing QGIS and are best not used for further processing
 	8. Save the joined layer as ESRI Shapefile, with a sensible name (for example "Helsinki_small_areas_HSL.shp"), and within the folder for your project you made earlier
@@ -254,37 +254,37 @@ The last phase of this practical will concentrate on creating a map output.
 
 4. Once you are satisfied with your map, **save the project** and go to *Layout* > *Export as image* to **save your layout as an image file**. If you want to adjust the export resolution (default is 300 dpi, higher value = higher resolution image and larger file size), you can do that prior to exporting from the Layout panel. **Save your map under your course folder and submit the finished map on Moodle.**
 
-(Hungry for more? furhter reading on the print composer in the QGIS manual: https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/index.html
+(Hungry for more? further reading on the print composer in the QGIS manual: https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/index.html)
 
 
 
-# Congratulations! You are now done with the first part of this Crash Course. How are you liking (Q)GIS so far?
+# Congratulations! You are now done with the first part of this course. How are you liking (Q)GIS so far?
  
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJOOGNoUGR6ZEhMcXB3S0tOIjp7In
-N0YXJ0Ijo0MzczLCJlbmQiOjQ0OTksInRleHQiOiJUaGUgZGF0
+N0YXJ0Ijo0MzY3LCJlbmQiOjQ0OTMsInRleHQiOiJUaGUgZGF0
 YSB1c2VkIGluIHRoaXMgY291cnNlIHdpbGwgbW9zdGx5IGJlIG
 luIEVQU0cgMzA2NyAoRVRSUy1UTTM1RklOKSwgd2hpY2jigKYi
-fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6ODk5NiwiZW
-5kIjo5MzAzLCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
+fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6ODk5MCwiZW
+5kIjo5Mjk3LCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
 bGwgZG93bmxvYWRlZCBmcm9tIFBhSVR1bGkgYW5kIEhlbHNpbm
 tpIFJlZ2lvbiBJbmZvc2hhcmUgZOKApiJ9LCJQUVhKa1N0WTJn
-c3V2ejVEIjp7InN0YXJ0IjoyMTQ4MSwiZW5kIjoyMTUwNSwidG
+c3V2ejVEIjp7InN0YXJ0IjoyMTQ3NywiZW5kIjoyMTUwMSwidG
 V4dCI6Ii0gTGF5b3V0IG1hbmFnZXIgcGljdHVyZSJ9LCJ5bmg1
 Ym9RaU9NVGlsWk1XIjp7InN0YXJ0Ijo4MywiZW5kIjoyMDEsIn
 RleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dHBzOi8vcmF3Lmdp
 dGh1YnVzZXJjb250ZW50LmNvbS9yb3dhbjhrL2Z1bmRhbWVudG
 Fscy1vZi1naXMv4oCmIn0sIlliWVFtNmxqVTQyZnk2UDYiOnsi
-c3RhcnQiOjY5MTUsImVuZCI6NzAxNiwidGV4dCI6IiFbXShodH
+c3RhcnQiOjY5MDksImVuZCI6NzAxMCwidGV4dCI6IiFbXShodH
 RwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vcm93YW44
 ay9mdW5kYW1lbnRhbHMtb2YtZ2lzL21hc3Rlci9Bc3NldHPigK
-YifSwiSm9TdVZMc0s5MUFKdXRIRCI6eyJzdGFydCI6MjEyMywi
-ZW5kIjoyMTI5LCJ0ZXh0IjoiQXJjR0lTIn0sImRadGEyMk9hV2
-pqcWlQek0iOnsic3RhcnQiOjU2ODcsImVuZCI6NjAxMywidGV4
+YifSwiSm9TdVZMc0s5MUFKdXRIRCI6eyJzdGFydCI6MjExNywi
+ZW5kIjoyMTIzLCJ0ZXh0IjoiQXJjR0lTIn0sImRadGEyMk9hV2
+pqcWlQek0iOnsic3RhcnQiOjU2ODEsImVuZCI6NjAwNywidGV4
 dCI6IioqQWRkaW5nIGRhdGEgaW4gUUdJUzoqKiBUaGUgKipEYX
 RhIFNvdXJjZSBNYW5hZ2VyKiogb2ZmZXJzIGEgaGFuZHkgd2F5
 IHRvIGFkZOKApiJ9LCJENHc5OWpOT2Zzb3A1akdEIjp7InN0YX
-J0Ijo2MTAwLCJlbmQiOjYxNzIsInRleHQiOiJJZiB5b3Ugd2Fu
+J0Ijo2MDk0LCJlbmQiOjYxNjYsInRleHQiOiJJZiB5b3Ugd2Fu
 dCB0byBjcmVhdGUgbmV3IGVtcHR5IGxheWVycywgZ28gdG8gKk
 xheWVyKiBcXD4gKkNyZWF0ZSBMYXllciouIn19LCJjb21tZW50
 cyI6eyJLSENWcDNzNE1EQ3YyV2l0Ijp7ImRpc2N1c3Npb25JZC
@@ -320,5 +320,5 @@ B3ZXRCNHVjM1BhZko3NSI6eyJkaXNjdXNzaW9uSWQiOiJENHc5
 OWpOT2Zzb3A1akdEIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZX
 h0IjoiRXhwbGFpbiB3aHkgeW91IHdhbnQgdG8gZG8gdGhpcyIs
 ImNyZWF0ZWQiOjE2ODYxMTQyMjIwNjd9fSwiaGlzdG9yeSI6Wy
-0zMjgzNDc3OTFdfQ==
+0xNTI4NzkxMDI2XX0=
 -->
