@@ -71,15 +71,17 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 - Picture
 
-9. Once the calculation is complete, close the Georeferencer window (there is no need to save the GCP Points). There should be a new raster saved that has been georeferenced, but you may need to add it to your QGIS map now. You can drag it below the building, road, and railway layers to see how it fits (Figure 4). Now would be a good time to save your QGIS project again.
+8. Once the calculation is complete, close the *Georeferencer* window (there is no need to save the GCP Points). There should be a new raster saved that has been georeferenced, but you may need to add it to your QGIS map now. You can drag it below the building, road, and railway layers to see how it fits (Figure 4). Now would be a good time to save your QGIS project again.
+
+- Picture
 
 ---
 
 ### Editing the buildings layer
 
-10. Let’s now remove a building from the buildings layer that no longer exists and add the arena and some sur-rounding buildings. This involves editing the tampere_buildings layer.
-11. You may need to enable the Digitizing Toolbar, which enables you to edit the vector files. To do this, choose View -> Toolbars and make sure Digitizing Toolbar is selected. 
-12. 12. Click on the tampere_buildings layer in the layers window to highlight it, then press the pencil symbol (toggle editing) in the Digitizing Toolbar. This turns editing on.
+9. Let’s now remove a building from the buildings layer that no longer exists and add the arena and some surrounding buildings. This involves editing the tampere_buildings layer.
+10. You may need to enable the Digitizing Toolbar, which enables you to edit the vector files. To do this, choose View -> Toolbars and make sure Digitizing Toolbar is selected. 
+11. Click on the tampere_buildings layer in the layers window to highlight it, then press the pencil symbol (toggle editing) in the Digitizing Toolbar. This turns editing on.
 
 
 <!--stackedit_data:
@@ -95,29 +97,34 @@ NDk1NSwiZW5kIjo0OTYyLCJ0ZXh0IjoiUGljdHVyZSJ9LCJOZH
 pwUWZOM3FmOVdVQ0k0Ijp7InN0YXJ0Ijo1NjAyLCJlbmQiOjU2
 MTEsInRleHQiOiItIFBpY3R1cmUifSwicGxpQ3VQVkZqaEdTc3
 ZuUyI6eyJzdGFydCI6NTEwNiwiZW5kIjo1MTE0LCJ0ZXh0Ijoi
-U2V0dGluZ3MifX0sImNvbW1lbnRzIjp7Img3NjRtV0hiM0pZN3
-UxTk0iOnsiZGlzY3Vzc2lvbklkIjoiV3JhY3hWMGFWUkpSNElK
-eSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkNvbWUgYm
-FjayB0byB0aGlzIGFmdGVyIGZpbmlzaGluZyB0aGUgZXhlcmNp
-c2UgcGhhc2UiLCJjcmVhdGVkIjoxNjg2MjAyMzAwMDkwfSwiQV
-FpNnVQVElvVDJHOUM1UiI6eyJkaXNjdXNzaW9uSWQiOiJBR0Ns
-RE1hanRLVkZGZ0x6Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZX
-h0IjoiU2FtZSBhcyBhYm92ZSIsImNyZWF0ZWQiOjE2ODYyMDIz
-MjE0MTB9LCJOOUE2NkcwaTJRUVVFRzZuIjp7ImRpc2N1c3Npb2
-5JZCI6IjB2TE9qdlFUYVdYVHp2aUgiLCJzdWIiOiJnaDo0MDMw
-NDc4OCIsInRleHQiOiJTYW1lIGFzIGFib3ZlIiwiY3JlYXRlZC
-I6MTY4NjIwMjMyOTQ4Mn0sImpZVGhEc0tmV0xBcFRwVloiOnsi
-ZGlzY3Vzc2lvbklkIjoiVzhQN1FZZldYcnZPUkZyZCIsInN1Yi
-I6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkdpdGh1YiIsImNyZWF0
-ZWQiOjE2ODYyMDQ3NTE3Nzd9LCJlc0FtZ3RwR1VaMVVGRmxNIj
-p7ImRpc2N1c3Npb25JZCI6ImlFN05nQXhYZzBjejdyQ3kiLCJz
-dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJHaXRodWIiLCJjcm
-VhdGVkIjoxNjg2MjA0NzY1NTc5fSwidnBFekpqOXVieW1GTERj
-cCI6eyJkaXNjdXNzaW9uSWQiOiJOZHpwUWZOM3FmOVdVQ0k0Ii
-wic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiR2l0aHViIiwi
-Y3JlYXRlZCI6MTY4NjIwNDg1NjMzN30sIlhwQW5KSGFhMHA4VF
-hoWE8iOnsiZGlzY3Vzc2lvbklkIjoicGxpQ3VQVkZqaEdTc3Zu
-UyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlBpY3R1cm
-UiLCJjcmVhdGVkIjoxNjg2MjA0OTE2NzcwfX0sImhpc3Rvcnki
-OlstMTIzODk3NTIxNiwtMTU5NTQ4NjU3Nl19
+U2V0dGluZ3MifSwiU0RzVmZwQkg2SHhHTzdFRyI6eyJzdGFydC
+I6NTk5MiwiZW5kIjo1OTk5LCJ0ZXh0IjoiUGljdHVyZSJ9fSwi
+Y29tbWVudHMiOnsiaDc2NG1XSGIzSlk3dTFOTSI6eyJkaXNjdX
+NzaW9uSWQiOiJXcmFjeFYwYVZSSlI0SUp5Iiwic3ViIjoiZ2g6
+NDAzMDQ3ODgiLCJ0ZXh0IjoiQ29tZSBiYWNrIHRvIHRoaXMgYW
+Z0ZXIgZmluaXNoaW5nIHRoZSBleGVyY2lzZSBwaGFzZSIsImNy
+ZWF0ZWQiOjE2ODYyMDIzMDAwOTB9LCJBUWk2dVBUSW9UMkc5Qz
+VSIjp7ImRpc2N1c3Npb25JZCI6IkFHQ2xETWFqdEtWRkZnTHoi
+LCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJTYW1lIGFzIG
+Fib3ZlIiwiY3JlYXRlZCI6MTY4NjIwMjMyMTQxMH0sIk45QTY2
+RzBpMlFRVUVHNm4iOnsiZGlzY3Vzc2lvbklkIjoiMHZMT2p2UV
+RhV1hUenZpSCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
+IlNhbWUgYXMgYWJvdmUiLCJjcmVhdGVkIjoxNjg2MjAyMzI5ND
+gyfSwiallUaERzS2ZXTEFwVHBWWiI6eyJkaXNjdXNzaW9uSWQi
+OiJXOFA3UVlmV1hydk9SRnJkIiwic3ViIjoiZ2g6NDAzMDQ3OD
+giLCJ0ZXh0IjoiR2l0aHViIiwiY3JlYXRlZCI6MTY4NjIwNDc1
+MTc3N30sImVzQW1ndHBHVVoxVUZGbE0iOnsiZGlzY3Vzc2lvbk
+lkIjoiaUU3TmdBeFhnMGN6N3JDeSIsInN1YiI6ImdoOjQwMzA0
+Nzg4IiwidGV4dCI6IkdpdGh1YiIsImNyZWF0ZWQiOjE2ODYyMD
+Q3NjU1Nzl9LCJ2cEV6Smo5dWJ5bUZMRGNwIjp7ImRpc2N1c3Np
+b25JZCI6Ik5kenBRZk4zcWY5V1VDSTQiLCJzdWIiOiJnaDo0MD
+MwNDc4OCIsInRleHQiOiJHaXRodWIiLCJjcmVhdGVkIjoxNjg2
+MjA0ODU2MzM3fSwiWHBBbkpIYWEwcDhUWGhYTyI6eyJkaXNjdX
+NzaW9uSWQiOiJwbGlDdVBWRmpoR1Nzdm5TIiwic3ViIjoiZ2g6
+NDAzMDQ3ODgiLCJ0ZXh0IjoiUGljdHVyZSIsImNyZWF0ZWQiOj
+E2ODYyMDQ5MTY3NzB9LCJObVpJNkNvelp3ODVnc0MzIjp7ImRp
+c2N1c3Npb25JZCI6IlNEc1ZmcEJINkh4R083RUciLCJzdWIiOi
+JnaDo0MDMwNDc4OCIsInRleHQiOiJHaXRodWIiLCJjcmVhdGVk
+IjoxNjg2MjA1Mjc1MjQxfX0sImhpc3RvcnkiOlstNDIyOTkzNz
+MwLC0xNTk1NDg2NTc2XX0=
 -->
