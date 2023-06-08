@@ -81,7 +81,9 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 9. Let’s now remove a building from the buildings layer that no longer exists and add the arena and some surrounding buildings. This involves editing the tampere_buildings layer.
 10. You may need to enable the *Digitizing Toolbar*, which enables you to edit the vector files. To do this, choose *View* -> *Toolbars* and make sure *Digitizing Toolbar* is selected. 
-11. Click on the tampere_buildings layer in the layers panel to highlight it, then toggle editing on   in the Digitizing Toolbar. This turns editing on.
+11. Click on the tampere_buildings layer in the layers panel to highlight it, then toggle editing on ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png)  in the *Digitizing Toolbar*.
+
+
 
 
 <!--stackedit_data:
@@ -133,5 +135,5 @@ MX0sImhCZDh2b1VBYllvYUtFbEEiOnsiZGlzY3Vzc2lvbklkIj
 oiV0gzVzZrN2hLNEZPS2FiaiIsInN1YiI6ImdoOjQwMzA0Nzg4
 IiwidGV4dCI6IkFkZCBpbnRyb2R1Y3Rpb24gdG8gdGhpcyBpbi
 B0aGVvcnkiLCJjcmVhdGVkIjoxNjg2MjA1Mzk5NDA5fX0sImhp
-c3RvcnkiOlstMTY3OTU4NDA1MiwtMTU5NTQ4NjU3Nl19
+c3RvcnkiOls5NzIyODE5MTIsLTE1OTU0ODY1NzZdfQ==
 -->
