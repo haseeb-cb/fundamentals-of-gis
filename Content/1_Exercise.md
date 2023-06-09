@@ -80,6 +80,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/Exercise1_figure3.png)
 
 8. Once the calculation is complete, close the *Georeferencer* window (there is no need to save the GCP Points). The new raster that has been georeferenced is saved and you will need add it to your QGIS map now (Hint: Use the Data Source Manager and add it as a raster instead of a vector) . Once its been added, you can drag it below the building, road, and railway layers to see how it fits (Figure 4). Now would be a good time to save your QGIS project again.
+	- Check whether the plans line up with the buildings layer! If it doesn't retry the georeferencing with more points 
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/Exercise1_figure4.png)
 
@@ -171,7 +172,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJXSDNXNms3aEs0Rk9LYWJqIjp7In
-N0YXJ0Ijo3MjM3LCJlbmQiOjc0MjEsInRleHQiOiIxMC4gWW91
+N0YXJ0Ijo3MzU1LCJlbmQiOjc1MzksInRleHQiOiIxMC4gWW91
 IG1heSBuZWVkIHRvIGVuYWJsZSB0aGUgKkRpZ2l0aXppbmcgVG
 9vbGJhciosIHdoaWNoIGVuYWJsZXMgeW91IHRvIGVkaXTigKYi
 fSwia2RuODV2UGdsRFRHZVZ1eCI6eyJzdGFydCI6NjYyLCJlbm
@@ -183,6 +184,6 @@ RoZW9yeSIsImNyZWF0ZWQiOjE2ODYyMDUzOTk0MDl9LCJZeVJS
 ZWg5TlJUSmRpbzFEIjp7ImRpc2N1c3Npb25JZCI6Imtkbjg1dl
 BnbERUR2VWdXgiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQi
 OiJBc2sgSm9uIGZvciB3aGF0IGRhdGEgaGUgdXNlZCIsImNyZW
-F0ZWQiOjE2ODYyMDg3MjY2ODJ9fSwiaGlzdG9yeSI6Wy0xMjU3
-MDExNjY2LC0xMzE0OTMyNDkyXX0=
+F0ZWQiOjE2ODYyMDg3MjY2ODJ9fSwiaGlzdG9yeSI6WzEyOTA5
+ODY4NTMsLTEzMTQ5MzI0OTJdfQ==
 -->
