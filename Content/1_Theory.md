@@ -8,7 +8,7 @@
 - Data source methods
 - Be critical of the data
 
-But what if the data we need isn't already available or outdated? That's where digitizing comes in. 
+But what if the data we need isn't already available or outdated? That's when we start gathering or making our own data, a method for . 
 
 ## Digitizing
 
@@ -39,7 +39,7 @@ In practice, georeferencing involves identifying a set of control points on the 
 In our case we can use the buildings that remained unchanged and are on the project plan for reference to georeference the project plan, which we can then use to digitize the new buildings. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NTQ2ODQ4NywtOTUyNzA2NjgsLTM2Nz
-MzNDEyNCwtMzU0NjYwNjYxLDE3MTYyMDc1NzUsMTYzOTM4ODM2
-Nl19
+eyJoaXN0b3J5IjpbLTExNjQ3Mjg5NDQsLTQ5NTQ2ODQ4NywtOT
+UyNzA2NjgsLTM2NzMzNDEyNCwtMzU0NjYwNjYxLDE3MTYyMDc1
+NzUsMTYzOTM4ODM2Nl19
 -->
