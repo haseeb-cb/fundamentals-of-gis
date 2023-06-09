@@ -14,7 +14,8 @@ Examples of data sources are:
 | Protected planet | https://www.protectedplanet.net/country/BRA | Worldwide collection of protected areas  |
 | OpenStreetMap | https://www.openstreetmap.org/about | Community maintained data |
 
-
+We keep a collection of our known data sources for your use: 
+If you have any that are missing from this collection, please let us know! 
 
 
 - Data sources 
@@ -52,7 +53,7 @@ In practice, georeferencing involves identifying a set of control points on the 
 In our case we can use the buildings that remained unchanged and are on the project plan for reference to georeference the project plan, which we can then use to digitize the new buildings. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTAwODc4NjAsLTQ5NTQ2ODQ4NywtOT
+eyJoaXN0b3J5IjpbLTIwODc4MDQ3ODksLTQ5NTQ2ODQ4NywtOT
 UyNzA2NjgsLTM2NzMzNDEyNCwtMzU0NjYwNjYxLDE3MTYyMDc1
 NzUsMTYzOTM4ODM2Nl19
 -->
