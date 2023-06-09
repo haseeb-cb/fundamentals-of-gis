@@ -2,6 +2,8 @@
 
 # Theory 1: Georeferencing & digitizing
 
+
+
 ## Digitizing
 
 When some kind of urban development happens, the data we use in GIS needs to updated. Someone has to go in and updated the changes to the roads, buildings, and others. This would be done by digitizing the changes, which is the process of **converting geographic data into digital form**. 
@@ -31,6 +33,6 @@ In practice, georeferencing involves identifying a set of control points on the 
 In our case we can use the buildings that remained unchanged and are on the project plan for reference to georeference the project plan, which we can then use to digitize the new buildings. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NzMzNDEyNCwtMzU0NjYwNjYxLDE3MT
-YyMDc1NzUsMTYzOTM4ODM2Nl19
+eyJoaXN0b3J5IjpbMTIzMTg2NjE2OCwtMzY3MzM0MTI0LC0zNT
+Q2NjA2NjEsMTcxNjIwNzU3NSwxNjM5Mzg4MzY2XX0=
 -->
