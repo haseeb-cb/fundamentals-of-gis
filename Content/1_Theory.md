@@ -2,6 +2,10 @@
 
 # Theory 1: Georeferencing & digitizing
 
+
+
+
+
 ## Digitizing
 - Digitizing toolbar
 
@@ -9,5 +13,5 @@
 - More points + more spacing == better?
 So, what needs to happen if the data is not up to date anymore? 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5MDg4MTY2XX0=
+eyJoaXN0b3J5IjpbNjc2NDE2NjIyXX0=
 -->
