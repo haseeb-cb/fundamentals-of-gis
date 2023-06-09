@@ -2,7 +2,9 @@
 
 # Theory 1: Georeferencing & digitizing
 
+## Digitizing
 
+## Georeferencing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3ODg4OTg2N119
+eyJoaXN0b3J5IjpbMjExMjAzOTAxNF19
 -->
