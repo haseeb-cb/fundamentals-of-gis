@@ -4,7 +4,7 @@
 
 ## Spatial data sources
 
-
+Spatial data is available through various sources, some of which are restricted, but a good amount is freely available. Common providers of spatial data are governmental institutions 
 
 - Data sources 
 - Data source methods
@@ -41,7 +41,7 @@ In practice, georeferencing involves identifying a set of control points on the 
 In our case we can use the buildings that remained unchanged and are on the project plan for reference to georeference the project plan, which we can then use to digitize the new buildings. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIwNDA1OTE3LC00OTU0Njg0ODcsLTk1Mj
+eyJoaXN0b3J5IjpbNjUxOTE5ODU3LC00OTU0Njg0ODcsLTk1Mj
 cwNjY4LC0zNjczMzQxMjQsLTM1NDY2MDY2MSwxNzE2MjA3NTc1
 LDE2MzkzODgzNjZdfQ==
 -->
