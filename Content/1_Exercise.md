@@ -112,7 +112,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 	
 	- Click around the corners of the raster drawing of the new buildings, gradually drawing a new polygon in the tampere_buildings layer. When you are finished, right-click and the polygon will close. You then get the opportunity to add new Attributes. Add attributes if you want (such as the name of the stadium), then press OK.
 	
-	- When you are finished adding the new buildings, press the *Save* symbol in the Digitizing Toolbar.
+	- When you are finished adding the new buildings, press the *Save* symbol in the Digitizing Toolbar, and toggle off *editing*.
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/Exercise1_figure8.png)
 
@@ -199,6 +199,6 @@ IkRvIHdlIHdhbnQgdG8gYWRkIHBpY3RvZ3JhbXMgdG8gYWxsIG
 9mIHRoZXNlIG9yIGRvIHdlIHdhbnQgdG8gY2hhbGxlbmdlIHRo
 ZW0gYSBiaXQgYW5kIGxldCB0aGVtIHNlYXJjaCB0aGVtc2Vsdm
 VzPyIsImNyZWF0ZWQiOjE2ODYyODg3MzMyNTJ9fSwiaGlzdG9y
-eSI6WzMyNjc5MjE3OCwxMjkwOTg2ODUzLC0xMzE0OTMyNDkyXX
+eSI6WzQwMzI2OTA3MCwxMjkwOTg2ODUzLC0xMzE0OTMyNDkyXX
 0=
 -->
