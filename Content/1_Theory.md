@@ -28,8 +28,8 @@ Georeferencing is the process of associating geographic data (coordinates) to a 
 
 In practice, georeferencing involves identifying a set of control points on the object and matching them to corresponding locations on a reference map or in some form of software, such as QGIS. These control points represent identifiable features, such as road intersections or landmarks, and are used to create a transformation function that aligns the object with the reference system.
 
-- More points + more spacing == better?
-So, what needs to happen if the data is not up to date anymore? 
+In our case we can use the buildings that remained unchanged and are on the project plan for reference to georeference the project plan, which we can then use to digitize the new buildings. 
+
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJZT2R0VUthcGVodDFMQ2c0Ijp7In
 N0YXJ0Ijo5OSwiZW5kIjo5OSwidGV4dCI6IlBpY3R1cmUifSwi
@@ -41,6 +41,6 @@ OiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYyOTA4MzA5Mz
 F9LCJYV3d5Um5CM2o5UUI4REFCIjp7ImRpc2N1c3Npb25JZCI6
 ImFVS1haZm42clUyR1FuN2siLCJzdWIiOiJnaDo0MDMwNDc4OC
 IsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYy
-OTA5MzkyODZ9fSwiaGlzdG9yeSI6Wzc2NTcyODU2MCwxNzE2Mj
-A3NTc1LDE2MzkzODgzNjZdfQ==
+OTA5MzkyODZ9fSwiaGlzdG9yeSI6Wy0zNTQ2NjA2NjEsMTcxNj
+IwNzU3NSwxNjM5Mzg4MzY2XX0=
 -->
