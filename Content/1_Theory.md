@@ -2,13 +2,15 @@
 
 # Theory 1: Georeferencing & digitizing
 
-## Data sources
+## Spatial data sources
+
+
 
 - Data sources 
 - Data source methods
 - Be critical of the data
 
-But what if the data we need isn't already available or outdated? That's when we start gathering or making our own data, a method for . 
+But what if the data we need isn't already available or outdated? That's when we start gathering or making our own data, and where digitizing comes in.  
 
 ## Digitizing
 
@@ -39,7 +41,7 @@ In practice, georeferencing involves identifying a set of control points on the 
 In our case we can use the buildings that remained unchanged and are on the project plan for reference to georeference the project plan, which we can then use to digitize the new buildings. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjQ3Mjg5NDQsLTQ5NTQ2ODQ4NywtOT
-UyNzA2NjgsLTM2NzMzNDEyNCwtMzU0NjYwNjYxLDE3MTYyMDc1
-NzUsMTYzOTM4ODM2Nl19
+eyJoaXN0b3J5IjpbNTIwNDA1OTE3LC00OTU0Njg0ODcsLTk1Mj
+cwNjY4LC0zNjczMzQxMjQsLTM1NDY2MDY2MSwxNzE2MjA3NTc1
+LDE2MzkzODgzNjZdfQ==
 -->
