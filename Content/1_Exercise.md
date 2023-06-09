@@ -167,6 +167,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 17. You’ve finished your edits. Remove the georeferenced raster (you no longer need it), and make a nice in-formative map. You can choose whether or not to include the Google Satellite data. Insert a scale bar to show the distances in the map, a North Arrow, and a title.
 	- Hint: Look at the crash course exercise for instructions on how to make a map
+	- Don't forget to change the symbology of your layers to your liking! 
 	
 
 
@@ -206,7 +207,7 @@ VkIjoxNjg2Mjg4NzMzMjUyfSwibFZoeER5SVB6VDVTc1IzRSI6
 eyJkaXNjdXNzaW9uSWQiOiJhM0VpZWxYYWtkZ2NYOE55Iiwic3
 ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiUm9hZHMgZGF0YSBp
 biBmb2xkZXIgaXMgbWlzc2luZyBhdHRyaWJ1dGVzIiwiY3JlYX
-RlZCI6MTY4NjI4OTE5NTY5OX19LCJoaXN0b3J5IjpbNjA2Njc5
-NzQzLDY5MDMyOTE0OCwxMjkwOTg2ODUzLC0xMzE0OTMyNDkyXX
+RlZCI6MTY4NjI4OTE5NTY5OX19LCJoaXN0b3J5IjpbMzUxMTE5
+MTM3LDY5MDMyOTE0OCwxMjkwOTg2ODUzLC0xMzE0OTMyNDkyXX
 0=
 -->
