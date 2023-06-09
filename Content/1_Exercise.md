@@ -73,13 +73,13 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 7. When you are finished adding reference points, you can now perform the georeferencing calculation for the image (Figure 3).
 
-	- Press the *Settings* button ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/QGIS_georeferencer_settings.png) on the *Georeferencer* menu, and set the *Transformation type* to *Projective*, set the *Target SRS* to the *Project CRS*, and give your *Output Raster* a informative name (e.g. arena_plan_modified). The *Transformation type* describes the type of mathematical algorithm used to modify (like rotate, twist, skew) the raster. Press OK.
+	- Press the *Settings* button ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/QGIS_georeferencer_settings.png) on the *Georeferencer* menu, and set the *Transformation type* to *Projective*, set the *Target SRS* to the *Project CRS*, give your *Output Raster* an informative name (e.g. arena_plan_modified), and save it in your folder. The *Transformation type* describes the type of mathematical algorithm used to modify (like rotate, twist, skew) the raster. Press OK.
 
 	- Press the *Run* arrow in the *Georeferencer* menu, and the georeferencing will start. It will show you the progress on the georeferencing.
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/Exercise1_figure3.png)
 
-8. Once the calculation is complete, close the *Georeferencer* window (there is no need to save the GCP Points). There should be a new raster saved that has been georeferenced, but you may need to add it to your QGIS map now. You can drag it below the building, road, and railway layers to see how it fits (Figure 4). Now would be a good time to save your QGIS project again.
+8. Once the calculation is complete, close the *Georeferencer* window (there is no need to save the GCP Points). The new raster that has been georeferenced is saved, but you may need to add it to your QGIS map now. You can drag it below the building, road, and railway layers to see how it fits (Figure 4). Now would be a good time to save your QGIS project again.
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/Exercise1_figure4.png)
 
@@ -171,7 +171,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJXSDNXNms3aEs0Rk9LYWJqIjp7In
-N0YXJ0Ijo3MTI1LCJlbmQiOjczMDksInRleHQiOiIxMC4gWW91
+N0YXJ0Ijo3MTM5LCJlbmQiOjczMjMsInRleHQiOiIxMC4gWW91
 IG1heSBuZWVkIHRvIGVuYWJsZSB0aGUgKkRpZ2l0aXppbmcgVG
 9vbGJhciosIHdoaWNoIGVuYWJsZXMgeW91IHRvIGVkaXTigKYi
 fSwia2RuODV2UGdsRFRHZVZ1eCI6eyJzdGFydCI6NjYyLCJlbm
@@ -183,6 +183,6 @@ RoZW9yeSIsImNyZWF0ZWQiOjE2ODYyMDUzOTk0MDl9LCJZeVJS
 ZWg5TlJUSmRpbzFEIjp7ImRpc2N1c3Npb25JZCI6Imtkbjg1dl
 BnbERUR2VWdXgiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQi
 OiJBc2sgSm9uIGZvciB3aGF0IGRhdGEgaGUgdXNlZCIsImNyZW
-F0ZWQiOjE2ODYyMDg3MjY2ODJ9fSwiaGlzdG9yeSI6Wy0xMzE0
-OTMyNDkyXX0=
+F0ZWQiOjE2ODYyMDg3MjY2ODJ9fSwiaGlzdG9yeSI6Wy02MzU0
+MTkzNDksLTEzMTQ5MzI0OTJdfQ==
 -->
