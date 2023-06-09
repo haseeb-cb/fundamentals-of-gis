@@ -11,7 +11,10 @@ Examples of data sources are:
 |--|--|--|
 | City of Tampere | https://kartat.tampere.fi/oskari/?lang=en | Various datasets related to the city |
 | Paituli | https://paituli.csc.fi/ | Collection of various Finnish data providers, mostly governmental institutes |
-| Protected planet | https://www.protectedplanet.net/country/BRA | World-wide  |
+| Protected planet | https://www.protectedplanet.net/country/BRA | Worldwide collection of protected areas  |
+| OpenStreetMap | https://www.openstreetmap.org/about | Community maintained data |
+
+
 
 
 - Data sources 
@@ -49,7 +52,7 @@ In practice, georeferencing involves identifying a set of control points on the 
 In our case we can use the buildings that remained unchanged and are on the project plan for reference to georeference the project plan, which we can then use to digitize the new buildings. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODc5MTA5MSwtNDk1NDY4NDg3LC05NT
-I3MDY2OCwtMzY3MzM0MTI0LC0zNTQ2NjA2NjEsMTcxNjIwNzU3
-NSwxNjM5Mzg4MzY2XX0=
+eyJoaXN0b3J5IjpbLTE1MTAwODc4NjAsLTQ5NTQ2ODQ4NywtOT
+UyNzA2NjgsLTM2NzMzNDEyNCwtMzU0NjYwNjYxLDE3MTYyMDc1
+NzUsMTYzOTM4ODM2Nl19
 -->
