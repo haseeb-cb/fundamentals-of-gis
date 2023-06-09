@@ -7,6 +7,7 @@
 
 ## Georeferencing
 - More points + more spacing == better?
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTk3NTA4ODFdfQ==
+eyJoaXN0b3J5IjpbNzY3NDg3MzczXX0=
 -->
