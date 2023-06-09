@@ -19,7 +19,7 @@ In this case we could potentially use the google imagery of the area, as this ha
 
 - Picture
 
-This source is 
+This source is however missing geographic data, as it is just a picture taken from a PDF. To align this picture with our geographic data, we need to apply a process called georeferencing. 
 
 ## Georeferencing
 - More points + more spacing == better?
@@ -35,6 +35,6 @@ OiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYyOTA4MzA5Mz
 F9LCJYV3d5Um5CM2o5UUI4REFCIjp7ImRpc2N1c3Npb25JZCI6
 ImFVS1haZm42clUyR1FuN2siLCJzdWIiOiJnaDo0MDMwNDc4OC
 IsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYy
-OTA5MzkyODZ9fSwiaGlzdG9yeSI6WzE1MTk3NzU4NjQsMTYzOT
+OTA5MzkyODZ9fSwiaGlzdG9yeSI6WzE3MTYyMDc1NzUsMTYzOT
 M4ODM2Nl19
 -->
