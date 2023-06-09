@@ -79,7 +79,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/Exercise1_figure3.png)
 
-8. Once the calculation is complete, close the *Georeferencer* window (there is no need to save the GCP Points). The new raster that has been georeferenced is saved and you will need add it to your QGIS map now (Hint: Use the Data Source Manager and add it as a raster instead of a vector) . Once its been added, you can drag it below the building, road, and railway layers to see how it fits (Figure 4). Now would be a good time to save your QGIS project again.
+8. Once the calculation is complete, close the *Georeferencer* window (there is no need to save the GCP Points). The new raster that has been georeferenced is saved and you will need add it to your QGIS map now (Hint: Use the Data Source Manager and add it as a raster instead of a vector) . Once its been added, you can drag it below the building, road, and railway layers to see how it fits. Now would be a good time to save your QGIS project again.
 	- Check whether the plans line up with the buildings layer (it doesn't have to be perfect for this exercise)! If it doesn't retry the georeferencing with more points and more spacing between them
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/Exercise1_figure4.png)
@@ -172,25 +172,33 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJXSDNXNms3aEs0Rk9LYWJqIjp7In
-N0YXJ0Ijo3NDEyLCJlbmQiOjc1OTYsInRleHQiOiIxMC4gWW91
+N0YXJ0Ijo3NDAxLCJlbmQiOjc1ODUsInRleHQiOiIxMC4gWW91
 IG1heSBuZWVkIHRvIGVuYWJsZSB0aGUgKkRpZ2l0aXppbmcgVG
 9vbGJhciosIHdoaWNoIGVuYWJsZXMgeW91IHRvIGVkaXTigKYi
 fSwia2RuODV2UGdsRFRHZVZ1eCI6eyJzdGFydCI6NjYyLCJlbm
 QiOjY3MSwidGV4dCI6IkRhdGEgdXNlZCJ9LCJPSFc4dTRXalZj
-Wk8wZnA1Ijp7InN0YXJ0Ijo4MTEwLCJlbmQiOjgxNzAsInRleH
+Wk8wZnA1Ijp7InN0YXJ0Ijo4MDk5LCJlbmQiOjgxNTksInRleH
 QiOiIhW10oaHR0cHM6Ly9kb2NzLnFnaXMub3JnLzMuMjgvZW4v
-X2ltYWdlcy9tQWN0aW9uU2VsZWN0LnBuZykifX0sImNvbW1lbn
-RzIjp7ImhCZDh2b1VBYllvYUtFbEEiOnsiZGlzY3Vzc2lvbklk
-IjoiV0gzVzZrN2hLNEZPS2FiaiIsInN1YiI6ImdoOjQwMzA0Nz
-g4IiwidGV4dCI6IkFkZCBpbnRyb2R1Y3Rpb24gdG8gdGhpcyBp
-biB0aGVvcnkiLCJjcmVhdGVkIjoxNjg2MjA1Mzk5NDA5fSwiWX
-lSUmVoOU5SVEpkaW8xRCI6eyJkaXNjdXNzaW9uSWQiOiJrZG44
-NXZQZ2xEVEdlVnV4Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZX
-h0IjoiQXNrIEpvbiBmb3Igd2hhdCBkYXRhIGhlIHVzZWQiLCJj
-cmVhdGVkIjoxNjg2MjA4NzI2NjgyfSwicUlhNjNZT1hVYmVORn
-Y5RSI6eyJkaXNjdXNzaW9uSWQiOiJPSFc4dTRXalZjWk8wZnA1
-Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiRml4IHBpY3
-R1cmUiLCJjcmVhdGVkIjoxNjg2Mjg4NjE3OTY0fX0sImhpc3Rv
-cnkiOlsxMDgxNTQyNjEsMTI5MDk4Njg1MywtMTMxNDkzMjQ5Ml
-19
+X2ltYWdlcy9tQWN0aW9uU2VsZWN0LnBuZykifSwiVkZQcVE3a2
+5QYjZaaGhkWCI6eyJzdGFydCI6ODYzMiwiZW5kIjo4NjUzLCJ0
+ZXh0IjoiKkFkZCBQb2x5Z29uIEZlYXR1cmUqIn19LCJjb21tZW
+50cyI6eyJoQmQ4dm9VQWJZb2FLRWxBIjp7ImRpc2N1c3Npb25J
+ZCI6IldIM1c2azdoSzRGT0thYmoiLCJzdWIiOiJnaDo0MDMwND
+c4OCIsInRleHQiOiJBZGQgaW50cm9kdWN0aW9uIHRvIHRoaXMg
+aW4gdGhlb3J5IiwiY3JlYXRlZCI6MTY4NjIwNTM5OTQwOX0sIl
+l5UlJlaDlOUlRKZGlvMUQiOnsiZGlzY3Vzc2lvbklkIjoia2Ru
+ODV2UGdsRFRHZVZ1eCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidG
+V4dCI6IkFzayBKb24gZm9yIHdoYXQgZGF0YSBoZSB1c2VkIiwi
+Y3JlYXRlZCI6MTY4NjIwODcyNjY4Mn0sInFJYTYzWU9YVWJlTk
+Z2OUUiOnsiZGlzY3Vzc2lvbklkIjoiT0hXOHU0V2pWY1pPMGZw
+NSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkZpeCBwaW
+N0dXJlIiwiY3JlYXRlZCI6MTY4NjI4ODYxNzk2NH0sInZWTGhw
+cHNFNlNUOUQ0azEiOnsiZGlzY3Vzc2lvbklkIjoiVkZQcVE3a2
+5QYjZaaGhkWCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
+IkRvIHdlIHdhbnQgdG8gYWRkIHBpY3RvZ3JhbXMgdG8gYWxsIG
+9mIHRoZXNlIG9yIGRvIHdlIHdhbnQgdG8gY2hhbGxlbmdlIHRo
+ZW0gYSBiaXQgYW5kIGxldCB0aGVtIHNlYXJjaCB0aGVtc2Vsdm
+VzPyIsImNyZWF0ZWQiOjE2ODYyODg3MzMyNTJ9fSwiaGlzdG9y
+eSI6WzMyNjc5MjE3OCwxMjkwOTg2ODUzLC0xMzE0OTMyNDkyXX
+0=
 -->
