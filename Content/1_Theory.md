@@ -23,8 +23,11 @@ Data can either be accessed by downloading the dataset locally and importing the
 - WCS
 - XYZ
 
-
-- Be critical of the data
+It is important when choosing your data to **be critical of the data you use!** Ask questions like:
+- Who provides this data?
+- How accurate is it?
+- How old is it?
+And be particularly  
 
 But what if the data we need isn't already available or outdated? That's when we start gathering or making our own data, and where digitizing comes in.  
 
@@ -64,7 +67,7 @@ VzIGZvciB5b3VyIHVzZToifX0sImNvbW1lbnRzIjp7Imh3eUI5
 c1duS3FveThyRlciOnsiZGlzY3Vzc2lvbklkIjoib0phTkpWcG
 ExQng0ZndraSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
 IkFkZCBsaW5rIiwiY3JlYXRlZCI6MTY4NjMwMzgxMTk1NX19LC
-JoaXN0b3J5IjpbLTIwNjkyNDg2NTYsLTQ5NTQ2ODQ4NywtOTUy
-NzA2NjgsLTM2NzMzNDEyNCwtMzU0NjYwNjYxLDE3MTYyMDc1Nz
-UsMTYzOTM4ODM2Nl19
+JoaXN0b3J5IjpbLTEzNzU2OTA2MSwtNDk1NDY4NDg3LC05NTI3
+MDY2OCwtMzY3MzM0MTI0LC0zNTQ2NjA2NjEsMTcxNjIwNzU3NS
+wxNjM5Mzg4MzY2XX0=
 -->
