@@ -67,11 +67,11 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 	- After clicking on the QIS map canvas, you should see the *Georeferencer* reappear with the coordinates from the location where you clicked. Press OK.
 
-	- Repeat this at least three more times in different locations, preferably well distributed across the map (Figure 2).
+	- Repeat this at least three more times in different locations, preferably well distributed across the map.
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/Exercise1_figure2.png)
 
-7. When you are finished adding reference points, you can now perform the georeferencing calculation for the image (Figure 3).
+7. When you are finished adding reference points, you can now perform the georeferencing calculation for the image.
 
 	- Press the *Settings* button ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/QGIS_georeferencer_settings.png) on the *Georeferencer* menu, and set the *Transformation type* to *Projective*, set the *Target SRS* to the *Project CRS*, give your *Output Raster* an informative name (e.g. arena_plan_modified), and save it in your folder. The *Transformation type* describes the type of mathematical algorithm used to modify (like rotate, twist, skew) the raster. Press OK.
 
@@ -96,7 +96,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 ![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/Exercise1_figure5.png)
 
-12. First, let’s remove a building that no longer exists. There is one building at the south of the arena that has been demolished (Figure 6).
+12. First, let’s remove a building that no longer exists. There is one building at the south of the arena that has been demolished .
 
 	- First, choose the *Select* tool ![](https://docs.qgis.org/3.28/en/_images/mActionSelect.png) (if you don’t see it, you may need to add the Selection Toolbar like you did for the Digitizing Toolbar).
 
@@ -108,7 +108,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 13. Now, let’s add some new buildings to the layer.
 	
-	- Select the *Add Polygon Feature* in the *Digitizing Toolbar* (Figure 7).
+	- Select the *Add Polygon Feature* in the *Digitizing Toolbar*.
 	
 	- Click around the corners of the raster drawing of the new buildings, gradually drawing a new polygon in the tampere_buildings layer. When you are finished, right-click and the polygon will close. You then get the opportunity to add new Attributes. Add attributes if you want (such as the name of the stadium), then press OK.
 	
@@ -121,7 +121,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 ### Bus stops
 14. Now, let’s **create a new layer with bus stops around the arena**. These are marked in red in the arena_plan_modified.tiff. GIS data on bus stops will be available from Tampere City or OpenStreetMaps, but here we will make our own layer to practice how this is done.
 
-15. First, let’s create a new layer for the bus stops. In the previous step, we learned how to edit an existing layer, but we can also make a new layer ourselves. In this case, we want points to represent bus stops, so we need to create a new point layer (Figure 8).
+15. First, let’s create a new layer for the bus stops. In the previous step, we learned how to edit an existing layer, but we can also make a new layer ourselves. In this case, we want points to represent bus stops, so we need to create a new point layer.
 
 	- On the menu, choose *Layer* -> *Create Layer* -> *New Shapefile Layer*
 
@@ -172,18 +172,25 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJXSDNXNms3aEs0Rk9LYWJqIjp7In
-N0YXJ0Ijo3NDM0LCJlbmQiOjc2MTgsInRleHQiOiIxMC4gWW91
+N0YXJ0Ijo3NDEyLCJlbmQiOjc1OTYsInRleHQiOiIxMC4gWW91
 IG1heSBuZWVkIHRvIGVuYWJsZSB0aGUgKkRpZ2l0aXppbmcgVG
 9vbGJhciosIHdoaWNoIGVuYWJsZXMgeW91IHRvIGVkaXTigKYi
 fSwia2RuODV2UGdsRFRHZVZ1eCI6eyJzdGFydCI6NjYyLCJlbm
-QiOjY3MSwidGV4dCI6IkRhdGEgdXNlZCJ9fSwiY29tbWVudHMi
-OnsiaEJkOHZvVUFiWW9hS0VsQSI6eyJkaXNjdXNzaW9uSWQiOi
-JXSDNXNms3aEs0Rk9LYWJqIiwic3ViIjoiZ2g6NDAzMDQ3ODgi
-LCJ0ZXh0IjoiQWRkIGludHJvZHVjdGlvbiB0byB0aGlzIGluIH
-RoZW9yeSIsImNyZWF0ZWQiOjE2ODYyMDUzOTk0MDl9LCJZeVJS
-ZWg5TlJUSmRpbzFEIjp7ImRpc2N1c3Npb25JZCI6Imtkbjg1dl
-BnbERUR2VWdXgiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQi
-OiJBc2sgSm9uIGZvciB3aGF0IGRhdGEgaGUgdXNlZCIsImNyZW
-F0ZWQiOjE2ODYyMDg3MjY2ODJ9fSwiaGlzdG9yeSI6Wy0zMTcw
-Mjg1MDAsMTI5MDk4Njg1MywtMTMxNDkzMjQ5Ml19
+QiOjY3MSwidGV4dCI6IkRhdGEgdXNlZCJ9LCJPSFc4dTRXalZj
+Wk8wZnA1Ijp7InN0YXJ0Ijo4MTEwLCJlbmQiOjgxNzAsInRleH
+QiOiIhW10oaHR0cHM6Ly9kb2NzLnFnaXMub3JnLzMuMjgvZW4v
+X2ltYWdlcy9tQWN0aW9uU2VsZWN0LnBuZykifX0sImNvbW1lbn
+RzIjp7ImhCZDh2b1VBYllvYUtFbEEiOnsiZGlzY3Vzc2lvbklk
+IjoiV0gzVzZrN2hLNEZPS2FiaiIsInN1YiI6ImdoOjQwMzA0Nz
+g4IiwidGV4dCI6IkFkZCBpbnRyb2R1Y3Rpb24gdG8gdGhpcyBp
+biB0aGVvcnkiLCJjcmVhdGVkIjoxNjg2MjA1Mzk5NDA5fSwiWX
+lSUmVoOU5SVEpkaW8xRCI6eyJkaXNjdXNzaW9uSWQiOiJrZG44
+NXZQZ2xEVEdlVnV4Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZX
+h0IjoiQXNrIEpvbiBmb3Igd2hhdCBkYXRhIGhlIHVzZWQiLCJj
+cmVhdGVkIjoxNjg2MjA4NzI2NjgyfSwicUlhNjNZT1hVYmVORn
+Y5RSI6eyJkaXNjdXNzaW9uSWQiOiJPSFc4dTRXalZjWk8wZnA1
+Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiRml4IHBpY3
+R1cmUiLCJjcmVhdGVkIjoxNjg2Mjg4NjE3OTY0fX0sImhpc3Rv
+cnkiOlsxMDgxNTQyNjEsMTI5MDk4Njg1MywtMTMxNDkzMjQ5Ml
+19
 -->
