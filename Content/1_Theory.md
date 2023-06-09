@@ -3,7 +3,7 @@
 # Theory 1: Georeferencing & digitizing
 
 ## Digitizing
-When some kind of urban development happens, the data we use in GIS needs to updated. Someone has to go in and updated the changes to the roads, buildings, and others. This would be done by digitizing the changes, as you will be learning in this theory and exercise. 
+When some kind of urban development happens, the data we use in GIS needs to updated. Someone has to go in and updated the changes to the roads, buildings, and others. This would be done by digitizing the changes, which is the process of converting geographic data into digital form. 
 
 For this practice we are going to use the Nokia Arena development in Tampere, as you can see below, there have been a significant amount of changes with this project.
 
@@ -12,6 +12,8 @@ For this practice we are going to use the Nokia Arena development in Tampere, as
 And if we look at the data set we are working with, you can see that some of the demolished buildings are still present and new buildings lacking. 
 
 - Picture 
+
+In this case we can use the following project plan as a source for the 
 
 ## Georeferencing
 - More points + more spacing == better?
@@ -27,5 +29,6 @@ OiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYyOTA4MzA5Mz
 F9LCJYV3d5Um5CM2o5UUI4REFCIjp7ImRpc2N1c3Npb25JZCI6
 ImFVS1haZm42clUyR1FuN2siLCJzdWIiOiJnaDo0MDMwNDc4OC
 IsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYy
-OTA5MzkyODZ9fSwiaGlzdG9yeSI6WzE2MzkzODgzNjZdfQ==
+OTA5MzkyODZ9fSwiaGlzdG9yeSI6WzE0NTExNDkyOSwxNjM5Mz
+g4MzY2XX0=
 -->
