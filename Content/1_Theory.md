@@ -2,6 +2,8 @@
 
 # Theory 1: Georeferencing & digitizing
 
+## Data sources
+
 
 
 ## Digitizing
@@ -33,6 +35,6 @@ In practice, georeferencing involves identifying a set of control points on the 
 In our case we can use the buildings that remained unchanged and are on the project plan for reference to georeference the project plan, which we can then use to digitize the new buildings. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMTg2NjE2OCwtMzY3MzM0MTI0LC0zNT
-Q2NjA2NjEsMTcxNjIwNzU3NSwxNjM5Mzg4MzY2XX0=
+eyJoaXN0b3J5IjpbLTk1MjcwNjY4LC0zNjczMzQxMjQsLTM1ND
+Y2MDY2MSwxNzE2MjA3NTc1LDE2MzkzODgzNjZdfQ==
 -->
