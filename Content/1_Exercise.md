@@ -125,7 +125,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 	- On the menu, choose *Layer* -> *Create Layer* -> *New Shapefile Layer*
 
-	- Give the new layer an informative filename, like "tampere_bus_stops"
+	- Give the new layer an informative filename, like "tampere_bus_stops", and save it in your folder
 
 	- Set the *Geometry type* to be *Point*
 
@@ -199,6 +199,6 @@ IkRvIHdlIHdhbnQgdG8gYWRkIHBpY3RvZ3JhbXMgdG8gYWxsIG
 9mIHRoZXNlIG9yIGRvIHdlIHdhbnQgdG8gY2hhbGxlbmdlIHRo
 ZW0gYSBiaXQgYW5kIGxldCB0aGVtIHNlYXJjaCB0aGVtc2Vsdm
 VzPyIsImNyZWF0ZWQiOjE2ODYyODg3MzMyNTJ9fSwiaGlzdG9y
-eSI6WzQwMzI2OTA3MCwxMjkwOTg2ODUzLC0xMzE0OTMyNDkyXX
+eSI6WzgzMDA1NzExNywxMjkwOTg2ODUzLC0xMzE0OTMyNDkyXX
 0=
 -->
