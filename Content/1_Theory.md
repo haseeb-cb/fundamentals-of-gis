@@ -17,8 +17,8 @@ Examples of data sources are:
 We keep a collection of our known data sources for your use: 
 If you have any that are missing from this collection, please let us know! 
 
+The data that we use comes in different formats, 
 
-- Data sources 
 - Data source methods
 - Be critical of the data
 
@@ -53,7 +53,14 @@ In practice, georeferencing involves identifying a set of control points on the 
 In our case we can use the buildings that remained unchanged and are on the project plan for reference to georeference the project plan, which we can then use to digitize the new buildings. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODc4MDQ3ODksLTQ5NTQ2ODQ4NywtOT
-UyNzA2NjgsLTM2NzMzNDEyNCwtMzU0NjYwNjYxLDE3MTYyMDc1
-NzUsMTYzOTM4ODM2Nl19
+eyJkaXNjdXNzaW9ucyI6eyJvSmFOSlZwYTFCeDRmd2tpIjp7In
+N0YXJ0IjoxMTkzLCJlbmQiOjEyNTMsInRleHQiOiJXZSBrZWVw
+IGEgY29sbGVjdGlvbiBvZiBvdXIga25vd24gZGF0YSBzb3VyY2
+VzIGZvciB5b3VyIHVzZToifX0sImNvbW1lbnRzIjp7Imh3eUI5
+c1duS3FveThyRlciOnsiZGlzY3Vzc2lvbklkIjoib0phTkpWcG
+ExQng0ZndraSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
+IkFkZCBsaW5rIiwiY3JlYXRlZCI6MTY4NjMwMzgxMTk1NX19LC
+JoaXN0b3J5IjpbMTI2ODY0MDcwNCwtNDk1NDY4NDg3LC05NTI3
+MDY2OCwtMzY3MzM0MTI0LC0zNTQ2NjA2NjEsMTcxNjIwNzU3NS
+wxNjM5Mzg4MzY2XX0=
 -->
