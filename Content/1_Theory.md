@@ -13,10 +13,10 @@ And if we look at the data set we are working with, you can see that some of the
 
 - Picture 
 
-In practice, updating this new development would consist of removing the old buildings from the data, and digitizing the new buildings which would mean making new buildings in  
+In practice, updating this new development would consist of removing the old buildings from the data, and digitizing the new buildings which would mean making new buildings in the data by tracing the buildings from some kind of reference picture. 
 
-
-In this case we can use the following project plan as a source for the 
+In this case we could potentially use the google imagery of the area, as this has already been updated. But this is not always the case, and satellite imagery is not the most accurate 
+ use the following project plan as a source for the 
 
 ## Georeferencing
 - More points + more spacing == better?
@@ -32,6 +32,6 @@ OiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYyOTA4MzA5Mz
 F9LCJYV3d5Um5CM2o5UUI4REFCIjp7ImRpc2N1c3Npb25JZCI6
 ImFVS1haZm42clUyR1FuN2siLCJzdWIiOiJnaDo0MDMwNDc4OC
 IsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYy
-OTA5MzkyODZ9fSwiaGlzdG9yeSI6Wy05MDY0MzIzMzUsMTYzOT
-M4ODM2Nl19
+OTA5MzkyODZ9fSwiaGlzdG9yeSI6Wy0yMTQyNzQ2NzM3LDE2Mz
+kzODgzNjZdfQ==
 -->
