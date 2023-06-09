@@ -18,7 +18,7 @@ We keep a collection of our known data sources for your use:
 If you have any that are missing from this collection, please let us know! 
 
 Data can either be accessed by downloading the dataset locally and importing the data, as we have done in the crash course, or by accessing the data through an online source and importing that. While this has some benefits for the user and provider, it can cause issues when there's any connection issues. Thus, we recommend downloading the datasets whenever possible. Some examples of online data access methods are:
-- WMS/WMTS (For raster data viewing(
+- WMS/WMTS (For raster data viewing)
 - WFS
 - WCS
 - XYZ
@@ -68,7 +68,7 @@ VzIGZvciB5b3VyIHVzZToifX0sImNvbW1lbnRzIjp7Imh3eUI5
 c1duS3FveThyRlciOnsiZGlzY3Vzc2lvbklkIjoib0phTkpWcG
 ExQng0ZndraSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
 IkFkZCBsaW5rIiwiY3JlYXRlZCI6MTY4NjMwMzgxMTk1NX19LC
-JoaXN0b3J5IjpbNjY1MDQ5OTkzLC00OTU0Njg0ODcsLTk1Mjcw
-NjY4LC0zNjczMzQxMjQsLTM1NDY2MDY2MSwxNzE2MjA3NTc1LD
-E2MzkzODgzNjZdfQ==
+JoaXN0b3J5IjpbLTIwNzcwNDYzNjAsNjY1MDQ5OTkzLC00OTU0
+Njg0ODcsLTk1MjcwNjY4LC0zNjczMzQxMjQsLTM1NDY2MDY2MS
+wxNzE2MjA3NTc1LDE2MzkzODgzNjZdfQ==
 -->
