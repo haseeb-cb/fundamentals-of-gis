@@ -147,11 +147,11 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 	- Toggle *Editing* on in the *Digitization Toolbar*
 
-	- Find a red point on the georeferenced raster. Make sure the tampere_roads layer is selected in the layers panel.
+	- Find a red point on the georeferenced raster and select the tampere_roads layer in the layers panel.
 
 	- Using the *Identify features* tool, click on a line feature in the tampere_roads layers where is the bus stop is located and scroll through the attributes until you find the name of the road
 
-	- Next, select the tampere_bus_stops layer. Choose *Add Point Feature* from the *Digitization Toolbar*. You don’t need to close the Identify features window to do this.
+	- Next, select the tampere_bus_stops layer again. Choose *Add Point Feature* from the *Digitization Toolbar*. You don’t need to close the Identify features window to do this.
 
 	- Click on the red dot in the georeferenced raster. This will add a point, and prompt you to add attributes for the fields. In ID enter numbers (1 for the first point, 2 for the second…) and the name of the road in road_locat. Press OK.
 
@@ -199,6 +199,6 @@ IkRvIHdlIHdhbnQgdG8gYWRkIHBpY3RvZ3JhbXMgdG8gYWxsIG
 9mIHRoZXNlIG9yIGRvIHdlIHdhbnQgdG8gY2hhbGxlbmdlIHRo
 ZW0gYSBiaXQgYW5kIGxldCB0aGVtIHNlYXJjaCB0aGVtc2Vsdm
 VzPyIsImNyZWF0ZWQiOjE2ODYyODg3MzMyNTJ9fSwiaGlzdG9y
-eSI6WzgzMDA1NzExNywxMjkwOTg2ODUzLC0xMzE0OTMyNDkyXX
+eSI6WzY5MDMyOTE0OCwxMjkwOTg2ODUzLC0xMzE0OTMyNDkyXX
 0=
 -->
