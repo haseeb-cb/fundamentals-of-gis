@@ -24,11 +24,9 @@ This source is however missing geographic data, as it is just a picture taken fr
 
 ## Georeferencing
 
-Georeferencing is the process of associating geographic data (coordinates) to a digital or physical object, such as a map, image, or dataset, in our case a project plan. The goal of georeferencing is to establish a spatial reference for the object, enabling it to be positioned correctly within a coordinate system.
+Georeferencing is the process of associating geographic data (coordinates) to a digital or physical object, such as a map, image, or dataset, in our case a project plan. The goal of georeferencing is to establish a spatial reference for the object, enabling it to be positioned correctly within a coordinate system. It is essential for integrating different sources of geospatial data, enabling them to be overlaid and analyzed together. By assigning geographic coordinates or a coordinate system to an object, it becomes possible to accurately locate and spatially relate features, points, or areas represented within that object.
 
-Georeferencing is essential for integrating different sources of geospatial data, enabling them to be overlaid and analyzed together. By assigning geographic coordinates or a coordinate system to an object, it becomes possible to accurately locate and spatially relate features, points, or areas represented within that object.
-
-In practice, georeferencing involves identifying a set of control points on the object and matching them to corresponding locations on a reference map or in a GIS . These control points represent identifiable features, such as road intersections or landmarks, and are used to create a transformation function that aligns the object with the reference system.
+In practice, georeferencing involves identifying a set of control points on the object and matching them to corresponding locations on a reference map or in some form of software, such as QGIS. These control points represent identifiable features, such as road intersections or landmarks, and are used to create a transformation function that aligns the object with the reference system.
 
 - More points + more spacing == better?
 So, what needs to happen if the data is not up to date anymore? 
@@ -43,6 +41,6 @@ OiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYyOTA4MzA5Mz
 F9LCJYV3d5Um5CM2o5UUI4REFCIjp7ImRpc2N1c3Npb25JZCI6
 ImFVS1haZm42clUyR1FuN2siLCJzdWIiOiJnaDo0MDMwNDc4OC
 IsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYy
-OTA5MzkyODZ9fSwiaGlzdG9yeSI6WzE0NTI2Njg0NjksMTcxNj
-IwNzU3NSwxNjM5Mzg4MzY2XX0=
+OTA5MzkyODZ9fSwiaGlzdG9yeSI6Wzc2NTcyODU2MCwxNzE2Mj
+A3NTc1LDE2MzkzODgzNjZdfQ==
 -->
