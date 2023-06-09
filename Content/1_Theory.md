@@ -9,8 +9,9 @@ Spatial data is available through various sources, some of which are restricted,
 Examples of data sources are:
 | Provider | Data | Note |
 |--|--|--|
-| City of Tampere | https://kartat.tampere.fi/oskari/?lang=en |  |
+| City of Tampere | https://kartat.tampere.fi/oskari/?lang=en | Various datasets related to the city |
 | Paituli | https://paituli.csc.fi/ | Collection of various Finnish data providers, mostly governmental institutes |
+| Protected planet | https://www.protectedplanet.net/country/BRA | World-wide  |
 
 
 - Data sources 
@@ -48,7 +49,7 @@ In practice, georeferencing involves identifying a set of control points on the 
 In our case we can use the buildings that remained unchanged and are on the project plan for reference to georeference the project plan, which we can then use to digitize the new buildings. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzA0NTIwNSwtNDk1NDY4NDg3LC05NT
+eyJoaXN0b3J5IjpbLTkzODc5MTA5MSwtNDk1NDY4NDg3LC05NT
 I3MDY2OCwtMzY3MzM0MTI0LC0zNTQ2NjA2NjEsMTcxNjIwNzU3
 NSwxNjM5Mzg4MzY2XX0=
 -->
