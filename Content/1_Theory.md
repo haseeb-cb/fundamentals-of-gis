@@ -3,6 +3,7 @@
 # Theory 1: Georeferencing & digitizing
 
 ## Digitizing
+
 When some kind of urban development happens, the data we use in GIS needs to updated. Someone has to go in and updated the changes to the roads, buildings, and others. This would be done by digitizing the changes, which is the process of converting geographic data into digital form. 
 
 For this practice we are going to use the Nokia Arena development in Tampere, as you can see below, there have been a significant amount of changes with this project.
@@ -22,6 +23,9 @@ In this case we could potentially use the google imagery of the area, as this ha
 This source is however missing geographic data, as it is just a picture taken from a PDF. To align this picture with our geographic data, we need to apply a process called georeferencing. 
 
 ## Georeferencing
+
+Georeferencing is the process of associating geographic data (coordinates) to a digital or physical object, such as a map, image, or dataset, in our case a project plan  The goal of georeferencing is to establish a spatial reference for the object, enabling it to be positioned correctly within the Earth's coordinate system.
+
 - More points + more spacing == better?
 So, what needs to happen if the data is not up to date anymore? 
 <!--stackedit_data:
@@ -35,6 +39,6 @@ OiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYyOTA4MzA5Mz
 F9LCJYV3d5Um5CM2o5UUI4REFCIjp7ImRpc2N1c3Npb25JZCI6
 ImFVS1haZm42clUyR1FuN2siLCJzdWIiOiJnaDo0MDMwNDc4OC
 IsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYy
-OTA5MzkyODZ9fSwiaGlzdG9yeSI6WzE3MTYyMDc1NzUsMTYzOT
-M4ODM2Nl19
+OTA5MzkyODZ9fSwiaGlzdG9yeSI6Wy03MDY3MDA2NDIsMTcxNj
+IwNzU3NSwxNjM5Mzg4MzY2XX0=
 -->
