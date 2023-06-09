@@ -24,9 +24,9 @@ Data can either be accessed by downloading the dataset locally and importing the
 - XYZ
 
 It is important when choosing your data to **be critical of the data you use!** Ask questions like:
-- Who provides this data?
-- How accurate is it?
-- How old is it?
+- **Who** provides this data?
+- How **accurate** is it?
+- How **old** is it?
 
 And be particularly careful when joining data from different sources! As these for example might not be on the same scale, CRS, units, or accuracy. 
 
@@ -68,7 +68,7 @@ VzIGZvciB5b3VyIHVzZToifX0sImNvbW1lbnRzIjp7Imh3eUI5
 c1duS3FveThyRlciOnsiZGlzY3Vzc2lvbklkIjoib0phTkpWcG
 ExQng0ZndraSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
 IkFkZCBsaW5rIiwiY3JlYXRlZCI6MTY4NjMwMzgxMTk1NX19LC
-JoaXN0b3J5IjpbLTIwNzcwNDYzNjAsNjY1MDQ5OTkzLC00OTU0
+JoaXN0b3J5IjpbLTE4NTgxNzkyMjQsNjY1MDQ5OTkzLC00OTU0
 Njg0ODcsLTk1MjcwNjY4LC0zNjczMzQxMjQsLTM1NDY2MDY2MS
 wxNzE2MjA3NTc1LDE2MzkzODgzNjZdfQ==
 -->
