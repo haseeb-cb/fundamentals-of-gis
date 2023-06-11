@@ -132,7 +132,7 @@ SPSS etc.) to find out the boundaries.
 
 10. **Now that we have the boundaries for the two classifications, it’s time to reclassify the data
 into four classes.**
-	- Open the attribute table and field calculator, we’re creating new fields for the reclassified values using a slightly more complex conditional statement this time. Note! Do all the analyses in the same layer so that you get the new columns in the same layer.
+	- Open the *attribute table* and *field calculator*, we’re creating new fields for the reclassified values using a slightly more complex conditional statement this time. Note! Do all the analyses in the same layer so that you get the new columns in the same layer.
 	- The logic behind the numbering of the classes should be the same across all the reclassifications. In this instance our logic can be as follows: class 1 is the lowest (e.g. lowest share of inhabitants with no qualification after basic-level studies) and class 4 is the highest quartile (e.g. highest share of inhabitants with no qualification after basiclevel studies).
 	- Let’s use the conditional statement first for basic-level education proportions. This is where you use the class boundary notes. The expression looks something like this:
 	- NOTE: Use a dot as a decimal separator instead of comma.
@@ -213,7 +213,7 @@ LCBzZWxlY3QgdGhlIGNvcnJlY3QgZmll4oCmIn0sIkdMcEFRdk
 4xczNRSHZSSTQiOnsic3RhcnQiOjgwMTQsImVuZCI6ODA3MCwi
 dGV4dCI6IkZvciBCYXNpYy1sZXZlbCBlZHVjYXRpb24gdGhleS
 Bsb29rIHNvbWV0aGluZyBsaWtlIHRoaXM6In0sInFkUktoUThz
-b0J2ZzVJaFQiOnsic3RhcnQiOjkxMDYsImVuZCI6OTE0NywidG
+b0J2ZzVJaFQiOnsic3RhcnQiOjkxMTAsImVuZCI6OTE1MSwidG
 V4dCI6IlRoZSBleHByZXNzaW9uIGxvb2tzIHNvbWV0aGluZyBs
 aWtlIHRoaXM6In19LCJjb21tZW50cyI6eyIzTG9HS2VRRkVNV3
 pqYkUxIjp7ImRpc2N1c3Npb25JZCI6ImVUYzhhb0JKbjd6ZHJm
@@ -266,7 +266,7 @@ gwMTA5MDMxfSwiTDd6V2JvSXRTeHBHVEtvbyI6eyJkaXNjdXNz
 aW9uSWQiOiJEdmdmcEpzZnZ3Y05mOGlWIiwic3ViIjoiZ2g6ND
 AzMDQ3ODgiLCJ0ZXh0IjoiYW5kIGhpbnQgdG8gcHJldmlvdXMg
 ZXhlcmNpc2UiLCJjcmVhdGVkIjoxNjg2NDgzNjkyOTY1fX0sIm
-hpc3RvcnkiOls4MzA5NzM4MDgsLTI2OTU1ODc4NSwtMTM2NDE3
+hpc3RvcnkiOls3Mjg1MTQ5NzYsLTI2OTU1ODc4NSwtMTM2NDE3
 NDk5MywxNzI2ODEzNjM0LC0xMzExNTI5NDA1LDUxNjIxMzI0OC
 wtMTcyNTc3MjE2MSwxNjc3MDI5MTUxLC0xMzMyMDg3OTYzXX0=
 
