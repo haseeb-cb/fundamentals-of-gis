@@ -159,7 +159,7 @@ A **good map** has:
 5. A legend with explanations of used symbology/colours etc.
 6. Usually data sources and the used projection
 
-
+Important to keep in mind is that **maps are images that inherently selective and result from choices made by a cartographer**. There is no such thing as an "objective map. In reality, maps always emphasize some elements while ignoring others (or pushing them to the " 
 
 # Time to get your hands dirty! Move on to the Crash Course exercise to get started with (Q)GIS  
 
@@ -182,8 +182,8 @@ JlOiJ9LCJieU12eGpvMGZJeXJZNE5KIjp7InN0YXJ0IjoxMTg0
 NywiZW5kIjoxMTg2OSwidGV4dCI6IiMjIyBHSVMgYW5hbHlzaX
 MgdHlwZXMifSwielQ0VjVBRlY5Z2FSU3hDTiI6eyJzdGFydCI6
 MTU0ODcsImVuZCI6MTU0OTUsInRleHQiOiJnb29kIG1hcCJ9LC
-I4SzdTRlRUdTExVDlDQTlUIjp7InN0YXJ0IjoxNTc3OSwiZW5k
-IjoxNTg3NCwidGV4dCI6IiMgVGltZSB0byBnZXQgeW91ciBoYW
+I4SzdTRlRUdTExVDlDQTlUIjp7InN0YXJ0IjoxNjA0OCwiZW5k
+IjoxNjE0MywidGV4dCI6IiMgVGltZSB0byBnZXQgeW91ciBoYW
 5kcyBkaXJ0eSEgTW92ZSBvbiB0byB0aGUgQ3Jhc2ggQ291cnNl
 IGV4ZXJjaXNlIHRvIGdldCBzdGHigKYifX0sImNvbW1lbnRzIj
 p7InFaV1hGZ3RlTGRmdlVzZDIiOnsiZGlzY3Vzc2lvbklkIjoi
@@ -219,9 +219,9 @@ ZSIsImNyZWF0ZWQiOjE2ODYxMzg1NDkxMzl9LCI3ZWtEeHVsYT
 haUmczemNCIjp7ImRpc2N1c3Npb25JZCI6ImJ5TXZ4am8wZkl5
 clk0TkoiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBbm
 QgbGlua3MiLCJjcmVhdGVkIjoxNjg2NDgzMTI5NDUzfX0sImhp
-c3RvcnkiOls1ODExOTc0NDAsLTUxMTc2MDIzNSwtMjAxMDU3Mz
-AyNSwtMTM3NDU0MDExLC0yNTYwMDcyOTcsMTM0MzUzNzU3Nywt
-MTAzNTcxODgyNSw2MDc2Nzk4LDE2Nzg4NDcxODAsMTAxNDY2Nz
-A4OSwyMDY2Mjk3Nzk5LC0xMzY4MjkzMTEzLC0xOTc3NzQ2NDM1
-LDkwMDg5MTgxNl19
+c3RvcnkiOlstNTM4NzMwNjUxLC01MTE3NjAyMzUsLTIwMTA1Nz
+MwMjUsLTEzNzQ1NDAxMSwtMjU2MDA3Mjk3LDEzNDM1Mzc1Nzcs
+LTEwMzU3MTg4MjUsNjA3Njc5OCwxNjc4ODQ3MTgwLDEwMTQ2Nj
+cwODksMjA2NjI5Nzc5OSwtMTM2ODI5MzExMywtMTk3Nzc0NjQz
+NSw5MDA4OTE4MTZdfQ==
 -->
