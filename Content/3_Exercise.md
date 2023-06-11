@@ -163,9 +163,10 @@ education & low-income areas in Helsinki metropolitan region.**
 		- Main type of activity: pt_tyovy (Labour force, total)
 
 13.  You should use the original grid data and not the one you’ve been working with. Why?
-- You’ll have an untampered dataset and won’t lose any progress you’ve made with education and income data due to unfortunate errors. 
-- Note: The education and income fields’ total number fields have the population 18 years old and older (can you think of why?), but the totals for household and unemployment fields use different metrics: Total number of households and total number of available workforces.
-- Before tampering with the original grid file, you should save it as a new file, so you have a clean backup to fall back on.
+	- You’ll have an untampered dataset and won’t lose any progress you’ve made with education and income data due to unfortunate errors. 
+	- Note: The education and income fields’ total number fields have the population 18 years old and older (can you think of why?), but the totals for household and unemployment fields use different metrics: Total number of households and total number of available workforces.
+	- Before tampering with the original grid file, you should save it as a new file, so you have a clean backup to fall back on.
+	- 
 
  
 
@@ -253,8 +254,8 @@ oiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2NDc5ODM4MzY3
 fSwieGI0Zjc2R0NIQ0kxUmtqayI6eyJkaXNjdXNzaW9uSWQiOi
 JxZFJLaFE4c29Cdmc1SWhUIiwic3ViIjoiZ2g6NDAzMDQ3ODgi
 LCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2ND
-gwMTA5MDMxfX0sImhpc3RvcnkiOlstNTUwNDE3MTQ4LC0xMzY0
-MTc0OTkzLDE3MjY4MTM2MzQsLTEzMTE1Mjk0MDUsNTE2MjEzMj
-Q4LC0xNzI1NzcyMTYxLDE2NzcwMjkxNTEsLTEzMzIwODc5NjNd
-fQ==
+gwMTA5MDMxfX0sImhpc3RvcnkiOlstMTY2MDk1MTAxNSwtMTM2
+NDE3NDk5MywxNzI2ODEzNjM0LC0xMzExNTI5NDA1LDUxNjIxMz
+I0OCwtMTcyNTc3MjE2MSwxNjc3MDI5MTUxLC0xMzMyMDg3OTYz
+XX0=
 -->
