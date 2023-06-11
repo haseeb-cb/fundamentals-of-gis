@@ -37,13 +37,11 @@ data with the translations, explanations for the field names and longer descript
 English, Finnish, and Swedish).
 
 ## COMPLETION
-Work individually or in pairs and make map(s) and write a short reflection (2-3 pages of text excluding images). The following
+Work individually or in pairs and make map(s) and write a short reflection (200-300 words). The following
 steps should be done:
 1. Cleaning up the data of placeholder values for null/NoData entries.
 	- Selecting the rows without null values in the wanted fields:
-	
 	- Inhabitants belonging to the lowest income category
-	
 	- Inhabitants with no qualification after basic-level studies
 2. Calculation of proportions (percentages) of the variables above we need for the analysis
 3. Re-classifying the proportions into 4 classes based upon quartiles
@@ -59,9 +57,11 @@ Where are the biggest clusters?
 		- If not, what other variables would you need?
 	- Write how your workflow went, which part was hard and which was easy.
 	- It’s not needed to write click by click how you did it.
-7. Return your exercise report to the course Moodle in one week’s time (by next Wednesday).
+7. Return your exercise reflection to the course Moodle.
 
 ## EXERCISE PHASES
+
+#
 
 
 <!--stackedit_data:
@@ -81,5 +81,5 @@ ZSIsImNyZWF0ZWQiOjE2ODY0NzY1Nzk1Njd9LCJCdUJGbWlqR2
 lyakVjNVVrIjp7ImRpc2N1c3Npb25JZCI6Ild2em55ZktMWHZu
 bEVEaTQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZG
 QgcGFnZSIsImNyZWF0ZWQiOjE2ODY0NzY3MzYwNTV9fSwiaGlz
-dG9yeSI6Wy0xNjg0MTE0OTUxLC0xMzMyMDg3OTYzXX0=
+dG9yeSI6Wy0xMTMyODkwMTk0LC0xMzMyMDg3OTYzXX0=
 -->
