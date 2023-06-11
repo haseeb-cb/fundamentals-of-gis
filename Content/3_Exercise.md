@@ -146,7 +146,16 @@ into four classes.**
 
 11. **Now that you’ve reclassified the proportions into classes 1, 2, 3 or 4 it’s time to find the low
 education & low-income areas in Helsinki metropolitan region.**
+	- Select the grid squares that have been given the classification 4 in both of the
+reclassified fields
+		- Do you remember how to select attributes based on their value? Hint: check
+step number 4
+	- Save the selection as a new layer and give it an informative name
+	- Compose a map of the results
 
+---
+
+### Optional: Refining the analysis 
 
  
 
@@ -234,7 +243,7 @@ oiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2NDc5ODM4MzY3
 fSwieGI0Zjc2R0NIQ0kxUmtqayI6eyJkaXNjdXNzaW9uSWQiOi
 JxZFJLaFE4c29Cdmc1SWhUIiwic3ViIjoiZ2g6NDAzMDQ3ODgi
 LCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2ND
-gwMTA5MDMxfX0sImhpc3RvcnkiOlsxNzI2ODEzNjM0LC0xMzEx
-NTI5NDA1LDUxNjIxMzI0OCwtMTcyNTc3MjE2MSwxNjc3MDI5MT
-UxLC0xMzMyMDg3OTYzXX0=
+gwMTA5MDMxfX0sImhpc3RvcnkiOlstMTM2NDE3NDk5MywxNzI2
+ODEzNjM0LC0xMzExNTI5NDA1LDUxNjIxMzI0OCwtMTcyNTc3Mj
+E2MSwxNjc3MDI5MTUxLC0xMzMyMDg3OTYzXX0=
 -->
