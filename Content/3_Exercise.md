@@ -26,6 +26,13 @@ areas with the lowest educational & income level on a map
 
 ## DATA USED/NEEDED
 
+1. Statistics Finland’s Grid Database 2016
+	- Our data set covers the area of the Helsinki metropolitan region.
+	- See: http://www.stat.fi/tup/ruututietokanta/index_en.html
+	- The attribute table’s field names are in Finnish, but there’s a pdf included in the course
+data with the translations, explanations for the field names and longer descriptions (in
+English, Finnish, and Swedish).
+
 ## COMPLETION
 
 ## EXERCISE PHASES
@@ -43,5 +50,5 @@ RlZCI6MTY4NjQ3NjQzNjg3OH0sImxQa2xVRmJFNGVVMjAzNFoi
 OnsiZGlzY3Vzc2lvbklkIjoiUVAxWENiQ3BSc2QwbFZxNSIsIn
 N1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSBpZiBh
 cHBsaWNhYmxlIiwiY3JlYXRlZCI6MTY4NjQ3NjU3OTU2N319LC
-JoaXN0b3J5IjpbLTM2NDY5NDU5M119
+JoaXN0b3J5IjpbMTUyMjY5MDY5MV19
 -->
