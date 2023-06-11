@@ -61,7 +61,7 @@ steps should be done:
 ## EXERCISE PHASES
 
 ### Getting familiar with the data
-1. Download, unzip and open the practical 4 data in QGIS from the course Moodle page.
+1. Download, unzip and open the exercise 3 data in QGIS from the course Moodle page.
 
 2. Go through the attribute table and use the pdf-files to decipher the meanings of each field. The attribute table consists of a few themes (recognizable by the prefixes) and slightly over 100 fields.
 	- The fields we’re using depict the following:
@@ -73,8 +73,7 @@ steps should be done:
 			Note: ko_ika18y and hr_tuy both contain the same values. However, for clarity you might want to use the one with the same prefix as the one you are comparing it to.
 	- Background map.
 		- You can use for example QuickMapServices, the spatial data from the Crash Course’s General-folder or find your own data.
-		- Tip: Remember that if you first bring in your data (from the practical folder), the
-background map should project automatically to the right coordinate system.
+		- Tip: Remember that if you first bring in your data (from the practical folder), the background map should project automatically to the right coordinate system.
  
 
 
@@ -85,16 +84,36 @@ N0YXJ0IjoyNTEsImVuZCI6MjU5LCJ0ZXh0IjoiSGVsc2lua2ki
 fSwiUVAxWENiQ3BSc2QwbFZxNSI6eyJzdGFydCI6MTIzNCwiZW
 5kIjoxMjQyLCJ0ZXh0IjoiSGVsc2lua2kifSwiV3Z6bnlmS0xY
 dm5sRURpNCI6eyJzdGFydCI6MTc3NywiZW5kIjoxNzg5LCJ0ZX
-h0IjoicGRmIGluY2x1ZGVkIn19LCJjb21tZW50cyI6eyIzTG9H
-S2VRRkVNV3pqYkUxIjp7ImRpc2N1c3Npb25JZCI6ImVUYzhhb0
-JKbjd6ZHJmMGsiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQi
-OiJVcGRhdGUgaWYgYXBwbGljYWJsZSIsImNyZWF0ZWQiOjE2OD
-Y0NzY0MzY4Nzh9LCJsUGtsVUZiRTRlVTIwMzRaIjp7ImRpc2N1
-c3Npb25JZCI6IlFQMVhDYkNwUnNkMGxWcTUiLCJzdWIiOiJnaD
-o0MDMwNDc4OCIsInRleHQiOiJVcGRhdGUgaWYgYXBwbGljYWJs
-ZSIsImNyZWF0ZWQiOjE2ODY0NzY1Nzk1Njd9LCJCdUJGbWlqR2
-lyakVjNVVrIjp7ImRpc2N1c3Npb25JZCI6Ild2em55ZktMWHZu
-bEVEaTQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZG
-QgcGFnZSIsImNyZWF0ZWQiOjE2ODY0NzY3MzYwNTV9fSwiaGlz
-dG9yeSI6Wy0xNDU5MTc1MjM5LC0xMzMyMDg3OTYzXX0=
+h0IjoicGRmIGluY2x1ZGVkIn0sIkJ3ZFRwa3lIblpFQmNOclgi
+Onsic3RhcnQiOjMzNTgsImVuZCI6MzM2NywidGV4dCI6InBkZi
+1maWxlcyJ9LCI1dUhCTVNsNU1TbVpicFZqIjp7InN0YXJ0Ijoz
+MjI2LCJlbmQiOjMzMTAsInRleHQiOiIxLiBEb3dubG9hZCwgdW
+56aXAgYW5kIG9wZW4gdGhlIGV4ZXJjaXNlIDMgZGF0YSBpbiBR
+R0lTIGZyb20gdGhlIGNvdXJzZSBNb29kbGXigKYifSwiMnRTWG
+x6M095cmpWSHZGaiI6eyJzdGFydCI6NDMxMywiZW5kIjo0NDM1
+LCJ0ZXh0IjoiLSBZb3UgY2FuIHVzZSBmb3IgZXhhbXBsZSBRdW
+lja01hcFNlcnZpY2VzLCB0aGUgc3BhdGlhbCBkYXRhIGZyb20g
+dGhlIENyYXNoIENvdeKApiJ9fSwiY29tbWVudHMiOnsiM0xvR0
+tlUUZFTVd6amJFMSI6eyJkaXNjdXNzaW9uSWQiOiJlVGM4YW9C
+Sm43emRyZjBrIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ij
+oiVXBkYXRlIGlmIGFwcGxpY2FibGUiLCJjcmVhdGVkIjoxNjg2
+NDc2NDM2ODc4fSwibFBrbFVGYkU0ZVUyMDM0WiI6eyJkaXNjdX
+NzaW9uSWQiOiJRUDFYQ2JDcFJzZDBsVnE1Iiwic3ViIjoiZ2g6
+NDAzMDQ3ODgiLCJ0ZXh0IjoiVXBkYXRlIGlmIGFwcGxpY2FibG
+UiLCJjcmVhdGVkIjoxNjg2NDc2NTc5NTY3fSwiQnVCRm1pakdp
+cmpFYzVVayI6eyJkaXNjdXNzaW9uSWQiOiJXdnpueWZLTFh2bm
+xFRGk0Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRk
+IHBhZ2UiLCJjcmVhdGVkIjoxNjg2NDc2NzM2MDU1fSwiUEtCYU
+paYTNkbXdsVnFGNSI6eyJkaXNjdXNzaW9uSWQiOiJCd2RUcGt5
+SG5aRUJjTnJYIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ij
+oiUmVmZXJlbmNlIiwiY3JlYXRlZCI6MTY4NjQ3NzQ3NTg4OH0s
+Inc3RVZTMnhNUHpSY0lDTGYiOnsiZGlzY3Vzc2lvbklkIjoiNX
+VIQk1TbDVNU21aYnBWaiIsInN1YiI6ImdoOjQwMzA0Nzg4Iiwi
+dGV4dCI6IkFkZCBpbnN0cnVjdGlvbnMgdG8gZG93bmxvYWQgZG
+F0YSB0aGVtc2VsdmVzIiwiY3JlYXRlZCI6MTY4NjQ3NzQ5NDEy
+MH0sIjIzY0VLZDVtZTNjRWxJRjUiOnsiZGlzY3Vzc2lvbklkIj
+oiMnRTWGx6M095cmpWSHZGaiIsInN1YiI6ImdoOjQwMzA0Nzg4
+IiwidGV4dCI6IkFkZCBpbnN0cnVjdGlvbnMgb24gaG93IHRvIH
+VzZSB0aGlzIiwiY3JlYXRlZCI6MTY4NjQ3NzU0OTc5MX19LCJo
+aXN0b3J5IjpbMjExMzQ5NDU0NiwtMTMzMjA4Nzk2M119
 -->
