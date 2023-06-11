@@ -3,9 +3,11 @@
 # Theory 3: Socio-spatial differentiation & social segregation
 
 - Dataset
+	- Raster data
 - Data cleanup
 	- Why?
 	- How?
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5Mzg4OTM3NF19
+eyJoaXN0b3J5IjpbMTg4NDczMDUzOF19
 -->
