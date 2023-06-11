@@ -61,6 +61,7 @@ steps should be done:
 ## EXERCISE PHASES
 
 ### Getting familiar with the data
+
 1. Download, unzip and open the exercise 3 data in QGIS from the course Moodle page.
 
 2. Go through the attribute table and use the pdf-files to decipher the meanings of each field. The attribute table consists of a few themes (recognizable by the prefixes) and slightly over 100 fields.
@@ -74,6 +75,17 @@ steps should be done:
 	- Background map.
 		- You can use for example QuickMapServices, the spatial data from the Crash Course’s General-folder or find your own data.
 		- Tip: Remember that if you first bring in your data (from the practical folder), the background map should project automatically to the right coordinate system.
+
+--- 
+
+### Cleaning up the data
+
+3. As you browsed the attribute table of the data, you might’ve noticed that some fields have
+the value -1 for data privacy protection law. You’ll have to clean up the data and there are a few
+ways to do this. Here we’re focusing on selections.
+	- -1 is a placeholder value for NoData or NotAvailable and not an actual value. It does not mean that there are actually -1 people in the cell...
+	- The Basic-level studies field (ko_perus) depicts the amount of people whose highest achieved level of education is basic-level studies. It has values of -1 for those grids that have less than 10 people over 18 years old (ko_ika18y).
+	- And same thing for the low-income variables hr_pi_tul and hr_tuy.
  
 
 
@@ -85,12 +97,12 @@ fSwiUVAxWENiQ3BSc2QwbFZxNSI6eyJzdGFydCI6MTIzNCwiZW
 5kIjoxMjQyLCJ0ZXh0IjoiSGVsc2lua2kifSwiV3Z6bnlmS0xY
 dm5sRURpNCI6eyJzdGFydCI6MTc3NywiZW5kIjoxNzg5LCJ0ZX
 h0IjoicGRmIGluY2x1ZGVkIn0sIkJ3ZFRwa3lIblpFQmNOclgi
-Onsic3RhcnQiOjMzNTgsImVuZCI6MzM2NywidGV4dCI6InBkZi
+Onsic3RhcnQiOjMzNTksImVuZCI6MzM2OCwidGV4dCI6InBkZi
 1maWxlcyJ9LCI1dUhCTVNsNU1TbVpicFZqIjp7InN0YXJ0Ijoz
-MjI2LCJlbmQiOjMzMTAsInRleHQiOiIxLiBEb3dubG9hZCwgdW
+MjI3LCJlbmQiOjMzMTEsInRleHQiOiIxLiBEb3dubG9hZCwgdW
 56aXAgYW5kIG9wZW4gdGhlIGV4ZXJjaXNlIDMgZGF0YSBpbiBR
 R0lTIGZyb20gdGhlIGNvdXJzZSBNb29kbGXigKYifSwiMnRTWG
-x6M095cmpWSHZGaiI6eyJzdGFydCI6NDMxMywiZW5kIjo0NDM1
+x6M095cmpWSHZGaiI6eyJzdGFydCI6NDMxNCwiZW5kIjo0NDM2
 LCJ0ZXh0IjoiLSBZb3UgY2FuIHVzZSBmb3IgZXhhbXBsZSBRdW
 lja01hcFNlcnZpY2VzLCB0aGUgc3BhdGlhbCBkYXRhIGZyb20g
 dGhlIENyYXNoIENvdeKApiJ9fSwiY29tbWVudHMiOnsiM0xvR0
@@ -115,5 +127,5 @@ MH0sIjIzY0VLZDVtZTNjRWxJRjUiOnsiZGlzY3Vzc2lvbklkIj
 oiMnRTWGx6M095cmpWSHZGaiIsInN1YiI6ImdoOjQwMzA0Nzg4
 IiwidGV4dCI6IkFkZCBpbnN0cnVjdGlvbnMgb24gaG93IHRvIH
 VzZSB0aGlzIiwiY3JlYXRlZCI6MTY4NjQ3NzU0OTc5MX19LCJo
-aXN0b3J5IjpbMjExMzQ5NDU0NiwtMTMzMjA4Nzk2M119
+aXN0b3J5IjpbMTM3NTY0NzIxMCwtMTMzMjA4Nzk2M119
 -->
