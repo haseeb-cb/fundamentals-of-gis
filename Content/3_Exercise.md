@@ -37,7 +37,7 @@ data with the translations, explanations for the field names and longer descript
 English, Finnish, and Swedish).
 
 ## COMPLETION
-Work individually or in pairs and write a short report (2-3 pages of text excluding images). The following
+Work individually or in pairs and make map(s) and write a short reflection (2-3 pages of text excluding images). The following
 steps should be done:
 1. Cleaning up the data of placeholder values for null/NoData entries.
 	- Selecting the rows without null values in the wanted fields:
@@ -81,5 +81,5 @@ ZSIsImNyZWF0ZWQiOjE2ODY0NzY1Nzk1Njd9LCJCdUJGbWlqR2
 lyakVjNVVrIjp7ImRpc2N1c3Npb25JZCI6Ild2em55ZktMWHZu
 bEVEaTQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZG
 QgcGFnZSIsImNyZWF0ZWQiOjE2ODY0NzY3MzYwNTV9fSwiaGlz
-dG9yeSI6Wy0xMzMyMDg3OTYzXX0=
+dG9yeSI6Wy0xNjg0MTE0OTUxLC0xMzMyMDg3OTYzXX0=
 -->
