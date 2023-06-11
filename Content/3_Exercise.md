@@ -140,6 +140,14 @@ into four classes.**
 	- Do the same for the remaining proportion field.
 		- Again, read the expression aloud if you don’t understand it!
 
+---
+
+### Finding the low education/low-income areas
+
+11. **Now that you’ve reclassified the proportions into classes 1, 2, 3 or 4 it’s time to find the low
+education & low-income areas in Helsinki metropolitan region.**
+
+
  
 
 
@@ -226,7 +234,7 @@ oiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2NDc5ODM4MzY3
 fSwieGI0Zjc2R0NIQ0kxUmtqayI6eyJkaXNjdXNzaW9uSWQiOi
 JxZFJLaFE4c29Cdmc1SWhUIiwic3ViIjoiZ2g6NDAzMDQ3ODgi
 LCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2ND
-gwMTA5MDMxfX0sImhpc3RvcnkiOls3NTY3MjU0MzUsLTEzMTE1
-Mjk0MDUsNTE2MjEzMjQ4LC0xNzI1NzcyMTYxLDE2NzcwMjkxNT
-EsLTEzMzIwODc5NjNdfQ==
+gwMTA5MDMxfX0sImhpc3RvcnkiOlsxNzI2ODEzNjM0LC0xMzEx
+NTI5NDA1LDUxNjIxMzI0OCwtMTcyNTc3MjE2MSwxNjc3MDI5MT
+UxLC0xMzMyMDg3OTYzXX0=
 -->
