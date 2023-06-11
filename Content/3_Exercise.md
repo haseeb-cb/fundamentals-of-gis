@@ -15,9 +15,14 @@ in the region.
 To do this, the data needs some clean-up, some fields need to be calculated and the lowest quartiles for
 different variables (income, education) have to be found. You will be learning to use the conditional statement
 functionality. The results are once again to be visualized on a map and to be
-analyzed in the report.
+reflected on.
 
 ## OBJECTIVES
+1. Examining the socio-economic structure of the Helsinki Metropolitan Region and pinpointing the
+areas with the lowest educational & income level on a map
+2. Familiarizing yourself with using expressions and conditional statements
+	- Using more complex expressions
+	- Using conditional statements to reclassify field values
 
 ## DATA USED/NEEDED
 
@@ -29,9 +34,14 @@ analyzed in the report.
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJlVGM4YW9CSm43emRyZjBrIjp7In
 N0YXJ0IjoyNTEsImVuZCI6MjU5LCJ0ZXh0IjoiSGVsc2lua2ki
-fX0sImNvbW1lbnRzIjp7IjNMb0dLZVFGRU1XempiRTEiOnsiZG
-lzY3Vzc2lvbklkIjoiZVRjOGFvQkpuN3pkcmYwayIsInN1YiI6
-ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSBpZiBhcHBsaW
-NhYmxlIiwiY3JlYXRlZCI6MTY4NjQ3NjQzNjg3OH19LCJoaXN0
-b3J5IjpbMTU0MTAxMTA0MV19
+fSwiUVAxWENiQ3BSc2QwbFZxNSI6eyJzdGFydCI6MTIzNCwiZW
+5kIjoxMjQyLCJ0ZXh0IjoiSGVsc2lua2kifX0sImNvbW1lbnRz
+Ijp7IjNMb0dLZVFGRU1XempiRTEiOnsiZGlzY3Vzc2lvbklkIj
+oiZVRjOGFvQkpuN3pkcmYwayIsInN1YiI6ImdoOjQwMzA0Nzg4
+IiwidGV4dCI6IlVwZGF0ZSBpZiBhcHBsaWNhYmxlIiwiY3JlYX
+RlZCI6MTY4NjQ3NjQzNjg3OH0sImxQa2xVRmJFNGVVMjAzNFoi
+OnsiZGlzY3Vzc2lvbklkIjoiUVAxWENiQ3BSc2QwbFZxNSIsIn
+N1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSBpZiBh
+cHBsaWNhYmxlIiwiY3JlYXRlZCI6MTY4NjQ3NjU3OTU2N319LC
+JoaXN0b3J5IjpbLTM2NDY5NDU5M119
 -->
