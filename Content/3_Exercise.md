@@ -72,10 +72,10 @@ steps should be done:
 			- Level of income: hr_tuy (Total number of people in grid cell, aged 18 or over)
 			Note: ko_ika18y and hr_tuy both contain the same values. However, for clarity you might want to use the one with the same prefix as the one you are comparing it to.
 	- Background map.
-- You can use for example QuickMapServices, the spatial data from the Crash
-Course’s General-folder or find your own data.
-ii. Tip: Remember that if you first bring in your data (from the practical folder), the
+		- You can use for example QuickMapServices, the spatial data from the Crash Course’s General-folder or find your own data.
+		- Tip: Remember that if you first bring in your data (from the practical folder), the
 background map should project automatically to the right coordinate system.
+ 
 
 
 
@@ -96,5 +96,5 @@ ZSIsImNyZWF0ZWQiOjE2ODY0NzY1Nzk1Njd9LCJCdUJGbWlqR2
 lyakVjNVVrIjp7ImRpc2N1c3Npb25JZCI6Ild2em55ZktMWHZu
 bEVEaTQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZG
 QgcGFnZSIsImNyZWF0ZWQiOjE2ODY0NzY3MzYwNTV9fSwiaGlz
-dG9yeSI6Wy0xNTQ1MDIzMzAwLC0xMzMyMDg3OTYzXX0=
+dG9yeSI6Wy0xNDU5MTc1MjM5LC0xMzMyMDg3OTYzXX0=
 -->
