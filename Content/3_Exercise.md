@@ -170,7 +170,11 @@ education & low-income areas in Helsinki metropolitan region.**
 14. When you’ve reclassified the proportions to the quartiles, you can join the layers using the id_nro field.
 	- You can select which fields to join, so you don’t have to join all the fields, just the
 reclassified fields for rented dwellings and unemployment.
-	- 
+
+15. Compose a map of the results
+	- How do the refined results differ from the coarser results?
+	- Are these refined results enough to delineate segregated areas?
+		- Would you need additional data? What data?
 
  
 
@@ -258,7 +262,7 @@ oiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2NDc5ODM4MzY3
 fSwieGI0Zjc2R0NIQ0kxUmtqayI6eyJkaXNjdXNzaW9uSWQiOi
 JxZFJLaFE4c29Cdmc1SWhUIiwic3ViIjoiZ2g6NDAzMDQ3ODgi
 LCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2ND
-gwMTA5MDMxfX0sImhpc3RvcnkiOlstOTcwNTk4MjI1LC0xMzY0
+gwMTA5MDMxfX0sImhpc3RvcnkiOlstMjY5NTU4Nzg1LC0xMzY0
 MTc0OTkzLDE3MjY4MTM2MzQsLTEzMTE1Mjk0MDUsNTE2MjEzMj
 Q4LC0xNzI1NzcyMTYxLDE2NzcwMjkxNTEsLTEzMzIwODc5NjNd
 fQ==
