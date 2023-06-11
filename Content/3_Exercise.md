@@ -87,7 +87,7 @@ ways to do this. Here we’re focusing on selections.
 	- The Basic-level studies field (ko_perus) depicts the amount of people whose highest achieved level of education is basic-level studies. It has values of -1 for those grids that have less than 10 people over 18 years old (ko_ika18y).
 	- And same thing for the low-income variables hr_pi_tul and hr_tuy.
 
-4. You could use select by expression to select the features that have values in the two wanted fields (ko_perus, hr_pi_tul) that are 0 or greater AND have people living in them (ko_ika18y, hr_tuy):
+4. **You could use select by expression** to select the features that have values in the two wanted fields (ko_perus, hr_pi_tul) that are 0 or greater AND have people living in them (ko_ika18y, hr_tuy):
 	- To open the expression window press
 	- After the selection, save the selected features as a new shapefile (Right click layer with selection > *Export* > *Save selected features as…*).
 
@@ -132,7 +132,8 @@ SPSS etc.) to find out the boundaries.
 
 10. **Now that we have the boundaries for the two classifications, it’s time to reclassify the data
 into four classes.**
-
+		- Open the attribute table and field calculator, we’re creating new fields for the reclassified values using a slightly more complex conditional statement this time. Note! Do all the analyses in the same layer so that you get the new columns in the same layer.
+		- The logic behind the numbering of the classes should be the same across all the reclassifications. In this instance our logic can be as follows: class 1 is the lowest (e.g. lowest share of inhabitants with no qualification after basic-level studies) and class 4 is the highest quartile (e.g. highest share of inhabitants with no qualification after basiclevel studies).
 
  
 
@@ -154,21 +155,21 @@ x6M095cmpWSHZGaiI6eyJzdGFydCI6NDMxOCwiZW5kIjo0NDQw
 LCJ0ZXh0IjoiLSBZb3UgY2FuIHVzZSBmb3IgZXhhbXBsZSBRdW
 lja01hcFNlcnZpY2VzLCB0aGUgc3BhdGlhbCBkYXRhIGZyb20g
 dGhlIENyYXNoIENvdeKApiJ9LCJEdmdmcEpzZnZ3Y05mOGlWIj
-p7InN0YXJ0Ijo1MzQwLCJlbmQiOjU1MzgsInRleHQiOiI0LiBZ
+p7InN0YXJ0Ijo1MzQwLCJlbmQiOjU1NDIsInRleHQiOiI0LiBZ
 b3UgY291bGQgdXNlIHNlbGVjdCBieSBleHByZXNzaW9uIHRvIH
 NlbGVjdCB0aGUgZmVhdHVyZXMgdGhhdCBoYXZlIHZhbHVlcyBp
 4oCmIn0sIlJpYktXVTFRQzdyWkNCWDUiOnsic3RhcnQiOjU1Nz
-IsImVuZCI6NTU3NywidGV4dCI6InByZXNzIn0sIktmMzRvY21p
+YsImVuZCI6NTU4MSwidGV4dCI6InByZXNzIn0sIktmMzRvY21p
 TEI5NXg5MksiOnsic3RhcnQiOjExNzQsImVuZCI6MTE4NCwidG
 V4dCI6Ik9CSkVDVElWRVMifSwiVGtMaXM5UmZ3UzJKeW03bCI6
-eyJzdGFydCI6NjAxMywiZW5kIjo2MTMwLCJ0ZXh0IjoiNi4gKi
+eyJzdGFydCI6NjAxNywiZW5kIjo2MTM0LCJ0ZXh0IjoiNi4gKi
 pJbiB0aGUgbmV3bHkgY3JlYXRlZCBsYXllciwgdXNlIHRoZSBm
 aWVsZCBjYWxjdWxhdG9yIHRvIGNhbGN1bGF0ZSBuZXcgZmllbO
-KApiJ9LCIyZHdDOWZ0bHVJRVdUQllWIjp7InN0YXJ0Ijo3Njgz
-LCJlbmQiOjc3NjQsInRleHQiOiItIFNvLCBvcGVuIHRoZSBzdH
+KApiJ9LCIyZHdDOWZ0bHVJRVdUQllWIjp7InN0YXJ0Ijo3Njg3
+LCJlbmQiOjc3NjgsInRleHQiOiItIFNvLCBvcGVuIHRoZSBzdH
 lsZSB0YWIgb2YgdGhlIGxheWVyLCBzZWxlY3QgZ3JhZHVhdGVk
 LCBzZWxlY3QgdGhlIGNvcnJlY3QgZmll4oCmIn0sIkdMcEFRdk
-4xczNRSHZSSTQiOnsic3RhcnQiOjgwMDAsImVuZCI6ODA1Niwi
+4xczNRSHZSSTQiOnsic3RhcnQiOjgwMDQsImVuZCI6ODA2MCwi
 dGV4dCI6IkZvciBCYXNpYy1sZXZlbCBlZHVjYXRpb24gdGhleS
 Bsb29rIHNvbWV0aGluZyBsaWtlIHRoaXM6In19LCJjb21tZW50
 cyI6eyIzTG9HS2VRRkVNV3pqYkUxIjp7ImRpc2N1c3Npb25JZC
@@ -214,7 +215,7 @@ Mgc3RhZ2Ugb2YgdGhlIGNvdXJzZT8iLCJjcmVhdGVkIjoxNjg2
 NDc5NzU4MTM2fSwiSnRuZDBtQWVyY1VhSzZpUyI6eyJkaXNjdX
 NzaW9uSWQiOiJHTHBBUXZOMXMzUUh2Ukk0Iiwic3ViIjoiZ2g6
 NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdG
-VkIjoxNjg2NDc5ODM4MzY3fX0sImhpc3RvcnkiOlstMTk3NTY4
-ODAwLC0xMzExNTI5NDA1LDUxNjIxMzI0OCwtMTcyNTc3MjE2MS
+VkIjoxNjg2NDc5ODM4MzY3fX0sImhpc3RvcnkiOlsxNjUzMDc3
+Mjg5LC0xMzExNTI5NDA1LDUxNjIxMzI0OCwtMTcyNTc3MjE2MS
 wxNjc3MDI5MTUxLC0xMzMyMDg3OTYzXX0=
 -->
