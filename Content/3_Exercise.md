@@ -93,7 +93,7 @@ ways to do this. Here we’re focusing on selections.
 
 	*Tip: If you are confused with the formula, try reading it aloud: “Select the features where X is greater than 0 AND Y is greater or equal than 0, AND…”*
 
-5. You should end up with a new layer without any -1 values in the four wanted fields.
+5. **You should end up with a new layer without any -1 values in the four wanted fields.**
 
 ---
 
@@ -109,7 +109,13 @@ ways to do this. Here we’re focusing on selections.
 		- Make sure the field type is set to decimal numbers and make the values have at least 2 decimal numbers (precision).
 		- Name the fields accordingly. Note: Shapefile allows only 10 characters in the
 field name.
-7. **You should end up with two new fi
+
+7. **You should end up with two new fields that all have percentage values.**
+
+--- 
+
+### Quantiles and reclassification
+
 
 
  
@@ -165,7 +171,7 @@ biIsImNyZWF0ZWQiOjE2ODY0NzgzMDM4ODd9LCJacjJLWnFUUl
 dwcWo2U05UIjp7ImRpc2N1c3Npb25JZCI6IlJpYktXVTFRQzdy
 WkNCWDUiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZG
 QgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODY0Nzg1OTU0NTR9fSwi
-aGlzdG9yeSI6WzM0OTQ0NTA5LC0xMzExNTI5NDA1LDUxNjIxMz
-I0OCwtMTcyNTc3MjE2MSwxNjc3MDI5MTUxLC0xMzMyMDg3OTYz
-XX0=
+aGlzdG9yeSI6WzE3NjU4OTI2MSwtMTMxMTUyOTQwNSw1MTYyMT
+MyNDgsLTE3MjU3NzIxNjEsMTY3NzAyOTE1MSwtMTMzMjA4Nzk2
+M119
 -->
