@@ -91,14 +91,18 @@ ways to do this. Here we’re focusing on selections.
 	- To open the expression window press
 	- After the selection, save the selected features as a new shapefile (Right click layer with selection > *Export* > *Save selected features as…*).
 
-	*Tip: If you are confused with the formula, try reading it aloud: “Select the features where X is greater
-than 0 AND Y is greater or equal than 0, AND…”*
+	*Tip: If you are confused with the formula, try reading it aloud: “Select the features where X is greater than 0 AND Y is greater or equal than 0, AND…”*
 
 5. You should end up with a new layer without any -1 values in the four wanted fields.
 
 ---
 
 ### Calculating the proportions
+
+6. **In the newly created layer, use the field calculator to calculate new fields for the proportions
+(percentages)**
+	- Calculate the proportions of the wanted fields (Basic education, low-income inhabitants etc.)
+
 
  
 
@@ -153,6 +157,6 @@ biIsImNyZWF0ZWQiOjE2ODY0NzgzMDM4ODd9LCJacjJLWnFUUl
 dwcWo2U05UIjp7ImRpc2N1c3Npb25JZCI6IlJpYktXVTFRQzdy
 WkNCWDUiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZG
 QgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODY0Nzg1OTU0NTR9fSwi
-aGlzdG9yeSI6WzE4NTc5ODQwNDUsNTE2MjEzMjQ4LC0xNzI1Nz
-cyMTYxLDE2NzcwMjkxNTEsLTEzMzIwODc5NjNdfQ==
+aGlzdG9yeSI6Wy0xMzExNTI5NDA1LDUxNjIxMzI0OCwtMTcyNT
+c3MjE2MSwxNjc3MDI5MTUxLC0xMzMyMDg3OTYzXX0=
 -->
