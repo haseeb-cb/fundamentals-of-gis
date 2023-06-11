@@ -114,7 +114,7 @@ In GIS, both vector and raster data have their respective strengths and applicat
 How and where to find spatial data is discussed in detail here: 
 
 ### Coordinate Reference Systems (CRS) and map projections
-The basic idea of a CRS is to project the shape of the earth, or the specific area of the CRS, onto a flat plane like a map. In other words, CRS are frameworks that define how geographic locations are represented and referenced in a coordinate system. There are different CRS which use different Earth shape models as a reference and projection methods, the specific CRS used is often depending on the region where the data is located. When we are working with different kind of data, it is common that we have layers that are in different CRS. **Thus, it is important to check that the layers and the project are in the same CRS!**
+The basic idea of a CRS is to project the shape of the earth, or the specific area of the CRS, onto a flat plane like a map. In other words, CRS are frameworks that define how geographic locations are represented and referenced in a coordinate system. There are different CRS which use different Earth shape models as a reference and projection methods. The specific CRS used is often depending on the region where the data is located. When we are working with different kind of data, it is common that we have layers that are in different CRS. **Thus, it is important to check that the layers and the project are in the same CRS!**
 
 ![Map Projection Families](https://docs.qgis.org/3.4/en/_images/projection_families.png)
 
@@ -154,10 +154,12 @@ You can find more information about the usage of QGIS here: https://docs.qgis.or
 A **good map** has: 
 1. Clear and objective symbology that represents the data correctly
 2. Is useful for the target audience
-3. An adequate projection and scale
+3. An adequate projection and scale(bar)
 4. A north arrow
 5. A legend with explanations of used symbology/colours etc.
 6. Usually data sources and the used projection
+
+
 
 # Time to get your hands dirty! Move on to the Crash Course exercise to get started with (Q)GIS  
 
@@ -180,8 +182,8 @@ JlOiJ9LCJieU12eGpvMGZJeXJZNE5KIjp7InN0YXJ0IjoxMTg0
 NywiZW5kIjoxMTg2OSwidGV4dCI6IiMjIyBHSVMgYW5hbHlzaX
 MgdHlwZXMifSwielQ0VjVBRlY5Z2FSU3hDTiI6eyJzdGFydCI6
 MTU0ODcsImVuZCI6MTU0OTUsInRleHQiOiJnb29kIG1hcCJ9LC
-I4SzdTRlRUdTExVDlDQTlUIjp7InN0YXJ0IjoxNTc3MiwiZW5k
-IjoxNTg2NywidGV4dCI6IiMgVGltZSB0byBnZXQgeW91ciBoYW
+I4SzdTRlRUdTExVDlDQTlUIjp7InN0YXJ0IjoxNTc3OSwiZW5k
+IjoxNTg3NCwidGV4dCI6IiMgVGltZSB0byBnZXQgeW91ciBoYW
 5kcyBkaXJ0eSEgTW92ZSBvbiB0byB0aGUgQ3Jhc2ggQ291cnNl
 IGV4ZXJjaXNlIHRvIGdldCBzdGHigKYifX0sImNvbW1lbnRzIj
 p7InFaV1hGZ3RlTGRmdlVzZDIiOnsiZGlzY3Vzc2lvbklkIjoi
@@ -213,10 +215,13 @@ IGV4YW1wbGUgd2l0aCBwb2ludGVycyIsImNyZWF0ZWQiOjE2OD
 YxMzg0MjI1Nzh9LCJLTG44RlJ0Q2NxaFZpTlBHIjp7ImRpc2N1
 c3Npb25JZCI6IjhLN1NGVFR1MTFUOUNBOVQiLCJzdWIiOiJnaD
 o0MDMwNDc4OCIsInRleHQiOiJBZGQgbGluayB0byBleGVyY2lz
-ZSIsImNyZWF0ZWQiOjE2ODYxMzg1NDkxMzl9fSwiaGlzdG9yeS
-I6WzEyOTgxNDU0MjIsLTUxMTc2MDIzNSwtMjAxMDU3MzAyNSwt
-MTM3NDU0MDExLC0yNTYwMDcyOTcsMTM0MzUzNzU3NywtMTAzNT
-cxODgyNSw2MDc2Nzk4LDE2Nzg4NDcxODAsMTAxNDY2NzA4OSwy
-MDY2Mjk3Nzk5LC0xMzY4MjkzMTEzLC0xOTc3NzQ2NDM1LDkwMD
-g5MTgxNl19
+ZSIsImNyZWF0ZWQiOjE2ODYxMzg1NDkxMzl9LCI3ZWtEeHVsYT
+haUmczemNCIjp7ImRpc2N1c3Npb25JZCI6ImJ5TXZ4am8wZkl5
+clk0TkoiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBbm
+QgbGlua3MiLCJjcmVhdGVkIjoxNjg2NDgzMTI5NDUzfX0sImhp
+c3RvcnkiOls1ODExOTc0NDAsLTUxMTc2MDIzNSwtMjAxMDU3Mz
+AyNSwtMTM3NDU0MDExLC0yNTYwMDcyOTcsMTM0MzUzNzU3Nywt
+MTAzNTcxODgyNSw2MDc2Nzk4LDE2Nzg4NDcxODAsMTAxNDY2Nz
+A4OSwyMDY2Mjk3Nzk5LC0xMzY4MjkzMTEzLC0xOTc3NzQ2NDM1
+LDkwMDg5MTgxNl19
 -->
