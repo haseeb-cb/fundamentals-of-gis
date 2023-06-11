@@ -87,11 +87,14 @@ ways to do this. Here we’re focusing on selections.
 	- The Basic-level studies field (ko_perus) depicts the amount of people whose highest achieved level of education is basic-level studies. It has values of -1 for those grids that have less than 10 people over 18 years old (ko_ika18y).
 	- And same thing for the low-income variables hr_pi_tul and hr_tuy.
 
-4. You could use select by expression to select the features that have values in the two wanted
-fields (ko_perus, hr_pi_tul) that are 0 or greater AND have people living in them (ko_ika18y,
-hr_tuy):
+4. You could use select by expression to select the features that have values in the two wanted fields (ko_perus, hr_pi_tul) that are 0 or greater AND have people living in them (ko_ika18y, hr_tuy):
 	- To open the expression window press
-	- After the selection, save the selected features as a new shapefile (Export > Save selected features as…).
+	- After the selection, save the selected features as a new shapefile (Right click layer with selection > *Export* > *Save selected features as…*).
+
+	*Tip: If you are confused with the formula, try reading it aloud: “Select the features where X is greater
+than 0 AND Y is greater or equal than 0, AND…”*
+
+5. You should end up with a new layer without any -1 values in the four wanted fields.
 
  
 
@@ -146,6 +149,6 @@ biIsImNyZWF0ZWQiOjE2ODY0NzgzMDM4ODd9LCJacjJLWnFUUl
 dwcWo2U05UIjp7ImRpc2N1c3Npb25JZCI6IlJpYktXVTFRQzdy
 WkNCWDUiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZG
 QgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODY0Nzg1OTU0NTR9fSwi
-aGlzdG9yeSI6WzUxNjIxMzI0OCwtMTcyNTc3MjE2MSwxNjc3MD
-I5MTUxLC0xMzMyMDg3OTYzXX0=
+aGlzdG9yeSI6Wy0xMDE0OTg0MDg2LDUxNjIxMzI0OCwtMTcyNT
+c3MjE2MSwxNjc3MDI5MTUxLC0xMzMyMDg3OTYzXX0=
 -->
