@@ -7,7 +7,8 @@
 - Data cleanup
 	- Why?
 	- How?
+- Expressions
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NDczMDUzOF19
+eyJoaXN0b3J5IjpbMTYwMTQ2NDQwMF19
 -->
