@@ -75,9 +75,11 @@ GIS is used in a wide range of fields and industries, including:
 These are just a few examples of the diverse applications of GIS. This course is not specifically tailored for a specific field, but it aims to give you a fundamental skillset in GIS that you can use to apply GIS in almost any field. 
 
 ### GIS workflow
-We can apply the **PPDAC workflow** to GIS analysis:
+
+PPDAC is a problem-solving framework commonly used in the field of data analysis and decision-making. It stands for Problem, Plan, Data, Analysis, and Conclusion. This framework provides a systematic approach to tackle complex problems and make informed decisions based on data-driven analysis. While PPDAC is not specifically tied to Geographic Information Systems (GIS), it can be applied within a GIS context to enhance the problem-solving process.
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/GIS_PPDAC_v2.drawio.png)
+By following the PPDAC framework, you can ensure a structured and systematic approach to problem-solving within the GIS domain. It helps in organizing your thoughts, guiding your analysis, and ensuring that your conclusions are based on robust data analysis.
 
 For more information about the PPDAC Model: http://wiki.gis.com/wiki/index.php/PPDAC_Model
 
@@ -112,7 +114,7 @@ In GIS, both vector and raster data have their respective strengths and applicat
 How and where to find spatial data is discussed in detail here: 
 
 ### Coordinate Reference Systems (CRS) and map projections
-The basic idea of a CRS is to project the shape of the earth, or the specific area of the CRS, onto a flat plane like a map. In other words, CRS are frameworks that define how geographic clocations are represented and referenced in a coordinate system. There are different CRS which use different Earth shape models as a reference and projection methods, the specific CRS used is often depending on the region where the data is located. When we are working with different kind of data, it is common that we have layers that are in different CRS. **Thus, it is important to check that the layers and the project are in the same CRS!**
+The basic idea of a CRS is to project the shape of the earth, or the specific area of the CRS, onto a flat plane like a map. In other words, CRS are frameworks that define how geographic locations are represented and referenced in a coordinate system. There are different CRS which use different Earth shape models as a reference and projection methods, the specific CRS used is often depending on the region where the data is located. When we are working with different kind of data, it is common that we have layers that are in different CRS. **Thus, it is important to check that the layers and the project are in the same CRS!**
 
 ![Map Projection Families](https://docs.qgis.org/3.4/en/_images/projection_families.png)
 
@@ -166,55 +168,55 @@ N0YXJ0IjoyMTIwLCJlbmQiOjIxMjEsInRleHQiOiJYIn0sIno2
 SmxoRFBWRnpxb3U4MnUiOnsic3RhcnQiOjM1MTcsImVuZCI6Mz
 UyNywidGV4dCI6IkNoYXQgbGluazoifSwiZTRrb1dqOU1SZXJy
 VWdFdiI6eyJzdGFydCI6MzYyOSwiZW5kIjozNjMyLCJ0ZXh0Ij
-oiKEApIn0sIm1Yams3NlFrb3VyYXBxUm4iOnsic3RhcnQiOjgw
-NDUsImVuZCI6ODA3OSwidGV4dCI6Ii0gUmVhbCBsaWZlIGV4YW
+oiKEApIn0sIm1Yams3NlFrb3VyYXBxUm4iOnsic3RhcnQiOjg3
+MDQsImVuZCI6ODczOCwidGV4dCI6Ii0gUmVhbCBsaWZlIGV4YW
 1wbGUgb2YgdmVjdG9yIGRhdGEifSwiT0JSOEt1djE0dkNyQVFM
-NCI6eyJzdGFydCI6OTE2NywiZW5kIjo5MjAxLCJ0ZXh0IjoiLS
+NCI6eyJzdGFydCI6OTgyNiwiZW5kIjo5ODYwLCJ0ZXh0IjoiLS
 BSZWFsIGxpZmUgZXhhbXBsZSBvZiB2ZWN0b3IgZGF0YSJ9LCI1
-c082Y3c0dGFSa3kwSXY3Ijp7InN0YXJ0Ijo5OTQ1LCJlbmQiOj
-EwMDA4LCJ0ZXh0IjoiSG93IGFuZCB3aGVyZSB0byBmaW5kIHNw
-YXRpYWwgZGF0YSBpcyBkaXNjdXNzZWQgaW4gZGV0YWlsIGhlcm
-U6In0sImJ5TXZ4am8wZkl5clk0TkoiOnsic3RhcnQiOjExMTg5
-LCJlbmQiOjExMjExLCJ0ZXh0IjoiIyMjIEdJUyBhbmFseXNpcy
-B0eXBlcyJ9LCJ6VDRWNUFGVjlnYVJTeENOIjp7InN0YXJ0Ijox
-NDgyOSwiZW5kIjoxNDgzNywidGV4dCI6Imdvb2QgbWFwIn0sIj
-hLN1NGVFR1MTFUOUNBOVQiOnsic3RhcnQiOjE1MTE0LCJlbmQi
-OjE1MjA5LCJ0ZXh0IjoiIyBUaW1lIHRvIGdldCB5b3VyIGhhbm
-RzIGRpcnR5ISBNb3ZlIG9uIHRvIHRoZSBDcmFzaCBDb3Vyc2Ug
-ZXhlcmNpc2UgdG8gZ2V0IHN0YeKApiJ9fSwiY29tbWVudHMiOn
-sicVpXWEZndGVMZGZ2VXNkMiI6eyJkaXNjdXNzaW9uSWQiOiJB
-ekJ0bTlpSG5HS2pVUGVGIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLC
-J0ZXh0IjoiQWRkIG51bWJlciIsImNyZWF0ZWQiOjE2ODYxMjA1
-NTAyODF9LCIxT2NBeDQxSWh0dHZrTWhTIjp7ImRpc2N1c3Npb2
-5JZCI6Ino2SmxoRFBWRnpxb3U4MnUiLCJzdWIiOiJnaDo0MDMw
-NDc4OCIsInRleHQiOiJBZGQgbGluayIsImNyZWF0ZWQiOjE2OD
-YxMjM1NTczNTB9LCJMcFQzUkN0c29URFpoUXhoIjp7ImRpc2N1
-c3Npb25JZCI6ImU0a29XajlNUmVyclVnRXYiLCJzdWIiOiJnaD
-o0MDMwNDc4OCIsInRleHQiOiJBZGQgbmFtZXMiLCJjcmVhdGVk
-IjoxNjg2MTIzNjExMDA3fSwiYk5PaVNVYTFocjFZQVpKYiI6ey
-JkaXNjdXNzaW9uSWQiOiJtWGprNzZRa291cmFwcVJuIiwic3Vi
-IjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLC
-JjcmVhdGVkIjoxNjg2MTI3MDMyMDc4fSwiOTdNUldHTmFPUk03
-bExsUCI6eyJkaXNjdXNzaW9uSWQiOiJPQlI4S3V2MTR2Q3JBUU
-w0Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBp
-Y3R1cmUiLCJjcmVhdGVkIjoxNjg2MTI3MDQ4OTY3fSwiYmVqTV
-A1VWpNRDBDMGIzRCI6eyJkaXNjdXNzaW9uSWQiOiI1c082Y3c0
-dGFSa3kwSXY3Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ij
-oiTGluayB0byBhcnRpY2xlIiwiY3JlYXRlZCI6MTY4NjEzNjcx
-Nzg1MX0sIlFOUnRSUnJLME1PWHhXT0IiOnsiZGlzY3Vzc2lvbk
-lkIjoiYnlNdnhqbzBmSXlyWTROSiIsInN1YiI6ImdoOjQwMzA0
-Nzg4IiwidGV4dCI6IkluY2x1ZGUgZXhhbXBsZSBwaWN0dXJlcy
-IsImNyZWF0ZWQiOjE2ODYxMzc4ODcxNzF9LCJzdEZiYW9VWXB2
-UnNYa2FtIjp7ImRpc2N1c3Npb25JZCI6InpUNFY1QUZWOWdhUl
-N4Q04iLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQg
-ZXhhbXBsZSB3aXRoIHBvaW50ZXJzIiwiY3JlYXRlZCI6MTY4Nj
-EzODQyMjU3OH0sIktMbjhGUnRDY3FoVmlOUEciOnsiZGlzY3Vz
-c2lvbklkIjoiOEs3U0ZUVHUxMVQ5Q0E5VCIsInN1YiI6ImdoOj
-QwMzA0Nzg4IiwidGV4dCI6IkFkZCBsaW5rIHRvIGV4ZXJjaXNl
-IiwiY3JlYXRlZCI6MTY4NjEzODU0OTEzOX19LCJoaXN0b3J5Ij
-pbLTM4NDY3MjQxNCwtNTExNzYwMjM1LC0yMDEwNTczMDI1LC0x
-Mzc0NTQwMTEsLTI1NjAwNzI5NywxMzQzNTM3NTc3LC0xMDM1Nz
-E4ODI1LDYwNzY3OTgsMTY3ODg0NzE4MCwxMDE0NjY3MDg5LDIw
-NjYyOTc3OTksLTEzNjgyOTMxMTMsLTE5Nzc3NDY0MzUsOTAwOD
-kxODE2XX0=
+c082Y3c0dGFSa3kwSXY3Ijp7InN0YXJ0IjoxMDYwNCwiZW5kIj
+oxMDY2NywidGV4dCI6IkhvdyBhbmQgd2hlcmUgdG8gZmluZCBz
+cGF0aWFsIGRhdGEgaXMgZGlzY3Vzc2VkIGluIGRldGFpbCBoZX
+JlOiJ9LCJieU12eGpvMGZJeXJZNE5KIjp7InN0YXJ0IjoxMTg0
+NywiZW5kIjoxMTg2OSwidGV4dCI6IiMjIyBHSVMgYW5hbHlzaX
+MgdHlwZXMifSwielQ0VjVBRlY5Z2FSU3hDTiI6eyJzdGFydCI6
+MTU0ODcsImVuZCI6MTU0OTUsInRleHQiOiJnb29kIG1hcCJ9LC
+I4SzdTRlRUdTExVDlDQTlUIjp7InN0YXJ0IjoxNTc3MiwiZW5k
+IjoxNTg2NywidGV4dCI6IiMgVGltZSB0byBnZXQgeW91ciBoYW
+5kcyBkaXJ0eSEgTW92ZSBvbiB0byB0aGUgQ3Jhc2ggQ291cnNl
+IGV4ZXJjaXNlIHRvIGdldCBzdGHigKYifX0sImNvbW1lbnRzIj
+p7InFaV1hGZ3RlTGRmdlVzZDIiOnsiZGlzY3Vzc2lvbklkIjoi
+QXpCdG05aUhuR0tqVVBlRiIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
+widGV4dCI6IkFkZCBudW1iZXIiLCJjcmVhdGVkIjoxNjg2MTIw
+NTUwMjgxfSwiMU9jQXg0MUlodHR2a01oUyI6eyJkaXNjdXNzaW
+9uSWQiOiJ6NkpsaERQVkZ6cW91ODJ1Iiwic3ViIjoiZ2g6NDAz
+MDQ3ODgiLCJ0ZXh0IjoiQWRkIGxpbmsiLCJjcmVhdGVkIjoxNj
+g2MTIzNTU3MzUwfSwiTHBUM1JDdHNvVERaaFF4aCI6eyJkaXNj
+dXNzaW9uSWQiOiJlNGtvV2o5TVJlcnJVZ0V2Iiwic3ViIjoiZ2
+g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIG5hbWVzIiwiY3JlYXRl
+ZCI6MTY4NjEyMzYxMTAwN30sImJOT2lTVWExaHIxWUFaSmIiOn
+siZGlzY3Vzc2lvbklkIjoibVhqazc2UWtvdXJhcHFSbiIsInN1
+YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIi
+wiY3JlYXRlZCI6MTY4NjEyNzAzMjA3OH0sIjk3TVJXR05hT1JN
+N2xMbFAiOnsiZGlzY3Vzc2lvbklkIjoiT0JSOEt1djE0dkNyQV
+FMNCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBw
+aWN0dXJlIiwiY3JlYXRlZCI6MTY4NjEyNzA0ODk2N30sImJlak
+1QNVVqTUQwQzBiM0QiOnsiZGlzY3Vzc2lvbklkIjoiNXNPNmN3
+NHRhUmt5MEl2NyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dC
+I6IkxpbmsgdG8gYXJ0aWNsZSIsImNyZWF0ZWQiOjE2ODYxMzY3
+MTc4NTF9LCJRTlJ0UlJySzBNT1h4V09CIjp7ImRpc2N1c3Npb2
+5JZCI6ImJ5TXZ4am8wZkl5clk0TkoiLCJzdWIiOiJnaDo0MDMw
+NDc4OCIsInRleHQiOiJJbmNsdWRlIGV4YW1wbGUgcGljdHVyZX
+MiLCJjcmVhdGVkIjoxNjg2MTM3ODg3MTcxfSwic3RGYmFvVVlw
+dlJzWGthbSI6eyJkaXNjdXNzaW9uSWQiOiJ6VDRWNUFGVjlnYV
+JTeENOIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRk
+IGV4YW1wbGUgd2l0aCBwb2ludGVycyIsImNyZWF0ZWQiOjE2OD
+YxMzg0MjI1Nzh9LCJLTG44RlJ0Q2NxaFZpTlBHIjp7ImRpc2N1
+c3Npb25JZCI6IjhLN1NGVFR1MTFUOUNBOVQiLCJzdWIiOiJnaD
+o0MDMwNDc4OCIsInRleHQiOiJBZGQgbGluayB0byBleGVyY2lz
+ZSIsImNyZWF0ZWQiOjE2ODYxMzg1NDkxMzl9fSwiaGlzdG9yeS
+I6WzEyOTgxNDU0MjIsLTUxMTc2MDIzNSwtMjAxMDU3MzAyNSwt
+MTM3NDU0MDExLC0yNTYwMDcyOTcsMTM0MzUzNzU3NywtMTAzNT
+cxODgyNSw2MDc2Nzk4LDE2Nzg4NDcxODAsMTAxNDY2NzA4OSwy
+MDY2Mjk3Nzk5LC0xMzY4MjkzMTEzLC0xOTc3NzQ2NDM1LDkwMD
+g5MTgxNl19
 -->
