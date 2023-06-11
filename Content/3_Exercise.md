@@ -107,8 +107,7 @@ ways to do this. Here we’re focusing on selections.
 			- Level of income: hr_tuy (Aged 18 or over, total)
 		- For example: to calculate the share of residents with only a basic-level studies in grid cells: (ko_perus / ko_ika18y) * 100 (Studied value divided by total value gives the share, *100 makes the result as %)
 		- Make sure the field type is set to decimal numbers and make the values have at least 2 decimal numbers (precision).
-		- Name the fields accordingly. Note: Shapefile allows only 10 characters in the
-field name.
+		- Name the fields accordingly. Note: Shapefile allows only 10 characters in the field name.
 
 7. **You should end up with two new fields that all have percentage values.**
 
@@ -117,7 +116,15 @@ field name.
 ### Quantiles and reclassification
 
 8. **Our newly created proportion fields are tempting, but let’s take it to the next level with
-quantiles
+quantiles**
+	- In the Symbology-tab and under the Graduated symbols you can find different classification methods.
+	- When classifying data with Equal Count as the classification method and setting the number of classes to four, each class is called a quartile.
+		- Thus, each class has the same number of entries (hence equal count)
+
+9. **We’re going to have to utilize QGIS’s visualization tools to find out the class boundaries for
+quantiles within QGIS.** You could also use any statistical analysis application (Excel, LibreCalc,
+SPSS etc.) to find out the boundaries.
+- 
 
 
 
@@ -187,7 +194,7 @@ b24gaW4gY291cnNlIiwiY3JlYXRlZCI6MTY4NjQ3OTQ2OTY1NX
 VGtMaXM5UmZ3UzJKeW03bCIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
 widGV4dCI6IlRvbyBsaXR0bGUgaW5zdHJ1Y3Rpb25zIGZvciB0
 aGlzIHN0YWdlIG9mIHRoZSBjb3Vyc2U/IiwiY3JlYXRlZCI6MT
-Y4NjQ3OTU5MjQ2MX19LCJoaXN0b3J5IjpbLTE5MDQ2OTMxLC0x
+Y4NjQ3OTU5MjQ2MX19LCJoaXN0b3J5IjpbMTQ0NTIzNjE5LC0x
 MzExNTI5NDA1LDUxNjIxMzI0OCwtMTcyNTc3MjE2MSwxNjc3MD
 I5MTUxLC0xMzMyMDg3OTYzXX0=
 -->
