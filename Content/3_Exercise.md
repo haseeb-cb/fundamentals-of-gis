@@ -1,6 +1,14 @@
 ### Fundamentals of Geographic Information Systems (GIS)
 
-# Theory 3: Socio-spatial differentiation & social segregation
+# Exercise 3: Socio-spatial differentiation & social segregation
+
+## OVERVIEW & PURPOSE
+
+## OBJECTIVES
+
+## DATA USED/NEEDED
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDg2Mzk3MF19
+eyJoaXN0b3J5IjpbLTEyNDI4MzYwMTFdfQ==
 -->
