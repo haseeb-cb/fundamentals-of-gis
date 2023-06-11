@@ -99,7 +99,7 @@ ways to do this. Here we’re focusing on selections.
 
 ### Calculating the proportions
 
-6. **In the newly created layer, use the field calculator to calculate new fields for the proportions
+6. **In the newly created layer, use the *field calculator* to calculate new fields for the proportions
 (percentages)**
 	- Calculate the proportions of the wanted fields (Basic education, low-income inhabitants etc.)
 		- Make sure to use the correct variables when calculating. Use the total number field of each theme in the calculation.
@@ -117,14 +117,14 @@ ways to do this. Here we’re focusing on selections.
 
 8. **Our newly created proportion fields are tempting, but let’s take it to the next level with
 quantiles**
-	- In the Symbology-tab and under the Graduated symbols you can find different classification methods.
-	- When classifying data with Equal Count as the classification method and setting the number of classes to four, each class is called a quartile.
+	- In the Symbology-tab and under the *Graduated* symbols you can find different classification methods.
+	- When classifying data with *Equal Count* as the classification method and setting the number of classes to four, each class is called a quartile.
 		- Thus, each class has the same number of entries (hence equal count)
 
 9. **We’re going to have to utilize QGIS’s visualization tools to find out the class boundaries for
 quantiles within QGIS.** You could also use any statistical analysis application (Excel, LibreCalc,
 SPSS etc.) to find out the boundaries.
-	- So, open the style tab of the layer, select graduated, select the correct field
+	- So, open the *style* tab of the layer, select *graduated*, select the correct field
 		- E.g., Basic-level education proportion
 	-  Switch mode to *Quantiles (Equal Count)* and drop the number of classes from 5 down to 4. Click *Classify*
 		- Make notes about the class boundaries because you’re going to use them soon. For Basic-level education they look something like this:
@@ -203,17 +203,17 @@ NlbGVjdCB0aGUgZmVhdHVyZXMgdGhhdCBoYXZlIHZhbHVlcyBp
 YsImVuZCI6NTU4MSwidGV4dCI6InByZXNzIn0sIktmMzRvY21p
 TEI5NXg5MksiOnsic3RhcnQiOjExNzQsImVuZCI6MTE4NCwidG
 V4dCI6Ik9CSkVDVElWRVMifSwiVGtMaXM5UmZ3UzJKeW03bCI6
-eyJzdGFydCI6NjAxNywiZW5kIjo2MTM0LCJ0ZXh0IjoiNi4gKi
+eyJzdGFydCI6NjAxNywiZW5kIjo2MTM2LCJ0ZXh0IjoiNi4gKi
 pJbiB0aGUgbmV3bHkgY3JlYXRlZCBsYXllciwgdXNlIHRoZSBm
 aWVsZCBjYWxjdWxhdG9yIHRvIGNhbGN1bGF0ZSBuZXcgZmllbO
-KApiJ9LCIyZHdDOWZ0bHVJRVdUQllWIjp7InN0YXJ0Ijo3Njg3
-LCJlbmQiOjc3NjgsInRleHQiOiItIFNvLCBvcGVuIHRoZSBzdH
+KApiJ9LCIyZHdDOWZ0bHVJRVdUQllWIjp7InN0YXJ0Ijo3Njkz
+LCJlbmQiOjc3NzgsInRleHQiOiItIFNvLCBvcGVuIHRoZSBzdH
 lsZSB0YWIgb2YgdGhlIGxheWVyLCBzZWxlY3QgZ3JhZHVhdGVk
 LCBzZWxlY3QgdGhlIGNvcnJlY3QgZmll4oCmIn0sIkdMcEFRdk
-4xczNRSHZSSTQiOnsic3RhcnQiOjgwMDQsImVuZCI6ODA2MCwi
+4xczNRSHZSSTQiOnsic3RhcnQiOjgwMTQsImVuZCI6ODA3MCwi
 dGV4dCI6IkZvciBCYXNpYy1sZXZlbCBlZHVjYXRpb24gdGhleS
 Bsb29rIHNvbWV0aGluZyBsaWtlIHRoaXM6In0sInFkUktoUThz
-b0J2ZzVJaFQiOnsic3RhcnQiOjkwOTYsImVuZCI6OTEzNywidG
+b0J2ZzVJaFQiOnsic3RhcnQiOjkxMDYsImVuZCI6OTE0NywidG
 V4dCI6IlRoZSBleHByZXNzaW9uIGxvb2tzIHNvbWV0aGluZyBs
 aWtlIHRoaXM6In19LCJjb21tZW50cyI6eyIzTG9HS2VRRkVNV3
 pqYkUxIjp7ImRpc2N1c3Npb25JZCI6ImVUYzhhb0JKbjd6ZHJm
@@ -266,8 +266,8 @@ gwMTA5MDMxfSwiTDd6V2JvSXRTeHBHVEtvbyI6eyJkaXNjdXNz
 aW9uSWQiOiJEdmdmcEpzZnZ3Y05mOGlWIiwic3ViIjoiZ2g6ND
 AzMDQ3ODgiLCJ0ZXh0IjoiYW5kIGhpbnQgdG8gcHJldmlvdXMg
 ZXhlcmNpc2UiLCJjcmVhdGVkIjoxNjg2NDgzNjkyOTY1fX0sIm
-hpc3RvcnkiOlsxMDc0OTI3NTMzLC0yNjk1NTg3ODUsLTEzNjQx
-NzQ5OTMsMTcyNjgxMzYzNCwtMTMxMTUyOTQwNSw1MTYyMTMyND
-gsLTE3MjU3NzIxNjEsMTY3NzAyOTE1MSwtMTMzMjA4Nzk2M119
+hpc3RvcnkiOls4MzA5NzM4MDgsLTI2OTU1ODc4NSwtMTM2NDE3
+NDk5MywxNzI2ODEzNjM0LC0xMzExNTI5NDA1LDUxNjIxMzI0OC
+wtMTcyNTc3MjE2MSwxNjc3MDI5MTUxLC0xMzMyMDg3OTYzXX0=
 
 -->
