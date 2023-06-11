@@ -132,8 +132,9 @@ SPSS etc.) to find out the boundaries.
 
 10. **Now that we have the boundaries for the two classifications, it’s time to reclassify the data
 into four classes.**
-		- Open the attribute table and field calculator, we’re creating new fields for the reclassified values using a slightly more complex conditional statement this time. Note! Do all the analyses in the same layer so that you get the new columns in the same layer.
-		- The logic behind the numbering of the classes should be the same across all the reclassifications. In this instance our logic can be as follows: class 1 is the lowest (e.g. lowest share of inhabitants with no qualification after basic-level studies) and class 4 is the highest quartile (e.g. highest share of inhabitants with no qualification after basiclevel studies).
+	- Open the attribute table and field calculator, we’re creating new fields for the reclassified values using a slightly more complex conditional statement this time. Note! Do all the analyses in the same layer so that you get the new columns in the same layer.
+	- The logic behind the numbering of the classes should be the same across all the reclassifications. In this instance our logic can be as follows: class 1 is the lowest (e.g. lowest share of inhabitants with no qualification after basic-level studies) and class 4 is the highest quartile (e.g. highest share of inhabitants with no qualification after basiclevel studies).
+	- Let’s use the conditional statement first for basic-level education proportions. This is where you use the class boundary notes. The expression looks something like this:
 
  
 
@@ -215,7 +216,7 @@ Mgc3RhZ2Ugb2YgdGhlIGNvdXJzZT8iLCJjcmVhdGVkIjoxNjg2
 NDc5NzU4MTM2fSwiSnRuZDBtQWVyY1VhSzZpUyI6eyJkaXNjdX
 NzaW9uSWQiOiJHTHBBUXZOMXMzUUh2Ukk0Iiwic3ViIjoiZ2g6
 NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdG
-VkIjoxNjg2NDc5ODM4MzY3fX0sImhpc3RvcnkiOlsxNjUzMDc3
-Mjg5LC0xMzExNTI5NDA1LDUxNjIxMzI0OCwtMTcyNTc3MjE2MS
-wxNjc3MDI5MTUxLC0xMzMyMDg3OTYzXX0=
+VkIjoxNjg2NDc5ODM4MzY3fX0sImhpc3RvcnkiOlstMTUwMDEy
+Mzk5NCwtMTMxMTUyOTQwNSw1MTYyMTMyNDgsLTE3MjU3NzIxNj
+EsMTY3NzAyOTE1MSwtMTMzMjA4Nzk2M119
 -->
