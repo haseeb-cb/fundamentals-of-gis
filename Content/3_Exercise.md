@@ -96,6 +96,10 @@ than 0 AND Y is greater or equal than 0, AND…”*
 
 5. You should end up with a new layer without any -1 values in the four wanted fields.
 
+---
+
+### Calculating the proportions
+
  
 
 
@@ -149,6 +153,6 @@ biIsImNyZWF0ZWQiOjE2ODY0NzgzMDM4ODd9LCJacjJLWnFUUl
 dwcWo2U05UIjp7ImRpc2N1c3Npb25JZCI6IlJpYktXVTFRQzdy
 WkNCWDUiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZG
 QgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODY0Nzg1OTU0NTR9fSwi
-aGlzdG9yeSI6Wy0xMDE0OTg0MDg2LDUxNjIxMzI0OCwtMTcyNT
-c3MjE2MSwxNjc3MDI5MTUxLC0xMzMyMDg3OTYzXX0=
+aGlzdG9yeSI6WzE4NTc5ODQwNDUsNTE2MjEzMjQ4LC0xNzI1Nz
+cyMTYxLDE2NzcwMjkxNTEsLTEzMzIwODc5NjNdfQ==
 -->
