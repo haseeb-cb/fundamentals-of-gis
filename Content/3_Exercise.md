@@ -146,6 +146,7 @@ into four classes.**
 
 11. **Now that you’ve reclassified the proportions into classes 1, 2, 3 or 4 it’s time to find the low
 education & low-income areas in Helsinki metropolitan region.**
+	
 	- Select the grid squares that have been given the classification 4 in both of the reclassified fields
 		- Do you remember how to select attributes based on their value? Hint: check step number 4
 	- Save the selection as a new layer and give it an informative name
@@ -159,7 +160,12 @@ education & low-income areas in Helsinki metropolitan region.**
 	- te_vuok_as (Households living in rental dwellings, Household life theme’s prefix te_)
 		- Household life: te_taly (Households, total)
 	- pt_tyott (Unemployed, Main type of activity theme’s prefix pt_)
-	- Main type of activity: pt_tyovy (Labour force, total)
+		- Main type of activity: pt_tyovy (Labour force, total)
+
+13.  You should use the original grid data and not the one you’ve been working with. Why?
+- You’ll have an untampered dataset and won’t lose any progress you’ve made with education and income data due to unfortunate errors. 
+- Note: The education and income fields’ total number fields have the population 18 years old and older (can you think of why?), but the totals for household and unemployment fields use different metrics: Total number of households and total number of available workforces.
+- Before tampering with the original grid file, you should save it as a new file, so you have a clean backup to fall back on.
 
  
 
@@ -247,7 +253,7 @@ oiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2NDc5ODM4MzY3
 fSwieGI0Zjc2R0NIQ0kxUmtqayI6eyJkaXNjdXNzaW9uSWQiOi
 JxZFJLaFE4c29Cdmc1SWhUIiwic3ViIjoiZ2g6NDAzMDQ3ODgi
 LCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2ND
-gwMTA5MDMxfX0sImhpc3RvcnkiOlstNzc3NjA2MDAzLC0xMzY0
+gwMTA5MDMxfX0sImhpc3RvcnkiOlstNTUwNDE3MTQ4LC0xMzY0
 MTc0OTkzLDE3MjY4MTM2MzQsLTEzMTE1Mjk0MDUsNTE2MjEzMj
 Q4LC0xNzI1NzcyMTYxLDE2NzcwMjkxNTEsLTEzMzIwODc5NjNd
 fQ==
