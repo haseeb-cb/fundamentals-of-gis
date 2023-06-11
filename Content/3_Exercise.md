@@ -50,8 +50,7 @@ steps should be done:
 5. Creating a map (Remember to include the map in the report!)
 6. Report:
 	- Analyzing the results:
-		- How are the different phenomena located in the Helsinki metropolitan region?
-Where are the biggest clusters?
+		- How are the different phenomena located in the Helsinki metropolitan region? Where are the biggest clusters?
 		- Can you find any surprising results?
 		- Are income and education level data sufficient variables to study segregation?
 		- If not, what other variables would you need?
@@ -61,7 +60,29 @@ Where are the biggest clusters?
 
 ## EXERCISE PHASES
 
-#
+### Getting familiar with the data
+1. Download, unzip and open the practical 4 data in QGIS from the course Moodle page.
+
+2. Go through the attribute table and use the pdf-files to decipher the meanings of each field. The attribute table consists of a few themes (recognizable by the prefixes) and slightly over 100 fields.
+	- The fields we’re using depict the following:
+		- ko_perus (Inhabitants with no qualification after basic-level studies, education theme’s prefix ko_)
+		- hr_pi_tul (Inhabitants belonging to the lowest income category, Inhabitants’
+income theme’s prefix hr_)
+iii. Under each theme, eg. education (prefix ko_) the first field has the total value of
+each grid cell (feature) in that field. We’ll need these total fields in the analysis:
+4. Level of education: ko_ika18y (Total number of people in grid cell, aged
+18 or over)
+5. Level of income: hr_tuy (Total number of people in grid cell, aged 18 or
+over)
+Note: ko_ika18y and hr_tuy both contain the same values. However, for
+clarity you might want to use the one with the same prefix as the one
+you are comparing it to.
+b. Background map.
+i. You can use for example QuickMapServices, the spatial data from the Crash
+Course’s General-folder or find your own data.
+ii. Tip: Remember that if you first bring in your data (from the practical folder), the
+background map should project automatically to the right coordinate system.
+
 
 
 <!--stackedit_data:
@@ -81,5 +102,5 @@ ZSIsImNyZWF0ZWQiOjE2ODY0NzY1Nzk1Njd9LCJCdUJGbWlqR2
 lyakVjNVVrIjp7ImRpc2N1c3Npb25JZCI6Ild2em55ZktMWHZu
 bEVEaTQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZG
 QgcGFnZSIsImNyZWF0ZWQiOjE2ODY0NzY3MzYwNTV9fSwiaGlz
-dG9yeSI6Wy0xMTMyODkwMTk0LC0xMzMyMDg3OTYzXX0=
+dG9yeSI6WzExMTkwNjUyNDIsLTEzMzIwODc5NjNdfQ==
 -->
