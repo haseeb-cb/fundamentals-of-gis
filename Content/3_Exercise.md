@@ -40,28 +40,25 @@ English, Finnish, and Swedish).
 Work individually or in pairs and write a short report (2-3 pages of text excluding images). The following
 steps should be done:
 1. Cleaning up the data of placeholder values for null/NoData entries.
-	
 	- Selecting the rows without null values in the wanted fields:
 	
 	- Inhabitants belonging to the lowest income category
 	
 	- Inhabitants with no qualification after basic-level studies
-
 2. Calculation of proportions (percentages) of the variables above we need for the analysis
 3. Re-classifying the proportions into 4 classes based upon quartiles
 	- Using the field calculator and conditional statements
 4. Finding the low-education and low-income grid cells
 5. Creating a map (Remember to include the map in the report!)
 6. Report:
-3
-a. Analyzing the results:
-i. How are the different phenomena located in the Helsinki metropolitan region?
+	- Analyzing the results:
+		- How are the different phenomena located in the Helsinki metropolitan region?
 Where are the biggest clusters?
-ii. Can you find any surprising results?
-iii. Are income and education level data sufficient variables to study segregation?
-iv. If not, what other variables would you need?
-b. Write how your workflow went, which part was hard and which was easy.
-c. It’s not needed to write click by click how you did it.
+		- Can you find any surprising results?
+		- Are income and education level data sufficient variables to study segregation?
+		- If not, what other variables would you need?
+	- Write how your workflow went, which part was hard and which was easy.
+	- It’s not needed to write click by click how you did it.
 7. Return your exercise report to the course Moodle in one week’s time (by next Wednesday).
 
 ## EXERCISE PHASES
@@ -84,5 +81,5 @@ ZSIsImNyZWF0ZWQiOjE2ODY0NzY1Nzk1Njd9LCJCdUJGbWlqR2
 lyakVjNVVrIjp7ImRpc2N1c3Npb25JZCI6Ild2em55ZktMWHZu
 bEVEaTQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZG
 QgcGFnZSIsImNyZWF0ZWQiOjE2ODY0NzY3MzYwNTV9fSwiaGlz
-dG9yeSI6WzE0ODA2MDAyMDBdfQ==
+dG9yeSI6Wy0xMzMyMDg3OTYzXX0=
 -->
