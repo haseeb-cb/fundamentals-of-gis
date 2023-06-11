@@ -91,6 +91,7 @@ ways to do this. Here we’re focusing on selections.
 fields (ko_perus, hr_pi_tul) that are 0 or greater AND have people living in them (ko_ika18y,
 hr_tuy):
 	- To open the expression window press
+	- After the selection, save the selected features as a new shapefile (Export > Save selected features as…).
 
  
 
@@ -145,6 +146,6 @@ biIsImNyZWF0ZWQiOjE2ODY0NzgzMDM4ODd9LCJacjJLWnFUUl
 dwcWo2U05UIjp7ImRpc2N1c3Npb25JZCI6IlJpYktXVTFRQzdy
 WkNCWDUiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZG
 QgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODY0Nzg1OTU0NTR9fSwi
-aGlzdG9yeSI6WzEzOTY0NTMxMCwtMTcyNTc3MjE2MSwxNjc3MD
+aGlzdG9yeSI6WzUxNjIxMzI0OCwtMTcyNTc3MjE2MSwxNjc3MD
 I5MTUxLC0xMzMyMDg3OTYzXX0=
 -->
