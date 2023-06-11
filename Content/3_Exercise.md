@@ -102,19 +102,14 @@ ways to do this. Here we’re focusing on selections.
 6. **In the newly created layer, use the field calculator to calculate new fields for the proportions
 (percentages)**
 	- Calculate the proportions of the wanted fields (Basic education, low-income inhabitants etc.)
-	- i. Make sure to use the correct variables when calculating. Use the total number
-field of each theme in the calculation.
-Level of education: ko_ika18y (Aged 18 or over, total)
-2. Level of income: hr_tuy (Aged 18 or over, total)
-5
-ii. For example: to calculate the share of residents with only a basic-level studies in
-grid cells: (ko_perus / ko_ika18y) * 100
-(Studied value divided by total value gives the share, *100 makes the result as
-%)
-iii. Make sure the field type is set to decimal numbers and make the values have at
-least 2 decimal numbers (precision).
-iv. Name the fields accordingly. Note: Shapefile allows only 10 characters in the
+		- Make sure to use the correct variables when calculating. Use the total number field of each theme in the calculation.
+			- Level of education: ko_ika18y (Aged 18 or over, total)
+			- Level of income: hr_tuy (Aged 18 or over, total)
+		- For example: to calculate the share of residents with only a basic-level studies in grid cells: (ko_perus / ko_ika18y) * 100 (Studied value divided by total value gives the share, *100 makes the result as %)
+		- Make sure the field type is set to decimal numbers and make the values have at least 2 decimal numbers (precision).
+		- Name the fields accordingly. Note: Shapefile allows only 10 characters in the
 field name.
+7. **You should end up with two new fi
 
 
  
@@ -170,7 +165,7 @@ biIsImNyZWF0ZWQiOjE2ODY0NzgzMDM4ODd9LCJacjJLWnFUUl
 dwcWo2U05UIjp7ImRpc2N1c3Npb25JZCI6IlJpYktXVTFRQzdy
 WkNCWDUiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZG
 QgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODY0Nzg1OTU0NTR9fSwi
-aGlzdG9yeSI6WzE2NTA4NjI2NzgsLTEzMTE1Mjk0MDUsNTE2Mj
-EzMjQ4LC0xNzI1NzcyMTYxLDE2NzcwMjkxNTEsLTEzMzIwODc5
-NjNdfQ==
+aGlzdG9yeSI6WzM0OTQ0NTA5LC0xMzExNTI5NDA1LDUxNjIxMz
+I0OCwtMTcyNTc3MjE2MSwxNjc3MDI5MTUxLC0xMzMyMDg3OTYz
+XX0=
 -->
