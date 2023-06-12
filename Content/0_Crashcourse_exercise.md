@@ -149,7 +149,7 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	 2. Apart from the color fill and a few ready-made styles, the main view does not offer very sophisticated visualizing options, so it is suggested to click on the *Simple fill*
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_symbology1.png)
 	 3. Press the *Fill color* button and change the color of the layer to blue
-	 4. If you want a transparent fill, press on the arrow on the right of the *Fill* button and select Transparent fill
+	 4. If you want a transparent fill, change the *Opacity* under the *Fill color* section
 	 5. One you are satisfied with the layer styles, press *Apply* and *OK*
 4. It is also possible to **visualize the layers based on the information stored in the attribute table**. This can be done by selecting Categorized or Graduated instead of Single Symbol from the dropdown menu on the top of the page.	
 	
@@ -270,7 +270,7 @@ fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6OTAxMywiZW
 5kIjo5MzIwLCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
 bGwgZG93bmxvYWRlZCBmcm9tIFBhSVR1bGkgYW5kIEhlbHNpbm
 tpIFJlZ2lvbiBJbmZvc2hhcmUgZOKApiJ9LCJQUVhKa1N0WTJn
-c3V2ejVEIjp7InN0YXJ0IjoyMTUwMCwiZW5kIjoyMTUyNCwidG
+c3V2ejVEIjp7InN0YXJ0IjoyMTQ3MSwiZW5kIjoyMTQ5NSwidG
 V4dCI6Ii0gTGF5b3V0IG1hbmFnZXIgcGljdHVyZSJ9LCJ5bmg1
 Ym9RaU9NVGlsWk1XIjp7InN0YXJ0Ijo4MywiZW5kIjoyMDEsIn
 RleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dHBzOi8vcmF3Lmdp
@@ -286,8 +286,8 @@ cnMgYSBoYW5keSB3YXkgdG8gYWRk4oCmIn0sIkQ0dzk5ak5PZn
 NvcDVqR0QiOnsic3RhcnQiOjYwOTQsImVuZCI6NjE2NiwidGV4
 dCI6IklmIHlvdSB3YW50IHRvIGNyZWF0ZSBuZXcgZW1wdHkgbG
 F5ZXJzLCBnbyB0byAqTGF5ZXIqIFxcPiAqQ3JlYXRlIExheWVy
-Ki4ifSwidFYxbEFiTjF4RHpWM0I2RiI6eyJzdGFydCI6MTQ3Nj
-ksImVuZCI6MTQ5NTcsInRleHQiOiI2LiAgTm93IHdl4oCZbGwg
+Ki4ifSwidFYxbEFiTjF4RHpWM0I2RiI6eyJzdGFydCI6MTQ3ND
+AsImVuZCI6MTQ5MjgsInRleHQiOiI2LiAgTm93IHdl4oCZbGwg
 Kip3cml0ZSBhbiBleHByZXNzaW9uIHRoYXQgY2FsY3VsYXRlcy
 B0aGUgYXJlYSBvZiBlYWNoIHNtYWxsIGFyZWHigKYifX0sImNv
 bW1lbnRzIjp7IktIQ1ZwM3M0TURDdjJXaXQiOnsiZGlzY3Vzc2
@@ -322,6 +322,7 @@ YW50IHRvIGRvIHRoaXMiLCJjcmVhdGVkIjoxNjg2MTE0MjIyMD
 Y3fSwicWhWTEd3Ynp1dWVVWUVUTyI6eyJkaXNjdXNzaW9uSWQi
 OiJ0VjFsQWJOMXhEelYzQjZGIiwic3ViIjoiZ2g6NDAzMDQ3OD
 giLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2
-NTU0ODUyMzU1fX0sImhpc3RvcnkiOlstMTkyMTgyOTgyNSwtMj
-Q1NzE0NTcyLC0xOTMzNjg1MjczLC0xNTI4NzkxMDI2XX0=
+NTU0ODUyMzU1fX0sImhpc3RvcnkiOlstMTkwMzYxMjczNSwtMT
+kyMTgyOTgyNSwtMjQ1NzE0NTcyLC0xOTMzNjg1MjczLC0xNTI4
+NzkxMDI2XX0=
 -->
