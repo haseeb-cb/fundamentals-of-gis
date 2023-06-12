@@ -163,9 +163,10 @@ education & low-income areas in Helsinki metropolitan region.**
 
 ---
 
-### Map output
+### Map outputs
 
-12. 
+12. Time to make your maps! Think of which maps would be good to describe this analysis, hints:
+	- Map highlighting grid squares  that
 
 ---
 
@@ -240,7 +241,7 @@ ZHVhdGVkPyIsImNyZWF0ZWQiOjE2ODY1NTMyOTAzMzV9LCJTZk
 ZjOWdCN1hjR3Z0ODYyIjp7ImRpc2N1c3Npb25JZCI6Ik1yVEM2
 WGVRTFZ5dXluTEYiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleH
 QiOiJhbmQgUU1TIGluc3RydWN0aW9ucyIsImNyZWF0ZWQiOjE2
-ODY1NTQ0Mjg1MTh9fSwiaGlzdG9yeSI6WzE2MjU5NDY1NTcsMT
+ODY1NTQ0Mjg1MTh9fSwiaGlzdG9yeSI6WzE4NDQwMjEzMTMsMT
 IyMTI2NDQzMiwxODI1MDM3MDQwLC0zOTE4ODIwNTAsLTE2Mzc2
 MDQxNzksLTE1Njg3Njk3NjksMTA3NTU4ODk1MiwtNDY5NjQxNj
 gyLC0yNjk1NTg3ODUsLTEzNjQxNzQ5OTMsMTcyNjgxMzYzNCwt
