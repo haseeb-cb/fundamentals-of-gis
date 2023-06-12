@@ -168,7 +168,9 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	 1. Open the *attribute table* of the layer called Helsinki_small_areas. Take a moment to examine the table, what can you see?
 	 As you can see, the file consists of a list of the small-sized areas within the city of Helsinki with their corresponding codes and creation dates but little else. Next, we are going to calculate the area for each small area of Helsinki. 
 	 2.  In the *attribute table*, toggle *Editing mode* ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png) and then click on the *Field Calculator* button ![](https://docs.qgis.org/3.28/en/_images/mActionCalculateField.png)
- - Field calculator picture
+ 
+ ![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_exercise_expression.png)
+ 
  6.  Now we’ll **write an expression that calculates the area of each small area of Helsinki in square kilometers**. On the right side of the Expression window is a list of drop-down menus.
 	 1. Open the *Geometry* drop-down menu
 	 2. Double-click the *\$area* expression (you can also type *\$area* in the blank *Expression window*)
@@ -235,7 +237,8 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 
 ### 2.2 Creating a map output in QGIS
 The last phase of this practical will concentrate on creating a map output.
-- Layout manager picture
+
+![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCouse_exercise_layout.png)
 
 1. In QGIS, the map layout is done in a separate window called a **Print layout**. Press on the *New Print layout* button ![](https://docs.qgis.org/3.28/en/_images/mActionNewLayout.png) in the *File toolbar* or go to *Project* > *New print layout*. Give a name for the composer in the opening window, and an empty map window should appear on the screen.
 
@@ -271,7 +274,7 @@ fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6OTAxMywiZW
 5kIjo5MzIwLCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
 bGwgZG93bmxvYWRlZCBmcm9tIFBhSVR1bGkgYW5kIEhlbHNpbm
 tpIFJlZ2lvbiBJbmZvc2hhcmUgZOKApiJ9LCJQUVhKa1N0WTJn
-c3V2ejVEIjp7InN0YXJ0IjoyMTUxNywiZW5kIjoyMTU0MSwidG
+c3V2ejVEIjp7InN0YXJ0IjoyMTY0MSwiZW5kIjoyMTY0MSwidG
 V4dCI6Ii0gTGF5b3V0IG1hbmFnZXIgcGljdHVyZSJ9LCJ5bmg1
 Ym9RaU9NVGlsWk1XIjp7InN0YXJ0Ijo4MywiZW5kIjoyMDEsIn
 RleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dHBzOi8vcmF3Lmdp
@@ -287,49 +290,37 @@ cnMgYSBoYW5keSB3YXkgdG8gYWRk4oCmIn0sIkQ0dzk5ak5PZn
 NvcDVqR0QiOnsic3RhcnQiOjYwOTQsImVuZCI6NjE2NiwidGV4
 dCI6IklmIHlvdSB3YW50IHRvIGNyZWF0ZSBuZXcgZW1wdHkgbG
 F5ZXJzLCBnbyB0byAqTGF5ZXIqIFxcPiAqQ3JlYXRlIExheWVy
-Ki4ifSwidFYxbEFiTjF4RHpWM0I2RiI6eyJzdGFydCI6MTQ3ND
-EsImVuZCI6MTQ5MjksInRleHQiOiI2LiAgTm93IHdl4oCZbGwg
-Kip3cml0ZSBhbiBleHByZXNzaW9uIHRoYXQgY2FsY3VsYXRlcy
-B0aGUgYXJlYSBvZiBlYWNoIHNtYWxsIGFyZWHigKYifSwiT0pG
-RGlSdXd0cEZBTnBFTCI6eyJzdGFydCI6MTQ3MTMsImVuZCI6MT
-Q3MzksInRleHQiOiItIEZpZWxkIGNhbGN1bGF0b3IgcGljdHVy
-ZSJ9fSwiY29tbWVudHMiOnsiS0hDVnAzczRNREN2MldpdCI6ey
-JkaXNjdXNzaW9uSWQiOiJOOGNoUGR6ZEhMcXB3S0tOIiwic3Vi
-IjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQ29tZSBiYWNrIHRvIG
-NoZWNrIGlmIGFjY3VyYXRlIiwiY3JlYXRlZCI6MTY4NTc4MzIy
-ODYzN30sIjdSRU9lSEFvWk9ZdVJDYlkiOnsiZGlzY3Vzc2lvbk
+Ki4ifX0sImNvbW1lbnRzIjp7IktIQ1ZwM3M0TURDdjJXaXQiOn
+siZGlzY3Vzc2lvbklkIjoiTjhjaFBkemRITHFwd0tLTiIsInN1
+YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkNvbWUgYmFjayB0by
+BjaGVjayBpZiBhY2N1cmF0ZSIsImNyZWF0ZWQiOjE2ODU3ODMy
+Mjg2Mzd9LCI3UkVPZUhBb1pPWXVSQ2JZIjp7ImRpc2N1c3Npb2
+5JZCI6Inppb1NkVWQ4cGNLRkVDblIiLCJzdWIiOiJnaDo0MDMw
+NDc4OCIsInRleHQiOiJNYWtlIHN0dWRlbnRzIGdhdGhlciB0aG
+UgZGF0YSB0aGVtc2VsdmVzIiwiY3JlYXRlZCI6MTY4NTc4MzQ5
+MDUzM30sIkJNeFhHSTJYQkRvaUJWNVQiOnsiZGlzY3Vzc2lvbk
 lkIjoiemlvU2RVZDhwY0tGRUNuUiIsInN1YiI6ImdoOjQwMzA0
-Nzg4IiwidGV4dCI6Ik1ha2Ugc3R1ZGVudHMgZ2F0aGVyIHRoZS
-BkYXRhIHRoZW1zZWx2ZXMiLCJjcmVhdGVkIjoxNjg1NzgzNDkw
-NTMzfSwiQk14WEdJMlhCRG9pQlY1VCI6eyJkaXNjdXNzaW9uSW
-QiOiJ6aW9TZFVkOHBjS0ZFQ25SIiwic3ViIjoiZ2g6NDAzMDQ3
-ODgiLCJ0ZXh0Ijoib3IgYWRkIGxpbmtzIiwiY3JlYXRlZCI6MT
-Y4NTc4MzUwNjExN30sIjAxQ2lGOGlHOG90M2FiMW4iOnsiZGlz
-Y3Vzc2lvbklkIjoiUFFYSmtTdFkyZ3N1dno1RCIsInN1YiI6Im
-doOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBpbWFnZSIsImNyZWF0
-ZWQiOjE2ODU3OTAzMjM4MDl9LCI1N0xYalN6SHN6YUhjaEpVIj
-p7ImRpc2N1c3Npb25JZCI6InluaDVib1FpT01UaWxaTVciLCJz
-dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJVcGRhdGUgY292ZX
-IgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODU5NDM1ODczNTh9LCJD
-Mkh5WUdWQTFid2VWOGJGIjp7ImRpc2N1c3Npb25JZCI6IlliWV
-FtNmxqVTQyZnk2UDYiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRl
-eHQiOiJVcGRhdGUgaW1hZ2UiLCJjcmVhdGVkIjoxNjg1OTU1Mz
-M0NjMxfSwiaE5HekFnd3J4amxxdkEzYSI6eyJkaXNjdXNzaW9u
-SWQiOiJkWnRhMjJPYVdqanFpUHpNIiwic3ViIjoiZ2g6NDAzMD
-Q3ODgiLCJ0ZXh0IjoiQWRkIG92ZXJ2aWV3IG9mIHdoZXJlIHRv
-IGZpbmQgYWxsIHRoZSB0b29scyBhbmQgdG9vbGJhcnMiLCJjcm
-VhdGVkIjoxNjg2MTE0MTc0NzcxfSwiejB3ZXRCNHVjM1BhZko3
-NSI6eyJkaXNjdXNzaW9uSWQiOiJENHc5OWpOT2Zzb3A1akdEIi
-wic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiRXhwbGFpbiB3
-aHkgeW91IHdhbnQgdG8gZG8gdGhpcyIsImNyZWF0ZWQiOjE2OD
-YxMTQyMjIwNjd9LCJxaFZMR3dienV1ZVVZRVRPIjp7ImRpc2N1
-c3Npb25JZCI6InRWMWxBYk4xeER6VjNCNkYiLCJzdWIiOiJnaD
-o0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0
-ZWQiOjE2ODY1NTQ4NTIzNTV9LCJrcFpUT1g1RlNWVVU0RUt5Ij
-p7ImRpc2N1c3Npb25JZCI6Ik9KRkRpUnV3dHBGQU5wRUwiLCJz
-dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZS
-IsImNyZWF0ZWQiOjE2ODY1NjQ5MjIwMzF9fSwiaGlzdG9yeSI6
-WzEwMDg1MTcxNTAsLTE4NTc4ODQyOTQsLTk1MzM0ODg3NywtMT
-kyMTgyOTgyNSwtMjQ1NzE0NTcyLC0xOTMzNjg1MjczLC0xNTI4
-NzkxMDI2XX0=
+Nzg4IiwidGV4dCI6Im9yIGFkZCBsaW5rcyIsImNyZWF0ZWQiOj
+E2ODU3ODM1MDYxMTd9LCIwMUNpRjhpRzhvdDNhYjFuIjp7ImRp
+c2N1c3Npb25JZCI6IlBRWEprU3RZMmdzdXZ6NUQiLCJzdWIiOi
+JnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgaW1hZ2UiLCJjcmVh
+dGVkIjoxNjg1NzkwMzIzODA5fSwiNTdMWGpTekhzemFIY2hKVS
+I6eyJkaXNjdXNzaW9uSWQiOiJ5bmg1Ym9RaU9NVGlsWk1XIiwi
+c3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiVXBkYXRlIGNvdm
+VyIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg1OTQzNTg3MzU4fSwi
+QzJIeVlHVkExYndlVjhiRiI6eyJkaXNjdXNzaW9uSWQiOiJZYl
+lRbTZsalU0MmZ5NlA2Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0
+ZXh0IjoiVXBkYXRlIGltYWdlIiwiY3JlYXRlZCI6MTY4NTk1NT
+MzNDYzMX0sImhOR3pBZ3dyeGpscXZBM2EiOnsiZGlzY3Vzc2lv
+bklkIjoiZFp0YTIyT2FXampxaVB6TSIsInN1YiI6ImdoOjQwMz
+A0Nzg4IiwidGV4dCI6IkFkZCBvdmVydmlldyBvZiB3aGVyZSB0
+byBmaW5kIGFsbCB0aGUgdG9vbHMgYW5kIHRvb2xiYXJzIiwiY3
+JlYXRlZCI6MTY4NjExNDE3NDc3MX0sInowd2V0QjR1YzNQYWZK
+NzUiOnsiZGlzY3Vzc2lvbklkIjoiRDR3OTlqTk9mc29wNWpHRC
+IsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkV4cGxhaW4g
+d2h5IHlvdSB3YW50IHRvIGRvIHRoaXMiLCJjcmVhdGVkIjoxNj
+g2MTE0MjIyMDY3fX0sImhpc3RvcnkiOlstMjQxMDc0OTUxLDEw
+MDg1MTcxNTAsLTE4NTc4ODQyOTQsLTk1MzM0ODg3NywtMTkyMT
+gyOTgyNSwtMjQ1NzE0NTcyLC0xOTMzNjg1MjczLC0xNTI4Nzkx
+MDI2XX0=
 -->
