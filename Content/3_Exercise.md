@@ -163,24 +163,30 @@ education & low-income areas in Helsinki metropolitan region.**
 
 ---
 
+### Map output
+
+12. 
+
+---
+
 ### Optional: Refining the analysis 
 
-12. The analysis we’ve done above is quite coarse. You can refine it by using the following fields:
+13. The analysis we’ve done above is quite coarse. You can refine it by using the following fields:
 	- te_vuok_as (Households living in rental dwellings, Household life theme’s prefix te_)
 		- Household life: te_taly (Households, total)
 	- pt_tyott (Unemployed, Main type of activity theme’s prefix pt_)
 		- Main type of activity: pt_tyovy (Labour force, total)
 
-13.  You should use the original grid data and not the one you’ve been working with. Why?
+14.  You should use the original grid data and not the one you’ve been working with. Why?
 		- You’ll have an untampered dataset and won’t lose any progress you’ve made with education and income data due to unfortunate errors. 
 		- Note: The education and income fields’ total number fields have the population 18 years old and older (can you think of why?), but the totals for household and unemployment fields use different metrics: Total number of households and total number of available workforces.
 		- Before tampering with the original grid file, you should save it as a new file, so you have a clean backup to fall back on. 
 
-14. When you’ve reclassified the proportions to the quartiles, you can join the layers using the id_nro field.
+15. When you’ve reclassified the proportions to the quartiles, you can join the layers using the id_nro field.
 	- You can select which fields to join, so you don’t have to join all the fields, just the
 reclassified fields for rented dwellings and unemployment.
 
-15. Compose a map of the results
+16. Compose a map of the results
 	- How do the refined results differ from the coarser results?
 	- Are these refined results enough to delineate segregated areas?
 		- Would you need additional data? What data?
@@ -200,54 +206,44 @@ Onsic3RhcnQiOjM0MjksImVuZCI6MzQzOCwidGV4dCI6InBkZi
 1maWxlcyJ9LCI1dUhCTVNsNU1TbVpicFZqIjp7InN0YXJ0Ijoz
 Mjk1LCJlbmQiOjMzNzksInRleHQiOiIxLiBEb3dubG9hZCwgdW
 56aXAgYW5kIG9wZW4gdGhlIGV4ZXJjaXNlIDMgZGF0YSBpbiBR
-R0lTIGZyb20gdGhlIGNvdXJzZSBNb29kbGXigKYifSwiOFRtdj
-Rabm5HNkRHMW9FQSI6eyJzdGFydCI6OTk0MCwiZW5kIjoxMDE0
-MiwidGV4dCI6Ii0gQ2hlY2sgdGhlICphdHRyaWJ1dGUgdGFibG
-UqIHRoYXQgdGhlIHZhbHVlcyBhcmUgY29ycmVjdCAoY2xpY2sg
-dGhlIG5ldyBjb2x1bW7igKYifSwiTXJUQzZYZVFMVnl1eW5MRi
-I6eyJzdGFydCI6MTA4NjgsImVuZCI6MTA4OTgsInRleHQiOiIt
-IENvbXBvc2UgYSBtYXAgb2YgdGhlIHJlc3VsdHMifSwiRE4yZ0
-ZPT3N3QjdUeVhraCI6eyJzdGFydCI6MTA3OTksImVuZCI6MTA4
-NjYsInRleHQiOiItIFNhdmUgdGhlIHNlbGVjdGlvbiBhcyBhIG
-5ldyBsYXllciBhbmQgZ2l2ZSBpdCBhbiBpbmZvcm1hdGl2ZSBu
-YW1lIn19LCJjb21tZW50cyI6eyIzTG9HS2VRRkVNV3pqYkUxIj
-p7ImRpc2N1c3Npb25JZCI6ImVUYzhhb0JKbjd6ZHJmMGsiLCJz
-dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJVcGRhdGUgaWYgYX
-BwbGljYWJsZSIsImNyZWF0ZWQiOjE2ODY0NzY0MzY4Nzh9LCJs
-UGtsVUZiRTRlVTIwMzRaIjp7ImRpc2N1c3Npb25JZCI6IlFQMV
-hDYkNwUnNkMGxWcTUiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRl
-eHQiOiJVcGRhdGUgaWYgYXBwbGljYWJsZSIsImNyZWF0ZWQiOj
-E2ODY0NzY1Nzk1Njd9LCJCdUJGbWlqR2lyakVjNVVrIjp7ImRp
-c2N1c3Npb25JZCI6Ild2em55ZktMWHZubEVEaTQiLCJzdWIiOi
-JnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgcGFnZSIsImNyZWF0
-ZWQiOjE2ODY0NzY3MzYwNTV9LCJQS0JhSlphM2Rtd2xWcUY1Ij
-p7ImRpc2N1c3Npb25JZCI6IkJ3ZFRwa3lIblpFQmNOclgiLCJz
-dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJSZWZlcmVuY2UiLC
-JjcmVhdGVkIjoxNjg2NDc3NDc1ODg4fSwidzdFVlMyeE1QelJj
-SUNMZiI6eyJkaXNjdXNzaW9uSWQiOiI1dUhCTVNsNU1TbVpicF
-ZqIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGlu
-c3RydWN0aW9ucyB0byBkb3dubG9hZCBkYXRhIHRoZW1zZWx2ZX
-MiLCJjcmVhdGVkIjoxNjg2NDc3NDk0MTIwfSwiVklKMUVDT3g0
-U0xSYjNURSI6eyJkaXNjdXNzaW9uSWQiOiI4VG12NFpubkc2RE
-cxb0VBIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiSWYg
-aXQgYXBwZWFycyBubyB2YWx1ZXMgaGF2ZSBiZWVuIGNhbGN1bG
-F0ZWQsIGNoZWNrIHRoYXQgXCJPbmx5IHVwZGF0ZSBYIHNlbGVj
-dGVkIGZlYXR1cmVzXCIgaXMgdGlja2VkIG9mZiBpbiB0aGUgZm
-llbGQgY2FsY3VsYXRvci4iLCJjcmVhdGVkIjoxNjg2NTUzMDQ2
-OTY4fSwiUHpkeFZlVzhsblM5eFppSyI6eyJkaXNjdXNzaW9uSW
-QiOiJNclRDNlhlUUxWeXV5bkxGIiwic3ViIjoiZ2g6NDAzMDQ3
-ODgiLCJ0ZXh0IjoiSG93IG1hbnkgYW5kIG9mIHdoYXQ/IiwiY3
-JlYXRlZCI6MTY4NjU1MzIzNzE3NX0sIlcya0s2Z1l1RThGNmlv
-enkiOnsiZGlzY3Vzc2lvbklkIjoiRE4yZ0ZPT3N3QjdUeVhraC
-IsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlRoaXMgb3Ig
-Z3JhZHVhdGVkPyIsImNyZWF0ZWQiOjE2ODY1NTMyOTAzMzV9LC
-JTZkZjOWdCN1hjR3Z0ODYyIjp7ImRpc2N1c3Npb25JZCI6Ik1y
-VEM2WGVRTFZ5dXluTEYiLCJzdWIiOiJnaDo0MDMwNDc4OCIsIn
-RleHQiOiJhbmQgUU1TIGluc3RydWN0aW9ucyIsImNyZWF0ZWQi
-OjE2ODY1NTQ0Mjg1MTh9fSwiaGlzdG9yeSI6Wy0xNTg5ODE3Nz
-kyLDEyMjEyNjQ0MzIsMTgyNTAzNzA0MCwtMzkxODgyMDUwLC0x
-NjM3NjA0MTc5LC0xNTY4NzY5NzY5LDEwNzU1ODg5NTIsLTQ2OT
-Y0MTY4MiwtMjY5NTU4Nzg1LC0xMzY0MTc0OTkzLDE3MjY4MTM2
-MzQsLTEzMTE1Mjk0MDUsNTE2MjEzMjQ4LC0xNzI1NzcyMTYxLD
-E2NzcwMjkxNTEsLTEzMzIwODc5NjNdfQ==
+R0lTIGZyb20gdGhlIGNvdXJzZSBNb29kbGXigKYifSwiTXJUQz
+ZYZVFMVnl1eW5MRiI6eyJzdGFydCI6MTA4NjgsImVuZCI6MTA4
+OTgsInRleHQiOiItIENvbXBvc2UgYSBtYXAgb2YgdGhlIHJlc3
+VsdHMifSwiRE4yZ0ZPT3N3QjdUeVhraCI6eyJzdGFydCI6MTA3
+OTksImVuZCI6MTA4NjYsInRleHQiOiItIFNhdmUgdGhlIHNlbG
+VjdGlvbiBhcyBhIG5ldyBsYXllciBhbmQgZ2l2ZSBpdCBhbiBp
+bmZvcm1hdGl2ZSBuYW1lIn19LCJjb21tZW50cyI6eyIzTG9HS2
+VRRkVNV3pqYkUxIjp7ImRpc2N1c3Npb25JZCI6ImVUYzhhb0JK
+bjd6ZHJmMGsiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOi
+JVcGRhdGUgaWYgYXBwbGljYWJsZSIsImNyZWF0ZWQiOjE2ODY0
+NzY0MzY4Nzh9LCJsUGtsVUZiRTRlVTIwMzRaIjp7ImRpc2N1c3
+Npb25JZCI6IlFQMVhDYkNwUnNkMGxWcTUiLCJzdWIiOiJnaDo0
+MDMwNDc4OCIsInRleHQiOiJVcGRhdGUgaWYgYXBwbGljYWJsZS
+IsImNyZWF0ZWQiOjE2ODY0NzY1Nzk1Njd9LCJCdUJGbWlqR2ly
+akVjNVVrIjp7ImRpc2N1c3Npb25JZCI6Ild2em55ZktMWHZubE
+VEaTQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQg
+cGFnZSIsImNyZWF0ZWQiOjE2ODY0NzY3MzYwNTV9LCJQS0JhSl
+phM2Rtd2xWcUY1Ijp7ImRpc2N1c3Npb25JZCI6IkJ3ZFRwa3lI
+blpFQmNOclgiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOi
+JSZWZlcmVuY2UiLCJjcmVhdGVkIjoxNjg2NDc3NDc1ODg4fSwi
+dzdFVlMyeE1QelJjSUNMZiI6eyJkaXNjdXNzaW9uSWQiOiI1dU
+hCTVNsNU1TbVpicFZqIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0
+ZXh0IjoiQWRkIGluc3RydWN0aW9ucyB0byBkb3dubG9hZCBkYX
+RhIHRoZW1zZWx2ZXMiLCJjcmVhdGVkIjoxNjg2NDc3NDk0MTIw
+fSwiUHpkeFZlVzhsblM5eFppSyI6eyJkaXNjdXNzaW9uSWQiOi
+JNclRDNlhlUUxWeXV5bkxGIiwic3ViIjoiZ2g6NDAzMDQ3ODgi
+LCJ0ZXh0IjoiSG93IG1hbnkgYW5kIG9mIHdoYXQ/IiwiY3JlYX
+RlZCI6MTY4NjU1MzIzNzE3NX0sIlcya0s2Z1l1RThGNmlvenki
+OnsiZGlzY3Vzc2lvbklkIjoiRE4yZ0ZPT3N3QjdUeVhraCIsIn
+N1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlRoaXMgb3IgZ3Jh
+ZHVhdGVkPyIsImNyZWF0ZWQiOjE2ODY1NTMyOTAzMzV9LCJTZk
+ZjOWdCN1hjR3Z0ODYyIjp7ImRpc2N1c3Npb25JZCI6Ik1yVEM2
+WGVRTFZ5dXluTEYiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleH
+QiOiJhbmQgUU1TIGluc3RydWN0aW9ucyIsImNyZWF0ZWQiOjE2
+ODY1NTQ0Mjg1MTh9fSwiaGlzdG9yeSI6WzE2MjU5NDY1NTcsMT
+IyMTI2NDQzMiwxODI1MDM3MDQwLC0zOTE4ODIwNTAsLTE2Mzc2
+MDQxNzksLTE1Njg3Njk3NjksMTA3NTU4ODk1MiwtNDY5NjQxNj
+gyLC0yNjk1NTg3ODUsLTEzNjQxNzQ5OTMsMTcyNjgxMzYzNCwt
+MTMxMTUyOTQwNSw1MTYyMTMyNDgsLTE3MjU3NzIxNjEsMTY3Nz
+AyOTE1MSwtMTMzMjA4Nzk2M119
 -->
