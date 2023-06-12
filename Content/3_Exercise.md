@@ -75,7 +75,7 @@ steps should be done:
 			- Level of income: hr_tuy (Total number of people in grid cell, aged 18 or over)
 			Note: ko_ika18y and hr_tuy both contain the same values. However, for clarity you might want to use the one with the same prefix as the one you are comparing it to.
 	- Background map.
-		- You can use for example satellite imagery like we did in the Crash Course, or OpenStreetMaps, which you can add us
+		- You can use for example satellite imagery like we did in the Crash Course, or OpenStreetMaps, which you can add using the same steps as for google satellite imagery. 
 		- Tip: Remember that if you first bring in your data (from the practical folder), the background map should project automatically to the right coordinate system.
 
 --- 
@@ -90,6 +90,7 @@ ways to do this. Here we’re focusing on selections.
 	- And same thing for the low-income variables hr_pi_tul and hr_tuy.
 
 4. **You could use select by expression** to select the features that have values in the two wanted fields (ko_perus, hr_pi_tul) that are 0 or greater AND have people living in them (ko_ika18y, hr_tuy):
+![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_datacleanup_expression.png)
 	- To open the expression window press
 	- After the selection, save the selected features as a new shapefile (Right click layer with selection > *Export* > *Save selected features as…*).
 		- Don't forget to give the new file an informative name and save it in your folder! 
@@ -196,32 +197,32 @@ Onsic3RhcnQiOjM0MjksImVuZCI6MzQzOCwidGV4dCI6InBkZi
 Mjk1LCJlbmQiOjMzNzksInRleHQiOiIxLiBEb3dubG9hZCwgdW
 56aXAgYW5kIG9wZW4gdGhlIGV4ZXJjaXNlIDMgZGF0YSBpbiBR
 R0lTIGZyb20gdGhlIGNvdXJzZSBNb29kbGXigKYifSwiRHZnZn
-BKc2Z2d2NOZjhpViI6eyJzdGFydCI6NTQwMiwiZW5kIjo1NjA0
+BKc2Z2d2NOZjhpViI6eyJzdGFydCI6NTQ1NCwiZW5kIjo1NjU2
 LCJ0ZXh0IjoiNC4gWW91IGNvdWxkIHVzZSBzZWxlY3QgYnkgZX
 hwcmVzc2lvbiB0byBzZWxlY3QgdGhlIGZlYXR1cmVzIHRoYXQg
 aGF2ZSB2YWx1ZXMgaeKApiJ9LCJSaWJLV1UxUUM3clpDQlg1Ij
-p7InN0YXJ0Ijo1NjM4LCJlbmQiOjU2NDMsInRleHQiOiJwcmVz
-cyJ9LCJUa0xpczlSZndTMkp5bTdsIjp7InN0YXJ0Ijo2MTY2LC
-JlbmQiOjYyODUsInRleHQiOiI2LiAqKkluIHRoZSBuZXdseSBj
+p7InN0YXJ0Ijo1ODQ4LCJlbmQiOjU4NTMsInRleHQiOiJwcmVz
+cyJ9LCJUa0xpczlSZndTMkp5bTdsIjp7InN0YXJ0Ijo2Mzc2LC
+JlbmQiOjY0OTUsInRleHQiOiI2LiAqKkluIHRoZSBuZXdseSBj
 cmVhdGVkIGxheWVyLCB1c2UgdGhlIGZpZWxkIGNhbGN1bGF0b3
 IgdG8gY2FsY3VsYXRlIG5ldyBmaWVs4oCmIn0sIjJkd0M5ZnRs
-dUlFV1RCWVYiOnsic3RhcnQiOjc4NDIsImVuZCI6NzkyNywidG
+dUlFV1RCWVYiOnsic3RhcnQiOjgwNTIsImVuZCI6ODEzNywidG
 V4dCI6Ii0gU28sIG9wZW4gdGhlIHN0eWxlIHRhYiBvZiB0aGUg
 bGF5ZXIsIHNlbGVjdCBncmFkdWF0ZWQsIHNlbGVjdCB0aGUgY2
 9ycmVjdCBmaWXigKYifSwiR0xwQVF2TjFzM1FIdlJJNCI6eyJz
-dGFydCI6ODE2MywiZW5kIjo4MjE5LCJ0ZXh0IjoiRm9yIEJhc2
+dGFydCI6ODM3MywiZW5kIjo4NDI5LCJ0ZXh0IjoiRm9yIEJhc2
 ljLWxldmVsIGVkdWNhdGlvbiB0aGV5IGxvb2sgc29tZXRoaW5n
 IGxpa2UgdGhpczoifSwicWRSS2hROHNvQnZnNUloVCI6eyJzdG
-FydCI6OTI2NSwiZW5kIjo5MzA2LCJ0ZXh0IjoiVGhlIGV4cHJl
+FydCI6OTQ3NSwiZW5kIjo5NTE2LCJ0ZXh0IjoiVGhlIGV4cHJl
 c3Npb24gbG9va3Mgc29tZXRoaW5nIGxpa2UgdGhpczoifSwiOF
-RtdjRabm5HNkRHMW9FQSI6eyJzdGFydCI6OTM2OCwiZW5kIjo5
-NTcwLCJ0ZXh0IjoiLSBDaGVjayB0aGUgKmF0dHJpYnV0ZSB0YW
+RtdjRabm5HNkRHMW9FQSI6eyJzdGFydCI6OTU3OCwiZW5kIjo5
+NzgwLCJ0ZXh0IjoiLSBDaGVjayB0aGUgKmF0dHJpYnV0ZSB0YW
 JsZSogdGhhdCB0aGUgdmFsdWVzIGFyZSBjb3JyZWN0IChjbGlj
 ayB0aGUgbmV3IGNvbHVtbuKApiJ9LCJNclRDNlhlUUxWeXV5bk
-xGIjp7InN0YXJ0IjoxMDE3NywiZW5kIjoxMDIwNywidGV4dCI6
+xGIjp7InN0YXJ0IjoxMDM4NywiZW5kIjoxMDQxNywidGV4dCI6
 Ii0gQ29tcG9zZSBhIG1hcCBvZiB0aGUgcmVzdWx0cyJ9LCJETj
-JnRk9Pc3dCN1R5WGtoIjp7InN0YXJ0IjoxMDEwOCwiZW5kIjox
-MDE3NSwidGV4dCI6Ii0gU2F2ZSB0aGUgc2VsZWN0aW9uIGFzIG
+JnRk9Pc3dCN1R5WGtoIjp7InN0YXJ0IjoxMDMxOCwiZW5kIjox
+MDM4NSwidGV4dCI6Ii0gU2F2ZSB0aGUgc2VsZWN0aW9uIGFzIG
 EgbmV3IGxheWVyIGFuZCBnaXZlIGl0IGFuIGluZm9ybWF0aXZl
 IG5hbWUifX0sImNvbW1lbnRzIjp7IjNMb0dLZVFGRU1XempiRT
 EiOnsiZGlzY3Vzc2lvbklkIjoiZVRjOGFvQkpuN3pkcmYwayIs
@@ -287,7 +288,7 @@ NTUzMjkwMzM1fSwiU2ZGYzlnQjdYY0d2dDg2MiI6eyJkaXNjdX
 NzaW9uSWQiOiJNclRDNlhlUUxWeXV5bkxGIiwic3ViIjoiZ2g6
 NDAzMDQ3ODgiLCJ0ZXh0IjoiYW5kIFFNUyBpbnN0cnVjdGlvbn
 MiLCJjcmVhdGVkIjoxNjg2NTU0NDI4NTE4fX0sImhpc3Rvcnki
-OlstMTAzNzgzNDc4OCwxODI1MDM3MDQwLC0zOTE4ODIwNTAsLT
+OlstMTM4NjIyNjQxMywxODI1MDM3MDQwLC0zOTE4ODIwNTAsLT
 E2Mzc2MDQxNzksLTE1Njg3Njk3NjksMTA3NTU4ODk1MiwtNDY5
 NjQxNjgyLC0yNjk1NTg3ODUsLTEzNjQxNzQ5OTMsMTcyNjgxMz
 YzNCwtMTMxMTUyOTQwNSw1MTYyMTMyNDgsLTE3MjU3NzIxNjEs
