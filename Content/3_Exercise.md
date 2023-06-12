@@ -175,7 +175,9 @@ Don't forget to include the requirements for a good map (See Crash Course)!
 13. Optional: You can use the plugin we installed during the Crash Course, QuickMapServices (QMS), to get more basemap options
 	- You can open the *Search QMS* panel using this icon, it should open below your toolbox:
 ![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_QMS_1.png)
-	-  H
+	-  Here are some examples of basemaps you could use:
+![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_QMS_2.png)
+	- Note: These are 
 
 
 ---
@@ -251,10 +253,10 @@ ZHVhdGVkPyIsImNyZWF0ZWQiOjE2ODY1NTMyOTAzMzV9LCJTZk
 ZjOWdCN1hjR3Z0ODYyIjp7ImRpc2N1c3Npb25JZCI6Ik1yVEM2
 WGVRTFZ5dXluTEYiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleH
 QiOiJhbmQgUU1TIGluc3RydWN0aW9ucyIsImNyZWF0ZWQiOjE2
-ODY1NTQ0Mjg1MTh9fSwiaGlzdG9yeSI6WzE3OTc5NzIyNDksNz
-M2NDE5NzA4LDEyMjEyNjQ0MzIsMTgyNTAzNzA0MCwtMzkxODgy
-MDUwLC0xNjM3NjA0MTc5LC0xNTY4NzY5NzY5LDEwNzU1ODg5NT
-IsLTQ2OTY0MTY4MiwtMjY5NTU4Nzg1LC0xMzY0MTc0OTkzLDE3
-MjY4MTM2MzQsLTEzMTE1Mjk0MDUsNTE2MjEzMjQ4LC0xNzI1Nz
-cyMTYxLDE2NzcwMjkxNTEsLTEzMzIwODc5NjNdfQ==
+ODY1NTQ0Mjg1MTh9fSwiaGlzdG9yeSI6WzE5ODEwODc2Nyw3Mz
+Y0MTk3MDgsMTIyMTI2NDQzMiwxODI1MDM3MDQwLC0zOTE4ODIw
+NTAsLTE2Mzc2MDQxNzksLTE1Njg3Njk3NjksMTA3NTU4ODk1Mi
+wtNDY5NjQxNjgyLC0yNjk1NTg3ODUsLTEzNjQxNzQ5OTMsMTcy
+NjgxMzYzNCwtMTMxMTUyOTQwNSw1MTYyMTMyNDgsLTE3MjU3Nz
+IxNjEsMTY3NzAyOTE1MSwtMTMzMjA4Nzk2M119
 -->
