@@ -90,6 +90,7 @@ ways to do this. Here we’re focusing on selections.
 4. **You could use select by expression** to select the features that have values in the two wanted fields (ko_perus, hr_pi_tul) that are 0 or greater AND have people living in them (ko_ika18y, hr_tuy):
 	- To open the expression window press
 	- After the selection, save the selected features as a new shapefile (Right click layer with selection > *Export* > *Save selected features as…*).
+		- 
 
 	*Tip: If you are confused with the formula, try reading it aloud: “Select the features where X is greater than 0 AND Y is greater or equal than 0, AND…”*
 
@@ -203,17 +204,17 @@ NlbGVjdCB0aGUgZmVhdHVyZXMgdGhhdCBoYXZlIHZhbHVlcyBp
 YsImVuZCI6NTU4MSwidGV4dCI6InByZXNzIn0sIktmMzRvY21p
 TEI5NXg5MksiOnsic3RhcnQiOjExNzQsImVuZCI6MTE4NCwidG
 V4dCI6Ik9CSkVDVElWRVMifSwiVGtMaXM5UmZ3UzJKeW03bCI6
-eyJzdGFydCI6NjAxNywiZW5kIjo2MTM2LCJ0ZXh0IjoiNi4gKi
+eyJzdGFydCI6NjAyMiwiZW5kIjo2MTQxLCJ0ZXh0IjoiNi4gKi
 pJbiB0aGUgbmV3bHkgY3JlYXRlZCBsYXllciwgdXNlIHRoZSBm
 aWVsZCBjYWxjdWxhdG9yIHRvIGNhbGN1bGF0ZSBuZXcgZmllbO
-KApiJ9LCIyZHdDOWZ0bHVJRVdUQllWIjp7InN0YXJ0Ijo3Njkz
-LCJlbmQiOjc3NzgsInRleHQiOiItIFNvLCBvcGVuIHRoZSBzdH
+KApiJ9LCIyZHdDOWZ0bHVJRVdUQllWIjp7InN0YXJ0Ijo3Njk4
+LCJlbmQiOjc3ODMsInRleHQiOiItIFNvLCBvcGVuIHRoZSBzdH
 lsZSB0YWIgb2YgdGhlIGxheWVyLCBzZWxlY3QgZ3JhZHVhdGVk
 LCBzZWxlY3QgdGhlIGNvcnJlY3QgZmll4oCmIn0sIkdMcEFRdk
-4xczNRSHZSSTQiOnsic3RhcnQiOjgwMTQsImVuZCI6ODA3MCwi
+4xczNRSHZSSTQiOnsic3RhcnQiOjgwMTksImVuZCI6ODA3NSwi
 dGV4dCI6IkZvciBCYXNpYy1sZXZlbCBlZHVjYXRpb24gdGhleS
 Bsb29rIHNvbWV0aGluZyBsaWtlIHRoaXM6In0sInFkUktoUThz
-b0J2ZzVJaFQiOnsic3RhcnQiOjkxMTEsImVuZCI6OTE1MiwidG
+b0J2ZzVJaFQiOnsic3RhcnQiOjkxMTYsImVuZCI6OTE1NywidG
 V4dCI6IlRoZSBleHByZXNzaW9uIGxvb2tzIHNvbWV0aGluZyBs
 aWtlIHRoaXM6In19LCJjb21tZW50cyI6eyIzTG9HS2VRRkVNV3
 pqYkUxIjp7ImRpc2N1c3Npb25JZCI6ImVUYzhhb0JKbjd6ZHJm
@@ -270,8 +271,8 @@ JDcmRzSk11TVZGb2tMZCI6eyJkaXNjdXNzaW9uSWQiOiJEdmdm
 cEpzZnZ3Y05mOGlWIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZX
 h0IjoiYW5kIHdyaXRlIG91dCBmdXJ0aGVyIHRvIGV4cGxhaW4i
 LCJjcmVhdGVkIjoxNjg2NTUwNjMwMzA1fX0sImhpc3RvcnkiOl
-sxMDc1NTg4OTUyLC00Njk2NDE2ODIsLTI2OTU1ODc4NSwtMTM2
-NDE3NDk5MywxNzI2ODEzNjM0LC0xMzExNTI5NDA1LDUxNjIxMz
-I0OCwtMTcyNTc3MjE2MSwxNjc3MDI5MTUxLC0xMzMyMDg3OTYz
-XX0=
+stOTEwMDc1NTUwLDEwNzU1ODg5NTIsLTQ2OTY0MTY4MiwtMjY5
+NTU4Nzg1LC0xMzY0MTc0OTkzLDE3MjY4MTM2MzQsLTEzMTE1Mj
+k0MDUsNTE2MjEzMjQ4LC0xNzI1NzcyMTYxLDE2NzcwMjkxNTEs
+LTEzMzIwODc5NjNdfQ==
 -->
