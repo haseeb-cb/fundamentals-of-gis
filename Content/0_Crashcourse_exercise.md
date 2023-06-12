@@ -174,8 +174,9 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	 2. Double-click the *\$area* expression (you can also type *\$area* in the blank *Expression window*)
 	 3. Just the *\$area* expression would calculate the area in square meters, but we want square kilometers. So we will divide it by 1 000 000. Click or type the division symbol (/), and type 1000000 after the division
 	 4. Set an informative *Output field name* (For example: Area_km2)
-	 5. Set the *Output field type* to *Decimal number (real)*, and *Output field length* to 10 and 2 (try the other options and look how this changes the preview value)Click *OK*
-	 6. Finally, click the *Save Edits* button ![](https://docs.qgis.org/3.28/en/_images/mActionSaveEdits.png) and disable *Editing* mode ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png) to make the changes permanent
+	 5. Set the *Output field type* to *Decimal number (real)*, and *Output field length* to 10 and 2 (try the other options and look how this changes the preview value) 
+	 6. Click *OK*
+	 7. Finally, click the *Save Edits* button ![](https://docs.qgis.org/3.28/en/_images/mActionSaveEdits.png) and disable *Editing* mode ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png) to make the changes permanent
 
  7.  **Using the field we just created in the attribute table, explore the small areas of Helsinki**, which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_select_by_expression1.png)
@@ -271,7 +272,7 @@ fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6OTAxMywiZW
 5kIjo5MzIwLCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
 bGwgZG93bmxvYWRlZCBmcm9tIFBhSVR1bGkgYW5kIEhlbHNpbm
 tpIFJlZ2lvbiBJbmZvc2hhcmUgZOKApiJ9LCJQUVhKa1N0WTJn
-c3V2ejVEIjp7InN0YXJ0IjoyMTQ3MiwiZW5kIjoyMTQ5NiwidG
+c3V2ejVEIjp7InN0YXJ0IjoyMTQ3OSwiZW5kIjoyMTUwMywidG
 V4dCI6Ii0gTGF5b3V0IG1hbmFnZXIgcGljdHVyZSJ9LCJ5bmg1
 Ym9RaU9NVGlsWk1XIjp7InN0YXJ0Ijo4MywiZW5kIjoyMDEsIn
 RleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dHBzOi8vcmF3Lmdp
@@ -329,6 +330,6 @@ ZWQiOjE2ODY1NTQ4NTIzNTV9LCJrcFpUT1g1RlNWVVU0RUt5Ij
 p7ImRpc2N1c3Npb25JZCI6Ik9KRkRpUnV3dHBGQU5wRUwiLCJz
 dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZS
 IsImNyZWF0ZWQiOjE2ODY1NjQ5MjIwMzF9fSwiaGlzdG9yeSI6
-Wy0xOTkxMzA4MzAwLC05NTMzNDg4NzcsLTE5MjE4Mjk4MjUsLT
-I0NTcxNDU3MiwtMTkzMzY4NTI3MywtMTUyODc5MTAyNl19
+WzIwMjg2NzQxMTEsLTk1MzM0ODg3NywtMTkyMTgyOTgyNSwtMj
+Q1NzE0NTcyLC0xOTMzNjg1MjczLC0xNTI4NzkxMDI2XX0=
 -->
