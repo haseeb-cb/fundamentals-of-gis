@@ -216,10 +216,10 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 	9. Delete the temporary Joined Layer from the Layers window
 
 9.   **Now we’ll calculate yet another field** using the *field calculator* by dividing the number of passengers by the square kilometer area of the Helsinki small areas.
-		1.  Calculate this field using the *Field calculator* (don’t forget to toggle editing mode): output field name should be informative e.g. “PassArea”, set Output field type to decimal
-		2. Set output *field length* to 10 and *precision* to 2
+		1.  Calculate this field using the *Field calculator* (don’t forget to toggle editing mode): output field name should be informative e.g. “PassArea”
+		2. Set *Output field type* to decimal, Set output *field length* to 10 and *precision* to 2
 		3. Then you must enter the calculation into the Expression field, you can either use the drop-down menus (Fields and values) or simply type it in. The calculation should be similar to this (change if your fields are named differently): "Boardings_" / "Area_km2"
-		4. Click OK. Remember to *Save edits* and *Disable editing mode*.
+		4. Click sumOK. Remember to *Save edits* and *Disable editing mode*.
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_attribute_table.png)
 
@@ -271,7 +271,7 @@ fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6OTAxMywiZW
 5kIjo5MzIwLCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
 bGwgZG93bmxvYWRlZCBmcm9tIFBhSVR1bGkgYW5kIEhlbHNpbm
 tpIFJlZ2lvbiBJbmZvc2hhcmUgZOKApiJ9LCJQUVhKa1N0WTJn
-c3V2ejVEIjp7InN0YXJ0IjoyMTUxMiwiZW5kIjoyMTUzNiwidG
+c3V2ejVEIjp7InN0YXJ0IjoyMTUxNywiZW5kIjoyMTU0MSwidG
 V4dCI6Ii0gTGF5b3V0IG1hbmFnZXIgcGljdHVyZSJ9LCJ5bmg1
 Ym9RaU9NVGlsWk1XIjp7InN0YXJ0Ijo4MywiZW5kIjoyMDEsIn
 RleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dHBzOi8vcmF3Lmdp
@@ -329,6 +329,7 @@ ZWQiOjE2ODY1NTQ4NTIzNTV9LCJrcFpUT1g1RlNWVVU0RUt5Ij
 p7ImRpc2N1c3Npb25JZCI6Ik9KRkRpUnV3dHBGQU5wRUwiLCJz
 dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZS
 IsImNyZWF0ZWQiOjE2ODY1NjQ5MjIwMzF9fSwiaGlzdG9yeSI6
-Wy0xODU3ODg0Mjk0LC05NTMzNDg4NzcsLTE5MjE4Mjk4MjUsLT
-I0NTcxNDU3MiwtMTkzMzY4NTI3MywtMTUyODc5MTAyNl19
+Wy0yMDg1MTEwOTEwLC0xODU3ODg0Mjk0LC05NTMzNDg4NzcsLT
+E5MjE4Mjk4MjUsLTI0NTcxNDU3MiwtMTkzMzY4NTI3MywtMTUy
+ODc5MTAyNl19
 -->
