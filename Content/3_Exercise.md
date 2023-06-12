@@ -173,29 +173,29 @@ education & low-income areas in Helsinki metropolitan region.**
 Don't forget to include the requirements for a good map (See Crash Course)! 
 
 13. Optional: You can use the plugin we installed during the Crash Course, QuickMapServicee, to get more basemap options
-	- For example: 
+	- You can 
 
 
 ---
 
 ### Optional: Refining the analysis 
 
-13. The analysis we’ve done above is quite coarse. You can refine it by using the following fields:
+14. The analysis we’ve done above is quite coarse. You can refine it by using the following fields:
 	- te_vuok_as (Households living in rental dwellings, Household life theme’s prefix te_)
 		- Household life: te_taly (Households, total)
 	- pt_tyott (Unemployed, Main type of activity theme’s prefix pt_)
 		- Main type of activity: pt_tyovy (Labour force, total)
 
-14.  You should use the original grid data and not the one you’ve been working with. Why?
+15.  You should use the original grid data and not the one you’ve been working with. Why?
 		- You’ll have an untampered dataset and won’t lose any progress you’ve made with education and income data due to unfortunate errors. 
 		- Note: The education and income fields’ total number fields have the population 18 years old and older (can you think of why?), but the totals for household and unemployment fields use different metrics: Total number of households and total number of available workforces.
 		- Before tampering with the original grid file, you should save it as a new file, so you have a clean backup to fall back on. 
 
-15. When you’ve reclassified the proportions to the quartiles, you can join the layers using the id_nro field.
+16. When you’ve reclassified the proportions to the quartiles, you can join the layers using the id_nro field.
 	- You can select which fields to join, so you don’t have to join all the fields, just the
 reclassified fields for rented dwellings and unemployment.
 
-16. Compose a map of the results
+17. Compose a map of the results
 	- How do the refined results differ from the coarser results?
 	- Are these refined results enough to delineate segregated areas?
 		- Would you need additional data? What data?
@@ -249,10 +249,10 @@ ZHVhdGVkPyIsImNyZWF0ZWQiOjE2ODY1NTMyOTAzMzV9LCJTZk
 ZjOWdCN1hjR3Z0ODYyIjp7ImRpc2N1c3Npb25JZCI6Ik1yVEM2
 WGVRTFZ5dXluTEYiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleH
 QiOiJhbmQgUU1TIGluc3RydWN0aW9ucyIsImNyZWF0ZWQiOjE2
-ODY1NTQ0Mjg1MTh9fSwiaGlzdG9yeSI6WzczNjQxOTcwOCwxMj
-IxMjY0NDMyLDE4MjUwMzcwNDAsLTM5MTg4MjA1MCwtMTYzNzYw
-NDE3OSwtMTU2ODc2OTc2OSwxMDc1NTg4OTUyLC00Njk2NDE2OD
-IsLTI2OTU1ODc4NSwtMTM2NDE3NDk5MywxNzI2ODEzNjM0LC0x
-MzExNTI5NDA1LDUxNjIxMzI0OCwtMTcyNTc3MjE2MSwxNjc3MD
-I5MTUxLC0xMzMyMDg3OTYzXX0=
+ODY1NTQ0Mjg1MTh9fSwiaGlzdG9yeSI6WzEzMDA0MTM2NTYsNz
+M2NDE5NzA4LDEyMjEyNjQ0MzIsMTgyNTAzNzA0MCwtMzkxODgy
+MDUwLC0xNjM3NjA0MTc5LC0xNTY4NzY5NzY5LDEwNzU1ODg5NT
+IsLTQ2OTY0MTY4MiwtMjY5NTU4Nzg1LC0xMzY0MTc0OTkzLDE3
+MjY4MTM2MzQsLTEzMTE1Mjk0MDUsNTE2MjEzMjQ4LC0xNzI1Nz
+cyMTYxLDE2NzcwMjkxNTEsLTEzMzIwODc5NjNdfQ==
 -->
