@@ -229,7 +229,7 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 		1. Right-click the layer we just visualized and go to *Layer properties* > *Labels*
 		2. Select *Single labels* form the drop-down menu to enable labeling
 		3. Choose the column from the list that contains the area names (name_fi)
-		4. You can edit the lable placement and appearance, for example add a halo around it by selecting buffer in the lower section
+		4. You can edit the label placement and appearance, for example add a halo around it by selecting buffer in the lower section
 
 ---
 
@@ -329,7 +329,7 @@ ZWQiOjE2ODY1NTQ4NTIzNTV9LCJrcFpUT1g1RlNWVVU0RUt5Ij
 p7ImRpc2N1c3Npb25JZCI6Ik9KRkRpUnV3dHBGQU5wRUwiLCJz
 dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZS
 IsImNyZWF0ZWQiOjE2ODY1NjQ5MjIwMzF9fSwiaGlzdG9yeSI6
-Wy0xNjAwOTY4ODQ4LC0xODU3ODg0Mjk0LC05NTMzNDg4NzcsLT
-E5MjE4Mjk4MjUsLTI0NTcxNDU3MiwtMTkzMzY4NTI3MywtMTUy
-ODc5MTAyNl19
+WzEwMDg1MTcxNTAsLTE4NTc4ODQyOTQsLTk1MzM0ODg3NywtMT
+kyMTgyOTgyNSwtMjQ1NzE0NTcyLC0xOTMzNjg1MjczLC0xNTI4
+NzkxMDI2XX0=
 -->
