@@ -151,6 +151,7 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	 3. Press the *Fill color* button and change the color of the layer to blue
 	 4. If you want a transparent fill, change the *Opacity* under the *Fill color* section
 	 5. One you are satisfied with the layer styles, press *Apply* and *OK*
+
 4. It is also possible to **visualize the layers based on the information stored in the attribute table**. This can be done by selecting Categorized or Graduated instead of Single Symbol from the dropdown menu on the top of the page.	
 	
 	1. Open the HSL_Helsinki_stops layer symbology
@@ -270,7 +271,7 @@ fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJzdGFydCI6OTAxMywiZW
 5kIjo5MzIwLCJ0ZXh0IjoiVGhlc2UgZGF0YSBzZXRzIGFyZSBh
 bGwgZG93bmxvYWRlZCBmcm9tIFBhSVR1bGkgYW5kIEhlbHNpbm
 tpIFJlZ2lvbiBJbmZvc2hhcmUgZOKApiJ9LCJQUVhKa1N0WTJn
-c3V2ejVEIjp7InN0YXJ0IjoyMTQ3MSwiZW5kIjoyMTQ5NSwidG
+c3V2ejVEIjp7InN0YXJ0IjoyMTQ3MiwiZW5kIjoyMTQ5NiwidG
 V4dCI6Ii0gTGF5b3V0IG1hbmFnZXIgcGljdHVyZSJ9LCJ5bmg1
 Ym9RaU9NVGlsWk1XIjp7InN0YXJ0Ijo4MywiZW5kIjoyMDEsIn
 RleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dHBzOi8vcmF3Lmdp
@@ -287,7 +288,7 @@ NvcDVqR0QiOnsic3RhcnQiOjYwOTQsImVuZCI6NjE2NiwidGV4
 dCI6IklmIHlvdSB3YW50IHRvIGNyZWF0ZSBuZXcgZW1wdHkgbG
 F5ZXJzLCBnbyB0byAqTGF5ZXIqIFxcPiAqQ3JlYXRlIExheWVy
 Ki4ifSwidFYxbEFiTjF4RHpWM0I2RiI6eyJzdGFydCI6MTQ3ND
-AsImVuZCI6MTQ5MjgsInRleHQiOiI2LiAgTm93IHdl4oCZbGwg
+EsImVuZCI6MTQ5MjksInRleHQiOiI2LiAgTm93IHdl4oCZbGwg
 Kip3cml0ZSBhbiBleHByZXNzaW9uIHRoYXQgY2FsY3VsYXRlcy
 B0aGUgYXJlYSBvZiBlYWNoIHNtYWxsIGFyZWHigKYifX0sImNv
 bW1lbnRzIjp7IktIQ1ZwM3M0TURDdjJXaXQiOnsiZGlzY3Vzc2
@@ -322,7 +323,7 @@ YW50IHRvIGRvIHRoaXMiLCJjcmVhdGVkIjoxNjg2MTE0MjIyMD
 Y3fSwicWhWTEd3Ynp1dWVVWUVUTyI6eyJkaXNjdXNzaW9uSWQi
 OiJ0VjFsQWJOMXhEelYzQjZGIiwic3ViIjoiZ2g6NDAzMDQ3OD
 giLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2
-NTU0ODUyMzU1fX0sImhpc3RvcnkiOlstMTkwMzYxMjczNSwtMT
-kyMTgyOTgyNSwtMjQ1NzE0NTcyLC0xOTMzNjg1MjczLC0xNTI4
-NzkxMDI2XX0=
+NTU0ODUyMzU1fX0sImhpc3RvcnkiOlstOTUzMzQ4ODc3LC0xOT
+IxODI5ODI1LC0yNDU3MTQ1NzIsLTE5MzM2ODUyNzMsLTE1Mjg3
+OTEwMjZdfQ==
 -->
