@@ -172,8 +172,8 @@ education & low-income areas in Helsinki metropolitan region.**
 
 Don't forget to include the requirements for a good map (See Crash Course)! 
 
-13. Optional: You can use a plugin called QuickMapServices to get more basemap options
-	- Install it using 
+13. Optional: You can use the plugin we installed during the Crash Course, QuickMapServicee, to get more basemap options
+	- For example: 
 
 
 ---
@@ -249,10 +249,10 @@ ZHVhdGVkPyIsImNyZWF0ZWQiOjE2ODY1NTMyOTAzMzV9LCJTZk
 ZjOWdCN1hjR3Z0ODYyIjp7ImRpc2N1c3Npb25JZCI6Ik1yVEM2
 WGVRTFZ5dXluTEYiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleH
 QiOiJhbmQgUU1TIGluc3RydWN0aW9ucyIsImNyZWF0ZWQiOjE2
-ODY1NTQ0Mjg1MTh9fSwiaGlzdG9yeSI6WzEzNzQzNTA0NTgsMT
-IyMTI2NDQzMiwxODI1MDM3MDQwLC0zOTE4ODIwNTAsLTE2Mzc2
-MDQxNzksLTE1Njg3Njk3NjksMTA3NTU4ODk1MiwtNDY5NjQxNj
-gyLC0yNjk1NTg3ODUsLTEzNjQxNzQ5OTMsMTcyNjgxMzYzNCwt
-MTMxMTUyOTQwNSw1MTYyMTMyNDgsLTE3MjU3NzIxNjEsMTY3Nz
-AyOTE1MSwtMTMzMjA4Nzk2M119
+ODY1NTQ0Mjg1MTh9fSwiaGlzdG9yeSI6WzczNjQxOTcwOCwxMj
+IxMjY0NDMyLDE4MjUwMzcwNDAsLTM5MTg4MjA1MCwtMTYzNzYw
+NDE3OSwtMTU2ODc2OTc2OSwxMDc1NTg4OTUyLC00Njk2NDE2OD
+IsLTI2OTU1ODc4NSwtMTM2NDE3NDk5MywxNzI2ODEzNjM0LC0x
+MzExNTI5NDA1LDUxNjIxMzI0OCwtMTcyNTc3MjE2MSwxNjc3MD
+I5MTUxLC0xMzMyMDg3OTYzXX0=
 -->
