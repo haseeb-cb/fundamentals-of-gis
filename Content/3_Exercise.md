@@ -133,7 +133,8 @@ SPSS etc.) to find out the boundaries.
 
 10. **Now that we have the boundaries for the two classifications, it’s time to reclassify the data
 into four classes.**
-	- Open the *attribute table* and *field calculator*, we’re creating new fields for the reclassified values using a slightly more complex conditional statement this time. Note! Do all the analyses in the same layer so that you get the new columns in the same layer.
+	- Open the *attribute table* and *field calculator*, we’re creating new fields for the reclassified values using a slightly more complex conditional statement this time. 
+		- Note! Do all the analyses in the same layer so that you get the new columns in the same layer.
 	- The logic behind the numbering of the classes should be the same across all the reclassifications. In this instance our logic can be as follows: class 1 is the lowest (e.g. lowest share of inhabitants with no qualification after basic-level studies) and class 4 is the highest quartile (e.g. highest share of inhabitants with no qualification after basic level studies).
 	- Let’s use the conditional statement first for basic-level education proportions. This is where you use the class boundary notes. The expression looks something like this:
 	- NOTE: Use a dot as a decimal separator instead of comma.
@@ -214,7 +215,7 @@ LCBzZWxlY3QgdGhlIGNvcnJlY3QgZmll4oCmIn0sIkdMcEFRdk
 4xczNRSHZSSTQiOnsic3RhcnQiOjgxMDEsImVuZCI6ODE1Nywi
 dGV4dCI6IkZvciBCYXNpYy1sZXZlbCBlZHVjYXRpb24gdGhleS
 Bsb29rIHNvbWV0aGluZyBsaWtlIHRoaXM6In0sInFkUktoUThz
-b0J2ZzVJaFQiOnsic3RhcnQiOjkxOTgsImVuZCI6OTIzOSwidG
+b0J2ZzVJaFQiOnsic3RhcnQiOjkyMDMsImVuZCI6OTI0NCwidG
 V4dCI6IlRoZSBleHByZXNzaW9uIGxvb2tzIHNvbWV0aGluZyBs
 aWtlIHRoaXM6In19LCJjb21tZW50cyI6eyIzTG9HS2VRRkVNV3
 pqYkUxIjp7ImRpc2N1c3Npb25JZCI6ImVUYzhhb0JKbjd6ZHJm
@@ -271,8 +272,8 @@ JDcmRzSk11TVZGb2tMZCI6eyJkaXNjdXNzaW9uSWQiOiJEdmdm
 cEpzZnZ3Y05mOGlWIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZX
 h0IjoiYW5kIHdyaXRlIG91dCBmdXJ0aGVyIHRvIGV4cGxhaW4i
 LCJjcmVhdGVkIjoxNjg2NTUwNjMwMzA1fX0sImhpc3RvcnkiOl
-stMTU2ODc2OTc2OSwxMDc1NTg4OTUyLC00Njk2NDE2ODIsLTI2
-OTU1ODc4NSwtMTM2NDE3NDk5MywxNzI2ODEzNjM0LC0xMzExNT
-I5NDA1LDUxNjIxMzI0OCwtMTcyNTc3MjE2MSwxNjc3MDI5MTUx
-LC0xMzMyMDg3OTYzXX0=
+stMTYzNzYwNDE3OSwtMTU2ODc2OTc2OSwxMDc1NTg4OTUyLC00
+Njk2NDE2ODIsLTI2OTU1ODc4NSwtMTM2NDE3NDk5MywxNzI2OD
+EzNjM0LC0xMzExNTI5NDA1LDUxNjIxMzI0OCwtMTcyNTc3MjE2
+MSwxNjc3MDI5MTUxLC0xMzMyMDg3OTYzXX0=
 -->
