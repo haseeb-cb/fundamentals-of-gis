@@ -168,9 +168,12 @@ education & low-income areas in Helsinki metropolitan region.**
 12. Time to make your maps! Think of which maps would be good to describe this analysis, hints:
 	- Map highlighting grid squares that have been given the classification 4 in both of the reclassified fields
 	- Map with graduated symbology for reclassified fields
-	- Think about whether you should include the data we removed earlier(-1 entries), 
+	- Think about whether you should include the data we removed earlier(-1 entries), would it be valuable to the viewer of the map? Is the map accurate without them? How would you visualize them? 
 
 Don't forget to include the requirements for a good map (See Crash Course)! 
+
+13. Optional: You can use a plugin called QuickMapServices to get more basemap options
+	- Install it using 
 
 
 ---
@@ -246,7 +249,7 @@ ZHVhdGVkPyIsImNyZWF0ZWQiOjE2ODY1NTMyOTAzMzV9LCJTZk
 ZjOWdCN1hjR3Z0ODYyIjp7ImRpc2N1c3Npb25JZCI6Ik1yVEM2
 WGVRTFZ5dXluTEYiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleH
 QiOiJhbmQgUU1TIGluc3RydWN0aW9ucyIsImNyZWF0ZWQiOjE2
-ODY1NTQ0Mjg1MTh9fSwiaGlzdG9yeSI6WzExOTU2NjY5NDEsMT
+ODY1NTQ0Mjg1MTh9fSwiaGlzdG9yeSI6WzEzNzQzNTA0NTgsMT
 IyMTI2NDQzMiwxODI1MDM3MDQwLC0zOTE4ODIwNTAsLTE2Mzc2
 MDQxNzksLTE1Njg3Njk3NjksMTA3NTU4ODk1MiwtNDY5NjQxNj
 gyLC0yNjk1NTg3ODUsLTEzNjQxNzQ5OTMsMTcyNjgxMzYzNCwt
