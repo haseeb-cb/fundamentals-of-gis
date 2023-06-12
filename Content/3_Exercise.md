@@ -172,8 +172,10 @@ education & low-income areas in Helsinki metropolitan region.**
 
 Don't forget to include the requirements for a good map (See Crash Course)! 
 
-13. Optional: You can use the plugin we installed during the Crash Course, QuickMapServicee, to get more basemap options
-	- You can 
+13. Optional: You can use the plugin we installed during the Crash Course, QuickMapServices (QMS), to get more basemap options
+	- You can open the *Search QMS* panel using this icon, it should open below your toolbox:
+![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_QMS_1.png)
+	-  H
 
 
 ---
@@ -249,7 +251,7 @@ ZHVhdGVkPyIsImNyZWF0ZWQiOjE2ODY1NTMyOTAzMzV9LCJTZk
 ZjOWdCN1hjR3Z0ODYyIjp7ImRpc2N1c3Npb25JZCI6Ik1yVEM2
 WGVRTFZ5dXluTEYiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleH
 QiOiJhbmQgUU1TIGluc3RydWN0aW9ucyIsImNyZWF0ZWQiOjE2
-ODY1NTQ0Mjg1MTh9fSwiaGlzdG9yeSI6WzEzMDA0MTM2NTYsNz
+ODY1NTQ0Mjg1MTh9fSwiaGlzdG9yeSI6WzE3OTc5NzIyNDksNz
 M2NDE5NzA4LDEyMjEyNjQ0MzIsMTgyNTAzNzA0MCwtMzkxODgy
 MDUwLC0xNjM3NjA0MTc5LC0xNTY4NzY5NzY5LDEwNzU1ODg5NT
 IsLTQ2OTY0MTY4MiwtMjY5NTU4Nzg1LC0xMzY0MTc0OTkzLDE3
