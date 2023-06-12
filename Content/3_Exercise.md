@@ -177,7 +177,7 @@ Don't forget to include the requirements for a good map (See Crash Course)!
 ![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_QMS_1.png)
 	-  Here are some examples of basemaps you could use:
 ![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_QMS_2.png)
-	- Note: These are 
+	- Note: These are online 
 
 
 ---
@@ -253,10 +253,11 @@ ZHVhdGVkPyIsImNyZWF0ZWQiOjE2ODY1NTMyOTAzMzV9LCJTZk
 ZjOWdCN1hjR3Z0ODYyIjp7ImRpc2N1c3Npb25JZCI6Ik1yVEM2
 WGVRTFZ5dXluTEYiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleH
 QiOiJhbmQgUU1TIGluc3RydWN0aW9ucyIsImNyZWF0ZWQiOjE2
-ODY1NTQ0Mjg1MTh9fSwiaGlzdG9yeSI6WzE5ODEwODc2Nyw3Mz
-Y0MTk3MDgsMTIyMTI2NDQzMiwxODI1MDM3MDQwLC0zOTE4ODIw
-NTAsLTE2Mzc2MDQxNzksLTE1Njg3Njk3NjksMTA3NTU4ODk1Mi
-wtNDY5NjQxNjgyLC0yNjk1NTg3ODUsLTEzNjQxNzQ5OTMsMTcy
-NjgxMzYzNCwtMTMxMTUyOTQwNSw1MTYyMTMyNDgsLTE3MjU3Nz
-IxNjEsMTY3NzAyOTE1MSwtMTMzMjA4Nzk2M119
+ODY1NTQ0Mjg1MTh9fSwiaGlzdG9yeSI6Wy0xNzU5NTE2MDc4LD
+E5ODEwODc2Nyw3MzY0MTk3MDgsMTIyMTI2NDQzMiwxODI1MDM3
+MDQwLC0zOTE4ODIwNTAsLTE2Mzc2MDQxNzksLTE1Njg3Njk3Nj
+ksMTA3NTU4ODk1MiwtNDY5NjQxNjgyLC0yNjk1NTg3ODUsLTEz
+NjQxNzQ5OTMsMTcyNjgxMzYzNCwtMTMxMTUyOTQwNSw1MTYyMT
+MyNDgsLTE3MjU3NzIxNjEsMTY3NzAyOTE1MSwtMTMzMjA4Nzk2
+M119
 -->
