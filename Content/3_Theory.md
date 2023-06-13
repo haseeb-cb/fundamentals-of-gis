@@ -41,7 +41,7 @@ But what happens if we do an analysis without excluding these -1 values? This de
 
 There are other reasons why we might need to prepare the data, such as: 
 
-
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Theory/3_Theory_data_preperation_reasons.drawio.png)
 
 ### How? 
 In our case we will be using expressions to select the data we want, the entries where our selected fields don't contain -1, and export them into a new file. There are other ways of data preparation, here are the typical processes involved in preparing data for GIS analysis: 
@@ -140,8 +140,8 @@ BvcGVuIiwiY3JlYXRlZCI6MTY4NjYzODQzMzkyMX0sIlpaT0JT
 QUpEWGhtdk9pREUiOnsiZGlzY3Vzc2lvbklkIjoiY0pneGp2Wk
 lBMnI3WUJzbCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
 IkFkZCBsaW5rcyIsImNyZWF0ZWQiOjE2ODY2MzkzMzE1NzR9fS
-wiaGlzdG9yeSI6Wy0xMzUxNzE3NTE3LC01NzMyNDgxNDMsMTQ0
-NDM4MTEyNSwxODE5NjE3NzAwLDIwODM5OTM5ODYsLTE3NTQ4NT
-E3MywxMzMyMzc0OTQ4LC0xNzA1MjU4OTI3LC0xNTQzNTA1MDE1
-XX0=
+wiaGlzdG9yeSI6Wy0xMjM0NzMyMTI1LC0xMzUxNzE3NTE3LC01
+NzMyNDgxNDMsMTQ0NDM4MTEyNSwxODE5NjE3NzAwLDIwODM5OT
+M5ODYsLTE3NTQ4NTE3MywxMzMyMzc0OTQ4LC0xNzA1MjU4OTI3
+LC0xNTQzNTA1MDE1XX0=
 -->
