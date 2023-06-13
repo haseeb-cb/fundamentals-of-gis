@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T07:55:57.029Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0" version="21.3.7" etag="TyqlwgIFexLmAyO_b8Oc" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T08:04:17.721Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0" etag="5DuHDk9tIvN_RzMLqdaH" version="21.3.7" type="github">
   <diagram name="Page-1" id="aAZw_4xiwKafa_tFNMp_">
-    <mxGraphModel>
+    <mxGraphModel dx="1727" dy="1528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jy7SIj3qQDToJR30hKP_-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="960" y="760" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="jy7SIj3qQDToJR30hKP_-3" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Equal Count (Quantile)&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Divides the data into equal-sized groups, ensuring an equal number of data points in each group. Useful for reducing the impact of outliers.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="965" y="770" width="190" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="jy7SIj3qQDToJR30hKP_-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="760" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="jy7SIj3qQDToJR30hKP_-6" value="&lt;h1&gt;Equal Interval&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Divides the data range into equal intervals. Suitable for data with a uniform distribution.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="770" width="190" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="jy7SIj3qQDToJR30hKP_-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="760" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="jy7SIj3qQDToJR30hKP_-9" value="&lt;h1&gt;Logarithmic Scale&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Utilizes a logarithmic transformation of data values to create classes. This method is often used when the data spans a wide range of values, and a logarithmic scale helps to represent the data more evenly and reveal patterns in both small and large values.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1405" y="770" width="190" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="jy7SIj3qQDToJR30hKP_-10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="760" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="jy7SIj3qQDToJR30hKP_-11" value="&lt;h1&gt;Natural Breaks (Jenks)&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Identifies natural groupings in the data by minimizing the differences within groups and maximizing the differences between groups. Often produces visually distinct and meaningful classes.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1625" y="770" width="190" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="jy7SIj3qQDToJR30hKP_-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="760" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="jy7SIj3qQDToJR30hKP_-13" value="&lt;h1&gt;Pretty Breaks&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Pretty breaks is a classification method that aims to create visually appealing and easily interpretable class intervals. It selects intervals based on &quot;nice&quot; or &quot;pretty&quot; numbers, such as multiples of 1, 2, or 5. This approach enhances the readability of maps and charts by using intervals that are more intuitive to the human eye.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1845" y="770" width="190" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="jy7SIj3qQDToJR30hKP_-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="760" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="jy7SIj3qQDToJR30hKP_-15" value="&lt;h1&gt;Standard Deviation&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Uses the mean and standard deviation to classify data into classes based on a specified number of standard deviations above and below the mean.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2065" y="770" width="190" height="210" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
