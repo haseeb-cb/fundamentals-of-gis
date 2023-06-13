@@ -24,7 +24,7 @@ The course consists of **9 exercises**, each accompanied by a piece of theory. T
 | 2 | Socio-spatial differentiation | Raster analysis |
 | 3 | Finding the optimal location for a new development | Buffer analysis, overlay analysis |
 | 4 | Determining optimal land for cultivation | Digital Elevation Model (DEM), slope, hillshade, overlay analysis |
-| 5 | Understnading disease transmission | Heatmap analysis (Kernel Density), Voronoi diagram, text processing |
+| 5 | Understanding disease transmission | Heatmap analysis (Kernel Density), Voronoi diagram, text processing |
 | 6 | Air quality analysis | Spatial interpolation
 | 7 | Calculating building efficiency | Expressions, creating grids |
 | 8 | Wind power NIMBY (Not in my backyard) analysis | Public Participation GIS/SoftGIS, Directional Distribution |
@@ -219,9 +219,9 @@ ZSIsImNyZWF0ZWQiOjE2ODYxMzg1NDkxMzl9LCI3ZWtEeHVsYT
 haUmczemNCIjp7ImRpc2N1c3Npb25JZCI6ImJ5TXZ4am8wZkl5
 clk0TkoiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBbm
 QgbGlua3MiLCJjcmVhdGVkIjoxNjg2NDgzMTI5NDUzfX0sImhp
-c3RvcnkiOls0Njk0ODAwMTcsLTUxMTc2MDIzNSwtMjAxMDU3Mz
-AyNSwtMTM3NDU0MDExLC0yNTYwMDcyOTcsMTM0MzUzNzU3Nywt
-MTAzNTcxODgyNSw2MDc2Nzk4LDE2Nzg4NDcxODAsMTAxNDY2Nz
-A4OSwyMDY2Mjk3Nzk5LC0xMzY4MjkzMTEzLC0xOTc3NzQ2NDM1
-LDkwMDg5MTgxNl19
+c3RvcnkiOlsxMzAyNjU5Nzg3LDQ2OTQ4MDAxNywtNTExNzYwMj
+M1LC0yMDEwNTczMDI1LC0xMzc0NTQwMTEsLTI1NjAwNzI5Nywx
+MzQzNTM3NTc3LC0xMDM1NzE4ODI1LDYwNzY3OTgsMTY3ODg0Nz
+E4MCwxMDE0NjY3MDg5LDIwNjYyOTc3OTksLTEzNjgyOTMxMTMs
+LTE5Nzc3NDY0MzUsOTAwODkxODE2XX0=
 -->
