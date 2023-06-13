@@ -99,7 +99,7 @@ The choice of classification method depends on the nature of the data, the resea
 Data classification is an essential step in data analysis, as it enables the visualization and exploration of data patterns, trends, and distributions. It supports the identification of spatial relationships, the comparison of different areas or groups, and the communication of information in a more accessible and meaningful manner.
 
 ## Expressions
-An example of an expression you will be using during this analysis is as follows:
+In the Crash Course exercise we used an expression to select regions of a certain size. this w
 
 - Case
 
@@ -150,7 +150,7 @@ LCJjcmVhdGVkIjoxNjg2NjM5MzMxNTc0fSwienRuUUJYd09EMl
 BXbnNpTCI6eyJkaXNjdXNzaW9uSWQiOiJvOWYyY3lYbXJkNk5Z
 NFRmIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiZGlhZ3
 JhbSIsImNyZWF0ZWQiOjE2ODY2NDA5MjkxODV9fSwiaGlzdG9y
-eSI6WzE3MDYxMzQzMDMsMjA4Mzk5Mzk4NiwtMTc1NDg1MTczLD
+eSI6Wy03Njg4ODM3MzUsMjA4Mzk5Mzk4NiwtMTc1NDg1MTczLD
 EzMzIzNzQ5NDgsLTE3MDUyNTg5MjcsLTE1NDM1MDUwMTVdfQ==
 
 -->
