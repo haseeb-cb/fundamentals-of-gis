@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T08:23:56.803Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0" etag="ej7d7J80wXZ9kHFZ-BNY" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T08:26:28.658Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0" etag="ZwOhjYostem4j5ydf6ET" version="21.3.7" type="github">
   <diagram name="Page-1" id="W_9SXH4TD8g1rCxy0FTM">
     <mxGraphModel dx="1727" dy="1528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -34,8 +34,8 @@
         <mxCell id="hkxG_CtUkYzyMIgJ9l2P-11" value="&lt;h1&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;5. Data Aggregation or Disaggregation&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Depending on the scale of analysis or the research question at hand, it may be necessary to aggregate or disaggregate data to match the desired spatial resolution. Aggregating data involves combining smaller spatial units into larger ones, while disaggregating data involves splitting larger spatial units into smaller ones. Data preparation ensures that the data is appropriately aggregated or disaggregated for the specific analysis requirements.&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="996" y="1235" width="320" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="hkxG_CtUkYzyMIgJ9l2P-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="1220" width="350" height="310" as="geometry" />
+        <mxCell id="hkxG_CtUkYzyMIgJ9l2P-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="1200" width="310" height="350" as="geometry" />
         </mxCell>
         <mxCell id="hkxG_CtUkYzyMIgJ9l2P-13" value="&lt;h1&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;6. Data Cleaning and Filtering&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Data preparation involves cleaning and filtering out irrelevant or redundant data to focus on the variables and geographic areas of interest. This process helps streamline the analysis and improve computational efficiency.&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1365" y="1235" width="320" height="280" as="geometry" />
