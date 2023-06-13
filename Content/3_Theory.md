@@ -54,7 +54,7 @@ There are other reasons why we might need to prepare the data, such as:
 6.  **Data Cleaning and Filtering**: Data preparation involves cleaning and filtering out irrelevant or redundant data to focus on the variables and geographic areas of interest. This process helps streamline the analysis and improve computational efficiency.
 
 ### How? 
-In our case we will be using expressions to sel
+In our case we will be using expressions to select the data we want, the entries where our selected fields don't contain -1, and export them into a new file. There are other ways of data preparation, here are the typical processe
 
 ### Data classification 
 - Equal count
@@ -102,6 +102,6 @@ BvcGVuIiwiY3JlYXRlZCI6MTY4NjYzODQzMzkyMX0sIlpaT0JT
 QUpEWGhtdk9pREUiOnsiZGlzY3Vzc2lvbklkIjoiY0pneGp2Wk
 lBMnI3WUJzbCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
 IkFkZCBsaW5rcyIsImNyZWF0ZWQiOjE2ODY2MzkzMzE1NzR9fS
-wiaGlzdG9yeSI6WzE5Mzg5MDQyMjMsLTE3NTQ4NTE3MywxMzMy
+wiaGlzdG9yeSI6Wy00MDQwMDgwNTksLTE3NTQ4NTE3MywxMzMy
 Mzc0OTQ4LC0xNzA1MjU4OTI3LC0xNTQzNTA1MDE1XX0=
 -->
