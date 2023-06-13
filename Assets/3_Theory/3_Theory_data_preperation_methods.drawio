@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T08:38:05.903Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0" etag="xKUsHURa-CoT64qWAbaa" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T08:40:23.138Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0" etag="Fl7sKsbJYRYtZGEBCFwi" version="21.3.7" type="github">
   <diagram name="Page-1" id="7-QZnOnv5e57SHR5SPjQ">
     <mxGraphModel dx="1727" dy="1528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FXL7QHUmOjVsZezIk3ml-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="FXL7QHUmOjVsZezIk3ml-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1740" y="880" width="280" height="240" as="geometry" />
         </mxCell>
         <mxCell id="FXL7QHUmOjVsZezIk3ml-3" value="&lt;h1&gt;2. Data Cleaning&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Review the data for errors, inconsistencies, or missing values. Correct any inaccuracies, resolve inconsistencies, and fill in missing values through data validation, data cleansing techniques, and interpolation methods.&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
@@ -28,19 +28,19 @@
         <mxCell id="FXL7QHUmOjVsZezIk3ml-11" value="&lt;h1&gt;5. Attribute Table Management&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Review and organize attribute tables associated with spatial data. Check for consistency in attribute field names, data types, and values. Rename fields, modify data types, and perform necessary calculations to create new attributes if required.&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1755" y="1155" width="250" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="FXL7QHUmOjVsZezIk3ml-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="FXL7QHUmOjVsZezIk3ml-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="2040" y="1140" width="280" height="240" as="geometry" />
         </mxCell>
         <mxCell id="FXL7QHUmOjVsZezIk3ml-13" value="&lt;h1&gt;6. Spatial Join and Integration&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;If multiple datasets are being used, spatially join or integrate them based on common spatial identifiers or geographic boundaries. This allows for the combination of data from different sources into a single dataset.&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2055" y="1155" width="250" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="FXL7QHUmOjVsZezIk3ml-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="FXL7QHUmOjVsZezIk3ml-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1440" y="1140" width="280" height="240" as="geometry" />
         </mxCell>
         <mxCell id="FXL7QHUmOjVsZezIk3ml-15" value="&lt;h1&gt;4. Data Format Conversion&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Convert data from different formats (e.g., CSV, Excel, shapefiles) into a format compatible with the GIS software being used. This may involve using conversion tools or import/export functions provided by the GIS software.&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1455" y="1155" width="250" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="FXL7QHUmOjVsZezIk3ml-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="FXL7QHUmOjVsZezIk3ml-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1740" y="1400" width="280" height="240" as="geometry" />
         </mxCell>
         <mxCell id="FXL7QHUmOjVsZezIk3ml-17" value="&lt;h1&gt;8. Data Filtering and Selection&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Filter out irrelevant or redundant data based on the specific analysis requirements. Select the variables and geographic areas of interest to focus the analysis on the desired subset of data.&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
