@@ -75,22 +75,21 @@ In our case we will be using expressions to select the data we want, the entries
 9.  **Data Validation**: Verify the quality and integrity of the prepared data through visual inspection, statistical analysis, or comparison with reference data. Ensure that the prepared data meets the intended objectives of the GIS analysis.
 
 ### Data classification 
-Data classification refers to the process of categorizing or grouping data based on common characteristics, attributes, or criteria. It involves organizing data into distinct classes or categories to facilitate analysis, interpretation, and communication of information.
+Data classification refers to **the process of categorizing or grouping data based on common characteristics, attributes, or criteria**. It involves organizing data into distinct classes or categories to facilitate analysis, interpretation, and communication of information.
 
 In the context of GIS (Geographic Information System), data classification is often applied to spatial data, such as maps or remote sensing imagery. It helps to visually represent and differentiate features or phenomena on a map based on their attributes or values.
 
 There are several methods of data classification, including:
 
-1.  Equal Interval: Divides the data range into equal intervals. Suitable for data with a uniform distribution.
+1.  **Equal Interval**: Divides the data range into equal intervals. Suitable for data with a uniform distribution.
     
-2.  Quantile: Divides the data into equal-sized groups, ensuring an equal number of data points in each group. Useful for reducing the impact of outliers.
+2.  **Quantile**: Divides the data into equal-sized groups, ensuring an equal number of data points in each group. Useful for reducing the impact of outliers.
     
-3.  Natural Breaks (Jenks): Identifies natural groupings in the data by minimizing the differences within groups and maximizing the differences between groups. Often produces visually distinct and meaningful classes.
+3.  **Natural Breaks (Jenks)**: Identifies natural groupings in the data by minimizing the differences within groups and maximizing the differences between groups. Often produces visually distinct and meaningful classes.
     
-4.  Standard Deviation: Uses the mean and standard deviation to classify data into classes based on a specified number of standard deviations above and below the mean.
+4.  **Standard Deviation**: Uses the mean and standard deviation to classify data into classes based on a specified number of standard deviations above and below the mean.
     
-5.  Unique Values: Assigns a separate class to each unique value or category present in the data. Suitable for categorical or nominal data.
-    
+5.  **Unique Values**: Assigns a separate class to each unique value or category present in the data. Suitable for categorical or nominal data.
 
 The choice of classification method depends on the nature of the data, the research question or objective, and the desired visualization or analysis outcomes. The classification method can significantly influence the interpretation and understanding of the data, so it is important to select an appropriate method that best represents the underlying patterns or characteristics in the dataset.
 
@@ -139,7 +138,7 @@ BvcGVuIiwiY3JlYXRlZCI6MTY4NjYzODQzMzkyMX0sIlpaT0JT
 QUpEWGhtdk9pREUiOnsiZGlzY3Vzc2lvbklkIjoiY0pneGp2Wk
 lBMnI3WUJzbCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
 IkFkZCBsaW5rcyIsImNyZWF0ZWQiOjE2ODY2MzkzMzE1NzR9fS
-wiaGlzdG9yeSI6WzgxNDUwOTM3OSwyMDgzOTkzOTg2LC0xNzU0
+wiaGlzdG9yeSI6Wzc3NDA5ODQxNywyMDgzOTkzOTg2LC0xNzU0
 ODUxNzMsMTMzMjM3NDk0OCwtMTcwNTI1ODkyNywtMTU0MzUwNT
 AxNV19
 -->
