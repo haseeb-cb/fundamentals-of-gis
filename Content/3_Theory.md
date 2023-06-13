@@ -54,7 +54,25 @@ There are other reasons why we might need to prepare the data, such as:
 6.  **Data Cleaning and Filtering**: Data preparation involves cleaning and filtering out irrelevant or redundant data to focus on the variables and geographic areas of interest. This process helps streamline the analysis and improve computational efficiency.
 
 ### How? 
-In our case we will be using expressions to select the data we want, the entries where our selected fields don't contain -1, and export them into a new file. There are other ways of data preparation, here are the typical processe
+In our case we will be using expressions to select the data we want, the entries where our selected fields don't contain -1, and export them into a new file. There are other ways of data preparation, here are the typical processes involved in preparing data for GIS analysis: 
+
+1.  **Data Collection**: Identify and gather relevant data from various sources, such as government agencies, surveys, satellite imagery, or field surveys.
+    
+2.  **Data Cleaning**: Review the data for errors, inconsistencies, or missing values. Correct any inaccuracies, resolve inconsistencies, and fill in missing values through data validation, data cleansing techniques, and interpolation methods.
+    
+3.  **Coordinate System Alignment**: Ensure that all spatial datasets have consistent coordinate systems. If necessary, transform or project the data to a common coordinate system that matches the analysis requirements and the target GIS software.
+    
+4.  **Data Format Conversion**: Convert data from different formats (e.g., CSV, Excel, shapefiles) into a format compatible with the GIS software being used. This may involve using conversion tools or import/export functions provided by the GIS software.
+    
+5.  **Attribute Table Management**: Review and organize attribute tables associated with spatial data. Check for consistency in attribute field names, data types, and values. Rename fields, modify data types, and perform necessary calculations to create new attributes if required.
+    
+6.  **Spatial Join and Integration**: If multiple datasets are being used, spatially join or integrate them based on common spatial identifiers or geographic boundaries. This allows for the combination of data from different sources into a single dataset.
+    
+7.  **Standardization**: Standardize attribute values, classifications, and spatial units to ensure consistency across datasets. This may involve reclassifying variables, harmonizing terminology, or aggregating data to a consistent spatial resolution.
+    
+8.  **Data Filtering and Selection**: Filter out irrelevant or redundant data based on the specific analysis requirements. Select the variables and geographic areas of interest to focus the analysis on the desired subset of data.
+    
+9.  Data Validation**: Verify the quality and integrity of the prepared data through visual inspection, statistical analysis, or comparison with reference data. Ensure that the prepared data meets the intended objectives of the GIS analysis.
 
 ### Data classification 
 - Equal count
@@ -102,6 +120,6 @@ BvcGVuIiwiY3JlYXRlZCI6MTY4NjYzODQzMzkyMX0sIlpaT0JT
 QUpEWGhtdk9pREUiOnsiZGlzY3Vzc2lvbklkIjoiY0pneGp2Wk
 lBMnI3WUJzbCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
 IkFkZCBsaW5rcyIsImNyZWF0ZWQiOjE2ODY2MzkzMzE1NzR9fS
-wiaGlzdG9yeSI6Wy00MDQwMDgwNTksLTE3NTQ4NTE3MywxMzMy
+wiaGlzdG9yeSI6Wy01OTc2NDgyNTQsLTE3NTQ4NTE3MywxMzMy
 Mzc0OTQ4LC0xNzA1MjU4OTI3LC0xNTQzNTA1MDE1XX0=
 -->
