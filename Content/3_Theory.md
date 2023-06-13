@@ -72,7 +72,7 @@ In our case we will be using expressions to select the data we want, the entries
     
 8.  **Data Filtering and Selection**: Filter out irrelevant or redundant data based on the specific analysis requirements. Select the variables and geographic areas of interest to focus the analysis on the desired subset of data.
     
-9.  Data Validation**: Verify the quality and integrity of the prepared data through visual inspection, statistical analysis, or comparison with reference data. Ensure that the prepared data meets the intended objectives of the GIS analysis.
+9.  **Data Validation**: Verify the quality and integrity of the prepared data through visual inspection, statistical analysis, or comparison with reference data. Ensure that the prepared data meets the intended objectives of the GIS analysis.
 
 ### Data classification 
 - Equal count
@@ -120,6 +120,6 @@ BvcGVuIiwiY3JlYXRlZCI6MTY4NjYzODQzMzkyMX0sIlpaT0JT
 QUpEWGhtdk9pREUiOnsiZGlzY3Vzc2lvbklkIjoiY0pneGp2Wk
 lBMnI3WUJzbCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
 IkFkZCBsaW5rcyIsImNyZWF0ZWQiOjE2ODY2MzkzMzE1NzR9fS
-wiaGlzdG9yeSI6Wy01OTc2NDgyNTQsLTE3NTQ4NTE3MywxMzMy
+wiaGlzdG9yeSI6WzIwODM5OTM5ODYsLTE3NTQ4NTE3MywxMzMy
 Mzc0OTQ4LC0xNzA1MjU4OTI3LC0xNTQzNTA1MDE1XX0=
 -->
