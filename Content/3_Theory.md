@@ -81,6 +81,8 @@ In the context of GIS (Geographic Information System), data classification is of
 
 There are several methods of data classification, including:
 
+
+
 1.  **Equal Count (Quantile)**: Divides the data into equal-sized groups, ensuring an equal number of data points in each group. Useful for reducing the impact of outliers.
 
 2.  **Equal Interval**: Divides the data range into equal intervals. Suitable for data with a uniform distribution.
@@ -142,7 +144,7 @@ dG9rYW7igKYifSwiY0pneGp2WklBMnI3WUJzbCI6eyJzdGFydC
 I6MzMyOSwiZW5kIjozMzg1LCJ0ZXh0IjoiLSBFeGFtcGxlcyBv
 ZiBHSVMgc29jaW8tc3BhdGlhbCBkaWZmZXJlbnRpYXRpb24gYW
 5hbHlzZXMifSwibzlmMmN5WG1yZDZOWTRUZiI6eyJzdGFydCI6
-MTI1NTEsImVuZCI6MTMzMDUsInRleHQiOiIxLiAgKipFcXVhbC
+MTI1NTMsImVuZCI6MTMzMDcsInRleHQiOiIxLiAgKipFcXVhbC
 BJbnRlcnZhbCoqOiBEaXZpZGVzIHRoZSBkYXRhIHJhbmdlIGlu
 dG8gZXF1YWwgaW50ZXJ2YWxzLiBTdWl0YWJsZSBm4oCmIn19LC
 Jjb21tZW50cyI6eyJmVU5VcFFDYWszRkNrNVo3Ijp7ImRpc2N1
@@ -168,7 +170,7 @@ LCJjcmVhdGVkIjoxNjg2NjM5MzMxNTc0fSwienRuUUJYd09EMl
 BXbnNpTCI6eyJkaXNjdXNzaW9uSWQiOiJvOWYyY3lYbXJkNk5Z
 NFRmIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiZGlhZ3
 JhbSIsImNyZWF0ZWQiOjE2ODY2NDA5MjkxODV9fSwiaGlzdG9y
-eSI6WzE4MTk2MTc3MDAsMjA4Mzk5Mzk4NiwtMTc1NDg1MTczLD
-EzMzIzNzQ5NDgsLTE3MDUyNTg5MjcsLTE1NDM1MDUwMTVdfQ==
-
+eSI6Wy0yMDQ2MTk0MjI4LDE4MTk2MTc3MDAsMjA4Mzk5Mzk4Ni
+wtMTc1NDg1MTczLDEzMzIzNzQ5NDgsLTE3MDUyNTg5MjcsLTE1
+NDM1MDUwMTVdfQ==
 -->
