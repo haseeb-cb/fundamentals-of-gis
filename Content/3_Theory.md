@@ -32,7 +32,7 @@ You can access the dataset here: https://www.tilastokeskus.fi/tup/ruututietokant
 We learned previously that raster data consists of a continuous surface divided into a grid of cells, where each cell corresponds to a specific location and contains a value representing a particular attribute. This value is represented by the color of the cell, images are in a way rasters as well, specifically JPEG, PNG, and GIF images. Do you remember seeing in movies that they store data in pictures? This is not unrealistic, as you could just see pictures as a raster where the color of each cell represents its value. One limitation of rasters however, is that a cell can only hold 1 value , since the cell can also only be 1 color. This is sufficient for a lot of cases, for example a raster which describes the slope of the area only needs one value per cell, the slope. But if we want to use multiple values in a raster, such as statistics of the cells, we need to make use of a grid in a vector format. This is the case in the Statistics Finland's Grid Database, as you will see when you do the exercise. This is important to keep in mind in the future, since this type of data may look like a raster, it needs to be processed using vector methods. While doing the exercise, ask yourself questions like: Do I need my data to be vector or raster? What type of data is this? How do I process this data? 
 
 ## Data preparation
-A regular necessary step in GIS is to prepare your data for your analysis. 
+A regular necessary step in GIS is to prepare data for our analysis, the same can be said for this analysis.  
 - Data cleanup
 	- Why?
 	- How?
@@ -77,6 +77,6 @@ NyZWF0ZWQiOjE2ODY2MzgyNjU2MDF9LCJGazFpRjk1bTcyYjBi
 YkNsIjp7ImRpc2N1c3Npb25JZCI6IkpMMDhaTzltZDFndnRtNT
 UiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJDaGVjayBp
 ZiBvcGVuIiwiY3JlYXRlZCI6MTY4NjYzODQzMzkyMX19LCJoaX
-N0b3J5IjpbLTg3NzE3MjI5LC0xNzU0ODUxNzMsMTMzMjM3NDk0
-OCwtMTcwNTI1ODkyNywtMTU0MzUwNTAxNV19
+N0b3J5IjpbMTkwNzg0MTg5NSwtMTc1NDg1MTczLDEzMzIzNzQ5
+NDgsLTE3MDUyNTg5MjcsLTE1NDM1MDUwMTVdfQ==
 -->
