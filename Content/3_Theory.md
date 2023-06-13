@@ -23,9 +23,9 @@ Furthermore, GIS allows for the monitoring and evaluation of policies and interv
 
 
 ## Dataset
-The exercise accompanying this theory section consists of a GIS socio-spatial differentiation analysis. You will be using the Statistics Finland's Grid Database, which as the name suggests consists of a grid of cells, each of which describes various statistics of the area it covers. In this exercise specifically you will be looking at the spatial distribution of level of education and income in Helsinki. 
+The exercise accompanying this theory section consists of a GIS socio-spatial differentiation analysis. We will be using the Statistics Finland's Grid Database, which as the name suggests consists of a grid of cells, each of which describes various statistics of the area it covers. In this exercise specifically we will be looking at a 250x250m scale at the spatial distribution of level of education and income in Helsinki. 
 
-We 
+We learned previously that 
 
 ## Data preparation
 - Data cleanup
@@ -52,6 +52,7 @@ RleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODY2MzY1
 NDY0MjJ9LCJmTENIZnMwVmR3eDFxRFVXIjp7ImRpc2N1c3Npb2
 5JZCI6IjVzUmd3NkROUGZiQkljZmkiLCJzdWIiOiJnaDo0MDMw
 NDc4OCIsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOj
-E2ODY2MzY3NzI1OTB9fSwiaGlzdG9yeSI6Wzk5Mjg3Mzc4OSwx
-MzMyMzc0OTQ4LC0xNzA1MjU4OTI3LC0xNTQzNTA1MDE1XX0=
+E2ODY2MzY3NzI1OTB9fSwiaGlzdG9yeSI6Wy0xMjQ0ODIyMjcy
+LDEzMzIzNzQ5NDgsLTE3MDUyNTg5MjcsLTE1NDM1MDUwMTVdfQ
+==
 -->
