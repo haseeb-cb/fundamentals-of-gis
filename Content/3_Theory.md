@@ -83,13 +83,16 @@ There are several methods of data classification, including:
 
 1.  **Equal Count (Quantile)**: Divides the data into equal-sized groups, ensuring an equal number of data points in each group. Useful for reducing the impact of outliers.
 
-4.  **Equal Interval**: Divides the data range into equal intervals. Suitable for data with a uniform distribution.
-    
-5.  **Natural Breaks (Jenks)**: Identifies natural groupings in the data by minimizing the differences within groups and maximizing the differences between groups. Often produces visually distinct and meaningful classes.
-    
+2.  **Equal Interval**: Divides the data range into equal intervals. Suitable for data with a uniform distribution.
+
+3. **Logarithmic Scale**: Utilizes a logarithmic transformation of data values to create classes. This method is often used when the data spans a wide range of values, and a logarithmic scale helps to represent the data more evenly and reveal patterns in both small and large values.
+
+4.  **Natural Breaks (Jenks)**: Identifies natural groupings in the data by minimizing the differences within groups and maximizing the differences between groups. Often produces visually distinct and meaningful classes.
+
+5. **Pretty Breaks**: Pretty breaks is a classification method that aims to create visually appealing and easily interpretable class intervals. It selects intervals based on "nice" or "pretty" numbers, such as multiples of 1, 2, or 5. This approach enhances the readability of maps and charts by using intervals that are more intuitive to the human eye.
+
 6.  **Standard Deviation**: Uses the mean and standard deviation to classify data into classes based on a specified number of standard deviations above and below the mean.
     
-7.  **Unique Values**: Assigns a separate class to each unique value or category present in the data. Suitable for categorical or nominal data.
 
 The choice of classification method depends on the nature of the data, the research question or objective, and the desired visualization or analysis outcomes. The classification method can significantly influence the interpretation and understanding of the data, so it is important to select an appropriate method that best represents the underlying patterns or characteristics in the dataset.
 
@@ -119,7 +122,7 @@ dG9rYW7igKYifSwiY0pneGp2WklBMnI3WUJzbCI6eyJzdGFydC
 I6MzMyOSwiZW5kIjozMzg1LCJ0ZXh0IjoiLSBFeGFtcGxlcyBv
 ZiBHSVMgc29jaW8tc3BhdGlhbCBkaWZmZXJlbnRpYXRpb24gYW
 5hbHlzZXMifSwibzlmMmN5WG1yZDZOWTRUZiI6eyJzdGFydCI6
-MTIxNTEsImVuZCI6MTI4MTcsInRleHQiOiIxLiAgKipFcXVhbC
+MTI1NTIsImVuZCI6MTMzMDYsInRleHQiOiIxLiAgKipFcXVhbC
 BJbnRlcnZhbCoqOiBEaXZpZGVzIHRoZSBkYXRhIHJhbmdlIGlu
 dG8gZXF1YWwgaW50ZXJ2YWxzLiBTdWl0YWJsZSBm4oCmIn19LC
 Jjb21tZW50cyI6eyJmVU5VcFFDYWszRkNrNVo3Ijp7ImRpc2N1
@@ -145,6 +148,7 @@ LCJjcmVhdGVkIjoxNjg2NjM5MzMxNTc0fSwienRuUUJYd09EMl
 BXbnNpTCI6eyJkaXNjdXNzaW9uSWQiOiJvOWYyY3lYbXJkNk5Z
 NFRmIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiZGlhZ3
 JhbSIsImNyZWF0ZWQiOjE2ODY2NDA5MjkxODV9fSwiaGlzdG9y
-eSI6Wzc2NDY3MTE1OCwyMDgzOTkzOTg2LC0xNzU0ODUxNzMsMT
-MzMjM3NDk0OCwtMTcwNTI1ODkyNywtMTU0MzUwNTAxNV19
+eSI6Wy05MDUzMTA4MzgsMjA4Mzk5Mzk4NiwtMTc1NDg1MTczLD
+EzMzIzNzQ5NDgsLTE3MDUyNTg5MjcsLTE1NDM1MDUwMTVdfQ==
+
 -->
