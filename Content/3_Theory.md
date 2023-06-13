@@ -25,7 +25,7 @@ Furthermore, GIS allows for the monitoring and evaluation of policies and interv
 ## Dataset
 The exercise accompanying this theory section consists of a GIS socio-spatial differentiation analysis. We will be using the Statistics Finland's Grid Database, which as the name suggests consists of a grid of cells, each of which describes various statistics of the area it covers. In this exercise specifically we will be looking at a 250x250m scale at the spatial distribution of level of education and income in Helsinki. 
 
-We learned previously that raster data consists of a continuous surface divided into a grid of cells, where each cell corresponds to a specific location and contains a value representing a particular attribute. This value is represented by the color of the cell, pictures 
+We learned previously that raster data consists of a continuous surface divided into a grid of cells, where each cell corresponds to a specific location and contains a value representing a particular attribute. This value is represented by the color of the cell, images are in a way rasters as well, specifically JPEG, PNG, and GIF images. Do you remember seeing in movies that they store data in pictures? 
 
 ## Data preparation
 - Data cleanup
@@ -52,6 +52,6 @@ RleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODY2MzY1
 NDY0MjJ9LCJmTENIZnMwVmR3eDFxRFVXIjp7ImRpc2N1c3Npb2
 5JZCI6IjVzUmd3NkROUGZiQkljZmkiLCJzdWIiOiJnaDo0MDMw
 NDc4OCIsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOj
-E2ODY2MzY3NzI1OTB9fSwiaGlzdG9yeSI6Wzc2MTQ2MzYzMCwx
-MzMyMzc0OTQ4LC0xNzA1MjU4OTI3LC0xNTQzNTA1MDE1XX0=
+E2ODY2MzY3NzI1OTB9fSwiaGlzdG9yeSI6Wy04NTk3MDEyOTcs
+MTMzMjM3NDk0OCwtMTcwNTI1ODkyNywtMTU0MzUwNTAxNV19
 -->
