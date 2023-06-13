@@ -21,7 +21,7 @@ Furthermore, GIS allows for the monitoring and evaluation of policies and interv
 
 - Example picture of GIS analysis
 
-The exercise accompanying this theory section consists of a GIS socio-spatial differentiation analysis. You will be using 
+The exercise accompanying this theory section consists of a GIS socio-spatial differentiation analysis. You will be using the Statistics Finland's Grid Database, which as the name suggests consists of a grid of cells, each of which describes various statistics of the area it covers. In this exercise s
 
 ## Dataset
 - Raster data refresher
@@ -51,7 +51,6 @@ RleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODY2MzY1
 NDY0MjJ9LCJmTENIZnMwVmR3eDFxRFVXIjp7ImRpc2N1c3Npb2
 5JZCI6IjVzUmd3NkROUGZiQkljZmkiLCJzdWIiOiJnaDo0MDMw
 NDc4OCIsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOj
-E2ODY2MzY3NzI1OTB9fSwiaGlzdG9yeSI6Wy0xNzYyMTQ0NDYx
-LDEzMzIzNzQ5NDgsLTE3MDUyNTg5MjcsLTE1NDM1MDUwMTVdfQ
-==
+E2ODY2MzY3NzI1OTB9fSwiaGlzdG9yeSI6WzQ3MzAzNjk2NSwx
+MzMyMzc0OTQ4LC0xNzA1MjU4OTI3LC0xNTQzNTA1MDE1XX0=
 -->
