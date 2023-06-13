@@ -34,9 +34,9 @@ We learned previously that raster data consists of a continuous surface divided 
 ## Data preparation
 A regular necessary step in GIS is to prepare data for our analysis, the same can be said for this analysis. As you will see in the data during the exercise, some of the values are -1, which can't be true when we're talking about the statistics of people within an area. -1 in this dataset stands for no data available, which can be for several reasons, but in this case is due to privacy measures. If an area covered by a cell has a very small population, it would be very easy to identify which statistics correspond to which individual. For this reason, grids that have less than 10 inhabitants have been specifically removed from the available dataset to prevent privacy violations. 
 
-But what happens if we do an analysis without excluding these -1 values? This depends on the analysis of course, but in this case the analysis would be flawed. 
+But what happens if we do an analysis without excluding these -1 values? This depends on the analysis of course, but in this case the analysis would be flawed. We will be looking at value ranges, and these would be incorrect if the starting value would be -1. Don't worry much about this for now however, it will make more sense after the exercise.  But ask yourself the question at the end of the exercise, what effect would it have had if I didn't exclude the -1 values
 
-Ask yourself the question at the end of the exercise, what effect would it have had if I didn't 
+There are other reasons why we m
 
 - Data cleanup
 	- Why?
@@ -82,6 +82,6 @@ NyZWF0ZWQiOjE2ODY2MzgyNjU2MDF9LCJGazFpRjk1bTcyYjBi
 YkNsIjp7ImRpc2N1c3Npb25JZCI6IkpMMDhaTzltZDFndnRtNT
 UiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJDaGVjayBp
 ZiBvcGVuIiwiY3JlYXRlZCI6MTY4NjYzODQzMzkyMX19LCJoaX
-N0b3J5IjpbOTk0MjcxNzk2LC0xNzU0ODUxNzMsMTMzMjM3NDk0
-OCwtMTcwNTI1ODkyNywtMTU0MzUwNTAxNV19
+N0b3J5IjpbLTM3NzU3MjAzNSwtMTc1NDg1MTczLDEzMzIzNzQ5
+NDgsLTE3MDUyNTg5MjcsLTE1NDM1MDUwMTVdfQ==
 -->
