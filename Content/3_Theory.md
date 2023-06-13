@@ -99,7 +99,9 @@ The choice of classification method depends on the nature of the data, the resea
 Data classification is an essential step in data analysis, as it enables the visualization and exploration of data patterns, trends, and distributions. It supports the identification of spatial relationships, the comparison of different areas or groups, and the communication of information in a more accessible and meaningful manner.
 
 ## Expressions
-In the Crash Course exercise we used an expression to select regions of a certain size. 
+In GIS, expressions refer to a set of rules or formulas that are used to perform calculations, evaluations, or manipulations on geographic data. They allow users to create customized calculations, queries, or transformations based on specific criteria or conditions.
+
+In the Crash Course exercise we used an expression to select regions of a certain size. This was a relatively simple 
 
 - Case
 
@@ -150,6 +152,7 @@ LCJjcmVhdGVkIjoxNjg2NjM5MzMxNTc0fSwienRuUUJYd09EMl
 BXbnNpTCI6eyJkaXNjdXNzaW9uSWQiOiJvOWYyY3lYbXJkNk5Z
 NFRmIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiZGlhZ3
 JhbSIsImNyZWF0ZWQiOjE2ODY2NDA5MjkxODV9fSwiaGlzdG9y
-eSI6Wzk0MTE2MzI2MiwyMDgzOTkzOTg2LC0xNzU0ODUxNzMsMT
-MzMjM3NDk0OCwtMTcwNTI1ODkyNywtMTU0MzUwNTAxNV19
+eSI6Wy0xNTE1MjA1MTgyLDIwODM5OTM5ODYsLTE3NTQ4NTE3My
+wxMzMyMzc0OTQ4LC0xNzA1MjU4OTI3LC0xNTQzNTA1MDE1XX0=
+
 -->
