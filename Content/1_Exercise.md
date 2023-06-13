@@ -170,7 +170,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 	- Don't forget to change the symbology of your layers to your liking! 
 	
 
-
+# Time to get your hands dirty! Move on to the Crash Course exercise to get started with (Q)GIS. 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJXSDNXNms3aEs0Rk9LYWJqIjp7In
 N0YXJ0Ijo3NDAxLCJlbmQiOjc1ODUsInRleHQiOiIxMC4gWW91
@@ -213,6 +213,6 @@ E5NTY5OX0sImZZMmRVc212MjJWWnQwMHYiOnsiZGlzY3Vzc2lv
 bklkIjoiYTEyZEtHeWVZUDN0TGxYRCIsInN1YiI6ImdoOjQwMz
 A0Nzg4IiwidGV4dCI6IldyaXRlIHRoaXMgb3V0IGZ1cnRoZXIi
 LCJjcmVhdGVkIjoxNjg2NDc2MzYwOTc2fX0sImhpc3RvcnkiOl
-sxMzUyMzcwMjc1LDM1MTExOTEzNyw2OTAzMjkxNDgsMTI5MDk4
-Njg1MywtMTMxNDkzMjQ5Ml19
+sxMTkyNTE1NTU3LDEzNTIzNzAyNzUsMzUxMTE5MTM3LDY5MDMy
+OTE0OCwxMjkwOTg2ODUzLC0xMzE0OTMyNDkyXX0=
 -->
