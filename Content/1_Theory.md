@@ -60,6 +60,8 @@ In practice, georeferencing involves identifying a set of control points on the 
 
 In our case we can use the buildings that remained unchanged and are on the project plan for reference to georeference the project plan, which we can then use to digitize the new buildings. 
 
+# Time to get your hands dirty! Move on to the 2nd exercise to apply this new knowledge.
+
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJvSmFOSlZwYTFCeDRmd2tpIjp7In
 N0YXJ0IjoxMTkzLCJlbmQiOjEyNTMsInRleHQiOiJXZSBrZWVw
@@ -68,7 +70,7 @@ VzIGZvciB5b3VyIHVzZToifX0sImNvbW1lbnRzIjp7Imh3eUI5
 c1duS3FveThyRlciOnsiZGlzY3Vzc2lvbklkIjoib0phTkpWcG
 ExQng0ZndraSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
 IkFkZCBsaW5rIiwiY3JlYXRlZCI6MTY4NjMwMzgxMTk1NX19LC
-JoaXN0b3J5IjpbLTE4NTgxNzkyMjQsNjY1MDQ5OTkzLC00OTU0
-Njg0ODcsLTk1MjcwNjY4LC0zNjczMzQxMjQsLTM1NDY2MDY2MS
-wxNzE2MjA3NTc1LDE2MzkzODgzNjZdfQ==
+JoaXN0b3J5IjpbMTg3Njg3NjQ3NCw2NjUwNDk5OTMsLTQ5NTQ2
+ODQ4NywtOTUyNzA2NjgsLTM2NzMzNDEyNCwtMzU0NjYwNjYxLD
+E3MTYyMDc1NzUsMTYzOTM4ODM2Nl19
 -->
