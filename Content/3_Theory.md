@@ -19,7 +19,9 @@ With GIS, it is possible to conduct spatial analyses and modeling to assess the 
 
 Furthermore, GIS allows for the monitoring and evaluation of policies and interventions aimed at reducing socio-spatial differentiation. By analyzing spatial data over time, planners can assess the effectiveness of urban development strategies and determine whether they contribute to more equitable spatial patterns and improved social outcomes.
 
-- Example picture of 
+- Example picture of GIS analysis
+
+The exercise accompanying this theory section consists of a GIS socio-spatial differentiation analysis. You will be using 
 
 ## Dataset
 - Raster data refresher
@@ -40,10 +42,16 @@ Furthermore, GIS allows for the monitoring and evaluation of policies and interv
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJUSm5Lc3l5V01vRlFneHl0Ijp7In
 N0YXJ0IjoxNTA0LCJlbmQiOjE1MTksInRleHQiOiJFeGFtcGxl
-IHBpY3R1cmUifX0sImNvbW1lbnRzIjp7ImZVTlVwUUNhazNGQ2
-s1WjciOnsiZGlzY3Vzc2lvbklkIjoiVEpuS3N5eVdNb0ZRZ3h5
-dCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaW
-N0dXJlIiwiY3JlYXRlZCI6MTY4NjYzNjU0NjQyMn19LCJoaXN0
-b3J5IjpbNjQ4MjM2ODY1LDEzMzIzNzQ5NDgsLTE3MDUyNTg5Mj
-csLTE1NDM1MDUwMTVdfQ==
+IHBpY3R1cmUifSwiNXNSZ3c2RE5QZmJCSWNmaSI6eyJzdGFydC
+I6MzI5NCwiZW5kIjozMzI3LCJ0ZXh0IjoiLSBFeGFtcGxlIHBp
+Y3R1cmUgb2YgR0lTIGFuYWx5c2lzIn19LCJjb21tZW50cyI6ey
+JmVU5VcFFDYWszRkNrNVo3Ijp7ImRpc2N1c3Npb25JZCI6IlRK
+bktzeXlXTW9GUWd4eXQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsIn
+RleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODY2MzY1
+NDY0MjJ9LCJmTENIZnMwVmR3eDFxRFVXIjp7ImRpc2N1c3Npb2
+5JZCI6IjVzUmd3NkROUGZiQkljZmkiLCJzdWIiOiJnaDo0MDMw
+NDc4OCIsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOj
+E2ODY2MzY3NzI1OTB9fSwiaGlzdG9yeSI6Wy0xNzYyMTQ0NDYx
+LDEzMzIzNzQ5NDgsLTE3MDUyNTg5MjcsLTE1NDM1MDUwMTVdfQ
+==
 -->
