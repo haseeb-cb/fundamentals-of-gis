@@ -83,19 +83,6 @@ There are several methods of data classification, including:
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Theory/3_Theory_data_classification.drawio.png)
 
-1.  **Equal Count (Quantile)**: Divides the data into equal-sized groups, ensuring an equal number of data points in each group. Useful for reducing the impact of outliers.
-
-2.  **Equal Interval**: Divides the data range into equal intervals. Suitable for data with a uniform distribution.
-
-3. **Logarithmic Scale**: Utilizes a logarithmic transformation of data values to create classes. This method is often used when the data spans a wide range of values, and a logarithmic scale helps to represent the data more evenly and reveal patterns in both small and large values.
-
-4.  **Natural Breaks (Jenks)**: Identifies natural groupings in the data by minimizing the differences within groups and maximizing the differences between groups. Often produces visually distinct and meaningful classes.
-
-5. **Pretty Breaks**: Pretty breaks is a classification method that aims to create visually appealing and easily interpretable class intervals. It selects intervals based on "nice" or "pretty" numbers, such as multiples of 1, 2, or 5. This approach enhances the readability of maps and charts by using intervals that are more intuitive to the human eye.
-
-6.  **Standard Deviation**: Uses the mean and standard deviation to classify data into classes based on a specified number of standard deviations above and below the mean.
-    
-
 The choice of classification method depends on the nature of the data, the research question or objective, and the desired visualization or analysis outcomes. The classification method can significantly influence the interpretation and understanding of the data, so it is important to select an appropriate method that best represents the underlying patterns or characteristics in the dataset.
 
 Data classification is an essential step in data analysis, as it enables the visualization and exploration of data patterns, trends, and distributions. It supports the identification of spatial relationships, the comparison of different areas or groups, and the communication of information in a more accessible and meaningful manner.
@@ -143,34 +130,27 @@ BzOi8vd3d3LnRpbGFzdG9rZXNrdXMuZmkvdHVwL3J1dXR1dGll
 dG9rYW7igKYifSwiY0pneGp2WklBMnI3WUJzbCI6eyJzdGFydC
 I6MzMyOSwiZW5kIjozMzg1LCJ0ZXh0IjoiLSBFeGFtcGxlcyBv
 ZiBHSVMgc29jaW8tc3BhdGlhbCBkaWZmZXJlbnRpYXRpb24gYW
-5hbHlzZXMifSwibzlmMmN5WG1yZDZOWTRUZiI6eyJzdGFydCI6
-MTI2ODIsImVuZCI6MTM0MzYsInRleHQiOiIxLiAgKipFcXVhbC
-BJbnRlcnZhbCoqOiBEaXZpZGVzIHRoZSBkYXRhIHJhbmdlIGlu
-dG8gZXF1YWwgaW50ZXJ2YWxzLiBTdWl0YWJsZSBm4oCmIn19LC
-Jjb21tZW50cyI6eyJmVU5VcFFDYWszRkNrNVo3Ijp7ImRpc2N1
-c3Npb25JZCI6IlRKbktzeXlXTW9GUWd4eXQiLCJzdWIiOiJnaD
-o0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0
-ZWQiOjE2ODY2MzY1NDY0MjJ9LCJmTENIZnMwVmR3eDFxRFVXIj
-p7ImRpc2N1c3Npb25JZCI6IjVzUmd3NkROUGZiQkljZmkiLCJz
-dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZS
-IsImNyZWF0ZWQiOjE2ODY2MzY3NzI1OTB9LCJPVmVDUG5PVVhk
-SXFNT1hnIjp7ImRpc2N1c3Npb25JZCI6IndZT2pWYlBHQVZuS2
-VldXEiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQg
-cGljdHVyZSIsImNyZWF0ZWQiOjE2ODY2MzgyNTc2ODh9LCJVOW
-t4eHlQUTE2UFE1Vnd3Ijp7ImRpc2N1c3Npb25JZCI6Inh1NUph
-OW14OFRWQ3FPS0kiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleH
-QiOiJDaGVjayBmb3IgYWNjdXJhY3kiLCJjcmVhdGVkIjoxNjg2
-NjM4MjY1NjAxfSwiRmsxaUY5NW03MmIwYmJDbCI6eyJkaXNjdX
-NzaW9uSWQiOiJKTDA4Wk85bWQxZ3Z0bTU1Iiwic3ViIjoiZ2g6
-NDAzMDQ3ODgiLCJ0ZXh0IjoiQ2hlY2sgaWYgb3BlbiIsImNyZW
-F0ZWQiOjE2ODY2Mzg0MzM5MjF9LCJaWk9CU0FKRFhobXZPaURF
-Ijp7ImRpc2N1c3Npb25JZCI6ImNKZ3hqdlpJQTJyN1lCc2wiLC
-JzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgbGlua3Mi
-LCJjcmVhdGVkIjoxNjg2NjM5MzMxNTc0fSwienRuUUJYd09EMl
-BXbnNpTCI6eyJkaXNjdXNzaW9uSWQiOiJvOWYyY3lYbXJkNk5Z
-NFRmIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiZGlhZ3
-JhbSIsImNyZWF0ZWQiOjE2ODY2NDA5MjkxODV9fSwiaGlzdG9y
-eSI6WzE5OTI0MDI5NTUsMTgxOTYxNzcwMCwyMDgzOTkzOTg2LC
-0xNzU0ODUxNzMsMTMzMjM3NDk0OCwtMTcwNTI1ODkyNywtMTU0
-MzUwNTAxNV19
+5hbHlzZXMifX0sImNvbW1lbnRzIjp7ImZVTlVwUUNhazNGQ2s1
+WjciOnsiZGlzY3Vzc2lvbklkIjoiVEpuS3N5eVdNb0ZRZ3h5dC
+IsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0
+dXJlIiwiY3JlYXRlZCI6MTY4NjYzNjU0NjQyMn0sImZMQ0hmcz
+BWZHd4MXFEVVciOnsiZGlzY3Vzc2lvbklkIjoiNXNSZ3c2RE5Q
+ZmJCSWNmaSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Ik
+FkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NjYzNjc3MjU5MH0s
+Ik9WZUNQbk9VWGRJcU1PWGciOnsiZGlzY3Vzc2lvbklkIjoid1
+lPalZiUEdBVm5LZWV1cSIsInN1YiI6ImdoOjQwMzA0Nzg4Iiwi
+dGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NjYzOD
+I1NzY4OH0sIlU5a3h4eVBRMTZQUTVWd3ciOnsiZGlzY3Vzc2lv
+bklkIjoieHU1SmE5bXg4VFZDcU9LSSIsInN1YiI6ImdoOjQwMz
+A0Nzg4IiwidGV4dCI6IkNoZWNrIGZvciBhY2N1cmFjeSIsImNy
+ZWF0ZWQiOjE2ODY2MzgyNjU2MDF9LCJGazFpRjk1bTcyYjBiYk
+NsIjp7ImRpc2N1c3Npb25JZCI6IkpMMDhaTzltZDFndnRtNTUi
+LCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJDaGVjayBpZi
+BvcGVuIiwiY3JlYXRlZCI6MTY4NjYzODQzMzkyMX0sIlpaT0JT
+QUpEWGhtdk9pREUiOnsiZGlzY3Vzc2lvbklkIjoiY0pneGp2Wk
+lBMnI3WUJzbCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
+IkFkZCBsaW5rcyIsImNyZWF0ZWQiOjE2ODY2MzkzMzE1NzR9fS
+wiaGlzdG9yeSI6WzE0NDQzODExMjUsMTgxOTYxNzcwMCwyMDgz
+OTkzOTg2LC0xNzU0ODUxNzMsMTMzMjM3NDk0OCwtMTcwNTI1OD
+kyNywtMTU0MzUwNTAxNV19
 -->
