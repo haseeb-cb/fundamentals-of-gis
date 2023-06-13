@@ -56,7 +56,7 @@ In the context of GIS (Geographic Information System), data classification is of
 
 There are several methods of data classification, including:
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Theory/3_Theory_data_classification.drawio.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Theory/3_Theory_data_classification_v2.drawio.png)
 
 The choice of classification method depends on the nature of the data, the research question or objective, and the desired visualization or analysis outcomes. The classification method can significantly influence the interpretation and understanding of the data, so it is important to select an appropriate method that best represents the underlying patterns or characteristics in the dataset.
 
@@ -125,8 +125,8 @@ BvcGVuIiwiY3JlYXRlZCI6MTY4NjYzODQzMzkyMX0sIlpaT0JT
 QUpEWGhtdk9pREUiOnsiZGlzY3Vzc2lvbklkIjoiY0pneGp2Wk
 lBMnI3WUJzbCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
 IkFkZCBsaW5rcyIsImNyZWF0ZWQiOjE2ODY2MzkzMzE1NzR9fS
-wiaGlzdG9yeSI6Wy0xNjMyOTUyNDE2LC0xMjM0NzMyMTI1LC0x
-MzUxNzE3NTE3LC01NzMyNDgxNDMsMTQ0NDM4MTEyNSwxODE5Nj
-E3NzAwLDIwODM5OTM5ODYsLTE3NTQ4NTE3MywxMzMyMzc0OTQ4
-LC0xNzA1MjU4OTI3LC0xNTQzNTA1MDE1XX0=
+wiaGlzdG9yeSI6Wzk2ODkzMTM1NSwtMTYzMjk1MjQxNiwtMTIz
+NDczMjEyNSwtMTM1MTcxNzUxNywtNTczMjQ4MTQzLDE0NDQzOD
+ExMjUsMTgxOTYxNzcwMCwyMDgzOTkzOTg2LC0xNzU0ODUxNzMs
+MTMzMjM3NDk0OCwtMTcwNTI1ODkyNywtMTU0MzUwNTAxNV19
 -->
