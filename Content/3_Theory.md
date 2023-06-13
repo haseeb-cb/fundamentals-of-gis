@@ -112,7 +112,12 @@ These are some common examples of how expressions are used in GIS:
     
 3.  Data Manipulation: Expressions can be used to manipulate and transform data. They can convert data types, concatenate strings, extract substrings, perform spatial transformations, or conduct spatial analyses.
 
-For this analysis, we will be cleaning up the data by selecting the entries we want using an expression, calculating proportions As well as reclassifying the data to quantiles using an expression. 
+For this exercise, we will be cleaning up the data by selecting the entries we want, calculating proportions, and reclassifying the data to quantiles using expressions. One of the expressions you will be using is as follows:
+
+![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_reclassification.png)
+
+What do you think is the purpose of this expression?
+
 - Case
 
 
@@ -162,7 +167,7 @@ LCJjcmVhdGVkIjoxNjg2NjM5MzMxNTc0fSwienRuUUJYd09EMl
 BXbnNpTCI6eyJkaXNjdXNzaW9uSWQiOiJvOWYyY3lYbXJkNk5Z
 NFRmIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiZGlhZ3
 JhbSIsImNyZWF0ZWQiOjE2ODY2NDA5MjkxODV9fSwiaGlzdG9y
-eSI6Wy01ODY3MTQ2NjYsMjA4Mzk5Mzk4NiwtMTc1NDg1MTczLD
-EzMzIzNzQ5NDgsLTE3MDUyNTg5MjcsLTE1NDM1MDUwMTVdfQ==
+eSI6Wy0xMDI1MDY3MTEwLDIwODM5OTM5ODYsLTE3NTQ4NTE3My
+wxMzMyMzc0OTQ4LC0xNzA1MjU4OTI3LC0xNTQzNTA1MDE1XX0=
 
 -->
