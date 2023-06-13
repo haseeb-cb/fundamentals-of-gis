@@ -42,19 +42,6 @@ But what happens if we do an analysis without excluding these -1 values? This de
 There are other reasons why we might need to prepare the data, such as: 
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Theory/3_Theory_data_preperation_reasons.drawio.png)
-
-1.  **Data Quality**: Data may have errors, inconsistencies, or missing values that can impact the reliability of analysis results. Data preparation involves identifying and correcting errors, resolving inconsistencies, and filling in missing values to enhance data quality and integrity.
-    
-2.  **Data Format and Compatibility**: GIS software typically has specific requirements regarding data formats, coordinate systems, and attribute tables. Data preparation involves converting data from different formats (such as CSV, Excel, or shapefiles) into a format compatible with GIS software. It also involves ensuring that spatial data aligns with the appropriate coordinate system to maintain spatial accuracy and enable meaningful analysis.
-    
-3.  **Data Integration**: GIS analysis often involves combining multiple datasets from different sources to gain a comprehensive understanding of a spatial phenomenon. Data preparation includes integrating different datasets, resolving inconsistencies in attribute fields, and establishing proper relationships between spatial and non-spatial data to facilitate effective analysis and interpretation.
-    
-4.  **Data Standardization**: Datasets collected from various sources may use different terminologies, classifications, or scales. Data preparation involves standardizing and harmonizing datasets to ensure consistency in attribute values, classifications, and spatial units. This standardization allows for meaningful comparisons and analysis across different spatial areas and time periods.
-    
-5.  **Data Aggregation or Disaggregation**: Depending on the scale of analysis or the research question at hand, it may be necessary to aggregate or disaggregate data to match the desired spatial resolution. Aggregating data involves combining smaller spatial units into larger ones, while disaggregating data involves splitting larger spatial units into smaller ones. Data preparation ensures that the data is appropriately aggregated or disaggregated for the specific analysis requirements.
-    
-6.  **Data Cleaning and Filtering**: Data preparation involves cleaning and filtering out irrelevant or redundant data to focus on the variables and geographic areas of interest. This process helps streamline the analysis and improve computational efficiency.
-
 ### How? 
 In our case we will be using expressions to select the data we want, the entries where our selected fields don't contain -1, and export them into a new file. There are other ways of data preparation, here are the typical processes involved in preparing data for GIS analysis: 
 
@@ -152,7 +139,8 @@ BvcGVuIiwiY3JlYXRlZCI6MTY4NjYzODQzMzkyMX0sIlpaT0JT
 QUpEWGhtdk9pREUiOnsiZGlzY3Vzc2lvbklkIjoiY0pneGp2Wk
 lBMnI3WUJzbCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
 IkFkZCBsaW5rcyIsImNyZWF0ZWQiOjE2ODY2MzkzMzE1NzR9fS
-wiaGlzdG9yeSI6Wy01NzMyNDgxNDMsMTQ0NDM4MTEyNSwxODE5
-NjE3NzAwLDIwODM5OTM5ODYsLTE3NTQ4NTE3MywxMzMyMzc0OT
-Q4LC0xNzA1MjU4OTI3LC0xNTQzNTA1MDE1XX0=
+wiaGlzdG9yeSI6WzE5NjI4NjQ0MDEsLTU3MzI0ODE0MywxNDQ0
+MzgxMTI1LDE4MTk2MTc3MDAsMjA4Mzk5Mzk4NiwtMTc1NDg1MT
+czLDEzMzIzNzQ5NDgsLTE3MDUyNTg5MjcsLTE1NDM1MDUwMTVd
+fQ==
 -->
