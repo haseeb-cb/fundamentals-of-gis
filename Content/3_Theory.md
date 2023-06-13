@@ -74,7 +74,7 @@ In our case we will be using expressions to select the data we want, the entries
     
 9.  **Data Validation**: Verify the quality and integrity of the prepared data through visual inspection, statistical analysis, or comparison with reference data. Ensure that the prepared data meets the intended objectives of the GIS analysis.
 
-### Data classification 
+## Data classification 
 Data classification refers to **the process of categorizing or grouping data based on common characteristics, attributes, or criteria**. It involves organizing data into distinct classes or categories to facilitate analysis, interpretation, and communication of information.
 
 In the context of GIS (Geographic Information System), data classification is often applied to spatial data, such as maps or remote sensing imagery. It helps to visually represent and differentiate features or phenomena on a map based on their attributes or values.
@@ -99,6 +99,8 @@ The choice of classification method depends on the nature of the data, the resea
 Data classification is an essential step in data analysis, as it enables the visualization and exploration of data patterns, trends, and distributions. It supports the identification of spatial relationships, the comparison of different areas or groups, and the communication of information in a more accessible and meaningful manner.
 
 ## Expressions
+An example of an expression you will be using during this analysis is as follows:
+
 - Case
 
 
@@ -122,7 +124,7 @@ dG9rYW7igKYifSwiY0pneGp2WklBMnI3WUJzbCI6eyJzdGFydC
 I6MzMyOSwiZW5kIjozMzg1LCJ0ZXh0IjoiLSBFeGFtcGxlcyBv
 ZiBHSVMgc29jaW8tc3BhdGlhbCBkaWZmZXJlbnRpYXRpb24gYW
 5hbHlzZXMifSwibzlmMmN5WG1yZDZOWTRUZiI6eyJzdGFydCI6
-MTI1NTIsImVuZCI6MTMzMDYsInRleHQiOiIxLiAgKipFcXVhbC
+MTI1NTEsImVuZCI6MTMzMDUsInRleHQiOiIxLiAgKipFcXVhbC
 BJbnRlcnZhbCoqOiBEaXZpZGVzIHRoZSBkYXRhIHJhbmdlIGlu
 dG8gZXF1YWwgaW50ZXJ2YWxzLiBTdWl0YWJsZSBm4oCmIn19LC
 Jjb21tZW50cyI6eyJmVU5VcFFDYWszRkNrNVo3Ijp7ImRpc2N1
@@ -148,7 +150,7 @@ LCJjcmVhdGVkIjoxNjg2NjM5MzMxNTc0fSwienRuUUJYd09EMl
 BXbnNpTCI6eyJkaXNjdXNzaW9uSWQiOiJvOWYyY3lYbXJkNk5Z
 NFRmIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiZGlhZ3
 JhbSIsImNyZWF0ZWQiOjE2ODY2NDA5MjkxODV9fSwiaGlzdG9y
-eSI6Wy05MDUzMTA4MzgsMjA4Mzk5Mzk4NiwtMTc1NDg1MTczLD
+eSI6WzE3MDYxMzQzMDMsMjA4Mzk5Mzk4NiwtMTc1NDg1MTczLD
 EzMzIzNzQ5NDgsLTE3MDUyNTg5MjcsLTE1NDM1MDUwMTVdfQ==
 
 -->
