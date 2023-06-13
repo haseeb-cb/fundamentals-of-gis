@@ -98,6 +98,7 @@ The choice of classification method depends on the nature of the data, the resea
 
 Data classification is an essential step in data analysis, as it enables the visualization and exploration of data patterns, trends, and distributions. It supports the identification of spatial relationships, the comparison of different areas or groups, and the communication of information in a more accessible and meaningful manner.
 
+
 ## Expressions
 
 In GIS, expressions refer to a set of rules or formulas that are used to perform calculations, evaluations, or manipulations on geographic data. They allow users to create customized calculations, queries, or transformations based on specific criteria or conditions.
@@ -118,8 +119,8 @@ For this exercise, we will be cleaning up the data by selecting the entries we w
 
 What do you think is the purpose of this expression?
 
-- Case
 
+# Time to get your hands dirty! Move on to the 3rd exercise to apply this new knowledge.
 
 
 <!--stackedit_data:
@@ -167,7 +168,7 @@ LCJjcmVhdGVkIjoxNjg2NjM5MzMxNTc0fSwienRuUUJYd09EMl
 BXbnNpTCI6eyJkaXNjdXNzaW9uSWQiOiJvOWYyY3lYbXJkNk5Z
 NFRmIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiZGlhZ3
 JhbSIsImNyZWF0ZWQiOjE2ODY2NDA5MjkxODV9fSwiaGlzdG9y
-eSI6Wy0xMDI1MDY3MTEwLDIwODM5OTM5ODYsLTE3NTQ4NTE3My
-wxMzMyMzc0OTQ4LC0xNzA1MjU4OTI3LC0xNTQzNTA1MDE1XX0=
+eSI6WzE4MTk2MTc3MDAsMjA4Mzk5Mzk4NiwtMTc1NDg1MTczLD
+EzMzIzNzQ5NDgsLTE3MDUyNTg5MjcsLTE1NDM1MDUwMTVdfQ==
 
 -->
