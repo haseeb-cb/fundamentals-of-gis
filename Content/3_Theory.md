@@ -47,7 +47,7 @@ There are other reasons why we might need to prepare the data, such as:
 
 In our case we will be using expressions to select the data we want, the entries where our selected fields don't contain -1, and export them into a new file. There are other ways of data preparation, here are the typical processes involved in preparing data for GIS analysis: 
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Theory/3_Theory_data_preperation_methods.drawio.png)
+
 
 ## Data classification 
 Data classification refers to **the process of categorizing or grouping data based on common characteristics, attributes, or criteria**. It involves organizing data into distinct classes or categories to facilitate analysis, interpretation, and communication of information.
@@ -125,8 +125,8 @@ BvcGVuIiwiY3JlYXRlZCI6MTY4NjYzODQzMzkyMX0sIlpaT0JT
 QUpEWGhtdk9pREUiOnsiZGlzY3Vzc2lvbklkIjoiY0pneGp2Wk
 lBMnI3WUJzbCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
 IkFkZCBsaW5rcyIsImNyZWF0ZWQiOjE2ODY2MzkzMzE1NzR9fS
-wiaGlzdG9yeSI6Wy0xNjMyOTUyNDE2LC0xMjM0NzMyMTI1LC0x
-MzUxNzE3NTE3LC01NzMyNDgxNDMsMTQ0NDM4MTEyNSwxODE5Nj
-E3NzAwLDIwODM5OTM5ODYsLTE3NTQ4NTE3MywxMzMyMzc0OTQ4
-LC0xNzA1MjU4OTI3LC0xNTQzNTA1MDE1XX0=
+wiaGlzdG9yeSI6Wy01MTcxMTI5NzMsLTEyMzQ3MzIxMjUsLTEz
+NTE3MTc1MTcsLTU3MzI0ODE0MywxNDQ0MzgxMTI1LDE4MTk2MT
+c3MDAsMjA4Mzk5Mzk4NiwtMTc1NDg1MTczLDEzMzIzNzQ5NDgs
+LTE3MDUyNTg5MjcsLTE1NDM1MDUwMTVdfQ==
 -->
