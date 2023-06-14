@@ -71,7 +71,14 @@ Some common CRS include:
 - GPS: WGS 84 (EPSG:4326)
 
 ![ETRS=TM35FIN](https://upload.wikimedia.org/wikipedia/fi/1/15/ETRSTM35FIN.png)
-(Hungry for more? Coordinate Reference Systems are described in more detail in the QGIS documentation: https://docs.qgis.org/3.4/en/docs/gentle_gis_introduction/coordinate_reference_systems.html)
+(Hungry for more? Coordinate Reference Systems are described in more detail in the QGIS documentation: https://docs.qgis.org/3.4/en/docs/gentle_gis_introduction/coordinate_reference_systems.html
+
+Or you can search for Youtube videos on this topic:
+- CRS in QGIS: https://www.youtube.com/watch?v=bVi7dCBu1hU
+- Why all world maps are wrong: https://www.youtube.com/watch?v=kIID5FDi2JQ
+- )
+ 
+
 
 ### GIS analysis types
 The most common GIS (Geographic Information System) analysis types can vary depending on the specific application and industry. However, some of the widely used and common GIS analysis types are:
@@ -118,15 +125,15 @@ N0YXJ0Ijo1MDU2LCJlbmQiOjUwOTAsInRleHQiOiItIFJlYWwg
 bGlmZSBleGFtcGxlIG9mIHZlY3RvciBkYXRhIn0sIk9CUjhLdX
 YxNHZDckFRTDQiOnsic3RhcnQiOjYxNzgsImVuZCI6NjIxMiwi
 dGV4dCI6Ii0gUmVhbCBsaWZlIGV4YW1wbGUgb2YgdmVjdG9yIG
-RhdGEifSwiYnlNdnhqbzBmSXlyWTROSiI6eyJzdGFydCI6ODcx
-MiwiZW5kIjo4NzM0LCJ0ZXh0IjoiIyMjIEdJUyBhbmFseXNpcy
+RhdGEifSwiYnlNdnhqbzBmSXlyWTROSiI6eyJzdGFydCI6ODkw
+NiwiZW5kIjo4OTI4LCJ0ZXh0IjoiIyMjIEdJUyBhbmFseXNpcy
 B0eXBlcyJ9LCJ6VDRWNUFGVjlnYVJTeENOIjp7InN0YXJ0Ijox
-MjM1MiwiZW5kIjoxMjM2MCwidGV4dCI6Imdvb2QgbWFwIn0sIj
-hLN1NGVFR1MTFUOUNBOVQiOnsic3RhcnQiOjEzMjgwLCJlbmQi
-OjEzMzc1LCJ0ZXh0IjoiIyBUaW1lIHRvIGdldCB5b3VyIGhhbm
+MjU0NiwiZW5kIjoxMjU1NCwidGV4dCI6Imdvb2QgbWFwIn0sIj
+hLN1NGVFR1MTFUOUNBOVQiOnsic3RhcnQiOjEzNDc0LCJlbmQi
+OjEzNTY5LCJ0ZXh0IjoiIyBUaW1lIHRvIGdldCB5b3VyIGhhbm
 RzIGRpcnR5ISBNb3ZlIG9uIHRvIHRoZSBDcmFzaCBDb3Vyc2Ug
 ZXhlcmNpc2UgdG8gZ2V0IHN0YeKApiJ9LCJrM0xsTExtSVZMb2
-NSZ25BIjp7InN0YXJ0IjoxMjMyNCwiZW5kIjoxMjM0NiwidGV4
+NSZ25BIjp7InN0YXJ0IjoxMjUxOCwiZW5kIjoxMjU0MCwidGV4
 dCI6IiMjIFdoYXQgaXMgYSBnb29kIG1hcD8ifSwiOG1UN3d1dD
 JnOVozNDFBTCI6eyJzdGFydCI6NzAyMiwiZW5kIjo3MDgwLCJ0
 ZXh0IjoiIyMjIENvb3JkaW5hdGUgUmVmZXJlbmNlIFN5c3RlbX
@@ -166,11 +173,11 @@ I6MTY4NjY1OTY4NTA5N30sInJVTEdVRUxLejkzeVozUnQiOnsi
 ZGlzY3Vzc2lvbklkIjoiQ1FBV29TeWtobXo3eGszTiIsInN1Yi
 I6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBhIHNlY3Rpb24g
 YWJvdXQgcmVwcm9qZWN0aW9uIiwiY3JlYXRlZCI6MTY4NjY1OT
-kwOTYzNX19LCJoaXN0b3J5IjpbNjAxMjQyODUsLTEwNDU0MjA2
-MTgsLTE5MDc0NjY1NjgsMTgwNDk3MDEyMCwxMTA3MDgzMzExLD
-EzMDI2NTk3ODcsNDY5NDgwMDE3LC01MTE3NjAyMzUsLTIwMTA1
-NzMwMjUsLTEzNzQ1NDAxMSwtMjU2MDA3Mjk3LDEzNDM1Mzc1Nz
-csLTEwMzU3MTg4MjUsNjA3Njc5OCwxNjc4ODQ3MTgwLDEwMTQ2
-NjcwODksMjA2NjI5Nzc5OSwtMTM2ODI5MzExMywtMTk3Nzc0Nj
-QzNSw5MDA4OTE4MTZdfQ==
+kwOTYzNX19LCJoaXN0b3J5IjpbLTI5OTQ1OTQyMSw2MDEyNDI4
+NSwtMTA0NTQyMDYxOCwtMTkwNzQ2NjU2OCwxODA0OTcwMTIwLD
+ExMDcwODMzMTEsMTMwMjY1OTc4Nyw0Njk0ODAwMTcsLTUxMTc2
+MDIzNSwtMjAxMDU3MzAyNSwtMTM3NDU0MDExLC0yNTYwMDcyOT
+csMTM0MzUzNzU3NywtMTAzNTcxODgyNSw2MDc2Nzk4LDE2Nzg4
+NDcxODAsMTAxNDY2NzA4OSwyMDY2Mjk3Nzk5LC0xMzY4MjkzMT
+EzLC0xOTc3NzQ2NDM1XX0=
 -->
