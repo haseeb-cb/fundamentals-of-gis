@@ -22,16 +22,21 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 
 ### Getting familiar with the data
 
-1. Save the downloaded GIS data from Moodle somewhere on your computer hardrive and extract it. The data includes
-- deathAddresses.csv, a file with the locations of households with cholera deaths and the number of deaths 
-- Study_Area.shp – A shapefile that describes our area of interest.
-- Snow-cholera-map-1_modified - this is a geo-referenced image of the map from John Snow’s original report on the cholera outbreak of 1854 Water_Pumps.geojson. This shows the location of water pumps. The file type – a geojson – is an-other standard for representing geographical features, commonly used to transmit data in web ap-plications. • Snow-cholera-map-1_modified.tif, a raster showing a map of the area in 1854.
+1. Save the downloaded GIS data from Moodle in a folder for this exercise and extract it. The data includes:
+	- deathAddresses.csv, a file with the locations of households with cholera deaths and the number of deaths 
+	- Study_Area.shp – A shapefile that describes our area of interest.
+	- Snow-cholera-map-1_modified - this is a georeferenced image of the map from John Snow’s original report on the cholera outbreak of 1854 
+	- Water_Pumps.geojson. This shows the location of water pumps. The file type – a geojson – is an-other standard for representing geographical features, commonly used to transmit data in web applications. 
+	- Snow-cholera-map-1_modified.tif, a raster showing a map of the area in 1854.
+
 3. Open QGIS on your computer and start a new project. Save it with a new name, for example ‘Tutorial 7’.
+
 4. Import the Study_Area.shp file, to add it to your map project. Change the symbology to make the study area hollow by right-clicking the layer, choosing Properties, and then changing the Symbology.
+
 5. Let’s bring in some Google Earth data into our map using XYZ tiles to give the map some more context (Figure 1).
-a) If you haven’t connected to Google Earth, right-click XYZ tiles and choose New Connection
-b) Give it a name (like Google Satellite), and enter the URL for the data: https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
-c) Press OK and then double-click the Google Satellite in the browser window. The layer will then show up in the layer panel and in your map.
+	- If you haven’t connected to Google Earth, right-click XYZ tiles and choose New Connection
+	- Give it a name (like Google Satellite), and enter the URL for the data: https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
+	- Press OK and then double-click the Google Satellite in the browser window. The layer will then show up in the layer panel and in your map.
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJ4MTV3V05CSzZKRHc3Vml2Ijp7In
 N0YXJ0IjoxOTk1LCJlbmQiOjIwMTQsInRleHQiOiIjIyBEQVRB
@@ -44,5 +49,5 @@ InN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBzZWN0aW
 WnY4R0RTZWkiOnsiZGlzY3Vzc2lvbklkIjoiNnVFdDE2RXdVc0
 1JMUZzRCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFk
 ZCBzZWN0aW9uIiwiY3JlYXRlZCI6MTY4NjcyNzM3ODc5Nn19LC
-JoaXN0b3J5IjpbMjA1MTE4MTU5LDEyNzkxMjU0OTldfQ==
+JoaXN0b3J5IjpbNjY5MjQ0Mjg3LDEyNzkxMjU0OTldfQ==
 -->
