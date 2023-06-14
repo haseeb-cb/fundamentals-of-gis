@@ -32,7 +32,7 @@ Rowan van der Kaaden
 
 **Launch QGIS** and the QGIS graphical user interface (GUI) opens (Figure 1).
 
-![QGIS layout](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_layout.png)
+![QGIS layout](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_layout.png)
  1. Toolbars
  2. Layers list / Browser panel
  3. Map canvas
@@ -44,7 +44,7 @@ Start by setting the **default language** in QGIS to English (if it isn’t alre
 
 The state of a working session in QGIS is called a **project**. Similarly, to a e.g., a workspace in ArcGIS, a project is considered the ensemble of layers, projections, table relations and other properties, such as symbols and styles, of a specific session. Remember to save your projects often to prevent work from being lost in case of a crash. Also note that project files do not contain geospatial data, they merely contain information on where the program will find it.
 
-![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_save_meme.jpg)
+![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_save_meme.jpg)
 
 *Here a few basic functions that are worth knowing before starting to play around with data and layers:*
 
@@ -52,7 +52,7 @@ The state of a working session in QGIS is called a **project**. Similarly, to a 
 
 ![](https://docs.qgis.org/3.28/en/_images/mActionFileNew.png) ![](https://docs.qgis.org/3.28/en/_images/mActionFileOpen.png) **Creating and opening a project in QGIS:** If you want to start a new project, you can click on the *New* icon ![](https://docs.qgis.org/3.28/en/_images/mActionFileNew.png) with a blank page, or alternatively go to *Project* \> *New* or use the keyboard shortcut *Ctrl + N* (or Command + N). To open an already existing project, click on the folder-like *Open* icon ![](https://docs.qgis.org/3.28/en/_images/mActionFileOpen.png) to pick up where you left off.
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_project_CRS.PNG) **Changing the coordinate system of a project in QGIS:** You can see the current coordinate system of the project in the status bar in the lower right corner. You can change the coordinate system by clicking on the sign and selecting a new coordinate system from the list in the project properties window that pops open. You can access the same window also by going to *Project* \> *Properties* \> *CRS*. The default coordinate system in QGIS is set automatically to EPSG:4326 (WGS 84). You can change the default if you wish by going to *Settings* \> *Options* \> *CRS*. The data used in this course will mostly be in EPSG 3067 (ETRS-TM35FIN), which is the standard for nationwide data in Finland.
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_project_CRS.PNG) **Changing the coordinate system of a project in QGIS:** You can see the current coordinate system of the project in the status bar in the lower right corner. You can change the coordinate system by clicking on the sign and selecting a new coordinate system from the list in the project properties window that pops open. You can access the same window also by going to *Project* \> *Properties* \> *CRS*. The default coordinate system in QGIS is set automatically to EPSG:4326 (WGS 84). You can change the default if you wish by going to *Settings* \> *Options* \> *CRS*. The data used in this course will mostly be in EPSG 3067 (ETRS-TM35FIN), which is the standard for nationwide data in Finland.
 
 (QGIS supports ‘**on the fly**’ (**OTF**) coordinate system transformation for both vector and raster layers. This means that the program will automatically draw the layers to match the coordinate system defined for the map canvas, if a transformation formula is available.)
 
@@ -269,22 +269,22 @@ The last phase of this practical will concentrate on creating a map output.
 eyJkaXNjdXNzaW9ucyI6eyJOOGNoUGR6ZEhMcXB3S0tOIjp7In
 RleHQiOiJUaGUgZGF0YSB1c2VkIGluIHRoaXMgY291cnNlIHdp
 bGwgbW9zdGx5IGJlIGluIEVQU0cgMzA2NyAoRVRSUy1UTTM1Rk
-lOKSwgd2hpY2jigKYiLCJzdGFydCI6NDM5OCwiZW5kIjo0NTI0
+lOKSwgd2hpY2jigKYiLCJzdGFydCI6NDQ2NywiZW5kIjo0NTkz
 fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJ0ZXh0IjoiVGhlc2UgZG
 F0YSBzZXRzIGFyZSBhbGwgZG93bmxvYWRlZCBmcm9tIFBhSVR1
 bGkgYW5kIEhlbHNpbmtpIFJlZ2lvbiBJbmZvc2hhcmUgZOKApi
-IsInN0YXJ0Ijo5MTA1LCJlbmQiOjk0MTJ9LCJ5bmg1Ym9RaU9N
+IsInN0YXJ0Ijo5MTc0LCJlbmQiOjk0ODF9LCJ5bmg1Ym9RaU9N
 VGlsWk1XIjp7InRleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dH
 BzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9yb3dhbjhr
 L2Z1bmRhbWVudGFscy1vZi1naXMv4oCmIiwic3RhcnQiOjkxLC
 JlbmQiOjIzMn0sIlliWVFtNmxqVTQyZnk2UDYiOnsidGV4dCI6
 IiFbXShodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb2
 0vcm93YW44ay9mdW5kYW1lbnRhbHMtb2YtZ2lzL21hc3Rlci9B
-c3NldHPigKYiLCJzdGFydCI6NzAwMSwiZW5kIjo3MTAyfSwiZF
+c3NldHPigKYiLCJzdGFydCI6NzA3MCwiZW5kIjo3MTcxfSwiZF
 p0YTIyT2FXampxaVB6TSI6eyJ0ZXh0IjoiKipBZGRpbmcgZGF0
 YSBpbiBRR0lTOioqIFRoZSAqKkRhdGEgU291cmNlIE1hbmFnZX
 IqKiBvZmZlcnMgYSBoYW5keSB3YXkgdG8gYWRk4oCmIiwic3Rh
-cnQiOjU3MTIsImVuZCI6NjAzOH19LCJjb21tZW50cyI6eyJLSE
+cnQiOjU3ODEsImVuZCI6NjEwN319LCJjb21tZW50cyI6eyJLSE
 NWcDNzNE1EQ3YyV2l0Ijp7ImRpc2N1c3Npb25JZCI6Ik44Y2hQ
 ZHpkSExxcHdLS04iLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleH
 QiOiJDb21lIGJhY2sgdG8gY2hlY2sgaWYgYWNjdXJhdGUiLCJj
@@ -307,5 +307,5 @@ siZGlzY3Vzc2lvbklkIjoiZFp0YTIyT2FXampxaVB6TSIsInN1
 YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBvdmVydmlldy
 BvZiB3aGVyZSB0byBmaW5kIGFsbCB0aGUgdG9vbHMgYW5kIHRv
 b2xiYXJzIiwiY3JlYXRlZCI6MTY4NjExNDE3NDc3MX19LCJoaX
-N0b3J5IjpbLTYzNTUzNjE3LC01MDQyMDEzMTJdfQ==
+N0b3J5IjpbLTY5NTY5MzY4MSwtNjM1NTM2MTddfQ==
 -->
