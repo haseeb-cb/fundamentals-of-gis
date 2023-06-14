@@ -40,7 +40,7 @@ It is good to be familiar with the area you will be working with in this exercis
 4. Take a moment to examine the data you added now, what is it about? What kind of attributes does the data have?
 	- Can you find the location of where the Nokia Arena is constructed? (hint: the coordinates are 328300 east, 6822050 north in the ETS89 / TM35FIN(E,N) coordinate system. Does the arena and new development exist in the tampere_buildings layer? What about in the Google satellite imagery?
 
-![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/Exercise1_figure1.png)
+![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/Exercise1_figure1.png)
 
 We have a vector layer with the buildings in central Tampere, and a vector layer showing the roads – both of which originally came from OpenStreetMap. This data is old – it shows the area before the development of the arena. In addition, we have a raster image file that shows the designs for the Arena, taken from a planning document. Unfortunately, this raster is not spatially referenced – there is no spatial information associated with each raster cell.
 
@@ -67,7 +67,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 	- Repeat this at least three more times in different locations, preferably well distributed across the map.
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/Exercise1_figure2.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/Exercise1_figure2.png)
 
 7. When you are finished adding reference points, you can now perform the georeferencing calculation for the image.
 
@@ -172,13 +172,13 @@ So, the tampere_buildings data is old and we need to update it – there are now
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJrZG44NXZQZ2xEVEdlVnV4Ijp7In
 N0YXJ0Ijo2NjAsImVuZCI6NjY5LCJ0ZXh0IjoiRGF0YSB1c2Vk
-In0sIk9IVzh1NFdqVmNaTzBmcDUiOnsic3RhcnQiOjgwOTcsIm
-VuZCI6ODE1NywidGV4dCI6IiFbXShodHRwczovL2RvY3MucWdp
+In0sIk9IVzh1NFdqVmNaTzBmcDUiOnsic3RhcnQiOjgwOTksIm
+VuZCI6ODE1OSwidGV4dCI6IiFbXShodHRwczovL2RvY3MucWdp
 cy5vcmcvMy4yOC9lbi9faW1hZ2VzL21BY3Rpb25TZWxlY3QucG
-5nKSJ9LCJWRlBxUTdrblBiNlpoaGRYIjp7InN0YXJ0Ijo4NjMw
-LCJlbmQiOjg2NTEsInRleHQiOiIqQWRkIFBvbHlnb24gRmVhdH
+5nKSJ9LCJWRlBxUTdrblBiNlpoaGRYIjp7InN0YXJ0Ijo4NjMy
+LCJlbmQiOjg2NTMsInRleHQiOiIqQWRkIFBvbHlnb24gRmVhdH
 VyZSoifSwiYTNFaWVsWGFrZGdjWDhOeSI6eyJzdGFydCI6MTEz
-NDcsImVuZCI6MTE1MzksInRleHQiOiItIFVzaW5nIHRoZSAqSW
+NDksImVuZCI6MTE1NDEsInRleHQiOiItIFVzaW5nIHRoZSAqSW
 RlbnRpZnkgZmVhdHVyZXMqIHRvb2wsIGNsaWNrIG9uIGEgbGlu
 ZSBmZWF0dXJlIGluIHRoZSB0YW1wZXJlX3Jv4oCmIn0sImExMm
 RLR3llWVAzdExsWEQiOnsic3RhcnQiOjY3NCwiZW5kIjo2ODQs
@@ -203,5 +203,6 @@ VzIiwiY3JlYXRlZCI6MTY4NjI4OTE5NTY5OX0sImZZMmRVc212
 MjJWWnQwMHYiOnsiZGlzY3Vzc2lvbklkIjoiYTEyZEtHeWVZUD
 N0TGxYRCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Ildy
 aXRlIHRoaXMgb3V0IGZ1cnRoZXIiLCJjcmVhdGVkIjoxNjg2ND
-c2MzYwOTc2fX0sImhpc3RvcnkiOlstODE2MjQyODAxXX0=
+c2MzYwOTc2fX0sImhpc3RvcnkiOlstOTExODg4MDg4LC04MTYy
+NDI4MDFdfQ==
 -->
