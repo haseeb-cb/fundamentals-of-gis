@@ -238,15 +238,15 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 ### 2.2 Creating a map output in QGIS
 The last phase of this practical will concentrate on creating a map output.
 
-![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCouse_exercise_layout.png)
+![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/1_CrashCouse_exercise_layout.png)
 
 1. In QGIS, the map layout is done in a separate window called a **Print layout**. Press on the *New Print layout* button ![](https://docs.qgis.org/3.28/en/_images/mActionNewLayout.png) in the *File toolbar* or go to *Project* > *New print layout*. Give a name for the composer in the opening window, and an empty map window should appear on the screen.
 
 2. The next step is to add the content to the screen. Press the *Add new map* button ![](https://docs.qgis.org/3.28/en/_images/mActionNewMap.png) in the left side panel and drag from the corners to match the paper orientation. Now, you should see the same view as in the working view. If you want, you can change the paper orientation in the right-side *Composition panel* under the section *Paper and quality*.
 
 	You can orientate in two ways in the composer: 
-- To move the window, select *Move item* ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_move_item.png) or press the keyboard shortcut **V** and drag as desired 
-- To move the content on the map, select *Move item content* ![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_move_item_content.png) or press the keyboard shortcut C and drag as desired 
+- To move the window, select *Move item* ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_move_item.png) or press the keyboard shortcut **V** and drag as desired 
+- To move the content on the map, select *Move item content* ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_move_item_content.png) or press the keyboard shortcut C and drag as desired 
 
 	NB! Remember, that **if you make changes in your working view, you need to press ***Refresh view*** ![](https://docs.qgis.org/3.28/en/_images/mActionRefresh.png) in order to see the changes in the print composer view!
 
@@ -255,7 +255,7 @@ The last phase of this practical will concentrate on creating a map output.
 	1. ![](https://docs.qgis.org/3.28/en/_images/mActionLabel.png) **Adding a label**: You can change the default text as well as the font and colors of the label from the Item properties window in the lower right corner.
 	2. ![](https://docs.qgis.org/3.28/en/_images/mActionScaleBar.png) **Adding a scale bar**: Click where you want to add it and customize it as desired. The size and the colors can be modified from the right-side Item properties panel.
 	3. ![](https://docs.qgis.org/3.28/en/_images/mActionAddLegend.png) **Adding a legend**: You probably have to modify the legend a bit so that it looks informative on the map. The modification can be done from the Item properties. For example, delete the unnecessary items from your legend by clicking the minus symbol (tick the Auto update box off first).
-	4. ![enter image description here](https://docs.qgis.org/3.28/en/_images/north_arrow.png) **Adding a North arrow or an image**: To do this, press Add North Arrow and click on the layout. If you want to modify the look of the arrow, go to Item properties and open the Search directories tab (see the picture on the right). Click on the desired arrow.
+	4. ![](https://docs.qgis.org/3.28/en/_images/north_arrow.png) **Adding a North arrow or an image**: To do this, press Add North Arrow and click on the layout. If you want to modify the look of the arrow, go to Item properties and open the Search directories tab (see the picture on the right). Click on the desired arrow.
 
 4. Once you are satisfied with your map, **save the project** and go to *Layout* > *Export as image* to **save your layout as an image file**. If you want to adjust the export resolution (default is 300 dpi, higher value = higher resolution image and larger file size), you can do that prior to exporting from the Layout panel. **Save your map under your course folder and submit the finished map on Moodle.**
 
@@ -318,6 +318,6 @@ bWVyIGF0IHRoZSBiZWdpbm5pbmcgdG8gc2F5IHRoYXQgdGhlIG
 luc3RydWN0aW9ucyBhcmUgZm9yIHdpbmRvd3MsIG1hYyB3aWxs
 IG1vc3RseSBiZSB0aGUgc2FtZSBidXQgbWF5IGxvb2sgYSBsaX
 R0bGUgZGlmZmVyZW50PyIsImNyZWF0ZWQiOjE2ODY3MjU1MjI0
-ODR9fSwiaGlzdG9yeSI6WzY0MTg3Mzk0MywtMTUzMzA3NjcwNV
-19
+ODR9fSwiaGlzdG9yeSI6Wy0xMzk0OTAwODI5LC0xNTMzMDc2Nz
+A1XX0=
 -->
