@@ -47,7 +47,21 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 		- That two of the fields in the file include spatial information relating to the x and y coordi-nates. Here, the coordinate reference system (CRS) is EPSG:4326 - WGS 84.
 	- If you press Add and Close, you should see that the addresses have been added to the QGIS map.
 
+- Figure 2
 
+6. We have now added the addresses where there were cholera deaths, but it is in a global coordinate system, and this can cause some problems in our analysis because it is in a different coordinate system that the other data that we are going to use. Let’s reproject it to the same as the study area bounding box -EPSG:32630 UTM.
+	- In the Processing Toolbox, search for Reproject and open the Reproject layer tool b) Choose deathAddresses.csv as the Input layer
+	- Set the Target CRS as the Project CRS: EPSG:32630 UTM – WGS 84 / UTM zone 30N d) Save it as a new layer, deaths_locations.shp in your file directory
+	- Press Run
+
+- Figure 3
+
+7. Let’s now change the symbology of the deaths_locations layer to identify addresses that had multiple deaths (Figure 3). 
+	- Remove the original deathsAddresses csv layer by right-clicking it and selecting Remove Layer b) Right-click the new reprojected deaths_locations layer, and choose Properties and go to the Sym-bology tab.
+	- Make the Symbol Graduated and the Value Num_Cases
+	- Change the Method to Size. Rather than changing the colour of the symbol based on the number of cases, this will change the size of the symbol. Make the Size from 10 to 30 Map Units
+	- Make the Classification Mode Natural Breaks with three classes and choose Classify
+	- Press Ok.
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJ4MTV3V05CSzZKRHc3Vml2Ijp7In
 N0YXJ0IjoxOTk1LCJlbmQiOjIwMTQsInRleHQiOiIjIyBEQVRB
@@ -56,20 +70,30 @@ RhcnQiOjIwMTYsImVuZCI6MjAyOSwidGV4dCI6IiMjIENPTVBM
 RVRJT04ifSwid1BiRHU5QUlWN2kyemt1dyI6eyJzdGFydCI6Mj
 QxNywiZW5kIjoyNDMwLCJ0ZXh0IjoiZ2VvcmVmZXJlbmNlZCJ9
 LCJvbnVZNmdaUHVLWnFPMnk2Ijp7InN0YXJ0IjozMTkwLCJlbm
-QiOjMyMDAsInRleHQiOiItIEZpZ3VyZSAxIn19LCJjb21tZW50
-cyI6eyJHbmRSM2h4aGRxdjluSHIxIjp7ImRpc2N1c3Npb25JZC
-I6IngxNXdXTkJLNkpEdzdWaXYiLCJzdWIiOiJnaDo0MDMwNDc4
-OCIsInRleHQiOiJBZGQgc2VjdGlvbiIsImNyZWF0ZWQiOjE2OD
-Y3MjczNzMzODB9LCJ0WXdHeGJ0R1p2OEdEU2VpIjp7ImRpc2N1
-c3Npb25JZCI6IjZ1RXQxNkV3VXNNSTFGc0QiLCJzdWIiOiJnaD
-o0MDMwNDc4OCIsInRleHQiOiJBZGQgc2VjdGlvbiIsImNyZWF0
-ZWQiOjE2ODY3MjczNzg3OTZ9LCJmQmprM2xXZk8xek9RbHB1Ij
-p7ImRpc2N1c3Npb25JZCI6IndQYkR1OUFJVjdpMnprdXciLCJz
-dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJMZXQgc3R1ZGVudH
-MgZG8gdGhpcz8iLCJjcmVhdGVkIjoxNjg2NzI3NTY3MTA4fSwi
-VXpadWxwSm95VHVlenBLQiI6eyJkaXNjdXNzaW9uSWQiOiJvbn
-VZNmdaUHVLWnFPMnk2Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0
-ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2NzI3Nz
-IwOTg5fX0sImhpc3RvcnkiOlsxNzU0MjkyNzQsNTQ5MTkyMDY2
-LDEyNzkxMjU0OTldfQ==
+QiOjMyMDAsInRleHQiOiItIEZpZ3VyZSAxIn0sInpURFRhd21H
+N2ZhdnZZS3oiOnsic3RhcnQiOjQ3NTAsImVuZCI6NDc2MCwidG
+V4dCI6Ii0gRmlndXJlIDIifSwiQXhISWQ3dXRERktIaGtyMCI6
+eyJzdGFydCI6NTM5MSwiZW5kIjo1NDAxLCJ0ZXh0IjoiLSBGaW
+d1cmUgMyJ9fSwiY29tbWVudHMiOnsiR25kUjNoeGhkcXY5bkhy
+MSI6eyJkaXNjdXNzaW9uSWQiOiJ4MTV3V05CSzZKRHc3Vml2Ii
+wic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rp
+b24iLCJjcmVhdGVkIjoxNjg2NzI3MzczMzgwfSwidFl3R3hidE
+dadjhHRFNlaSI6eyJkaXNjdXNzaW9uSWQiOiI2dUV0MTZFd1Vz
+TUkxRnNEIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQW
+RkIHNlY3Rpb24iLCJjcmVhdGVkIjoxNjg2NzI3Mzc4Nzk2fSwi
+ZkJqazNsV2ZPMXpPUWxwdSI6eyJkaXNjdXNzaW9uSWQiOiJ3UG
+JEdTlBSVY3aTJ6a3V3Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0
+ZXh0IjoiTGV0IHN0dWRlbnRzIGRvIHRoaXM/IiwiY3JlYXRlZC
+I6MTY4NjcyNzU2NzEwOH0sIlV6WnVscEpveVR1ZXpwS0IiOnsi
+ZGlzY3Vzc2lvbklkIjoib251WTZnWlB1S1pxTzJ5NiIsInN1Yi
+I6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwi
+Y3JlYXRlZCI6MTY4NjcyNzcyMDk4OX0sImdVZGM5ajhVeU1aSE
+lXUTkiOnsiZGlzY3Vzc2lvbklkIjoielREVGF3bUc3ZmF2dllL
+eiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaW
+N0dXJlIiwiY3JlYXRlZCI6MTY4NjcyODE1NzE4OX0sImFpR3N6
+ZkRtT01rT29EbjMiOnsiZGlzY3Vzc2lvbklkIjoiQXhISWQ3dX
+RERktIaGtyMCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
+IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NjcyODE2OTc0OH
+19LCJoaXN0b3J5IjpbLTc1ODc5Mzg4MCw1NDkxOTIwNjYsMTI3
+OTEyNTQ5OV19
 -->
