@@ -29,14 +29,13 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 	- Water_Pumps.geojson. This shows the location of water pumps. The file type – a geojson – is an-other standard for representing geographical features, commonly used to transmit data in web applications. 
 	- Snow-cholera-map-1_modified.tif, a raster showing a map of the area in 1854.
 
-3. Open QGIS on your computer and start a new project. Save it with a new name under the folder for this exercise.
+2. Open QGIS on your computer and start a new project. Save it with a new name under the folder for this exercise.
 
-4. Import the Study_Area.shp file, to add it to your map project. Change the symbology to make the study area hollow by right-clicking the layer, choosing Properties, and then changing the Symbology.
+3. Import the Study_Area.shp file, to add it to your map project. Change the symbology to make the study area hollow (no fill, only borders)
 
-5. Let’s bring in some Google Earth data into our map using XYZ tiles to give the map some more context (Figure 1).
-	- If you haven’t connected to Google Earth, right-click XYZ tiles and choose New Connection
-	- Give it a name (like Google Satellite), and enter the URL for the data: https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
-	- Press OK and then double-click the Google Satellite in the browser window. The layer will then show up in the layer panel and in your map.
+4. Let’s bring in some Google Earth data into our map using XYZ tiles to give the map some more context (Hint: Exercise 2 step 3)
+
+- Figure 1
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJ4MTV3V05CSzZKRHc3Vml2Ijp7In
 N0YXJ0IjoxOTk1LCJlbmQiOjIwMTQsInRleHQiOiIjIyBEQVRB
@@ -44,16 +43,21 @@ IFVTRUQvTkVFREVEIn0sIjZ1RXQxNkV3VXNNSTFGc0QiOnsic3
 RhcnQiOjIwMTYsImVuZCI6MjAyOSwidGV4dCI6IiMjIENPTVBM
 RVRJT04ifSwid1BiRHU5QUlWN2kyemt1dyI6eyJzdGFydCI6Mj
 QxNywiZW5kIjoyNDMwLCJ0ZXh0IjoiZ2VvcmVmZXJlbmNlZCJ9
-fSwiY29tbWVudHMiOnsiR25kUjNoeGhkcXY5bkhyMSI6eyJkaX
-NjdXNzaW9uSWQiOiJ4MTV3V05CSzZKRHc3Vml2Iiwic3ViIjoi
-Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rpb24iLCJjcm
-VhdGVkIjoxNjg2NzI3MzczMzgwfSwidFl3R3hidEdadjhHRFNl
-aSI6eyJkaXNjdXNzaW9uSWQiOiI2dUV0MTZFd1VzTUkxRnNEIi
-wic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rp
-b24iLCJjcmVhdGVkIjoxNjg2NzI3Mzc4Nzk2fSwiZkJqazNsV2
-ZPMXpPUWxwdSI6eyJkaXNjdXNzaW9uSWQiOiJ3UGJEdTlBSVY3
-aTJ6a3V3Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiTG
-V0IHN0dWRlbnRzIGRvIHRoaXM/IiwiY3JlYXRlZCI6MTY4Njcy
-NzU2NzEwOH19LCJoaXN0b3J5IjpbLTIwNjE5MjA1NTksMTI3OT
-EyNTQ5OV19
+LCJvbnVZNmdaUHVLWnFPMnk2Ijp7InN0YXJ0IjozMTkwLCJlbm
+QiOjMyMDAsInRleHQiOiItIEZpZ3VyZSAxIn19LCJjb21tZW50
+cyI6eyJHbmRSM2h4aGRxdjluSHIxIjp7ImRpc2N1c3Npb25JZC
+I6IngxNXdXTkJLNkpEdzdWaXYiLCJzdWIiOiJnaDo0MDMwNDc4
+OCIsInRleHQiOiJBZGQgc2VjdGlvbiIsImNyZWF0ZWQiOjE2OD
+Y3MjczNzMzODB9LCJ0WXdHeGJ0R1p2OEdEU2VpIjp7ImRpc2N1
+c3Npb25JZCI6IjZ1RXQxNkV3VXNNSTFGc0QiLCJzdWIiOiJnaD
+o0MDMwNDc4OCIsInRleHQiOiJBZGQgc2VjdGlvbiIsImNyZWF0
+ZWQiOjE2ODY3MjczNzg3OTZ9LCJmQmprM2xXZk8xek9RbHB1Ij
+p7ImRpc2N1c3Npb25JZCI6IndQYkR1OUFJVjdpMnprdXciLCJz
+dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJMZXQgc3R1ZGVudH
+MgZG8gdGhpcz8iLCJjcmVhdGVkIjoxNjg2NzI3NTY3MTA4fSwi
+VXpadWxwSm95VHVlenBLQiI6eyJkaXNjdXNzaW9uSWQiOiJvbn
+VZNmdaUHVLWnFPMnk2Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0
+ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2NzI3Nz
+IwOTg5fX0sImhpc3RvcnkiOls1NDkxOTIwNjYsMTI3OTEyNTQ5
+OV19
 -->
