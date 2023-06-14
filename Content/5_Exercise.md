@@ -79,14 +79,28 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 ### Finding the source of the outbreak
 
 9. Now, let’s start trying to identify where the outbreak has come from. First, let’s bring in data on the location of the water pumps. 
+	
 	- Import the file Water_Pumps.geojson
 	- Right-click the layer and look at the Attribute Table. What attributes are associated with each water pump?
 
 10. Now, we want to find out which water pumps is closest to the addresses where there have been deaths rec-orded. Thiessen polygons are a method used to divide a space into regions based on their proximity to fea-tures. That is, within a Thiessen polygon, all the deaths are closer to the point (in this case a pump) that was used to generate that polygon, than to any other point (or pump) in the feature set. Let’s create a set of Thiessen polygons based upon the locations of the Water Pumps in our project (Figure 6).
+	
 	- In the Processing Toolbox Window, search for Voronoi
 	- Double–click the Voronoi polygons tool c) On the Voronoi tool select Water_Pumps as the Input layer
 	- Set the Buffer region to 50%
 	- Press Run
+
+- Figure 6
+
+11. Now that you have created the Voronoi polygon layer, we can see how many deaths lay within these poly-gons – i.e. the count of deaths within the vicinity of each pump. There are various ways to do this. We could use a spatial join to “allocate” each of the deaths to one of the Voronoi polygons, much like we used spatial joins previously, and then sum the number of deaths. So now, though, let’s look at the map visually. Which polygon do you think has the most deaths? Use the information tool to click on the polygon and find out the name of the pump, and make a note of it.
+
+12. Another possible way to identify the location of the outbreak could be to find the spatial mean of the deaths – or the average x- and y-coordinate of all the features in the study area. It’s useful for tracking changes in the distribution or for comparing the distributions of different types of features. Here, we will use the Mean Center to highlight the distribution of deaths (Figure 7).
+	
+	- Go to Vector > Analysis Tools > Mean coordinate(s) 
+	- Select deaths_locations as the Input vector layer.
+	- Set the Weight field as Num_Cases. By setting the weight to be the number of cases, we are accounting for the fact that some addresses had multiple deaths when we calculated the average coor-dinates. 
+	- Click Browse to save the Output Shapefile as: Deaths_Spatial_Mean to the your project folder.
+	- Click OK to calculate the Mean Center and Close. What water pump is the spatial mean closest to?
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJ4MTV3V05CSzZKRHc3Vml2Ijp7In
 N0YXJ0IjoxOTk1LCJlbmQiOjIwMTQsInRleHQiOiIjIyBEQVRB
@@ -102,33 +116,38 @@ eyJzdGFydCI6NTM5NSwiZW5kIjo1NDA1LCJ0ZXh0IjoiLSBGaW
 d1cmUgMyJ9LCJLTlplRHVqbEZZdnR3MDNLIjp7InN0YXJ0Ijo2
 MDc5LCJlbmQiOjYwODksInRleHQiOiItIEZpZ3VyZSA0In0sIn
 pBTk5vdExwRnpQUTlGOTIiOnsic3RhcnQiOjY3MzQsImVuZCI6
-Njc0NCwidGV4dCI6Ii0gRmlndXJlIDUifX0sImNvbW1lbnRzIj
-p7IkduZFIzaHhoZHF2OW5IcjEiOnsiZGlzY3Vzc2lvbklkIjoi
-eDE1d1dOQks2SkR3N1ZpdiIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
-widGV4dCI6IkFkZCBzZWN0aW9uIiwiY3JlYXRlZCI6MTY4Njcy
-NzM3MzM4MH0sInRZd0d4YnRHWnY4R0RTZWkiOnsiZGlzY3Vzc2
-lvbklkIjoiNnVFdDE2RXdVc01JMUZzRCIsInN1YiI6ImdoOjQw
-MzA0Nzg4IiwidGV4dCI6IkFkZCBzZWN0aW9uIiwiY3JlYXRlZC
-I6MTY4NjcyNzM3ODc5Nn0sImZCamszbFdmTzF6T1FscHUiOnsi
-ZGlzY3Vzc2lvbklkIjoid1BiRHU5QUlWN2kyemt1dyIsInN1Yi
-I6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkxldCBzdHVkZW50cyBk
-byB0aGlzPyIsImNyZWF0ZWQiOjE2ODY3Mjc1NjcxMDh9LCJVel
-p1bHBKb3lUdWV6cEtCIjp7ImRpc2N1c3Npb25JZCI6Im9udVk2
-Z1pQdUtacU8yeTYiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleH
-QiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODY3Mjc3MjA5
-ODl9LCJnVWRjOWo4VXlNWkhJV1E5Ijp7ImRpc2N1c3Npb25JZC
-I6InpURFRhd21HN2ZhdnZZS3oiLCJzdWIiOiJnaDo0MDMwNDc4
-OCIsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2OD
-Y3MjgxNTcxODl9LCJhaUdzemZEbU9Na09vRG4zIjp7ImRpc2N1
-c3Npb25JZCI6IkF4SElkN3V0REZLSGhrcjAiLCJzdWIiOiJnaD
-o0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0
-ZWQiOjE2ODY3MjgxNjk3NDh9LCJHcGxveHV0cEliZTFOeU5nIj
-p7ImRpc2N1c3Npb25JZCI6IktOWmVEdWpsRll2dHcwM0siLCJz
-dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZS
-IsImNyZWF0ZWQiOjE2ODY3MjgyMjg4Mjl9LCJhYWRjdVhlckJv
-UEx5UHFGIjp7ImRpc2N1c3Npb25JZCI6InpBTk5vdExwRnpQUT
-lGOTIiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQg
-cGljdHVyZSIsImNyZWF0ZWQiOjE2ODY3MjgzMDM5MDB9fSwiaG
-lzdG9yeSI6Wy0zMjIwNzQxMCw1NDkxOTIwNjYsMTI3OTEyNTQ5
-OV19
+Njc0NCwidGV4dCI6Ii0gRmlndXJlIDUifSwibXhEUG9hajJISn
+I5S0FUMiI6eyJzdGFydCI6NzgwNiwiZW5kIjo3ODE2LCJ0ZXh0
+IjoiLSBGaWd1cmUgNiJ9fSwiY29tbWVudHMiOnsiR25kUjNoeG
+hkcXY5bkhyMSI6eyJkaXNjdXNzaW9uSWQiOiJ4MTV3V05CSzZK
+RHc3Vml2Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQW
+RkIHNlY3Rpb24iLCJjcmVhdGVkIjoxNjg2NzI3MzczMzgwfSwi
+dFl3R3hidEdadjhHRFNlaSI6eyJkaXNjdXNzaW9uSWQiOiI2dU
+V0MTZFd1VzTUkxRnNEIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0
+ZXh0IjoiQWRkIHNlY3Rpb24iLCJjcmVhdGVkIjoxNjg2NzI3Mz
+c4Nzk2fSwiZkJqazNsV2ZPMXpPUWxwdSI6eyJkaXNjdXNzaW9u
+SWQiOiJ3UGJEdTlBSVY3aTJ6a3V3Iiwic3ViIjoiZ2g6NDAzMD
+Q3ODgiLCJ0ZXh0IjoiTGV0IHN0dWRlbnRzIGRvIHRoaXM/Iiwi
+Y3JlYXRlZCI6MTY4NjcyNzU2NzEwOH0sIlV6WnVscEpveVR1ZX
+pwS0IiOnsiZGlzY3Vzc2lvbklkIjoib251WTZnWlB1S1pxTzJ5
+NiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaW
+N0dXJlIiwiY3JlYXRlZCI6MTY4NjcyNzcyMDk4OX0sImdVZGM5
+ajhVeU1aSElXUTkiOnsiZGlzY3Vzc2lvbklkIjoielREVGF3bU
+c3ZmF2dllLeiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
+IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NjcyODE1NzE4OX
+0sImFpR3N6ZkRtT01rT29EbjMiOnsiZGlzY3Vzc2lvbklkIjoi
+QXhISWQ3dXRERktIaGtyMCIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
+widGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Njcy
+ODE2OTc0OH0sIkdwbG94dXRwSWJlMU55TmciOnsiZGlzY3Vzc2
+lvbklkIjoiS05aZUR1amxGWXZ0dzAzSyIsInN1YiI6ImdoOjQw
+MzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZC
+I6MTY4NjcyODIyODgyOX0sImFhZGN1WGVyQm9QTHlQcUYiOnsi
+ZGlzY3Vzc2lvbklkIjoiekFOTm90THBGelBROUY5MiIsInN1Yi
+I6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwi
+Y3JlYXRlZCI6MTY4NjcyODMwMzkwMH0sIkVKa1hqeDJOUjJMM1
+ZWbjUiOnsiZGlzY3Vzc2lvbklkIjoibXhEUG9hajJISnI5S0FU
+MiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaW
+N0dXJlIiwiY3JlYXRlZCI6MTY4NjcyODQ4MTkyNX19LCJoaXN0
+b3J5IjpbLTEzMDc0MDc3NzgsNTQ5MTkyMDY2LDEyNzkxMjU0OT
+ldfQ==
 -->
