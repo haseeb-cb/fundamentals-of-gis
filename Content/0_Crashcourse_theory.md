@@ -117,7 +117,9 @@ A **good map** has:
 
 Important to keep in mind is that: **maps are images that inherently selective and result from choices made by a cartographer**. There is no such thing as an "objective map". In reality, maps always emphasize some elements while ignoring others (or pushing them to the "background") and there's power involved. The fact that maps are images also means that a map is often accompanied by a caption that tells the reader what they are expected to see on the map. Making good captions is a skill in itself, as captions influence influence the way in which people interpret the maps (as well as the reality they are attempting to depict).  
 
-Another important thing to keep in mind is to make your maps accessible to all readers, including those who have some form of color blindness. This is relatively simple, since QGIS already has a tool build-in to simulate a few color blind examples
+Another important thing to keep in mind is to **make your maps accessible to all readers, including those who have some form of color blindness**. This is relatively simple, since QGIS already has a tool build-in to simulate a few color blind examples:
+
+
 
 # Time to get your hands dirty! Move on to the Crash Course exercise to get started with (Q)GIS  
 
@@ -132,8 +134,8 @@ RhdGEifSwiYnlNdnhqbzBmSXlyWTROSiI6eyJzdGFydCI6ODk4
 MiwiZW5kIjo5MDA0LCJ0ZXh0IjoiIyMjIEdJUyBhbmFseXNpcy
 B0eXBlcyJ9LCJ6VDRWNUFGVjlnYVJTeENOIjp7InN0YXJ0Ijox
 MjYyMiwiZW5kIjoxMjYzMCwidGV4dCI6Imdvb2QgbWFwIn0sIj
-hLN1NGVFR1MTFUOUNBOVQiOnsic3RhcnQiOjEzNzk5LCJlbmQi
-OjEzODk0LCJ0ZXh0IjoiIyBUaW1lIHRvIGdldCB5b3VyIGhhbm
+hLN1NGVFR1MTFUOUNBOVQiOnsic3RhcnQiOjEzODA2LCJlbmQi
+OjEzOTAxLCJ0ZXh0IjoiIyBUaW1lIHRvIGdldCB5b3VyIGhhbm
 RzIGRpcnR5ISBNb3ZlIG9uIHRvIHRoZSBDcmFzaCBDb3Vyc2Ug
 ZXhlcmNpc2UgdG8gZ2V0IHN0YeKApiJ9LCJrM0xsTExtSVZMb2
 NSZ25BIjp7InN0YXJ0IjoxMjU5NCwiZW5kIjoxMjYxNiwidGV4
@@ -162,7 +164,7 @@ MxMjk0NTN9LCJLVjdZQjI0NHZSQXZmeTg2Ijp7ImRpc2N1c3Np
 b25JZCI6ImszTGxMTG1JVkxvY1JnbkEiLCJzdWIiOiJnaDo0MD
 MwNDc4OCIsInRleHQiOiJDb2xvciBicmV3ZXIsIG1ha2UgYSBi
 YWQgbWFwLCBtYWtlIGEgZ29vZCBtYXAiLCJjcmVhdGVkIjoxNj
-g2NjU5NDY4NDUwfX0sImhpc3RvcnkiOlstMjExNjM3Mzg3Miw2
+g2NjU5NDY4NDUwfX0sImhpc3RvcnkiOlstMjEwNDIwMzY1Niw2
 MDEyNDI4NSwtMTA0NTQyMDYxOCwtMTkwNzQ2NjU2OCwxODA0OT
 cwMTIwLDExMDcwODMzMTEsMTMwMjY1OTc4Nyw0Njk0ODAwMTcs
 LTUxMTc2MDIzNSwtMjAxMDU3MzAyNSwtMTM3NDU0MDExLC0yNT
