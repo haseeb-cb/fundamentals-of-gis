@@ -1,4 +1,6 @@
-## Fundamentals of Geograp## Course introduction
+## Fundamentals of Geographic
+
+ Course introduction
 
 ### Learning outcomes
 After completing the course you should be able to:
@@ -53,10 +55,10 @@ If you ever have a question or run in to an issue along this course, please foll
 Following this process will help you **develop the independent troubleshooting skills** you will need when you use GIS on your own. 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJyVXo5SGtTRnVBOXByQzV2Ijp7In
-N0YXJ0IjoyMDI0LCJlbmQiOjIwMjUsInRleHQiOiJYIn0sInlW
-aHVwYkd2elBIaks2SGsiOnsic3RhcnQiOjM0MjEsImVuZCI6Mz
-QzMSwidGV4dCI6IkNoYXQgbGluazoifSwiYmE3cG0wTldjVEtq
-UTc0dyI6eyJzdGFydCI6MzUwNywiZW5kIjozNTE1LCJ0ZXh0Ij
+N0YXJ0IjoyMDI3LCJlbmQiOjIwMjgsInRleHQiOiJYIn0sInlW
+aHVwYkd2elBIaks2SGsiOnsic3RhcnQiOjM0MjQsImVuZCI6Mz
+QzNCwidGV4dCI6IkNoYXQgbGluazoifSwiYmE3cG0wTldjVEtq
+UTc0dyI6eyJzdGFydCI6MzUxMCwiZW5kIjozNTE4LCJ0ZXh0Ij
 oidGVhY2hlcnMifX0sImNvbW1lbnRzIjp7ImYxbXVqaGFlSnJu
 S2p4T0wiOnsiZGlzY3Vzc2lvbklkIjoiclV6OUhrU0Z1QTlwck
 M1diIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBu
@@ -67,5 +69,6 @@ oiQWRkIGxpbmsiLCJjcmVhdGVkIjoxNjg2NzIwMzMwNTg5fSwi
 Wm9zTmNLMnNaMFJjTXZsVSI6eyJkaXNjdXNzaW9uSWQiOiJiYT
 dwbTBOV2NUS2pRNzR3Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0
 ZXh0IjoiQWRkIG5hbWVzIiwiY3JlYXRlZCI6MTY4NjcyMDMzNT
-I5M319LCJoaXN0b3J5IjpbMTE4MzU3MjYyOF19
+I5M319LCJoaXN0b3J5IjpbMTU2NTgzMjA1MSwxMTgzNTcyNjI4
+XX0=
 -->
