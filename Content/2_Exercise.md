@@ -1,8 +1,6 @@
 ### Fundamentals of Geographic Information Systems (GIS)
 
-# Exercise 1: Georeferencing & digitizing
-
-
+# Exercise 2: Georeferencing & digitizing
 
 ## Overview & purpose
 Urban areas undergo continuous development, and maps need to be updated regularly to account for new construction, demolition, and land use changes for example. In this tutorial, the objective is to **edit a GIS layer to show urban development**. In this case, we will be looking at the development of the Nokia Arena in the city centre of Tampere, Finland. 
@@ -173,17 +171,17 @@ So, the tampere_buildings data is old and we need to update it – there are now
 # Time to get your hands dirty! Move on to the Crash Course exercise to get started with (Q)GIS. 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJrZG44NXZQZ2xEVEdlVnV4Ijp7In
-N0YXJ0Ijo2NjIsImVuZCI6NjcxLCJ0ZXh0IjoiRGF0YSB1c2Vk
-In0sIk9IVzh1NFdqVmNaTzBmcDUiOnsic3RhcnQiOjgwOTksIm
-VuZCI6ODE1OSwidGV4dCI6IiFbXShodHRwczovL2RvY3MucWdp
+N0YXJ0Ijo2NjAsImVuZCI6NjY5LCJ0ZXh0IjoiRGF0YSB1c2Vk
+In0sIk9IVzh1NFdqVmNaTzBmcDUiOnsic3RhcnQiOjgwOTcsIm
+VuZCI6ODE1NywidGV4dCI6IiFbXShodHRwczovL2RvY3MucWdp
 cy5vcmcvMy4yOC9lbi9faW1hZ2VzL21BY3Rpb25TZWxlY3QucG
-5nKSJ9LCJWRlBxUTdrblBiNlpoaGRYIjp7InN0YXJ0Ijo4NjMy
-LCJlbmQiOjg2NTMsInRleHQiOiIqQWRkIFBvbHlnb24gRmVhdH
+5nKSJ9LCJWRlBxUTdrblBiNlpoaGRYIjp7InN0YXJ0Ijo4NjMw
+LCJlbmQiOjg2NTEsInRleHQiOiIqQWRkIFBvbHlnb24gRmVhdH
 VyZSoifSwiYTNFaWVsWGFrZGdjWDhOeSI6eyJzdGFydCI6MTEz
-NDksImVuZCI6MTE1NDEsInRleHQiOiItIFVzaW5nIHRoZSAqSW
+NDcsImVuZCI6MTE1MzksInRleHQiOiItIFVzaW5nIHRoZSAqSW
 RlbnRpZnkgZmVhdHVyZXMqIHRvb2wsIGNsaWNrIG9uIGEgbGlu
 ZSBmZWF0dXJlIGluIHRoZSB0YW1wZXJlX3Jv4oCmIn0sImExMm
-RLR3llWVAzdExsWEQiOnsic3RhcnQiOjY3NiwiZW5kIjo2ODYs
+RLR3llWVAzdExsWEQiOnsic3RhcnQiOjY3NCwiZW5kIjo2ODQs
 InRleHQiOiJDb21wbGV0aW9uIn19LCJjb21tZW50cyI6eyJZeV
 JSZWg5TlJUSmRpbzFEIjp7ImRpc2N1c3Npb25JZCI6Imtkbjg1
 dlBnbERUR2VWdXgiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleH
@@ -205,7 +203,5 @@ VzIiwiY3JlYXRlZCI6MTY4NjI4OTE5NTY5OX0sImZZMmRVc212
 MjJWWnQwMHYiOnsiZGlzY3Vzc2lvbklkIjoiYTEyZEtHeWVZUD
 N0TGxYRCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Ildy
 aXRlIHRoaXMgb3V0IGZ1cnRoZXIiLCJjcmVhdGVkIjoxNjg2ND
-c2MzYwOTc2fX0sImhpc3RvcnkiOlstMTEyNjcxNTg1NiwxMTky
-NTE1NTU3LDEzNTIzNzAyNzUsMzUxMTE5MTM3LDY5MDMyOTE0OC
-wxMjkwOTg2ODUzLC0xMzE0OTMyNDkyXX0=
+c2MzYwOTc2fX0sImhpc3RvcnkiOlstODE2MjQyODAxXX0=
 -->

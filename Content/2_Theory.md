@@ -1,6 +1,6 @@
 ### Fundamentals of Geographic Information Systems (GIS)
 
-# Theory 1: Georeferencing & digitizing
+# Theory 2: Georeferencing & digitizing
 
 ## Spatial data sources
 
@@ -70,8 +70,5 @@ VzIGZvciB5b3VyIHVzZToifX0sImNvbW1lbnRzIjp7Imh3eUI5
 c1duS3FveThyRlciOnsiZGlzY3Vzc2lvbklkIjoib0phTkpWcG
 ExQng0ZndraSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
 IkFkZCBsaW5rIiwiY3JlYXRlZCI6MTY4NjMwMzgxMTk1NX19LC
-JoaXN0b3J5IjpbLTIxMDU3MDkwMyw2NTkzNzg5NzMsMTg3Njg3
-NjQ3NCw2NjUwNDk5OTMsLTQ5NTQ2ODQ4NywtOTUyNzA2NjgsLT
-M2NzMzNDEyNCwtMzU0NjYwNjYxLDE3MTYyMDc1NzUsMTYzOTM4
-ODM2Nl19
+JoaXN0b3J5IjpbLTMyOTE5NTYwNl19
 -->
