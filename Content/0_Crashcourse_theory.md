@@ -58,6 +58,8 @@ In GIS, both vector and raster data have their respective strengths and applicat
 How and where to find spatial data is discussed in detail here: 
 
 ### Coordinate Reference Systems (CRS) and map projections
+The basic idea of projection is to project the shape of the earth, or the specific area of the CRS, onto a flat plane like a map. In other words, CRS are frameworks that define how geographic locations are represented and referenced in a coordinate system. There are different CRS which use different Earth shape models as a reference and projection methods. The specific CRS used is often depending on the region where the data is located. When we are working with different kind of data, it is common that we have layers that are in different CRS. **Thus, it is important to check that the layers and the project are in the same CRS!**
+
 The basic idea of a CRS is to project the shape of the earth, or the specific area of the CRS, onto a flat plane like a map. In other words, CRS are frameworks that define how geographic locations are represented and referenced in a coordinate system. There are different CRS which use different Earth shape models as a reference and projection methods. The specific CRS used is often depending on the region where the data is located. When we are working with different kind of data, it is common that we have layers that are in different CRS. **Thus, it is important to check that the layers and the project are in the same CRS!**
 
 ![Map Projection Families](https://docs.qgis.org/3.4/en/_images/projection_families.png)
@@ -118,20 +120,20 @@ RhdGEifSwiNXNPNmN3NHRhUmt5MEl2NyI6eyJzdGFydCI6Njk1
 NiwiZW5kIjo3MDE5LCJ0ZXh0IjoiSG93IGFuZCB3aGVyZSB0by
 BmaW5kIHNwYXRpYWwgZGF0YSBpcyBkaXNjdXNzZWQgaW4gZGV0
 YWlsIGhlcmU6In0sImJ5TXZ4am8wZkl5clk0TkoiOnsic3Rhcn
-QiOjgxOTksImVuZCI6ODIyMSwidGV4dCI6IiMjIyBHSVMgYW5h
+QiOjg4MzgsImVuZCI6ODg2MCwidGV4dCI6IiMjIyBHSVMgYW5h
 bHlzaXMgdHlwZXMifSwielQ0VjVBRlY5Z2FSU3hDTiI6eyJzdG
-FydCI6MTE4MzksImVuZCI6MTE4NDcsInRleHQiOiJnb29kIG1h
-cCJ9LCI4SzdTRlRUdTExVDlDQTlUIjp7InN0YXJ0IjoxMjc2Ny
-wiZW5kIjoxMjg2MiwidGV4dCI6IiMgVGltZSB0byBnZXQgeW91
+FydCI6MTI0NzgsImVuZCI6MTI0ODYsInRleHQiOiJnb29kIG1h
+cCJ9LCI4SzdTRlRUdTExVDlDQTlUIjp7InN0YXJ0IjoxMzQwNi
+wiZW5kIjoxMzUwMSwidGV4dCI6IiMgVGltZSB0byBnZXQgeW91
 ciBoYW5kcyBkaXJ0eSEgTW92ZSBvbiB0byB0aGUgQ3Jhc2ggQ2
 91cnNlIGV4ZXJjaXNlIHRvIGdldCBzdGHigKYifSwiazNMbExM
-bUlWTG9jUmduQSI6eyJzdGFydCI6MTE4MTEsImVuZCI6MTE4Mz
-MsInRleHQiOiIjIyBXaGF0IGlzIGEgZ29vZCBtYXA/In0sIjht
+bUlWTG9jUmduQSI6eyJzdGFydCI6MTI0NTAsImVuZCI6MTI0Nz
+IsInRleHQiOiIjIyBXaGF0IGlzIGEgZ29vZCBtYXA/In0sIjht
 VDd3dXQyZzlaMzQxQUwiOnsic3RhcnQiOjcwMjIsImVuZCI6Nz
 A4MCwidGV4dCI6IiMjIyBDb29yZGluYXRlIFJlZmVyZW5jZSBT
 eXN0ZW1zIChDUlMpIGFuZCBtYXAgcHJvamVjdGlvbnMifSwiQ1
-FBV29TeWtobXo3eGszTiI6eyJzdGFydCI6NzYyNiwiZW5kIjo3
-NzEzLCJ0ZXh0IjoiKipUaHVzLCBpdCBpcyBpbXBvcnRhbnQgdG
+FBV29TeWtobXo3eGszTiI6eyJzdGFydCI6ODI2NSwiZW5kIjo4
+MzUyLCJ0ZXh0IjoiKipUaHVzLCBpdCBpcyBpbXBvcnRhbnQgdG
 8gY2hlY2sgdGhhdCB0aGUgbGF5ZXJzIGFuZCB0aGUgcHJvamVj
 dCBhcmUgaW4gdGhlIHNhbeKApiJ9fSwiY29tbWVudHMiOnsiYk
 5PaVNVYTFocjFZQVpKYiI6eyJkaXNjdXNzaW9uSWQiOiJtWGpr
@@ -179,11 +181,11 @@ NjY1OTg1NjY5NH0sInJVTEdVRUxLejkzeVozUnQiOnsiZGlzY3
 Vzc2lvbklkIjoiQ1FBV29TeWtobXo3eGszTiIsInN1YiI6Imdo
 OjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBhIHNlY3Rpb24gYWJvdX
 QgcmVwcm9qZWN0aW9uIiwiY3JlYXRlZCI6MTY4NjY1OTkwOTYz
-NX19LCJoaXN0b3J5IjpbLTIyMjE1NTczOCwtMTkwNzQ2NjU2OC
-wxODA0OTcwMTIwLDExMDcwODMzMTEsMTMwMjY1OTc4Nyw0Njk0
-ODAwMTcsLTUxMTc2MDIzNSwtMjAxMDU3MzAyNSwtMTM3NDU0MD
-ExLC0yNTYwMDcyOTcsMTM0MzUzNzU3NywtMTAzNTcxODgyNSw2
-MDc2Nzk4LDE2Nzg4NDcxODAsMTAxNDY2NzA4OSwyMDY2Mjk3Nz
-k5LC0xMzY4MjkzMTEzLC0xOTc3NzQ2NDM1LDkwMDg5MTgxNl19
+NX19LCJoaXN0b3J5IjpbNTU1Mjg3NTkyLC0xOTA3NDY2NTY4LD
+E4MDQ5NzAxMjAsMTEwNzA4MzMxMSwxMzAyNjU5Nzg3LDQ2OTQ4
+MDAxNywtNTExNzYwMjM1LC0yMDEwNTczMDI1LC0xMzc0NTQwMT
+EsLTI1NjAwNzI5NywxMzQzNTM3NTc3LC0xMDM1NzE4ODI1LDYw
+NzY3OTgsMTY3ODg0NzE4MCwxMDE0NjY3MDg5LDIwNjYyOTc3OT
+ksLTEzNjgyOTMxMTMsLTE5Nzc3NDY0MzUsOTAwODkxODE2XX0=
 
 -->
