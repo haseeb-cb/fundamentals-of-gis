@@ -119,6 +119,7 @@ Important to keep in mind is that: **maps are images that inherently selective a
 
 Another important thing to keep in mind is to **make your maps accessible to all readers, including those who have some form of color blindness**. This is relatively simple, since QGIS already has a tool build-in to simulate a few color blind examples:
 
+![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Theory/1_CrashCourse_theory_QGIS_color_blindness.png)
 
 
 # Time to get your hands dirty! Move on to the Crash Course exercise to get started with (Q)GIS  
@@ -134,8 +135,8 @@ RhdGEifSwiYnlNdnhqbzBmSXlyWTROSiI6eyJzdGFydCI6ODk4
 MiwiZW5kIjo5MDA0LCJ0ZXh0IjoiIyMjIEdJUyBhbmFseXNpcy
 B0eXBlcyJ9LCJ6VDRWNUFGVjlnYVJTeENOIjp7InN0YXJ0Ijox
 MjYyMiwiZW5kIjoxMjYzMCwidGV4dCI6Imdvb2QgbWFwIn0sIj
-hLN1NGVFR1MTFUOUNBOVQiOnsic3RhcnQiOjEzODA2LCJlbmQi
-OjEzOTAxLCJ0ZXh0IjoiIyBUaW1lIHRvIGdldCB5b3VyIGhhbm
+hLN1NGVFR1MTFUOUNBOVQiOnsic3RhcnQiOjEzOTgyLCJlbmQi
+OjE0MDc3LCJ0ZXh0IjoiIyBUaW1lIHRvIGdldCB5b3VyIGhhbm
 RzIGRpcnR5ISBNb3ZlIG9uIHRvIHRoZSBDcmFzaCBDb3Vyc2Ug
 ZXhlcmNpc2UgdG8gZ2V0IHN0YeKApiJ9LCJrM0xsTExtSVZMb2
 NSZ25BIjp7InN0YXJ0IjoxMjU5NCwiZW5kIjoxMjYxNiwidGV4
@@ -164,11 +165,11 @@ MxMjk0NTN9LCJLVjdZQjI0NHZSQXZmeTg2Ijp7ImRpc2N1c3Np
 b25JZCI6ImszTGxMTG1JVkxvY1JnbkEiLCJzdWIiOiJnaDo0MD
 MwNDc4OCIsInRleHQiOiJDb2xvciBicmV3ZXIsIG1ha2UgYSBi
 YWQgbWFwLCBtYWtlIGEgZ29vZCBtYXAiLCJjcmVhdGVkIjoxNj
-g2NjU5NDY4NDUwfX0sImhpc3RvcnkiOlstMjEwNDIwMzY1Niw2
-MDEyNDI4NSwtMTA0NTQyMDYxOCwtMTkwNzQ2NjU2OCwxODA0OT
-cwMTIwLDExMDcwODMzMTEsMTMwMjY1OTc4Nyw0Njk0ODAwMTcs
-LTUxMTc2MDIzNSwtMjAxMDU3MzAyNSwtMTM3NDU0MDExLC0yNT
-YwMDcyOTcsMTM0MzUzNzU3NywtMTAzNTcxODgyNSw2MDc2Nzk4
-LDE2Nzg4NDcxODAsMTAxNDY2NzA4OSwyMDY2Mjk3Nzk5LC0xMz
-Y4MjkzMTEzLC0xOTc3NzQ2NDM1XX0=
+g2NjU5NDY4NDUwfX0sImhpc3RvcnkiOlstNDkxNTY5ODkyLC0y
+MTA0MjAzNjU2LDYwMTI0Mjg1LC0xMDQ1NDIwNjE4LC0xOTA3ND
+Y2NTY4LDE4MDQ5NzAxMjAsMTEwNzA4MzMxMSwxMzAyNjU5Nzg3
+LDQ2OTQ4MDAxNywtNTExNzYwMjM1LC0yMDEwNTczMDI1LC0xMz
+c0NTQwMTEsLTI1NjAwNzI5NywxMzQzNTM3NTc3LC0xMDM1NzE4
+ODI1LDYwNzY3OTgsMTY3ODg0NzE4MCwxMDE0NjY3MDg5LDIwNj
+YyOTc3OTksLTEzNjgyOTMxMTNdfQ==
 -->
