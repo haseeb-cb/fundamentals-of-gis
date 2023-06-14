@@ -71,7 +71,7 @@ The **Attributes toolbar** includes some of the most common tools that enable fo
  ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_data_source_manager.png) **Adding data in QGIS:** The **Data Source Manager** offers a handy way to add a vector or raster layer. There are also special buttons for different kinds of database layers and interface services. The figure below offers a closer look at the Data Source Manager. Similar functionality can be found in *Layer* \> *Add Layer*.
 
 ![Data Source Manager](https://docs.qgis.org/3.28/en/_images/datasource_manager.png)
-If you want to create new empty layers, go to *Layer* \> *Create Layer*. You might want to do this if you're creating your own data. 
+If you want to create new empty layers, go to *Layer* \> *Create Layer*. You would use this, for example, if you're creating your own data. 
 
 ### 1.2 Panels
 
@@ -273,14 +273,14 @@ lOKSwgd2hpY2jigKYiLCJzdGFydCI6NDQ2NywiZW5kIjo0NTkz
 fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJ0ZXh0IjoiVGhlc2UgZG
 F0YSBzZXRzIGFyZSBhbGwgZG93bmxvYWRlZCBmcm9tIFBhSVR1
 bGkgYW5kIEhlbHNpbmtpIFJlZ2lvbiBJbmZvc2hhcmUgZOKApi
-IsInN0YXJ0Ijo5MTc0LCJlbmQiOjk0ODF9LCJ5bmg1Ym9RaU9N
+IsInN0YXJ0Ijo5MTgxLCJlbmQiOjk0ODh9LCJ5bmg1Ym9RaU9N
 VGlsWk1XIjp7InRleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dH
 BzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9yb3dhbjhr
 L2Z1bmRhbWVudGFscy1vZi1naXMv4oCmIiwic3RhcnQiOjkxLC
 JlbmQiOjIzMn0sIlliWVFtNmxqVTQyZnk2UDYiOnsidGV4dCI6
 IiFbXShodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb2
 0vcm93YW44ay9mdW5kYW1lbnRhbHMtb2YtZ2lzL21hc3Rlci9B
-c3NldHPigKYiLCJzdGFydCI6NzA3MCwiZW5kIjo3MTcxfSwiZF
+c3NldHPigKYiLCJzdGFydCI6NzA3NywiZW5kIjo3MTc4fSwiZF
 p0YTIyT2FXampxaVB6TSI6eyJ0ZXh0IjoiKipBZGRpbmcgZGF0
 YSBpbiBRR0lTOioqIFRoZSAqKkRhdGEgU291cmNlIE1hbmFnZX
 IqKiBvZmZlcnMgYSBoYW5keSB3YXkgdG8gYWRk4oCmIiwic3Rh
@@ -307,5 +307,5 @@ siZGlzY3Vzc2lvbklkIjoiZFp0YTIyT2FXampxaVB6TSIsInN1
 YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBvdmVydmlldy
 BvZiB3aGVyZSB0byBmaW5kIGFsbCB0aGUgdG9vbHMgYW5kIHRv
 b2xiYXJzIiwiY3JlYXRlZCI6MTY4NjExNDE3NDc3MX19LCJoaX
-N0b3J5IjpbLTY5NTY5MzY4MSwtNjM1NTM2MTddfQ==
+N0b3J5IjpbMTk5NDQyNTUzNCwtNjk1NjkzNjgxXX0=
 -->
