@@ -30,7 +30,7 @@ For more information about the PPDAC Model: http://wiki.gis.com/wiki/index.php/P
 ### Spatial data
 Spatial data refers to **information that is associated with specific locations or geographic extents**. Vector and raster data are the two fundamental types of spatial data used in Geographic Information Systems (GIS) to represent and analyze spatial information.
 
-![](https://cdn.mindspritesolutions.com/onestopgis/GIS-Theory-and-Techniques/Raster-Data-Analysis/Comparison-of-Vector-and-Raster-based-Data-Analysis/posts/Comparison-of-Vector-and-Raster-Based-Data-Analysis/Figure-shows-comparison-of-Vector-and-Raster.webp)
+![enter image description here](https://cdn.mindspritesolutions.com/onestopgis/GIS-Theory-and-Techniques/Raster-Data-Analysis/Comparison-of-Vector-and-Raster-based-Data-Analysis/posts/Comparison-of-Vector-and-Raster-Based-Data-Analysis/Figure-shows-comparison-of-Vector-and-Raster.webp)
 
 1. **Vector data** provides a way to represent real world features within the GIS environment. A feature is anything you can see on the landscape. Imagine you are standing on the top of a hill. Looking down you can see houses, roads, trees, rivers, and so on. Each one of these things would be a **feature** when we represent them in a GIS Application. Vector features have **attributes**, which consist of text or numerical information that **describe** the features[^1].  Types of vector data include:
 	-  Points: Represent specific locations in space, such as the coordinates of a city or a landmark.
@@ -134,20 +134,20 @@ YXRhIiwic3RhcnQiOjE0MDgsImVuZCI6MTQ0Mn0sIk9CUjhLdX
 YxNHZDckFRTDQiOnsidGV4dCI6Ii0gUmVhbCBsaWZlIGV4YW1w
 bGUgb2YgdmVjdG9yIGRhdGEiLCJzdGFydCI6MjUzMCwiZW5kIj
 oyNTY0fSwiYnlNdnhqbzBmSXlyWTROSiI6eyJ0ZXh0IjoiIyMj
-IEdJUyBhbmFseXNpcyB0eXBlcyIsInN0YXJ0Ijo1MzA1LCJlbm
-QiOjUzMjd9LCJ6VDRWNUFGVjlnYVJTeENOIjp7InRleHQiOiJn
-b29kIG1hcCIsInN0YXJ0Ijo5NzI4LCJlbmQiOjk3MzZ9LCI4Sz
+IEdJUyBhbmFseXNpcyB0eXBlcyIsInN0YXJ0Ijo1MzMzLCJlbm
+QiOjUzNTV9LCJ6VDRWNUFGVjlnYVJTeENOIjp7InRleHQiOiJn
+b29kIG1hcCIsInN0YXJ0Ijo5NzU2LCJlbmQiOjk3NjR9LCI4Sz
 dTRlRUdTExVDlDQTlUIjp7InRleHQiOiIjIFRpbWUgdG8gZ2V0
 IHlvdXIgaGFuZHMgZGlydHkhIE1vdmUgb24gdG8gdGhlIENyYX
 NoIENvdXJzZSBleGVyY2lzZSB0byBnZXQgc3Rh4oCmIiwic3Rh
-cnQiOjExMTYxLCJlbmQiOjExMjU2fSwiN2Ezak9RWElCbDM4U2
+cnQiOjExMTg5LCJlbmQiOjExMjg0fSwiN2Ezak9RWElCbDM4U2
 ZaYiI6eyJ0ZXh0Ijoic2F0ZWxsaXRlIiwic3RhcnQiOjM4Mywi
 ZW5kIjozOTJ9LCJscWtuVGlzNEc2RGJpcWRYIjp7InRleHQiOi
 Jwb2ludHMiLCJzdGFydCI6MTEyMSwiZW5kIjoxMTI3fSwibEVF
 cVo4Qk4yTW1ZSWpJaCI6eyJ0ZXh0IjoibGluZXMiLCJzdGFydC
 I6MTI5NCwiZW5kIjoxMjk5fSwiSm5CaTc2TnlrNEl4ako5SyI6
-eyJ0ZXh0Ijoid29ybCIsInN0YXJ0Ijo4ODk3LCJlbmQiOjg5MD
-F9fSwiY29tbWVudHMiOnsiYk5PaVNVYTFocjFZQVpKYiI6eyJk
+eyJ0ZXh0Ijoid29ybCIsInN0YXJ0Ijo4OTI1LCJlbmQiOjg5Mj
+l9fSwiY29tbWVudHMiOnsiYk5PaVNVYTFocjFZQVpKYiI6eyJk
 aXNjdXNzaW9uSWQiOiJtWGprNzZRa291cmFwcVJuIiwic3ViIj
 oiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJj
 cmVhdGVkIjoxNjg2MTI3MDMyMDc4fSwiOTdNUldHTmFPUk03bE
@@ -184,5 +184,5 @@ LCJjcmVhdGVkIjoxNjg2NzI0NTU4NjM0fSwiU3V2NlBCYnJUdm
 JSb0U3VyI6eyJkaXNjdXNzaW9uSWQiOiJKbkJpNzZOeWs0SXhq
 SjlLIiwic3ViIjoiZ2g6MjIxNjgxNTciLCJ0ZXh0Ijoid29yaz
 8iLCJjcmVhdGVkIjoxNjg2NzI0NzI5MjQyfX0sImhpc3Rvcnki
-Ols3MzM3Mzg1MDBdfQ==
+OlstMTg2ODI0OTI0NCw3MzM3Mzg1MDBdfQ==
 -->
