@@ -141,13 +141,13 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
  1.  Start by **changing the order of the layers** by dragging them in the layers panel on the left side of the map view. A good order, for example, can be as follows from top to bottom: HSL_Helsinki_stops, Helsinki_buildings, Waterbodies, Helsinki_small_areas and Helsinki_Municipality.
  2.  You can also **change the visibility of the layers** by checking or unchecking the tick boxes next to the layer name or by adjusting **transparency**. The latter can be done under the *Style* tab in the *Layer properties* window, which can be accessed by right-clicking on the layer name and selecting *Properties*. This is also where you can change other style properties such as **symbol size and color**, **layer rendering** or create e.g. **choropleth maps** (we will look into these in more detail later on).
  
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_layers.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_layers.png)
  In addition to editing a layer’s style properties, the Layer properties window can also be used for e.g. examining the **layer’s general information** such as its coordinate system and source, adding **labels** to the map as well as managing **joins** and layer **metadata**.
 
  3.  Next, we want to **change the styles and the symbology of the layers**. You can navigate back to the *Symbology* tab in the *Layer Properties* window. The window looks slightly different depending on whether we have a raster or vector file, and what feature type is in question. You can see this for instance by comparing the style tabs of the HSL Stops (point feature) and Waterbodies (polygon feature) layers.
 	 1.  Open the *symbology* properties for the Waterbodies layer
 	 2. Apart from the color fill and a few ready-made styles, the main view does not offer very sophisticated visualizing options, so it is suggested to click on the *Simple fill*
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_symbology1.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_symbology1.png)
 	 3. Press the *Fill color* button and change the color of the layer to blue
 	 4. If you want a transparent fill, change the *Opacity* under the *Fill color* section
 	 5. One you are satisfied with the layer styles, press *Apply* and *OK*
@@ -160,7 +160,7 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	4. Set the *Mode* to *Natural breaks (Jenks)* and press *Classify*
 	5. Select a fitting *Color ramp* from the drop-down menu
 	6. Press *Apply* and *OK*
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_symbology2.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_symbology2.png)
 
 **Now, using the previous tips and tricks as your support, change the styles of all the layers in the project.**
 
@@ -169,7 +169,7 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	 As you can see, the file consists of a list of the small-sized areas within the city of Helsinki with their corresponding codes and creation dates but little else. Next, we are going to calculate the area for each small area of Helsinki. 
 	 2.  In the *attribute table*, toggle *Editing mode* ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png) and then click on the *Field Calculator* button ![](https://docs.qgis.org/3.28/en/_images/mActionCalculateField.png)
  
- ![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_exercise_expression.png)
+ ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/1_CrashCourse_exercise_expression.png)
  
  6.  Now we’ll **write an expression that calculates the area of each small area of Helsinki in square kilometers**. On the right side of the Expression window is a list of drop-down menus.
 	 1. Open the *Geometry* drop-down menu
@@ -307,5 +307,5 @@ siZGlzY3Vzc2lvbklkIjoiZFp0YTIyT2FXampxaVB6TSIsInN1
 YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBvdmVydmlldy
 BvZiB3aGVyZSB0byBmaW5kIGFsbCB0aGUgdG9vbHMgYW5kIHRv
 b2xiYXJzIiwiY3JlYXRlZCI6MTY4NjExNDE3NDc3MX19LCJoaX
-N0b3J5IjpbMjEzMDIxNTQ3MCwyMDE2NDM0MTg1XX0=
+N0b3J5IjpbLTk3NDY3Njc5OSwyMTMwMjE1NDcwXX0=
 -->
