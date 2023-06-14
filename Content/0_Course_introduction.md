@@ -41,7 +41,7 @@ To ensure that your submissions are original:
 ### Troubleshooting
 If you ever have a question or run in to an issue along this course, please follow the following troubleshooting process: 
 
-![Troubleshooting process](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/GIS_troubleshooting_process.drawio.png)
+![Troubleshooting process](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/0_Course_introduction/GIS_troubleshooting_process.drawio.png)
 1. Start by checking if the information in the **course materials** provide a solution, it might have been covered in the previous theory or exercises as well
 	- If you come across missing information in the materials, please let us know so we can make sure others don't run into the same issue! 
 2. Being a *Professional **Google** Searcher* will get you really far with (Q)GIS. Try searching your question or issue, below you can find some tips on how to improve your google searches
@@ -56,9 +56,9 @@ Following this process will help you **develop the independent troubleshooting s
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJyVXo5SGtTRnVBOXByQzV2Ijp7In
 N0YXJ0IjoyMDU1LCJlbmQiOjIwNTYsInRleHQiOiJYIn0sInlW
-aHVwYkd2elBIaks2SGsiOnsic3RhcnQiOjM0NTIsImVuZCI6Mz
-Q2MiwidGV4dCI6IkNoYXQgbGluazoifSwiYmE3cG0wTldjVEtq
-UTc0dyI6eyJzdGFydCI6MzUzOCwiZW5kIjozNTQ2LCJ0ZXh0Ij
+aHVwYkd2elBIaks2SGsiOnsic3RhcnQiOjM0NzQsImVuZCI6Mz
+Q4NCwidGV4dCI6IkNoYXQgbGluazoifSwiYmE3cG0wTldjVEtq
+UTc0dyI6eyJzdGFydCI6MzU2MCwiZW5kIjozNTY4LCJ0ZXh0Ij
 oidGVhY2hlcnMifX0sImNvbW1lbnRzIjp7ImYxbXVqaGFlSnJu
 S2p4T0wiOnsiZGlzY3Vzc2lvbklkIjoiclV6OUhrU0Z1QTlwck
 M1diIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBu
@@ -69,6 +69,6 @@ oiQWRkIGxpbmsiLCJjcmVhdGVkIjoxNjg2NzIwMzMwNTg5fSwi
 Wm9zTmNLMnNaMFJjTXZsVSI6eyJkaXNjdXNzaW9uSWQiOiJiYT
 dwbTBOV2NUS2pRNzR3Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0
 ZXh0IjoiQWRkIG5hbWVzIiwiY3JlYXRlZCI6MTY4NjcyMDMzNT
-I5M319LCJoaXN0b3J5IjpbLTE5Mjk4MDIyMjksMTE4MzU3MjYy
-OF19
+I5M319LCJoaXN0b3J5IjpbODg1NDE3ODI0LC0xOTI5ODAyMjI5
+LDExODM1NzI2MjhdfQ==
 -->
