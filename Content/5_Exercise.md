@@ -29,7 +29,7 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 	- Water_Pumps.geojson. This shows the location of water pumps. The file type – a geojson – is an-other standard for representing geographical features, commonly used to transmit data in web applications. 
 	- Snow-cholera-map-1_modified.tif, a raster showing a map of the area in 1854.
 
-3. Open QGIS on your computer and start a new project. Save it with a new name, for example ‘Tutorial 7’.
+3. Open QGIS on your computer and start a new project. Save it with a new name under the folder for this exercise.
 
 4. Import the Study_Area.shp file, to add it to your map project. Change the symbology to make the study area hollow by right-clicking the layer, choosing Properties, and then changing the Symbology.
 
@@ -42,12 +42,18 @@ eyJkaXNjdXNzaW9ucyI6eyJ4MTV3V05CSzZKRHc3Vml2Ijp7In
 N0YXJ0IjoxOTk1LCJlbmQiOjIwMTQsInRleHQiOiIjIyBEQVRB
 IFVTRUQvTkVFREVEIn0sIjZ1RXQxNkV3VXNNSTFGc0QiOnsic3
 RhcnQiOjIwMTYsImVuZCI6MjAyOSwidGV4dCI6IiMjIENPTVBM
-RVRJT04ifX0sImNvbW1lbnRzIjp7IkduZFIzaHhoZHF2OW5Icj
-EiOnsiZGlzY3Vzc2lvbklkIjoieDE1d1dOQks2SkR3N1ZpdiIs
-InN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBzZWN0aW
-9uIiwiY3JlYXRlZCI6MTY4NjcyNzM3MzM4MH0sInRZd0d4YnRH
-WnY4R0RTZWkiOnsiZGlzY3Vzc2lvbklkIjoiNnVFdDE2RXdVc0
-1JMUZzRCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFk
-ZCBzZWN0aW9uIiwiY3JlYXRlZCI6MTY4NjcyNzM3ODc5Nn19LC
-JoaXN0b3J5IjpbNjY5MjQ0Mjg3LDEyNzkxMjU0OTldfQ==
+RVRJT04ifSwid1BiRHU5QUlWN2kyemt1dyI6eyJzdGFydCI6Mj
+QxNywiZW5kIjoyNDMwLCJ0ZXh0IjoiZ2VvcmVmZXJlbmNlZCJ9
+fSwiY29tbWVudHMiOnsiR25kUjNoeGhkcXY5bkhyMSI6eyJkaX
+NjdXNzaW9uSWQiOiJ4MTV3V05CSzZKRHc3Vml2Iiwic3ViIjoi
+Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rpb24iLCJjcm
+VhdGVkIjoxNjg2NzI3MzczMzgwfSwidFl3R3hidEdadjhHRFNl
+aSI6eyJkaXNjdXNzaW9uSWQiOiI2dUV0MTZFd1VzTUkxRnNEIi
+wic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rp
+b24iLCJjcmVhdGVkIjoxNjg2NzI3Mzc4Nzk2fSwiZkJqazNsV2
+ZPMXpPUWxwdSI6eyJkaXNjdXNzaW9uSWQiOiJ3UGJEdTlBSVY3
+aTJ6a3V3Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiTG
+V0IHN0dWRlbnRzIGRvIHRoaXM/IiwiY3JlYXRlZCI6MTY4Njcy
+NzU2NzEwOH19LCJoaXN0b3J5IjpbLTIwNjE5MjA1NTksMTI3OT
+EyNTQ5OV19
 -->
