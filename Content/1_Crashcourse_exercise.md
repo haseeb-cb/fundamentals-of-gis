@@ -79,11 +79,11 @@ If you want to create new empty layers, go to *Layer* \> *Create Layer*. You wou
 
 The ***Browser panel*** is a tool for browsing, searching, inspecting, copying and loading QGIS resources. Using the Browser panel you can locate, inspect and add data. 
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_browser_panel.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_browser_panel.png)
 
 The ***Layer panel*** lists all the layers in the project and helps you manage their visibility and shape the map. You can access the layers by right clicking them, and toggle their visibility by toggling the check box in the layer panel. 
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_layer_panel.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_layer_panel.png)
 
 The ***Processing Toolbox*** shows the list of all available **algorithms** grouped in different blocks, this is where you will find most of the tools we will be using in this course. If you ever want to do an operation and you're wondering if it is available in QGIS, this is a good place to start!  
 
@@ -273,14 +273,14 @@ lOKSwgd2hpY2jigKYiLCJzdGFydCI6NDQ2NywiZW5kIjo0NTkz
 fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJ0ZXh0IjoiVGhlc2UgZG
 F0YSBzZXRzIGFyZSBhbGwgZG93bmxvYWRlZCBmcm9tIFBhSVR1
 bGkgYW5kIEhlbHNpbmtpIFJlZ2lvbiBJbmZvc2hhcmUgZOKApi
-IsInN0YXJ0Ijo5MjUwLCJlbmQiOjk1NTd9LCJ5bmg1Ym9RaU9N
+IsInN0YXJ0Ijo5Mjk2LCJlbmQiOjk2MDN9LCJ5bmg1Ym9RaU9N
 VGlsWk1XIjp7InRleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dH
 BzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9yb3dhbjhr
 L2Z1bmRhbWVudGFscy1vZi1naXMv4oCmIiwic3RhcnQiOjkxLC
 JlbmQiOjIzMn0sIlliWVFtNmxqVTQyZnk2UDYiOnsidGV4dCI6
 IiFbXShodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb2
 0vcm93YW44ay9mdW5kYW1lbnRhbHMtb2YtZ2lzL21hc3Rlci9B
-c3NldHPigKYiLCJzdGFydCI6NzE0NiwiZW5kIjo3MjQ3fSwiZF
+c3NldHPigKYiLCJzdGFydCI6NzE2OSwiZW5kIjo3MjkzfSwiZF
 p0YTIyT2FXampxaVB6TSI6eyJ0ZXh0IjoiKipBZGRpbmcgZGF0
 YSBpbiBRR0lTOioqIFRoZSAqKkRhdGEgU291cmNlIE1hbmFnZX
 IqKiBvZmZlcnMgYSBoYW5keSB3YXkgdG8gYWRk4oCmIiwic3Rh
@@ -307,5 +307,5 @@ siZGlzY3Vzc2lvbklkIjoiZFp0YTIyT2FXampxaVB6TSIsInN1
 YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBvdmVydmlldy
 BvZiB3aGVyZSB0byBmaW5kIGFsbCB0aGUgdG9vbHMgYW5kIHRv
 b2xiYXJzIiwiY3JlYXRlZCI6MTY4NjExNDE3NDc3MX19LCJoaX
-N0b3J5IjpbMTAwNzk3NzE2MSwtMTc5MzUxMDk3NV19
+N0b3J5IjpbMjAxNjQzNDE4NSwxMDA3OTc3MTYxXX0=
 -->
