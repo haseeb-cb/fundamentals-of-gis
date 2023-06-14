@@ -112,7 +112,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 	
 	- When you are finished adding the new buildings, press the *Save* symbol in the Digitizing Toolbar, and toggle off *editing*.
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/Exercise1_figure7.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/Exercise1_figure8.png)
 
 ---
 
@@ -137,7 +137,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 	- Press OK
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/Exercise1_figure9.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/Exercise1_figure9.png)
 
 16. We have now created a new layer, but it is empty – there is nothing in it yet. Now, we can edit the new tam-pere_bus_stops layer we have created to add a location and road name. This happens in a similar way to how we edited the buildings layer, but we are also going to use the identify features tool to find out the name of the roads where each bus stop is located and add it to the tampere_bus_stops attribute table as we add points.
 
@@ -157,7 +157,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 	- *Save the Edits* in the Digitization Toolbar and toggle off *editing*.
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/Exercise1_figure10.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/Exercise1_figure10.png)
 
 ---
 
@@ -178,7 +178,7 @@ cy5vcmcvMy4yOC9lbi9faW1hZ2VzL21BY3Rpb25TZWxlY3QucG
 5nKSJ9LCJWRlBxUTdrblBiNlpoaGRYIjp7InN0YXJ0Ijo4NjA4
 LCJlbmQiOjg2MjksInRleHQiOiIqQWRkIFBvbHlnb24gRmVhdH
 VyZSoifSwiYTNFaWVsWGFrZGdjWDhOeSI6eyJzdGFydCI6MTEz
-MjYsImVuZCI6MTE1MTgsInRleHQiOiItIFVzaW5nIHRoZSAqSW
+MjcsImVuZCI6MTE1MTksInRleHQiOiItIFVzaW5nIHRoZSAqSW
 RlbnRpZnkgZmVhdHVyZXMqIHRvb2wsIGNsaWNrIG9uIGEgbGlu
 ZSBmZWF0dXJlIGluIHRoZSB0YW1wZXJlX3Jv4oCmIn0sImExMm
 RLR3llWVAzdExsWEQiOnsic3RhcnQiOjY3NCwiZW5kIjo2ODQs
@@ -203,6 +203,6 @@ VzIiwiY3JlYXRlZCI6MTY4NjI4OTE5NTY5OX0sImZZMmRVc212
 MjJWWnQwMHYiOnsiZGlzY3Vzc2lvbklkIjoiYTEyZEtHeWVZUD
 N0TGxYRCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Ildy
 aXRlIHRoaXMgb3V0IGZ1cnRoZXIiLCJjcmVhdGVkIjoxNjg2ND
-c2MzYwOTc2fX0sImhpc3RvcnkiOls5MDM5MDA5ODMsLTgxNjI0
-MjgwMV19
+c2MzYwOTc2fX0sImhpc3RvcnkiOlstMjEzNDU4ODA3OCwtODE2
+MjQyODAxXX0=
 -->
