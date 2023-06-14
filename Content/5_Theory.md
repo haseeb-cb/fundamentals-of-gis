@@ -2,7 +2,7 @@
 
 # Theory 5: 
 
-- Deli
+- Delimited Text Layer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTc4ODEyM119
+eyJoaXN0b3J5IjpbLTIxMjgyMTE3NTZdfQ==
 -->
