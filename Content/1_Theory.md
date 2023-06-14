@@ -54,7 +54,7 @@ This source is however missing geographic data, as it is just a picture taken fr
 
 ## Georeferencing
 
-Georeferencing is the process of **associating geographic data (coordinates) to a digital or physical object**, such as a map, image, or dataset, in our case a project plan. The goal of georeferencing is to establish a spatial reference for the object, enabling it to be positioned correctly within a coordinate system. It is essential for integrating different sources of geospatial data, enabling them to be overlaid and analyzed together. By assigning geographic coordinates or a coordinate system to an object, it becomes possible to accurately locate and spatially relate features, points, or areas represented within that object.
+Georeferencing is essentially giving data without any CRS, a CRS. But more specifically, it is the process of **associating geographic data (coordinates) to a digital or physical object**, such as a map, image, or dataset, in our case a project plan. The goal of georeferencing is to establish a spatial reference for the object, enabling it to be positioned correctly within a coordinate system. It is essential for integrating different sources of geospatial data, enabling them to be overlaid and analyzed together. By assigning geographic coordinates or a coordinate system to an object, it becomes possible to accurately locate and spatially relate features, points, or areas represented within that object.
 
 In practice, georeferencing involves identifying a set of control points on the object and matching them to corresponding locations on a reference map or in some form of software, such as QGIS. These control points represent identifiable features, such as road intersections or landmarks, and are used to create a transformation function that aligns the object with the reference system.
 
@@ -66,17 +66,12 @@ In our case we can use the buildings that remained unchanged and are on the proj
 eyJkaXNjdXNzaW9ucyI6eyJvSmFOSlZwYTFCeDRmd2tpIjp7In
 N0YXJ0IjoxMTkzLCJlbmQiOjEyNTMsInRleHQiOiJXZSBrZWVw
 IGEgY29sbGVjdGlvbiBvZiBvdXIga25vd24gZGF0YSBzb3VyY2
-VzIGZvciB5b3VyIHVzZToifSwiSWR6RUI0SVg0Qk0yMWtsQyI6
-eyJzdGFydCI6NDE5NywiZW5kIjo0MjE0LCJ0ZXh0IjoiIyMgR2
-VvcmVmZXJlbmNpbmcifX0sImNvbW1lbnRzIjp7Imh3eUI5c1du
-S3FveThyRlciOnsiZGlzY3Vzc2lvbklkIjoib0phTkpWcGExQn
-g0ZndraSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFk
-ZCBsaW5rIiwiY3JlYXRlZCI6MTY4NjMwMzgxMTk1NX0sIkxWZ1
-Z3Tk43RWJBRlRpeWkiOnsiZGlzY3Vzc2lvbklkIjoiSWR6RUI0
-SVg0Qk0yMWtsQyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dC
-I6IkVzc2VudGlhbGx5IGdpdmluZyBkYXRhIHdpdGhvdXQgQ1JT
-IGEgQ1JTIiwiY3JlYXRlZCI6MTY4NjY1OTc2NDE3M319LCJoaX
-N0b3J5IjpbNjU5Mzc4OTczLDE4NzY4NzY0NzQsNjY1MDQ5OTkz
-LC00OTU0Njg0ODcsLTk1MjcwNjY4LC0zNjczMzQxMjQsLTM1ND
-Y2MDY2MSwxNzE2MjA3NTc1LDE2MzkzODgzNjZdfQ==
+VzIGZvciB5b3VyIHVzZToifX0sImNvbW1lbnRzIjp7Imh3eUI5
+c1duS3FveThyRlciOnsiZGlzY3Vzc2lvbklkIjoib0phTkpWcG
+ExQng0ZndraSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
+IkFkZCBsaW5rIiwiY3JlYXRlZCI6MTY4NjMwMzgxMTk1NX19LC
+JoaXN0b3J5IjpbLTIxMDU3MDkwMyw2NTkzNzg5NzMsMTg3Njg3
+NjQ3NCw2NjUwNDk5OTMsLTQ5NTQ2ODQ4NywtOTUyNzA2NjgsLT
+M2NzMzNDEyNCwtMzU0NjYwNjYxLDE3MTYyMDc1NzUsMTYzOTM4
+ODM2Nl19
 -->
