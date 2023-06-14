@@ -42,13 +42,13 @@ For this practice we are going to use the Nokia Arena development in Tampere, as
 
 And if we look at the data set we are working with, you can see that some of the demolished buildings are still present and new buildings lacking. 
 
-![](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Assets/2_Theory/QGIS_theory1_nokia_outdated.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Theory/QGIS_theory1_nokia_outdated.png)
 
 In practice, updating this new development would consist of removing the old buildings from the data, and digitizing the new buildings, which would mean making new buildings in the data by **tracing** the buildings from some kind of reference picture. 
 
 In this case we could potentially use the google imagery of the area, as this has already been updated. But this is not always the case, and satellite imagery is not the most accurate as the resolution is not high enough and pictures are taken at an angle. To get the most accuracy, we would survey the area and record the locations using high-accuracy equipment. But for our purpose we don't require high accuracy and we will use the following project plan as a source for the digitizing. 
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_Theory/GIS_theory1_plan.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Theory/GIS_theory1_plan.png)
 
 This source is however missing geographic data, as it is just a picture taken from a PDF. To align this picture with our geographic data, we need to apply a process called georeferencing. 
 
@@ -70,5 +70,5 @@ VzIGZvciB5b3VyIHVzZToifX0sImNvbW1lbnRzIjp7Imh3eUI5
 c1duS3FveThyRlciOnsiZGlzY3Vzc2lvbklkIjoib0phTkpWcG
 ExQng0ZndraSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
 IkFkZCBsaW5rIiwiY3JlYXRlZCI6MTY4NjMwMzgxMTk1NX19LC
-JoaXN0b3J5IjpbLTYxMDM4OTA5OF19
+JoaXN0b3J5IjpbMTA5MjQzMzcwNV19
 -->
