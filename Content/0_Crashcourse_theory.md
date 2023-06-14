@@ -2,62 +2,6 @@
 
 # Introduction to Geographic Information System (GIS) and QGIS
 
-## Course introduction
-
-### Learning outcomes
-After completing the course you should be able to:
-- Understand the fundamental principles of GIS, including rasters, vector, projections, geoprocessing and analysis
-- Apply basic GIS skills to:
-	- Map Design
-	- Gathering GIS data from various sources
-	- Use different types of spatial data
-	- Analyse GIS data to address geosptial problems and/or research questions 
-- Develop the aiblity to perform new anayses, troubleshoot, and find help from the GIS community to solve your problems
-
-### Structure
-The course consists of **9 exercises**, each accompanied by a piece of theory. The first exercise, which goes with this theory, is meant to give you the basic skills in GIS and the software we will be using, QGIS. From there on you will build on these basic skills using the other exercises, covering vairous analyses and methods, and develop a fundamental skillset in GIS and QGIS. 
-
-| Exercise | Topic | Methods |
-|--|--|--|
-| Crash Course | Introduction | QGIS interface & Vector analysis |
-| 1 | Vector analysis introduction | Digitizing, georeferencing, clipping |
-| 2 | Socio-spatial differentiation | Raster analysis |
-| 3 | Finding the optimal location for a new development | Buffer analysis, overlay analysis |
-| 4 | Determining optimal land for cultivation | Digital Elevation Model (DEM), slope, hillshade, overlay analysis |
-| 5 | Understanding disease transmission | Heatmap analysis (Kernel Density), Voronoi diagram, text processing |
-| 6 | Air quality analysis | Spatial interpolation
-| 7 | Calculating building efficiency | Expressions, creating grids |
-| 8 | Wind power NIMBY (Not in my backyard) analysis | Public Participation GIS/SoftGIS, Directional Distribution |
-
-### Evalution
-To get the credits for this course, the following criteria have to be met:
- - [ ] Submitted original map output(s) for each exercise
-	 - With your name on the output
- - [ ] Submitted original map reflection for each exercise
- - [ ] Completed the X Moodle exams  
-
-To ensure that your submissions are original:
-- Map output: Your name has to be mentioned on the map output and they are be compared with others
-- Map reflection: Anti-plagiarism tool is used
-
-### Troubleshooting
-If you ever have a question or run in to an issue along this course, please follow the following troubleshooting process: 
-
-![Troubleshooting process](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/GIS_troubleshooting_process.drawio.png)
-1. Start by checking if the information in the **course materials** provide a solution, it might have been covered in the previous theory or exercises as well
-	- If you come across missing information in the materials, please let us know so we can make sure others don't run into the same issue! 
-2. Being a *Professional **Google** Searcher* will get you really far with (Q)GIS. Try searching your question or issue, below you can find some tips on how to improve your google searches
-	- [Simple Google Search tips](https://www.youtube.com/watch?v=oIMTM168BK8)
-	- [How to "Google It" like a Senior Software Engineer](https://www.youtube.com/watch?v=cEBkvm0-rg0)
-	- [Refine web searches](https://support.google.com/websearch/answer/2466433?hl=en)
-3. Ask your question in the **chat**, other students or professionals will be able to help you! Use the channel of the exercise you are working on. 
-	- Chat link: 
-5.  If at this point you still have not found a resolution, mention the **teachers** in the channel (@)
-
-
-
-Following this process will help you **develop the independent troubleshooting skills** you will need when you use GIS on your own. 
-
 ## What is GIS and why do we use it?
 
 GIS, which stands for Geographic Information System, is a technology that involves **capturing, storing, analyzing, and presenting geographically referenced data**. It integrates various types of information, such as maps, satellite imagery, and tabular data, into a digital framework that allows users to **view, understand, and analyze spatial patterns and relationships**.
@@ -165,95 +109,90 @@ Important to keep in mind is that: **maps are images that inherently selective a
 
 [^1]: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJBekJ0bTlpSG5HS2pVUGVGIjp7In
-N0YXJ0IjoyMTIwLCJlbmQiOjIxMjEsInRleHQiOiJYIn0sIno2
-SmxoRFBWRnpxb3U4MnUiOnsic3RhcnQiOjM1MTcsImVuZCI6Mz
-UyNywidGV4dCI6IkNoYXQgbGluazoifSwiZTRrb1dqOU1SZXJy
-VWdFdiI6eyJzdGFydCI6MzYyOSwiZW5kIjozNjMyLCJ0ZXh0Ij
-oiKEApIn0sIm1Yams3NlFrb3VyYXBxUm4iOnsic3RhcnQiOjg3
-MDQsImVuZCI6ODczOCwidGV4dCI6Ii0gUmVhbCBsaWZlIGV4YW
-1wbGUgb2YgdmVjdG9yIGRhdGEifSwiT0JSOEt1djE0dkNyQVFM
-NCI6eyJzdGFydCI6OTgyNiwiZW5kIjo5ODYwLCJ0ZXh0IjoiLS
-BSZWFsIGxpZmUgZXhhbXBsZSBvZiB2ZWN0b3IgZGF0YSJ9LCI1
-c082Y3c0dGFSa3kwSXY3Ijp7InN0YXJ0IjoxMDYwNCwiZW5kIj
-oxMDY2NywidGV4dCI6IkhvdyBhbmQgd2hlcmUgdG8gZmluZCBz
-cGF0aWFsIGRhdGEgaXMgZGlzY3Vzc2VkIGluIGRldGFpbCBoZX
-JlOiJ9LCJieU12eGpvMGZJeXJZNE5KIjp7InN0YXJ0IjoxMTg0
-NywiZW5kIjoxMTg2OSwidGV4dCI6IiMjIyBHSVMgYW5hbHlzaX
-MgdHlwZXMifSwielQ0VjVBRlY5Z2FSU3hDTiI6eyJzdGFydCI6
-MTU0ODcsImVuZCI6MTU0OTUsInRleHQiOiJnb29kIG1hcCJ9LC
-I4SzdTRlRUdTExVDlDQTlUIjp7InN0YXJ0IjoxNjQxNSwiZW5k
-IjoxNjUxMCwidGV4dCI6IiMgVGltZSB0byBnZXQgeW91ciBoYW
-5kcyBkaXJ0eSEgTW92ZSBvbiB0byB0aGUgQ3Jhc2ggQ291cnNl
-IGV4ZXJjaXNlIHRvIGdldCBzdGHigKYifSwiazNMbExMbUlWTG
-9jUmduQSI6eyJzdGFydCI6MTU0NTksImVuZCI6MTU0ODEsInRl
-eHQiOiIjIyBXaGF0IGlzIGEgZ29vZCBtYXA/In0sIjhtVDd3dX
-QyZzlaMzQxQUwiOnsic3RhcnQiOjEwNjcwLCJlbmQiOjEwNzI4
-LCJ0ZXh0IjoiIyMjIENvb3JkaW5hdGUgUmVmZXJlbmNlIFN5c3
-RlbXMgKENSUykgYW5kIG1hcCBwcm9qZWN0aW9ucyJ9LCJDUUFX
-b1N5a2htejd4azNOIjp7InN0YXJ0IjoxMTI3NCwiZW5kIjoxMT
-M2MSwidGV4dCI6IioqVGh1cywgaXQgaXMgaW1wb3J0YW50IHRv
-IGNoZWNrIHRoYXQgdGhlIGxheWVycyBhbmQgdGhlIHByb2plY3
-QgYXJlIGluIHRoZSBzYW3igKYifX0sImNvbW1lbnRzIjp7InFa
-V1hGZ3RlTGRmdlVzZDIiOnsiZGlzY3Vzc2lvbklkIjoiQXpCdG
-05aUhuR0tqVVBlRiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4
-dCI6IkFkZCBudW1iZXIiLCJjcmVhdGVkIjoxNjg2MTIwNTUwMj
-gxfSwiMU9jQXg0MUlodHR2a01oUyI6eyJkaXNjdXNzaW9uSWQi
-OiJ6NkpsaERQVkZ6cW91ODJ1Iiwic3ViIjoiZ2g6NDAzMDQ3OD
-giLCJ0ZXh0IjoiQWRkIGxpbmsiLCJjcmVhdGVkIjoxNjg2MTIz
-NTU3MzUwfSwiTHBUM1JDdHNvVERaaFF4aCI6eyJkaXNjdXNzaW
-9uSWQiOiJlNGtvV2o5TVJlcnJVZ0V2Iiwic3ViIjoiZ2g6NDAz
-MDQ3ODgiLCJ0ZXh0IjoiQWRkIG5hbWVzIiwiY3JlYXRlZCI6MT
-Y4NjEyMzYxMTAwN30sImJOT2lTVWExaHIxWUFaSmIiOnsiZGlz
-Y3Vzc2lvbklkIjoibVhqazc2UWtvdXJhcHFSbiIsInN1YiI6Im
-doOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3Jl
-YXRlZCI6MTY4NjEyNzAzMjA3OH0sIjk3TVJXR05hT1JNN2xMbF
-AiOnsiZGlzY3Vzc2lvbklkIjoiT0JSOEt1djE0dkNyQVFMNCIs
-InN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dX
-JlIiwiY3JlYXRlZCI6MTY4NjEyNzA0ODk2N30sImJlak1QNVVq
-TUQwQzBiM0QiOnsiZGlzY3Vzc2lvbklkIjoiNXNPNmN3NHRhUm
-t5MEl2NyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Ikxp
-bmsgdG8gYXJ0aWNsZSIsImNyZWF0ZWQiOjE2ODYxMzY3MTc4NT
-F9LCJRTlJ0UlJySzBNT1h4V09CIjp7ImRpc2N1c3Npb25JZCI6
-ImJ5TXZ4am8wZkl5clk0TkoiLCJzdWIiOiJnaDo0MDMwNDc4OC
-IsInRleHQiOiJJbmNsdWRlIGV4YW1wbGUgcGljdHVyZXMiLCJj
-cmVhdGVkIjoxNjg2MTM3ODg3MTcxfSwic3RGYmFvVVlwdlJzWG
-thbSI6eyJkaXNjdXNzaW9uSWQiOiJ6VDRWNUFGVjlnYVJTeENO
-Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGV4YW
-1wbGUgd2l0aCBwb2ludGVycyIsImNyZWF0ZWQiOjE2ODYxMzg0
-MjI1Nzh9LCJLTG44RlJ0Q2NxaFZpTlBHIjp7ImRpc2N1c3Npb2
-5JZCI6IjhLN1NGVFR1MTFUOUNBOVQiLCJzdWIiOiJnaDo0MDMw
-NDc4OCIsInRleHQiOiJBZGQgbGluayB0byBleGVyY2lzZSIsIm
-NyZWF0ZWQiOjE2ODYxMzg1NDkxMzl9LCI3ZWtEeHVsYThaUmcz
-emNCIjp7ImRpc2N1c3Npb25JZCI6ImJ5TXZ4am8wZkl5clk0Tk
-oiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBbmQgbGlu
-a3MiLCJjcmVhdGVkIjoxNjg2NDgzMTI5NDUzfSwiS1Y3WUIyND
-R2UkF2Znk4NiI6eyJkaXNjdXNzaW9uSWQiOiJrM0xsTExtSVZM
-b2NSZ25BIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQ2
-9sb3IgYnJld2VyLCBtYWtlIGEgYmFkIG1hcCwgbWFrZSBhIGdv
-b2QgbWFwIiwiY3JlYXRlZCI6MTY4NjY1OTQ2ODQ1MH0sIkJiQn
-pmUmVmZ1Awdmo4MkIiOnsiZGlzY3Vzc2lvbklkIjoiOG1UN3d1
-dDJnOVozNDFBTCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dC
-I6IllvdXR1YmUgdmlkZW8iLCJjcmVhdGVkIjoxNjg2NjU5NjY3
-Njg5fSwiYU9uNHpaYklCTG1sUHhtbyI6eyJkaXNjdXNzaW9uSW
-QiOiI4bVQ3d3V0Mmc5WjM0MUFMIiwic3ViIjoiZ2g6NDAzMDQ3
-ODgiLCJ0ZXh0IjoiU2VwZXJhdGUgcHJvamVjdGlvbnMiLCJjcm
-VhdGVkIjoxNjg2NjU5Njg1MDk3fSwiZG11akJRQ2NCajNHN1du
-YSI6eyJkaXNjdXNzaW9uSWQiOiI4bVQ3d3V0Mmc5WjM0MUFMIi
-wic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiR0lTIGRhdGEg
-dGhhdCB5b3UgZ2V0IGNvbWVzIHdpdGggc29tZSBDUlMsIGlmIH
-lvdSBkZWNpZGUgdG8gZG8gc29tZXRoaW5nIGluIHNvbWUgb3Ro
-ZXIgcHJvamVjdGlvbiwgeW91IGNhbiBkbyBzb21lIHRyYW5zZm
-9ybWF0aW9uLCBpdCByZXByb2plY3RzIHRoZSBjb29yZGluYXRl
-cyIsImNyZWF0ZWQiOjE2ODY2NTk4NTY2OTR9LCJyVUxHVUVMS3
-o5M3laM1J0Ijp7ImRpc2N1c3Npb25JZCI6IkNRQVdvU3lraG16
-N3hrM04iLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZG
-QgYSBzZWN0aW9uIGFib3V0IHJlcHJvamVjdGlvbiIsImNyZWF0
-ZWQiOjE2ODY2NTk5MDk2MzV9fSwiaGlzdG9yeSI6Wy0xOTA3ND
-Y2NTY4LDE4MDQ5NzAxMjAsMTEwNzA4MzMxMSwxMzAyNjU5Nzg3
-LDQ2OTQ4MDAxNywtNTExNzYwMjM1LC0yMDEwNTczMDI1LC0xMz
-c0NTQwMTEsLTI1NjAwNzI5NywxMzQzNTM3NTc3LC0xMDM1NzE4
-ODI1LDYwNzY3OTgsMTY3ODg0NzE4MCwxMDE0NjY3MDg5LDIwNj
-YyOTc3OTksLTEzNjgyOTMxMTMsLTE5Nzc3NDY0MzUsOTAwODkx
-ODE2XX0=
+eyJkaXNjdXNzaW9ucyI6eyJ6NkpsaERQVkZ6cW91ODJ1Ijp7In
+N0YXJ0IjoxMjIsImVuZCI6MTIyLCJ0ZXh0IjoiQ2hhdCBsaW5r
+OiJ9LCJlNGtvV2o5TVJlcnJVZ0V2Ijp7InN0YXJ0IjoxMjIsIm
+VuZCI6MTIyLCJ0ZXh0IjoiKEApIn0sIm1Yams3NlFrb3VyYXBx
+Um4iOnsic3RhcnQiOjUwNTYsImVuZCI6NTA5MCwidGV4dCI6Ii
+0gUmVhbCBsaWZlIGV4YW1wbGUgb2YgdmVjdG9yIGRhdGEifSwi
+T0JSOEt1djE0dkNyQVFMNCI6eyJzdGFydCI6NjE3OCwiZW5kIj
+o2MjEyLCJ0ZXh0IjoiLSBSZWFsIGxpZmUgZXhhbXBsZSBvZiB2
+ZWN0b3IgZGF0YSJ9LCI1c082Y3c0dGFSa3kwSXY3Ijp7InN0YX
+J0Ijo2OTU2LCJlbmQiOjcwMTksInRleHQiOiJIb3cgYW5kIHdo
+ZXJlIHRvIGZpbmQgc3BhdGlhbCBkYXRhIGlzIGRpc2N1c3NlZC
+BpbiBkZXRhaWwgaGVyZToifSwiYnlNdnhqbzBmSXlyWTROSiI6
+eyJzdGFydCI6ODE5OSwiZW5kIjo4MjIxLCJ0ZXh0IjoiIyMjIE
+dJUyBhbmFseXNpcyB0eXBlcyJ9LCJ6VDRWNUFGVjlnYVJTeENO
+Ijp7InN0YXJ0IjoxMTgzOSwiZW5kIjoxMTg0NywidGV4dCI6Im
+dvb2QgbWFwIn0sIjhLN1NGVFR1MTFUOUNBOVQiOnsic3RhcnQi
+OjEyNzY3LCJlbmQiOjEyODYyLCJ0ZXh0IjoiIyBUaW1lIHRvIG
+dldCB5b3VyIGhhbmRzIGRpcnR5ISBNb3ZlIG9uIHRvIHRoZSBD
+cmFzaCBDb3Vyc2UgZXhlcmNpc2UgdG8gZ2V0IHN0YeKApiJ9LC
+JrM0xsTExtSVZMb2NSZ25BIjp7InN0YXJ0IjoxMTgxMSwiZW5k
+IjoxMTgzMywidGV4dCI6IiMjIFdoYXQgaXMgYSBnb29kIG1hcD
+8ifSwiOG1UN3d1dDJnOVozNDFBTCI6eyJzdGFydCI6NzAyMiwi
+ZW5kIjo3MDgwLCJ0ZXh0IjoiIyMjIENvb3JkaW5hdGUgUmVmZX
+JlbmNlIFN5c3RlbXMgKENSUykgYW5kIG1hcCBwcm9qZWN0aW9u
+cyJ9LCJDUUFXb1N5a2htejd4azNOIjp7InN0YXJ0Ijo3NjI2LC
+JlbmQiOjc3MTMsInRleHQiOiIqKlRodXMsIGl0IGlzIGltcG9y
+dGFudCB0byBjaGVjayB0aGF0IHRoZSBsYXllcnMgYW5kIHRoZS
+Bwcm9qZWN0IGFyZSBpbiB0aGUgc2Ft4oCmIn19LCJjb21tZW50
+cyI6eyIxT2NBeDQxSWh0dHZrTWhTIjp7ImRpc2N1c3Npb25JZC
+I6Ino2SmxoRFBWRnpxb3U4MnUiLCJzdWIiOiJnaDo0MDMwNDc4
+OCIsInRleHQiOiJBZGQgbGluayIsImNyZWF0ZWQiOjE2ODYxMj
+M1NTczNTB9LCJMcFQzUkN0c29URFpoUXhoIjp7ImRpc2N1c3Np
+b25JZCI6ImU0a29XajlNUmVyclVnRXYiLCJzdWIiOiJnaDo0MD
+MwNDc4OCIsInRleHQiOiJBZGQgbmFtZXMiLCJjcmVhdGVkIjox
+Njg2MTIzNjExMDA3fSwiYk5PaVNVYTFocjFZQVpKYiI6eyJkaX
+NjdXNzaW9uSWQiOiJtWGprNzZRa291cmFwcVJuIiwic3ViIjoi
+Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcm
+VhdGVkIjoxNjg2MTI3MDMyMDc4fSwiOTdNUldHTmFPUk03bExs
+UCI6eyJkaXNjdXNzaW9uSWQiOiJPQlI4S3V2MTR2Q3JBUUw0Ii
+wic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1
+cmUiLCJjcmVhdGVkIjoxNjg2MTI3MDQ4OTY3fSwiYmVqTVA1VW
+pNRDBDMGIzRCI6eyJkaXNjdXNzaW9uSWQiOiI1c082Y3c0dGFS
+a3kwSXY3Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiTG
+luayB0byBhcnRpY2xlIiwiY3JlYXRlZCI6MTY4NjEzNjcxNzg1
+MX0sIlFOUnRSUnJLME1PWHhXT0IiOnsiZGlzY3Vzc2lvbklkIj
+oiYnlNdnhqbzBmSXlyWTROSiIsInN1YiI6ImdoOjQwMzA0Nzg4
+IiwidGV4dCI6IkluY2x1ZGUgZXhhbXBsZSBwaWN0dXJlcyIsIm
+NyZWF0ZWQiOjE2ODYxMzc4ODcxNzF9LCJzdEZiYW9VWXB2UnNY
+a2FtIjp7ImRpc2N1c3Npb25JZCI6InpUNFY1QUZWOWdhUlN4Q0
+4iLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgZXhh
+bXBsZSB3aXRoIHBvaW50ZXJzIiwiY3JlYXRlZCI6MTY4NjEzOD
+QyMjU3OH0sIktMbjhGUnRDY3FoVmlOUEciOnsiZGlzY3Vzc2lv
+bklkIjoiOEs3U0ZUVHUxMVQ5Q0E5VCIsInN1YiI6ImdoOjQwMz
+A0Nzg4IiwidGV4dCI6IkFkZCBsaW5rIHRvIGV4ZXJjaXNlIiwi
+Y3JlYXRlZCI6MTY4NjEzODU0OTEzOX0sIjdla0R4dWxhOFpSZz
+N6Y0IiOnsiZGlzY3Vzc2lvbklkIjoiYnlNdnhqbzBmSXlyWTRO
+SiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFuZCBsaW
+5rcyIsImNyZWF0ZWQiOjE2ODY0ODMxMjk0NTN9LCJLVjdZQjI0
+NHZSQXZmeTg2Ijp7ImRpc2N1c3Npb25JZCI6ImszTGxMTG1JVk
+xvY1JnbkEiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJD
+b2xvciBicmV3ZXIsIG1ha2UgYSBiYWQgbWFwLCBtYWtlIGEgZ2
+9vZCBtYXAiLCJjcmVhdGVkIjoxNjg2NjU5NDY4NDUwfSwiQmJC
+emZSZWZnUDB2ajgyQiI6eyJkaXNjdXNzaW9uSWQiOiI4bVQ3d3
+V0Mmc5WjM0MUFMIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0
+IjoiWW91dHViZSB2aWRlbyIsImNyZWF0ZWQiOjE2ODY2NTk2Nj
+c2ODl9LCJhT240elpiSUJMbWxQeG1vIjp7ImRpc2N1c3Npb25J
+ZCI6IjhtVDd3dXQyZzlaMzQxQUwiLCJzdWIiOiJnaDo0MDMwND
+c4OCIsInRleHQiOiJTZXBlcmF0ZSBwcm9qZWN0aW9ucyIsImNy
+ZWF0ZWQiOjE2ODY2NTk2ODUwOTd9LCJkbXVqQlFDY0JqM0c3V2
+5hIjp7ImRpc2N1c3Npb25JZCI6IjhtVDd3dXQyZzlaMzQxQUwi
+LCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJHSVMgZGF0YS
+B0aGF0IHlvdSBnZXQgY29tZXMgd2l0aCBzb21lIENSUywgaWYg
+eW91IGRlY2lkZSB0byBkbyBzb21ldGhpbmcgaW4gc29tZSBvdG
+hlciBwcm9qZWN0aW9uLCB5b3UgY2FuIGRvIHNvbWUgdHJhbnNm
+b3JtYXRpb24sIGl0IHJlcHJvamVjdHMgdGhlIGNvb3JkaW5hdG
+VzIiwiY3JlYXRlZCI6MTY4NjY1OTg1NjY5NH0sInJVTEdVRUxL
+ejkzeVozUnQiOnsiZGlzY3Vzc2lvbklkIjoiQ1FBV29TeWtobX
+o3eGszTiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFk
+ZCBhIHNlY3Rpb24gYWJvdXQgcmVwcm9qZWN0aW9uIiwiY3JlYX
+RlZCI6MTY4NjY1OTkwOTYzNX19LCJoaXN0b3J5IjpbNjQ1MjIy
+MzQ3LC0xOTA3NDY2NTY4LDE4MDQ5NzAxMjAsMTEwNzA4MzMxMS
+wxMzAyNjU5Nzg3LDQ2OTQ4MDAxNywtNTExNzYwMjM1LC0yMDEw
+NTczMDI1LC0xMzc0NTQwMTEsLTI1NjAwNzI5NywxMzQzNTM3NT
+c3LC0xMDM1NzE4ODI1LDYwNzY3OTgsMTY3ODg0NzE4MCwxMDE0
+NjY3MDg5LDIwNjYyOTc3OTksLTEzNjgyOTMxMTMsLTE5Nzc3ND
+Y0MzUsOTAwODkxODE2XX0=
 -->
