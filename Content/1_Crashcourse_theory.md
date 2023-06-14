@@ -22,7 +22,7 @@ These are just a few examples of the diverse applications of GIS. This course is
 
 PPDAC is a problem-solving framework commonly used in the field of data analysis and decision-making. It stands for Problem, Plan, Data, Analysis, and Conclusion. This framework provides a systematic approach to tackle complex problems and make informed decisions based on data-driven analysis. While PPDAC is not specifically tied to Geographic Information Systems (GIS), it can be applied within a GIS context to enhance the problem-solving process.
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/GIS_PPDAC_v2.drawio.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Theory/GIS_PPDAC_v2.drawio.png)
 By following the PPDAC framework, you can ensure a structured and systematic approach to problem-solving within the GIS domain. It helps in organizing your thoughts, guiding your analysis, and ensuring that your conclusions are based on robust data analysis.
 
 For more information about the PPDAC Model: http://wiki.gis.com/wiki/index.php/PPDAC_Model
@@ -30,7 +30,7 @@ For more information about the PPDAC Model: http://wiki.gis.com/wiki/index.php/P
 ### Spatial data
 Spatial data refers to **information that is associated with specific locations or geographic extents**. Vector and raster data are the two fundamental types of spatial data used in Geographic Information Systems (GIS) to represent and analyze spatial information.
 
-![enter image description here](https://cdn.mindspritesolutions.com/onestopgis/GIS-Theory-and-Techniques/Raster-Data-Analysis/Comparison-of-Vector-and-Raster-based-Data-Analysis/posts/Comparison-of-Vector-and-Raster-Based-Data-Analysis/Figure-shows-comparison-of-Vector-and-Raster.webp)
+![](https://cdn.mindspritesolutions.com/onestopgis/GIS-Theory-and-Techniques/Raster-Data-Analysis/Comparison-of-Vector-and-Raster-based-Data-Analysis/posts/Comparison-of-Vector-and-Raster-Based-Data-Analysis/Figure-shows-comparison-of-Vector-and-Raster.webp)
 
 1. **Vector data** provides a way to represent real world features within the GIS environment. A feature is anything you can see on the landscape. Imagine you are standing on the top of a hill. Looking down you can see houses, roads, trees, rivers, and so on. Each one of these things would be a **feature** when we represent them in a GIS Application. Vector features have **attributes**, which consist of text or numerical information that **describe** the features[^1].  Types of vector data include:
 	-  Points: Represent specific locations in space, such as the coordinates of a city or a landmark.
@@ -60,7 +60,7 @@ How and where to find spatial data is discussed in detail here:
 ### Coordinate Reference Systems (CRS) and map projections
 The basic idea of projection is to project the shape of the earth, or a specific area, onto a flat plane like a map. Due to the original shape of the earth, a rough sphere, we will always get some kind of distortion when we project it onto a flat plane. This is shown well here: https://unchartedterritories.tomaspueyo.com/p/maps-distort-how-we-see-the-world 
 
-![enter image description here](https://upload.wikimedia.org/wikipedia/commons/e/ee/Worlds_animate.gif)
+![](https://upload.wikimedia.org/wikipedia/commons/e/ee/Worlds_animate.gif)
 
 Coordinate Reference Systems (CRS) are frameworks that define how geographic locations are represented and referenced in a coordinate system. There are different CRS which use different Earth shape models and projection methods. The specific CRS used is often depending on the region where the data is located. When we are working with different kind of data, it is common that we have layers that are in different CRS. **Thus, it is important to check that the layers and the project are in the same CRS!** Most GIS data that we get comes with some CRS, if we decide to do something in some other projection, you can do reproject data into a different CRS. We will go into this 
 
@@ -119,7 +119,7 @@ Important to keep in mind is that: **maps are images that inherently selective a
 
 Another important thing to keep in mind is to **make your maps accessible to all readers, including those who have some form of color blindness**. This is relatively simple, since QGIS already has a tool build-in to simulate a few color blind examples:
 
-![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Theory/1_CrashCourse_theory_QGIS_color_blindness.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Theory/1_CrashCourse_theory_QGIS_color_blindness.png)
 
 You can get color advice for your maps here: https://colorbrewer2.org/ 
 
@@ -134,20 +134,20 @@ YXRhIiwic3RhcnQiOjE0MDgsImVuZCI6MTQ0Mn0sIk9CUjhLdX
 YxNHZDckFRTDQiOnsidGV4dCI6Ii0gUmVhbCBsaWZlIGV4YW1w
 bGUgb2YgdmVjdG9yIGRhdGEiLCJzdGFydCI6MjUzMCwiZW5kIj
 oyNTY0fSwiYnlNdnhqbzBmSXlyWTROSiI6eyJ0ZXh0IjoiIyMj
-IEdJUyBhbmFseXNpcyB0eXBlcyIsInN0YXJ0Ijo1MzMzLCJlbm
-QiOjUzNTV9LCJ6VDRWNUFGVjlnYVJTeENOIjp7InRleHQiOiJn
-b29kIG1hcCIsInN0YXJ0Ijo5NzU2LCJlbmQiOjk3NjR9LCI4Sz
+IEdJUyBhbmFseXNpcyB0eXBlcyIsInN0YXJ0Ijo1MzI2LCJlbm
+QiOjUzNDh9LCJ6VDRWNUFGVjlnYVJTeENOIjp7InRleHQiOiJn
+b29kIG1hcCIsInN0YXJ0Ijo5NzIxLCJlbmQiOjk3Mjl9LCI4Sz
 dTRlRUdTExVDlDQTlUIjp7InRleHQiOiIjIFRpbWUgdG8gZ2V0
 IHlvdXIgaGFuZHMgZGlydHkhIE1vdmUgb24gdG8gdGhlIENyYX
 NoIENvdXJzZSBleGVyY2lzZSB0byBnZXQgc3Rh4oCmIiwic3Rh
-cnQiOjExMTg5LCJlbmQiOjExMjg0fSwiN2Ezak9RWElCbDM4U2
+cnQiOjExMTU0LCJlbmQiOjExMjQ5fSwiN2Ezak9RWElCbDM4U2
 ZaYiI6eyJ0ZXh0Ijoic2F0ZWxsaXRlIiwic3RhcnQiOjM4Mywi
 ZW5kIjozOTJ9LCJscWtuVGlzNEc2RGJpcWRYIjp7InRleHQiOi
 Jwb2ludHMiLCJzdGFydCI6MTEyMSwiZW5kIjoxMTI3fSwibEVF
 cVo4Qk4yTW1ZSWpJaCI6eyJ0ZXh0IjoibGluZXMiLCJzdGFydC
 I6MTI5NCwiZW5kIjoxMjk5fSwiSm5CaTc2TnlrNEl4ako5SyI6
-eyJ0ZXh0Ijoid29ybCIsInN0YXJ0Ijo4OTI1LCJlbmQiOjg5Mj
-l9fSwiY29tbWVudHMiOnsiYk5PaVNVYTFocjFZQVpKYiI6eyJk
+eyJ0ZXh0Ijoid29ybCIsInN0YXJ0Ijo4ODkwLCJlbmQiOjg4OT
+R9fSwiY29tbWVudHMiOnsiYk5PaVNVYTFocjFZQVpKYiI6eyJk
 aXNjdXNzaW9uSWQiOiJtWGprNzZRa291cmFwcVJuIiwic3ViIj
 oiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJj
 cmVhdGVkIjoxNjg2MTI3MDMyMDc4fSwiOTdNUldHTmFPUk03bE
@@ -184,5 +184,5 @@ LCJjcmVhdGVkIjoxNjg2NzI0NTU4NjM0fSwiU3V2NlBCYnJUdm
 JSb0U3VyI6eyJkaXNjdXNzaW9uSWQiOiJKbkJpNzZOeWs0SXhq
 SjlLIiwic3ViIjoiZ2g6MjIxNjgxNTciLCJ0ZXh0Ijoid29yaz
 8iLCJjcmVhdGVkIjoxNjg2NzI0NzI5MjQyfX0sImhpc3Rvcnki
-OlstMTg2ODI0OTI0NCw3MzM3Mzg1MDBdfQ==
+Ols0MjI1OTgzMTYsLTE4NjgyNDkyNDRdfQ==
 -->
