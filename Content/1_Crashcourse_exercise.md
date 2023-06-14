@@ -139,7 +139,7 @@ For a start, take your time to move around and get acquainted with the basic too
 Managing the **layers** is key in GIS. Right now, the added layers are arbitrarily symbolized and ordered, and do not come out very useful or informative. Thus, we need to get our hands dirty.
 
  1.  Start by **changing the order of the layers** by dragging them in the layers panel on the left side of the map view. A good order, for example, can be as follows from top to bottom: HSL_Helsinki_stops, Helsinki_buildings, Waterbodies, Helsinki_small_areas and Helsinki_Municipality.
- 2.  You can also **change the visibility of the layers** by checking or unchecking the tick boxes next to the layer name or by adjusting **transparency**. The latter can be done under the *Style* tab in the *Layer properties* window, which can be accessed by right-clicking on the layer name and selecting *Properties*. This is also where you can change other style properties such as **symbol size and color**, **layer rendering** or create e.g. **choropleth maps** (we will look into these in more detail later on.
+ 2.  You can also **change the visibility of the layers** by checking or unchecking the tick boxes next to the layer name or by adjusting **transparency**. The latter can be done under the *Style* tab in the *Layer properties* window, which can be accessed by right-clicking on the layer name and selecting *Properties*. This is also where you can change other style properties such as **symbol size and color**, **layer rendering** or create e.g. **choropleth maps** (we will look into these in more detail later on).
  
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_layers.png)
  In addition to editing a layer’s style properties, the Layer properties window can also be used for e.g. examining the **layer’s general information** such as its coordinate system and source, adding **labels** to the map as well as managing **joins** and layer **metadata**.
@@ -307,5 +307,5 @@ siZGlzY3Vzc2lvbklkIjoiZFp0YTIyT2FXampxaVB6TSIsInN1
 YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBvdmVydmlldy
 BvZiB3aGVyZSB0byBmaW5kIGFsbCB0aGUgdG9vbHMgYW5kIHRv
 b2xiYXJzIiwiY3JlYXRlZCI6MTY4NjExNDE3NDc3MX19LCJoaX
-N0b3J5IjpbMjAxNjQzNDE4NSwxMDA3OTc3MTYxXX0=
+N0b3J5IjpbMjEzMDIxNTQ3MCwyMDE2NDM0MTg1XX0=
 -->
