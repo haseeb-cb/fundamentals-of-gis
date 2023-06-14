@@ -71,7 +71,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 7. When you are finished adding reference points, you can now perform the georeferencing calculation for the image.
 
-	- Press the *Settings* button ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/QGIS_georeferencer_settings.png) on the *Georeferencer* menu, and set the *Transformation type* to *Projective*, set the *Target SRS* to the *Project CRS*, give your *Output Raster* an informative name (e.g. arena_plan_modified), and save it in your folder. The *Transformation type* describes the type of mathematical algorithm used to modify (like rotate, twist, skew) the raster. Press OK.
+	- Press the *Settings* button ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/QGIS_georeferencer_settings.png) on the *Georeferencer* menu, and set the *Transformation type* to *Projective*, set the *Target SRS* to the *Project CRS*, give your *Output Raster* an informative name (e.g. arena_plan_modified), and save it in your folder. The *Transformation type* describes the type of mathematical algorithm used to modify (like rotate, twist, skew) the raster. Press OK.
 
 	- Press the *Run* arrow in the *Georeferencer* menu, and the georeferencing will start. It will show you the progress on the georeferencing.
 
@@ -172,13 +172,13 @@ So, the tampere_buildings data is old and we need to update it – there are now
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJrZG44NXZQZ2xEVEdlVnV4Ijp7In
 N0YXJ0Ijo2NjAsImVuZCI6NjY5LCJ0ZXh0IjoiRGF0YSB1c2Vk
-In0sIk9IVzh1NFdqVmNaTzBmcDUiOnsic3RhcnQiOjgwNzQsIm
-VuZCI6ODEzNCwidGV4dCI6IiFbXShodHRwczovL2RvY3MucWdp
+In0sIk9IVzh1NFdqVmNaTzBmcDUiOnsic3RhcnQiOjgwNzUsIm
+VuZCI6ODEzNSwidGV4dCI6IiFbXShodHRwczovL2RvY3MucWdp
 cy5vcmcvMy4yOC9lbi9faW1hZ2VzL21BY3Rpb25TZWxlY3QucG
-5nKSJ9LCJWRlBxUTdrblBiNlpoaGRYIjp7InN0YXJ0Ijo4NjA4
-LCJlbmQiOjg2MjksInRleHQiOiIqQWRkIFBvbHlnb24gRmVhdH
+5nKSJ9LCJWRlBxUTdrblBiNlpoaGRYIjp7InN0YXJ0Ijo4NjA5
+LCJlbmQiOjg2MzAsInRleHQiOiIqQWRkIFBvbHlnb24gRmVhdH
 VyZSoifSwiYTNFaWVsWGFrZGdjWDhOeSI6eyJzdGFydCI6MTEz
-MjcsImVuZCI6MTE1MTksInRleHQiOiItIFVzaW5nIHRoZSAqSW
+MjgsImVuZCI6MTE1MjAsInRleHQiOiItIFVzaW5nIHRoZSAqSW
 RlbnRpZnkgZmVhdHVyZXMqIHRvb2wsIGNsaWNrIG9uIGEgbGlu
 ZSBmZWF0dXJlIGluIHRoZSB0YW1wZXJlX3Jv4oCmIn0sImExMm
 RLR3llWVAzdExsWEQiOnsic3RhcnQiOjY3NCwiZW5kIjo2ODQs
@@ -203,6 +203,6 @@ VzIiwiY3JlYXRlZCI6MTY4NjI4OTE5NTY5OX0sImZZMmRVc212
 MjJWWnQwMHYiOnsiZGlzY3Vzc2lvbklkIjoiYTEyZEtHeWVZUD
 N0TGxYRCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Ildy
 aXRlIHRoaXMgb3V0IGZ1cnRoZXIiLCJjcmVhdGVkIjoxNjg2ND
-c2MzYwOTc2fX0sImhpc3RvcnkiOlstMjEzNDU4ODA3OCwtODE2
+c2MzYwOTc2fX0sImhpc3RvcnkiOlstMjE0NjkxMDU4NiwtODE2
 MjQyODAxXX0=
 -->
