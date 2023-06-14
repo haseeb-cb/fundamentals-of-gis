@@ -181,13 +181,13 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	 7. Finally, click the *Save Edits* button ![](https://docs.qgis.org/3.28/en/_images/mActionSaveEdits.png) and disable *Editing* mode ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png) to make the changes permanent
 
  7.  **Using the field we just created in the attribute table, explore the small areas of Helsinki**, which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_select_by_expression1.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_select_by_expression1.png)
  
 	 1. Open the *Field and Values* drop-down menu, which will show all the attribute fields
 	 2. Double-click on the area field you made earlier (Area_km2)
 	 3. Type "< 5" to the right of the field in the text field
 	 4. Click *Select features*
-	![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_select_by_expression.png)
+	![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_select_by_expression.png)
 Your selection now includes all the areas under 5 square kilometers in this layer, with selected objects shown in **yellow in on the map** and **blue on the attribute table**.
 	Examples of ofther expressions include:
  -  "Area_km2" = 5, select the features the area of which is exactly 5 square meters
@@ -200,7 +200,7 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 	1. Check if the *Processing Toolbox* is active in the top right of the main QGIS window, if not open it by selecting *Processing* > *Toolbox* from the top of the window
 	2. Type “Join attributes by location” into the search bar. Select the one that has (Summary) after it.
 	- Read the information about this function, what do you think it does? 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_join_attributes_by_location.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_join_attributes_by_location.png)
 	3. The parameter window for the algorithm opens and here you have to specify what the algorithm does and with what data
 	4. Set the follow values:
 	- *Base layer*: Helsinki_small_areas
@@ -209,7 +209,7 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 	-  *Field to summarise*: Boardings
 	- *Summaries to calculate*: *Sum*
 	- *Discard records which could not be joined*: Yes
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_join_attributes_by_location1.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_join_attributes_by_location1.png)
 	5. Click *Run*
 	6. A new temporary layer, Joined Layer, was created in the *Layers Panel* and by opening its *attribute table* you should see it’s similar to the Helsinki_small_areas *attribute table*, but with a new field, "Boardings_sum", which is the sum of all the passengers from every bus and train stop within that particular small area of Helsinki.
 	7. Right-click the Joined Layer and select *Make permanent* to save the temporary scratch layer for further processing
@@ -223,7 +223,7 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 		3. Then you must enter the calculation into the Expression field, you can either use the drop-down menus (Fields and values) or simply type it in. The calculation should be similar to this (change if your fields are named differently): "Boardings_sum" / "Area_km2"
 		4. Click OK. Remember to *Save edits* and *Disable editing mode*.
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/QGIS_attribute_table.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_attribute_table.png)
 
 10.  Head to the layer’s *symbology* tab and select **Graduated** from the drop-down menu. **Select the PassArea column as the data source and press Classify**. Try out different classification methods, what are their differences and which do you think is best for this purpose? Choose which you think is best and visualize the data as desired. You can edit the class bounds and the legend values manually by double clicking on them. Which areas are the most passenger heavy and which are not? Why?
 
@@ -318,6 +318,6 @@ bWVyIGF0IHRoZSBiZWdpbm5pbmcgdG8gc2F5IHRoYXQgdGhlIG
 luc3RydWN0aW9ucyBhcmUgZm9yIHdpbmRvd3MsIG1hYyB3aWxs
 IG1vc3RseSBiZSB0aGUgc2FtZSBidXQgbWF5IGxvb2sgYSBsaX
 R0bGUgZGlmZmVyZW50PyIsImNyZWF0ZWQiOjE2ODY3MjU1MjI0
-ODR9fSwiaGlzdG9yeSI6Wy0xNTMzMDc2NzA1LC05NzQ2NzY3OT
-ldfQ==
+ODR9fSwiaGlzdG9yeSI6WzY0MTg3Mzk0MywtMTUzMzA3NjcwNV
+19
 -->
