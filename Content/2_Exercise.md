@@ -75,12 +75,12 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 	- Press the *Run* arrow in the *Georeferencer* menu, and the georeferencing will start. It will show you the progress on the georeferencing.
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/Exercise1_figure3.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/Exercise1_figure3.png)
 
 8. Once the calculation is complete, close the *Georeferencer* window (there is no need to save the GCP Points). The new raster that has been georeferenced is saved and you will need add it to your QGIS map now (Hint: Use the Data Source Manager and add it as a raster instead of a vector) . Once its been added, you can drag it below the building, road, and railway layers to see how it fits. Now would be a good time to save your QGIS project again.
 	- Check whether the plans line up with the buildings layer (it doesn't have to be perfect for this exercise)! If it doesn't retry the georeferencing with more points and more spacing between them
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/Exercise1_figure4.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/Exercise1_figure4.png)
 
 ---
 
@@ -92,7 +92,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 11. Click on the tampere_buildings layer in the layers panel to highlight it, then toggle editing on ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png)  in the *Digitizing Toolbar*.
 
-![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/Exercise1_figure5.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/Exercise1_figure5.png)
 
 12. First, let’s remove a building that no longer exists. There is one building at the south of the arena that has been demolished .
 
@@ -102,7 +102,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 	- Press *Delete* on your keyboard. The building is now deleted.
 
-![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/Exercise1_figure6.png)
+![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/Exercise1_figure6.png)
 
 13. Now, let’s add some new buildings to the layer.
 	
@@ -112,7 +112,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 	
 	- When you are finished adding the new buildings, press the *Save* symbol in the Digitizing Toolbar, and toggle off *editing*.
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/Exercise1/Exercise1_figure8.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/Exercise1_figure7.png)
 
 ---
 
@@ -172,13 +172,13 @@ So, the tampere_buildings data is old and we need to update it – there are now
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJrZG44NXZQZ2xEVEdlVnV4Ijp7In
 N0YXJ0Ijo2NjAsImVuZCI6NjY5LCJ0ZXh0IjoiRGF0YSB1c2Vk
-In0sIk9IVzh1NFdqVmNaTzBmcDUiOnsic3RhcnQiOjgwOTksIm
-VuZCI6ODE1OSwidGV4dCI6IiFbXShodHRwczovL2RvY3MucWdp
+In0sIk9IVzh1NFdqVmNaTzBmcDUiOnsic3RhcnQiOjgwNzQsIm
+VuZCI6ODEzNCwidGV4dCI6IiFbXShodHRwczovL2RvY3MucWdp
 cy5vcmcvMy4yOC9lbi9faW1hZ2VzL21BY3Rpb25TZWxlY3QucG
-5nKSJ9LCJWRlBxUTdrblBiNlpoaGRYIjp7InN0YXJ0Ijo4NjMy
-LCJlbmQiOjg2NTMsInRleHQiOiIqQWRkIFBvbHlnb24gRmVhdH
+5nKSJ9LCJWRlBxUTdrblBiNlpoaGRYIjp7InN0YXJ0Ijo4NjA4
+LCJlbmQiOjg2MjksInRleHQiOiIqQWRkIFBvbHlnb24gRmVhdH
 VyZSoifSwiYTNFaWVsWGFrZGdjWDhOeSI6eyJzdGFydCI6MTEz
-NDksImVuZCI6MTE1NDEsInRleHQiOiItIFVzaW5nIHRoZSAqSW
+MjYsImVuZCI6MTE1MTgsInRleHQiOiItIFVzaW5nIHRoZSAqSW
 RlbnRpZnkgZmVhdHVyZXMqIHRvb2wsIGNsaWNrIG9uIGEgbGlu
 ZSBmZWF0dXJlIGluIHRoZSB0YW1wZXJlX3Jv4oCmIn0sImExMm
 RLR3llWVAzdExsWEQiOnsic3RhcnQiOjY3NCwiZW5kIjo2ODQs
@@ -203,6 +203,6 @@ VzIiwiY3JlYXRlZCI6MTY4NjI4OTE5NTY5OX0sImZZMmRVc212
 MjJWWnQwMHYiOnsiZGlzY3Vzc2lvbklkIjoiYTEyZEtHeWVZUD
 N0TGxYRCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Ildy
 aXRlIHRoaXMgb3V0IGZ1cnRoZXIiLCJjcmVhdGVkIjoxNjg2ND
-c2MzYwOTc2fX0sImhpc3RvcnkiOlstOTExODg4MDg4LC04MTYy
-NDI4MDFdfQ==
+c2MzYwOTc2fX0sImhpc3RvcnkiOls5MDM5MDA5ODMsLTgxNjI0
+MjgwMV19
 -->
