@@ -38,6 +38,7 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 - Figure 1
 
 5. Often the data sets that you want to work with will not come as spatial data sets. They might come, for ex-ample, from observations during field work that you record in a spreadsheet. In this step we will add a table of data that contains fields with the latitude and longitude coordinates of the deaths addresses we want to analyze. In our case, this data comes in a comma-separated values (CSV) file, or a text file that uses a comma to separate values.
+	
 	- First let’s look at the file with the deaths data in it. If you double-click it in the folder you saved the file in, it should open in Excel or as a text file, and you will see that it has an ID column (OB-JECTID), the number of cases (Num_Cases ), an Address Column (Address), x coordinates (xcoord), and y coordinates (ycoord). These coordinates are helpful, as they let us import the data into GIS.
 	- In QGIS, go to Layer -> Add Layer -> Add Delimited Text Layer 
 	- Under File name, browse for the deathAddresses.csv file and select Open.
@@ -50,6 +51,7 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 - Figure 2
 
 6. We have now added the addresses where there were cholera deaths, but it is in a global coordinate system, and this can cause some problems in our analysis because it is in a different coordinate system that the other data that we are going to use. Let’s reproject it to the same as the study area bounding box -EPSG:32630 UTM.
+	
 	- In the Processing Toolbox, search for Reproject and open the Reproject layer tool b) Choose deathAddresses.csv as the Input layer
 	- Set the Target CRS as the Project CRS: EPSG:32630 UTM – WGS 84 / UTM zone 30N d) Save it as a new layer, deaths_locations.shp in your file directory
 	- Press Run
@@ -57,11 +59,22 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 - Figure 3
 
 7. Let’s now change the symbology of the deaths_locations layer to identify addresses that had multiple deaths (Figure 3). 
+	
 	- Remove the original deathsAddresses csv layer by right-clicking it and selecting Remove Layer b) Right-click the new reprojected deaths_locations layer, and choose Properties and go to the Sym-bology tab.
 	- Make the Symbol Graduated and the Value Num_Cases
 	- Change the Method to Size. Rather than changing the colour of the symbol based on the number of cases, this will change the size of the symbol. Make the Size from 10 to 30 Map Units
 	- Make the Classification Mode Natural Breaks with three classes and choose Classify
 	- Press Ok.
+
+- Figure 4
+
+8. We now have the locations of the deaths overlaid on top of a Google image of modern London. But, things have changed a little bit in this area of London since the outbreak. Let’s bring in an old map of the area. 
+	
+	- Import the raster Snow-cholera-map-1_modified.tif, which is an old streetmap of the area.
+	- Drag the old streetmap to be on top of the Google map and below the deaths and study area boundary layers. 
+	- Right-click Snow-cholera-map-1_modified.tif and choose Properties. Under the Transparency tab, choose 65% and press Ok. This makes the raster slightly transparent, so you can also see the more modern city underneath.
+
+- Figure 5 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJ4MTV3V05CSzZKRHc3Vml2Ijp7In
 N0YXJ0IjoxOTk1LCJlbmQiOjIwMTQsInRleHQiOiIjIyBEQVRB
@@ -71,29 +84,34 @@ RVRJT04ifSwid1BiRHU5QUlWN2kyemt1dyI6eyJzdGFydCI6Mj
 QxNywiZW5kIjoyNDMwLCJ0ZXh0IjoiZ2VvcmVmZXJlbmNlZCJ9
 LCJvbnVZNmdaUHVLWnFPMnk2Ijp7InN0YXJ0IjozMTkwLCJlbm
 QiOjMyMDAsInRleHQiOiItIEZpZ3VyZSAxIn0sInpURFRhd21H
-N2ZhdnZZS3oiOnsic3RhcnQiOjQ3NTAsImVuZCI6NDc2MCwidG
+N2ZhdnZZS3oiOnsic3RhcnQiOjQ3NTIsImVuZCI6NDc2MiwidG
 V4dCI6Ii0gRmlndXJlIDIifSwiQXhISWQ3dXRERktIaGtyMCI6
-eyJzdGFydCI6NTM5MSwiZW5kIjo1NDAxLCJ0ZXh0IjoiLSBGaW
-d1cmUgMyJ9fSwiY29tbWVudHMiOnsiR25kUjNoeGhkcXY5bkhy
-MSI6eyJkaXNjdXNzaW9uSWQiOiJ4MTV3V05CSzZKRHc3Vml2Ii
-wic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rp
-b24iLCJjcmVhdGVkIjoxNjg2NzI3MzczMzgwfSwidFl3R3hidE
-dadjhHRFNlaSI6eyJkaXNjdXNzaW9uSWQiOiI2dUV0MTZFd1Vz
-TUkxRnNEIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQW
-RkIHNlY3Rpb24iLCJjcmVhdGVkIjoxNjg2NzI3Mzc4Nzk2fSwi
-ZkJqazNsV2ZPMXpPUWxwdSI6eyJkaXNjdXNzaW9uSWQiOiJ3UG
-JEdTlBSVY3aTJ6a3V3Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0
-ZXh0IjoiTGV0IHN0dWRlbnRzIGRvIHRoaXM/IiwiY3JlYXRlZC
-I6MTY4NjcyNzU2NzEwOH0sIlV6WnVscEpveVR1ZXpwS0IiOnsi
-ZGlzY3Vzc2lvbklkIjoib251WTZnWlB1S1pxTzJ5NiIsInN1Yi
-I6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwi
-Y3JlYXRlZCI6MTY4NjcyNzcyMDk4OX0sImdVZGM5ajhVeU1aSE
-lXUTkiOnsiZGlzY3Vzc2lvbklkIjoielREVGF3bUc3ZmF2dllL
-eiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaW
-N0dXJlIiwiY3JlYXRlZCI6MTY4NjcyODE1NzE4OX0sImFpR3N6
-ZkRtT01rT29EbjMiOnsiZGlzY3Vzc2lvbklkIjoiQXhISWQ3dX
-RERktIaGtyMCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
-IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NjcyODE2OTc0OH
-19LCJoaXN0b3J5IjpbLTc1ODc5Mzg4MCw1NDkxOTIwNjYsMTI3
-OTEyNTQ5OV19
+eyJzdGFydCI6NTM5NSwiZW5kIjo1NDA1LCJ0ZXh0IjoiLSBGaW
+d1cmUgMyJ9LCJLTlplRHVqbEZZdnR3MDNLIjp7InN0YXJ0Ijo2
+MDc5LCJlbmQiOjYwODksInRleHQiOiItIEZpZ3VyZSA0In19LC
+Jjb21tZW50cyI6eyJHbmRSM2h4aGRxdjluSHIxIjp7ImRpc2N1
+c3Npb25JZCI6IngxNXdXTkJLNkpEdzdWaXYiLCJzdWIiOiJnaD
+o0MDMwNDc4OCIsInRleHQiOiJBZGQgc2VjdGlvbiIsImNyZWF0
+ZWQiOjE2ODY3MjczNzMzODB9LCJ0WXdHeGJ0R1p2OEdEU2VpIj
+p7ImRpc2N1c3Npb25JZCI6IjZ1RXQxNkV3VXNNSTFGc0QiLCJz
+dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgc2VjdGlvbi
+IsImNyZWF0ZWQiOjE2ODY3MjczNzg3OTZ9LCJmQmprM2xXZk8x
+ek9RbHB1Ijp7ImRpc2N1c3Npb25JZCI6IndQYkR1OUFJVjdpMn
+prdXciLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJMZXQg
+c3R1ZGVudHMgZG8gdGhpcz8iLCJjcmVhdGVkIjoxNjg2NzI3NT
+Y3MTA4fSwiVXpadWxwSm95VHVlenBLQiI6eyJkaXNjdXNzaW9u
+SWQiOiJvbnVZNmdaUHVLWnFPMnk2Iiwic3ViIjoiZ2g6NDAzMD
+Q3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjox
+Njg2NzI3NzIwOTg5fSwiZ1VkYzlqOFV5TVpISVdROSI6eyJkaX
+NjdXNzaW9uSWQiOiJ6VERUYXdtRzdmYXZ2WUt6Iiwic3ViIjoi
+Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcm
+VhdGVkIjoxNjg2NzI4MTU3MTg5fSwiYWlHc3pmRG1PTWtPb0Ru
+MyI6eyJkaXNjdXNzaW9uSWQiOiJBeEhJZDd1dERGS0hoa3IwIi
+wic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1
+cmUiLCJjcmVhdGVkIjoxNjg2NzI4MTY5NzQ4fSwiR3Bsb3h1dH
+BJYmUxTnlOZyI6eyJkaXNjdXNzaW9uSWQiOiJLTlplRHVqbEZZ
+dnR3MDNLIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQW
+RkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2NzI4MjI4ODI5fX0s
+Imhpc3RvcnkiOlstMzEzOTQ2MzI1LDU0OTE5MjA2NiwxMjc5MT
+I1NDk5XX0=
 -->
