@@ -38,11 +38,11 @@ When some kind of urban development happens, the data we use in GIS needs to upd
 
 For this practice we are going to use the Nokia Arena development in Tampere, as you can see below, there have been a significant amount of changes with this project.
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_Theory/GIS_theory1_example.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Theory/GIS_theory1_example.png)
 
 And if we look at the data set we are working with, you can see that some of the demolished buildings are still present and new buildings lacking. 
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_Theory/QGIS_theory1_nokia_outdated.png)
+![](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Assets/2_Theory/QGIS_theory1_nokia_outdated.png)
 
 In practice, updating this new development would consist of removing the old buildings from the data, and digitizing the new buildings, which would mean making new buildings in the data by **tracing** the buildings from some kind of reference picture. 
 
@@ -70,5 +70,5 @@ VzIGZvciB5b3VyIHVzZToifX0sImNvbW1lbnRzIjp7Imh3eUI5
 c1duS3FveThyRlciOnsiZGlzY3Vzc2lvbklkIjoib0phTkpWcG
 ExQng0ZndraSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
 IkFkZCBsaW5rIiwiY3JlYXRlZCI6MTY4NjMwMzgxMTk1NX19LC
-JoaXN0b3J5IjpbLTMyOTE5NTYwNl19
+JoaXN0b3J5IjpbLTYxMDM4OTA5OF19
 -->
