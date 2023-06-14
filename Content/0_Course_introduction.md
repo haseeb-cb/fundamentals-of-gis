@@ -50,16 +50,22 @@ If you ever have a question or run in to an issue along this course, please foll
 	- Chat link: 
 5.  If at this point you still have not found a resolution, mention the **teachers** in the channel (@)
 
-
-
 Following this process will help you **develop the independent troubleshooting skills** you will need when you use GIS on your own. 
-hic Information Systems (GIS)
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJyVXo5SGtTRnVBOXByQzV2Ijp7In
-N0YXJ0IjoyMDI0LCJlbmQiOjIwMjUsInRleHQiOiJYIn19LCJj
-b21tZW50cyI6eyJmMW11amhhZUpybktqeE9MIjp7ImRpc2N1c3
-Npb25JZCI6InJVejlIa1NGdUE5cHJDNXYiLCJzdWIiOiJnaDo0
-MDMwNDc4OCIsInRleHQiOiJBZGQgbnVtYmVyIiwiY3JlYXRlZC
-I6MTY4NjcyMDI1ODQzN319LCJoaXN0b3J5IjpbLTU0MjE0MTI0
-OF19
+N0YXJ0IjoyMDI0LCJlbmQiOjIwMjUsInRleHQiOiJYIn0sInlW
+aHVwYkd2elBIaks2SGsiOnsic3RhcnQiOjM0MjEsImVuZCI6Mz
+QzMSwidGV4dCI6IkNoYXQgbGluazoifSwiYmE3cG0wTldjVEtq
+UTc0dyI6eyJzdGFydCI6MzUwNywiZW5kIjozNTE1LCJ0ZXh0Ij
+oidGVhY2hlcnMifX0sImNvbW1lbnRzIjp7ImYxbXVqaGFlSnJu
+S2p4T0wiOnsiZGlzY3Vzc2lvbklkIjoiclV6OUhrU0Z1QTlwck
+M1diIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBu
+dW1iZXIiLCJjcmVhdGVkIjoxNjg2NzIwMjU4NDM3fSwiQndpRW
+5OWDh0U3lYMXBwVCI6eyJkaXNjdXNzaW9uSWQiOiJ5Vmh1cGJH
+dnpQSGpLNkhrIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ij
+oiQWRkIGxpbmsiLCJjcmVhdGVkIjoxNjg2NzIwMzMwNTg5fSwi
+Wm9zTmNLMnNaMFJjTXZsVSI6eyJkaXNjdXNzaW9uSWQiOiJiYT
+dwbTBOV2NUS2pRNzR3Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0
+ZXh0IjoiQWRkIG5hbWVzIiwiY3JlYXRlZCI6MTY4NjcyMDMzNT
+I5M319LCJoaXN0b3J5IjpbMTE4MzU3MjYyOF19
 -->
