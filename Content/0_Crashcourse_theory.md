@@ -58,9 +58,9 @@ In GIS, both vector and raster data have their respective strengths and applicat
 How and where to find spatial data is discussed in detail here: 
 
 ### Coordinate Reference Systems (CRS) and map projections
-The basic idea of projection is to project the shape of the earth, or a specific area, onto a flat plane like a map. Due to the original shape of the earth, a rough sphere, we will always make some kind of sacrifices when we project it onto a flat plane. A good example of this 
+The basic idea of projection is to project the shape of the earth, or a specific area, onto a flat plane like a map. Due to the original shape of the earth, a rough sphere, we will always get some kind of distortion when we project it onto a flat plane. This is shown well here: https://unchartedterritories.tomaspueyo.com/p/maps-distort-how-we-see-the-world 
 
- In other words, CRS are frameworks that define how geographic locations are represented and referenced in a coordinate system. There are different CRS which use different Earth shape models as a reference and projection methods. The specific CRS used is often depending on the region where the data is located. When we are working with different kind of data, it is common that we have layers that are in different CRS. **Thus, it is important to check that the layers and the project are in the same CRS!**
+Coordinate Reference Systems (CRS) are frameworks that define how geographic locations are represented and referenced in a coordinate system. There are different CRS which use different Earth shape models  and projection methods. The specific CRS used is often depending on the region where the data is located. When we are working with different kind of data, it is common that we have layers that are in different CRS. **Thus, it is important to check that the layers and the project are in the same CRS!**
 
 The basic idea of a CRS is to project the shape of the earth, or the specific area of the CRS, onto a flat plane like a map. In other words, CRS are frameworks that define how geographic locations are represented and referenced in a coordinate system. There are different CRS which use different Earth shape models as a reference and projection methods. The specific CRS used is often depending on the region where the data is located. When we are working with different kind of data, it is common that we have layers that are in different CRS. **Thus, it is important to check that the layers and the project are in the same CRS!**
 
@@ -122,20 +122,20 @@ RhdGEifSwiNXNPNmN3NHRhUmt5MEl2NyI6eyJzdGFydCI6Njk1
 NiwiZW5kIjo3MDE5LCJ0ZXh0IjoiSG93IGFuZCB3aGVyZSB0by
 BmaW5kIHNwYXRpYWwgZGF0YSBpcyBkaXNjdXNzZWQgaW4gZGV0
 YWlsIGhlcmU6In0sImJ5TXZ4am8wZkl5clk0TkoiOnsic3Rhcn
-QiOjg5ODksImVuZCI6OTAxMSwidGV4dCI6IiMjIyBHSVMgYW5h
+QiOjkwNzAsImVuZCI6OTA5MiwidGV4dCI6IiMjIyBHSVMgYW5h
 bHlzaXMgdHlwZXMifSwielQ0VjVBRlY5Z2FSU3hDTiI6eyJzdG
-FydCI6MTI2MjksImVuZCI6MTI2MzcsInRleHQiOiJnb29kIG1h
-cCJ9LCI4SzdTRlRUdTExVDlDQTlUIjp7InN0YXJ0IjoxMzU1Ny
-wiZW5kIjoxMzY1MiwidGV4dCI6IiMgVGltZSB0byBnZXQgeW91
+FydCI6MTI3MTAsImVuZCI6MTI3MTgsInRleHQiOiJnb29kIG1h
+cCJ9LCI4SzdTRlRUdTExVDlDQTlUIjp7InN0YXJ0IjoxMzYzOC
+wiZW5kIjoxMzczMywidGV4dCI6IiMgVGltZSB0byBnZXQgeW91
 ciBoYW5kcyBkaXJ0eSEgTW92ZSBvbiB0byB0aGUgQ3Jhc2ggQ2
 91cnNlIGV4ZXJjaXNlIHRvIGdldCBzdGHigKYifSwiazNMbExM
-bUlWTG9jUmduQSI6eyJzdGFydCI6MTI2MDEsImVuZCI6MTI2Mj
-MsInRleHQiOiIjIyBXaGF0IGlzIGEgZ29vZCBtYXA/In0sIjht
+bUlWTG9jUmduQSI6eyJzdGFydCI6MTI2ODIsImVuZCI6MTI3MD
+QsInRleHQiOiIjIyBXaGF0IGlzIGEgZ29vZCBtYXA/In0sIjht
 VDd3dXQyZzlaMzQxQUwiOnsic3RhcnQiOjcwMjIsImVuZCI6Nz
 A4MCwidGV4dCI6IiMjIyBDb29yZGluYXRlIFJlZmVyZW5jZSBT
 eXN0ZW1zIChDUlMpIGFuZCBtYXAgcHJvamVjdGlvbnMifSwiQ1
-FBV29TeWtobXo3eGszTiI6eyJzdGFydCI6ODQxNiwiZW5kIjo4
-NTAzLCJ0ZXh0IjoiKipUaHVzLCBpdCBpcyBpbXBvcnRhbnQgdG
+FBV29TeWtobXo3eGszTiI6eyJzdGFydCI6ODQ5NywiZW5kIjo4
+NTg0LCJ0ZXh0IjoiKipUaHVzLCBpdCBpcyBpbXBvcnRhbnQgdG
 8gY2hlY2sgdGhhdCB0aGUgbGF5ZXJzIGFuZCB0aGUgcHJvamVj
 dCBhcmUgaW4gdGhlIHNhbeKApiJ9fSwiY29tbWVudHMiOnsiYk
 5PaVNVYTFocjFZQVpKYiI6eyJkaXNjdXNzaW9uSWQiOiJtWGpr
@@ -183,11 +183,11 @@ NjY1OTg1NjY5NH0sInJVTEdVRUxLejkzeVozUnQiOnsiZGlzY3
 Vzc2lvbklkIjoiQ1FBV29TeWtobXo3eGszTiIsInN1YiI6Imdo
 OjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBhIHNlY3Rpb24gYWJvdX
 QgcmVwcm9qZWN0aW9uIiwiY3JlYXRlZCI6MTY4NjY1OTkwOTYz
-NX19LCJoaXN0b3J5IjpbLTEwNDU0MjA2MTgsLTE5MDc0NjY1Nj
-gsMTgwNDk3MDEyMCwxMTA3MDgzMzExLDEzMDI2NTk3ODcsNDY5
-NDgwMDE3LC01MTE3NjAyMzUsLTIwMTA1NzMwMjUsLTEzNzQ1ND
-AxMSwtMjU2MDA3Mjk3LDEzNDM1Mzc1NzcsLTEwMzU3MTg4MjUs
-NjA3Njc5OCwxNjc4ODQ3MTgwLDEwMTQ2NjcwODksMjA2NjI5Nz
-c5OSwtMTM2ODI5MzExMywtMTk3Nzc0NjQzNSw5MDA4OTE4MTZd
-fQ==
+NX19LCJoaXN0b3J5IjpbLTI1Mjk5MjI0NCwtMTA0NTQyMDYxOC
+wtMTkwNzQ2NjU2OCwxODA0OTcwMTIwLDExMDcwODMzMTEsMTMw
+MjY1OTc4Nyw0Njk0ODAwMTcsLTUxMTc2MDIzNSwtMjAxMDU3Mz
+AyNSwtMTM3NDU0MDExLC0yNTYwMDcyOTcsMTM0MzUzNzU3Nywt
+MTAzNTcxODgyNSw2MDc2Nzk4LDE2Nzg4NDcxODAsMTAxNDY2Nz
+A4OSwyMDY2Mjk3Nzk5LC0xMzY4MjkzMTEzLC0xOTc3NzQ2NDM1
+LDkwMDg5MTgxNl19
 -->
