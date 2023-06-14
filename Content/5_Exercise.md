@@ -38,13 +38,16 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 - Figure 1
 
 5. Often the data sets that you want to work with will not come as spatial data sets. They might come, for ex-ample, from observations during field work that you record in a spreadsheet. In this step we will add a table of data that contains fields with the latitude and longitude coordinates of the deaths addresses we want to analyze. In our case, this data comes in a comma-separated values (CSV) file, or a text file that uses a comma to separate values.
-- First let’s look at the file with the deaths data in it. If you double-click it in the folder you saved the file in, it should open in Excel or as a text file, and you will see that it has an ID column (OB-JECTID), the number of cases (Num_Cases ), an Address Column (Address), x coordinates (xcoord), and y coordinates (ycoord). These coordinates are helpful, as they let us import the data into GIS.
-- In QGIS, go to Layer -> Add Layer -> Add Delimited Text Layer c. Under File name, browse for the deathAddresses.csv file and select Open.
-d. QGIS will read in the file, and should automatically recognise some key features of the file (Figure 2), including:
-• That the file format is comma delimited
-• That the first record in the file contains the names of the columns rather than data within the columns
-• That two of the fields in the file include spatial information relating to the x and y coordi-nates. Here, the coordinate reference system (CRS) is EPSG:4326 - WGS 84.
-e. If you press Add and Close, you should see that the addresses have been added to the QGIS map.
+	- First let’s look at the file with the deaths data in it. If you double-click it in the folder you saved the file in, it should open in Excel or as a text file, and you will see that it has an ID column (OB-JECTID), the number of cases (Num_Cases ), an Address Column (Address), x coordinates (xcoord), and y coordinates (ycoord). These coordinates are helpful, as they let us import the data into GIS.
+	- In QGIS, go to Layer -> Add Layer -> Add Delimited Text Layer 
+	- Under File name, browse for the deathAddresses.csv file and select Open.
+	- QGIS will read in the file, and should automatically recognise some key features of the file (Figure 2), including:
+		- That the file format is comma delimited
+		- That the first record in the file contains the names of the columns rather than data within the columns
+		- That two of the fields in the file include spatial information relating to the x and y coordi-nates. Here, the coordinate reference system (CRS) is EPSG:4326 - WGS 84.
+	- If you press Add and Close, you should see that the addresses have been added to the QGIS map.
+
+
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJ4MTV3V05CSzZKRHc3Vml2Ijp7In
 N0YXJ0IjoxOTk1LCJlbmQiOjIwMTQsInRleHQiOiIjIyBEQVRB
@@ -67,6 +70,6 @@ MgZG8gdGhpcz8iLCJjcmVhdGVkIjoxNjg2NzI3NTY3MTA4fSwi
 VXpadWxwSm95VHVlenBLQiI6eyJkaXNjdXNzaW9uSWQiOiJvbn
 VZNmdaUHVLWnFPMnk2Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0
 ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2NzI3Nz
-IwOTg5fX0sImhpc3RvcnkiOlsxODY3Mjk0OTk0LDU0OTE5MjA2
-NiwxMjc5MTI1NDk5XX0=
+IwOTg5fX0sImhpc3RvcnkiOlsxNzU0MjkyNzQsNTQ5MTkyMDY2
+LDEyNzkxMjU0OTldfQ==
 -->
