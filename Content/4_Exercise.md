@@ -22,15 +22,19 @@ The Ring Rail line improves the accessibility of the airport area and the suburb
 #### 1.1: Getting the data
 1. Go to Moodle and download the data necessary for the task.
 
-Firstly, we need to have the Ring Rail Line in geospatial format. One option is to digitize it based on a basic map. Other is to find the data online – let’s do that for practice!
-
-HRI offers easy access to open data sources between the cities of Helsinki, Espoo, Vantaa and Kauniainen. Follow the link to Helsinki-Region Transport’s public transport lines from 2021-2022 and open the preview in HSL’s website. https://hri.fi/data/en_GB/dataset/hsl-n-linjat
+2. We need to have the Ring Rail Line in geospatial format. One option is to digitize it based on a basic map. Other is to find the data online – let’s do that for practice!
+	- HRI offers easy access to open data sources between the cities of Helsinki, Espoo, Vantaa and Kauniainen. Follow the link to Helsinki-Region Transport’s public transport lines from 2021-2022 and open the preview in HSL’s website. https://hri.fi/data/en_GB/dataset/hsl-n-linjat
+	- As you can see, the dataset is big and we don’t need everything it contains. You could download the whole data and edit it on your computer, but you can also filter the data before downloading it. You’d have to figure out what different attributes mean – unfortunately in this case the information is in Finnish, so needed code explanations are provided here. You can check them also through the link below and “Aineiston kuvaus (pdf)”.
+		- https://public-transport-hslhrt.opendata.arcgis.com/datasets/HSLHRT::hsln-linjat-4/about
+	- You can select features by clicking “Filter data” on right.
+		- Filter by column jl_laji (has information on public transport type (bus, tram, …)
+		- Select column value 12 from jl_laji, 12 = VR local trains
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJFdFByYk5zWUdNWWhPWXRSIjp7In
 N0YXJ0IjoxNDUyLCJlbmQiOjE0NTgsInRleHQiOiJNb29kbGUi
 fX0sImNvbW1lbnRzIjp7Ikh1MW9sN0dpRjZoQnQzY0kiOnsiZG
 lzY3Vzc2lvbklkIjoiRXRQcmJOc1lHTVloT1l0UiIsInN1YiI6
 ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkNvcnJlY3QiLCJjcmVhdG
-VkIjoxNjg2ODk4NDA2ODEyfX0sImhpc3RvcnkiOls5OTc3Njgx
-NSw3MzA5OTgxMTZdfQ==
+VkIjoxNjg2ODk4NDA2ODEyfX0sImhpc3RvcnkiOlstMTM4MDE1
+MTI4OCw3MzA5OTgxMTZdfQ==
 -->
