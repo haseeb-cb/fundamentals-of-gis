@@ -36,6 +36,12 @@ The Ring Rail line improves the accessibility of the airport area and the suburb
 
 - Picture 
 
+3. If you’d rather digitize, use the Topographic map raster 1: 100 000 available from PaITuli and the plan overview images from the project area as your support. The precise route can be found on page 5 in the Ring Rail Line Brochure PDF (see Moodle). Remember to draw the underground and overground parts (the dash line in the brochure map shows the underground part) as separate segments - this is essential for the visualization stage!).
+
+#### 1.2: Making a map visualization of the new ring rail line
+4. For visualization purposes we want to have underground part of the rail as a separate segment. You can do this either by digitizing or editing one of the ring rail line features (there’s multiple features with same information). The dataset still contains some extra features, you can keep them for visualization or delete them, as you wish. You can see the route in the Ring Rail Line Brochure PDF (see Moodle).
+
+5. Make a visualization to show the ring rail line. Show on your map: where the railway is underground, which stations are new and whatever else you find convenient. You can use data you have from previous exercises (e.g. sea -layer).
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJFdFByYk5zWUdNWWhPWXRSIjp7In
 N0YXJ0IjoxNDUyLCJlbmQiOjE0NTgsInRleHQiOiJNb29kbGUi
@@ -52,6 +58,6 @@ QiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODY4OTg3NTU5
 NDB9LCJXSE9hbEd4NWh5dkVKOENFIjp7ImRpc2N1c3Npb25JZC
 I6IkNVTHg0QmVWRFZzMm5GSUEiLCJzdWIiOiJnaDo0MDMwNDc4
 OCIsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2OD
-Y4OTg3ODc4MDV9fSwiaGlzdG9yeSI6Wy0xMzAxNDQ3MjQ5LC0x
-MzgwMTUxMjg4LDczMDk5ODExNl19
+Y4OTg3ODc4MDV9fSwiaGlzdG9yeSI6WzMzMjIwNDQ5NiwtMTM4
+MDE1MTI4OCw3MzA5OTgxMTZdfQ==
 -->
