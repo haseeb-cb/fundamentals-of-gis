@@ -43,9 +43,15 @@ The Ring Rail line improves the accessibility of the airport area and the suburb
 
 5. Make a visualization to show the ring rail line. Show on your map: where the railway is underground, which stations are new and whatever else you find convenient. You can use data you have from previous exercises (e.g. sea -layer).
 
+---
+
 ### Part 2: The ring rail line analysis
 #### 2.1: Analyzing the effects on the people in the study area
 As already mentioned, the Ring Rail line improves the commuter traffic network and accessibility of the suburbs along the track, but how does this show on real numbers?
+
+5. Find out how many are notably affected by this by calculating how many people live within a radius of 500 meters and 1 kilometer from
+	- ...the stations opened in 2015?
+	- ...the new and planned stations combined
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJFdFByYk5zWUdNWWhPWXRSIjp7In
@@ -85,6 +91,6 @@ dPY0Z6a0R3dE15ViI6eyJkaXNjdXNzaW9uSWQiOiJMNDJrTlBE
 b0dDY3BGU3RrIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ij
 oiR2l2ZSBzb21lIG1vcmUgaGludHMgb24gaG93IHRvIGRvIHRo
 aXMiLCJjcmVhdGVkIjoxNjg2ODk5MDA5MDEzfX0sImhpc3Rvcn
-kiOlsxNDc0NTQyMDc0LC0xMzgwMTUxMjg4LDczMDk5ODExNl19
-
+kiOlstMTU1MDczNzIwNSwtMTM4MDE1MTI4OCw3MzA5OTgxMTZd
+fQ==
 -->
