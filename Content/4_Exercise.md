@@ -20,6 +20,11 @@ To 2015 opening, altogether five new stations were constructed at Leinelä, Hels
 The Ring Rail line improves the accessibility of the airport area and the suburbs along the route, cut down the journey times for over 12 million airport passengers per annum and it is also estimated to create employment for over 60 000 people.
 
 #### 1.1: Getting the data
+To start the assignment, go to Moodle and download the data necessary for the task.
+
+Firstly, we need to have the Ring Rail Line in geospatial format. One option is to digitize it based on a basic map. Other is to find the data online – let’s do that for practice!
+
+HRI offers easy access to open data sources between the cities of Helsinki, Espoo, Vantaa and Kauniainen. Follow the link to Helsinki-Region Transport’s public transport lines from 2021-2022 and open the preview in HSL’s website. https://hri.fi/data/en_GB/dataset/hsl-n-linjat
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODA0NzY1NzMsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNDAzMzkwNDk2LDczMDk5ODExNl19
 -->
