@@ -64,16 +64,17 @@ The Ring Rail Line is likely to increase the attraction for the real estate in t
 #### 2.2: Planning a new airport hotel & congress center near the ring rail line
 7. You work in a team that is supposed to find an optimal location for a new Airport Hotel & Congress Center to the Helsinki-Vantaa Airport area based on accessibility. Your task is to follow the given requirements and make a map visualization of the area(s) to be shown at the company meeting of where the new Hotel & Congress center could possibly be located.
 
-The requirements are as follows:
-- The Hotel & Congress Center has to be located within the maximum distance of 2 kilometers from the Airport area (but not inside it).
-- The Hotel & Congress Center has to be easily accessible, thus located within the radius of 1 kilometer from the new Ring Rail Line stations (including the reserved ones)
-- It has to be within the radius of 500 meters from the road network.
-- The Hotel & Congress Center has to be outside the ≥ 55 dB noise zones caused by the airport traffic.
-- The Hotel & Congress Center cannot be built on already built up areas.
-- The Hotel & Congress Center requires at least 5000 m2 of free building space.
-Hint
+**The requirements are as follows**:
+- The Hotel & Congress Center has to be located within the maximum **distance of 2 kilometers from the Airport area** (but not inside it).
+- The Hotel & Congress Center has to be easily accessible, thus located **within the radius of 1 kilometer from the new Ring Rail Line stations** (including the reserved ones)
+- It has to be **within the radius of 500 meters from the road network**.
+- The Hotel & Congress Center has to be **outside the ≥ 55 dB noise zones** caused by the airport traffic.
+- The Hotel & Congress Center **cannot be built on already built up areas**.
+- The Hotel & Congress Center requires **at least 5000 m2 of free building space**.
 
+*Hint 1: The Multipart to Singlepart- geoprocessing tool can be used to detach the polygons individual features to be able to calculate their areas. This is useful when the overlay operations combine the features, but because their topology information is still stored, they can be separated using this tool.*
 
+*Hint 2: When creating a buffer for the roads, only include ones near the airport area. A buffer or “Select by location” -tool’s buffering parameter can be helpful. Creating a buffer for all of the roads is unnecessary and takes a lot of time to process.*
 
 
 
@@ -139,5 +140,5 @@ oibXhJeXZ3b1JQTGZEWVlVMyIsInN1YiI6ImdoOjQwMzA0Nzg4
 IiwidGV4dCI6IldyaXRlIG91dCBob3cgdG8gZG8gdGhpczogdG
 hlaXIgZmlycyB0dGltZSBkb2luZyBidWZmZXIgYW5hbHlzaXMi
 LCJjcmVhdGVkIjoxNjg2ODk5Mjk3NzMzfX0sImhpc3RvcnkiOl
-stMjcwODQ1MjY3LC0xMzgwMTUxMjg4LDczMDk5ODExNl19
+s0MzU2MDA1ODYsLTEzODAxNTEyODgsNzMwOTk4MTE2XX0=
 -->
