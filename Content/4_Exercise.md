@@ -29,7 +29,7 @@ The Ring Rail line improves the accessibility of the airport area and the suburb
 
 	- As you can see, the dataset is big and we don’t need everything it contains. You could download the whole data and edit it on your computer, but you can also filter the data before downloading it. You’d have to figure out what different attributes mean – unfortunately in this case the information is in Finnish, so needed code explanations are provided here. You can check them also through the link below and “Aineiston kuvaus (pdf)”.
 		- https://public-transport-hslhrt.opendata.arcgis.com/datasets/HSLHRT::hsln-linjat-4/about
-	- You can select features by clicking “Filter data” on th.
+	- You can select features by clicking “Filter data” on the left of the page.
 		- Filter by column jl_laji (has information on public transport type (bus, tram, …)
 		- Select column value 12 from jl_laji, 12 = VR local trains
 	- When the selection is done, you can download it. Click the “toggle filters” to choose only the selected features.
@@ -91,29 +91,29 @@ eyJkaXNjdXNzaW9ucyI6eyJFdFByYk5zWUdNWWhPWXRSIjp7In
 N0YXJ0IjoxNDUyLCJlbmQiOjE0NTgsInRleHQiOiJNb29kbGUi
 fSwicjFuaW14MW1CdWx6YVhkViI6eyJzdGFydCI6MjAzMCwiZW
 5kIjoyMDM5LCJ0ZXh0IjoiLSBQaWN0dXJlIn0sIkNVTHg0QmVW
-RFZzMm5GSUEiOnsic3RhcnQiOjI5MDEsImVuZCI6MjkxMCwidG
+RFZzMm5GSUEiOnsic3RhcnQiOjI5MTksImVuZCI6MjkyOCwidG
 V4dCI6Ii0gUGljdHVyZSJ9LCJHMTlOS0JJTGloREF2ME5FIjp7
-InN0YXJ0IjozNDE4LCJlbmQiOjM4MzMsInRleHQiOiI0LiBGb3
+InN0YXJ0IjozNDM2LCJlbmQiOjM4NTEsInRleHQiOiI0LiBGb3
 IgdmlzdWFsaXphdGlvbiBwdXJwb3NlcyB3ZSB3YW50IHRvIGhh
 dmUgdW5kZXJncm91bmQgcGFydCBvZiB0aGUgcmFpbCBhcyBh4o
-CmIn0sIkw0MmtOUERvR0NjcEZTdGsiOnsic3RhcnQiOjM4MzUs
-ImVuZCI6NDA2OSwidGV4dCI6IjUuIE1ha2UgYSB2aXN1YWxpem
+CmIn0sIkw0MmtOUERvR0NjcEZTdGsiOnsic3RhcnQiOjM4NTMs
+ImVuZCI6NDA4NywidGV4dCI6IjUuIE1ha2UgYSB2aXN1YWxpem
 F0aW9uIHRvIHNob3cgdGhlIHJpbmcgcmFpbCBsaW5lLiBTaG93
 IG9uIHlvdXIgbWFwOiB3aGVyZSB0aGXigKYifSwiVlZoRndjYT
-RQcVlPRXREQiI6eyJzdGFydCI6NDEyMSwiZW5kIjo0MTc5LCJ0
+RQcVlPRXREQiI6eyJzdGFydCI6NDEzOSwiZW5kIjo0MTk3LCJ0
 ZXh0IjoiMi4xOiBBbmFseXppbmcgdGhlIGVmZmVjdHMgb24gdG
 hlIHBlb3BsZSBpbiB0aGUgc3R1ZHkgYXJlYSJ9LCJYQTNndVBG
-R2FJb245b0dKIjp7InN0YXJ0Ijo0MzUwLCJlbmQiOjQ0ODYsIn
+R2FJb245b0dKIjp7InN0YXJ0Ijo0MzY4LCJlbmQiOjQ1MDQsIn
 RleHQiOiI1LiBGaW5kIG91dCBob3cgbWFueSBhcmUgbm90YWJs
 eSBhZmZlY3RlZCBieSB0aGlzIGJ5IGNhbGN1bGF0aW5nIGhvdy
 BtYW55IHBlb3Bs4oCmIn0sIm14SXl2d29SUExmRFlZVTMiOnsi
-c3RhcnQiOjQ4OTUsImVuZCI6NTAxNywidGV4dCI6IjYuIEZpbm
+c3RhcnQiOjQ5MTMsImVuZCI6NTAzNSwidGV4dCI6IjYuIEZpbm
 Qgb3V0IGhvdyBtYW55IHBlb3BsZSBhcHByb3hpbWF0ZWx5IGxp
 dmUgaW5zaWRlIHRoZSBkQiB6b25lczogNjUgb3IgbW9yZeKApi
-J9LCJueVhqS0t5czBwRlBDVW5uIjp7InN0YXJ0Ijo3MTQ4LCJl
-bmQiOjcxNjEsInRleHQiOiItIEFkZCBwaWN0dXJlIn0sInJqbU
-1Xa0xJYTBGWTVqQVQiOnsic3RhcnQiOjU2MzMsImVuZCI6NjMy
-NiwidGV4dCI6IioqVGhlIHJlcXVpcmVtZW50cyBhcmUgYXMgZm
+J9LCJueVhqS0t5czBwRlBDVW5uIjp7InN0YXJ0Ijo3MTY2LCJl
+bmQiOjcxNzksInRleHQiOiItIEFkZCBwaWN0dXJlIn0sInJqbU
+1Xa0xJYTBGWTVqQVQiOnsic3RhcnQiOjU2NTEsImVuZCI6NjM0
+NCwidGV4dCI6IioqVGhlIHJlcXVpcmVtZW50cyBhcmUgYXMgZm
 9sbG93cyoqOlxuLSBUaGUgSG90ZWwgJiBDb25ncmVzcyBDZW50
 ZXIgaGFzIHRvIGJlIGxv4oCmIn19LCJjb21tZW50cyI6eyJIdT
 FvbDdHaUY2aEJ0M2NJIjp7ImRpc2N1c3Npb25JZCI6IkV0UHJi
@@ -160,6 +160,6 @@ E2ODY4OTk1OTMwMDV9LCJmcnQxRndhUEdCdXVNSGdJIjp7ImRp
 c2N1c3Npb25JZCI6InJqbU1Xa0xJYTBGWTVqQVQiLCJzdWIiOi
 JnaDo0MDMwNDc4OCIsInRleHQiOiJGdWxseSBleHBsYWluIGhv
 dyB0aGV5IGRvIHRoaXMiLCJjcmVhdGVkIjoxNjg2ODk5NjA1MD
-A1fX0sImhpc3RvcnkiOlstNDM5OTg5MzUsLTI5MzY5NDc5MSwt
-MTM4MDE1MTI4OCw3MzA5OTgxMTZdfQ==
+A1fX0sImhpc3RvcnkiOlsxMzkwMzc2NzExLC0yOTM2OTQ3OTEs
+LTEzODAxNTEyODgsNzMwOTk4MTE2XX0=
 -->
