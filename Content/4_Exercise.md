@@ -34,7 +34,7 @@ The Ring Rail line improves the accessibility of the airport area and the suburb
 		- VERKKO: 4, filters on train traffic
 		- AIK_VOIM: 1, filters on in-use tracks
 		- SUUNTA: 1, filter on 1 direction
-		- You will notice when you filter on these that the visual output barely changes, we are filtering on as much as possible to get as little duplicate lines as possible so we have to do as little manual adjustments oursel
+		- You will notice when you filter on these that the visual output barely changes, we are filtering on as much as possible to get as little duplicate lines as possible so we have to do as little manual adjustments ourselves. For this purpose we are only looking to extract the rough location of the line, and thus for example a single direction is sufficient. 
 	- When the selection is done, you can download it by going to the Download tab under the Filter data tab. Click the “toggle filters” to choose only the selected features, and download the data as a Shapefile. 
 
 - Picture 
@@ -94,28 +94,28 @@ eyJkaXNjdXNzaW9ucyI6eyJFdFByYk5zWUdNWWhPWXRSIjp7In
 N0YXJ0IjoxNDUyLCJlbmQiOjE0NTgsInRleHQiOiJNb29kbGUi
 fSwicjFuaW14MW1CdWx6YVhkViI6eyJzdGFydCI6MjA2MCwiZW
 5kIjoyMDY5LCJ0ZXh0IjoiLSBQaWN0dXJlIn0sIkNVTHg0QmVW
-RFZzMm5GSUEiOnsic3RhcnQiOjMyOTAsImVuZCI6MzI5OSwidG
+RFZzMm5GSUEiOnsic3RhcnQiOjM0MzAsImVuZCI6MzQzOSwidG
 V4dCI6Ii0gUGljdHVyZSJ9LCJHMTlOS0JJTGloREF2ME5FIjp7
-InN0YXJ0IjozODA3LCJlbmQiOjQyMjIsInRleHQiOiI0LiBGb3
+InN0YXJ0IjozOTQ3LCJlbmQiOjQzNjIsInRleHQiOiI0LiBGb3
 IgdmlzdWFsaXphdGlvbiBwdXJwb3NlcyB3ZSB3YW50IHRvIGhh
 dmUgdW5kZXJncm91bmQgcGFydCBvZiB0aGUgcmFpbCBhcyBh4o
-CmIn0sIkw0MmtOUERvR0NjcEZTdGsiOnsic3RhcnQiOjQyMjQs
-ImVuZCI6NDQ1OCwidGV4dCI6IjUuIE1ha2UgYSB2aXN1YWxpem
+CmIn0sIkw0MmtOUERvR0NjcEZTdGsiOnsic3RhcnQiOjQzNjQs
+ImVuZCI6NDU5OCwidGV4dCI6IjUuIE1ha2UgYSB2aXN1YWxpem
 F0aW9uIHRvIHNob3cgdGhlIHJpbmcgcmFpbCBsaW5lLiBTaG93
 IG9uIHlvdXIgbWFwOiB3aGVyZSB0aGXigKYifSwiVlZoRndjYT
-RQcVlPRXREQiI6eyJzdGFydCI6NDUxMCwiZW5kIjo0NTY4LCJ0
+RQcVlPRXREQiI6eyJzdGFydCI6NDY1MCwiZW5kIjo0NzA4LCJ0
 ZXh0IjoiMi4xOiBBbmFseXppbmcgdGhlIGVmZmVjdHMgb24gdG
 hlIHBlb3BsZSBpbiB0aGUgc3R1ZHkgYXJlYSJ9LCJYQTNndVBG
-R2FJb245b0dKIjp7InN0YXJ0Ijo0NzM5LCJlbmQiOjQ4NzUsIn
+R2FJb245b0dKIjp7InN0YXJ0Ijo0ODc5LCJlbmQiOjUwMTUsIn
 RleHQiOiI1LiBGaW5kIG91dCBob3cgbWFueSBhcmUgbm90YWJs
 eSBhZmZlY3RlZCBieSB0aGlzIGJ5IGNhbGN1bGF0aW5nIGhvdy
 BtYW55IHBlb3Bs4oCmIn0sIm14SXl2d29SUExmRFlZVTMiOnsi
-c3RhcnQiOjUyODQsImVuZCI6NTQwNiwidGV4dCI6IjYuIEZpbm
+c3RhcnQiOjU0MjQsImVuZCI6NTU0NiwidGV4dCI6IjYuIEZpbm
 Qgb3V0IGhvdyBtYW55IHBlb3BsZSBhcHByb3hpbWF0ZWx5IGxp
 dmUgaW5zaWRlIHRoZSBkQiB6b25lczogNjUgb3IgbW9yZeKApi
-J9LCJueVhqS0t5czBwRlBDVW5uIjp7InN0YXJ0Ijo3NTM3LCJl
-bmQiOjc1NTAsInRleHQiOiItIEFkZCBwaWN0dXJlIn0sInJqbU
-1Xa0xJYTBGWTVqQVQiOnsic3RhcnQiOjYwMjIsImVuZCI6Njcx
+J9LCJueVhqS0t5czBwRlBDVW5uIjp7InN0YXJ0Ijo3Njc3LCJl
+bmQiOjc2OTAsInRleHQiOiItIEFkZCBwaWN0dXJlIn0sInJqbU
+1Xa0xJYTBGWTVqQVQiOnsic3RhcnQiOjYxNjIsImVuZCI6Njg1
 NSwidGV4dCI6IioqVGhlIHJlcXVpcmVtZW50cyBhcmUgYXMgZm
 9sbG93cyoqOlxuLSBUaGUgSG90ZWwgJiBDb25ncmVzcyBDZW50
 ZXIgaGFzIHRvIGJlIGxv4oCmIn19LCJjb21tZW50cyI6eyJIdT
@@ -163,7 +163,7 @@ E2ODY4OTk1OTMwMDV9LCJmcnQxRndhUEdCdXVNSGdJIjp7ImRp
 c2N1c3Npb25JZCI6InJqbU1Xa0xJYTBGWTVqQVQiLCJzdWIiOi
 JnaDo0MDMwNDc4OCIsInRleHQiOiJGdWxseSBleHBsYWluIGhv
 dyB0aGV5IGRvIHRoaXMiLCJjcmVhdGVkIjoxNjg2ODk5NjA1MD
-A1fX0sImhpc3RvcnkiOlsyMDg0NDI2MzkzLDE4NzIxMDY2MTYs
-LTU0ODY2MjQwLDIwMzgyNDYwMTgsLTI5MzY5NDc5MSwtMTM4MD
-E1MTI4OCw3MzA5OTgxMTZdfQ==
+A1fX0sImhpc3RvcnkiOlstMTY5MDYzNzYzMiwxODcyMTA2NjE2
+LC01NDg2NjI0MCwyMDM4MjQ2MDE4LC0yOTM2OTQ3OTEsLTEzOD
+AxNTEyODgsNzMwOTk4MTE2XX0=
 -->
