@@ -73,7 +73,9 @@ As already mentioned, the Ring Rail line improves the commuter traffic network a
 
 5. Find out how many are notably affected by this by calculating how many people live within a radius of 1 kilometer from the stations opened in 2015? And the new and planned stations combined?
 	- You can do this by doing a buffer analysis using the ring_rail_line_stations and capital_region_people data
-	- Open the *Buffer* 
+	- Open the *Buffer* tool from the *Processing Toolbox*
+	- Make a 1km buffer around the ring_rail_line_stations (input: ring_rail_line_stations, distance: 1000)
+	- 
 
 The Ring Rail Line is likely to increase the attraction for the real estate in the nearby area. This, however, will also raise the question of the noise levels caused by the Aircraft traffic around the Helsinki-Vantaa Airport. Thanks to new improved technology the aircraft noise levels have slightly dropped in recent years.
 
@@ -125,13 +127,13 @@ ZWEifSwiWEEzZ3VQRkdhSW9uOW9HSiI6eyJzdGFydCI6NjU2Mi
 wiZW5kIjo2NjgzLCJ0ZXh0IjoiNS4gRmluZCBvdXQgaG93IG1h
 bnkgYXJlIG5vdGFibHkgYWZmZWN0ZWQgYnkgdGhpcyBieSBjYW
 xjdWxhdGluZyBob3cgbWFueSBwZW9wbOKApiJ9LCJteEl5dndv
-UlBMZkRZWVUzIjp7InN0YXJ0Ijo3MjE3LCJlbmQiOjczMzksIn
+UlBMZkRZWVUzIjp7InN0YXJ0Ijo3MzYwLCJlbmQiOjc0ODIsIn
 RleHQiOiI2LiBGaW5kIG91dCBob3cgbWFueSBwZW9wbGUgYXBw
 cm94aW1hdGVseSBsaXZlIGluc2lkZSB0aGUgZEIgem9uZXM6ID
 Y1IG9yIG1vcmXigKYifSwibnlYaktLeXMwcEZQQ1VubiI6eyJz
-dGFydCI6OTQ3MCwiZW5kIjo5NDgzLCJ0ZXh0IjoiLSBBZGQgcG
-ljdHVyZSJ9LCJyam1NV2tMSWEwRlk1akFUIjp7InN0YXJ0Ijo3
-OTU1LCJlbmQiOjg2NDgsInRleHQiOiIqKlRoZSByZXF1aXJlbW
+dGFydCI6OTYxMywiZW5kIjo5NjI2LCJ0ZXh0IjoiLSBBZGQgcG
+ljdHVyZSJ9LCJyam1NV2tMSWEwRlk1akFUIjp7InN0YXJ0Ijo4
+MDk4LCJlbmQiOjg3OTEsInRleHQiOiIqKlRoZSByZXF1aXJlbW
 VudHMgYXJlIGFzIGZvbGxvd3MqKjpcbi0gVGhlIEhvdGVsICYg
 Q29uZ3Jlc3MgQ2VudGVyIGhhcyB0byBiZSBsb+KApiJ9LCJOMU
 gwZEV4Z1NBbUN2WjJYIjp7InN0YXJ0IjozODk3LCJlbmQiOjM5
@@ -185,7 +187,7 @@ ImNyZWF0ZWQiOjE2ODY5ODM3OTk1NjN9LCJKdU5ORWJtN0hvQk
 o1NjJFIjp7ImRpc2N1c3Npb25JZCI6Im5KYkRRekNlbkp2aEty
 dUEiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgaG
 ludCIsImNyZWF0ZWQiOjE2ODY5ODQ1ODk1ODB9fSwiaGlzdG9y
-eSI6Wy0xNjQ5MTk3MzgzLC00NDkxMTU2MDMsLTI3OTkzNzA4OS
+eSI6Wy0xOTI1MzAxNTY1LC00NDkxMTU2MDMsLTI3OTkzNzA4OS
 wyMDExOTk2NzEwLDE3MDAyMzM4MTksNTExOTk5OTIyLDE4NzIx
 MDY2MTYsLTU0ODY2MjQwLDIwMzgyNDYwMTgsLTI5MzY5NDc5MS
 wtMTM4MDE1MTI4OCw3MzA5OTgxMTZdfQ==
