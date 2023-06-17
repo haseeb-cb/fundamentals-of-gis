@@ -114,7 +114,8 @@ Fill in the answers to the Moodle
 	- In short, it ouputs the parts of the input layer that fall outside the overlay layer. 
 	- So we need to run this for all our areas that we do not want, similar to last time we run *Difference* and then run it again with its output and the next criteria
 		- Use *Selected features only* again where necessary
-- Once we have the final 
+- Once we have the final suitable areas we need to determine which have at least 5000m2 of free building space
+	- 
 
 *Hint 1: The Multipart to Singlepart- geoprocessing tool can be used to detach the polygons individual features to be able to calculate their areas. This is useful when the overlay operations combine the features, but because their topology information is still stored, they can be separated using this tool.*
 
@@ -140,7 +141,7 @@ V4dCI6Ii0gUGljdHVyZSJ9LCJWVmhGd2NhNFBxWU9FdERCIjp7
 InN0YXJ0Ijo2MzMzLCJlbmQiOjYzOTEsInRleHQiOiIyLjE6IE
 FuYWx5emluZyB0aGUgZWZmZWN0cyBvbiB0aGUgcGVvcGxlIGlu
 IHRoZSBzdHVkeSBhcmVhIn0sIm55WGpLS3lzMHBGUENVbm4iOn
-sic3RhcnQiOjExODQzLCJlbmQiOjExODU2LCJ0ZXh0IjoiLSBB
+sic3RhcnQiOjExOTMyLCJlbmQiOjExOTQ1LCJ0ZXh0IjoiLSBB
 ZGQgcGljdHVyZSJ9LCJOMUgwZEV4Z1NBbUN2WjJYIjp7InN0YX
 J0IjozODk3LCJlbmQiOjM5MDMsInRleHQiOiJleHBvcnQifSwi
 VHhWS0xwNzk4ZGtqNXBPcSI6eyJzdGFydCI6NTM3NiwiZW5kIj
@@ -193,7 +194,7 @@ ODY0MjkxMDV9LCI2NlNwdEp3Skc4T3RWcGtiIjp7ImRpc2N1c3
 Npb25JZCI6IjBPdk03UTdXUEZEWmRrRmMiLCJzdWIiOiJnaDo0
 MDMwNDc4OCIsInRleHQiOiJPcHRpb25hbGx5IChyZSltb3ZlIH
 RoaXMgaWYgdG9vIGhhcmQiLCJjcmVhdGVkIjoxNjg2OTg4NzQ3
-MzY5fX0sImhpc3RvcnkiOlsxMjc5MjAxMjEwLDIxMDE5NDM4NT
+MzY5fX0sImhpc3RvcnkiOlstNTE4MTM4NTU4LDIxMDE5NDM4NT
 IsNzI0NjE3OTAsLTIwNzMzOTMxMDMsMjAzMzg0NTA3NCwtNTA5
 ODA2NjkxLC00NDkxMTU2MDMsLTI3OTkzNzA4OSwyMDExOTk2Nz
 EwLDE3MDAyMzM4MTksNTExOTk5OTIyLDE4NzIxMDY2MTYsLTU0
