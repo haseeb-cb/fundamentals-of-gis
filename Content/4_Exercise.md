@@ -51,13 +51,12 @@ The Ring Rail line improves the accessibility of the airport area and the suburb
 	- Select your Ring Rail Line layer, toggle on editing, and navigate to Edit > Edit Geometry > Split features
 		- How to Split and Merge Line in QGIS: https://www.youtube.com/watch?v=vLL4hdDO1zU
 	- Split the line into sections for overground and underground track
-		- Create a field which describes whether the track is over- or underground so we can use symbology to differentiate these
+		- Create a field which describes whether the track is over- or underground so we can use symbology to differentiate these (Attribute table > New Field)
 	- Don't forget to save your edits and toggle off editing
 
 5. Now look at the ring_rail_line_stations and railway_stations layers, for the visualization we would only like to have the stations that are part of the ring rail line, and have them seperated by pre-existing, new, and planned stations. 
 	- Let's start by removing the stations that are not part of the ring rail line, toggle on editing for the railway_stations layer, select the stations we want to remove, and use *Delete Selected* in the editing toolbar (save edits and toggle off editing).
 	- Now take a look at the attribute table of the ring_rail_line_stations layer, as you can see there is already a field for which stations are new and planned, so we can use symbology to differentiate these. 
-		- Attribute table > New Field (toggle editing)
 	- Optionally: Convert the train stations from polygons to points: https://docs.qgis.org/3.16/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#centroids
 		- In thi scase, points scale better, are easier to edit, and easier to add labels to
 
@@ -116,28 +115,28 @@ fSwicjFuaW14MW1CdWx6YVhkViI6eyJzdGFydCI6MjE1NiwiZW
 5kIjoyMTY1LCJ0ZXh0IjoiLSBQaWN0dXJlIn0sIkNVTHg0QmVW
 RFZzMm5GSUEiOnsic3RhcnQiOjM1MjYsImVuZCI6MzUzNSwidG
 V4dCI6Ii0gUGljdHVyZSJ9LCJMNDJrTlBEb0dDY3BGU3RrIjp7
-InN0YXJ0Ijo1OTExLCJlbmQiOjYwNzYsInRleHQiOiI1LiBNYW
+InN0YXJ0Ijo1ODkyLCJlbmQiOjYwNTcsInRleHQiOiI1LiBNYW
 tlIGEgdmlzdWFsaXphdGlvbiB0byBzaG93IHRoZSByaW5nIHJh
 aWwgbGluZS4gU2hvdyBvbiB5b3VyIG1hcDogd2hlcmUgdGhl4o
-CmIn0sIlZWaEZ3Y2E0UHFZT0V0REIiOnsic3RhcnQiOjYzNTIs
-ImVuZCI6NjQxMCwidGV4dCI6IjIuMTogQW5hbHl6aW5nIHRoZS
+CmIn0sIlZWaEZ3Y2E0UHFZT0V0REIiOnsic3RhcnQiOjYzMzMs
+ImVuZCI6NjM5MSwidGV4dCI6IjIuMTogQW5hbHl6aW5nIHRoZS
 BlZmZlY3RzIG9uIHRoZSBwZW9wbGUgaW4gdGhlIHN0dWR5IGFy
-ZWEifSwiWEEzZ3VQRkdhSW9uOW9HSiI6eyJzdGFydCI6NjU4MS
-wiZW5kIjo2NzE3LCJ0ZXh0IjoiNS4gRmluZCBvdXQgaG93IG1h
+ZWEifSwiWEEzZ3VQRkdhSW9uOW9HSiI6eyJzdGFydCI6NjU2Mi
+wiZW5kIjo2Njk4LCJ0ZXh0IjoiNS4gRmluZCBvdXQgaG93IG1h
 bnkgYXJlIG5vdGFibHkgYWZmZWN0ZWQgYnkgdGhpcyBieSBjYW
 xjdWxhdGluZyBob3cgbWFueSBwZW9wbOKApiJ9LCJteEl5dndv
-UlBMZkRZWVUzIjp7InN0YXJ0Ijo3MTI2LCJlbmQiOjcyNDgsIn
+UlBMZkRZWVUzIjp7InN0YXJ0Ijo3MTA3LCJlbmQiOjcyMjksIn
 RleHQiOiI2LiBGaW5kIG91dCBob3cgbWFueSBwZW9wbGUgYXBw
 cm94aW1hdGVseSBsaXZlIGluc2lkZSB0aGUgZEIgem9uZXM6ID
 Y1IG9yIG1vcmXigKYifSwibnlYaktLeXMwcEZQQ1VubiI6eyJz
-dGFydCI6OTM3OSwiZW5kIjo5MzkyLCJ0ZXh0IjoiLSBBZGQgcG
+dGFydCI6OTM2MCwiZW5kIjo5MzczLCJ0ZXh0IjoiLSBBZGQgcG
 ljdHVyZSJ9LCJyam1NV2tMSWEwRlk1akFUIjp7InN0YXJ0Ijo3
-ODY0LCJlbmQiOjg1NTcsInRleHQiOiIqKlRoZSByZXF1aXJlbW
+ODQ1LCJlbmQiOjg1MzgsInRleHQiOiIqKlRoZSByZXF1aXJlbW
 VudHMgYXJlIGFzIGZvbGxvd3MqKjpcbi0gVGhlIEhvdGVsICYg
 Q29uZ3Jlc3MgQ2VudGVyIGhhcyB0byBiZSBsb+KApiJ9LCJOMU
 gwZEV4Z1NBbUN2WjJYIjp7InN0YXJ0IjozODk3LCJlbmQiOjM5
 MDMsInRleHQiOiJleHBvcnQifSwiVHhWS0xwNzk4ZGtqNXBPcS
-I6eyJzdGFydCI6NTM0NiwiZW5kIjo1MzYxLCJ0ZXh0IjoiZWRp
+I6eyJzdGFydCI6NTM3NiwiZW5kIjo1MzkxLCJ0ZXh0IjoiZWRp
 dGluZyB0b29sYmFyIn0sIm5KYkRRekNlbkp2aEtydUEiOnsic3
 RhcnQiOjQyMTIsImVuZCI6NDM1MywidGV4dCI6Ii0gV2UgY2Fu
 IHVzZSBHb29nbGUgU2F0ZWxsaXRlIGltYWdlcnkgYW5kIHRoZS
@@ -186,8 +185,8 @@ ImNyZWF0ZWQiOjE2ODY5ODM3OTk1NjN9LCJKdU5ORWJtN0hvQk
 o1NjJFIjp7ImRpc2N1c3Npb25JZCI6Im5KYkRRekNlbkp2aEty
 dUEiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgaG
 ludCIsImNyZWF0ZWQiOjE2ODY5ODQ1ODk1ODB9fSwiaGlzdG9y
-eSI6Wy0xNTMxMzY3NzUyLDIwMTE5OTY3MTAsMTcwMDIzMzgxOS
-w1MTE5OTk5MjIsMTg3MjEwNjYxNiwtNTQ4NjYyNDAsMjAzODI0
-NjAxOCwtMjkzNjk0NzkxLC0xMzgwMTUxMjg4LDczMDk5ODExNl
-19
+eSI6Wy0yNzk5MzcwODksMjAxMTk5NjcxMCwxNzAwMjMzODE5LD
+UxMTk5OTkyMiwxODcyMTA2NjE2LC01NDg2NjI0MCwyMDM4MjQ2
+MDE4LC0yOTM2OTQ3OTEsLTEzODAxNTEyODgsNzMwOTk4MTE2XX
+0=
 -->
