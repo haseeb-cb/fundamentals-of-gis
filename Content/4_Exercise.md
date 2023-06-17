@@ -40,7 +40,8 @@ The Ring Rail line improves the accessibility of the airport area and the suburb
 - Picture 
 
 3. Add the data you downloaded to your QGIS project and inspect the features, what do you notice? 
-	- The
+	- There are still duplicate entries for the Ring Rail Line and there are other entries we do not need and are in the way
+	- We want to end up with only the Ring Rail Line, go through the attribute table and find which entry describes the full ring Rail Line, export this to a new layer, you can remove the original. 
 
 #### 1.2: Making a map visualization of the new ring rail line
 4. For visualization purposes we want to have underground part of the rail as a separate segment. You can do this either by digitizing or editing one of the ring rail line features (there’s multiple features with same information). The dataset still contains some extra features, you can keep them for visualization or delete them, as you wish. You can see the route in the Ring Rail Line Brochure PDF (see Moodle).
@@ -97,27 +98,27 @@ fSwicjFuaW14MW1CdWx6YVhkViI6eyJzdGFydCI6MjA2MCwiZW
 5kIjoyMDY5LCJ0ZXh0IjoiLSBQaWN0dXJlIn0sIkNVTHg0QmVW
 RFZzMm5GSUEiOnsic3RhcnQiOjM0MzAsImVuZCI6MzQzOSwidG
 V4dCI6Ii0gUGljdHVyZSJ9LCJHMTlOS0JJTGloREF2ME5FIjp7
-InN0YXJ0IjozNjEyLCJlbmQiOjQwMjcsInRleHQiOiI0LiBGb3
+InN0YXJ0IjozOTIzLCJlbmQiOjQzMzgsInRleHQiOiI0LiBGb3
 IgdmlzdWFsaXphdGlvbiBwdXJwb3NlcyB3ZSB3YW50IHRvIGhh
 dmUgdW5kZXJncm91bmQgcGFydCBvZiB0aGUgcmFpbCBhcyBh4o
-CmIn0sIkw0MmtOUERvR0NjcEZTdGsiOnsic3RhcnQiOjQwMjks
-ImVuZCI6NDI2MywidGV4dCI6IjUuIE1ha2UgYSB2aXN1YWxpem
+CmIn0sIkw0MmtOUERvR0NjcEZTdGsiOnsic3RhcnQiOjQzNDAs
+ImVuZCI6NDU3NCwidGV4dCI6IjUuIE1ha2UgYSB2aXN1YWxpem
 F0aW9uIHRvIHNob3cgdGhlIHJpbmcgcmFpbCBsaW5lLiBTaG93
 IG9uIHlvdXIgbWFwOiB3aGVyZSB0aGXigKYifSwiVlZoRndjYT
-RQcVlPRXREQiI6eyJzdGFydCI6NDMxNSwiZW5kIjo0MzczLCJ0
+RQcVlPRXREQiI6eyJzdGFydCI6NDYyNiwiZW5kIjo0Njg0LCJ0
 ZXh0IjoiMi4xOiBBbmFseXppbmcgdGhlIGVmZmVjdHMgb24gdG
 hlIHBlb3BsZSBpbiB0aGUgc3R1ZHkgYXJlYSJ9LCJYQTNndVBG
-R2FJb245b0dKIjp7InN0YXJ0Ijo0NTQ0LCJlbmQiOjQ2ODAsIn
+R2FJb245b0dKIjp7InN0YXJ0Ijo0ODU1LCJlbmQiOjQ5OTEsIn
 RleHQiOiI1LiBGaW5kIG91dCBob3cgbWFueSBhcmUgbm90YWJs
 eSBhZmZlY3RlZCBieSB0aGlzIGJ5IGNhbGN1bGF0aW5nIGhvdy
 BtYW55IHBlb3Bs4oCmIn0sIm14SXl2d29SUExmRFlZVTMiOnsi
-c3RhcnQiOjUwODksImVuZCI6NTIxMSwidGV4dCI6IjYuIEZpbm
+c3RhcnQiOjU0MDAsImVuZCI6NTUyMiwidGV4dCI6IjYuIEZpbm
 Qgb3V0IGhvdyBtYW55IHBlb3BsZSBhcHByb3hpbWF0ZWx5IGxp
 dmUgaW5zaWRlIHRoZSBkQiB6b25lczogNjUgb3IgbW9yZeKApi
-J9LCJueVhqS0t5czBwRlBDVW5uIjp7InN0YXJ0Ijo3MzQyLCJl
-bmQiOjczNTUsInRleHQiOiItIEFkZCBwaWN0dXJlIn0sInJqbU
-1Xa0xJYTBGWTVqQVQiOnsic3RhcnQiOjU4MjcsImVuZCI6NjUy
-MCwidGV4dCI6IioqVGhlIHJlcXVpcmVtZW50cyBhcmUgYXMgZm
+J9LCJueVhqS0t5czBwRlBDVW5uIjp7InN0YXJ0Ijo3NjUzLCJl
+bmQiOjc2NjYsInRleHQiOiItIEFkZCBwaWN0dXJlIn0sInJqbU
+1Xa0xJYTBGWTVqQVQiOnsic3RhcnQiOjYxMzgsImVuZCI6Njgz
+MSwidGV4dCI6IioqVGhlIHJlcXVpcmVtZW50cyBhcmUgYXMgZm
 9sbG93cyoqOlxuLSBUaGUgSG90ZWwgJiBDb25ncmVzcyBDZW50
 ZXIgaGFzIHRvIGJlIGxv4oCmIn19LCJjb21tZW50cyI6eyJIdT
 FvbDdHaUY2aEJ0M2NJIjp7ImRpc2N1c3Npb25JZCI6IkV0UHJi
@@ -164,7 +165,7 @@ E2ODY4OTk1OTMwMDV9LCJmcnQxRndhUEdCdXVNSGdJIjp7ImRp
 c2N1c3Npb25JZCI6InJqbU1Xa0xJYTBGWTVqQVQiLCJzdWIiOi
 JnaDo0MDMwNDc4OCIsInRleHQiOiJGdWxseSBleHBsYWluIGhv
 dyB0aGV5IGRvIHRoaXMiLCJjcmVhdGVkIjoxNjg2ODk5NjA1MD
-A1fX0sImhpc3RvcnkiOlstNTc0MzMyNzUsNTExOTk5OTIyLDE4
-NzIxMDY2MTYsLTU0ODY2MjQwLDIwMzgyNDYwMTgsLTI5MzY5ND
-c5MSwtMTM4MDE1MTI4OCw3MzA5OTgxMTZdfQ==
+A1fX0sImhpc3RvcnkiOlsxNDgyMzEwMjI2LDUxMTk5OTkyMiwx
+ODcyMTA2NjE2LC01NDg2NjI0MCwyMDM4MjQ2MDE4LC0yOTM2OT
+Q3OTEsLTEzODAxNTEyODgsNzMwOTk4MTE2XX0=
 -->
