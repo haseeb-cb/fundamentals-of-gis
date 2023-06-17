@@ -20,7 +20,7 @@ To 2015 opening, altogether five new stations were constructed at Leinelä, Hels
 The Ring Rail line improves the accessibility of the airport area and the suburbs along the route, cut down the journey times for over 12 million airport passengers per annum and it is also estimated to create employment for over 60 000 people.
 
 #### 1.1: Getting the data
-1. Go to Moodle and download the data necessary for the task, save it in a folder for this exercise. 
+1. Go to Moodle, download the data necessary for the task, save it in a folder for this exercise, and add it to your QGIS project. 
 
 2. We need to have the Ring Rail Line in geospatial format. One option is to digitize it based on a basic map. Other is to find the data online – let’s do that for practice!
 	- HRI offers easy access to open data sources between the cities of Helsinki, Espoo, Vantaa and Kauniainen. Follow the link to Helsinki-Region Transport’s public transport lines from 2021-2022 and open the preview in HSL’s website. https://public-transport-hslhrt.opendata.arcgis.com/datasets/hsln-linjat-4/
@@ -89,30 +89,30 @@ Legend in English: Pintarata = Overground, Tunneli = tunnel, Asema = station, As
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJFdFByYk5zWUdNWWhPWXRSIjp7In
 N0YXJ0IjoxNDUyLCJlbmQiOjE0NTgsInRleHQiOiJNb29kbGUi
-fSwicjFuaW14MW1CdWx6YVhkViI6eyJzdGFydCI6MjAzMCwiZW
-5kIjoyMDM5LCJ0ZXh0IjoiLSBQaWN0dXJlIn0sIkNVTHg0QmVW
-RFZzMm5GSUEiOnsic3RhcnQiOjMwMjIsImVuZCI6MzAzMSwidG
+fSwicjFuaW14MW1CdWx6YVhkViI6eyJzdGFydCI6MjA2MCwiZW
+5kIjoyMDY5LCJ0ZXh0IjoiLSBQaWN0dXJlIn0sIkNVTHg0QmVW
+RFZzMm5GSUEiOnsic3RhcnQiOjMwNTIsImVuZCI6MzA2MSwidG
 V4dCI6Ii0gUGljdHVyZSJ9LCJHMTlOS0JJTGloREF2ME5FIjp7
-InN0YXJ0IjozNTM5LCJlbmQiOjM5NTQsInRleHQiOiI0LiBGb3
+InN0YXJ0IjozNTY5LCJlbmQiOjM5ODQsInRleHQiOiI0LiBGb3
 IgdmlzdWFsaXphdGlvbiBwdXJwb3NlcyB3ZSB3YW50IHRvIGhh
 dmUgdW5kZXJncm91bmQgcGFydCBvZiB0aGUgcmFpbCBhcyBh4o
-CmIn0sIkw0MmtOUERvR0NjcEZTdGsiOnsic3RhcnQiOjM5NTYs
-ImVuZCI6NDE5MCwidGV4dCI6IjUuIE1ha2UgYSB2aXN1YWxpem
+CmIn0sIkw0MmtOUERvR0NjcEZTdGsiOnsic3RhcnQiOjM5ODYs
+ImVuZCI6NDIyMCwidGV4dCI6IjUuIE1ha2UgYSB2aXN1YWxpem
 F0aW9uIHRvIHNob3cgdGhlIHJpbmcgcmFpbCBsaW5lLiBTaG93
 IG9uIHlvdXIgbWFwOiB3aGVyZSB0aGXigKYifSwiVlZoRndjYT
-RQcVlPRXREQiI6eyJzdGFydCI6NDI0MiwiZW5kIjo0MzAwLCJ0
+RQcVlPRXREQiI6eyJzdGFydCI6NDI3MiwiZW5kIjo0MzMwLCJ0
 ZXh0IjoiMi4xOiBBbmFseXppbmcgdGhlIGVmZmVjdHMgb24gdG
 hlIHBlb3BsZSBpbiB0aGUgc3R1ZHkgYXJlYSJ9LCJYQTNndVBG
-R2FJb245b0dKIjp7InN0YXJ0Ijo0NDcxLCJlbmQiOjQ2MDcsIn
+R2FJb245b0dKIjp7InN0YXJ0Ijo0NTAxLCJlbmQiOjQ2MzcsIn
 RleHQiOiI1LiBGaW5kIG91dCBob3cgbWFueSBhcmUgbm90YWJs
 eSBhZmZlY3RlZCBieSB0aGlzIGJ5IGNhbGN1bGF0aW5nIGhvdy
 BtYW55IHBlb3Bs4oCmIn0sIm14SXl2d29SUExmRFlZVTMiOnsi
-c3RhcnQiOjUwMTYsImVuZCI6NTEzOCwidGV4dCI6IjYuIEZpbm
+c3RhcnQiOjUwNDYsImVuZCI6NTE2OCwidGV4dCI6IjYuIEZpbm
 Qgb3V0IGhvdyBtYW55IHBlb3BsZSBhcHByb3hpbWF0ZWx5IGxp
 dmUgaW5zaWRlIHRoZSBkQiB6b25lczogNjUgb3IgbW9yZeKApi
-J9LCJueVhqS0t5czBwRlBDVW5uIjp7InN0YXJ0Ijo3MjY5LCJl
-bmQiOjcyODIsInRleHQiOiItIEFkZCBwaWN0dXJlIn0sInJqbU
-1Xa0xJYTBGWTVqQVQiOnsic3RhcnQiOjU3NTQsImVuZCI6NjQ0
+J9LCJueVhqS0t5czBwRlBDVW5uIjp7InN0YXJ0Ijo3Mjk5LCJl
+bmQiOjczMTIsInRleHQiOiItIEFkZCBwaWN0dXJlIn0sInJqbU
+1Xa0xJYTBGWTVqQVQiOnsic3RhcnQiOjU3ODQsImVuZCI6NjQ3
 NywidGV4dCI6IioqVGhlIHJlcXVpcmVtZW50cyBhcmUgYXMgZm
 9sbG93cyoqOlxuLSBUaGUgSG90ZWwgJiBDb25ncmVzcyBDZW50
 ZXIgaGFzIHRvIGJlIGxv4oCmIn19LCJjb21tZW50cyI6eyJIdT
@@ -160,6 +160,7 @@ E2ODY4OTk1OTMwMDV9LCJmcnQxRndhUEdCdXVNSGdJIjp7ImRp
 c2N1c3Npb25JZCI6InJqbU1Xa0xJYTBGWTVqQVQiLCJzdWIiOi
 JnaDo0MDMwNDc4OCIsInRleHQiOiJGdWxseSBleHBsYWluIGhv
 dyB0aGV5IGRvIHRoaXMiLCJjcmVhdGVkIjoxNjg2ODk5NjA1MD
-A1fX0sImhpc3RvcnkiOlstNTQ4NjYyNDAsMjAzODI0NjAxOCwt
-MjkzNjk0NzkxLC0xMzgwMTUxMjg4LDczMDk5ODExNl19
+A1fX0sImhpc3RvcnkiOlsxODcyMTA2NjE2LC01NDg2NjI0MCwy
+MDM4MjQ2MDE4LC0yOTM2OTQ3OTEsLTEzODAxNTEyODgsNzMwOT
+k4MTE2XX0=
 -->
