@@ -21,7 +21,7 @@ The Ring Rail line improves the accessibility of the airport area and the suburb
 
 #### 1.1: Getting the data
 1. Go to Moodle, download the data necessary for the task, save it in a folder for this exercise, and add it to your QGIS project. 
-	- Go through the data, 
+	- Go through the data, what does it describe? What order of layers would be good to work with?
 
 3. We need to have the Ring Rail Line in geospatial format. One option is to digitize it based on a basic map. Other is to find the data online – let’s do that for practice!
 	- HRI offers easy access to open data sources between the cities of Helsinki, Espoo, Vantaa and Kauniainen. Follow the link to Helsinki-Region Transport’s public transport lines from 2021-2022 and open the preview in HSL’s website. https://public-transport-hslhrt.opendata.arcgis.com/datasets/hsln-linjat-4/
@@ -95,31 +95,31 @@ Legend in English: Pintarata = Overground, Tunneli = tunnel, Asema = station, As
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJFdFByYk5zWUdNWWhPWXRSIjp7In
 N0YXJ0IjoxNDUyLCJlbmQiOjE0NTgsInRleHQiOiJNb29kbGUi
-fSwicjFuaW14MW1CdWx6YVhkViI6eyJzdGFydCI6MjA4NSwiZW
-5kIjoyMDk0LCJ0ZXh0IjoiLSBQaWN0dXJlIn0sIkNVTHg0QmVW
-RFZzMm5GSUEiOnsic3RhcnQiOjM0NTUsImVuZCI6MzQ2NCwidG
+fSwicjFuaW14MW1CdWx6YVhkViI6eyJzdGFydCI6MjE1NiwiZW
+5kIjoyMTY1LCJ0ZXh0IjoiLSBQaWN0dXJlIn0sIkNVTHg0QmVW
+RFZzMm5GSUEiOnsic3RhcnQiOjM1MjYsImVuZCI6MzUzNSwidG
 V4dCI6Ii0gUGljdHVyZSJ9LCJHMTlOS0JJTGloREF2ME5FIjp7
-InN0YXJ0IjozOTQ4LCJlbmQiOjQzNjMsInRleHQiOiI0LiBGb3
+InN0YXJ0Ijo0MDE5LCJlbmQiOjQ0MzQsInRleHQiOiI0LiBGb3
 IgdmlzdWFsaXphdGlvbiBwdXJwb3NlcyB3ZSB3YW50IHRvIGhh
 dmUgdW5kZXJncm91bmQgcGFydCBvZiB0aGUgcmFpbCBhcyBh4o
-CmIn0sIkw0MmtOUERvR0NjcEZTdGsiOnsic3RhcnQiOjQzNjUs
-ImVuZCI6NDU5OSwidGV4dCI6IjUuIE1ha2UgYSB2aXN1YWxpem
+CmIn0sIkw0MmtOUERvR0NjcEZTdGsiOnsic3RhcnQiOjQ0MzYs
+ImVuZCI6NDY3MCwidGV4dCI6IjUuIE1ha2UgYSB2aXN1YWxpem
 F0aW9uIHRvIHNob3cgdGhlIHJpbmcgcmFpbCBsaW5lLiBTaG93
 IG9uIHlvdXIgbWFwOiB3aGVyZSB0aGXigKYifSwiVlZoRndjYT
-RQcVlPRXREQiI6eyJzdGFydCI6NDY1MSwiZW5kIjo0NzA5LCJ0
+RQcVlPRXREQiI6eyJzdGFydCI6NDcyMiwiZW5kIjo0NzgwLCJ0
 ZXh0IjoiMi4xOiBBbmFseXppbmcgdGhlIGVmZmVjdHMgb24gdG
 hlIHBlb3BsZSBpbiB0aGUgc3R1ZHkgYXJlYSJ9LCJYQTNndVBG
-R2FJb245b0dKIjp7InN0YXJ0Ijo0ODgwLCJlbmQiOjUwMTYsIn
+R2FJb245b0dKIjp7InN0YXJ0Ijo0OTUxLCJlbmQiOjUwODcsIn
 RleHQiOiI1LiBGaW5kIG91dCBob3cgbWFueSBhcmUgbm90YWJs
 eSBhZmZlY3RlZCBieSB0aGlzIGJ5IGNhbGN1bGF0aW5nIGhvdy
 BtYW55IHBlb3Bs4oCmIn0sIm14SXl2d29SUExmRFlZVTMiOnsi
-c3RhcnQiOjU0MjUsImVuZCI6NTU0NywidGV4dCI6IjYuIEZpbm
+c3RhcnQiOjU0OTYsImVuZCI6NTYxOCwidGV4dCI6IjYuIEZpbm
 Qgb3V0IGhvdyBtYW55IHBlb3BsZSBhcHByb3hpbWF0ZWx5IGxp
 dmUgaW5zaWRlIHRoZSBkQiB6b25lczogNjUgb3IgbW9yZeKApi
-J9LCJueVhqS0t5czBwRlBDVW5uIjp7InN0YXJ0Ijo3Njc4LCJl
-bmQiOjc2OTEsInRleHQiOiItIEFkZCBwaWN0dXJlIn0sInJqbU
-1Xa0xJYTBGWTVqQVQiOnsic3RhcnQiOjYxNjMsImVuZCI6Njg1
-NiwidGV4dCI6IioqVGhlIHJlcXVpcmVtZW50cyBhcmUgYXMgZm
+J9LCJueVhqS0t5czBwRlBDVW5uIjp7InN0YXJ0Ijo3NzQ5LCJl
+bmQiOjc3NjIsInRleHQiOiItIEFkZCBwaWN0dXJlIn0sInJqbU
+1Xa0xJYTBGWTVqQVQiOnsic3RhcnQiOjYyMzQsImVuZCI6Njky
+NywidGV4dCI6IioqVGhlIHJlcXVpcmVtZW50cyBhcmUgYXMgZm
 9sbG93cyoqOlxuLSBUaGUgSG90ZWwgJiBDb25ncmVzcyBDZW50
 ZXIgaGFzIHRvIGJlIGxv4oCmIn19LCJjb21tZW50cyI6eyJIdT
 FvbDdHaUY2aEJ0M2NJIjp7ImRpc2N1c3Npb25JZCI6IkV0UHJi
@@ -166,7 +166,7 @@ E2ODY4OTk1OTMwMDV9LCJmcnQxRndhUEdCdXVNSGdJIjp7ImRp
 c2N1c3Npb25JZCI6InJqbU1Xa0xJYTBGWTVqQVQiLCJzdWIiOi
 JnaDo0MDMwNDc4OCIsInRleHQiOiJGdWxseSBleHBsYWluIGhv
 dyB0aGV5IGRvIHRoaXMiLCJjcmVhdGVkIjoxNjg2ODk5NjA1MD
-A1fX0sImhpc3RvcnkiOlsxNjg1Mjk0NzY2LDUxMTk5OTkyMiwx
+A1fX0sImhpc3RvcnkiOlsxNzAwMjMzODE5LDUxMTk5OTkyMiwx
 ODcyMTA2NjE2LC01NDg2NjI0MCwyMDM4MjQ2MDE4LC0yOTM2OT
 Q3OTEsLTEzODAxNTEyODgsNzMwOTk4MTE2XX0=
 -->
