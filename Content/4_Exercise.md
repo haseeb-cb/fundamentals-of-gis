@@ -109,7 +109,7 @@ Fill in the answers to the Moodle
 	- You can disolve the result of the buffer to make future steps easier, 
 - Use the *Intersection*  tool to combine intersect these buffers to get the areas which are only within 2km of the airport area, within a 1km radius from the stations, and within 500m from the road network. 
 	- You have to run this intersect with two buffers first, then run the output of that with the final buffer to get the desired result, don't forget to make your outputs permanent in between processing
-- No we need to remove the areas that are not suitable from this layer, namely the airport area itself, the stations themselves, the 55 dB noise zone, and the build up areas. 
+- No we need to remove the areas that are not suitable from this layer, namely the airport area itself, the stations themselves, the roads themselves, the 55 dB noise zone, and the build up areas. 
 	- We can do this using the *Difference* tool, read its description, what does it do?
 	- In short, it ouputs the parts of the input layer that fall outside the overlay layer. 
 	- So we need to run this for all our areas that we do not want, similar to last time we run *Difference* and then run it again with its output and the next criteria
@@ -141,7 +141,7 @@ V4dCI6Ii0gUGljdHVyZSJ9LCJWVmhGd2NhNFBxWU9FdERCIjp7
 InN0YXJ0Ijo2MzMzLCJlbmQiOjYzOTEsInRleHQiOiIyLjE6IE
 FuYWx5emluZyB0aGUgZWZmZWN0cyBvbiB0aGUgcGVvcGxlIGlu
 IHRoZSBzdHVkeSBhcmVhIn0sIm55WGpLS3lzMHBGUENVbm4iOn
-sic3RhcnQiOjExNzU4LCJlbmQiOjExNzcxLCJ0ZXh0IjoiLSBB
+sic3RhcnQiOjExNzgwLCJlbmQiOjExNzkzLCJ0ZXh0IjoiLSBB
 ZGQgcGljdHVyZSJ9LCJOMUgwZEV4Z1NBbUN2WjJYIjp7InN0YX
 J0IjozODk3LCJlbmQiOjM5MDMsInRleHQiOiJleHBvcnQifSwi
 VHhWS0xwNzk4ZGtqNXBPcSI6eyJzdGFydCI6NTM3NiwiZW5kIj
@@ -157,8 +157,8 @@ RoZSBNb29kbGUifSwiME92TTdRN1dQRkRaZGtGYyI6eyJzdGFy
 dCI6ODYzOCwiZW5kIjo4NzE4LCJ0ZXh0IjoiIyMjIyAyLjI6IF
 BsYW5uaW5nIGEgbmV3IGFpcnBvcnQgaG90ZWwgJiBjb25ncmVz
 cyBjZW50ZXIgbmVhciB0aGUgcmluZyByYWlsIGxpbmUifSwiNV
-kwT3E5VHRTZVhYVmhyZSI6eyJzdGFydCI6MTEyNDEsImVuZCI6
-MTE1NTIsInRleHQiOiItIExldCdzIGV4dHJhY3QgYXJlYXMgb2
+kwT3E5VHRTZVhYVmhyZSI6eyJzdGFydCI6MTEyNjMsImVuZCI6
+MTE1NzQsInRleHQiOiItIExldCdzIGV4dHJhY3QgYXJlYXMgb2
 YgYXQgbGVhc3QgNTAwMG0yIHVzaW5nIHRoZSAqRXh0cmFjdCBi
 eSBFeHByZXNzaW9uKiB0b29sIn19LCJjb21tZW50cyI6eyJIdT
 FvbDdHaUY2aEJ0M2NJIjp7ImRpc2N1c3Npb25JZCI6IkV0UHJi
@@ -202,10 +202,10 @@ OWlEZE1IQmwiOnsiZGlzY3Vzc2lvbklkIjoiNVkwT3E5VHRTZV
 hYVmhyZSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFk
 ZCBoaW50IG9uIHdoZXJlIHRvIGZpbmQgZXhwcmVzc2lvbiBmb3
 IgdGhpcyIsImNyZWF0ZWQiOjE2ODY5ODg5MjgxMDR9fSwiaGlz
-dG9yeSI6Wy0xMTMxODAxMSwtMTkyOTUyNjA2MSwyMTAxOTQzOD
-UyLDcyNDYxNzkwLC0yMDczMzkzMTAzLDIwMzM4NDUwNzQsLTUw
-OTgwNjY5MSwtNDQ5MTE1NjAzLC0yNzk5MzcwODksMjAxMTk5Nj
-cxMCwxNzAwMjMzODE5LDUxMTk5OTkyMiwxODcyMTA2NjE2LC01
-NDg2NjI0MCwyMDM4MjQ2MDE4LC0yOTM2OTQ3OTEsLTEzODAxNT
-EyODgsNzMwOTk4MTE2XX0=
+dG9yeSI6Wy0zMDI0NjUyMTIsLTE5Mjk1MjYwNjEsMjEwMTk0Mz
+g1Miw3MjQ2MTc5MCwtMjA3MzM5MzEwMywyMDMzODQ1MDc0LC01
+MDk4MDY2OTEsLTQ0OTExNTYwMywtMjc5OTM3MDg5LDIwMTE5OT
+Y3MTAsMTcwMDIzMzgxOSw1MTE5OTk5MjIsMTg3MjEwNjYxNiwt
+NTQ4NjYyNDAsMjAzODI0NjAxOCwtMjkzNjk0NzkxLC0xMzgwMT
+UxMjg4LDczMDk5ODExNl19
 -->
