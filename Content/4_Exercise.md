@@ -58,7 +58,8 @@ The Ring Rail line improves the accessibility of the airport area and the suburb
 	- Let's start by removing the stations that are not part of the ring rail line, toggle on editing for the railway_stations layer, select the stations we want to remove, and use *Delete Selected* in the editing toolbar (save edits and toggle off editing).
 	- Now take a look at the attribute table of the ring_rail_line_stations layer, as you can see there is already a field for which stations are new and planned, so we can use symbology to differentiate these. 
 
-7. Make a visualization to show the ring rail line. Show on your map: where the railway is underground, which stations are new and whatever else you find convenient. You can use data you have from previous exercises (e.g. sea -layer).
+6. Make a visualization to show the ring rail line. Show on your map: where the railway is underground, which stations are new and whatever else you find convenient. You can use data you have from previous exercises (e.g. sea -layer).
+	- Use categorized symobology to show the different types of railway and stations
 
 ---
 
@@ -117,20 +118,20 @@ CmIn0sIkw0MmtOUERvR0NjcEZTdGsiOnsic3RhcnQiOjU2MTAs
 ImVuZCI6NTg0MywidGV4dCI6IjUuIE1ha2UgYSB2aXN1YWxpem
 F0aW9uIHRvIHNob3cgdGhlIHJpbmcgcmFpbCBsaW5lLiBTaG93
 IG9uIHlvdXIgbWFwOiB3aGVyZSB0aGXigKYifSwiVlZoRndjYT
-RQcVlPRXREQiI6eyJzdGFydCI6NTg5NSwiZW5kIjo1OTUzLCJ0
+RQcVlPRXREQiI6eyJzdGFydCI6NTk3NywiZW5kIjo2MDM1LCJ0
 ZXh0IjoiMi4xOiBBbmFseXppbmcgdGhlIGVmZmVjdHMgb24gdG
 hlIHBlb3BsZSBpbiB0aGUgc3R1ZHkgYXJlYSJ9LCJYQTNndVBG
-R2FJb245b0dKIjp7InN0YXJ0Ijo2MTI0LCJlbmQiOjYyNjAsIn
+R2FJb245b0dKIjp7InN0YXJ0Ijo2MjA2LCJlbmQiOjYzNDIsIn
 RleHQiOiI1LiBGaW5kIG91dCBob3cgbWFueSBhcmUgbm90YWJs
 eSBhZmZlY3RlZCBieSB0aGlzIGJ5IGNhbGN1bGF0aW5nIGhvdy
 BtYW55IHBlb3Bs4oCmIn0sIm14SXl2d29SUExmRFlZVTMiOnsi
-c3RhcnQiOjY2NjksImVuZCI6Njc5MSwidGV4dCI6IjYuIEZpbm
+c3RhcnQiOjY3NTEsImVuZCI6Njg3MywidGV4dCI6IjYuIEZpbm
 Qgb3V0IGhvdyBtYW55IHBlb3BsZSBhcHByb3hpbWF0ZWx5IGxp
 dmUgaW5zaWRlIHRoZSBkQiB6b25lczogNjUgb3IgbW9yZeKApi
-J9LCJueVhqS0t5czBwRlBDVW5uIjp7InN0YXJ0Ijo4OTIyLCJl
-bmQiOjg5MzUsInRleHQiOiItIEFkZCBwaWN0dXJlIn0sInJqbU
-1Xa0xJYTBGWTVqQVQiOnsic3RhcnQiOjc0MDcsImVuZCI6ODEw
-MCwidGV4dCI6IioqVGhlIHJlcXVpcmVtZW50cyBhcmUgYXMgZm
+J9LCJueVhqS0t5czBwRlBDVW5uIjp7InN0YXJ0Ijo5MDA0LCJl
+bmQiOjkwMTcsInRleHQiOiItIEFkZCBwaWN0dXJlIn0sInJqbU
+1Xa0xJYTBGWTVqQVQiOnsic3RhcnQiOjc0ODksImVuZCI6ODE4
+MiwidGV4dCI6IioqVGhlIHJlcXVpcmVtZW50cyBhcmUgYXMgZm
 9sbG93cyoqOlxuLSBUaGUgSG90ZWwgJiBDb25ncmVzcyBDZW50
 ZXIgaGFzIHRvIGJlIGxv4oCmIn0sIk4xSDBkRXhnU0FtQ3ZaMl
 giOnsic3RhcnQiOjM4OTcsImVuZCI6MzkwMywidGV4dCI6ImV4
@@ -187,8 +188,8 @@ IsImNyZWF0ZWQiOjE2ODY5ODMwMTkyOTB9LCJTeVd5Qk1KVVhj
 UHF1Z2xrIjp7ImRpc2N1c3Npb25JZCI6IlR4VktMcDc5OGRraj
 VwT3EiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQg
 cGljdHVyZSIsImNyZWF0ZWQiOjE2ODY5ODM3OTk1NjN9fSwiaG
-lzdG9yeSI6Wy0xMzIyOTIyMzQxLDIwMTE5OTY3MTAsMTcwMDIz
-MzgxOSw1MTE5OTk5MjIsMTg3MjEwNjYxNiwtNTQ4NjYyNDAsMj
-AzODI0NjAxOCwtMjkzNjk0NzkxLC0xMzgwMTUxMjg4LDczMDk5
-ODExNl19
+lzdG9yeSI6WzIwNDQ4NTcwNjgsMjAxMTk5NjcxMCwxNzAwMjMz
+ODE5LDUxMTk5OTkyMiwxODcyMTA2NjE2LC01NDg2NjI0MCwyMD
+M4MjQ2MDE4LC0yOTM2OTQ3OTEsLTEzODAxNTEyODgsNzMwOTk4
+MTE2XX0=
 -->
