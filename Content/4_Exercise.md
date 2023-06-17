@@ -115,6 +115,9 @@ Fill in the answers to the Moodle
 	- So we need to run this for all our areas that we do not want, similar to last time we run *Difference* and then run it again with its output and the next criteria
 		- Use *Selected features only* again where necessary
 - Once we have the final suitable areas we need to determine which have at least 5000m2 of free building space
+	- Look at your current layer and its features, could we select the areas which have at least 5000m2 free space right now? Why not? 
+	- Some features that are not phyiscally connected are still 1 feature, so we need to seperate them. 
+		- Do this by running the *Promo
 	- Let's extract areas of at least 5000m2 using the *Extract by Expression* tool
 - Done! You should now have the areas that meet all the criteria
 
@@ -138,7 +141,7 @@ V4dCI6Ii0gUGljdHVyZSJ9LCJWVmhGd2NhNFBxWU9FdERCIjp7
 InN0YXJ0Ijo2MzMzLCJlbmQiOjYzOTEsInRleHQiOiIyLjE6IE
 FuYWx5emluZyB0aGUgZWZmZWN0cyBvbiB0aGUgcGVvcGxlIGlu
 IHRoZSBzdHVkeSBhcmVhIn0sIm55WGpLS3lzMHBGUENVbm4iOn
-sic3RhcnQiOjExMzkzLCJlbmQiOjExNDA2LCJ0ZXh0IjoiLSBB
+sic3RhcnQiOjExNjYyLCJlbmQiOjExNjc1LCJ0ZXh0IjoiLSBB
 ZGQgcGljdHVyZSJ9LCJOMUgwZEV4Z1NBbUN2WjJYIjp7InN0YX
 J0IjozODk3LCJlbmQiOjM5MDMsInRleHQiOiJleHBvcnQifSwi
 VHhWS0xwNzk4ZGtqNXBPcSI6eyJzdGFydCI6NTM3NiwiZW5kIj
@@ -154,8 +157,8 @@ RoZSBNb29kbGUifSwiME92TTdRN1dQRkRaZGtGYyI6eyJzdGFy
 dCI6ODYzOCwiZW5kIjo4NzE4LCJ0ZXh0IjoiIyMjIyAyLjI6IF
 BsYW5uaW5nIGEgbmV3IGFpcnBvcnQgaG90ZWwgJiBjb25ncmVz
 cyBjZW50ZXIgbmVhciB0aGUgcmluZyByYWlsIGxpbmUifSwiNV
-kwT3E5VHRTZVhYVmhyZSI6eyJzdGFydCI6MTExMDgsImVuZCI6
-MTExODcsInRleHQiOiItIExldCdzIGV4dHJhY3QgYXJlYXMgb2
+kwT3E5VHRTZVhYVmhyZSI6eyJzdGFydCI6MTEyNDEsImVuZCI6
+MTE0NTYsInRleHQiOiItIExldCdzIGV4dHJhY3QgYXJlYXMgb2
 YgYXQgbGVhc3QgNTAwMG0yIHVzaW5nIHRoZSAqRXh0cmFjdCBi
 eSBFeHByZXNzaW9uKiB0b29sIn19LCJjb21tZW50cyI6eyJIdT
 FvbDdHaUY2aEJ0M2NJIjp7ImRpc2N1c3Npb25JZCI6IkV0UHJi
@@ -199,10 +202,10 @@ OWlEZE1IQmwiOnsiZGlzY3Vzc2lvbklkIjoiNVkwT3E5VHRTZV
 hYVmhyZSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFk
 ZCBoaW50IG9uIHdoZXJlIHRvIGZpbmQgZXhwcmVzc2lvbiBmb3
 IgdGhpcyIsImNyZWF0ZWQiOjE2ODY5ODg5MjgxMDR9fSwiaGlz
-dG9yeSI6Wy0xOTI5NTI2MDYxLDIxMDE5NDM4NTIsNzI0NjE3OT
-AsLTIwNzMzOTMxMDMsMjAzMzg0NTA3NCwtNTA5ODA2NjkxLC00
-NDkxMTU2MDMsLTI3OTkzNzA4OSwyMDExOTk2NzEwLDE3MDAyMz
-M4MTksNTExOTk5OTIyLDE4NzIxMDY2MTYsLTU0ODY2MjQwLDIw
-MzgyNDYwMTgsLTI5MzY5NDc5MSwtMTM4MDE1MTI4OCw3MzA5OT
-gxMTZdfQ==
+dG9yeSI6WzE0MTYyMTI5NDEsLTE5Mjk1MjYwNjEsMjEwMTk0Mz
+g1Miw3MjQ2MTc5MCwtMjA3MzM5MzEwMywyMDMzODQ1MDc0LC01
+MDk4MDY2OTEsLTQ0OTExNTYwMywtMjc5OTM3MDg5LDIwMTE5OT
+Y3MTAsMTcwMDIzMzgxOSw1MTE5OTk5MjIsMTg3MjEwNjYxNiwt
+NTQ4NjYyNDAsMjAzODI0NjAxOCwtMjkzNjk0NzkxLC0xMzgwMT
+UxMjg4LDczMDk5ODExNl19
 -->
