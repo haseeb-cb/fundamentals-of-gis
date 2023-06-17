@@ -39,7 +39,7 @@ The Ring Rail line improves the accessibility of the airport area and the suburb
 
 - Picture 
 
-3. If you’d rather digitize, use the Topographic map raster 1: 100 000 available from PaITuli and the plan overview images from the project area as your support. The precise route can be found on page 5 in the Ring Rail Line Brochure PDF (see Moodle). Remember to draw the underground and overground parts (the dash line in the brochure map shows the underground part) as separate segments - this is essential for the visualization stage!).
+3. 
 
 #### 1.2: Making a map visualization of the new ring rail line
 4. For visualization purposes we want to have underground part of the rail as a separate segment. You can do this either by digitizing or editing one of the ring rail line features (there’s multiple features with same information). The dataset still contains some extra features, you can keep them for visualization or delete them, as you wish. You can see the route in the Ring Rail Line Brochure PDF (see Moodle).
@@ -96,27 +96,27 @@ fSwicjFuaW14MW1CdWx6YVhkViI6eyJzdGFydCI6MjA2MCwiZW
 5kIjoyMDY5LCJ0ZXh0IjoiLSBQaWN0dXJlIn0sIkNVTHg0QmVW
 RFZzMm5GSUEiOnsic3RhcnQiOjM0MzAsImVuZCI6MzQzOSwidG
 V4dCI6Ii0gUGljdHVyZSJ9LCJHMTlOS0JJTGloREF2ME5FIjp7
-InN0YXJ0IjozOTQ3LCJlbmQiOjQzNjIsInRleHQiOiI0LiBGb3
+InN0YXJ0IjozNTEwLCJlbmQiOjM5MjUsInRleHQiOiI0LiBGb3
 IgdmlzdWFsaXphdGlvbiBwdXJwb3NlcyB3ZSB3YW50IHRvIGhh
 dmUgdW5kZXJncm91bmQgcGFydCBvZiB0aGUgcmFpbCBhcyBh4o
-CmIn0sIkw0MmtOUERvR0NjcEZTdGsiOnsic3RhcnQiOjQzNjQs
-ImVuZCI6NDU5OCwidGV4dCI6IjUuIE1ha2UgYSB2aXN1YWxpem
+CmIn0sIkw0MmtOUERvR0NjcEZTdGsiOnsic3RhcnQiOjM5Mjcs
+ImVuZCI6NDE2MSwidGV4dCI6IjUuIE1ha2UgYSB2aXN1YWxpem
 F0aW9uIHRvIHNob3cgdGhlIHJpbmcgcmFpbCBsaW5lLiBTaG93
 IG9uIHlvdXIgbWFwOiB3aGVyZSB0aGXigKYifSwiVlZoRndjYT
-RQcVlPRXREQiI6eyJzdGFydCI6NDY1MCwiZW5kIjo0NzA4LCJ0
+RQcVlPRXREQiI6eyJzdGFydCI6NDIxMywiZW5kIjo0MjcxLCJ0
 ZXh0IjoiMi4xOiBBbmFseXppbmcgdGhlIGVmZmVjdHMgb24gdG
 hlIHBlb3BsZSBpbiB0aGUgc3R1ZHkgYXJlYSJ9LCJYQTNndVBG
-R2FJb245b0dKIjp7InN0YXJ0Ijo0ODc5LCJlbmQiOjUwMTUsIn
+R2FJb245b0dKIjp7InN0YXJ0Ijo0NDQyLCJlbmQiOjQ1NzgsIn
 RleHQiOiI1LiBGaW5kIG91dCBob3cgbWFueSBhcmUgbm90YWJs
 eSBhZmZlY3RlZCBieSB0aGlzIGJ5IGNhbGN1bGF0aW5nIGhvdy
 BtYW55IHBlb3Bs4oCmIn0sIm14SXl2d29SUExmRFlZVTMiOnsi
-c3RhcnQiOjU0MjQsImVuZCI6NTU0NiwidGV4dCI6IjYuIEZpbm
+c3RhcnQiOjQ5ODcsImVuZCI6NTEwOSwidGV4dCI6IjYuIEZpbm
 Qgb3V0IGhvdyBtYW55IHBlb3BsZSBhcHByb3hpbWF0ZWx5IGxp
 dmUgaW5zaWRlIHRoZSBkQiB6b25lczogNjUgb3IgbW9yZeKApi
-J9LCJueVhqS0t5czBwRlBDVW5uIjp7InN0YXJ0Ijo3Njc3LCJl
-bmQiOjc2OTAsInRleHQiOiItIEFkZCBwaWN0dXJlIn0sInJqbU
-1Xa0xJYTBGWTVqQVQiOnsic3RhcnQiOjYxNjIsImVuZCI6Njg1
-NSwidGV4dCI6IioqVGhlIHJlcXVpcmVtZW50cyBhcmUgYXMgZm
+J9LCJueVhqS0t5czBwRlBDVW5uIjp7InN0YXJ0Ijo3MjQwLCJl
+bmQiOjcyNTMsInRleHQiOiItIEFkZCBwaWN0dXJlIn0sInJqbU
+1Xa0xJYTBGWTVqQVQiOnsic3RhcnQiOjU3MjUsImVuZCI6NjQx
+OCwidGV4dCI6IioqVGhlIHJlcXVpcmVtZW50cyBhcmUgYXMgZm
 9sbG93cyoqOlxuLSBUaGUgSG90ZWwgJiBDb25ncmVzcyBDZW50
 ZXIgaGFzIHRvIGJlIGxv4oCmIn19LCJjb21tZW50cyI6eyJIdT
 FvbDdHaUY2aEJ0M2NJIjp7ImRpc2N1c3Npb25JZCI6IkV0UHJi
@@ -163,7 +163,7 @@ E2ODY4OTk1OTMwMDV9LCJmcnQxRndhUEdCdXVNSGdJIjp7ImRp
 c2N1c3Npb25JZCI6InJqbU1Xa0xJYTBGWTVqQVQiLCJzdWIiOi
 JnaDo0MDMwNDc4OCIsInRleHQiOiJGdWxseSBleHBsYWluIGhv
 dyB0aGV5IGRvIHRoaXMiLCJjcmVhdGVkIjoxNjg2ODk5NjA1MD
-A1fX0sImhpc3RvcnkiOlstMTY5MDYzNzYzMiwxODcyMTA2NjE2
-LC01NDg2NjI0MCwyMDM4MjQ2MDE4LC0yOTM2OTQ3OTEsLTEzOD
-AxNTEyODgsNzMwOTk4MTE2XX0=
+A1fX0sImhpc3RvcnkiOls1MTE5OTk5MjIsMTg3MjEwNjYxNiwt
+NTQ4NjYyNDAsMjAzODI0NjAxOCwtMjkzNjk0NzkxLC0xMzgwMT
+UxMjg4LDczMDk5ODExNl19
 -->
