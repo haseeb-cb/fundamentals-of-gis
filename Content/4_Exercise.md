@@ -116,9 +116,9 @@ Fill in the answers to the Moodle
 		- Use *Selected features only* again where necessary
 - Once we have the final suitable areas we need to determine which have at least 5000m2 of free building space
 	- Let's extract areas of at least 5000m2 using the *Extract by Expression* tool
-- Done! You should now have the areas that meet all the crite
+- Done! You should now have the areas that meet all the criteria
 
-8. Try to make the map as clear and informative as possible and insert the finished map with all the necessary map elements to you course report. Write also a short reflection on what was done and why.
+8. Make your final map of the suitable areas for the new airport hotel & congress center
 
 ## Appendix: Overview map of the ring rail line
 
@@ -138,7 +138,7 @@ V4dCI6Ii0gUGljdHVyZSJ9LCJWVmhGd2NhNFBxWU9FdERCIjp7
 InN0YXJ0Ijo2MzMzLCJlbmQiOjYzOTEsInRleHQiOiIyLjE6IE
 FuYWx5emluZyB0aGUgZWZmZWN0cyBvbiB0aGUgcGVvcGxlIGlu
 IHRoZSBzdHVkeSBhcmVhIn0sIm55WGpLS3lzMHBGUENVbm4iOn
-sic3RhcnQiOjExNTAzLCJlbmQiOjExNTE2LCJ0ZXh0IjoiLSBB
+sic3RhcnQiOjExMzkzLCJlbmQiOjExNDA2LCJ0ZXh0IjoiLSBB
 ZGQgcGljdHVyZSJ9LCJOMUgwZEV4Z1NBbUN2WjJYIjp7InN0YX
 J0IjozODk3LCJlbmQiOjM5MDMsInRleHQiOiJleHBvcnQifSwi
 VHhWS0xwNzk4ZGtqNXBPcSI6eyJzdGFydCI6NTM3NiwiZW5kIj
@@ -199,7 +199,7 @@ OWlEZE1IQmwiOnsiZGlzY3Vzc2lvbklkIjoiNVkwT3E5VHRTZV
 hYVmhyZSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFk
 ZCBoaW50IG9uIHdoZXJlIHRvIGZpbmQgZXhwcmVzc2lvbiBmb3
 IgdGhpcyIsImNyZWF0ZWQiOjE2ODY5ODg5MjgxMDR9fSwiaGlz
-dG9yeSI6Wy0xNzkyODY2NzExLDIxMDE5NDM4NTIsNzI0NjE3OT
+dG9yeSI6Wy0xOTI5NTI2MDYxLDIxMDE5NDM4NTIsNzI0NjE3OT
 AsLTIwNzMzOTMxMDMsMjAzMzg0NTA3NCwtNTA5ODA2NjkxLC00
 NDkxMTU2MDMsLTI3OTkzNzA4OSwyMDExOTk2NzEwLDE3MDAyMz
 M4MTksNTExOTk5OTIyLDE4NzIxMDY2MTYsLTU0ODY2MjQwLDIw
