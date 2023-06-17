@@ -77,7 +77,8 @@ As already mentioned, the Ring Rail line improves the commuter traffic network a
 	- Make a 1km buffer around the ring_rail_line_stations (input: ring_rail_line_stations, distance: 1000)
 		- To only make a buffer around the stations opened in 2015, select those stations and use the *Selected features only* function in the *Buffer* tool
 	- Don't forget to make the temporary layers from the buffer permanent
-	- Use the *e
+	- Use *Select by Location* to select the entries from the capital_region_people data that intersect with the buffers
+	- 
 
 The Ring Rail Line is likely to increase the attraction for the real estate in the nearby area. This, however, will also raise the question of the noise levels caused by the Aircraft traffic around the Helsinki-Vantaa Airport. Thanks to new improved technology the aircraft noise levels have slightly dropped in recent years.
 
@@ -129,13 +130,13 @@ ZWEifSwiWEEzZ3VQRkdhSW9uOW9HSiI6eyJzdGFydCI6NjU2Mi
 wiZW5kIjo2NjgzLCJ0ZXh0IjoiNS4gRmluZCBvdXQgaG93IG1h
 bnkgYXJlIG5vdGFibHkgYWZmZWN0ZWQgYnkgdGhpcyBieSBjYW
 xjdWxhdGluZyBob3cgbWFueSBwZW9wbOKApiJ9LCJteEl5dndv
-UlBMZkRZWVUzIjp7InN0YXJ0Ijo3NTkyLCJlbmQiOjc3MTQsIn
+UlBMZkRZWVUzIjp7InN0YXJ0Ijo3NzAwLCJlbmQiOjc4MjIsIn
 RleHQiOiI2LiBGaW5kIG91dCBob3cgbWFueSBwZW9wbGUgYXBw
 cm94aW1hdGVseSBsaXZlIGluc2lkZSB0aGUgZEIgem9uZXM6ID
 Y1IG9yIG1vcmXigKYifSwibnlYaktLeXMwcEZQQ1VubiI6eyJz
-dGFydCI6OTg0NSwiZW5kIjo5ODU4LCJ0ZXh0IjoiLSBBZGQgcG
+dGFydCI6OTk1MywiZW5kIjo5OTY2LCJ0ZXh0IjoiLSBBZGQgcG
 ljdHVyZSJ9LCJyam1NV2tMSWEwRlk1akFUIjp7InN0YXJ0Ijo4
-MzMwLCJlbmQiOjkwMjMsInRleHQiOiIqKlRoZSByZXF1aXJlbW
+NDM4LCJlbmQiOjkxMzEsInRleHQiOiIqKlRoZSByZXF1aXJlbW
 VudHMgYXJlIGFzIGZvbGxvd3MqKjpcbi0gVGhlIEhvdGVsICYg
 Q29uZ3Jlc3MgQ2VudGVyIGhhcyB0byBiZSBsb+KApiJ9LCJOMU
 gwZEV4Z1NBbUN2WjJYIjp7InN0YXJ0IjozODk3LCJlbmQiOjM5
@@ -189,7 +190,7 @@ ImNyZWF0ZWQiOjE2ODY5ODM3OTk1NjN9LCJKdU5ORWJtN0hvQk
 o1NjJFIjp7ImRpc2N1c3Npb25JZCI6Im5KYkRRekNlbkp2aEty
 dUEiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgaG
 ludCIsImNyZWF0ZWQiOjE2ODY5ODQ1ODk1ODB9fSwiaGlzdG9y
-eSI6Wy0zMDM2NTYwMzIsLTUwOTgwNjY5MSwtNDQ5MTE1NjAzLC
+eSI6WzE2MjI1NzEyNDMsLTUwOTgwNjY5MSwtNDQ5MTE1NjAzLC
 0yNzk5MzcwODksMjAxMTk5NjcxMCwxNzAwMjMzODE5LDUxMTk5
 OTkyMiwxODcyMTA2NjE2LC01NDg2NjI0MCwyMDM4MjQ2MDE4LC
 0yOTM2OTQ3OTEsLTEzODAxNTEyODgsNzMwOTk4MTE2XX0=
