@@ -86,7 +86,7 @@ The Ring Rail Line is likely to increase the attraction for the real estate in t
 
 6. Find out how many people approximately live inside the dB zones: 65 or more and 50 or more in Helsinki region based on the noise levels in 2006? And the noise levels in 2010?
 	- This time you don't need to create a buffer, as the dB zones already exist
-	- Repeat the same steps as in 
+	- Repeat the same steps as in step 5 to get the number of residents living within the 65 and 50 dB zones in 2006 and 2010 
 
 Fill in the answers to the Moodle
 
@@ -134,9 +134,9 @@ ZWEifSwibXhJeXZ3b1JQTGZEWVlVMyI6eyJzdGFydCI6ODAwMy
 wiZW5kIjo4MTI0LCJ0ZXh0IjoiNi4gRmluZCBvdXQgaG93IG1h
 bnkgcGVvcGxlIGFwcHJveGltYXRlbHkgbGl2ZSBpbnNpZGUgdG
 hlIGRCIHpvbmVzOiA2NSBvciBtb3Jl4oCmIn0sIm55WGpLS3lz
-MHBGUENVbm4iOnsic3RhcnQiOjEwMzkyLCJlbmQiOjEwNDA1LC
+MHBGUENVbm4iOnsic3RhcnQiOjEwNDg0LCJlbmQiOjEwNDk3LC
 J0ZXh0IjoiLSBBZGQgcGljdHVyZSJ9LCJyam1NV2tMSWEwRlk1
-akFUIjp7InN0YXJ0Ijo4ODc3LCJlbmQiOjk1NzAsInRleHQiOi
+akFUIjp7InN0YXJ0Ijo4OTY5LCJlbmQiOjk2NjIsInRleHQiOi
 IqKlRoZSByZXF1aXJlbWVudHMgYXJlIGFzIGZvbGxvd3MqKjpc
 bi0gVGhlIEhvdGVsICYgQ29uZ3Jlc3MgQ2VudGVyIGhhcyB0by
 BiZSBsb+KApiJ9LCJOMUgwZEV4Z1NBbUN2WjJYIjp7InN0YXJ0
@@ -148,8 +148,8 @@ dGV4dCI6Ii0gV2UgY2FuIHVzZSBHb29nbGUgU2F0ZWxsaXRlIG
 ltYWdlcnkgYW5kIHRoZSBvdmVydmlldyBtYXAgb2YgdGhlIHJp
 bmcgcmFpbCBsaW7igKYifSwieXlLWHJZUHpxTDFrTDhtQyI6ey
 JzdGFydCI6NzU1MywiZW5kIjo3NTU0LCJ0ZXh0IjoiWCJ9LCJE
-eFk5dXNQNUsxYWdsWTU5Ijp7InN0YXJ0Ijo4MjkyLCJlbmQiOj
-gzMjUsInRleHQiOiJGaWxsIGluIHRoZSBhbnN3ZXJzIHRvIHRo
+eFk5dXNQNUsxYWdsWTU5Ijp7InN0YXJ0Ijo4Mzg0LCJlbmQiOj
+g0MTcsInRleHQiOiJGaWxsIGluIHRoZSBhbnN3ZXJzIHRvIHRo
 ZSBNb29kbGUifX0sImNvbW1lbnRzIjp7Ikh1MW9sN0dpRjZoQn
 QzY0kiOnsiZGlzY3Vzc2lvbklkIjoiRXRQcmJOc1lHTVloT1l0
 UiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkNvcnJlY3
@@ -196,9 +196,9 @@ cmVhdGVkIjoxNjg2OTg2MzU4MzMwfSwiZEtCY0gxZ0dncjJsQX
 c3cyI6eyJkaXNjdXNzaW9uSWQiOiJEeFk5dXNQNUsxYWdsWTU5
 Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiRml4IHJlZm
 VyZW5jZSIsImNyZWF0ZWQiOjE2ODY5ODY0MjkxMDV9fSwiaGlz
-dG9yeSI6Wy0xOTc4MDA2MjU2LC01MDk4MDY2OTEsLTQ0OTExNT
-YwMywtMjc5OTM3MDg5LDIwMTE5OTY3MTAsMTcwMDIzMzgxOSw1
-MTE5OTk5MjIsMTg3MjEwNjYxNiwtNTQ4NjYyNDAsMjAzODI0Nj
-AxOCwtMjkzNjk0NzkxLC0xMzgwMTUxMjg4LDczMDk5ODExNl19
+dG9yeSI6Wy0xNjU2NjQ4OTUsLTUwOTgwNjY5MSwtNDQ5MTE1Nj
+AzLC0yNzk5MzcwODksMjAxMTk5NjcxMCwxNzAwMjMzODE5LDUx
+MTk5OTkyMiwxODcyMTA2NjE2LC01NDg2NjI0MCwyMDM4MjQ2MD
+E4LC0yOTM2OTQ3OTEsLTEzODAxNTEyODgsNzMwOTk4MTE2XX0=
 
 -->
