@@ -108,7 +108,7 @@ Fill in the answers to the Moodle
 - Start by creating buffers around the airport area, ring rail line staitons, and road network, setting the distance based on the requirements
 	- You can disolve the result of the buffer to make future steps easier, 
 - Use the *Intersection*  tool to combine intersect these buffers to get the areas which are only within 2km of the airport area, within a 1km radius from the stations, and within 500m from the road network. 
-	- You have to run this intersect with each buffer to get the desired result, don't forget to make your outputs permanent
+	- You have to run this intersect with two buffers first, then run the output of that with the final buffer to get the desired result, don't forget to make your outputs permanent in between processing
 
 *Hint 1: The Multipart to Singlepart- geoprocessing tool can be used to detach the polygons individual features to be able to calculate their areas. This is useful when the overlay operations combine the features, but because their topology information is still stored, they can be separated using this tool.*
 
@@ -134,7 +134,7 @@ V4dCI6Ii0gUGljdHVyZSJ9LCJWVmhGd2NhNFBxWU9FdERCIjp7
 InN0YXJ0Ijo2MzMzLCJlbmQiOjYzOTEsInRleHQiOiIyLjE6IE
 FuYWx5emluZyB0aGUgZWZmZWN0cyBvbiB0aGUgcGVvcGxlIGlu
 IHRoZSBzdHVkeSBhcmVhIn0sIm55WGpLS3lzMHBGUENVbm4iOn
-sic3RhcnQiOjExMTY1LCJlbmQiOjExMTc4LCJ0ZXh0IjoiLSBB
+sic3RhcnQiOjExMjQ0LCJlbmQiOjExMjU3LCJ0ZXh0IjoiLSBB
 ZGQgcGljdHVyZSJ9LCJOMUgwZEV4Z1NBbUN2WjJYIjp7InN0YX
 J0IjozODk3LCJlbmQiOjM5MDMsInRleHQiOiJleHBvcnQifSwi
 VHhWS0xwNzk4ZGtqNXBPcSI6eyJzdGFydCI6NTM3NiwiZW5kIj
@@ -180,7 +180,7 @@ oxNjg2OTg2MzU4MzMwfSwiZEtCY0gxZ0dncjJsQXc3cyI6eyJk
 aXNjdXNzaW9uSWQiOiJEeFk5dXNQNUsxYWdsWTU5Iiwic3ViIj
 oiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiRml4IHJlZmVyZW5jZSIs
 ImNyZWF0ZWQiOjE2ODY5ODY0MjkxMDV9fSwiaGlzdG9yeSI6Wz
-E4ODQ3ODA2MzQsNzI0NjE3OTAsLTIwNzMzOTMxMDMsMjAzMzg0
+E1OTAxOTIxNzMsNzI0NjE3OTAsLTIwNzMzOTMxMDMsMjAzMzg0
 NTA3NCwtNTA5ODA2NjkxLC00NDkxMTU2MDMsLTI3OTkzNzA4OS
 wyMDExOTk2NzEwLDE3MDAyMzM4MTksNTExOTk5OTIyLDE4NzIx
 MDY2MTYsLTU0ODY2MjQwLDIwMzgyNDYwMTgsLTI5MzY5NDc5MS
