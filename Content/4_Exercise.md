@@ -107,7 +107,7 @@ Fill in the answers to the Moodle
 
 - Start by creating buffers around the airport area, ring rail line staitons, and road network, setting the distance based on the requirements
 	- You can disolve the result of the buffer to make future steps easier, 
-- 
+- Use the *Intersection*  tool to combine intersect these buffers to get the areas which are only within 2km of the airport area, within a 1km radius from the stations,
 
 *Hint 1: The Multipart to Singlepart- geoprocessing tool can be used to detach the polygons individual features to be able to calculate their areas. This is useful when the overlay operations combine the features, but because their topology information is still stored, they can be separated using this tool.*
 
@@ -133,7 +133,7 @@ V4dCI6Ii0gUGljdHVyZSJ9LCJWVmhGd2NhNFBxWU9FdERCIjp7
 InN0YXJ0Ijo2MzMzLCJlbmQiOjYzOTEsInRleHQiOiIyLjE6IE
 FuYWx5emluZyB0aGUgZWZmZWN0cyBvbiB0aGUgcGVvcGxlIGlu
 IHRoZSBzdHVkeSBhcmVhIn0sIm55WGpLS3lzMHBGUENVbm4iOn
-sic3RhcnQiOjEwODM3LCJlbmQiOjEwODUwLCJ0ZXh0IjoiLSBB
+sic3RhcnQiOjExMDAzLCJlbmQiOjExMDE2LCJ0ZXh0IjoiLSBB
 ZGQgcGljdHVyZSJ9LCJOMUgwZEV4Z1NBbUN2WjJYIjp7InN0YX
 J0IjozODk3LCJlbmQiOjM5MDMsInRleHQiOiJleHBvcnQifSwi
 VHhWS0xwNzk4ZGtqNXBPcSI6eyJzdGFydCI6NTM3NiwiZW5kIj
@@ -178,10 +178,10 @@ MDQ3ODgiLCJ0ZXh0IjoiQWRkIG1lYW5pbmciLCJjcmVhdGVkIj
 oxNjg2OTg2MzU4MzMwfSwiZEtCY0gxZ0dncjJsQXc3cyI6eyJk
 aXNjdXNzaW9uSWQiOiJEeFk5dXNQNUsxYWdsWTU5Iiwic3ViIj
 oiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiRml4IHJlZmVyZW5jZSIs
-ImNyZWF0ZWQiOjE2ODY5ODY0MjkxMDV9fSwiaGlzdG9yeSI6Wz
-EwMDM4NzY4NzksNzI0NjE3OTAsLTIwNzMzOTMxMDMsMjAzMzg0
-NTA3NCwtNTA5ODA2NjkxLC00NDkxMTU2MDMsLTI3OTkzNzA4OS
-wyMDExOTk2NzEwLDE3MDAyMzM4MTksNTExOTk5OTIyLDE4NzIx
-MDY2MTYsLTU0ODY2MjQwLDIwMzgyNDYwMTgsLTI5MzY5NDc5MS
-wtMTM4MDE1MTI4OCw3MzA5OTgxMTZdfQ==
+ImNyZWF0ZWQiOjE2ODY5ODY0MjkxMDV9fSwiaGlzdG9yeSI6Wy
+00MTIyMzg4OSw3MjQ2MTc5MCwtMjA3MzM5MzEwMywyMDMzODQ1
+MDc0LC01MDk4MDY2OTEsLTQ0OTExNTYwMywtMjc5OTM3MDg5LD
+IwMTE5OTY3MTAsMTcwMDIzMzgxOSw1MTE5OTk5MjIsMTg3MjEw
+NjYxNiwtNTQ4NjYyNDAsMjAzODI0NjAxOCwtMjkzNjk0NzkxLC
+0xMzgwMTUxMjg4LDczMDk5ODExNl19
 -->
