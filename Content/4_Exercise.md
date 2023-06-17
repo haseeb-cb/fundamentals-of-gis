@@ -96,13 +96,20 @@ Fill in the answers to the Moodle
 #### 2.2: Planning a new airport hotel & congress center near the ring rail line
 7. You work in a team that is supposed to find an optimal location for a new Airport Hotel & Congress Center to the Helsinki-Vantaa Airport area based on accessibility. Your task is to follow the given requirements and make a map visualization of the area(s) to be shown at the company meeting of where the new Hotel & Congress center could possibly be located.
 
+| **The requirements are as follows** |
+|--|
+| The Hotel & Congress Center has to be located within the maximum **distance of 2 kilometers from the Airport area** (but not inside it) |
+| The Hotel & Congress Center has to be easily accessible, thus located **within the radius of 1 kilometer from the new Ring Rail Line stations** (including the reserved ones) |
+| It has to be **within the radius of 500 meters from the road network**. |
+|  |
+|  |
+|  |
 
 
-**The requirements are as follows**:
-- The Hotel & Congress Center has to be located within the maximum **distance of 2 kilometers from the Airport area** (but not inside it).
-- The Hotel & Congress Center has to be easily accessible, thus located **within the radius of 1 kilometer from the new Ring Rail Line stations** (including the reserved ones)
-- It has to be **within the radius of 500 meters from the road network**.
-- The Hotel & Congress Center has to be **outside the ≥ 55 dB noise zones** caused by the airport traffic.
+
+- 
+- 
+- 
 - The Hotel & Congress Center **cannot be built on already built up areas**.
 - The Hotel & Congress Center requires **at least 5000 m2 of free building space**.
 
@@ -130,9 +137,9 @@ V4dCI6Ii0gUGljdHVyZSJ9LCJWVmhGd2NhNFBxWU9FdERCIjp7
 InN0YXJ0Ijo2MzMzLCJlbmQiOjYzOTEsInRleHQiOiIyLjE6IE
 FuYWx5emluZyB0aGUgZWZmZWN0cyBvbiB0aGUgcGVvcGxlIGlu
 IHRoZSBzdHVkeSBhcmVhIn0sIm55WGpLS3lzMHBGUENVbm4iOn
-sic3RhcnQiOjEwNTk5LCJlbmQiOjEwNjEyLCJ0ZXh0IjoiLSBB
+sic3RhcnQiOjEwNTMwLCJlbmQiOjEwNTQzLCJ0ZXh0IjoiLSBB
 ZGQgcGljdHVyZSJ9LCJyam1NV2tMSWEwRlk1akFUIjp7InN0YX
-J0Ijo5MDg0LCJlbmQiOjk3NzcsInRleHQiOiIqKlRoZSByZXF1
+J0Ijo5NTM4LCJlbmQiOjk3MDgsInRleHQiOiIqKlRoZSByZXF1
 aXJlbWVudHMgYXJlIGFzIGZvbGxvd3MqKjpcbi0gVGhlIEhvdG
 VsICYgQ29uZ3Jlc3MgQ2VudGVyIGhhcyB0byBiZSBsb+KApiJ9
 LCJOMUgwZEV4Z1NBbUN2WjJYIjp7InN0YXJ0IjozODk3LCJlbm
@@ -183,9 +190,9 @@ aW5nIiwiY3JlYXRlZCI6MTY4Njk4NjM1ODMzMH0sImRLQmNIMW
 dHZ3IybEF3N3MiOnsiZGlzY3Vzc2lvbklkIjoiRHhZOXVzUDVL
 MWFnbFk1OSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Ik
 ZpeCByZWZlcmVuY2UiLCJjcmVhdGVkIjoxNjg2OTg2NDI5MTA1
-fX0sImhpc3RvcnkiOlsxMjg1OTMwOTQ5LC01MDk4MDY2OTEsLT
-Q0OTExNTYwMywtMjc5OTM3MDg5LDIwMTE5OTY3MTAsMTcwMDIz
-MzgxOSw1MTE5OTk5MjIsMTg3MjEwNjYxNiwtNTQ4NjYyNDAsMj
-AzODI0NjAxOCwtMjkzNjk0NzkxLC0xMzgwMTUxMjg4LDczMDk5
-ODExNl19
+fX0sImhpc3RvcnkiOls5OTk1NzI2MTcsLTUwOTgwNjY5MSwtND
+Q5MTE1NjAzLC0yNzk5MzcwODksMjAxMTk5NjcxMCwxNzAwMjMz
+ODE5LDUxMTk5OTkyMiwxODcyMTA2NjE2LC01NDg2NjI0MCwyMD
+M4MjQ2MDE4LC0yOTM2OTQ3OTEsLTEzODAxNTEyODgsNzMwOTk4
+MTE2XX0=
 -->
