@@ -109,6 +109,7 @@ Fill in the answers to the Moodle
 	- You can disolve the result of the buffer to make future steps easier, 
 - Use the *Intersection*  tool to combine intersect these buffers to get the areas which are only within 2km of the airport area, within a 1km radius from the stations, and within 500m from the road network. 
 	- You have to run this intersect with two buffers first, then run the output of that with the final buffer to get the desired result, don't forget to make your outputs permanent in between processing
+- No we need to remove the areas that are not suitable from this layer, namely the airport area itself, the stations themselves, the 
 
 *Hint 1: The Multipart to Singlepart- geoprocessing tool can be used to detach the polygons individual features to be able to calculate their areas. This is useful when the overlay operations combine the features, but because their topology information is still stored, they can be separated using this tool.*
 
@@ -134,7 +135,7 @@ V4dCI6Ii0gUGljdHVyZSJ9LCJWVmhGd2NhNFBxWU9FdERCIjp7
 InN0YXJ0Ijo2MzMzLCJlbmQiOjYzOTEsInRleHQiOiIyLjE6IE
 FuYWx5emluZyB0aGUgZWZmZWN0cyBvbiB0aGUgcGVvcGxlIGlu
 IHRoZSBzdHVkeSBhcmVhIn0sIm55WGpLS3lzMHBGUENVbm4iOn
-sic3RhcnQiOjExMjQ0LCJlbmQiOjExMjU3LCJ0ZXh0IjoiLSBB
+sic3RhcnQiOjExMzc4LCJlbmQiOjExMzkxLCJ0ZXh0IjoiLSBB
 ZGQgcGljdHVyZSJ9LCJOMUgwZEV4Z1NBbUN2WjJYIjp7InN0YX
 J0IjozODk3LCJlbmQiOjM5MDMsInRleHQiOiJleHBvcnQifSwi
 VHhWS0xwNzk4ZGtqNXBPcSI6eyJzdGFydCI6NTM3NiwiZW5kIj
@@ -179,8 +180,8 @@ MDQ3ODgiLCJ0ZXh0IjoiQWRkIG1lYW5pbmciLCJjcmVhdGVkIj
 oxNjg2OTg2MzU4MzMwfSwiZEtCY0gxZ0dncjJsQXc3cyI6eyJk
 aXNjdXNzaW9uSWQiOiJEeFk5dXNQNUsxYWdsWTU5Iiwic3ViIj
 oiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiRml4IHJlZmVyZW5jZSIs
-ImNyZWF0ZWQiOjE2ODY5ODY0MjkxMDV9fSwiaGlzdG9yeSI6Wz
-E1OTAxOTIxNzMsNzI0NjE3OTAsLTIwNzMzOTMxMDMsMjAzMzg0
+ImNyZWF0ZWQiOjE2ODY5ODY0MjkxMDV9fSwiaGlzdG9yeSI6Wy
+0xMDc5NDE2ODcsNzI0NjE3OTAsLTIwNzMzOTMxMDMsMjAzMzg0
 NTA3NCwtNTA5ODA2NjkxLC00NDkxMTU2MDMsLTI3OTkzNzA4OS
 wyMDExOTk2NzEwLDE3MDAyMzM4MTksNTExOTk5OTIyLDE4NzIx
 MDY2MTYsLTU0ODY2MjQwLDIwMzgyNDYwMTgsLTI5MzY5NDc5MS
