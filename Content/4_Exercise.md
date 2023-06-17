@@ -72,6 +72,7 @@ The Ring Rail line improves the accessibility of the airport area and the suburb
 As already mentioned, the Ring Rail line improves the commuter traffic network and accessibility of the suburbs along the track, but how does this show on real numbers?
 
 5. Find out how many are notably affected by this by calculating how many people live within a radius of 500 meters and 1 kilometer from
+	- ...the stations opened in 2015?
 	- ...the new and planned stations combined?
 
 The Ring Rail Line is likely to increase the attraction for the real estate in the nearby area. This, however, will also raise the question of the noise levels caused by the Aircraft traffic around the Helsinki-Vantaa Airport. Thanks to new improved technology the aircraft noise levels have slightly dropped in recent years.
@@ -124,13 +125,13 @@ ZWEifSwiWEEzZ3VQRkdhSW9uOW9HSiI6eyJzdGFydCI6NjU2Mi
 wiZW5kIjo2Njk4LCJ0ZXh0IjoiNS4gRmluZCBvdXQgaG93IG1h
 bnkgYXJlIG5vdGFibHkgYWZmZWN0ZWQgYnkgdGhpcyBieSBjYW
 xjdWxhdGluZyBob3cgbWFueSBwZW9wbOKApiJ9LCJteEl5dndv
-UlBMZkRZWVUzIjp7InN0YXJ0Ijo3MDcyLCJlbmQiOjcxOTQsIn
+UlBMZkRZWVUzIjp7InN0YXJ0Ijo3MTA3LCJlbmQiOjcyMjksIn
 RleHQiOiI2LiBGaW5kIG91dCBob3cgbWFueSBwZW9wbGUgYXBw
 cm94aW1hdGVseSBsaXZlIGluc2lkZSB0aGUgZEIgem9uZXM6ID
 Y1IG9yIG1vcmXigKYifSwibnlYaktLeXMwcEZQQ1VubiI6eyJz
-dGFydCI6OTMyNSwiZW5kIjo5MzM4LCJ0ZXh0IjoiLSBBZGQgcG
+dGFydCI6OTM2MCwiZW5kIjo5MzczLCJ0ZXh0IjoiLSBBZGQgcG
 ljdHVyZSJ9LCJyam1NV2tMSWEwRlk1akFUIjp7InN0YXJ0Ijo3
-ODEwLCJlbmQiOjg1MDMsInRleHQiOiIqKlRoZSByZXF1aXJlbW
+ODQ1LCJlbmQiOjg1MzgsInRleHQiOiIqKlRoZSByZXF1aXJlbW
 VudHMgYXJlIGFzIGZvbGxvd3MqKjpcbi0gVGhlIEhvdGVsICYg
 Q29uZ3Jlc3MgQ2VudGVyIGhhcyB0byBiZSBsb+KApiJ9LCJOMU
 gwZEV4Z1NBbUN2WjJYIjp7InN0YXJ0IjozODk3LCJlbmQiOjM5
@@ -184,8 +185,8 @@ ImNyZWF0ZWQiOjE2ODY5ODM3OTk1NjN9LCJKdU5ORWJtN0hvQk
 o1NjJFIjp7ImRpc2N1c3Npb25JZCI6Im5KYkRRekNlbkp2aEty
 dUEiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgaG
 ludCIsImNyZWF0ZWQiOjE2ODY5ODQ1ODk1ODB9fSwiaGlzdG9y
-eSI6Wzc0NzAwOTMyNSwtMjc5OTM3MDg5LDIwMTE5OTY3MTAsMT
-cwMDIzMzgxOSw1MTE5OTk5MjIsMTg3MjEwNjYxNiwtNTQ4NjYy
-NDAsMjAzODI0NjAxOCwtMjkzNjk0NzkxLC0xMzgwMTUxMjg4LD
-czMDk5ODExNl19
+eSI6Wy0yNzk5MzcwODksLTI3OTkzNzA4OSwyMDExOTk2NzEwLD
+E3MDAyMzM4MTksNTExOTk5OTIyLDE4NzIxMDY2MTYsLTU0ODY2
+MjQwLDIwMzgyNDYwMTgsLTI5MzY5NDc5MSwtMTM4MDE1MTI4OC
+w3MzA5OTgxMTZdfQ==
 -->
