@@ -13,6 +13,7 @@ Examples of data sources are:
 | Paituli | https://paituli.csc.fi/ | Collection of various Finnish data providers, mostly governmental institutes |
 | Protected planet | https://www.protectedplanet.net/country/BRA | Worldwide collection of protected areas  |
 | OpenStreetMap | https://www.openstreetmap.org/about | Community maintained data |
+| Natural Earth | https://www.naturalearthdata.com/ | Various international datasets
 
 We keep a collection of our known data sources for your use: 
 If you have any that are missing from this collection, please let us know! 
@@ -66,12 +67,12 @@ In our case we can use the buildings that remained unchanged and are on the proj
 eyJkaXNjdXNzaW9ucyI6eyJvSmFOSlZwYTFCeDRmd2tpIjp7In
 RleHQiOiJXZSBrZWVwIGEgY29sbGVjdGlvbiBvZiBvdXIga25v
 d24gZGF0YSBzb3VyY2VzIGZvciB5b3VyIHVzZToiLCJzdGFydC
-I6MTE5MywiZW5kIjoxMjUzfSwiRWNrMTBRamsyUnJDcG1KciI6
-eyJzdGFydCI6MTExMCwiZW5kIjoxMTIzLCJ0ZXh0IjoiT3Blbl
-N0cmVldE1hcCJ9LCIyRGlLN3dNc240eVNNWGphIjp7InN0YXJ0
-IjoxNjU3LCJlbmQiOjE2NjgsInRleHQiOiJkb3dubG9hZGluZy
-J9LCI1UHlscWNNVWkwdWQxR2pWIjp7InN0YXJ0Ijo0MjE5LCJl
-bmQiOjQyMzMsInRleHQiOiJHZW9yZWZlcmVuY2luZyJ9fSwiY2
+I6MTI3OCwiZW5kIjoxMzM4fSwiRWNrMTBRamsyUnJDcG1KciI6
+eyJ0ZXh0IjoiT3BlblN0cmVldE1hcCIsInN0YXJ0IjoxMTEwLC
+JlbmQiOjExMjN9LCIyRGlLN3dNc240eVNNWGphIjp7InRleHQi
+OiJkb3dubG9hZGluZyIsInN0YXJ0IjoxNzQyLCJlbmQiOjE3NT
+N9LCI1UHlscWNNVWkwdWQxR2pWIjp7InRleHQiOiJHZW9yZWZl
+cmVuY2luZyIsInN0YXJ0Ijo0MzA0LCJlbmQiOjQzMTh9fSwiY2
 9tbWVudHMiOnsiaHd5QjlzV25LcW95OHJGVyI6eyJkaXNjdXNz
 aW9uSWQiOiJvSmFOSlZwYTFCeDRmd2tpIiwic3ViIjoiZ2g6ND
 AzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGxpbmsiLCJjcmVhdGVkIjox
@@ -93,6 +94,7 @@ cGhpYyBjb29yZGluYXRlIHN5c3RlbXMsIHByb2plY3RlZCBjb2
 9yZGluYXRlIHN5c3RlbXMsIGFuZCBhIGZldyBzZW50ZW5jZXMg
 YWJvdXQgaG93IEdJUyB0b29scyBzaG91bGQgYmUgYWJsZSB0by
 B0cmFuc2Zvcm0gYmV0d2VlbiB0aGVtLiIsImNyZWF0ZWQiOjE2
-ODY3MzEzNjIyNTh9fSwiaGlzdG9yeSI6WzE0MDU1NzUwNDYsNT
-Y2NDA0NTQ0LDczNjQ5Mzk3NCwxMDkyNDMzNzA1XX0=
+ODY3MzEzNjIyNTh9fSwiaGlzdG9yeSI6Wzg5MDQ4NTY4MywxND
+A1NTc1MDQ2LDU2NjQwNDU0NCw3MzY0OTM5NzQsMTA5MjQzMzcw
+NV19
 -->
