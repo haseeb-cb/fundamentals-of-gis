@@ -60,9 +60,9 @@ How and where to find spatial data is discussed in detail here:
 ### Coordinate Reference Systems (CRS) and map projections
 The basic idea of projection is to project the shape of the earth, or a specific area, onto a flat plane like a map. Due to the original shape of the earth, a rough sphere, we will always get some kind of distortion when we project it onto a flat plane. This is shown well here: https://unchartedterritories.tomaspueyo.com/p/maps-distort-how-we-see-the-world 
 
-![](https://upload.wikimedia.org/wikipedia/commons/e/ee/Worlds_animate.gif)
+![](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f76b16e-edbe-4bc7-8781-f87f389ba29e_1224x1036.png)
 
-Coordinate Reference Systems (CRS) are frameworks that define how geographic locations are represented and referenced in a coordinate system. There are different CRS which use different Earth shape models and projection methods. The specific CRS used is often depending on the region where the data is located. When we are working with different kind of data, it is common that we have layers that are in different CRS. **Thus, it is important to check that the layers and the project are in the same CRS!** Most GIS data that we get comes with some CRS, if we decide to do something in some other projection, you can do reproject data into a different CRS. We will go into this 
+Coordinate Reference Systems (CRS) are frameworks that define how geographic locations are represented and referenced in a coordinate system. There are different CRS which use different Earth shape models and projection methods. The specific CRS used is often depending on the region where the data is located. When we are working with different kind of data, it is common that we have layers that are in different CRS. **Thus, it is important to check that the layers and the project are in the same CRS!** Most GIS data that we get comes with some CRS, if we decide to do something in some other projection, you can do reproject data into a different CRS. We will go into how to do this later. 
 
 ![Map Projection Families](https://docs.qgis.org/3.4/en/_images/projection_families.png)
 
@@ -140,13 +140,13 @@ ZXh0IjoiLSBSZWFsIGxpZmUgZXhhbXBsZSBvZiB2ZWN0b3IgZG
 F0YSJ9LCJyRHoxUTRoUnd1QWEzTnlnIjp7InN0YXJ0Ijo2MTY3
 LCJlbmQiOjYyMDEsInRleHQiOiItIFJlYWwgbGlmZSBleGFtcG
 xlIG9mIHZlY3RvciBkYXRhIn0sIk5BNGNvQk11RVNhdExwQ3Ai
-Onsic3RhcnQiOjEzOTg5LCJlbmQiOjE0MDg0LCJ0ZXh0IjoiIy
+Onsic3RhcnQiOjE0MTMzLCJlbmQiOjE0MjI4LCJ0ZXh0IjoiIy
 BUaW1lIHRvIGdldCB5b3VyIGhhbmRzIGRpcnR5ISBNb3ZlIG9u
 IHRvIHRoZSBDcmFzaCBDb3Vyc2UgZXhlcmNpc2UgdG8gZ2V0IH
-N0YeKApiJ9LCJKQXJmY3BCa3ozaWN1b0ZnIjp7InN0YXJ0Ijo4
-OTQzLCJlbmQiOjg5NjUsInRleHQiOiIjIyMgR0lTIGFuYWx5c2
+N0YeKApiJ9LCJKQXJmY3BCa3ozaWN1b0ZnIjp7InN0YXJ0Ijo5
+MDg3LCJlbmQiOjkxMDksInRleHQiOiIjIyMgR0lTIGFuYWx5c2
 lzIHR5cGVzIn0sIk5ZQlVJUTdYZHVZWkd1YzUiOnsic3RhcnQi
-OjEyNTU2LCJlbmQiOjEyNTc4LCJ0ZXh0IjoiIyMgV2hhdCBpcy
+OjEyNzAwLCJlbmQiOjEyNzIyLCJ0ZXh0IjoiIyMgV2hhdCBpcy
 BhIGdvb2QgbWFwPyJ9LCJReTZ0eTZGSDBraTFlOGNFIjp7InN0
 YXJ0IjozNDkzLCJlbmQiOjM1MDksInRleHQiOiIjIyMgU3BhdG
 lhbCBkYXRhIn19LCJjb21tZW50cyI6eyJPRHhhN012dURDNnVW
@@ -180,6 +180,6 @@ Njg3MDY4MTQzNDI3fSwibTV0T2lWdDhXTnpyRzF0SiI6eyJkaX
 NjdXNzaW9uSWQiOiJReTZ0eTZGSDBraTFlOGNFIiwic3ViIjoi
 Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGRhdGEgZmlsZSB0eX
 BlcyBzZWN0aW9uIiwiY3JlYXRlZCI6MTY4NzA2ODI2NTg0OX19
-LCJoaXN0b3J5IjpbLTE3MjEwODU4ODAsNDIyNTk4MzE2LC0xOD
-Y4MjQ5MjQ0XX0=
+LCJoaXN0b3J5IjpbLTE2NDIwNTc1NDQsLTE3MjEwODU4ODAsND
+IyNTk4MzE2LC0xODY4MjQ5MjQ0XX0=
 -->
