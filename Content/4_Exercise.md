@@ -15,9 +15,11 @@
 ### Part 1: The ring rail line visualization
 The Ring Rail Line, also known as “Kehärata”, is a railway line that was opened in 2015 in the Helsinki capital region. The new rail route created a connection between Helsinki-Vantaa Airport and the Helsinki region commuter traffic network by joining the existing Vantaankoski and Main line branches. The approximately 18-kilometer-long Ring Rail line connects to the current rail network at the Vantaankoski and Hiekkaharju stations and the track between Viinikkala and Ruskeasanta goes in an underground tunnel.
 
-To 2015 opening, altogether five new stations were constructed at Leinelä, Helsinki-Vantaa Airport, Aviapolis, Kivistö and Vehkala. Reservations have also been made for four additional stations at Petas, Viinikkala, Ruskeasanta and Lapinkylä to be built later in the second phase. Out of these, the Aviapolis and Airport stations are located underground. Similarly, the reserved stations of Ruskeasanta and Viinikkala will be located underground.
+For the 2015 opening, five new stations were constructed at Leinelä, Helsinki-Vantaa Airport, Aviapolis, Kivistö and Vehkala. Reservations have also been made for four additional stations at Petas, Viinikkala, Ruskeasanta and Lapinkylä to be built later in the second phase. Out of these, the Aviapolis and Airport stations are located underground. Similarly, the reserved stations of Ruskeasanta and Viinikkala will be located underground.
 
 The Ring Rail line improves the accessibility of the airport area and the suburbs along the route, cut down the journey times for over 12 million airport passengers per annum and it is also estimated to create employment for over 60 000 people.
+
+- Picture 
 
 #### 1.1: Getting the data
 1. Go to Moodle, download the data necessary for the task, save it in a folder for this exercise, and add it to your QGIS project. 
@@ -133,32 +135,32 @@ Legend in English: Pintarata = Overground, Tunneli = tunnel, Asema = station, As
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJFdFByYk5zWUdNWWhPWXRSIjp7In
-N0YXJ0IjoxNDUyLCJlbmQiOjE0NTgsInRleHQiOiJNb29kbGUi
-fSwicjFuaW14MW1CdWx6YVhkViI6eyJzdGFydCI6MjE1NiwiZW
-5kIjoyMTY1LCJ0ZXh0IjoiLSBQaWN0dXJlIn0sIkNVTHg0QmVW
-RFZzMm5GSUEiOnsic3RhcnQiOjM1MjYsImVuZCI6MzUzNSwidG
+N0YXJ0IjoxNDU4LCJlbmQiOjE0NjQsInRleHQiOiJNb29kbGUi
+fSwicjFuaW14MW1CdWx6YVhkViI6eyJzdGFydCI6MjE2MiwiZW
+5kIjoyMTcxLCJ0ZXh0IjoiLSBQaWN0dXJlIn0sIkNVTHg0QmVW
+RFZzMm5GSUEiOnsic3RhcnQiOjM1MzIsImVuZCI6MzU0MSwidG
 V4dCI6Ii0gUGljdHVyZSJ9LCJWVmhGd2NhNFBxWU9FdERCIjp7
-InN0YXJ0Ijo2MzMzLCJlbmQiOjYzOTEsInRleHQiOiIyLjE6IE
+InN0YXJ0Ijo2MzM5LCJlbmQiOjYzOTcsInRleHQiOiIyLjE6IE
 FuYWx5emluZyB0aGUgZWZmZWN0cyBvbiB0aGUgcGVvcGxlIGlu
 IHRoZSBzdHVkeSBhcmVhIn0sIm55WGpLS3lzMHBGUENVbm4iOn
-sic3RhcnQiOjExNzgwLCJlbmQiOjExNzkzLCJ0ZXh0IjoiLSBB
+sic3RhcnQiOjExNzg2LCJlbmQiOjExNzk5LCJ0ZXh0IjoiLSBB
 ZGQgcGljdHVyZSJ9LCJOMUgwZEV4Z1NBbUN2WjJYIjp7InN0YX
-J0IjozODk3LCJlbmQiOjM5MDMsInRleHQiOiJleHBvcnQifSwi
-VHhWS0xwNzk4ZGtqNXBPcSI6eyJzdGFydCI6NTM3NiwiZW5kIj
-o1MzkxLCJ0ZXh0IjoiZWRpdGluZyB0b29sYmFyIn0sIm5KYkRR
-ekNlbkp2aEtydUEiOnsic3RhcnQiOjQyMTIsImVuZCI6NDM1My
+J0IjozOTAzLCJlbmQiOjM5MDksInRleHQiOiJleHBvcnQifSwi
+VHhWS0xwNzk4ZGtqNXBPcSI6eyJzdGFydCI6NTM4MiwiZW5kIj
+o1Mzk3LCJ0ZXh0IjoiZWRpdGluZyB0b29sYmFyIn0sIm5KYkRR
+ekNlbkp2aEtydUEiOnsic3RhcnQiOjQyMTgsImVuZCI6NDM1OS
 widGV4dCI6Ii0gV2UgY2FuIHVzZSBHb29nbGUgU2F0ZWxsaXRl
 IGltYWdlcnkgYW5kIHRoZSBvdmVydmlldyBtYXAgb2YgdGhlIH
 JpbmcgcmFpbCBsaW7igKYifSwieXlLWHJZUHpxTDFrTDhtQyI6
-eyJzdGFydCI6NzU1MywiZW5kIjo3NTU0LCJ0ZXh0IjoiWCJ9LC
-JEeFk5dXNQNUsxYWdsWTU5Ijp7InN0YXJ0Ijo4NDk3LCJlbmQi
-Ojg1MzAsInRleHQiOiJGaWxsIGluIHRoZSBhbnN3ZXJzIHRvIH
+eyJzdGFydCI6NzU1OSwiZW5kIjo3NTYwLCJ0ZXh0IjoiWCJ9LC
+JEeFk5dXNQNUsxYWdsWTU5Ijp7InN0YXJ0Ijo4NTAzLCJlbmQi
+Ojg1MzYsInRleHQiOiJGaWxsIGluIHRoZSBhbnN3ZXJzIHRvIH
 RoZSBNb29kbGUifSwiME92TTdRN1dQRkRaZGtGYyI6eyJzdGFy
-dCI6ODYzOCwiZW5kIjo4NzE4LCJ0ZXh0IjoiIyMjIyAyLjI6IF
+dCI6ODY0NCwiZW5kIjo4NzI0LCJ0ZXh0IjoiIyMjIyAyLjI6IF
 BsYW5uaW5nIGEgbmV3IGFpcnBvcnQgaG90ZWwgJiBjb25ncmVz
 cyBjZW50ZXIgbmVhciB0aGUgcmluZyByYWlsIGxpbmUifSwiNV
-kwT3E5VHRTZVhYVmhyZSI6eyJzdGFydCI6MTEyNjMsImVuZCI6
-MTE1NzQsInRleHQiOiItIExldCdzIGV4dHJhY3QgYXJlYXMgb2
+kwT3E5VHRTZVhYVmhyZSI6eyJzdGFydCI6MTEyNjksImVuZCI6
+MTE1ODAsInRleHQiOiItIExldCdzIGV4dHJhY3QgYXJlYXMgb2
 YgYXQgbGVhc3QgNTAwMG0yIHVzaW5nIHRoZSAqRXh0cmFjdCBi
 eSBFeHByZXNzaW9uKiB0b29sIn19LCJjb21tZW50cyI6eyJIdT
 FvbDdHaUY2aEJ0M2NJIjp7ImRpc2N1c3Npb25JZCI6IkV0UHJi
@@ -202,10 +204,10 @@ OWlEZE1IQmwiOnsiZGlzY3Vzc2lvbklkIjoiNVkwT3E5VHRTZV
 hYVmhyZSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFk
 ZCBoaW50IG9uIHdoZXJlIHRvIGZpbmQgZXhwcmVzc2lvbiBmb3
 IgdGhpcyIsImNyZWF0ZWQiOjE2ODY5ODg5MjgxMDR9fSwiaGlz
-dG9yeSI6Wy0zMDI0NjUyMTIsLTE5Mjk1MjYwNjEsMjEwMTk0Mz
-g1Miw3MjQ2MTc5MCwtMjA3MzM5MzEwMywyMDMzODQ1MDc0LC01
-MDk4MDY2OTEsLTQ0OTExNTYwMywtMjc5OTM3MDg5LDIwMTE5OT
-Y3MTAsMTcwMDIzMzgxOSw1MTE5OTk5MjIsMTg3MjEwNjYxNiwt
-NTQ4NjYyNDAsMjAzODI0NjAxOCwtMjkzNjk0NzkxLC0xMzgwMT
-UxMjg4LDczMDk5ODExNl19
+dG9yeSI6Wy04NTk1MzU2ODksLTMwMjQ2NTIxMiwtMTkyOTUyNj
+A2MSwyMTAxOTQzODUyLDcyNDYxNzkwLC0yMDczMzkzMTAzLDIw
+MzM4NDUwNzQsLTUwOTgwNjY5MSwtNDQ5MTE1NjAzLC0yNzk5Mz
+cwODksMjAxMTk5NjcxMCwxNzAwMjMzODE5LDUxMTk5OTkyMiwx
+ODcyMTA2NjE2LC01NDg2NjI0MCwyMDM4MjQ2MDE4LC0yOTM2OT
+Q3OTEsLTEzODAxNTEyODgsNzMwOTk4MTE2XX0=
 -->
