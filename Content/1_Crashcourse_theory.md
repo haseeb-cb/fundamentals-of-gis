@@ -101,7 +101,7 @@ These are some of the most common GIS analysis types, but the field of GIS offer
 ## What is QGIS?
 In short, QGIS is a GIS application that can be used for various GIS analyses. There are other GIS applications, the other most common of which is ArcGIS. We are using QGIS for this course since it is open-source and free, meaning it is accesible for all, in contrast to ArcGIS which is proprietary software. 
 
-So, you're going to need QGIS for this course! Please take a moment now to ensure you have it installed: https://qgis.org/en/site/forusers/download.html# Our recommendation is to install the Long Term Release (LTR) version, since ther 
+So, you're going to need QGIS for this course! Please take a moment now to ensure you have it installed: https://qgis.org/en/site/forusers/download.html# Our recommendation is to install the Long Term Release (LTR) version, since there is less change of problems with this version. 
 
 You can find more information about the usage of QGIS here: https://docs.qgis.org/3.28/en/docs/index.html
 
@@ -140,13 +140,13 @@ ZXh0IjoiLSBSZWFsIGxpZmUgZXhhbXBsZSBvZiB2ZWN0b3IgZG
 F0YSJ9LCJyRHoxUTRoUnd1QWEzTnlnIjp7InN0YXJ0Ijo2MTY3
 LCJlbmQiOjYyMDEsInRleHQiOiItIFJlYWwgbGlmZSBleGFtcG
 xlIG9mIHZlY3RvciBkYXRhIn0sIk5BNGNvQk11RVNhdExwQ3Ai
-Onsic3RhcnQiOjE0MjE1LCJlbmQiOjE0MzEwLCJ0ZXh0IjoiIy
+Onsic3RhcnQiOjE0MjYyLCJlbmQiOjE0MzU3LCJ0ZXh0IjoiIy
 BUaW1lIHRvIGdldCB5b3VyIGhhbmRzIGRpcnR5ISBNb3ZlIG9u
 IHRvIHRoZSBDcmFzaCBDb3Vyc2UgZXhlcmNpc2UgdG8gZ2V0IH
 N0YeKApiJ9LCJKQXJmY3BCa3ozaWN1b0ZnIjp7InN0YXJ0Ijo5
 MDg3LCJlbmQiOjkxMDksInRleHQiOiIjIyMgR0lTIGFuYWx5c2
 lzIHR5cGVzIn0sIk5ZQlVJUTdYZHVZWkd1YzUiOnsic3RhcnQi
-OjEyNzgyLCJlbmQiOjEyODA0LCJ0ZXh0IjoiIyMgV2hhdCBpcy
+OjEyODI5LCJlbmQiOjEyODUxLCJ0ZXh0IjoiIyMgV2hhdCBpcy
 BhIGdvb2QgbWFwPyJ9LCJReTZ0eTZGSDBraTFlOGNFIjp7InN0
 YXJ0IjozNDkzLCJlbmQiOjM1MDksInRleHQiOiIjIyMgU3BhdG
 lhbCBkYXRhIn19LCJjb21tZW50cyI6eyJPRHhhN012dURDNnVW
@@ -180,6 +180,6 @@ Njg3MDY4MTQzNDI3fSwibTV0T2lWdDhXTnpyRzF0SiI6eyJkaX
 NjdXNzaW9uSWQiOiJReTZ0eTZGSDBraTFlOGNFIiwic3ViIjoi
 Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGRhdGEgZmlsZSB0eX
 BlcyBzZWN0aW9uIiwiY3JlYXRlZCI6MTY4NzA2ODI2NTg0OX19
-LCJoaXN0b3J5IjpbMTQ5Nzk2MjEwOSwtMTcyMTA4NTg4MCw0Mj
+LCJoaXN0b3J5IjpbMTkzMDM3NjMxMywtMTcyMTA4NTg4MCw0Mj
 I1OTgzMTYsLTE4NjgyNDkyNDRdfQ==
 -->
