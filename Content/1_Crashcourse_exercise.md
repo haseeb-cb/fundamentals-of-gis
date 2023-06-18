@@ -138,7 +138,7 @@ For a start, take your time to move around and get acquainted with the basic too
 
 Managing the **layers** is key in GIS. Right now, the added layers are arbitrarily symbolized and ordered, and do not come out very useful or informative. Thus, we need to get our hands dirty.
 
- 1.  Start by **changing the order of the layers** by dragging them in the layers panel on the left side of the map view. What do you think could b ea A good order, for example, can be as follows from top to bottom: HSL_Helsinki_stops, Helsinki_buildings, Waterbodies, Helsinki_small_areas and Helsinki_Municipality.
+ 1.  Start by **changing the order of the layers** by dragging them in the layers panel on the left side of the map view. What do you think could be a good order? For example, the order can be as follows from top to bottom: HSL_Helsinki_stops, Helsinki_buildings, Waterbodies, Helsinki_small_areas and Helsinki_Municipality.
  2.  You can also **change the visibility of the layers** by checking or unchecking the tick boxes next to the layer name or by adjusting **transparency**. The latter can be done under the *Style* tab in the *Layer properties* window, which can be accessed by right-clicking on the layer name and selecting *Properties*. This is also where you can change other style properties such as **symbol size and color**, **layer rendering** or create e.g. **choropleth maps** (we will look into these in more detail later on).
  
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_layers.png)
@@ -150,7 +150,7 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_symbology1.png)
 	 3. Press the *Fill color* button and change the color of the layer to blue
 	 4. If you want a transparent fill, change the *Opacity* under the *Fill color* section
-	 5. One you are satisfied with the layer styles, press *Apply* and *OK*
+	 5. Once you are satisfied with the layer styles, press *Apply* and *OK*
 
 4. It is also possible to **visualize the layers based on the information stored in the attribute table**. This can be done by selecting Categorized or Graduated instead of Single Symbol from the dropdown menu on the top of the page.	
 	
@@ -316,7 +316,7 @@ MTY4NjExNDE3NDc3MX0sIkVyallFYmoyM1pmUmlhNEkiOnsiZG
 lzY3Vzc2lvbklkIjoiQ3VHMXFHSjdkRUk3QTg3SCIsInN1YiI6
 ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSB3aXRoIGZyZX
 NoIGluc3RhbGwiLCJjcmVhdGVkIjoxNjg3MDcxOTExNTI1fX0s
-Imhpc3RvcnkiOlsxNDU4NzI3OTg3LC04ODcwOTAwNTIsLTY3MT
-AxODg3MiwtMzgzNzk5MDQxLC0xNDc2MDMzMzAwLC05MzczNjEx
-NTcsLTEzOTQ5MDA4MjksLTE1MzMwNzY3MDVdfQ==
+Imhpc3RvcnkiOlstMjU0MDc1MTMsLTg4NzA5MDA1MiwtNjcxMD
+E4ODcyLC0zODM3OTkwNDEsLTE0NzYwMzMzMDAsLTkzNzM2MTE1
+NywtMTM5NDkwMDgyOSwtMTUzMzA3NjcwNV19
 -->
