@@ -31,7 +31,7 @@ The Ring Rail line improves the accessibility of the airport area and the suburb
 
 ![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/4_Exercise/4_Exercise_data.png)
 
-- As you can see, the dataset is big and we don’t need everything it contains. You could download the whole data and edit it on your computer, but you can also filter the data before downloading it. You’d have to figure out what different attributes mean – unfortunately in this case the information is in Finnish, so needed code explanations are provided here. You can also check them through the link below and clicking “Aineiston kuvaus (pdf)”.
+	- As you can see, the dataset is big and we don’t need everything it contains. You could download the whole data and edit it on your computer, but you can also filter the data before downloading it. You’d have to figure out what different attributes mean – unfortunately in this case the information is in Finnish, so needed code explanations are provided here. You can also check them through the link below and clicking “Aineiston kuvaus (pdf)”
 - https://public-transport-hslhrt.opendata.arcgis.com/datasets/HSLHRT::hsln-linjat-4/about
 - You can select features by clicking “Filter data” on the left of the page.
 		- JL_LAJI: 12, filters by local VR traffic
@@ -186,11 +186,11 @@ l9LCI5aDYzNUs5NTlpRGRNSEJsIjp7ImRpc2N1c3Npb25JZCI6
 IjVZME9xOVR0U2VYWFZocmUiLCJzdWIiOiJnaDo0MDMwNDc4OC
 IsInRleHQiOiJBZGQgaGludCBvbiB3aGVyZSB0byBmaW5kIGV4
 cHJlc3Npb24gZm9yIHRoaXMiLCJjcmVhdGVkIjoxNjg2OTg4OT
-I4MTA0fX0sImhpc3RvcnkiOls1MDU5OTE1MjksMTQyOTQ1MTQz
-OCwxMjEyNTk1ODM2LC0xMzI3NzM1MTUyLC0yNzYwNzIxMTUsLT
-MwMjQ2NTIxMiwtMTkyOTUyNjA2MSwyMTAxOTQzODUyLDcyNDYx
-NzkwLC0yMDczMzkzMTAzLDIwMzM4NDUwNzQsLTUwOTgwNjY5MS
-wtNDQ5MTE1NjAzLC0yNzk5MzcwODksMjAxMTk5NjcxMCwxNzAw
-MjMzODE5LDUxMTk5OTkyMiwxODcyMTA2NjE2LC01NDg2NjI0MC
-wyMDM4MjQ2MDE4XX0=
+I4MTA0fX0sImhpc3RvcnkiOlstMTExNzA4MTYzLDE0Mjk0NTE0
+MzgsMTIxMjU5NTgzNiwtMTMyNzczNTE1MiwtMjc2MDcyMTE1LC
+0zMDI0NjUyMTIsLTE5Mjk1MjYwNjEsMjEwMTk0Mzg1Miw3MjQ2
+MTc5MCwtMjA3MzM5MzEwMywyMDMzODQ1MDc0LC01MDk4MDY2OT
+EsLTQ0OTExNTYwMywtMjc5OTM3MDg5LDIwMTE5OTY3MTAsMTcw
+MDIzMzgxOSw1MTE5OTk5MjIsMTg3MjEwNjYxNiwtNTQ4NjYyND
+AsMjAzODI0NjAxOF19
 -->
