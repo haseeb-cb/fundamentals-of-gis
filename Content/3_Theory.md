@@ -19,9 +19,8 @@ With GIS, it is possible to conduct spatial analyses and modeling to assess the 
 
 Furthermore, GIS allows for the monitoring and evaluation of policies and interventions aimed at reducing socio-spatial differentiation. By analyzing spatial data over time, planners can assess the effectiveness of urban development strategies and determine whether they contribute to more equitable spatial patterns and improved social outcomes.
 
-- Example picture of GIS analysis
-
-An example of an socio-spatial differentiation study using GIS: https://helda.helsinki.fi/handle/10138/301865
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Theory/3_Theory_socio-spatial_differentiation_analysis_example.png)
+Another example of an socio-spatial differentiation study using GIS can be found here: https://helda.helsinki.fi/handle/10138/301865
 
 ## Dataset
 The exercise accompanying this theory section consists of a GIS socio-spatial differentiation analysis. We will be using the Statistics Finland's Grid Database, which as the name suggests consists of a grid of cells, each of which describes various statistics of the area it covers. In this exercise specifically we will be looking at a 250x250m scale at the spatial distribution of level of education and income in Helsinki. 
@@ -88,16 +87,16 @@ What do you think is the purpose of this expression?
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI1c1JndzZETlBmYkJJY2ZpIjp7In
 RleHQiOiItIEV4YW1wbGUgcGljdHVyZSBvZiBHSVMgYW5hbHlz
-aXMiLCJzdGFydCI6MzU5NSwiZW5kIjozNjI4fSwieHU1SmE5bX
+aXMiLCJzdGFydCI6Mzc0NCwiZW5kIjozNTk1fSwieHU1SmE5bX
 g4VFZDcU9LSSI6eyJ0ZXh0IjoiV2UgbGVhcm5lZCBwcmV2aW91
 c2x5IHRoYXQgcmFzdGVyIGRhdGEgY29uc2lzdHMgb2YgYSBjb2
 50aW51b3VzIHN1cmZhY2UgZGl2aWRlZOKApiIsInN0YXJ0Ijo0
-Mjc3LCJlbmQiOjU1ODl9LCJKTDA4Wk85bWQxZ3Z0bTU1Ijp7In
+NDE1LCJlbmQiOjU3Mjd9LCJKTDA4Wk85bWQxZ3Z0bTU1Ijp7In
 RleHQiOiJZb3UgY2FuIGFjY2VzcyB0aGUgZGF0YXNldCBoZXJl
 OiBodHRwczovL3d3dy50aWxhc3Rva2Vza3VzLmZpL3R1cC9ydX
-V0dXRpZXRva2Fu4oCmIiwic3RhcnQiOjQxODAsImVuZCI6NDI3
-NX0sImtYZVFlV1dEY240ako2czQiOnsidGV4dCI6IjEgdmFsdW
-UiLCJzdGFydCI6NDg2NywiZW5kIjo0ODc0fX0sImNvbW1lbnRz
+V0dXRpZXRva2Fu4oCmIiwic3RhcnQiOjQzMTgsImVuZCI6NDQx
+M30sImtYZVFlV1dEY240ako2czQiOnsidGV4dCI6IjEgdmFsdW
+UiLCJzdGFydCI6NTAwNSwiZW5kIjo1MDEyfX0sImNvbW1lbnRz
 Ijp7ImZMQ0hmczBWZHd4MXFEVVciOnsiZGlzY3Vzc2lvbklkIj
 oiNXNSZ3c2RE5QZmJCSWNmaSIsInN1YiI6ImdoOjQwMzA0Nzg4
 IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nj
@@ -113,10 +112,14 @@ VXV0RjbjRqSjZzNCIsInN1YiI6ImdoOjIyMTY4MTU3IiwidGV4
 dCI6ImNoZWNrIC0gaSBndWVzcyBhbiByZ2IgY291bGQgYmUgdG
 hyZWUgdmFsdWVzLCBkaWZmZXJlbnQgYmFuZHMgaW4gc2F0ZWxs
 aXRlIGltYWdlcnkuIiwiY3JlYXRlZCI6MTY4NjczMjMxMzYwNH
-19LCJoaXN0b3J5IjpbMTUxNDM4MTkwNiwyMDg5NDg0ODY5LDc2
-ODM4NTYwOCw1NTc0NzAyMSwtOTIwOTAzODEwLDI0Mzg3MzgxNC
-w5Njg5MzEzNTUsLTE2MzI5NTI0MTYsLTEyMzQ3MzIxMjUsLTEz
-NTE3MTc1MTcsLTU3MzI0ODE0MywxNDQ0MzgxMTI1LDE4MTk2MT
-c3MDAsMjA4Mzk5Mzk4NiwtMTc1NDg1MTczLDEzMzIzNzQ5NDgs
-LTE3MDUyNTg5MjcsLTE1NDM1MDUwMTVdfQ==
+0sInRSUFZnNDEwM3JaYmpYaTEiOnsiZGlzY3Vzc2lvbklkIjoi
+NXNSZ3c2RE5QZmJCSWNmaSIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
+widGV4dCI6IkFkZCByZWZlcmVuY2UiLCJjcmVhdGVkIjoxNjg3
+MDcwNjk2ODIyfX0sImhpc3RvcnkiOlstODQ5NDIyNDEzLDE1MT
+QzODE5MDYsMjA4OTQ4NDg2OSw3NjgzODU2MDgsNTU3NDcwMjEs
+LTkyMDkwMzgxMCwyNDM4NzM4MTQsOTY4OTMxMzU1LC0xNjMyOT
+UyNDE2LC0xMjM0NzMyMTI1LC0xMzUxNzE3NTE3LC01NzMyNDgx
+NDMsMTQ0NDM4MTEyNSwxODE5NjE3NzAwLDIwODM5OTM5ODYsLT
+E3NTQ4NTE3MywxMzMyMzc0OTQ4LC0xNzA1MjU4OTI3LC0xNTQz
+NTA1MDE1XX0=
 -->
