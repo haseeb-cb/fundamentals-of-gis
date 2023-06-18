@@ -85,7 +85,7 @@ The ***Layer panel*** lists all the layers in the project and helps you manage t
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_layer_panel.png)
 
-The ***Processing Toolbox*** shows the list of all available **algorithms** grouped in different blocks, this is where you will find most of the tools we will be using in this course. If you ever want to do an operation and you're wondering if it is available in QGIS, this is a good place to start!  
+The ***Processing Toolbox*** shows the list of all available **algorithms** grouped in different blocks, this is where you will find most of the tools we will be using in this course. If you ever want to do something and you're wondering if it is available in QGIS, this is a good place to start!  
 
 ![](https://docs.qgis.org/3.4/en/_images/toolbox3.png)
 
@@ -275,7 +275,7 @@ lOKSwgd2hpY2jigKYiLCJzdGFydCI6NDQwOSwiZW5kIjo0NTM1
 fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJ0ZXh0IjoiVGhlc2UgZG
 F0YSBzZXRzIGFyZSBhbGwgZG93bmxvYWRlZCBmcm9tIFBhSVR1
 bGkgYW5kIEhlbHNpbmtpIFJlZ2lvbiBJbmZvc2hhcmUgZOKApi
-IsInN0YXJ0Ijo5MjM4LCJlbmQiOjk1NDV9LCJ5bmg1Ym9RaU9N
+IsInN0YXJ0Ijo5MjM1LCJlbmQiOjk1NDJ9LCJ5bmg1Ym9RaU9N
 VGlsWk1XIjp7InRleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dH
 BzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9yb3dhbjhr
 L2Z1bmRhbWVudGFscy1vZi1naXMv4oCmIiwic3RhcnQiOjgyLC
@@ -316,7 +316,7 @@ MTY4NjExNDE3NDc3MX0sIkVyallFYmoyM1pmUmlhNEkiOnsiZG
 lzY3Vzc2lvbklkIjoiQ3VHMXFHSjdkRUk3QTg3SCIsInN1YiI6
 ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSB3aXRoIGZyZX
 NoIGluc3RhbGwiLCJjcmVhdGVkIjoxNjg3MDcxOTExNTI1fX0s
-Imhpc3RvcnkiOlstNjcxMDE4ODcyLC0zODM3OTkwNDEsLTE0Nz
-YwMzMzMDAsLTkzNzM2MTE1NywtMTM5NDkwMDgyOSwtMTUzMzA3
-NjcwNV19
+Imhpc3RvcnkiOlstODg3MDkwMDUyLC02NzEwMTg4NzIsLTM4Mz
+c5OTA0MSwtMTQ3NjAzMzMwMCwtOTM3MzYxMTU3LC0xMzk0OTAw
+ODI5LC0xNTMzMDc2NzA1XX0=
 -->
