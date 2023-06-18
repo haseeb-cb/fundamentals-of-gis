@@ -21,7 +21,7 @@ Rowan van der Kaaden
 -   **Be familiar with QGIS’s user interface and basic functions**
 -   **Have an idea of what kind of data types GIS can process**
 
-**Note:** If you have not yet downloaded QGIS, do so now from this link: <https://www.qgis.org/en/site/forusers/download.html> See QGIS installation instructions for details.
+**Note:** If you have not yet downloaded QGIS, do so now from this link: <https://www.qgis.org/en/site/forusers/download.html
 
 
 ## The basics of QGIS
@@ -271,22 +271,22 @@ The last phase of this practical will concentrate on creating a map output.
 eyJkaXNjdXNzaW9ucyI6eyJOOGNoUGR6ZEhMcXB3S0tOIjp7In
 RleHQiOiJUaGUgZGF0YSB1c2VkIGluIHRoaXMgY291cnNlIHdp
 bGwgbW9zdGx5IGJlIGluIEVQU0cgMzA2NyAoRVRSUy1UTTM1Rk
-lOKSwgd2hpY2jigKYiLCJzdGFydCI6NDQ1OCwiZW5kIjo0NTg0
+lOKSwgd2hpY2jigKYiLCJzdGFydCI6NDQwOSwiZW5kIjo0NTM1
 fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJ0ZXh0IjoiVGhlc2UgZG
 F0YSBzZXRzIGFyZSBhbGwgZG93bmxvYWRlZCBmcm9tIFBhSVR1
 bGkgYW5kIEhlbHNpbmtpIFJlZ2lvbiBJbmZvc2hhcmUgZOKApi
-IsInN0YXJ0Ijo5Mjg3LCJlbmQiOjk1OTR9LCJ5bmg1Ym9RaU9N
+IsInN0YXJ0Ijo5MjM4LCJlbmQiOjk1NDV9LCJ5bmg1Ym9RaU9N
 VGlsWk1XIjp7InRleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dH
 BzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9yb3dhbjhr
 L2Z1bmRhbWVudGFscy1vZi1naXMv4oCmIiwic3RhcnQiOjgyLC
 JlbmQiOjIyM30sIlliWVFtNmxqVTQyZnk2UDYiOnsidGV4dCI6
 IiFbXShodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb2
 0vcm93YW44ay9mdW5kYW1lbnRhbHMtb2YtZ2lzL21hc3Rlci9B
-c3NldHPigKYiLCJzdGFydCI6NzE2MCwiZW5kIjo3Mjg0fSwiZF
+c3NldHPigKYiLCJzdGFydCI6NzExMSwiZW5kIjo3MjM1fSwiZF
 p0YTIyT2FXampxaVB6TSI6eyJ0ZXh0IjoiKipBZGRpbmcgZGF0
 YSBpbiBRR0lTOioqIFRoZSAqKkRhdGEgU291cmNlIE1hbmFnZX
 IqKiBvZmZlcnMgYSBoYW5keSB3YXkgdG8gYWRk4oCmIiwic3Rh
-cnQiOjU4NDEsImVuZCI6NjE2N319LCJjb21tZW50cyI6eyJLSE
+cnQiOjU3OTIsImVuZCI6NjExOH19LCJjb21tZW50cyI6eyJLSE
 NWcDNzNE1EQ3YyV2l0Ijp7ImRpc2N1c3Npb25JZCI6Ik44Y2hQ
 ZHpkSExxcHdLS04iLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleH
 QiOiJDb21lIGJhY2sgdG8gY2hlY2sgaWYgYWNjdXJhdGUiLCJj
@@ -309,6 +309,7 @@ siZGlzY3Vzc2lvbklkIjoiZFp0YTIyT2FXampxaVB6TSIsInN1
 YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBvdmVydmlldy
 BvZiB3aGVyZSB0byBmaW5kIGFsbCB0aGUgdG9vbHMgYW5kIHRv
 b2xiYXJzIiwiY3JlYXRlZCI6MTY4NjExNDE3NDc3MX19LCJoaX
-N0b3J5IjpbLTM4Mzc5OTA0MSwtMTQ3NjAzMzMwMCwtOTM3MzYx
-MTU3LC0xMzk0OTAwODI5LC0xNTMzMDc2NzA1XX0=
+N0b3J5IjpbLTYxMzMxMDk1LC0zODM3OTkwNDEsLTE0NzYwMzMz
+MDAsLTkzNzM2MTE1NywtMTM5NDkwMDgyOSwtMTUzMzA3NjcwNV
+19
 -->
