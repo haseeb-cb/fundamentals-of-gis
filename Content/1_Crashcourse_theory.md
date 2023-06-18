@@ -113,7 +113,7 @@ A **good map**:
 3. Has an adequate projection and scale(bar)
 4. Has a north arrow
 5. Has a legend with explanations of used symbology/colours etc.
-6. Usually data sources and the used projection
+6. Notes the data sources, used projection, and credits
 
 Important to keep in mind is that: **maps are images that inherently selective and result from choices made by a cartographer**. There is no such thing as an "objective map". In reality, maps always emphasize some elements while ignoring others (or pushing them to the "background") and there's power involved. The fact that maps are images also means that a map is often accompanied by a caption that tells the reader what they are expected to see on the map. Making good captions is a skill in itself, as captions influence influence the way in which people interpret the maps (as well as the reality they are attempting to depict).  
 
@@ -140,7 +140,7 @@ ZXh0IjoiLSBSZWFsIGxpZmUgZXhhbXBsZSBvZiB2ZWN0b3IgZG
 F0YSJ9LCJyRHoxUTRoUnd1QWEzTnlnIjp7InN0YXJ0Ijo2MTY3
 LCJlbmQiOjYyMDEsInRleHQiOiItIFJlYWwgbGlmZSBleGFtcG
 xlIG9mIHZlY3RvciBkYXRhIn0sIk5BNGNvQk11RVNhdExwQ3Ai
-Onsic3RhcnQiOjE0Mjc0LCJlbmQiOjE0MzY5LCJ0ZXh0IjoiIy
+Onsic3RhcnQiOjE0MjgyLCJlbmQiOjE0Mzc3LCJ0ZXh0IjoiIy
 BUaW1lIHRvIGdldCB5b3VyIGhhbmRzIGRpcnR5ISBNb3ZlIG9u
 IHRvIHRoZSBDcmFzaCBDb3Vyc2UgZXhlcmNpc2UgdG8gZ2V0IH
 N0YeKApiJ9LCJKQXJmY3BCa3ozaWN1b0ZnIjp7InN0YXJ0Ijo5
@@ -180,6 +180,6 @@ Njg3MDY4MTQzNDI3fSwibTV0T2lWdDhXTnpyRzF0SiI6eyJkaX
 NjdXNzaW9uSWQiOiJReTZ0eTZGSDBraTFlOGNFIiwic3ViIjoi
 Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGRhdGEgZmlsZSB0eX
 BlcyBzZWN0aW9uIiwiY3JlYXRlZCI6MTY4NzA2ODI2NTg0OX19
-LCJoaXN0b3J5IjpbLTI5MDgyMTM1LC0xNzIxMDg1ODgwLDQyMj
-U5ODMxNiwtMTg2ODI0OTI0NF19
+LCJoaXN0b3J5IjpbMTgwNDAzODk3NywtMTcyMTA4NTg4MCw0Mj
+I1OTgzMTYsLTE4NjgyNDkyNDRdfQ==
 -->
