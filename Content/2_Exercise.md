@@ -90,7 +90,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 10. You may need to enable the *Digitizing Toolbar*, which enables you to edit the vector files. To do this, choose *View* -> *Toolbars* and make sure *Digitizing Toolbar* is selected. 
 
-11. Click on the tampere_buildings layer in the layers panel to highlight it, then toggle editing on ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png)  in the *Digitizing Toolbar*.
+11. Click on the tampere_buildings layer in the layers panel to highlight it, then toggle editing on ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png)  in the *Editing Toolbar*.
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/Exercise1_figure5.png)
 
@@ -174,18 +174,18 @@ eyJkaXNjdXNzaW9ucyI6eyJrZG44NXZQZ2xEVEdlVnV4Ijp7In
 RleHQiOiJEYXRhIHVzZWQiLCJzdGFydCI6NjYwLCJlbmQiOjY2
 OX0sIk9IVzh1NFdqVmNaTzBmcDUiOnsidGV4dCI6IiFbXShodH
 RwczovL2RvY3MucWdpcy5vcmcvMy4yOC9lbi9faW1hZ2VzL21B
-Y3Rpb25TZWxlY3QucG5nKSIsInN0YXJ0Ijo4MDc1LCJlbmQiOj
-gxMzV9LCJWRlBxUTdrblBiNlpoaGRYIjp7InRleHQiOiIqQWRk
-IFBvbHlnb24gRmVhdHVyZSoiLCJzdGFydCI6ODYwOSwiZW5kIj
-o4NjMwfSwiYTNFaWVsWGFrZGdjWDhOeSI6eyJ0ZXh0IjoiLSBV
+Y3Rpb25TZWxlY3QucG5nKSIsInN0YXJ0Ijo4MDcyLCJlbmQiOj
+gxMzJ9LCJWRlBxUTdrblBiNlpoaGRYIjp7InRleHQiOiIqQWRk
+IFBvbHlnb24gRmVhdHVyZSoiLCJzdGFydCI6ODYwNiwiZW5kIj
+o4NjI3fSwiYTNFaWVsWGFrZGdjWDhOeSI6eyJ0ZXh0IjoiLSBV
 c2luZyB0aGUgKklkZW50aWZ5IGZlYXR1cmVzKiB0b29sLCBjbG
 ljayBvbiBhIGxpbmUgZmVhdHVyZSBpbiB0aGUgdGFtcGVyZV9y
-b+KApiIsInN0YXJ0IjoxMTMyOCwiZW5kIjoxMTUyMH0sImExMm
+b+KApiIsInN0YXJ0IjoxMTMyNSwiZW5kIjoxMTUxN30sImExMm
 RLR3llWVAzdExsWEQiOnsidGV4dCI6IkNvbXBsZXRpb24iLCJz
 dGFydCI6Njc0LCJlbmQiOjY4NH0sIlpIUXRaWTFiU3RzYUJhZE
-EiOnsidGV4dCI6IlNoYXBlZmlsZSIsInN0YXJ0Ijo5ODQxLCJl
-bmQiOjk4NTB9LCJGTXBrOTlHWEFKTzhFNEhOIjp7InN0YXJ0Ij
-o3NzY4LCJlbmQiOjc3ODksInRleHQiOiIqRGlnaXRpemluZyBU
+EiOnsidGV4dCI6IlNoYXBlZmlsZSIsInN0YXJ0Ijo5ODM4LCJl
+bmQiOjk4NDd9LCJGTXBrOTlHWEFKTzhFNEhOIjp7InN0YXJ0Ij
+o3NzY4LCJlbmQiOjc3ODYsInRleHQiOiIqRGlnaXRpemluZyBU
 b29sYmFyKi4ifX0sImNvbW1lbnRzIjp7Ill5UlJlaDlOUlRKZG
 lvMUQiOnsiZGlzY3Vzc2lvbklkIjoia2RuODV2UGdsRFRHZVZ1
 eCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFzayBKb2
@@ -215,6 +215,6 @@ I6MTY4NjczMDk3MjE4NX0sIkkydkpoUlR1aWNiQ1VSaUsiOnsi
 ZGlzY3Vzc2lvbklkIjoiRk1wazk5R1hBSk84RTRITiIsInN1Yi
 I6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwi
 Y3JlYXRlZCI6MTY4NzA2NzA0NDk4Nn19LCJoaXN0b3J5IjpbMT
-gyOTU3NDI3OSwtOTY4MTEwMTMzLC0yMTQ2OTEwNTg2LC04MTYy
+I1NTc1MTA0NiwtOTY4MTEwMTMzLC0yMTQ2OTEwNTg2LC04MTYy
 NDI4MDFdfQ==
 -->
