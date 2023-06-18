@@ -27,7 +27,7 @@ The exercise accompanying this theory section consists of a GIS socio-spatial di
 
 You can access the dataset here: https://www.tilastokeskus.fi/tup/ruututietokanta/index_en.html
 
-We learned previously that raster data consists of a continuous surface divided into a grid of cells, where each cell corresponds to a specific location and contains a value representing a particular attribute. This value is represented by the color of the cell, images are in a way rasters as well, specifically JPEG, PNG, and GIF images. Do you remember seeing in movies that they store data in pictures? This is not unrealistic, as you could just see pictures as a raster where the color of each cell represents its value. One limitation of rasters however, is that a cell can only hold 1 value , since the cell can also only be 1 color. This is sufficient for a lot of cases, for example a raster which describes the slope of the area only needs one value per cell, the slope. But if we want to use multiple values in a raster, such as statistics of the cells, we need to make use of a grid in a vector format. This is the case in the Statistics Finland's Grid Database, as you will see when you do the exercise. This is important to keep in mind in the future, since this type of data may look like a raster, it needs to be processed using vector methods. While doing the exercise, ask yourself questions like: Do I need my data to be vector or raster? What type of data is this? How do I process this data? 
+We learned previously that raster data consists of a continuous surface divided into a grid of cells, where each cell corresponds to a specific location and contains a value representing a particular attribute. This value is represented by the color of the cell, images are in a way rasters as well, specifically JPEG, PNG, and GIF images. Do you remember seeing in movies that they store data in pictures? This is not unrealistic, as you could just see pictures as a raster where the color of each cell represents its value. While the Statistics Finland's Grid Database is practically raster data, it is in vector form, as you will see when you do the exercise. This is important to keep in mind in the future, since this type of data may look like a raster, it needs to be processed using vector methods. While doing the exercise, ask yourself questions like: Do I need my data to be vector or raster? What type of data is this? How do I process this data? 
 
 ## Data preparation
 
@@ -87,39 +87,25 @@ What do you think is the purpose of this expression?
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI1c1JndzZETlBmYkJJY2ZpIjp7In
 RleHQiOiItIEV4YW1wbGUgcGljdHVyZSBvZiBHSVMgYW5hbHlz
-aXMiLCJzdGFydCI6Mzc0NCwiZW5kIjozNTk1fSwieHU1SmE5bX
-g4VFZDcU9LSSI6eyJ0ZXh0IjoiV2UgbGVhcm5lZCBwcmV2aW91
-c2x5IHRoYXQgcmFzdGVyIGRhdGEgY29uc2lzdHMgb2YgYSBjb2
-50aW51b3VzIHN1cmZhY2UgZGl2aWRlZOKApiIsInN0YXJ0Ijo0
-NDE1LCJlbmQiOjU3Mjd9LCJKTDA4Wk85bWQxZ3Z0bTU1Ijp7In
-RleHQiOiJZb3UgY2FuIGFjY2VzcyB0aGUgZGF0YXNldCBoZXJl
-OiBodHRwczovL3d3dy50aWxhc3Rva2Vza3VzLmZpL3R1cC9ydX
-V0dXRpZXRva2Fu4oCmIiwic3RhcnQiOjQzMTgsImVuZCI6NDQx
-M30sImtYZVFlV1dEY240ako2czQiOnsidGV4dCI6IjEgdmFsdW
-UiLCJzdGFydCI6NTAwNSwiZW5kIjo1MDEyfX0sImNvbW1lbnRz
-Ijp7ImZMQ0hmczBWZHd4MXFEVVciOnsiZGlzY3Vzc2lvbklkIj
-oiNXNSZ3c2RE5QZmJCSWNmaSIsInN1YiI6ImdoOjQwMzA0Nzg4
-IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nj
-YzNjc3MjU5MH0sIlU5a3h4eVBRMTZQUTVWd3ciOnsiZGlzY3Vz
-c2lvbklkIjoieHU1SmE5bXg4VFZDcU9LSSIsInN1YiI6ImdoOj
-QwMzA0Nzg4IiwidGV4dCI6IkNoZWNrIGZvciBhY2N1cmFjeSIs
-ImNyZWF0ZWQiOjE2ODY2MzgyNjU2MDF9LCJGazFpRjk1bTcyYj
-BiYkNsIjp7ImRpc2N1c3Npb25JZCI6IkpMMDhaTzltZDFndnRt
-NTUiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJDaGVjay
-BpZiBvcGVuIiwiY3JlYXRlZCI6MTY4NjYzODQzMzkyMX0sIlBj
-YnVya2pGSDl3VVA2U1giOnsiZGlzY3Vzc2lvbklkIjoia1hlUW
-VXV0RjbjRqSjZzNCIsInN1YiI6ImdoOjIyMTY4MTU3IiwidGV4
-dCI6ImNoZWNrIC0gaSBndWVzcyBhbiByZ2IgY291bGQgYmUgdG
-hyZWUgdmFsdWVzLCBkaWZmZXJlbnQgYmFuZHMgaW4gc2F0ZWxs
-aXRlIGltYWdlcnkuIiwiY3JlYXRlZCI6MTY4NjczMjMxMzYwNH
-0sInRSUFZnNDEwM3JaYmpYaTEiOnsiZGlzY3Vzc2lvbklkIjoi
-NXNSZ3c2RE5QZmJCSWNmaSIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
-widGV4dCI6IkFkZCByZWZlcmVuY2UiLCJjcmVhdGVkIjoxNjg3
-MDcwNjk2ODIyfX0sImhpc3RvcnkiOlstODQ5NDIyNDEzLDE1MT
-QzODE5MDYsMjA4OTQ4NDg2OSw3NjgzODU2MDgsNTU3NDcwMjEs
-LTkyMDkwMzgxMCwyNDM4NzM4MTQsOTY4OTMxMzU1LC0xNjMyOT
-UyNDE2LC0xMjM0NzMyMTI1LC0xMzUxNzE3NTE3LC01NzMyNDgx
-NDMsMTQ0NDM4MTEyNSwxODE5NjE3NzAwLDIwODM5OTM5ODYsLT
-E3NTQ4NTE3MywxMzMyMzc0OTQ4LC0xNzA1MjU4OTI3LC0xNTQz
-NTA1MDE1XX0=
+aXMiLCJzdGFydCI6Mzc0NCwiZW5kIjozNTk1fSwiSkwwOFpPOW
+1kMWd2dG01NSI6eyJ0ZXh0IjoiWW91IGNhbiBhY2Nlc3MgdGhl
+IGRhdGFzZXQgaGVyZTogaHR0cHM6Ly93d3cudGlsYXN0b2tlc2
+t1cy5maS90dXAvcnV1dHV0aWV0b2thbuKApiIsInN0YXJ0Ijo0
+MzE4LCJlbmQiOjQ0MTN9fSwiY29tbWVudHMiOnsiZkxDSGZzMF
+Zkd3gxcURVVyI6eyJkaXNjdXNzaW9uSWQiOiI1c1JndzZETlBm
+YkJJY2ZpIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQW
+RkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2NjM2NzcyNTkwfSwi
+RmsxaUY5NW03MmIwYmJDbCI6eyJkaXNjdXNzaW9uSWQiOiJKTD
+A4Wk85bWQxZ3Z0bTU1Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0
+ZXh0IjoiQ2hlY2sgaWYgb3BlbiIsImNyZWF0ZWQiOjE2ODY2Mz
+g0MzM5MjF9LCJ0UlBWZzQxMDNyWmJqWGkxIjp7ImRpc2N1c3Np
+b25JZCI6IjVzUmd3NkROUGZiQkljZmkiLCJzdWIiOiJnaDo0MD
+MwNDc4OCIsInRleHQiOiJBZGQgcmVmZXJlbmNlIiwiY3JlYXRl
+ZCI6MTY4NzA3MDY5NjgyMn19LCJoaXN0b3J5IjpbLTI0ODU4ND
+E5OCwxNTE0MzgxOTA2LDIwODk0ODQ4NjksNzY4Mzg1NjA4LDU1
+NzQ3MDIxLC05MjA5MDM4MTAsMjQzODczODE0LDk2ODkzMTM1NS
+wtMTYzMjk1MjQxNiwtMTIzNDczMjEyNSwtMTM1MTcxNzUxNywt
+NTczMjQ4MTQzLDE0NDQzODExMjUsMTgxOTYxNzcwMCwyMDgzOT
+kzOTg2LC0xNzU0ODUxNzMsMTMzMjM3NDk0OCwtMTcwNTI1ODky
+NywtMTU0MzUwNTAxNV19
 -->
