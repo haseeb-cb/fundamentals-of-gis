@@ -29,11 +29,11 @@ The Ring Rail line improves the accessibility of the airport area and the suburb
 3. We need to have the Ring Rail Line in geospatial format. One option is to digitize it based on a basic map. Other is to find the data online – let’s do that for practice!
 	- HRI offers easy access to open data sources between the cities of Helsinki, Espoo, Vantaa and Kauniainen. Follow the link to Helsinki-Region Transport’s public transport lines from 2021-2022 and open the preview in HSL’s website. https://public-transport-hslhrt.opendata.arcgis.com/datasets/hsln-linjat-4/
 
-![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/4_Exercise/4_Exercise_data.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/4_Exercise/4_Exercise_data.png)
 
 	- As you can see, the dataset is big and we don’t need everything it contains. You could download the whole data and edit it on your computer, but you can also filter the data before downloading it. You’d have to figure out what different attributes mean – unfortunately in this case the information is in Finnish, so needed code explanations are provided here. You can also check them through the link below and clicking “Aineiston kuvaus (pdf)”
-- https://public-transport-hslhrt.opendata.arcgis.com/datasets/HSLHRT::hsln-linjat-4/about
-- You can select features by clicking “Filter data” on the left of the page.
+		- https://public-transport-hslhrt.opendata.arcgis.com/datasets/HSLHRT::hsln-linjat-4/about
+	- You can select features by clicking “Filter data” on the left of the page.
 		- JL_LAJI: 12, filters by local VR traffic
 		- VERKKO: 4, filters on train traffic
 		- AIK_VOIM: 1, filters on in-use tracks
@@ -132,26 +132,26 @@ Fill in the answers to the Moodle
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJDVUx4NEJlVkRWczJuRklBIjp7In
-N0YXJ0Ijo0MDgwLCJlbmQiOjQwODksInRleHQiOiItIFBpY3R1
-cmUifSwiVlZoRndjYTRQcVlPRXREQiI6eyJzdGFydCI6Njg4Ny
-wiZW5kIjo2OTQ1LCJ0ZXh0IjoiMi4xOiBBbmFseXppbmcgdGhl
+N0YXJ0Ijo0MDU1LCJlbmQiOjQwNjQsInRleHQiOiItIFBpY3R1
+cmUifSwiVlZoRndjYTRQcVlPRXREQiI6eyJzdGFydCI6Njg2Mi
+wiZW5kIjo2OTIwLCJ0ZXh0IjoiMi4xOiBBbmFseXppbmcgdGhl
 IGVmZmVjdHMgb24gdGhlIHBlb3BsZSBpbiB0aGUgc3R1ZHkgYX
-JlYSJ9LCJOMUgwZEV4Z1NBbUN2WjJYIjp7InN0YXJ0Ijo0NDUx
-LCJlbmQiOjQ0NTcsInRleHQiOiJleHBvcnQifSwiVHhWS0xwNz
-k4ZGtqNXBPcSI6eyJzdGFydCI6NTkzMCwiZW5kIjo1OTQ1LCJ0
+JlYSJ9LCJOMUgwZEV4Z1NBbUN2WjJYIjp7InN0YXJ0Ijo0NDI2
+LCJlbmQiOjQ0MzIsInRleHQiOiJleHBvcnQifSwiVHhWS0xwNz
+k4ZGtqNXBPcSI6eyJzdGFydCI6NTkwNSwiZW5kIjo1OTIwLCJ0
 ZXh0IjoiZWRpdGluZyB0b29sYmFyIn0sIm5KYkRRekNlbkp2aE
-tydUEiOnsic3RhcnQiOjQ3NjYsImVuZCI6NDkwNywidGV4dCI6
+tydUEiOnsic3RhcnQiOjQ3NDEsImVuZCI6NDg4MiwidGV4dCI6
 Ii0gV2UgY2FuIHVzZSBHb29nbGUgU2F0ZWxsaXRlIGltYWdlcn
 kgYW5kIHRoZSBvdmVydmlldyBtYXAgb2YgdGhlIHJpbmcgcmFp
 bCBsaW7igKYifSwieXlLWHJZUHpxTDFrTDhtQyI6eyJzdGFydC
-I6ODEwNywiZW5kIjo4MTA4LCJ0ZXh0IjoiWCJ9LCJEeFk5dXNQ
-NUsxYWdsWTU5Ijp7InN0YXJ0Ijo5MDUxLCJlbmQiOjkwODQsIn
+I6ODA4MiwiZW5kIjo4MDgzLCJ0ZXh0IjoiWCJ9LCJEeFk5dXNQ
+NUsxYWdsWTU5Ijp7InN0YXJ0Ijo5MDI2LCJlbmQiOjkwNTksIn
 RleHQiOiJGaWxsIGluIHRoZSBhbnN3ZXJzIHRvIHRoZSBNb29k
-bGUifSwiME92TTdRN1dQRkRaZGtGYyI6eyJzdGFydCI6OTE5Mi
-wiZW5kIjo5MjcyLCJ0ZXh0IjoiIyMjIyAyLjI6IFBsYW5uaW5n
+bGUifSwiME92TTdRN1dQRkRaZGtGYyI6eyJzdGFydCI6OTE2Ny
+wiZW5kIjo5MjQ3LCJ0ZXh0IjoiIyMjIyAyLjI6IFBsYW5uaW5n
 IGEgbmV3IGFpcnBvcnQgaG90ZWwgJiBjb25ncmVzcyBjZW50ZX
 IgbmVhciB0aGUgcmluZyByYWlsIGxpbmUifSwiNVkwT3E5VHRT
-ZVhYVmhyZSI6eyJzdGFydCI6MTE4MTcsImVuZCI6MTIxMjgsIn
+ZVhYVmhyZSI6eyJzdGFydCI6MTE3OTIsImVuZCI6MTIxMDMsIn
 RleHQiOiItIExldCdzIGV4dHJhY3QgYXJlYXMgb2YgYXQgbGVh
 c3QgNTAwMG0yIHVzaW5nIHRoZSAqRXh0cmFjdCBieSBFeHByZX
 NzaW9uKiB0b29sIn19LCJjb21tZW50cyI6eyJXSE9hbEd4NWh5
@@ -186,7 +186,7 @@ l9LCI5aDYzNUs5NTlpRGRNSEJsIjp7ImRpc2N1c3Npb25JZCI6
 IjVZME9xOVR0U2VYWFZocmUiLCJzdWIiOiJnaDo0MDMwNDc4OC
 IsInRleHQiOiJBZGQgaGludCBvbiB3aGVyZSB0byBmaW5kIGV4
 cHJlc3Npb24gZm9yIHRoaXMiLCJjcmVhdGVkIjoxNjg2OTg4OT
-I4MTA0fX0sImhpc3RvcnkiOlstMTExNzA4MTYzLDE0Mjk0NTE0
+I4MTA0fX0sImhpc3RvcnkiOlstMTE2NTYzNzMzLDE0Mjk0NTE0
 MzgsMTIxMjU5NTgzNiwtMTMyNzczNTE1MiwtMjc2MDcyMTE1LC
 0zMDI0NjUyMTIsLTE5Mjk1MjYwNjEsMjEwMTk0Mzg1Miw3MjQ2
 MTc5MCwtMjA3MzM5MzEwMywyMDMzODQ1MDc0LC01MDk4MDY2OT
