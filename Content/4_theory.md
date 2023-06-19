@@ -67,13 +67,15 @@ Using the figure above, we are looking for the green circles by spatially compar
 
 - **Cross**: Returns 1 (true) if the supplied geometries have some, but not all, interior points in common and the actual crossing is of a lower dimension than the highest supplied geometry. For example, a line crossing a polygon will cross as a line (true). Two lines crossing will cross as a point (true). Two polygons cross as a polygon (false). In the picture, no circles will be returned.
 
+# Time to get your hands dirty! Move on to the 4th exercise to apply this new knowledge
+
 [^1]:http://gsp.humboldt.edu/olm/Lessons/GIS/06%20Vector%20Analysis%20Attributes/001_IntroOverlayAndBuffer21.html
 [^2]: https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-02-multiple-layer-analysis.html
 [^3]: https://docs.qgis.org/3.28/en/docs/user_manual/processing_algs/algs_include.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNDU1NjEzOCwxMTE5NzAwMzc4LDE2Mz
-QxMjkyMjEsLTExMzU2NjI3NTYsLTE2NzI5MDY5NjYsMTYzNjU5
-MjcxNywxNjI5Nzk1NDkzLDEyMjc2MzA3NzQsNzMwOTk4MTE2XX
-0=
+eyJoaXN0b3J5IjpbLTE5MzU1OTczOTgsMTExOTcwMDM3OCwxNj
+M0MTI5MjIxLC0xMTM1NjYyNzU2LC0xNjcyOTA2OTY2LDE2MzY1
+OTI3MTcsMTYyOTc5NTQ5MywxMjI3NjMwNzc0LDczMDk5ODExNl
+19
 -->
