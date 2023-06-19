@@ -48,18 +48,17 @@ Overlay analysis is a powerful tool in GIS because it allows the combination and
 
 - (d) **Identify**: Creates an output layer with the spatial extent of the input layer but includes attribute information from the overlay.
 
-In addition to the aforementioned vector overlay methods, other common multiple layer geoprocessing options are available to the user. These included the clip, erase, and split tools.
+In addition to the aforementioned vector overlay methods, **other common multiple layer geoprocessing options** are available to the user. These included the clip, erase, and split tools.
 
 - (e) **Clip**: Used to extract those features from an input point, line, or polygon layer that falls within the spatial extent of the clip layer.
 
 - (f) **Erase**: Whereas the clip tool preserves areas within an input layer, the erase tool preserves only those areas outside the extent of the erase layer.
 
-- (g) **Split**: Used to divide an input layer into two or more layers based on a split layer
-
+- (g) **Split**: Used to divide an input layer into two or more layers based on a split layer.
 
 
 ### Geometric predicates
-Geometric predicates are boolean functions used to determine the spatial relation a feature has with another by comparing whether and how their geometries share a portion of space.
+Geometric predicates are functions used to determine the spatial relation a feature has with another by comparing whether and how their geometries share a portion of space. They are often part of the options when doi
 
 ![](https://docs.qgis.org/3.28/en/_images/selectbylocation.png)
 Using the figure above, we are looking for the green circles by spatially comparing them to the orange rectangle feature. Available geometric predicates are:
@@ -101,6 +100,6 @@ FtcGxlIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3MTU5MTUzNzYy
 fSwiQ21QTmtlMDZOeVFmRXRmSSI6eyJkaXNjdXNzaW9uSWQiOi
 JHVEh1YjZrc3YxMXVqQXQ5Iiwic3ViIjoiZ2g6NDAzMDQ3ODgi
 LCJ0ZXh0IjoiRGlhZ3JhbSIsImNyZWF0ZWQiOjE2ODcxNTk0OD
-UwMDJ9fSwiaGlzdG9yeSI6Wy0xNjk2MjA0MTY4LDE2MzY1OTI3
-MTcsMTYyOTc5NTQ5MywxMjI3NjMwNzc0LDczMDk5ODExNl19
+UwMDJ9fSwiaGlzdG9yeSI6WzEwMjQ2NjgzMzEsMTYzNjU5Mjcx
+NywxNjI5Nzk1NDkzLDEyMjc2MzA3NzQsNzMwOTk4MTE2XX0=
 -->
