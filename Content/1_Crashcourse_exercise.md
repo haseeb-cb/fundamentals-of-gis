@@ -157,9 +157,10 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	1. Open the HSL_Helsinki_stops layer symbology
 	2. Choose *Graduated* from the dropdown menu
 	3. Choose "Boardings" as the value from which the data is gathered
-	4. Set the *Mode* to *Natural breaks (Jenks)* and press *Classify*
-	5. Select a fitting *Color ramp* from the drop-down menu
-	6. Press *Apply* and *OK*
+	4. Click *Classify* 
+	5. Set the *Mode* to *Natural breaks (Jenks)* and press *Classify*
+	6. Select a fitting *Color ramp* from the drop-down menu
+	7. Press *Apply* and *OK*
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_symbology2.png)
 
 **Now, using the previous tips and tricks as your support, change the styles of all the layers in the project.**
@@ -316,7 +317,8 @@ MTY4NjExNDE3NDc3MX0sIkVyallFYmoyM1pmUmlhNEkiOnsiZG
 lzY3Vzc2lvbklkIjoiQ3VHMXFHSjdkRUk3QTg3SCIsInN1YiI6
 ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSB3aXRoIGZyZX
 NoIGluc3RhbGwiLCJjcmVhdGVkIjoxNjg3MDcxOTExNTI1fX0s
-Imhpc3RvcnkiOlstMjU0MDc1MTMsLTg4NzA5MDA1MiwtNjcxMD
-E4ODcyLC0zODM3OTkwNDEsLTE0NzYwMzMzMDAsLTkzNzM2MTE1
-NywtMTM5NDkwMDgyOSwtMTUzMzA3NjcwNV19
+Imhpc3RvcnkiOls0ODE5OTU0NzYsLTI1NDA3NTEzLC04ODcwOT
+AwNTIsLTY3MTAxODg3MiwtMzgzNzk5MDQxLC0xNDc2MDMzMzAw
+LC05MzczNjExNTcsLTEzOTQ5MDA4MjksLTE1MzMwNzY3MDVdfQ
+==
 -->
