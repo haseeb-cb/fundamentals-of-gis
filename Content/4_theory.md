@@ -1,5 +1,7 @@
 
+### Fundamentals of Geographic Information Systems (GIS)
 
+# Theory 4: Buffer and overlay analysis
 
 
 - Geometric predicates
@@ -7,5 +9,5 @@
 - Buffer analysis
 - Overlay analysis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MDM5MTA1Niw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTIyNzYzMDc3NCw3MzA5OTgxMTZdfQ==
 -->
