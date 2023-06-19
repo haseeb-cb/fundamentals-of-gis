@@ -42,13 +42,10 @@ Overlay analysis is a powerful tool in GIS because it allows the combination and
 ![](https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/section_11/a33268f6ff028c24152080d0aa3f2aad.jpg)
 - (a) Union: The union operation combines all the input datasets to create a single output layer that includes the combined geometry and attributes of all features from the input layers.
 
--  (b) Intersection: This operation identifies the spatial extent where the input datasets overlap or intersect. The resulting output will include only the areas that are common to all input datasets.
+- (b) Intersection: This operation identifies the spatial extent where the input datasets overlap or intersect. The resulting output will include only the areas that are common to all input datasets.
 
-- (c) Difference: This operation identifies the areas that are unique to each input dataset, excluding the overlapping portions.
+- (c) Symmetrical Difference: This operation identifies the areas that are unique to each input dataset, including the overlapping portions.
 
-- Symmetrical Difference: This operation identifies the areas that are unique to each input dataset, including the overlapping portions.
-
-- Overlay with attribute transfer: This operation combines the geometry and attributes of the input datasets based on specific rules or conditions. For example, it can transfer attribute information from one layer to another based on spatial relationships.
 
 ### Geometric predicates
 Geometric predicates are boolean functions used to determine the spatial relation a feature has with another by comparing whether and how their geometries share a portion of space.
@@ -93,6 +90,6 @@ FtcGxlIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3MTU5MTUzNzYy
 fSwiQ21QTmtlMDZOeVFmRXRmSSI6eyJkaXNjdXNzaW9uSWQiOi
 JHVEh1YjZrc3YxMXVqQXQ5Iiwic3ViIjoiZ2g6NDAzMDQ3ODgi
 LCJ0ZXh0IjoiRGlhZ3JhbSIsImNyZWF0ZWQiOjE2ODcxNTk0OD
-UwMDJ9fSwiaGlzdG9yeSI6WzkwMDA1NTE2MywxNjM2NTkyNzE3
-LDE2Mjk3OTU0OTMsMTIyNzYzMDc3NCw3MzA5OTgxMTZdfQ==
+UwMDJ9fSwiaGlzdG9yeSI6Wy01NzM3NTA5NjYsMTYzNjU5Mjcx
+NywxNjI5Nzk1NDkzLDEyMjc2MzA3NzQsNzMwOTk4MTE2XX0=
 -->
