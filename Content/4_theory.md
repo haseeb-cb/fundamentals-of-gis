@@ -12,7 +12,7 @@ Buffer analysis is commonly used in GIS to answer questions about spatial relati
 
 The process of buffer analysis involves the following steps:
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/4_Theory_buffer_diagram.drawio.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/4_Theory_buffer_diagram.drawio_blue.png)
 Buffer analysis can be performed using GIS software, which provides tools and functions for creating buffers and analyzing the spatial relationships. The specific capabilities and options for buffer analysis may vary depending on the GIS software being used.
 
 ## Overlay analysis
@@ -79,14 +79,14 @@ Using the figure above, we are looking for the green circles by spatially compar
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJHVEh1YjZrc3YxMXVqQXQ5Ijp7In
-N0YXJ0IjoxOTMxLCJlbmQiOjI3OTksInRleHQiOiIxLiAgU2Vs
+N0YXJ0IjoxOTM2LCJlbmQiOjI4MDQsInRleHQiOiIxLiAgU2Vs
 ZWN0IGlucHV0IGRhdGFzZXRzOiBJZGVudGlmeSB0aGUgbGF5ZX
 JzIG9yIG1hcHMgdGhhdCB5b3Ugd2FudCB0byBvdmVybGF54oCm
 In19LCJjb21tZW50cyI6eyJDbVBOa2UwNk55UWZFdGZJIjp7Im
 Rpc2N1c3Npb25JZCI6IkdUSHViNmtzdjExdWpBdDkiLCJzdWIi
 OiJnaDo0MDMwNDc4OCIsInRleHQiOiJEaWFncmFtIiwiY3JlYX
-RlZCI6MTY4NzE1OTQ4NTAwMn19LCJoaXN0b3J5IjpbMTYzNDEy
-OTIyMSwtMTEzNTY2Mjc1NiwtMTY3MjkwNjk2NiwxNjM2NTkyNz
-E3LDE2Mjk3OTU0OTMsMTIyNzYzMDc3NCw3MzA5OTgxMTZdfQ==
-
+RlZCI6MTY4NzE1OTQ4NTAwMn19LCJoaXN0b3J5IjpbMTExOTcw
+MDM3OCwxNjM0MTI5MjIxLC0xMTM1NjYyNzU2LC0xNjcyOTA2OT
+Y2LDE2MzY1OTI3MTcsMTYyOTc5NTQ5MywxMjI3NjMwNzc0LDcz
+MDk5ODExNl19
 -->
