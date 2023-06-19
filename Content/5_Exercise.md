@@ -145,7 +145,9 @@ As your final task, write a short reflection on what was done and why and add it
 
 **Don’t forget to add map items for all maps.**
 
+*Tip: Find inspiration for visualization by googling “suitability map cultivating”, “soil type map colors”, and so on.*
 
+*Another tip: you can use one layout to create the map collection. This requires opening each map in it’s separate map-project. Google “multiple maps to a singly layout ArcGIS Pro” for extra tips.*
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI3NlpVMUtCVkY1M0JPNDN0Ijp7In
 N0YXJ0Ijo5OCwiZW5kIjoxMTEsInRleHQiOiIjIyBPQkpFQ1RJ
@@ -312,6 +314,6 @@ c4OCIsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2
 ODcxNzIwMDgxMjh9LCJoRXpLWnBVYTVxWkszN1JFIjp7ImRpc2
 N1c3Npb25JZCI6IlZXMkJtQm02ZmRjclhaZmQiLCJzdWIiOiJn
 aDo0MDMwNDc4OCIsInRleHQiOiJGaXggZm9yIFFHSVMiLCJjcm
-VhdGVkIjoxNjg3MTcyMDQyOTYwfX0sImhpc3RvcnkiOlsxMzU1
-MDcyNjY5LC04OTE1OTkyMzNdfQ==
+VhdGVkIjoxNjg3MTcyMDQyOTYwfX0sImhpc3RvcnkiOlstODQ0
+NzMyNjY3LC04OTE1OTkyMzNdfQ==
 -->
