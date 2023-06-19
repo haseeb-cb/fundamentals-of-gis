@@ -22,7 +22,7 @@ The overlay analysis process involves the following steps:
 
 1.  Select input datasets: Identify the layers or maps that you want to overlay. Each layer represents a different geographic feature or theme, such as land use, population density, transportation networks, or environmental factors.
     
-2.  Define overlay operation: Determine the specific type of overlay operation to be performed. There are several common types of overlay operations, including:
+2.  Define overlay operation: Determine the specific type of overlay operation to be performed. There are several common types of overlay operations, which are explained below.
         
 3.  Perform the overlay: Apply the selected overlay operation to the input datasets. This involves comparing the spatial positions and attributes of the features in each layer and creating the output layer based on the overlay rules.
     
@@ -79,14 +79,14 @@ Using the figure above, we are looking for the green circles by spatially compar
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJHVEh1YjZrc3YxMXVqQXQ5Ijp7In
-N0YXJ0IjoxOTM2LCJlbmQiOjI4MDQsInRleHQiOiIxLiAgU2Vs
+N0YXJ0IjoxOTM2LCJlbmQiOjI4MjAsInRleHQiOiIxLiAgU2Vs
 ZWN0IGlucHV0IGRhdGFzZXRzOiBJZGVudGlmeSB0aGUgbGF5ZX
 JzIG9yIG1hcHMgdGhhdCB5b3Ugd2FudCB0byBvdmVybGF54oCm
 In19LCJjb21tZW50cyI6eyJDbVBOa2UwNk55UWZFdGZJIjp7Im
 Rpc2N1c3Npb25JZCI6IkdUSHViNmtzdjExdWpBdDkiLCJzdWIi
 OiJnaDo0MDMwNDc4OCIsInRleHQiOiJEaWFncmFtIiwiY3JlYX
-RlZCI6MTY4NzE1OTQ4NTAwMn19LCJoaXN0b3J5IjpbMTExOTcw
-MDM3OCwxNjM0MTI5MjIxLC0xMTM1NjYyNzU2LC0xNjcyOTA2OT
-Y2LDE2MzY1OTI3MTcsMTYyOTc5NTQ5MywxMjI3NjMwNzc0LDcz
-MDk5ODExNl19
+RlZCI6MTY4NzE1OTQ4NTAwMn19LCJoaXN0b3J5IjpbLTEzNjg2
+NzY0MjcsMTExOTcwMDM3OCwxNjM0MTI5MjIxLC0xMTM1NjYyNz
+U2LC0xNjcyOTA2OTY2LDE2MzY1OTI3MTcsMTYyOTc5NTQ5Mywx
+MjI3NjMwNzc0LDczMDk5ODExNl19
 -->
