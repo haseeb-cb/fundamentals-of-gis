@@ -17,7 +17,12 @@ The Ring Rail line improves the accessibility of the airport area and the suburb
 This exercise consists of three main objectives:
 - Gather and prepare data of the ring rail line for processing
 - Use the gathered ring rail line data and provided data to answer questions about the impact of the ring rail line and the airport on the surrounding residents
-- 
+- Find an optimal location for a new Airport Hotel & Congress Center to the Helsinki-Vantaa Airport area based on accessibility
+
+To complete these you will put the following main skills to use:
+- Data gathering and processing
+- Buffer analysis
+- Overlay analysis
 
 ## DATA USED
 - Capital region people explanation 
@@ -134,12 +139,12 @@ Fill in the answers to the Moodle
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJWVmhGd2NhNFBxWU9FdERCIjp7In
-N0YXJ0Ijo3MjU5LCJlbmQiOjczMTcsInRleHQiOiIyLjE6IEFu
+N0YXJ0Ijo3NTE5LCJlbmQiOjc1NzcsInRleHQiOiIyLjE6IEFu
 YWx5emluZyB0aGUgZWZmZWN0cyBvbiB0aGUgcGVvcGxlIGluIH
 RoZSBzdHVkeSBhcmVhIn0sIkR4WTl1c1A1SzFhZ2xZNTkiOnsi
-c3RhcnQiOjk0NTQsImVuZCI6OTQ4NywidGV4dCI6IkZpbGwgaW
+c3RhcnQiOjk3MTQsImVuZCI6OTc0NywidGV4dCI6IkZpbGwgaW
 4gdGhlIGFuc3dlcnMgdG8gdGhlIE1vb2RsZSJ9LCIwT3ZNN1E3
-V1BGRFpka0ZjIjp7InN0YXJ0Ijo5NTk1LCJlbmQiOjk2NzUsIn
+V1BGRFpka0ZjIjp7InN0YXJ0Ijo5ODU1LCJlbmQiOjk5MzUsIn
 RleHQiOiIjIyMjIDIuMjogUGxhbm5pbmcgYSBuZXcgYWlycG9y
 dCBob3RlbCAmIGNvbmdyZXNzIGNlbnRlciBuZWFyIHRoZSByaW
 5nIHJhaWwgbGluZSJ9fSwiY29tbWVudHMiOnsiR1VNbUNUSmhL
@@ -154,7 +159,7 @@ E2ODY5ODY0MjkxMDV9LCI2NlNwdEp3Skc4T3RWcGtiIjp7ImRp
 c2N1c3Npb25JZCI6IjBPdk03UTdXUEZEWmRrRmMiLCJzdWIiOi
 JnaDo0MDMwNDc4OCIsInRleHQiOiJPcHRpb25hbGx5IChyZSlt
 b3ZlIHRoaXMgaWYgdG9vIGhhcmQiLCJjcmVhdGVkIjoxNjg2OT
-g4NzQ3MzY5fX0sImhpc3RvcnkiOlstNDg3NzIxMDYwLDEyMzgx
+g4NzQ3MzY5fX0sImhpc3RvcnkiOlsxMzE5NTA0MjM1LDEyMzgx
 ODQ5ODYsMTQyOTQ1MTQzOCwxMjEyNTk1ODM2LC0xMzI3NzM1MT
 UyLC0yNzYwNzIxMTUsLTMwMjQ2NTIxMiwtMTkyOTUyNjA2MSwy
 MTAxOTQzODUyLDcyNDYxNzkwLC0yMDczMzkzMTAzLDIwMzM4ND
