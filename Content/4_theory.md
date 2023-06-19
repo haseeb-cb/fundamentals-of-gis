@@ -4,7 +4,7 @@
 # Theory 4: Buffer and overlay analysis
 
 ## Buffer analysis
-GIS buffer analysis is a spatial analysis technique used in Geographic Information Systems (GIS) to create proximity zones or buffers around spatial features. A buffer is a defined area around a geographic object, such as a point, line, or polygon, that represents a specific distance or range. The buffer can be created by measuring a fixed distance from the object or by using other criteria, such as travel time or risk factors.
+GIS buffer analysis is a spatial analysis technique used to create proximity zones or buffers around spatial features. A buffer is a defined area around a geographic object, such as a point, line, or polygon, that represents a specific distance or range. The buffer can be created by measuring a fixed distance from the object or by using other criteria, such as travel time or risk factors.
 
 Buffer analysis is commonly used in GIS to answer questions about spatial relationships and proximity. By creating buffers around specific features, analysts can determine which other features fall within or intersect those buffers. This can be helpful in various applications, including urban planning, environmental impact assessment, transportation analysis, and emergency response planning.
 
@@ -30,6 +30,6 @@ Buffer analysis can be performed using GIS software, which provides tools and fu
 - Buffer analysis
 - Overlay analysis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjk4NDUzNTEsMTIyNzYzMDc3NCw3Mz
+eyJoaXN0b3J5IjpbLTIwMjUyNDA4MDUsMTIyNzYzMDc3NCw3Mz
 A5OTgxMTZdfQ==
 -->
