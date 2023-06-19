@@ -39,7 +39,7 @@ Overlay analysis is a powerful tool in GIS because it allows the combination and
 
 ## Overlay operations 
 
-![](https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/section_11/a33268f6ff028c24152080d0aa3f2aad.jpg)
+![](https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/section_11/a33268f6ff028c24152080d0aa3f2aad.jpg)[^1]
 - (a) Union: The union operation combines all the input datasets to create a single output layer that includes the combined geometry and attributes of all features from the input layers.
 
 - (b) Intersection: This operation identifies the spatial extent where the input datasets overlap or intersect. The resulting output will include only the areas that are common to all input datasets.
@@ -62,7 +62,7 @@ In addition to the aforementioned vector overlay methods, **other common multipl
 Geometric predicates are functions used to determine the spatial relation a feature has with another by comparing whether and how their geometries share a portion of space. They are often part of the options when doing overlay analysis, come back to this section when you run into them. 
 
 ![](https://docs.qgis.org/3.28/en/_images/selectbylocation.png)
-Using the figure above, we are looking for the green circles by spatially comparing them to the orange rectangle feature. Available geometric predicates are:
+Using the figure above, we are looking for the green circles by spatially comparing them to the orange rectangle feature. Available geometric predicates are[^2
 
 - **Intersect**: Tests whether a geometry intersects another. Returns 1 (true) if the geometries spatially intersect (share any portion of space - overlap or touch) and 0 if they don’t. In the picture above, this will return circles 1, 2 and 3.
 
@@ -79,7 +79,8 @@ Using the figure above, we are looking for the green circles by spatially compar
 - **Are within**: Tests whether a geometry is within another. Returns 1 (true) if geometry a is completely inside geometry b. Only circle 1 is returned.
 
 - **Cross**: Returns 1 (true) if the supplied geometries have some, but not all, interior points in common and the actual crossing is of a lower dimension than the highest supplied geometry. For example, a line crossing a polygon will cross as a line (true). Two lines crossing will cross as a point (true). Two polygons cross as a polygon (false). In the picture, no circles will be returned.
-[^1]: Test
+
+[^2]: https://docs.qgis.org/3.28/en/docs/user_manual/processing_algs/algs_include.html
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJNMFhjUWUwT0thTTR3UjM1Ijp7In
 N0YXJ0Ijo5NzAsImVuZCI6MjA4NCwidGV4dCI6IjEuICBEZWZp
@@ -102,6 +103,6 @@ FtcGxlIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3MTU5MTUzNzYy
 fSwiQ21QTmtlMDZOeVFmRXRmSSI6eyJkaXNjdXNzaW9uSWQiOi
 JHVEh1YjZrc3YxMXVqQXQ5Iiwic3ViIjoiZ2g6NDAzMDQ3ODgi
 LCJ0ZXh0IjoiRGlhZ3JhbSIsImNyZWF0ZWQiOjE2ODcxNTk0OD
-UwMDJ9fSwiaGlzdG9yeSI6Wy0xMTg5NDI0MzMxLDE2MzY1OTI3
+UwMDJ9fSwiaGlzdG9yeSI6Wy0xNDk0NTk1OTkxLDE2MzY1OTI3
 MTcsMTYyOTc5NTQ5MywxMjI3NjMwNzc0LDczMDk5ODExNl19
 -->
