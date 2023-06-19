@@ -48,6 +48,10 @@ The overlay analysis process involves the following steps:
 Overlay analysis is a powerful tool in GIS because it allows the combination and integration of multiple datasets to generate new information and support decision-making processes. It is commonly used in various applications, such as land-use planning, environmental analysis, market research, demographic analysis, and infrastructure development. GIS software provides tools and functions to perform overlay analysis, and the specific capabilities may vary depending on the software used.
 
 ### Geometric predicates
+Geometric predicates are boolean functions used to determine the spatial relation a feature has with another by comparing whether and how their geometries share a portion of space.
+
+
+
 - Geometric predicates
 	- Intersect
 - Buffer analysis
@@ -60,13 +64,20 @@ bmUgdGhlIGlucHV0IGZlYXR1cmU6IElkZW50aWZ5IHRoZSBnZW
 fSwib3lrR3UwZkFzZ0NPM0RvYyI6eyJzdGFydCI6MTE5LCJlbm
 QiOjkwNiwidGV4dCI6IkdJUyBidWZmZXIgYW5hbHlzaXMgaXMg
 YSBzcGF0aWFsIGFuYWx5c2lzIHRlY2huaXF1ZSB1c2VkIHRvIG
-NyZWF0ZSBwcm94aW1pdHkgem/igKYifX0sImNvbW1lbnRzIjp7
-IkUxRnlMRzcwU0xKdDNFc2oiOnsiZGlzY3Vzc2lvbklkIjoiTT
-BYY1FlME9LYU00d1IzNSIsInN1YiI6ImdoOjQwMzA0Nzg4Iiwi
-dGV4dCI6IkRpYWdyYW0iLCJjcmVhdGVkIjoxNjg3MTU5MTQxMD
-Y2fSwiR29wY0F0Mko5QVBpVnVUeSI6eyJkaXNjdXNzaW9uSWQi
-OiJveWtHdTBmQXNnQ08zRG9jIiwic3ViIjoiZ2g6NDAzMDQ3OD
-giLCJ0ZXh0IjoiRXhhbXBsZSBwaWN0dXJlIiwiY3JlYXRlZCI6
-MTY4NzE1OTE1Mzc2Mn19LCJoaXN0b3J5IjpbMTYyOTc5NTQ5My
-wxMjI3NjMwNzc0LDczMDk5ODExNl19
+NyZWF0ZSBwcm94aW1pdHkgem/igKYifSwiR1RIdWI2a3N2MTF1
+akF0OSI6eyJzdGFydCI6MjgyMywiZW5kIjo0NjYwLCJ0ZXh0Ij
+oiMS4gIFNlbGVjdCBpbnB1dCBkYXRhc2V0czogSWRlbnRpZnkg
+dGhlIGxheWVycyBvciBtYXBzIHRoYXQgeW91IHdhbnQgdG8gb3
+ZlcmxheeKApiJ9fSwiY29tbWVudHMiOnsiRTFGeUxHNzBTTEp0
+M0VzaiI6eyJkaXNjdXNzaW9uSWQiOiJNMFhjUWUwT0thTTR3Uj
+M1Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiRGlhZ3Jh
+bSIsImNyZWF0ZWQiOjE2ODcxNTkxNDEwNjZ9LCJHb3BjQXQySj
+lBUGlWdVR5Ijp7ImRpc2N1c3Npb25JZCI6Im95a0d1MGZBc2dD
+TzNEb2MiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJFeG
+FtcGxlIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3MTU5MTUzNzYy
+fSwiQ21QTmtlMDZOeVFmRXRmSSI6eyJkaXNjdXNzaW9uSWQiOi
+JHVEh1YjZrc3YxMXVqQXQ5Iiwic3ViIjoiZ2g6NDAzMDQ3ODgi
+LCJ0ZXh0IjoiRGlhZ3JhbSIsImNyZWF0ZWQiOjE2ODcxNTk0OD
+UwMDJ9fSwiaGlzdG9yeSI6Wy0yNzU3NTIzMzMsMTYyOTc5NTQ5
+MywxMjI3NjMwNzc0LDczMDk5ODExNl19
 -->
