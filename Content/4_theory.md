@@ -51,6 +51,8 @@ Overlay analysis is a powerful tool in GIS because it allows the combination and
 Geometric predicates are boolean functions used to determine the spatial relation a feature has with another by comparing whether and how their geometries share a portion of space.
 
 ![](https://docs.qgis.org/3.28/en/_images/selectbylocation.png)
+Using the figure above, we are looking for the green circles by spatially comparing them to the orange rectangle feature. Available geometric predicates are:
+
 - **Intersect**: Tests whether a geometry intersects another. Returns 1 (true) if the geometries spatially intersect (share any portion of space - overlap or touch) and 0 if they don’t. In the picture above, this will return circles 1, 2 and 3.
 
 - **Contain**: Returns 1 (true) if and only if no points of b lie in the exterior of a, and at least one point of the interior of b lies in the interior of a. In the picture, no circle is returned, but the rectangle would be if you would look for it the other way around, as it contains circle 1 completely. This is the opposite of _are within_.
@@ -59,26 +61,13 @@ Geometric predicates are boolean functions used to determine the spatial relatio
 
 - **Equal**: Returns 1 (true) if and only if geometries are exactly the same. No circles will be returned.
 
-_Touch_
+- **Touch**: Tests whether a geometry touches another. Returns 1 (true) if the geometries have at least one point in common, but their interiors do not intersect. Only circle 3 is returned.
 
-Tests whether a geometry touches another. Returns 1 (true) if the geometries have at least one point in common, but their interiors do not intersect. Only circle 3 is returned.
+- **Overlap**: Tests whether a geometry overlaps another. Returns 1 (true) if the geometries share space, are of the same dimension, but are not completely contained by each other. Only circle 2 is returned.
 
-_Overlap_
+- **Are within**: Tests whether a geometry is within another. Returns 1 (true) if geometry a is completely inside geometry b. Only circle 1 is returned.
 
-Tests whether a geometry overlaps another. Returns 1 (true) if the geometries share space, are of the same dimension, but are not completely contained by each other. Only circle 2 is returned.
-
-_Are within_
-
-Tests whether a geometry is within another. Returns 1 (true) if geometry a is completely inside geometry b. Only circle 1 is returned.
-
-_Cross_
-
-Returns 1 (true) if the supplied geometries have some, but not all, interior points in common and the actual crossing is of a lower dimension than the highest supplied geometry. For example, a line crossing a polygon will cross as a line (true). Two lines crossing will cross as a point (true). Two polygons cross as a polygon (false). In the picture, no circles will be returned.
-
-- Geometric predicates
-	- Intersect
-- Buffer analysis
-- Overlay analysis
+- **Cross**: Returns 1 (true) if the supplied geometries have some, but not all, interior points in common and the actual crossing is of a lower dimension than the highest supplied geometry. For example, a line crossing a polygon will cross as a line (true). Two lines crossing will cross as a point (true). Two polygons cross as a polygon (false). In the picture, no circles will be returned.
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJNMFhjUWUwT0thTTR3UjM1Ijp7In
 N0YXJ0Ijo5NzAsImVuZCI6MjA4NCwidGV4dCI6IjEuICBEZWZp
@@ -101,6 +90,6 @@ FtcGxlIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3MTU5MTUzNzYy
 fSwiQ21QTmtlMDZOeVFmRXRmSSI6eyJkaXNjdXNzaW9uSWQiOi
 JHVEh1YjZrc3YxMXVqQXQ5Iiwic3ViIjoiZ2g6NDAzMDQ3ODgi
 LCJ0ZXh0IjoiRGlhZ3JhbSIsImNyZWF0ZWQiOjE2ODcxNTk0OD
-UwMDJ9fSwiaGlzdG9yeSI6Wy02MzQ5Mzg4NjYsMTYzNjU5Mjcx
+UwMDJ9fSwiaGlzdG9yeSI6Wy0yNjE4NTU0NzAsMTYzNjU5Mjcx
 NywxNjI5Nzk1NDkzLDEyMjc2MzA3NzQsNzMwOTk4MTE2XX0=
 -->
