@@ -81,7 +81,7 @@ For this exercise, we will be cleaning up the data by selecting the entries we w
 What do you think is the purpose of this expression?
 
 
-# Time to get your hands dirty! Move on to the 3rd exercise to apply this new knowledge.
+# Time to get your hands dirty! Move on to the 3rd exercise to apply this new knowledge
 
 
 <!--stackedit_data:
@@ -94,11 +94,11 @@ g4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4
 NjYzNjc3MjU5MH0sInRSUFZnNDEwM3JaYmpYaTEiOnsiZGlzY3
 Vzc2lvbklkIjoiNXNSZ3c2RE5QZmJCSWNmaSIsInN1YiI6Imdo
 OjQwMzA0Nzg4IiwidGV4dCI6IkFkZCByZWZlcmVuY2UiLCJjcm
-VhdGVkIjoxNjg3MDcwNjk2ODIyfX0sImhpc3RvcnkiOlstOTUw
-MDgxNzk0LDE1MTQzODE5MDYsMjA4OTQ4NDg2OSw3NjgzODU2MD
-gsNTU3NDcwMjEsLTkyMDkwMzgxMCwyNDM4NzM4MTQsOTY4OTMx
-MzU1LC0xNjMyOTUyNDE2LC0xMjM0NzMyMTI1LC0xMzUxNzE3NT
-E3LC01NzMyNDgxNDMsMTQ0NDM4MTEyNSwxODE5NjE3NzAwLDIw
-ODM5OTM5ODYsLTE3NTQ4NTE3MywxMzMyMzc0OTQ4LC0xNzA1Mj
-U4OTI3LC0xNTQzNTA1MDE1XX0=
+VhdGVkIjoxNjg3MDcwNjk2ODIyfX0sImhpc3RvcnkiOlsyMTI2
+NzQxMjgwLC05NTAwODE3OTQsMTUxNDM4MTkwNiwyMDg5NDg0OD
+Y5LDc2ODM4NTYwOCw1NTc0NzAyMSwtOTIwOTAzODEwLDI0Mzg3
+MzgxNCw5Njg5MzEzNTUsLTE2MzI5NTI0MTYsLTEyMzQ3MzIxMj
+UsLTEzNTE3MTc1MTcsLTU3MzI0ODE0MywxNDQ0MzgxMTI1LDE4
+MTk2MTc3MDAsMjA4Mzk5Mzk4NiwtMTc1NDg1MTczLDEzMzIzNz
+Q5NDgsLTE3MDUyNTg5MjcsLTE1NDM1MDUwMTVdfQ==
 -->
