@@ -4,6 +4,15 @@
 
 ## OVERVIEW & PURPOSE
 
+The Ring Rail Line, also known as “Kehärata”, is a railway line that was opened in 2015 in the Helsinki capital region. The new rail route created a connection between Helsinki-Vantaa Airport and the Helsinki region commuter traffic network by joining the existing Vantaankoski and Main line branches. The approximately 18-kilometer-long Ring Rail line connects to the current rail network at the Vantaankoski and Hiekkaharju stations and the track between Viinikkala and Ruskeasanta goes in an underground tunnel.
+
+For the 2015 opening, five new stations were constructed at Leinelä, Helsinki-Vantaa Airport, Aviapolis, Kivistö and Vehkala. Reservations have also been made for four additional stations at Petas, Viinikkala, Ruskeasanta and Lapinkylä to be built later in the second phase. Out of these, the Aviapolis and Airport stations are located underground. Similarly, the reserved stations of Ruskeasanta and Viinikkala will be located underground.
+
+The Ring Rail line improves the accessibility of the airport area and the suburbs along the route, cut down the journey times for over 12 million airport passengers per annum and it is also estimated to create employment for over 60 000 people.
+
+![enter image description here](https://vayla.fi/documents/25230764/35593193/Keh%C3%A4rata_kartta.jpg/a9017019-18d8-4a4d-a601-88b08a32fe87?t=1451313857883)
+*Legend in English: Pintarata = Overground, Tunneli = tunnel, Asema = station, Asemavaraus = station reservation, Nykyiset asemat = Current stations, Hämeenlinnanväylän parannus = improvement of Hämeenlinnanväylä*
+
 ## OBJECTIVES
 
 ## DATA USED
@@ -14,15 +23,6 @@
 ## EXERCISE PHASES
 
 ### Part 1: The ring rail line visualization
-The Ring Rail Line, also known as “Kehärata”, is a railway line that was opened in 2015 in the Helsinki capital region. The new rail route created a connection between Helsinki-Vantaa Airport and the Helsinki region commuter traffic network by joining the existing Vantaankoski and Main line branches. The approximately 18-kilometer-long Ring Rail line connects to the current rail network at the Vantaankoski and Hiekkaharju stations and the track between Viinikkala and Ruskeasanta goes in an underground tunnel.
-
-For the 2015 opening, five new stations were constructed at Leinelä, Helsinki-Vantaa Airport, Aviapolis, Kivistö and Vehkala. Reservations have also been made for four additional stations at Petas, Viinikkala, Ruskeasanta and Lapinkylä to be built later in the second phase. Out of these, the Aviapolis and Airport stations are located underground. Similarly, the reserved stations of Ruskeasanta and Viinikkala will be located underground.
-
-The Ring Rail line improves the accessibility of the airport area and the suburbs along the route, cut down the journey times for over 12 million airport passengers per annum and it is also estimated to create employment for over 60 000 people.
-
-![enter image description here](https://vayla.fi/documents/25230764/35593193/Keh%C3%A4rata_kartta.jpg/a9017019-18d8-4a4d-a601-88b08a32fe87?t=1451313857883)
-*Legend in English: Pintarata = Overground, Tunneli = tunnel, Asema = station, Asemavaraus = station reservation, Nykyiset asemat = Current stations, Hämeenlinnanväylän parannus = improvement of Hämeenlinnanväylä*
-
 #### 1.1: Getting the data
 1. Download 4_Exercise_data from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and add it to your QGIS project. 
 	- Go through the data, what does it describe? What order of layers would be good to work with?
@@ -138,30 +138,23 @@ c3RhcnQiOjkxNzgsImVuZCI6OTIxMSwidGV4dCI6IkZpbGwgaW
 V1BGRFpka0ZjIjp7InN0YXJ0Ijo5MzE5LCJlbmQiOjkzOTksIn
 RleHQiOiIjIyMjIDIuMjogUGxhbm5pbmcgYSBuZXcgYWlycG9y
 dCBob3RlbCAmIGNvbmdyZXNzIGNlbnRlciBuZWFyIHRoZSByaW
-5nIHJhaWwgbGluZSJ9LCJXeWRsUkJrTkVLNlR6YjYwIjp7InN0
-YXJ0Ijo3NCwiZW5kIjoxNzYsInRleHQiOiIjIyBPVkVSVklFVy
-AmIFBVUlBPU0VcblxuIyMgT0JKRUNUSVZFU1xuXG4jIyBEQVRB
-IFVTRURcbi0gQ2FwaXRhbCByZWdpb24gcGVvcGxlIGV4cGzigK
-YifX0sImNvbW1lbnRzIjp7IkdVTW1DVEpoS3hrNFBTaU4iOnsi
-ZGlzY3Vzc2lvbklkIjoiVlZoRndjYTRQcVlPRXREQiIsInN1Yi
-I6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBzZWN0aW9uIGlu
-IG1vb2RsZSB3aGVyZSB0byBmaWxsIGluIGFuc3dlcnMgZm9yIH
-RoZXNlIiwiY3JlYXRlZCI6MTY4Njg5OTI0NDk5N30sImRLQmNI
-MWdHZ3IybEF3N3MiOnsiZGlzY3Vzc2lvbklkIjoiRHhZOXVzUD
-VLMWFnbFk1OSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
-IkZpeCByZWZlcmVuY2UiLCJjcmVhdGVkIjoxNjg2OTg2NDI5MT
-A1fSwiNjZTcHRKd0pHOE90VnBrYiI6eyJkaXNjdXNzaW9uSWQi
-OiIwT3ZNN1E3V1BGRFpka0ZjIiwic3ViIjoiZ2g6NDAzMDQ3OD
-giLCJ0ZXh0IjoiT3B0aW9uYWxseSAocmUpbW92ZSB0aGlzIGlm
-IHRvbyBoYXJkIiwiY3JlYXRlZCI6MTY4Njk4ODc0NzM2OX0sIm
-lQazJCUE1UTG5SNW9CcDUiOnsiZGlzY3Vzc2lvbklkIjoiV3lk
-bFJCa05FSzZUemI2MCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidG
-V4dCI6IldyaXRlIG91dCIsImNyZWF0ZWQiOjE2ODcwNjkxMDE5
-Nzl9fSwiaGlzdG9yeSI6WzEyMzgxODQ5ODYsMTQyOTQ1MTQzOC
-wxMjEyNTk1ODM2LC0xMzI3NzM1MTUyLC0yNzYwNzIxMTUsLTMw
-MjQ2NTIxMiwtMTkyOTUyNjA2MSwyMTAxOTQzODUyLDcyNDYxNz
-kwLC0yMDczMzkzMTAzLDIwMzM4NDUwNzQsLTUwOTgwNjY5MSwt
-NDQ5MTE1NjAzLC0yNzk5MzcwODksMjAxMTk5NjcxMCwxNzAwMj
-MzODE5LDUxMTk5OTkyMiwxODcyMTA2NjE2LC01NDg2NjI0MCwy
-MDM4MjQ2MDE4XX0=
+5nIHJhaWwgbGluZSJ9fSwiY29tbWVudHMiOnsiR1VNbUNUSmhL
+eGs0UFNpTiI6eyJkaXNjdXNzaW9uSWQiOiJWVmhGd2NhNFBxWU
+9FdERCIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRk
+IHNlY3Rpb24gaW4gbW9vZGxlIHdoZXJlIHRvIGZpbGwgaW4gYW
+5zd2VycyBmb3IgdGhlc2UiLCJjcmVhdGVkIjoxNjg2ODk5MjQ0
+OTk3fSwiZEtCY0gxZ0dncjJsQXc3cyI6eyJkaXNjdXNzaW9uSW
+QiOiJEeFk5dXNQNUsxYWdsWTU5Iiwic3ViIjoiZ2g6NDAzMDQ3
+ODgiLCJ0ZXh0IjoiRml4IHJlZmVyZW5jZSIsImNyZWF0ZWQiOj
+E2ODY5ODY0MjkxMDV9LCI2NlNwdEp3Skc4T3RWcGtiIjp7ImRp
+c2N1c3Npb25JZCI6IjBPdk03UTdXUEZEWmRrRmMiLCJzdWIiOi
+JnaDo0MDMwNDc4OCIsInRleHQiOiJPcHRpb25hbGx5IChyZSlt
+b3ZlIHRoaXMgaWYgdG9vIGhhcmQiLCJjcmVhdGVkIjoxNjg2OT
+g4NzQ3MzY5fX0sImhpc3RvcnkiOlstNDkzNDk4NjEwLDEyMzgx
+ODQ5ODYsMTQyOTQ1MTQzOCwxMjEyNTk1ODM2LC0xMzI3NzM1MT
+UyLC0yNzYwNzIxMTUsLTMwMjQ2NTIxMiwtMTkyOTUyNjA2MSwy
+MTAxOTQzODUyLDcyNDYxNzkwLC0yMDczMzkzMTAzLDIwMzM4ND
+UwNzQsLTUwOTgwNjY5MSwtNDQ5MTE1NjAzLC0yNzk5MzcwODks
+MjAxMTk5NjcxMCwxNzAwMjMzODE5LDUxMTk5OTkyMiwxODcyMT
+A2NjE2LC01NDg2NjI0MF19
 -->
