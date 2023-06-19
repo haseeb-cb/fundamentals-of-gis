@@ -37,28 +37,17 @@ areas with the lowest educational & income level on a map
 	- The attribute table’s field names are in Finnish, but there’s a pdf included in the course
 data with the translations, explanations for the field names and longer descriptions (in
 English, Finnish, and Swedish).
+## Completion
 
-## COMPLETION
-Work individually or in pairs and make map(s) and write a short reflection (200-300 words). The following
-steps should be done:
-1. Cleaning up the data of placeholder values for null/NoData entries.
-	- Selecting the rows without null values in the wanted fields:
-	- Inhabitants belonging to the lowest income category
-	- Inhabitants with no qualification after basic-level studies
-2. Calculation of proportions (percentages) of the variables above we need for the analysis
-3. Re-classifying the proportions into 4 classes based upon quartiles
-	- Using the field calculator and conditional statements
-4. Finding the low-education and low-income grid cells
-5. Creating a map
-6. Reflect:
-	- Reflecting on these questions:
-		- How are the different phenomena located in the Helsinki metropolitan region? Where are the biggest clusters?
-		- Can you find any surprising results?
-		- Are income and education level data sufficient variables to study segregation?
-		- If not, what other variables would you need?
-	- Write how your workflow went, which part was hard and which was easy.
-	- It’s not needed to write click by click how you did it.
-7. Return your exercise reflection to the course Moodle.
+Work in pairs or individually. Complete the exercise and submit a short report containing at least the following:
+
+1. Maps of the outcome of the exercise
+
+	- Remember: all maps should have a legend, a scale bar and a north arrow
+
+	- Use the tips from the Crash Course to improve your map
+
+2. A short reflection (200-300 words) on this exercise and your map
 
 ## EXERCISE PHASES
 
@@ -215,13 +204,13 @@ fSwiUVAxWENiQ3BSc2QwbFZxNSI6eyJ0ZXh0IjoiSGVsc2lua2
 kiLCJzdGFydCI6MTIzNCwiZW5kIjoxMjQyfSwiV3Z6bnlmS0xY
 dm5sRURpNCI6eyJ0ZXh0IjoicGRmIGluY2x1ZGVkIiwic3Rhcn
 QiOjE4NDUsImVuZCI6MTg1N30sIkJ3ZFRwa3lIblpFQmNOclgi
-OnsidGV4dCI6InBkZi1maWxlcyIsInN0YXJ0IjozMzkzLCJlbm
-QiOjM0MDJ9LCI1dUhCTVNsNU1TbVpicFZqIjp7InRleHQiOiIx
+OnsidGV4dCI6InBkZi1maWxlcyIsInN0YXJ0IjoyNTU2LCJlbm
+QiOjI1NjV9LCI1dUhCTVNsNU1TbVpicFZqIjp7InRleHQiOiIx
 LiBEb3dubG9hZCwgdW56aXAgYW5kIG9wZW4gdGhlIGV4ZXJjaX
 NlIDMgZGF0YSBpbiBRR0lTIGZyb20gdGhlIGNvdXJzZSBNb29k
-bGXigKYiLCJzdGFydCI6MzI1OSwiZW5kIjozMzQzfSwiZHN4Uj
-M5NDlHR3BLWVVHWiI6eyJ0ZXh0IjoidGhpcyIsInN0YXJ0Ijo4
-NTUwLCJlbmQiOjg1NTR9fSwiY29tbWVudHMiOnsiM0xvR0tlUU
+bGXigKYiLCJzdGFydCI6MjQyMiwiZW5kIjoyNTA2fSwiZHN4Uj
+M5NDlHR3BLWVVHWiI6eyJ0ZXh0IjoidGhpcyIsInN0YXJ0Ijo3
+NzEzLCJlbmQiOjc3MTd9fSwiY29tbWVudHMiOnsiM0xvR0tlUU
 ZFTVd6amJFMSI6eyJkaXNjdXNzaW9uSWQiOiJlVGM4YW9CSm43
 emRyZjBrIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiVX
 BkYXRlIGlmIGFwcGxpY2FibGUiLCJjcmVhdGVkIjoxNjg2NDc2
@@ -245,11 +234,11 @@ dGV4dCI6IkkgZmluZCB0aGlzIHNsaWdodGx5IGNvbmZ1c2luZy
 Bmcm9tIFFHSVMuIFF1YW50aWxlcyBzaG91bGQgYmUgZmljZSBn
 cm91cHMgd2l0aCBlcXVhbCBjb3VudHMsIHNvIHdoeSBjYW4geW
 91IGNuYWdlIHRoZSBjbGFzc2VzIHRvIDQ/IiwiY3JlYXRlZCI6
-MTY4NjczMTk0ODc3M319LCJoaXN0b3J5IjpbMTU0NzI0OTA1NS
-wtMTk3NDI4MzQzNSwtMjA1ODkzOTc2NSwxMjgxNDQ1MjcsMjY1
-OTg3NDMwLDE5ODEwODc2Nyw3MzY0MTk3MDgsMTIyMTI2NDQzMi
-wxODI1MDM3MDQwLC0zOTE4ODIwNTAsLTE2Mzc2MDQxNzksLTE1
-Njg3Njk3NjksMTA3NTU4ODk1MiwtNDY5NjQxNjgyLC0yNjk1NT
-g3ODUsLTEzNjQxNzQ5OTMsMTcyNjgxMzYzNCwtMTMxMTUyOTQw
-NSw1MTYyMTMyNDgsLTE3MjU3NzIxNjFdfQ==
+MTY4NjczMTk0ODc3M319LCJoaXN0b3J5IjpbLTEwNDMzMzAyNz
+csLTE5NzQyODM0MzUsLTIwNTg5Mzk3NjUsMTI4MTQ0NTI3LDI2
+NTk4NzQzMCwxOTgxMDg3NjcsNzM2NDE5NzA4LDEyMjEyNjQ0Mz
+IsMTgyNTAzNzA0MCwtMzkxODgyMDUwLC0xNjM3NjA0MTc5LC0x
+NTY4NzY5NzY5LDEwNzU1ODg5NTIsLTQ2OTY0MTY4MiwtMjY5NT
+U4Nzg1LC0xMzY0MTc0OTkzLDE3MjY4MTM2MzQsLTEzMTE1Mjk0
+MDUsNTE2MjEzMjQ4LC0xNzI1NzcyMTYxXX0=
 -->
