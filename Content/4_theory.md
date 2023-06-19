@@ -46,7 +46,7 @@ In addition to the aforementioned vector overlay methods, **other common multipl
 (Hungry for more? Check out this in-detail description of Multiple Layer Analysis: https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-02-multiple-layer-analysis.html)
 
 ### Geometric predicates
-Geometric predicates are functions used to determine the spatial relation a feature has with another by comparing whether and how their geometries share a portion of space. They are often part of the options when doing overlay analysis, come back to this section when you run into them. 
+Geometric predicates are functions used to determine the spatial relation a feature has with another by comparing whether and how their geometries share a portion of space. They are often part of the options when doing overlay analysis, don't be hesitant to come back to this section when you run into them. 
 
 ![](https://docs.qgis.org/3.28/en/_images/selectbylocation.png)[^3]
 Using the figure above, we are looking for the green circles by spatially comparing them to the orange rectangle feature. Available geometric predicates are[^3]:
@@ -72,7 +72,7 @@ Using the figure above, we are looking for the green circles by spatially compar
 [^3]: https://docs.qgis.org/3.28/en/docs/user_manual/processing_algs/algs_include.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NTY4MTIxNCwxMTE5NzAwMzc4LDE2Mz
+eyJoaXN0b3J5IjpbMjExNDU1NjEzOCwxMTE5NzAwMzc4LDE2Mz
 QxMjkyMjEsLTExMzU2NjI3NTYsLTE2NzI5MDY5NjYsMTYzNjU5
 MjcxNywxNjI5Nzk1NDkzLDEyMjc2MzA3NzQsNzMwOTk4MTE2XX
 0=
