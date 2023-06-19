@@ -10,7 +10,7 @@ GIS buffer analysis is a spatial analysis technique used to create proximity zon
 
 Buffer analysis is commonly used in GIS to answer questions about spatial relationships and proximity. By creating buffers around specific features, analysts can determine which other features fall within or intersect those buffers. This can be helpful in various applications, including urban planning, environmental impact assessment, transportation analysis, and emergency response planning.
 
-The process of buffer analysis involves the following steps:
+The **process of buffer analysis** involves the following steps:
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/4_Theory_buffer_diagram.drawio_blue.png)
 Buffer analysis can be performed using GIS software, which provides tools and functions for creating buffers and analyzing the spatial relationships. The specific capabilities and options for buffer analysis may vary depending on the GIS software being used.
@@ -18,15 +18,9 @@ Buffer analysis can be performed using GIS software, which provides tools and fu
 ## Overlay analysis
 GIS overlay analysis, also known as spatial overlay analysis, is a technique used in Geographic Information Systems (GIS) to combine multiple spatial datasets to derive new information and gain insights about their spatial relationships. Overlay analysis involves overlaying multiple layers or maps to create a composite map that integrates the attributes and geometry of the input datasets.
 
-The overlay analysis process involves the following steps:
+The **overlay analysis process** involves the following steps:
 
-1.  Select input datasets: Identify the layers or maps that you want to overlay. Each layer represents a different geographic feature or theme, such as land use, population density, transportation networks, or environmental factors.
-    
-2.  Define overlay operation: Determine the specific type of overlay operation to be performed. There are several common types of overlay operations, which are explained below.
-        
-3.  Perform the overlay: Apply the selected overlay operation to the input datasets. This involves comparing the spatial positions and attributes of the features in each layer and creating the output layer based on the overlay rules.
-    
-4.  Analyze the results: Interpret the output layer to gain insights and extract useful information. The overlay analysis can reveal patterns, relationships, and spatial dependencies between different geographic features.
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/4_Theory_overlay_diagram.drawio.png)
     
 Overlay analysis is a powerful tool in GIS because it allows the combination and integration of multiple datasets to generate new information and support decision-making processes. It is commonly used in various applications, such as land-use planning, environmental analysis, market research, demographic analysis, and infrastructure development. GIS software provides tools and functions to perform overlay analysis, and the specific capabilities may vary depending on the software used.
 
@@ -78,15 +72,8 @@ Using the figure above, we are looking for the green circles by spatially compar
 [^3]: https://docs.qgis.org/3.28/en/docs/user_manual/processing_algs/algs_include.html
 
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJHVEh1YjZrc3YxMXVqQXQ5Ijp7In
-N0YXJ0IjoxOTM2LCJlbmQiOjI4MjAsInRleHQiOiIxLiAgU2Vs
-ZWN0IGlucHV0IGRhdGFzZXRzOiBJZGVudGlmeSB0aGUgbGF5ZX
-JzIG9yIG1hcHMgdGhhdCB5b3Ugd2FudCB0byBvdmVybGF54oCm
-In19LCJjb21tZW50cyI6eyJDbVBOa2UwNk55UWZFdGZJIjp7Im
-Rpc2N1c3Npb25JZCI6IkdUSHViNmtzdjExdWpBdDkiLCJzdWIi
-OiJnaDo0MDMwNDc4OCIsInRleHQiOiJEaWFncmFtIiwiY3JlYX
-RlZCI6MTY4NzE1OTQ4NTAwMn19LCJoaXN0b3J5IjpbLTEzNjg2
-NzY0MjcsMTExOTcwMDM3OCwxNjM0MTI5MjIxLC0xMTM1NjYyNz
-U2LC0xNjcyOTA2OTY2LDE2MzY1OTI3MTcsMTYyOTc5NTQ5Mywx
-MjI3NjMwNzc0LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTU0NTY4MTIxNCwxMTE5NzAwMzc4LDE2Mz
+QxMjkyMjEsLTExMzU2NjI3NTYsLTE2NzI5MDY5NjYsMTYzNjU5
+MjcxNywxNjI5Nzk1NDkzLDEyMjc2MzA3NzQsNzMwOTk4MTE2XX
+0=
 -->
