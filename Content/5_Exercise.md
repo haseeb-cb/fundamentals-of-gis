@@ -58,7 +58,19 @@ It is quite common in GIS that data has to be converted from one type to another
 
 ---
 
-### 2: Modelling op
+### 2: Modelling optimal cultivation areas
+
+Southwest Finland is sometimes called as the bread-basket of Finland that refers to its plentiful fields and agricultural productivity. In this exercise your task is to model optimal cultivation areas using raster data analyses in Muurla, which is a district of Salo, a city between Turku and Helsinki.
+
+The aim is to classify the study area based on its suitability for cultivation. The criteria are the following:
+
+- Good or moderate soil
+- Slope < 15°
+- Minimum distance of 10m from the bodies of water
+- The soil factor is twice as important as the slope factor
+
+In the earlier phase you already clipped the DEM, calculated the slope and made the feature to raster conversion for the soil so some phases are already done. The following flow chart shows the different stages of the optimal cultivation areas analysis.
+
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI3NlpVMUtCVkY1M0JPNDN0Ijp7In
 N0YXJ0Ijo5OCwiZW5kIjoxMTEsInRleHQiOiIjIyBPQkpFQ1RJ
@@ -116,6 +128,6 @@ R0lTIGFuZCBmaXggc3RydWN0dXJlIiwiY3JlYXRlZCI6MTY4Nz
 E3MTI0NzAzMn0sIjBFd3BOam5nR1kwSTYyRUMiOnsiZGlzY3Vz
 c2lvbklkIjoiWmtVdnc4N3dqUjhEY3FCTyIsInN1YiI6ImdoOj
 QwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRl
-ZCI6MTY4NzE3MTI5ODM3NX19LCJoaXN0b3J5IjpbMTg3NTYwNj
-UsLTg5MTU5OTIzM119
+ZCI6MTY4NzE3MTI5ODM3NX19LCJoaXN0b3J5IjpbMTgzMTI5NT
+kzMCwtODkxNTk5MjMzXX0=
 -->
