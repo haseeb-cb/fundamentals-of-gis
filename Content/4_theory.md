@@ -6,7 +6,7 @@
 ## Buffer analysis
 GIS buffer analysis is a spatial analysis technique used to create proximity zones or buffers around spatial features. A buffer is a defined area around a geographic object, such as a point, line, or polygon, that represents a specific distance or range. The buffer can be created by measuring a fixed distance from the object or by using other criteria, such as travel time or risk factors.
 
-![](http://gsp.humboldt.edu/olm/Lessons/GIS/06%20Vector%20Analysis%20Attributes/Images/BufferDissolve.png)
+![](http://gsp.humboldt.edu/olm/Lessons/GIS/06%20Vector%20Analysis%20Attributes/Images/BufferDissolve.png)[^1]
 
 Buffer analysis is commonly used in GIS to answer questions about spatial relationships and proximity. By creating buffers around specific features, analysts can determine which other features fall within or intersect those buffers. This can be helpful in various applications, including urban planning, environmental impact assessment, transportation analysis, and emergency response planning.
 
@@ -32,7 +32,7 @@ Overlay analysis is a powerful tool in GIS because it allows the combination and
 
 ## Overlay operations 
 
-![](https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/section_11/a33268f6ff028c24152080d0aa3f2aad.jpg)[^1]
+![](https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/section_11/a33268f6ff028c24152080d0aa3f2aad.jpg)[^2]
 - (a) Union: The union operation combines all the input datasets to create a single output layer that includes the combined geometry and attributes of all features from the input layers.
 
 - (b) Intersection: This operation identifies the spatial extent where the input datasets overlap or intersect. The resulting output will include only the areas that are common to all input datasets.
@@ -54,8 +54,8 @@ In addition to the aforementioned vector overlay methods, **other common multipl
 ### Geometric predicates
 Geometric predicates are functions used to determine the spatial relation a feature has with another by comparing whether and how their geometries share a portion of space. They are often part of the options when doing overlay analysis, come back to this section when you run into them. 
 
-![](https://docs.qgis.org/3.28/en/_images/selectbylocation.png)[^2]
-Using the figure above, we are looking for the green circles by spatially comparing them to the orange rectangle feature. Available geometric predicates are[^2]:
+![](https://docs.qgis.org/3.28/en/_images/selectbylocation.png)[^3]
+Using the figure above, we are looking for the green circles by spatially comparing them to the orange rectangle feature. Available geometric predicates are[^3]:
 
 - **Intersect**: Tests whether a geometry intersects another. Returns 1 (true) if the geometries spatially intersect (share any portion of space - overlap or touch) and 0 if they don’t. In the picture above, this will return circles 1, 2 and 3.
 
@@ -73,25 +73,20 @@ Using the figure above, we are looking for the green circles by spatially compar
 
 - **Cross**: Returns 1 (true) if the supplied geometries have some, but not all, interior points in common and the actual crossing is of a lower dimension than the highest supplied geometry. For example, a line crossing a polygon will cross as a line (true). Two lines crossing will cross as a point (true). Two polygons cross as a polygon (false). In the picture, no circles will be returned.
 
-[^1]: https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-02-multiple-layer-analysis.html
-[^2]: https://docs.qgis.org/3.28/en/docs/user_manual/processing_algs/algs_include.html
-[^3]:http://gsp.humboldt.edu/olm/Lessons/GIS/06%20Vector%20Analysis%20Attributes/001_IntroOverlayAndBuffer21.html
+[^1]:http://gsp.humboldt.edu/olm/Lessons/GIS/06%20Vector%20Analysis%20Attributes/001_IntroOverlayAndBuffer21.html
+[^2]: https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-02-multiple-layer-analysis.html
+[^3]: https://docs.qgis.org/3.28/en/docs/user_manual/processing_algs/algs_include.html
+
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJveWtHdTBmQXNnQ08zRG9jIjp7In
-N0YXJ0IjoxMTksImVuZCI6MTAxNCwidGV4dCI6IkdJUyBidWZm
-ZXIgYW5hbHlzaXMgaXMgYSBzcGF0aWFsIGFuYWx5c2lzIHRlY2
-huaXF1ZSB1c2VkIHRvIGNyZWF0ZSBwcm94aW1pdHkgem/igKYi
-fSwiR1RIdWI2a3N2MTF1akF0OSI6eyJzdGFydCI6MTkyNywiZW
-5kIjoyNzk1LCJ0ZXh0IjoiMS4gIFNlbGVjdCBpbnB1dCBkYXRh
-c2V0czogSWRlbnRpZnkgdGhlIGxheWVycyBvciBtYXBzIHRoYX
-QgeW91IHdhbnQgdG8gb3ZlcmxheeKApiJ9fSwiY29tbWVudHMi
-OnsiR29wY0F0Mko5QVBpVnVUeSI6eyJkaXNjdXNzaW9uSWQiOi
-JveWtHdTBmQXNnQ08zRG9jIiwic3ViIjoiZ2g6NDAzMDQ3ODgi
-LCJ0ZXh0IjoiRXhhbXBsZSBwaWN0dXJlIiwiY3JlYXRlZCI6MT
-Y4NzE1OTE1Mzc2Mn0sIkNtUE5rZTA2TnlRZkV0ZkkiOnsiZGlz
-Y3Vzc2lvbklkIjoiR1RIdWI2a3N2MTF1akF0OSIsInN1YiI6Im
-doOjQwMzA0Nzg4IiwidGV4dCI6IkRpYWdyYW0iLCJjcmVhdGVk
-IjoxNjg3MTU5NDg1MDAyfX0sImhpc3RvcnkiOlstNTQ4NTM1Nz
-c5LC0xMTM1NjYyNzU2LC0xNjcyOTA2OTY2LDE2MzY1OTI3MTcs
-MTYyOTc5NTQ5MywxMjI3NjMwNzc0LDczMDk5ODExNl19
+eyJkaXNjdXNzaW9ucyI6eyJHVEh1YjZrc3YxMXVqQXQ5Ijp7In
+N0YXJ0IjoxOTMxLCJlbmQiOjI3OTksInRleHQiOiIxLiAgU2Vs
+ZWN0IGlucHV0IGRhdGFzZXRzOiBJZGVudGlmeSB0aGUgbGF5ZX
+JzIG9yIG1hcHMgdGhhdCB5b3Ugd2FudCB0byBvdmVybGF54oCm
+In19LCJjb21tZW50cyI6eyJDbVBOa2UwNk55UWZFdGZJIjp7Im
+Rpc2N1c3Npb25JZCI6IkdUSHViNmtzdjExdWpBdDkiLCJzdWIi
+OiJnaDo0MDMwNDc4OCIsInRleHQiOiJEaWFncmFtIiwiY3JlYX
+RlZCI6MTY4NzE1OTQ4NTAwMn19LCJoaXN0b3J5IjpbLTU4OTYy
+MDE2MiwtMTEzNTY2Mjc1NiwtMTY3MjkwNjk2NiwxNjM2NTkyNz
+E3LDE2Mjk3OTU0OTMsMTIyNzYzMDc3NCw3MzA5OTgxMTZdfQ==
+
 -->
