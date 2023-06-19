@@ -39,6 +39,10 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 *Tip: there’s separate tools for vector and raster files. Clipping rasters happens with Clip Raster -tool. Don’t forget to name your output files! Great name for this file could be DEM10m_Muurla, for example.*
 
 4. One of the important features of DEM is that it can be used to create a hillshade relief. Hillshade is mostly used in visualization to create an imposing 3D-effect of the surface. To create a hillshade, open Tools and navigate to Spatial Analyst Tools → Surface → Hillshade. Choose the clipped DEM as the input raster and set the output folder. Try first how the hillshade turns out with the default settings. You can change the result by adjusting these default values for azimuth and altitude. Basically, this adjusts from which angle the light hits the ground.
+
+*Tip: Again, name the files! Good name for the first Hillshade could be for example “HillShade_Muurla_def” or “HS_Muurla_def” indicating that it’s a hillshade, study area and default settings – for the next one you could change the name to for example “HS_Muurla_Az180” and so on, based on the chosen settings.*
+
+5. Another very useful feature of a DEM is the possibility to identify the gradient of the raster surface. This can be done with the Slope –tool, which can also be found under the Surface -tools. Again, use the clipped DEM as the input raster and perform the operation. You can use the default settings.
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI3NlpVMUtCVkY1M0JPNDN0Ijp7In
 N0YXJ0Ijo5OCwiZW5kIjoxMTEsInRleHQiOiIjIyBPQkpFQ1RJ
@@ -50,26 +54,36 @@ d0I1RSI6eyJzdGFydCI6MTE5MCwiZW5kIjoxMTkxLCJ0ZXh0Ij
 oiMiJ9LCJaZTJRT2VZYmVncDNBdWp4Ijp7InN0YXJ0IjoxNDM2
 LCJlbmQiOjE0MzcsInRleHQiOiIzIn0sIkhocDBaeENrR255NX
 lFdEEiOnsic3RhcnQiOjE4MzIsImVuZCI6MTgzNSwidGV4dCI6
-IlRpcCJ9fSwiY29tbWVudHMiOnsiR2JMb3BWNGI1UFdwRE9pVC
-I6eyJkaXNjdXNzaW9uSWQiOiI3NlpVMUtCVkY1M0JPNDN0Iiwi
-c3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiUmV3cml0ZSIsIm
-NyZWF0ZWQiOjE2ODcxNzA3ODE4NDd9LCJtdjlpMmZIb0xXWWFJ
-VThhIjp7ImRpc2N1c3Npb25JZCI6Ikg2enk5NlFKWHk2TUxwUm
-0iLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgcGlj
-dHVyZSIsImNyZWF0ZWQiOjE2ODcxNzA4MzUyNzB9LCJxVWl3U2
-pFTFRoN3RpSzU1Ijp7ImRpc2N1c3Npb25JZCI6IjJySkZTQVFK
-VXZZcjBGd1ciLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOi
-JGaXggcmVmZXJlbmNlIiwiY3JlYXRlZCI6MTY4NzE3MDg4ODc3
-NH0sIlA5ZXhtWEtQazZJVE5pTHciOnsiZGlzY3Vzc2lvbklkIj
-oiUnRrMHJOUUJCdUZod0I1RSIsInN1YiI6ImdoOjQwMzA0Nzg4
-IiwidGV4dCI6IldyaXRlIG91dCBpbnN0cnVjdGlvbnMiLCJjcm
-VhdGVkIjoxNjg3MTcwOTUzNTQzfSwiUFR0WGJOaG83MFFEMng4
-eCI6eyJkaXNjdXNzaW9uSWQiOiJaZTJRT2VZYmVncDNBdWp4Ii
-wic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQ29ycmVjdCBm
-b3IgUUdJUyIsImNyZWF0ZWQiOjE2ODcxNzA5NzczMTl9LCJBN3
-MwUng3Sm1XWXlrVzg2Ijp7ImRpc2N1c3Npb25JZCI6IkhocDBa
-eENrR255NXlFdEEiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleH
-QiOiJDb3JyZWN0IGZvciBRR0lTIiwiY3JlYXRlZCI6MTY4NzE3
-MDk5NDg4NX19LCJoaXN0b3J5IjpbMTc2MTUwMjA1MCwtODkxNT
-k5MjMzXX0=
+IlRpcCJ9LCJZN20xOXJla3R6cXhkdUJkIjp7InN0YXJ0IjoyMD
+QyLCJlbmQiOjIwNDMsInRleHQiOiI0In0sIldOUVFNMVJMZ3Jm
+a1pxMzkiOnsic3RhcnQiOjI5MjMsImVuZCI6MjkyNCwidGV4dC
+I6IjUifX0sImNvbW1lbnRzIjp7IkdiTG9wVjRiNVBXcERPaVQi
+OnsiZGlzY3Vzc2lvbklkIjoiNzZaVTFLQlZGNTNCTzQzdCIsIn
+N1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlJld3JpdGUiLCJj
+cmVhdGVkIjoxNjg3MTcwNzgxODQ3fSwibXY5aTJmSG9MV1lhSV
+U4YSI6eyJkaXNjdXNzaW9uSWQiOiJINnp5OTZRSlh5Nk1McFJt
+Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3
+R1cmUiLCJjcmVhdGVkIjoxNjg3MTcwODM1MjcwfSwicVVpd1Nq
+RUxUaDd0aUs1NSI6eyJkaXNjdXNzaW9uSWQiOiIyckpGU0FRSl
+V2WXIwRndXIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ijoi
+Rml4IHJlZmVyZW5jZSIsImNyZWF0ZWQiOjE2ODcxNzA4ODg3Nz
+R9LCJQOWV4bVhLUGs2SVROaUx3Ijp7ImRpc2N1c3Npb25JZCI6
+IlJ0azByTlFCQnVGaHdCNUUiLCJzdWIiOiJnaDo0MDMwNDc4OC
+IsInRleHQiOiJXcml0ZSBvdXQgaW5zdHJ1Y3Rpb25zIiwiY3Jl
+YXRlZCI6MTY4NzE3MDk1MzU0M30sIlBUdFhiTmhvNzBRRDJ4OH
+giOnsiZGlzY3Vzc2lvbklkIjoiWmUyUU9lWWJlZ3AzQXVqeCIs
+InN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkNvcnJlY3QgZm
+9yIFFHSVMiLCJjcmVhdGVkIjoxNjg3MTcwOTc3MzE5fSwiQTdz
+MFJ4N0ptV1l5a1c4NiI6eyJkaXNjdXNzaW9uSWQiOiJIaHAwWn
+hDa0dueTV5RXRBIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0
+IjoiQ29ycmVjdCBmb3IgUUdJUyIsImNyZWF0ZWQiOjE2ODcxNz
+A5OTQ4ODV9LCJBS1VwcXBxdWFjNFZqMW5wIjp7ImRpc2N1c3Np
+b25JZCI6Ilk3bTE5cmVrdHpxeGR1QmQiLCJzdWIiOiJnaDo0MD
+MwNDc4OCIsInRleHQiOiJDb3JyZWN0IGZvciBRR0lTIGFuZCBm
+aXggc3RydWN0dXJlIiwiY3JlYXRlZCI6MTY4NzE3MTA3MjY1NH
+0sInQ1ajlTb0xYQ1ZkYjI3RDUiOnsiZGlzY3Vzc2lvbklkIjoi
+V05RUU0xUkxncmZrWnEzOSIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
+widGV4dCI6IkNvcnJlY3QgZm9yIFFHSVMgYW5kIGZpeCBzdHJ1
+Y3R1cmUiLCJjcmVhdGVkIjoxNjg3MTcxMDgxMjk2fX0sImhpc3
+RvcnkiOlsyMDc4NDMyODk2LC04OTE1OTkyMzNdfQ==
 -->
