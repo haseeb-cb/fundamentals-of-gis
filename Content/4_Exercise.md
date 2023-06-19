@@ -14,6 +14,9 @@ The Ring Rail line improves the accessibility of the airport area and the suburb
 *Legend in English: Pintarata = Overground, Tunneli = tunnel, Asema = station, Asemavaraus = station reservation, Nykyiset asemat = Current stations, Hämeenlinnanväylän parannus = improvement of Hämeenlinnanväylä*
 
 ## OBJECTIVES
+This exercise consists of three main objectives:
+- Gather and prepare data of the ring rail line for processing
+- Use the gathered ring rail line data and provided 
 
 ## DATA USED
 - Capital region people explanation 
@@ -130,12 +133,12 @@ Fill in the answers to the Moodle
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJWVmhGd2NhNFBxWU9FdERCIjp7In
-N0YXJ0Ijo2OTgzLCJlbmQiOjcwNDEsInRleHQiOiIyLjE6IEFu
+N0YXJ0Ijo3MTQ4LCJlbmQiOjcyMDYsInRleHQiOiIyLjE6IEFu
 YWx5emluZyB0aGUgZWZmZWN0cyBvbiB0aGUgcGVvcGxlIGluIH
 RoZSBzdHVkeSBhcmVhIn0sIkR4WTl1c1A1SzFhZ2xZNTkiOnsi
-c3RhcnQiOjkxNzgsImVuZCI6OTIxMSwidGV4dCI6IkZpbGwgaW
+c3RhcnQiOjkzNDMsImVuZCI6OTM3NiwidGV4dCI6IkZpbGwgaW
 4gdGhlIGFuc3dlcnMgdG8gdGhlIE1vb2RsZSJ9LCIwT3ZNN1E3
-V1BGRFpka0ZjIjp7InN0YXJ0Ijo5MzE5LCJlbmQiOjkzOTksIn
+V1BGRFpka0ZjIjp7InN0YXJ0Ijo5NDg0LCJlbmQiOjk1NjQsIn
 RleHQiOiIjIyMjIDIuMjogUGxhbm5pbmcgYSBuZXcgYWlycG9y
 dCBob3RlbCAmIGNvbmdyZXNzIGNlbnRlciBuZWFyIHRoZSByaW
 5nIHJhaWwgbGluZSJ9fSwiY29tbWVudHMiOnsiR1VNbUNUSmhL
@@ -150,11 +153,11 @@ E2ODY5ODY0MjkxMDV9LCI2NlNwdEp3Skc4T3RWcGtiIjp7ImRp
 c2N1c3Npb25JZCI6IjBPdk03UTdXUEZEWmRrRmMiLCJzdWIiOi
 JnaDo0MDMwNDc4OCIsInRleHQiOiJPcHRpb25hbGx5IChyZSlt
 b3ZlIHRoaXMgaWYgdG9vIGhhcmQiLCJjcmVhdGVkIjoxNjg2OT
-g4NzQ3MzY5fX0sImhpc3RvcnkiOlstNDkzNDk4NjEwLDEyMzgx
-ODQ5ODYsMTQyOTQ1MTQzOCwxMjEyNTk1ODM2LC0xMzI3NzM1MT
-UyLC0yNzYwNzIxMTUsLTMwMjQ2NTIxMiwtMTkyOTUyNjA2MSwy
-MTAxOTQzODUyLDcyNDYxNzkwLC0yMDczMzkzMTAzLDIwMzM4ND
-UwNzQsLTUwOTgwNjY5MSwtNDQ5MTE1NjAzLC0yNzk5MzcwODks
-MjAxMTk5NjcxMCwxNzAwMjMzODE5LDUxMTk5OTkyMiwxODcyMT
-A2NjE2LC01NDg2NjI0MF19
+g4NzQ3MzY5fX0sImhpc3RvcnkiOls3NTYxMjk2NDMsMTIzODE4
+NDk4NiwxNDI5NDUxNDM4LDEyMTI1OTU4MzYsLTEzMjc3MzUxNT
+IsLTI3NjA3MjExNSwtMzAyNDY1MjEyLC0xOTI5NTI2MDYxLDIx
+MDE5NDM4NTIsNzI0NjE3OTAsLTIwNzMzOTMxMDMsMjAzMzg0NT
+A3NCwtNTA5ODA2NjkxLC00NDkxMTU2MDMsLTI3OTkzNzA4OSwy
+MDExOTk2NzEwLDE3MDAyMzM4MTksNTExOTk5OTIyLDE4NzIxMD
+Y2MTYsLTU0ODY2MjQwXX0=
 -->
