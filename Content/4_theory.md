@@ -30,22 +30,25 @@ The overlay analysis process involves the following steps:
 1.  Select input datasets: Identify the layers or maps that you want to overlay. Each layer represents a different geographic feature or theme, such as land use, population density, transportation networks, or environmental factors.
     
 2.  Define overlay operation: Determine the specific type of overlay operation to be performed. There are several common types of overlay operations, including:
-    
-    -   Intersection: This operation identifies the spatial extent where the input datasets overlap or intersect. The resulting output will include only the areas that are common to all input datasets.
-        
-    -   Union: The union operation combines all the input datasets to create a single output layer that includes the combined geometry and attributes of all features from the input layers.
-        
-    -   Difference: This operation identifies the areas that are unique to each input dataset, excluding the overlapping portions.
-        
-    -   Symmetrical Difference: This operation identifies the areas that are unique to each input dataset, including the overlapping portions.
-        
-    -   Overlay with attribute transfer: This operation combines the geometry and attributes of the input datasets based on specific rules or conditions. For example, it can transfer attribute information from one layer to another based on spatial relationships.
         
 3.  Perform the overlay: Apply the selected overlay operation to the input datasets. This involves comparing the spatial positions and attributes of the features in each layer and creating the output layer based on the overlay rules.
     
 4.  Analyze the results: Interpret the output layer to gain insights and extract useful information. The overlay analysis can reveal patterns, relationships, and spatial dependencies between different geographic features.
     
 Overlay analysis is a powerful tool in GIS because it allows the combination and integration of multiple datasets to generate new information and support decision-making processes. It is commonly used in various applications, such as land-use planning, environmental analysis, market research, demographic analysis, and infrastructure development. GIS software provides tools and functions to perform overlay analysis, and the specific capabilities may vary depending on the software used.
+
+## Overlay operations 
+
+![](https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/section_11/a33268f6ff028c24152080d0aa3f2aad.jpg)
+-  Intersection: This operation identifies the spatial extent where the input datasets overlap or intersect. The resulting output will include only the areas that are common to all input datasets.
+        
+  - Union: The union operation combines all the input datasets to create a single output layer that includes the combined geometry and attributes of all features from the input layers.
+        
+    -   Difference: This operation identifies the areas that are unique to each input dataset, excluding the overlapping portions.
+        
+    -   Symmetrical Difference: This operation identifies the areas that are unique to each input dataset, including the overlapping portions.
+        
+    -   Overlay with attribute transfer: This operation combines the geometry and attributes of the input datasets based on specific rules or conditions. For example, it can transfer attribute information from one layer to another based on spatial relationships.
 
 ### Geometric predicates
 Geometric predicates are boolean functions used to determine the spatial relation a feature has with another by comparing whether and how their geometries share a portion of space.
@@ -77,7 +80,7 @@ fSwib3lrR3UwZkFzZ0NPM0RvYyI6eyJzdGFydCI6MTE5LCJlbm
 QiOjkwNiwidGV4dCI6IkdJUyBidWZmZXIgYW5hbHlzaXMgaXMg
 YSBzcGF0aWFsIGFuYWx5c2lzIHRlY2huaXF1ZSB1c2VkIHRvIG
 NyZWF0ZSBwcm94aW1pdHkgem/igKYifSwiR1RIdWI2a3N2MTF1
-akF0OSI6eyJzdGFydCI6MjgyMywiZW5kIjo0NjYwLCJ0ZXh0Ij
+akF0OSI6eyJzdGFydCI6MjgyMywiZW5kIjozNjkxLCJ0ZXh0Ij
 oiMS4gIFNlbGVjdCBpbnB1dCBkYXRhc2V0czogSWRlbnRpZnkg
 dGhlIGxheWVycyBvciBtYXBzIHRoYXQgeW91IHdhbnQgdG8gb3
 ZlcmxheeKApiJ9fSwiY29tbWVudHMiOnsiRTFGeUxHNzBTTEp0
@@ -90,6 +93,6 @@ FtcGxlIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3MTU5MTUzNzYy
 fSwiQ21QTmtlMDZOeVFmRXRmSSI6eyJkaXNjdXNzaW9uSWQiOi
 JHVEh1YjZrc3YxMXVqQXQ5Iiwic3ViIjoiZ2g6NDAzMDQ3ODgi
 LCJ0ZXh0IjoiRGlhZ3JhbSIsImNyZWF0ZWQiOjE2ODcxNTk0OD
-UwMDJ9fSwiaGlzdG9yeSI6Wy0yNjE4NTU0NzAsMTYzNjU5Mjcx
+UwMDJ9fSwiaGlzdG9yeSI6Wy0yNjc4MjYxMDIsMTYzNjU5Mjcx
 NywxNjI5Nzk1NDkzLDEyMjc2MzA3NzQsNzMwOTk4MTE2XX0=
 -->
