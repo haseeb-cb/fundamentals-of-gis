@@ -56,7 +56,7 @@ In addition to the aforementioned vector overlay methods, **other common multipl
 
 - (g) **Split**: Used to divide an input layer into two or more layers based on a split layer.
 
-(Hungry for more? Check 
+(Hungry for more? Check out this in-detail description of Multiple Layer Analysis: https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-02-multiple-layer-analysis.html)
 
 ### Geometric predicates
 Geometric predicates are functions used to determine the spatial relation a feature has with another by comparing whether and how their geometries share a portion of space. They are often part of the options when doing overlay analysis, come back to this section when you run into them. 
@@ -79,6 +79,7 @@ Using the figure above, we are looking for the green circles by spatially compar
 - **Are within**: Tests whether a geometry is within another. Returns 1 (true) if geometry a is completely inside geometry b. Only circle 1 is returned.
 
 - **Cross**: Returns 1 (true) if the supplied geometries have some, but not all, interior points in common and the actual crossing is of a lower dimension than the highest supplied geometry. For example, a line crossing a polygon will cross as a line (true). Two lines crossing will cross as a point (true). Two polygons cross as a polygon (false). In the picture, no circles will be returned.
+[^1]: Test
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJNMFhjUWUwT0thTTR3UjM1Ijp7In
 N0YXJ0Ijo5NzAsImVuZCI6MjA4NCwidGV4dCI6IjEuICBEZWZp
@@ -101,6 +102,6 @@ FtcGxlIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3MTU5MTUzNzYy
 fSwiQ21QTmtlMDZOeVFmRXRmSSI6eyJkaXNjdXNzaW9uSWQiOi
 JHVEh1YjZrc3YxMXVqQXQ5Iiwic3ViIjoiZ2g6NDAzMDQ3ODgi
 LCJ0ZXh0IjoiRGlhZ3JhbSIsImNyZWF0ZWQiOjE2ODcxNTk0OD
-UwMDJ9fSwiaGlzdG9yeSI6Wy0xOTgyODE2MTcsMTYzNjU5Mjcx
-NywxNjI5Nzk1NDkzLDEyMjc2MzA3NzQsNzMwOTk4MTE2XX0=
+UwMDJ9fSwiaGlzdG9yeSI6Wy0xMTg5NDI0MzMxLDE2MzY1OTI3
+MTcsMTYyOTc5NTQ5MywxMjI3NjMwNzc0LDczMDk5ODExNl19
 -->
