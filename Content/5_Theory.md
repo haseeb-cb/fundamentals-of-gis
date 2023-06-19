@@ -3,6 +3,7 @@
 - Slope
 - Data reclassification
 - Raster calculator
+- Raster overlay analysis (calculations)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDQ3ODA1MThdfQ==
+eyJoaXN0b3J5IjpbLTEzOTAzMzIwNTFdfQ==
 -->
