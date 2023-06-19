@@ -44,7 +44,7 @@ Overlay analysis is a powerful tool in GIS because it allows the combination and
 
 - (b) Intersection: This operation identifies the spatial extent where the input datasets overlap or intersect. The resulting output will include only the areas that are common to all input datasets.
 
-- (c) Symmetrical Difference: This operation identifies the areas that are unique to each input dataset, including the overlapping portions.
+- (c\) Symmetrical Difference: This operation identifies the areas that are unique to each input dataset, including the overlapping portions.
 
 - (d) **Identify**: Creates an output layer with the spatial extent of the input layer but includes attribute information from the overlay.
 
@@ -61,7 +61,7 @@ In addition to the aforementioned vector overlay methods, **other common multipl
 ### Geometric predicates
 Geometric predicates are functions used to determine the spatial relation a feature has with another by comparing whether and how their geometries share a portion of space. They are often part of the options when doing overlay analysis, come back to this section when you run into them. 
 
-![](https://docs.qgis.org/3.28/en/_images/selectbylocation.png)
+![](https://docs.qgis.org/3.28/en/_images/selectbylocation.png)[^2]
 Using the figure above, we are looking for the green circles by spatially comparing them to the orange rectangle feature. Available geometric predicates are[^2]:
 
 - **Intersect**: Tests whether a geometry intersects another. Returns 1 (true) if the geometries spatially intersect (share any portion of space - overlap or touch) and 0 if they don’t. In the picture above, this will return circles 1, 2 and 3.
@@ -104,6 +104,7 @@ FtcGxlIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3MTU5MTUzNzYy
 fSwiQ21QTmtlMDZOeVFmRXRmSSI6eyJkaXNjdXNzaW9uSWQiOi
 JHVEh1YjZrc3YxMXVqQXQ5Iiwic3ViIjoiZ2g6NDAzMDQ3ODgi
 LCJ0ZXh0IjoiRGlhZ3JhbSIsImNyZWF0ZWQiOjE2ODcxNTk0OD
-UwMDJ9fSwiaGlzdG9yeSI6Wy0xNjcyOTA2OTY2LDE2MzY1OTI3
-MTcsMTYyOTc5NTQ5MywxMjI3NjMwNzc0LDczMDk5ODExNl19
+UwMDJ9fSwiaGlzdG9yeSI6Wy0xMTM1NjYyNzU2LC0xNjcyOTA2
+OTY2LDE2MzY1OTI3MTcsMTYyOTc5NTQ5MywxMjI3NjMwNzc0LD
+czMDk5ODExNl19
 -->
