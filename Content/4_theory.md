@@ -30,7 +30,7 @@ The overlay analysis process involves the following steps:
     
 Overlay analysis is a powerful tool in GIS because it allows the combination and integration of multiple datasets to generate new information and support decision-making processes. It is commonly used in various applications, such as land-use planning, environmental analysis, market research, demographic analysis, and infrastructure development. GIS software provides tools and functions to perform overlay analysis, and the specific capabilities may vary depending on the software used.
 
-## Overlay operations 
+### Overlay operations 
 
 ![](https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/section_11/a33268f6ff028c24152080d0aa3f2aad.jpg)[^2]
 - (a) Union: The union operation combines all the input datasets to create a single output layer that includes the combined geometry and attributes of all features from the input layers.
@@ -85,8 +85,8 @@ JzIG9yIG1hcHMgdGhhdCB5b3Ugd2FudCB0byBvdmVybGF54oCm
 In19LCJjb21tZW50cyI6eyJDbVBOa2UwNk55UWZFdGZJIjp7Im
 Rpc2N1c3Npb25JZCI6IkdUSHViNmtzdjExdWpBdDkiLCJzdWIi
 OiJnaDo0MDMwNDc4OCIsInRleHQiOiJEaWFncmFtIiwiY3JlYX
-RlZCI6MTY4NzE1OTQ4NTAwMn19LCJoaXN0b3J5IjpbLTU4OTYy
-MDE2MiwtMTEzNTY2Mjc1NiwtMTY3MjkwNjk2NiwxNjM2NTkyNz
+RlZCI6MTY4NzE1OTQ4NTAwMn19LCJoaXN0b3J5IjpbMTYzNDEy
+OTIyMSwtMTEzNTY2Mjc1NiwtMTY3MjkwNjk2NiwxNjM2NTkyNz
 E3LDE2Mjk3OTU0OTMsMTIyNzYzMDc3NCw3MzA5OTgxMTZdfQ==
 
 -->
