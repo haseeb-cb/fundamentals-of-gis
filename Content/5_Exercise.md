@@ -29,17 +29,35 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 ### 1.1: Getting to know the digital elevation model
 
 - Figure of DEM
+
+1. Start the exercise by downloading the data “Exercise7.zip” from the course portal in Moodle and saving it in a folder for this exercise.
+
+2. You have to download the Digital Elevation Model (DEM) from PaITuli. Select National Land Survey of Finland (NLS) Elevation Model as the data, 10m x 10m as the grid size (cell size), type L3343 to the search bar and download the given files.
+
+3. Add the Digital Elevation Model you downloaded from PaITuli. The program will probably ask whether you want to add pyramids – in this case just press yes. The DEM is a large raster image file and thus rather heavy to process. To make the program run smoother, clip the DEM to a smaller extent. Study area for the practical is the same as Muurla_Frame -layer, use it for the clipping extent.
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI3NlpVMUtCVkY1M0JPNDN0Ijp7In
 N0YXJ0Ijo5OCwiZW5kIjoxMTEsInRleHQiOiIjIyBPQkpFQ1RJ
 VkVTIn0sIkg2enk5NlFKWHk2TUxwUm0iOnsic3RhcnQiOjEwMz
 IsImVuZCI6MTA0NywidGV4dCI6Ii0gRmlndXJlIG9mIERFTSJ9
-fSwiY29tbWVudHMiOnsiR2JMb3BWNGI1UFdwRE9pVCI6eyJkaX
-NjdXNzaW9uSWQiOiI3NlpVMUtCVkY1M0JPNDN0Iiwic3ViIjoi
-Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiUmV3cml0ZSIsImNyZWF0ZW
-QiOjE2ODcxNzA3ODE4NDd9LCJtdjlpMmZIb0xXWWFJVThhIjp7
-ImRpc2N1c3Npb25JZCI6Ikg2enk5NlFKWHk2TUxwUm0iLCJzdW
-IiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZSIs
-ImNyZWF0ZWQiOjE2ODcxNzA4MzUyNzB9fSwiaGlzdG9yeSI6Wz
-k1MjkwNzQxMCwtODkxNTk5MjMzXX0=
+LCIyckpGU0FRSlV2WXIwRndXIjp7InN0YXJ0IjoxMTM3LCJlbm
+QiOjExNDMsInRleHQiOiJNb29kbGUifSwiRFJaY2xwRWx0NFFs
+aXFnWiI6eyJzdGFydCI6MTE5MCwiZW5kIjoxNDM0LCJ0ZXh0Ij
+oiMi4gWW91IGhhdmUgdG8gZG93bmxvYWQgdGhlIERpZ2l0YWwg
+RWxldmF0aW9uIE1vZGVsIChERU0pIGZyb20gUGFJVHVsaS4gU2
+VsZWN04oCmIn19LCJjb21tZW50cyI6eyJHYkxvcFY0YjVQV3BE
+T2lUIjp7ImRpc2N1c3Npb25JZCI6Ijc2WlUxS0JWRjUzQk80M3
+QiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJSZXdyaXRl
+IiwiY3JlYXRlZCI6MTY4NzE3MDc4MTg0N30sIm12OWkyZkhvTF
+dZYUlVOGEiOnsiZGlzY3Vzc2lvbklkIjoiSDZ6eTk2UUpYeTZN
+THBSbSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZC
+BwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NzE3MDgzNTI3MH0sInFV
+aXdTakVMVGg3dGlLNTUiOnsiZGlzY3Vzc2lvbklkIjoiMnJKRl
+NBUUpVdllyMEZ3VyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4
+dCI6IkZpeCByZWZlcmVuY2UiLCJjcmVhdGVkIjoxNjg3MTcwOD
+g4Nzc0fSwiS3ZlajNmMWlaY1NuS0lOZSI6eyJkaXNjdXNzaW9u
+SWQiOiJEUlpjbHBFbHQ0UWxpcWdaIiwic3ViIjoiZ2g6NDAzMD
+Q3ODgiLCJ0ZXh0IjoiV3JpdGUgb3V0IGluc3RydWN0aW9ucyIs
+ImNyZWF0ZWQiOjE2ODcxNzA5MDg3OTF9fSwiaGlzdG9yeSI6Wz
+gwMjcwMzAyMiwtODkxNTk5MjMzXX0=
 -->
