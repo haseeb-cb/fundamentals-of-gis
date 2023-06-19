@@ -6,20 +6,13 @@
 ## Buffer analysis
 GIS buffer analysis is a spatial analysis technique used to create proximity zones or buffers around spatial features. A buffer is a defined area around a geographic object, such as a point, line, or polygon, that represents a specific distance or range. The buffer can be created by measuring a fixed distance from the object or by using other criteria, such as travel time or risk factors.
 
+![](http://gsp.humboldt.edu/olm/Lessons/GIS/06%20Vector%20Analysis%20Attributes/Images/BufferDissolve.png)
+
 Buffer analysis is commonly used in GIS to answer questions about spatial relationships and proximity. By creating buffers around specific features, analysts can determine which other features fall within or intersect those buffers. This can be helpful in various applications, including urban planning, environmental impact assessment, transportation analysis, and emergency response planning.
 
 The process of buffer analysis involves the following steps:
 
-1.  Define the input feature: Identify the geographic object for which you want to create a buffer. This could be a point, line, or polygon representing a specific feature like a building, road, or water body.
-    
-2.  Specify buffer distance: Determine the distance or range that defines the buffer zone around the feature. It can be a fixed distance (e.g., 100 meters) or vary based on specific criteria.
-    
-3.  Create buffers: Apply the buffer distance to the input feature to generate the buffer zones. This involves calculating the geometric shape (e.g., circle, polygon) that represents the buffer for each feature.
-    
-4.  Analyze buffer intersections: Assess the spatial relationships between the buffer zones and other features in the GIS dataset. This can involve identifying features that intersect, touch, or fall completely within the buffer zones.
-    
-5.  Derive insights: Interpret the results of the buffer analysis to gain insights about the proximity and relationships between different geographic features. This information can be used for decision-making, planning, and resource allocation.
-    
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/4_Theory_buffer_diagram.drawio.png)
 Buffer analysis can be performed using GIS software, which provides tools and functions for creating buffers and analyzing the spatial relationships. The specific capabilities and options for buffer analysis may vary depending on the GIS software being used.
 
 ## Overlay analysis
@@ -82,29 +75,23 @@ Using the figure above, we are looking for the green circles by spatially compar
 
 [^1]: https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-02-multiple-layer-analysis.html
 [^2]: https://docs.qgis.org/3.28/en/docs/user_manual/processing_algs/algs_include.html
+[^3]:http://gsp.humboldt.edu/olm/Lessons/GIS/06%20Vector%20Analysis%20Attributes/001_IntroOverlayAndBuffer21.html
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJNMFhjUWUwT0thTTR3UjM1Ijp7In
-N0YXJ0Ijo5NzAsImVuZCI6MjA4NCwidGV4dCI6IjEuICBEZWZp
-bmUgdGhlIGlucHV0IGZlYXR1cmU6IElkZW50aWZ5IHRoZSBnZW
-9ncmFwaGljIG9iamVjdCBmb3Igd2hpY2ggeW91IHdhbnTigKYi
-fSwib3lrR3UwZkFzZ0NPM0RvYyI6eyJzdGFydCI6MTE5LCJlbm
-QiOjkwNiwidGV4dCI6IkdJUyBidWZmZXIgYW5hbHlzaXMgaXMg
-YSBzcGF0aWFsIGFuYWx5c2lzIHRlY2huaXF1ZSB1c2VkIHRvIG
-NyZWF0ZSBwcm94aW1pdHkgem/igKYifSwiR1RIdWI2a3N2MTF1
-akF0OSI6eyJzdGFydCI6MjgyMywiZW5kIjozNjkxLCJ0ZXh0Ij
-oiMS4gIFNlbGVjdCBpbnB1dCBkYXRhc2V0czogSWRlbnRpZnkg
-dGhlIGxheWVycyBvciBtYXBzIHRoYXQgeW91IHdhbnQgdG8gb3
-ZlcmxheeKApiJ9fSwiY29tbWVudHMiOnsiRTFGeUxHNzBTTEp0
-M0VzaiI6eyJkaXNjdXNzaW9uSWQiOiJNMFhjUWUwT0thTTR3Uj
-M1Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiRGlhZ3Jh
-bSIsImNyZWF0ZWQiOjE2ODcxNTkxNDEwNjZ9LCJHb3BjQXQySj
-lBUGlWdVR5Ijp7ImRpc2N1c3Npb25JZCI6Im95a0d1MGZBc2dD
-TzNEb2MiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJFeG
-FtcGxlIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3MTU5MTUzNzYy
-fSwiQ21QTmtlMDZOeVFmRXRmSSI6eyJkaXNjdXNzaW9uSWQiOi
-JHVEh1YjZrc3YxMXVqQXQ5Iiwic3ViIjoiZ2g6NDAzMDQ3ODgi
-LCJ0ZXh0IjoiRGlhZ3JhbSIsImNyZWF0ZWQiOjE2ODcxNTk0OD
-UwMDJ9fSwiaGlzdG9yeSI6Wy0xMTM1NjYyNzU2LC0xNjcyOTA2
-OTY2LDE2MzY1OTI3MTcsMTYyOTc5NTQ5MywxMjI3NjMwNzc0LD
-czMDk5ODExNl19
+eyJkaXNjdXNzaW9ucyI6eyJveWtHdTBmQXNnQ08zRG9jIjp7In
+N0YXJ0IjoxMTksImVuZCI6MTAxNCwidGV4dCI6IkdJUyBidWZm
+ZXIgYW5hbHlzaXMgaXMgYSBzcGF0aWFsIGFuYWx5c2lzIHRlY2
+huaXF1ZSB1c2VkIHRvIGNyZWF0ZSBwcm94aW1pdHkgem/igKYi
+fSwiR1RIdWI2a3N2MTF1akF0OSI6eyJzdGFydCI6MTkyNywiZW
+5kIjoyNzk1LCJ0ZXh0IjoiMS4gIFNlbGVjdCBpbnB1dCBkYXRh
+c2V0czogSWRlbnRpZnkgdGhlIGxheWVycyBvciBtYXBzIHRoYX
+QgeW91IHdhbnQgdG8gb3ZlcmxheeKApiJ9fSwiY29tbWVudHMi
+OnsiR29wY0F0Mko5QVBpVnVUeSI6eyJkaXNjdXNzaW9uSWQiOi
+JveWtHdTBmQXNnQ08zRG9jIiwic3ViIjoiZ2g6NDAzMDQ3ODgi
+LCJ0ZXh0IjoiRXhhbXBsZSBwaWN0dXJlIiwiY3JlYXRlZCI6MT
+Y4NzE1OTE1Mzc2Mn0sIkNtUE5rZTA2TnlRZkV0ZkkiOnsiZGlz
+Y3Vzc2lvbklkIjoiR1RIdWI2a3N2MTF1akF0OSIsInN1YiI6Im
+doOjQwMzA0Nzg4IiwidGV4dCI6IkRpYWdyYW0iLCJjcmVhdGVk
+IjoxNjg3MTU5NDg1MDAyfX0sImhpc3RvcnkiOlstNTQ4NTM1Nz
+c5LC0xMTM1NjYyNzU2LC0xNjcyOTA2OTY2LDE2MzY1OTI3MTcs
+MTYyOTc5NTQ5MywxMjI3NjMwNzc0LDczMDk5ODExNl19
 -->
