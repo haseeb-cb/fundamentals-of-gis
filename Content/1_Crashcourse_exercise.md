@@ -128,7 +128,7 @@ These data sets are all downloaded from Paituli and Helsinki Region Infoshare da
 
 The shapefiles should now appear on the map canvas. Once you add the layers, the program should automatically change the project’s coordinate system to EPSG:3067, or more commonly known as the ETRS89-TM35FIN (Transverse-Mercator) coordinate reference system, which is the proposed system for spatial data in Finland.
 
-For a start, take your time to move around and get acquainted with the basic tools in QGIS. Try panning around and zooming in and out in the map view. If your layers “get lost” by mistake when zooming, simply right click on the layer you want to retrieve and select *Zoom to layer*.
+For a start, take your time to move around and get acquainted with the basic tools in QGIS. Try panning around and zooming in and out in the map view. If your layers “get lost” by mistake when zooming, simply right click on the layer in the layers panel you want to retrieve and select *Zoom to layer*.
 
 **Whilst moving around, try out the following two tools:**
 
@@ -317,8 +317,8 @@ MTY4NjExNDE3NDc3MX0sIkVyallFYmoyM1pmUmlhNEkiOnsiZG
 lzY3Vzc2lvbklkIjoiQ3VHMXFHSjdkRUk3QTg3SCIsInN1YiI6
 ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSB3aXRoIGZyZX
 NoIGluc3RhbGwiLCJjcmVhdGVkIjoxNjg3MDcxOTExNTI1fX0s
-Imhpc3RvcnkiOlstMTk0MTU2NDQ2MywtMjU0MDc1MTMsLTg4Nz
-A5MDA1MiwtNjcxMDE4ODcyLC0zODM3OTkwNDEsLTE0NzYwMzMz
-MDAsLTkzNzM2MTE1NywtMTM5NDkwMDgyOSwtMTUzMzA3NjcwNV
-19
+Imhpc3RvcnkiOlstMTM2NzYyNjE0MywtMTk0MTU2NDQ2MywtMj
+U0MDc1MTMsLTg4NzA5MDA1MiwtNjcxMDE4ODcyLC0zODM3OTkw
+NDEsLTE0NzYwMzMzMDAsLTkzNzM2MTE1NywtMTM5NDkwMDgyOS
+wtMTUzMzA3NjcwNV19
 -->
