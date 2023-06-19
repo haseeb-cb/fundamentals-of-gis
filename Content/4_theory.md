@@ -53,17 +53,11 @@ Geometric predicates are boolean functions used to determine the spatial relatio
 ![](https://docs.qgis.org/3.28/en/_images/selectbylocation.png)
 - **Intersect**: Tests whether a geometry intersects another. Returns 1 (true) if the geometries spatially intersect (share any portion of space - overlap or touch) and 0 if they don’t. In the picture above, this will return circles 1, 2 and 3.
 
-_Contain_
+- **Contain**: Returns 1 (true) if and only if no points of b lie in the exterior of a, and at least one point of the interior of b lies in the interior of a. In the picture, no circle is returned, but the rectangle would be if you would look for it the other way around, as it contains circle 1 completely. This is the opposite of _are within_.
 
-Returns 1 (true) if and only if no points of b lie in the exterior of a, and at least one point of the interior of b lies in the interior of a. In the picture, no circle is returned, but the rectangle would be if you would look for it the other way around, as it contains circle 1 completely. This is the opposite of _are within_.
+- **Disjoint**: Returns 1 (true) if the geometries do not share any portion of space (no overlap, not touching). Only circle 4 is returned.
 
-_Disjoint_
-
-Returns 1 (true) if the geometries do not share any portion of space (no overlap, not touching). Only circle 4 is returned.
-
-_Equal_
-
-Returns 1 (true) if and only if geometries are exactly the same. No circles will be returned.
+- **Equal**: Returns 1 (true) if and only if geometries are exactly the same. No circles will be returned.
 
 _Touch_
 
@@ -107,6 +101,6 @@ FtcGxlIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3MTU5MTUzNzYy
 fSwiQ21QTmtlMDZOeVFmRXRmSSI6eyJkaXNjdXNzaW9uSWQiOi
 JHVEh1YjZrc3YxMXVqQXQ5Iiwic3ViIjoiZ2g6NDAzMDQ3ODgi
 LCJ0ZXh0IjoiRGlhZ3JhbSIsImNyZWF0ZWQiOjE2ODcxNTk0OD
-UwMDJ9fSwiaGlzdG9yeSI6WzE2MzY1OTI3MTcsMTYyOTc5NTQ5
-MywxMjI3NjMwNzc0LDczMDk5ODExNl19
+UwMDJ9fSwiaGlzdG9yeSI6Wy02MzQ5Mzg4NjYsMTYzNjU5Mjcx
+NywxNjI5Nzk1NDkzLDEyMjc2MzA3NzQsNzMwOTk4MTE2XX0=
 -->
