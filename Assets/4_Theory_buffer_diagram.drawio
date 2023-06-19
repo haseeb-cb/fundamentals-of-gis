@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-06-19T08:23:08.330Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0" version="21.4.0" etag="4HxHFPOivyk8zfgbl501" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-19T08:32:06.639Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0" etag="18_LBCXUqnYuT8NTMT3O" version="21.4.0" type="github">
   <diagram name="Page-1" id="-fBbh5PpjXo07Yokbump">
-    <mxGraphModel>
+    <mxGraphModel dx="1422" dy="1261" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="65S20PsJYXe4lHVLPjX0-1" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="980" y="880" width="250" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="65S20PsJYXe4lHVLPjX0-2" value="&lt;h1&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;1. Define the input feature&lt;/font&gt;&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Identify the geographic object for which you want to create a buffer. This could be a point, line, or polygon representing a specific feature like a building, road, or water body.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="890" width="190" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="65S20PsJYXe4lHVLPjX0-3" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="880" width="250" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="65S20PsJYXe4lHVLPjX0-4" value="&lt;h1&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;2. Specify buffer distance&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Determine the distance or range that defines the buffer zone around the feature. It can be a fixed distance (e.g., 100 meters) or vary based on specific criteria.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="890" width="190" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="65S20PsJYXe4lHVLPjX0-5" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="880" width="250" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="65S20PsJYXe4lHVLPjX0-6" value="&lt;h1&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;3. Create buffers&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Apply the buffer distance to the input feature to generate the buffer zones. This involves calculating the geometric shape (e.g., circle, polygon) that represents the buffer for each feature.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="890" width="190" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="65S20PsJYXe4lHVLPjX0-7" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="880" width="250" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="65S20PsJYXe4lHVLPjX0-8" value="&lt;h1&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;4. Analyze buffer intersections&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Assess the spatial relationships between the buffer zones and other features in the GIS dataset. This can involve identifying features that intersect, touch, or fall completely within the buffer zones.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="890" width="190" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="65S20PsJYXe4lHVLPjX0-9" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="880" width="250" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="65S20PsJYXe4lHVLPjX0-10" value="&lt;h1&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;5. Derive insights&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Interpret the results of the buffer analysis to gain insights about the proximity and relationships between different geographic features. This information can be used for decision-making, planning, and resource allocation.&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="890" width="190" height="210" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
