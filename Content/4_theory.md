@@ -46,6 +46,8 @@ Overlay analysis is a powerful tool in GIS because it allows the combination and
 
 - (c) Symmetrical Difference: This operation identifies the areas that are unique to each input dataset, including the overlapping portions.
 
+- (d)  
+
 
 ### Geometric predicates
 Geometric predicates are boolean functions used to determine the spatial relation a feature has with another by comparing whether and how their geometries share a portion of space.
@@ -90,6 +92,6 @@ FtcGxlIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3MTU5MTUzNzYy
 fSwiQ21QTmtlMDZOeVFmRXRmSSI6eyJkaXNjdXNzaW9uSWQiOi
 JHVEh1YjZrc3YxMXVqQXQ5Iiwic3ViIjoiZ2g6NDAzMDQ3ODgi
 LCJ0ZXh0IjoiRGlhZ3JhbSIsImNyZWF0ZWQiOjE2ODcxNTk0OD
-UwMDJ9fSwiaGlzdG9yeSI6Wy01NzM3NTA5NjYsMTYzNjU5Mjcx
+UwMDJ9fSwiaGlzdG9yeSI6Wy02NzI1MDYxNTYsMTYzNjU5Mjcx
 NywxNjI5Nzk1NDkzLDEyMjc2MzA3NzQsNzMwOTk4MTE2XX0=
 -->
