@@ -56,9 +56,10 @@ In addition to the aforementioned vector overlay methods, **other common multipl
 
 - (g) **Split**: Used to divide an input layer into two or more layers based on a split layer.
 
+(Hungry for more? Check 
 
 ### Geometric predicates
-Geometric predicates are functions used to determine the spatial relation a feature has with another by comparing whether and how their geometries share a portion of space. They are often part of the options when doi
+Geometric predicates are functions used to determine the spatial relation a feature has with another by comparing whether and how their geometries share a portion of space. They are often part of the options when doing overlay analysis, come back to this section when you run into them. 
 
 ![](https://docs.qgis.org/3.28/en/_images/selectbylocation.png)
 Using the figure above, we are looking for the green circles by spatially comparing them to the orange rectangle feature. Available geometric predicates are:
@@ -100,6 +101,6 @@ FtcGxlIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3MTU5MTUzNzYy
 fSwiQ21QTmtlMDZOeVFmRXRmSSI6eyJkaXNjdXNzaW9uSWQiOi
 JHVEh1YjZrc3YxMXVqQXQ5Iiwic3ViIjoiZ2g6NDAzMDQ3ODgi
 LCJ0ZXh0IjoiRGlhZ3JhbSIsImNyZWF0ZWQiOjE2ODcxNTk0OD
-UwMDJ9fSwiaGlzdG9yeSI6WzEwMjQ2NjgzMzEsMTYzNjU5Mjcx
+UwMDJ9fSwiaGlzdG9yeSI6Wy0xOTgyODE2MTcsMTYzNjU5Mjcx
 NywxNjI5Nzk1NDkzLDEyMjc2MzA3NzQsNzMwOTk4MTE2XX0=
 -->
