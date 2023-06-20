@@ -164,7 +164,9 @@ Let’s move on to ranking the soil. You can see the explanation for the soil co
 
 #### 2.3: Identifying the final suitability ranking
 
-15. In the last part we will use all the components created to get the suitability map. Use the raster calculator following the formula as shown in the figure 6.
+15. In the last part we will use all the components created to get the suitability map. 
+	- Open the *Raster calculator*
+	- Use the expression from the figure below, don't forget to adjust the names of the layers to correspond to yours
 
 - Figure
 
@@ -219,13 +221,13 @@ sic3RhcnQiOjkyODIsImVuZCI6OTI4MywidGV4dCI6IjE0In0s
 InExaVY2YkdwNWY0cmZGd1EiOnsic3RhcnQiOjk0NzgsImVuZC
 I6OTQ4NCwidGV4dCI6IkZpZ3VyZSJ9LCI3cG1NR05Tb29QejNK
 Z3dEIjp7InN0YXJ0Ijo5OTgzLCJlbmQiOjk5ODQsInRleHQiOi
-IxNSJ9LCJ6Qk1ZMGtwRmlzMG5aNmphIjp7InN0YXJ0IjoxMDE1
-NiwiZW5kIjoxMDE1NywidGV4dCI6IjE2In0sImNnV3RBVXR3cF
-hCOVVNVmYiOnsic3RhcnQiOjEwMTQ4LCJlbmQiOjEwMTU0LCJ0
+IxNSJ9LCJ6Qk1ZMGtwRmlzMG5aNmphIjp7InN0YXJ0IjoxMDIz
+MCwiZW5kIjoxMDIzMSwidGV4dCI6IjE2In0sImNnV3RBVXR3cF
+hCOVVNVmYiOnsic3RhcnQiOjEwMjIyLCJlbmQiOjEwMjI4LCJ0
 ZXh0IjoiRmlndXJlIn0sIjM0ZXFzck9yaGpqT003T0MiOnsic3
-RhcnQiOjEwNDM1LCJlbmQiOjEwNDQzLCJ0ZXh0IjoiLSBGaWd1
-cmUifSwiVlcyQm1CbTZmZGNyWFpmZCI6eyJzdGFydCI6MTA0ND
-UsImVuZCI6MTA0NDYsInRleHQiOiIxNyJ9LCJTQm9uc2JOaFNM
+RhcnQiOjEwNTA5LCJlbmQiOjEwNTE3LCJ0ZXh0IjoiLSBGaWd1
+cmUifSwiVlcyQm1CbTZmZGNyWFpmZCI6eyJzdGFydCI6MTA1MT
+ksImVuZCI6MTA1MjAsInRleHQiOiIxNyJ9LCJTQm9uc2JOaFNM
 d0RoZ0JiIjp7InN0YXJ0Ijo1NzEsImVuZCI6NTgzLCJ0ZXh0Ij
 oiIyMgREFUQSBVU0VEIn0sIk1CclN1Z0lRQUo0MXBrSFciOnsi
 c3RhcnQiOjc0LCJlbmQiOjk1LCJ0ZXh0IjoiIyMgT1ZFUlZJRV
@@ -324,9 +326,9 @@ ZSIsImNyZWF0ZWQiOjE2ODcyNDc2MjU3Nzh9LCJvR1lCcWlhcj
 M5ZFY3VFVYIjp7ImRpc2N1c3Npb25JZCI6InB0UUcxU1NPM1RH
 bGpFaTAiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZG
 QgZmlndXJlIiwiY3JlYXRlZCI6MTY4NzI0ODUwNDA2NH19LCJo
-aXN0b3J5IjpbMjE0NTk0NTkzMywtMTgwOTE5NzcxNSwtMTQwMj
-IyNDMzMCwxODM4MDQwOTkzLC0xMjY5MTUzNzgwLDQ5ODc3MDA0
-NiwtNDEzMjY0NjgxLDE1ODIyNzk3MDcsLTg4NzIyNDU2MCwyOD
-E5MDc0MSwtMjEwODEwNDg0OCwyODQ1MjMwODYsODQwMTU0Mzks
-LTg5MTU5OTIzM119
+aXN0b3J5IjpbLTE3NDU3ODYyODQsLTE4MDkxOTc3MTUsLTE0MD
+IyMjQzMzAsMTgzODA0MDk5MywtMTI2OTE1Mzc4MCw0OTg3NzAw
+NDYsLTQxMzI2NDY4MSwxNTgyMjc5NzA3LC04ODcyMjQ1NjAsMj
+gxOTA3NDEsLTIxMDgxMDQ4NDgsMjg0NTIzMDg2LDg0MDE1NDM5
+LC04OTE1OTkyMzNdfQ==
 -->
