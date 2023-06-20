@@ -4,7 +4,7 @@
 # Theory 4: Buffer and Overlay Analysis
 
 ## Buffer analysis
-GIS buffer analysis is a spatial analysis technique used to create buffers around spatial features. A buffer is a defined area around a geographic object, such as a point, line, or polygon, that represents a specific distance or range - or zones that represent the proximity to the feature. The buffer can be created by measuring a fixed distance from the object or by using other criteria, such as travel time or risk factors.
+GIS buffer analysis is a spatial analysis technique used to create buffers around spatial features. A buffer is a defined area around a geographic object, such as a point, line, or polygon, that represents a specific distance or range - or zones that represent the proximity to the feature. The buffer can be created by measuring a fixed distance from the object or by using other criteria, such as travel time.
 
 ![](http://gsp.humboldt.edu/olm/Lessons/GIS/06%20Vector%20Analysis%20Attributes/Images/BufferDissolve.png)[^1]
 
@@ -16,7 +16,7 @@ The **process of buffer analysis** involves the following steps:
 Buffer analysis can be performed using GIS software, which provides tools and functions for creating buffers and analyzing the spatial relationships. The specific capabilities and options for buffer analysis may vary depending on the GIS software being used.
 
 ## Overlay analysis
-GIS overlay analysis, also known as spatial overlay analysis, is a technique used in Geographic Information Systems (GIS) to combine multiple spatial datasets to derive new information and gain insights about their spatial relationships. Overlay analysis involves overlaying multiple layers or maps to create a composite map that integrates the attributes and geometry of the input datasets.
+GIS overlay analysis, also known as spatial overlay analysis, is a technique used in GIS to combine multiple spatial datasets to derive new information and gain insights about their spatial relationships. Overlay analysis involves overlaying multiple layers or maps to create a composite map that integrates the attributes and geometry of the input datasets.
 
 The **overlay analysis process** involves the following steps:
 
@@ -74,21 +74,8 @@ Using the figure above, we are looking for the green circles by spatially compar
 [^3]: https://docs.qgis.org/3.28/en/docs/user_manual/processing_algs/algs_include.html
 
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJOT1RneWtqd3JqbWRhRHVNIjp7In
-N0YXJ0Ijo1MzAsImVuZCI6NTQ1LCJ0ZXh0Ijoib3IgcmlzayBm
-YWN0b3JzIn0sIjlhazlOdTNKellkMDVtUFoiOnsic3RhcnQiOj
-E2MDgsImVuZCI6MTY0MCwidGV4dCI6Ikdlb2dyYXBoaWMgSW5m
-b3JtYXRpb24gU3lzdGVtcyAoIn19LCJjb21tZW50cyI6eyJrYn
-hSSkVIZWlzZ0tHamxJIjp7ImRpc2N1c3Npb25JZCI6Ik5PVGd5
-a2p3cmptZGFEdU0iLCJzdWIiOiJnaDoyMjE2ODE1NyIsInRleH
-QiOiJzdWdnZXQgZGVsZXRlIC0gY29tcGxleCB0ZXJtaW5vbG95
-IiwiY3JlYXRlZCI6MTY4NzI1MzEwMjQyN30sIlpsQlpyUzJYVn
-BwVVk1N2EiOnsiZGlzY3Vzc2lvbklkIjoiOWFrOU51M0p6WWQw
-NW1QWiIsInN1YiI6ImdoOjIyMTY4MTU3IiwidGV4dCI6InlvdS
-BjYW4gcHJvYmFibCB5anVzdCB1c2UgR0lTIGF0IHRoaXMgcG9p
-bnQiLCJjcmVhdGVkIjoxNjg3MjUzMTc0NzE1fX0sImhpc3Rvcn
-kiOlsxMTk1NjEyNzYwLC0xOTM1NTk3Mzk4LDExMTk3MDAzNzgs
-MTYzNDEyOTIyMSwtMTEzNTY2Mjc1NiwtMTY3MjkwNjk2NiwxNj
-M2NTkyNzE3LDE2Mjk3OTU0OTMsMTIyNzYzMDc3NCw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbMTk5MTI1NzI4MywxMTk1NjEyNzYwLC0xOT
+M1NTk3Mzk4LDExMTk3MDAzNzgsMTYzNDEyOTIyMSwtMTEzNTY2
+Mjc1NiwtMTY3MjkwNjk2NiwxNjM2NTkyNzE3LDE2Mjk3OTU0OT
+MsMTIyNzYzMDc3NCw3MzA5OTgxMTZdfQ==
 -->
