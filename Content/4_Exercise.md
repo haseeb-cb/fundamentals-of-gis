@@ -165,10 +165,9 @@ Fill in the answers to the Moodle
 *Hint 1: The Multipart to Singlepart- geoprocessing tool can be used to detach the polygons individual features to be able to calculate their areas. This is useful when the overlay operations combine the features, but because their topology information is still stored, they can be separated using this tool.*
 
 *Hint 2: When creating a buffer for the roads, don't forget to make your outputs permanent in between processing
-- No we need to remove the areas that are not suitable from this layer, namely the airport area itself, the stations themselves, the roads themselves, the 55 dB noise zone, and the build up areas. 
-	- We can do this using the *Difference* tool, read its description, what does it do?
-	- In short, it ouputs the parts of the input layer that fall outside the overlay layer. 
-	- So we need to run this for all our areas that we do not want, similar to last time we run *Difference* and then run it again with its output and the next criteria
+- Now we need to remove the areas that are not suitable from this layer, namely the airport area itself, the stations themselves, the roads themselves, the 55 dB noise zone, and the build up areas. 
+	- We can do this using the *Difference* tool, read its description, what does it do? In short, it outputs the parts of the input layer that fall outside the overlay layer. 
+	- So we need to run this for all our areas that we do not want, similar to last time we ran *Difference* and then run it again with its output and the next criteria
 		- Use *Selected features only* again where necessary
 - Once we have the final suitable areas we need to determine which have at least 5000m2 of free building space
 	- Look atly include ones near the airport area. A buffer or “Select by location” -tool’s buffering parameter can be helpful. Creating a buffer for all of the roads is unnecessary and takes a lot of time to process.*
@@ -216,7 +215,7 @@ InRleHQiOiI2LiBGaW5kIG91dCBob3cgbWFueSBwZW9wbGUgYX
 Bwcm94aW1hdGVseSBsaXZlIGluc2lkZSB0aGUgZEIgem9uZXM6
 IDY1IG9yIG1vcmXigKYiLCJzdGFydCI6MTEwODIsImVuZCI6MT
 EyMDV9LCJueVhqS0t5czBwRlBDVW5uIjp7InRleHQiOiItIEFk
-ZCBwaWN0dXJlIiwic3RhcnQiOjE1Njc4LCJlbmQiOjE1NjkxfS
+ZCBwaWN0dXJlIiwic3RhcnQiOjE1Njc3LCJlbmQiOjE1NjkwfS
 wicmptTVdrTElhMEZZNWpBVCI6eyJ0ZXh0IjoiKipUaGUgcmVx
 dWlyZW1lbnRzIGFyZSBhcyBmb2xsb3dzKio6XG4tIFRoZSBIb3
 RlbCAmIENvbmdyZXNzIENlbnRlciBoYXMgdG8gYmUgbG/igKYi
@@ -306,11 +305,11 @@ V3h5ZEhicGxPYXZLaWU1Ijp7ImRpc2N1c3Npb25JZCI6ImdEeV
 JTN25WRGFXQWZOd0siLCJzdWIiOiJnaDoyMjE2ODE1NyIsInRl
 eHQiOiJwcm9iYWJseSBiZXR0ZXIgdG8gZ2l2ZSBpbnN0cnVjdG
 lvbnMgaGVyZSIsImNyZWF0ZWQiOjE2ODcyNTQ2NDc0OTh9fSwi
-aGlzdG9yeSI6WzE2MTY5NjY4LC05OTIwNjQ5MDIsLTE1MTI3MD
-Y4MiwxMDQ4MzgwNDAxLC0xODEzNjEyODQxLDMyMDc1NzI4OSwx
-MzE5NTA0MjM1LDEyMzgxODQ5ODYsMTQyOTQ1MTQzOCwxMjEyNT
-k1ODM2LC0xMzI3NzM1MTUyLC0yNzYwNzIxMTUsLTMwMjQ2NTIx
-MiwtMTkyOTUyNjA2MSwyMTAxOTQzODUyLDcyNDYxNzkwLC0yMD
-czMzkzMTAzLDIwMzM4NDUwNzQsLTUwOTgwNjY5MSwtNDQ5MTE1
-NjAzXX0=
+aGlzdG9yeSI6Wy0xNzAyNDcyNDQ0LC05OTIwNjQ5MDIsLTE1MT
+I3MDY4MiwxMDQ4MzgwNDAxLC0xODEzNjEyODQxLDMyMDc1NzI4
+OSwxMzE5NTA0MjM1LDEyMzgxODQ5ODYsMTQyOTQ1MTQzOCwxMj
+EyNTk1ODM2LC0xMzI3NzM1MTUyLC0yNzYwNzIxMTUsLTMwMjQ2
+NTIxMiwtMTkyOTUyNjA2MSwyMTAxOTQzODUyLDcyNDYxNzkwLC
+0yMDczMzkzMTAzLDIwMzM4NDUwNzQsLTUwOTgwNjY5MSwtNDQ5
+MTE1NjAzXX0=
 -->
