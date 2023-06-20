@@ -168,11 +168,11 @@ Let’s move on to ranking the soil. You can see the explanation for the soil co
 	- Open the *Raster calculator*
 	- Use the expression from the figure below, don't forget to adjust the names of the layers to correspond to yours
 	- Set the reference layer to the original filled DEM layer (why do you think this reference is necessary?)
-	- 
+	- Run the calculation and save the output
 
 - Figure
 
-16. Open once more Reclassify and select the suitable areas layer as the input. Reclassify the layer so to have 4 classes so that one represents unsuitable values (0) and others have interval of 1 (with rank values 0, 1, 2, 3, see Figure 7) and name the output as “Final_Rank”.
+16. Open once more *Reclassify by table* and select the suitable areas layer as the input. Reclassify the layer so to have 4 classes so that one represents unsuitable values (0) and others have interval of 1 (with rank values 0, 1, 2, 3, see the figure below
 
 - Figure
 
@@ -223,13 +223,13 @@ sic3RhcnQiOjkyODIsImVuZCI6OTI4MywidGV4dCI6IjE0In0s
 InExaVY2YkdwNWY0cmZGd1EiOnsic3RhcnQiOjk0NzgsImVuZC
 I6OTQ4NCwidGV4dCI6IkZpZ3VyZSJ9LCI3cG1NR05Tb29QejNK
 Z3dEIjp7InN0YXJ0Ijo5OTgzLCJlbmQiOjk5ODQsInRleHQiOi
-IxNSJ9LCJ6Qk1ZMGtwRmlzMG5aNmphIjp7InN0YXJ0IjoxMDM0
-MiwiZW5kIjoxMDM0MywidGV4dCI6IjE2In0sImNnV3RBVXR3cF
-hCOVVNVmYiOnsic3RhcnQiOjEwMzM0LCJlbmQiOjEwMzQwLCJ0
+IxNSJ9LCJ6Qk1ZMGtwRmlzMG5aNmphIjp7InN0YXJ0IjoxMDM4
+MSwiZW5kIjoxMDM4MiwidGV4dCI6IjE2In0sImNnV3RBVXR3cF
+hCOVVNVmYiOnsic3RhcnQiOjEwMzczLCJlbmQiOjEwMzc5LCJ0
 ZXh0IjoiRmlndXJlIn0sIjM0ZXFzck9yaGpqT003T0MiOnsic3
-RhcnQiOjEwNjIxLCJlbmQiOjEwNjI5LCJ0ZXh0IjoiLSBGaWd1
-cmUifSwiVlcyQm1CbTZmZGNyWFpmZCI6eyJzdGFydCI6MTA2Mz
-EsImVuZCI6MTA2MzIsInRleHQiOiIxNyJ9LCJTQm9uc2JOaFNM
+RhcnQiOjEwNjQxLCJlbmQiOjEwNjQ5LCJ0ZXh0IjoiLSBGaWd1
+cmUifSwiVlcyQm1CbTZmZGNyWFpmZCI6eyJzdGFydCI6MTA2NT
+EsImVuZCI6MTA2NTIsInRleHQiOiIxNyJ9LCJTQm9uc2JOaFNM
 d0RoZ0JiIjp7InN0YXJ0Ijo1NzEsImVuZCI6NTgzLCJ0ZXh0Ij
 oiIyMgREFUQSBVU0VEIn0sIk1CclN1Z0lRQUo0MXBrSFciOnsi
 c3RhcnQiOjc0LCJlbmQiOjk1LCJ0ZXh0IjoiIyMgT1ZFUlZJRV
@@ -328,9 +328,9 @@ ZSIsImNyZWF0ZWQiOjE2ODcyNDc2MjU3Nzh9LCJvR1lCcWlhcj
 M5ZFY3VFVYIjp7ImRpc2N1c3Npb25JZCI6InB0UUcxU1NPM1RH
 bGpFaTAiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZG
 QgZmlndXJlIiwiY3JlYXRlZCI6MTY4NzI0ODUwNDA2NH19LCJo
-aXN0b3J5IjpbLTE3NDY0NDE5NTYsLTE3NDU3ODYyODQsLTE4MD
-kxOTc3MTUsLTE0MDIyMjQzMzAsMTgzODA0MDk5MywtMTI2OTE1
-Mzc4MCw0OTg3NzAwNDYsLTQxMzI2NDY4MSwxNTgyMjc5NzA3LC
-04ODcyMjQ1NjAsMjgxOTA3NDEsLTIxMDgxMDQ4NDgsMjg0NTIz
-MDg2LDg0MDE1NDM5LC04OTE1OTkyMzNdfQ==
+aXN0b3J5IjpbLTM3MTU4MTc4NywtMTc0NjQ0MTk1NiwtMTc0NT
+c4NjI4NCwtMTgwOTE5NzcxNSwtMTQwMjIyNDMzMCwxODM4MDQw
+OTkzLC0xMjY5MTUzNzgwLDQ5ODc3MDA0NiwtNDEzMjY0NjgxLD
+E1ODIyNzk3MDcsLTg4NzIyNDU2MCwyODE5MDc0MSwtMjEwODEw
+NDg0OCwyODQ1MjMwODYsODQwMTU0MzksLTg5MTU5OTIzM119
 -->
