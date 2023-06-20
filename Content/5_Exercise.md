@@ -55,10 +55,12 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 *Reminder: Don't forget to give your files and layers informative names and save them in a folder for this exercise*
 
 4. Before we can use the DEM, we need to fill its sinks
-- 
+	- Open the *Fill sinks (Wang & Liu)* tool (Remember where we search for all our tools?)
+	- Choose the clipped DEM as the DEM, leave the rest as default
+	- Run the oto
 
 5. One of the important features of DEM is that it can be used to create a hillshade relief. Hillshade is mostly used in visualization to create an imposing 3D-effect of the surface. Let's create a hillshade using this DEM. 
-	- Open the *Hillshade* tool (Remember where we search for all our tools?)
+	- Open the *Hillshade* tool 
 	- Choose the clipped DEM as the Elevation layer
 	- Try out how the hillshade turns out with the default settings. You can change the result by adjusting these default values for azimuth and altitude. Basically, this adjusts from which angle the light hits the ground.
 	- Choose settings that you think are good and make that layer permanent, you can remove your test layers
@@ -80,7 +82,7 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 #### 1.2: Data type conversions - feature to raster
 It is quite common in GIS that data has to be converted from one type to another; some analyses for instance require a certain file type to work. In part two of this exercise you are going to need the shapefile “Muurla_Soil.shp” as a raster file to be able to perform the raster overlay analyses.
 
-6. Let's convert the Muurla_Soil.shp to a raster file
+7. Let's convert the Muurla_Soil.shp to a raster file
 	- Open the *Rasterize (Vector to Raster)* tool
 	- Use the Muurla_soil layer as the input
 	- Since rasters can’t have multiple attributes like shapefiles we need to select which field to use, column “PINTA” has the information which we want to use for the analysis, so this is the column you should select for “Field to use for a burn-in value” -parameter. 
@@ -109,11 +111,11 @@ In the earlier phase you already clipped the DEM, calculated the slope and made 
 
 #### 2.1: Defining the unsuitable areas
 
-7. Start off with the water criteria. Go to Buffer -tool and make a 10-meter buffer for the Bodies_of_Water -layer without dissolving. (Hint: Exercise 4)
+8. Start off with the water criteria. Go to Buffer -tool and make a 10-meter buffer for the Bodies_of_Water -layer without dissolving. (Hint: Exercise 4)
 
-8. Next, you have to convert the newly created buffer zone -layer to raster format. As learned before in this practical, use the *Rasterize (Vector to Raster)* tool to make this rasterization. Choose “Pinta” as the field to assign the values to the output raster and check that the cell size matches DEM.
+9. Next, you have to convert the newly created buffer zone -layer to raster format. As learned before in this practical, use the *Rasterize (Vector to Raster)* tool to make this rasterization. Choose “Pinta” as the field to assign the values to the output raster and check that the cell size matches DEM.
 
-9.  For further calcuations we need to reclassify the data of the water buffer raster layer.
+10.  For further calcuations we need to reclassify the data of the water buffer raster layer.
 	- Open the *Reclassify by table* tool
 	- Add the reclassification table as pictured below
 	- Set the ouput no data value to 1, no data in this case means land
@@ -122,7 +124,7 @@ In the earlier phase you already clipped the DEM, calculated the slope and made 
 
 - Figure
 
-10. Let’s continue with defining the unsuitable areas by determining the “bad slopes”. 
+11. Let’s continue with defining the unsuitable areas by determining the “bad slopes”. 
 	- Use the Reclassify -tool again, choose this time the slope raster as the input
 	- Add the reclassification table as pictured below
 		- Hint about earlier question: 1 = suitable, 0 = unsuitable
@@ -132,19 +134,19 @@ The “water buffer” and the “bad slopes” will be classified as “0” so
 
 - Figure
 
-11. Now let’s combine the bad criteria layers with the Raster Calculator -tool which can be found under Map Algebra in Spatial Analyst Tools within Toolbox. Multiply the “Reclass_Water” with “BadSlope” layer in the calculator to create an “Unsuitable_areas”-layer. Always choose the layers and tools from the menus above to ensure correct form.
+12. Now let’s combine the bad criteria layers with the Raster Calculator -tool which can be found under Map Algebra in Spatial Analyst Tools within Toolbox. Multiply the “Reclass_Water” with “BadSlope” layer in the calculator to create an “Unsuitable_areas”-layer. Always choose the layers and tools from the menus above to ensure correct form.
 
 - Figure
 
 #### 2.2: Defining the suitable areas
 
-12. Now after you have identified the unsuitable areas, your next task it to rank the suitable ones. To make the “slope rank” go once again to Reclassify. Choose the original Slope_Muurla file as the input raster and open the classify window. Choose 4 classes and give the following break values 3, 7, 15, 54. Rank the classes as in the Figure 4 and name the file “slope_rank”.
+13. Now after you have identified the unsuitable areas, your next task it to rank the suitable ones. To make the “slope rank” go once again to Reclassify. Choose the original Slope_Muurla file as the input raster and open the classify window. Choose 4 classes and give the following break values 3, 7, 15, 54. Rank the classes as in the Figure 4 and name the file “slope_rank”.
 
 Let’s move on to ranking the soil. You can see the explanation for the soil codes below.
 
 - Figure
 
-13. Open the Reclassify -tool and specify the values as in the Figure 5. The higher the value the better the soil fits for cultivation.
+14. Open the Reclassify -tool and specify the values as in the Figure 5. The higher the value the better the soil fits for cultivation.
 
 - Figure
 
@@ -152,15 +154,15 @@ Let’s move on to ranking the soil. You can see the explanation for the soil co
 
 #### 2.3: Identifying the final suitability ranking
 
-14. In the last part we will use all the components created to get the suitability map. Use the raster calculator following the formula as shown in the Figure 6.
+15. In the last part we will use all the components created to get the suitability map. Use the raster calculator following the formula as shown in the Figure 6.
 
 - Figure
 
-15. Open once more Reclassify and select the suitable areas layer as the input. Reclassify the layer so to have 4 classes so that one represents unsuitable values (0) and others have interval of 1 (with rank values 0, 1, 2, 3, see Figure 7) and name the output as “Final_Rank”.
+16. Open once more Reclassify and select the suitable areas layer as the input. Reclassify the layer so to have 4 classes so that one represents unsuitable values (0) and others have interval of 1 (with rank values 0, 1, 2, 3, see Figure 7) and name the output as “Final_Rank”.
 
 - Figure
 
-16. Now, you should see the optimal cultivation areas in the study area. You can add a basemap from the ArcGIS server as in the exercise 2 and see whether your optimal areas match with the real fields located in the area.
+17. Now, you should see the optimal cultivation areas in the study area. You can add a basemap from the ArcGIS server as in the exercise 2 and see whether your optimal areas match with the real fields located in the area.
 
 ---
 
@@ -192,39 +194,39 @@ VkVTIn0sIkg2enk5NlFKWHk2TUxwUm0iOnsic3RhcnQiOjEzND
 gsImVuZCI6MTM2MywidGV4dCI6Ii0gRmlndXJlIG9mIERFTSJ9
 LCIyckpGU0FRSlV2WXIwRndXIjp7InN0YXJ0IjoxNDUzLCJlbm
 QiOjE0NTksInRleHQiOiJNb29kbGUifSwiWmtVdnc4N3dqUjhE
-Y3FCTyI6eyJzdGFydCI6NTQ4MiwiZW5kIjo1NDg4LCJ0ZXh0Ij
+Y3FCTyI6eyJzdGFydCI6NTYwMiwiZW5kIjo1NjA4LCJ0ZXh0Ij
 oiRmlndXJlIn0sIk1lb3pEU3FrOTlOYmtIYVIiOnsic3RhcnQi
 Ojk3OCwiZW5kIjoxMDIzLCJ0ZXh0IjoiIyMjIFBhcnQgMTogR2
 V0dGluZyBmYW1pbGlhciB3aXRoIHJhc3RlciBkYXRhIn0sIkF2
-RjlqcHFDN1NpWEhrSjgiOnsic3RhcnQiOjYzNjMsImVuZCI6Nj
-M2OSwidGV4dCI6IkZpZ3VyZSJ9LCIyako4Q1cwOHlsMUN5NVhF
-Ijp7InN0YXJ0Ijo3MjMxLCJlbmQiOjcyMzcsInRleHQiOiJGaW
-d1cmUifSwiTUlGMTg2d1o1eG5kelg1NSI6eyJzdGFydCI6NzIz
-OSwiZW5kIjo3MjQwLCJ0ZXh0IjoiMTEifSwidWhoVGJFTHF5Uj
-B2c00xTyI6eyJzdGFydCI6NzcwNiwiZW5kIjo3NzEyLCJ0ZXh0
+RjlqcHFDN1NpWEhrSjgiOnsic3RhcnQiOjY0ODMsImVuZCI6Nj
+Q4OSwidGV4dCI6IkZpZ3VyZSJ9LCIyako4Q1cwOHlsMUN5NVhF
+Ijp7InN0YXJ0Ijo3MzUyLCJlbmQiOjczNTgsInRleHQiOiJGaW
+d1cmUifSwiTUlGMTg2d1o1eG5kelg1NSI6eyJzdGFydCI6NzM2
+MCwiZW5kIjo3MzYxLCJ0ZXh0IjoiMTEifSwidWhoVGJFTHF5Uj
+B2c00xTyI6eyJzdGFydCI6NzgyNywiZW5kIjo3ODMzLCJ0ZXh0
 IjoiRmlndXJlIn0sImsxakVZUTFrWmE2NWJiTTAiOnsic3Rhcn
-QiOjc3MTQsImVuZCI6NzcxNSwidGV4dCI6IjEyIn0sIjJabDhD
-cUpBRXdxS3hEdlQiOnsic3RhcnQiOjgwNjIsImVuZCI6ODA2OC
+QiOjc4MzUsImVuZCI6NzgzNiwidGV4dCI6IjEyIn0sIjJabDhD
+cUpBRXdxS3hEdlQiOnsic3RhcnQiOjgxODMsImVuZCI6ODE4OS
 widGV4dCI6IkZpZ3VyZSJ9LCJBamViR2R2MkRtUnJFNkVwIjp7
-InN0YXJ0Ijo4MTA5LCJlbmQiOjgxMTAsInRleHQiOiIxMyJ9LC
-JNSzQ2ekRmT1R2NG9lcTZiIjp7InN0YXJ0Ijo4NTc4LCJlbmQi
-Ojg1ODYsInRleHQiOiItIEZpZ3VyZSJ9LCJTQzV3OTZiWDZpU3
-JxRm9DIjp7InN0YXJ0Ijo4NTg4LCJlbmQiOjg1ODksInRleHQi
-OiIxNCJ9LCJxMWlWNmJHcDVmNHJmRndRIjp7InN0YXJ0Ijo4Nz
-I3LCJlbmQiOjg3MzMsInRleHQiOiJGaWd1cmUifSwiN3BtTUdO
-U29vUHozSmd3RCI6eyJzdGFydCI6OTIzMiwiZW5kIjo5MjMzLC
+InN0YXJ0Ijo4MjMwLCJlbmQiOjgyMzEsInRleHQiOiIxMyJ9LC
+JNSzQ2ekRmT1R2NG9lcTZiIjp7InN0YXJ0Ijo4Njk5LCJlbmQi
+Ojg3MDcsInRleHQiOiItIEZpZ3VyZSJ9LCJTQzV3OTZiWDZpU3
+JxRm9DIjp7InN0YXJ0Ijo4NzA5LCJlbmQiOjg3MTAsInRleHQi
+OiIxNCJ9LCJxMWlWNmJHcDVmNHJmRndRIjp7InN0YXJ0Ijo4OD
+Q4LCJlbmQiOjg4NTQsInRleHQiOiJGaWd1cmUifSwiN3BtTUdO
+U29vUHozSmd3RCI6eyJzdGFydCI6OTM1MywiZW5kIjo5MzU0LC
 J0ZXh0IjoiMTUifSwiekJNWTBrcEZpczBuWjZqYSI6eyJzdGFy
-dCI6OTQwNSwiZW5kIjo5NDA2LCJ0ZXh0IjoiMTYifSwiY2dXdE
-FVdHdwWEI5VU1WZiI6eyJzdGFydCI6OTM5NywiZW5kIjo5NDAz
+dCI6OTUyNiwiZW5kIjo5NTI3LCJ0ZXh0IjoiMTYifSwiY2dXdE
+FVdHdwWEI5VU1WZiI6eyJzdGFydCI6OTUxOCwiZW5kIjo5NTI0
 LCJ0ZXh0IjoiRmlndXJlIn0sIjM0ZXFzck9yaGpqT003T0MiOn
-sic3RhcnQiOjk2ODQsImVuZCI6OTY5MiwidGV4dCI6Ii0gRmln
-dXJlIn0sIlZXMkJtQm02ZmRjclhaZmQiOnsic3RhcnQiOjk2OT
-QsImVuZCI6OTY5NSwidGV4dCI6IjE3In0sIlNCb25zYk5oU0x3
+sic3RhcnQiOjk4MDUsImVuZCI6OTgxMywidGV4dCI6Ii0gRmln
+dXJlIn0sIlZXMkJtQm02ZmRjclhaZmQiOnsic3RhcnQiOjk4MT
+UsImVuZCI6OTgxNiwidGV4dCI6IjE3In0sIlNCb25zYk5oU0x3
 RGhnQmIiOnsic3RhcnQiOjU3MSwiZW5kIjo1ODMsInRleHQiOi
 IjIyBEQVRBIFVTRUQifSwiTUJyU3VnSVFBSjQxcGtIVyI6eyJz
 dGFydCI6NzQsImVuZCI6OTUsInRleHQiOiIjIyBPVkVSVklFVy
 AmIFBVUlBPU0UifSwiNktKWG5LY3BhcFFmeURRTyI6eyJzdGFy
-dCI6NDIwMywiZW5kIjo0MjQ0LCJ0ZXh0IjoiQW5zd2VyIHRoZS
+dCI6NDMyMywiZW5kIjo0MzY0LCJ0ZXh0IjoiQW5zd2VyIHRoZS
 Bmb2xsb3dpbmcgcXVlc3Rpb25zIG9uIE1vb2RsZToifSwiT0dO
 UEowaHU5aFJRRTlpViI6eyJzdGFydCI6Mjk0OCwiZW5kIjoyOT
 YyLCJ0ZXh0IjoiZmlsbCBpdHMgc2lua3MifX0sImNvbW1lbnRz
@@ -311,8 +313,8 @@ BwZW9wbGUgY2FuIGZpbGwgdGhlc2UgaW4iLCJjcmVhdGVkIjox
 Njg3MjM5NDEzMDUyfSwiRXpncXozS29tdExnWWNaQyI6eyJkaX
 NjdXNzaW9uSWQiOiJPR05QSjBodTloUlFFOWlWIiwic3ViIjoi
 Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiV2hhdD8iLCJjcmVhdGVkIj
-oxNjg3MjQzNjcxMDM1fX0sImhpc3RvcnkiOlstMjUxNzE5OTIx
-LDE1ODIyNzk3MDcsLTg4NzIyNDU2MCwyODE5MDc0MSwtMjEwOD
-EwNDg0OCwyODQ1MjMwODYsODQwMTU0MzksLTg5MTU5OTIzM119
-
+oxNjg3MjQzNjcxMDM1fX0sImhpc3RvcnkiOlstMTIyMTQxNzYz
+OSwxNTgyMjc5NzA3LC04ODcyMjQ1NjAsMjgxOTA3NDEsLTIxMD
+gxMDQ4NDgsMjg0NTIzMDg2LDg0MDE1NDM5LC04OTE1OTkyMzNd
+fQ==
 -->
