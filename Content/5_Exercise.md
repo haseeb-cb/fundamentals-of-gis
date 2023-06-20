@@ -55,7 +55,7 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 *Reminder: Don't forget to give your files and layers informative names and save them in a folder for this exercise*
 
 4. One of the important features of DEM is that it can be used to create a hillshade relief. Hillshade is mostly used in visualization to create an imposing 3D-effect of the surface. Let's create a hillshade using this DEM. 
-	- Open the *Hillshade* tool from the *Processing Toolbox*
+	- Open the *Hillshade* tool (Remember where we search for all our tools?)
 	- Choose the clipped DEM as the Elevation layer
 	- Try out how the hillshade turns out with the default settings. You can change the result by adjusting these default values for azimuth and altitude. Basically, this adjusts from which angle the light hits the ground.
 	- Choose settings that you think are good and make that layer permanent, you can remove your test layers
@@ -63,8 +63,9 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 *Tip: Again, name the files! Good name for the first Hillshade could be for example “HillShade_Muurla_def” or “HS_Muurla_def” indicating that it’s a hillshade, study area and default settings – for the next one you could change the name to for example “HS_Muurla_Az180” and so on, based on the chosen settings.*
 
 5. Another very useful feature of a DEM is the possibility to identify the gradient of the raster surface. 
-	- Open the *
-	- This can be done with the Slope –tool, which can also be found under the Surface -tools. Again, use the clipped DEM as the input raster and perform the operation. You can use the default settings.
+	- Open the *Slope* tool
+	- Use the clipped DEM again, you can use the default settings 
+	- Remember to make your layer permanent again
 
 Questions:
 - What do the hill shade parameters azimuth and altitude mean?
@@ -177,46 +178,46 @@ QiOjE0NTksInRleHQiOiJNb29kbGUifSwiSGhwMFp4Q2tHbnk1
 eUV0QSI6eyJzdGFydCI6MjkwNywiZW5kIjoyOTA2LCJ0ZXh0Ij
 oiVGlwIn0sIlk3bTE5cmVrdHpxeGR1QmQiOnsic3RhcnQiOjI5
 MDcsImVuZCI6MjkwOCwidGV4dCI6IjQifSwiV05RUU0xUkxncm
-ZrWnEzOSI6eyJzdGFydCI6Mzg4MCwiZW5kIjozODgxLCJ0ZXh0
-IjoiNSJ9LCJpanF2dDlwS1h6dHRLejZXIjp7InN0YXJ0Ijo0Mj
-AzLCJlbmQiOjQyMTMsInRleHQiOiJRdWVzdGlvbnM6In0sIndQ
-dkFqekpNa3podzg5dHAiOnsic3RhcnQiOjQ3NzUsImVuZCI6ND
-c3NiwidGV4dCI6IjYifSwiWmtVdnc4N3dqUjhEY3FCTyI6eyJz
-dGFydCI6NTE4MCwiZW5kIjo1MTg2LCJ0ZXh0IjoiRmlndXJlIn
+ZrWnEzOSI6eyJzdGFydCI6Mzg5NiwiZW5kIjozODk3LCJ0ZXh0
+IjoiNSJ9LCJpanF2dDlwS1h6dHRLejZXIjp7InN0YXJ0Ijo0MT
+QxLCJlbmQiOjQxNTEsInRleHQiOiJRdWVzdGlvbnM6In0sIndQ
+dkFqekpNa3podzg5dHAiOnsic3RhcnQiOjQ3MTMsImVuZCI6ND
+cxNCwidGV4dCI6IjYifSwiWmtVdnc4N3dqUjhEY3FCTyI6eyJz
+dGFydCI6NTExOCwiZW5kIjo1MTI0LCJ0ZXh0IjoiRmlndXJlIn
 0sIk1lb3pEU3FrOTlOYmtIYVIiOnsic3RhcnQiOjk3OCwiZW5k
 IjoxMDIzLCJ0ZXh0IjoiIyMjIFBhcnQgMTogR2V0dGluZyBmYW
 1pbGlhciB3aXRoIHJhc3RlciBkYXRhIn0sIkF2RjlqcHFDN1Np
-WEhrSjgiOnsic3RhcnQiOjYwNjEsImVuZCI6NjA2NywidGV4dC
+WEhrSjgiOnsic3RhcnQiOjU5OTksImVuZCI6NjAwNSwidGV4dC
 I6IkZpZ3VyZSJ9LCJqUHpwRlpVTkhxVlVPc3lyIjp7InN0YXJ0
-Ijo2MTA5LCJlbmQiOjYxMTAsInRleHQiOiI3In0sIkI1S2xaaG
-95M3hrZndxUEEiOnsic3RhcnQiOjY0NTgsImVuZCI6NjQ2NCwi
+Ijo2MDQ3LCJlbmQiOjYwNDgsInRleHQiOiI3In0sIkI1S2xaaG
+95M3hrZndxUEEiOnsic3RhcnQiOjYzOTYsImVuZCI6NjQwMiwi
 dGV4dCI6IkZpZ3VyZSJ9LCJrUVJ2UVoyZjlid1pxazJ2Ijp7In
-N0YXJ0Ijo2NDY2LCJlbmQiOjY0NjcsInRleHQiOiI4In0sInI1
-MExoT2JOV1BHNmQ2dWYiOnsic3RhcnQiOjY2MDIsImVuZCI6Nj
-YwMywidGV4dCI6IjkifSwiMFlrM0JoVzN3d2FIRGFpZSI6eyJz
-dGFydCI6Njg5NCwiZW5kIjo2ODk2LCJ0ZXh0IjoiMTAifSwiMm
-pKOENXMDh5bDFDeTVYRSI6eyJzdGFydCI6NzE2NiwiZW5kIjo3
-MTcyLCJ0ZXh0IjoiRmlndXJlIn0sIk1JRjE4NndaNXhuZHpYNT
-UiOnsic3RhcnQiOjcxNzQsImVuZCI6NzE3NiwidGV4dCI6IjEx
-In0sInVoaFRiRUxxeVIwdnNNMU8iOnsic3RhcnQiOjc3NTksIm
-VuZCI6Nzc2NSwidGV4dCI6IkZpZ3VyZSJ9LCJrMWpFWVExa1ph
-NjViYk0wIjp7InN0YXJ0Ijo3NzY3LCJlbmQiOjc3NjksInRleH
+N0YXJ0Ijo2NDA0LCJlbmQiOjY0MDUsInRleHQiOiI4In0sInI1
+MExoT2JOV1BHNmQ2dWYiOnsic3RhcnQiOjY1NDAsImVuZCI6Nj
+U0MSwidGV4dCI6IjkifSwiMFlrM0JoVzN3d2FIRGFpZSI6eyJz
+dGFydCI6NjgzMiwiZW5kIjo2ODM0LCJ0ZXh0IjoiMTAifSwiMm
+pKOENXMDh5bDFDeTVYRSI6eyJzdGFydCI6NzEwNCwiZW5kIjo3
+MTEwLCJ0ZXh0IjoiRmlndXJlIn0sIk1JRjE4NndaNXhuZHpYNT
+UiOnsic3RhcnQiOjcxMTIsImVuZCI6NzExNCwidGV4dCI6IjEx
+In0sInVoaFRiRUxxeVIwdnNNMU8iOnsic3RhcnQiOjc2OTcsIm
+VuZCI6NzcwMywidGV4dCI6IkZpZ3VyZSJ9LCJrMWpFWVExa1ph
+NjViYk0wIjp7InN0YXJ0Ijo3NzA1LCJlbmQiOjc3MDcsInRleH
 QiOiIxMiJ9LCIyWmw4Q3FKQUV3cUt4RHZUIjp7InN0YXJ0Ijo4
-MTE1LCJlbmQiOjgxMjEsInRleHQiOiJGaWd1cmUifSwiQWplYk
-dkdjJEbVJyRTZFcCI6eyJzdGFydCI6ODE2MiwiZW5kIjo4MTY0
+MDUzLCJlbmQiOjgwNTksInRleHQiOiJGaWd1cmUifSwiQWplYk
+dkdjJEbVJyRTZFcCI6eyJzdGFydCI6ODEwMCwiZW5kIjo4MTAy
 LCJ0ZXh0IjoiMTMifSwiTUs0NnpEZk9UdjRvZXE2YiI6eyJzdG
-FydCI6ODYzMSwiZW5kIjo4NjM5LCJ0ZXh0IjoiLSBGaWd1cmUi
-fSwiU0M1dzk2Ylg2aVNycUZvQyI6eyJzdGFydCI6ODY0MSwiZW
-5kIjo4NjQzLCJ0ZXh0IjoiMTQifSwicTFpVjZiR3A1ZjRyZkZ3
-USI6eyJzdGFydCI6ODc4MCwiZW5kIjo4Nzg2LCJ0ZXh0IjoiRm
+FydCI6ODU2OSwiZW5kIjo4NTc3LCJ0ZXh0IjoiLSBGaWd1cmUi
+fSwiU0M1dzk2Ylg2aVNycUZvQyI6eyJzdGFydCI6ODU3OSwiZW
+5kIjo4NTgxLCJ0ZXh0IjoiMTQifSwicTFpVjZiR3A1ZjRyZkZ3
+USI6eyJzdGFydCI6ODcxOCwiZW5kIjo4NzI0LCJ0ZXh0IjoiRm
 lndXJlIn0sIjdwbU1HTlNvb1B6M0pnd0QiOnsic3RhcnQiOjky
-ODUsImVuZCI6OTI4NywidGV4dCI6IjE1In0sInpCTVkwa3BGaX
-Mwblo2amEiOnsic3RhcnQiOjk0NTgsImVuZCI6OTQ1OSwidGV4
+MjMsImVuZCI6OTIyNSwidGV4dCI6IjE1In0sInpCTVkwa3BGaX
+Mwblo2amEiOnsic3RhcnQiOjkzOTYsImVuZCI6OTM5NywidGV4
 dCI6IjE2In0sImNnV3RBVXR3cFhCOVVNVmYiOnsic3RhcnQiOj
-k0NTAsImVuZCI6OTQ1NiwidGV4dCI6IkZpZ3VyZSJ9LCIzNGVx
-c3JPcmhqak9NN09DIjp7InN0YXJ0Ijo5NzM3LCJlbmQiOjk3ND
-UsInRleHQiOiItIEZpZ3VyZSJ9LCJWVzJCbUJtNmZkY3JYWmZk
-Ijp7InN0YXJ0Ijo5NzQ3LCJlbmQiOjk3NDksInRleHQiOiIxNy
+kzODgsImVuZCI6OTM5NCwidGV4dCI6IkZpZ3VyZSJ9LCIzNGVx
+c3JPcmhqak9NN09DIjp7InN0YXJ0Ijo5Njc1LCJlbmQiOjk2OD
+MsInRleHQiOiItIEZpZ3VyZSJ9LCJWVzJCbUJtNmZkY3JYWmZk
+Ijp7InN0YXJ0Ijo5Njg1LCJlbmQiOjk2ODcsInRleHQiOiIxNy
 J9LCJTQm9uc2JOaFNMd0RoZ0JiIjp7InN0YXJ0Ijo1NzEsImVu
 ZCI6NTgzLCJ0ZXh0IjoiIyMgREFUQSBVU0VEIn0sIk1CclN1Z0
 lRQUo0MXBrSFciOnsic3RhcnQiOjc0LCJlbmQiOjk1LCJ0ZXh0
@@ -333,6 +334,6 @@ oiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIiwiY3JlYXRlZCI6
 MTY4NzE3MjIwMTUzNX0sIlVGMzRUWXhnWXZSMHkxU1IiOnsiZG
 lzY3Vzc2lvbklkIjoiTUJyU3VnSVFBSjQxcGtIVyIsInN1YiI6
 ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCIsImNyZWF0ZWQiOj
-E2ODcxNzIyMDU0ODZ9fSwiaGlzdG9yeSI6Wzg4MDUwOTUzOCwy
+E2ODcxNzIyMDU0ODZ9fSwiaGlzdG9yeSI6Wzg2MzM3NzczMSwy
 ODQ1MjMwODYsODQwMTU0MzksLTg5MTU5OTIzM119
 -->
