@@ -4,9 +4,18 @@
 
 ## OVERVIEW & PURPOSE
 
+## OBJECTIVES
+
+## DATA USED
+
+## COMPLETION
+
+## EXERCISE PHASES
+
+### Part 1: The ring rail line visualization
 The Ring Rail Line, also known as “Kehärata”, is a railway line that was opened in 2015 in the Helsinki capital region. The new rail route created a connection between Helsinki-Vantaa Airport and the Helsinki region commuter traffic network by joining the existing Vantaankoski and Main line branches. The approximately 18-kilometer-long Ring Rail line connects to the current rail network at the Vantaankoski and Hiekkaharju stations and the track between Viinikkala and Ruskeasanta goes in an underground tunnel.
 
-For the 2015 opening, five new stations were constructed at Leinelä, Helsinki-Vantaa Airport, Aviapolis, Kivistö and Vehkala. Reservations have also been made for four additional stations at Petas, Viinikkala, Ruskeasanta and Lapinkylä to be built later in the second phase. Out of these, the Aviapolis and Airport stations are located underground. Similarly, the reserved stations of Ruskeasanta and Viinikkala will be located underground.
+For theTo 2015 opening, altogether five new stations were constructed at Leinelä, Helsinki-Vantaa Airport, Aviapolis, Kivistö and Vehkala. Reservations have also been made for four additional stations at Petas, Viinikkala, Ruskeasanta and Lapinkylä to be built later in the second phase. Out of these, the Aviapolis and Airport stations are located underground. Similarly, the reserved stations of Ruskeasanta and Viinikkala will be located underground.
 
 The Ring Rail line improves the accessibility of the airport area and the suburbs along the route, cut down the journey times for over 12 million airport passengers per annum and it is also estimated to create employment for over 60 000 people.
 
@@ -44,25 +53,36 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 ### Part 1: The ring rail line visualization
 #### 1.1: Getting the data
 1. Download 4_Exercise_data from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and add it to your QGIS project. 
-	- Go through the data, what does it describe? What order of layers would be good to work with?
+	- Go through the data, what does it describe? What order of layers would be good to work with?#### 1.1: Getting the data
+1. Go to Moodle and download the data necessary for the task.
 
-3. We need to have the Ring Rail Line in geospatial format. One option is to digitize it based on a basic map. Other is to find the data online – let’s do that for practice!
-	- HRI offers easy access to open data sources between the cities of Helsinki, Espoo, Vantaa and Kauniainen. Follow the link to Helsinki-Region Transport’s public transport lines from 2021-2022 and open the preview in HSL’s website. https://public-transport-hslhrt.opendata.arcgis.com/datasets/hsln-linjat-4/
-	- As you can see, the dataset is big and we don’t need everything it contains. You could download the whole data and edit it on your computer, but you can also filter the data before downloading it. You’d have to figure out what different attributes mean – unfortunately in this case the information is in Finnish, so needed code explanations are provided here. You can also check them through the link below and clicking “Aineiston kuvaus (pdf)”
+32. We need to have the Ring Rail Line in geospatial format. One option is to digitize it based on a basic map. Other is to find the data online – let’s do that for practice!
+	- HRI offers easy access to open data sources between the cities of Helsinki, Espoo, Vantaa and Kauniainen. Follow the link to Helsinki-Region Transport’s public transport lines from 2021-2022 and open the preview in HSL’s website. https://public-transport-hslhrt.opendata.arcgis.comhri.fi/data/en_GB/datasets/hsl-n-linjat-4/
+
+- Picture 
+
+	- As you can see, the dataset is big and we don’t need everything it contains. You could download the whole data and edit it on your computer, but you can also filter the data before downloading it. You’d have to figure out what different attributes mean – unfortunately in this case the information is in Finnish, so needed code explanations are provided here. You can also check them also through the link below and clicking “Aineiston kuvaus (pdf)”.
 		- https://public-transport-hslhrt.opendata.arcgis.com/datasets/HSLHRT::hsln-linjat-4/about
 	- You can select features by clicking “Filter data” on the left of the page.
-		- JL_LAJI: 12, filters by local VR traffic
+		- JL_LAJI: 12, fright.
+		- Filters by local VR traffic
 		- VERKKO: 4, filters on train traffic
 		- AIK_VOIM: 1, filters on in-use tracks
 		- SUUNTA: 1, filter on 1 direction
 		- You will notice when you filter on these that the visual output barely changes, we are filtering on as much as possible to get as little duplicate lines as possible so we have to do as little manual adjustments ourselves. For this purpose we are only looking to extract the rough location of the line, and thus for example a single direction is sufficient. 
-	- When the selection is done, you can download it by going to the Download tab under the Filter data tab. Click the “toggle filters” to choose only the selected features, and download the data as a Shapefile. 
+	- When the selection is done, you can download it by going to the Download tab under the Filter data tabcolumn jl_laji (has information on public transport type (bus, tram, …)
+		- Select column value 12 from jl_laji, 12 = VR local trains
+	- When the selection is done, you can download it. Click the “toggle filters” to choose only the selected features, and download .
+
+- Picture 
+
+3. If you’d rather data as a Shapefile. 
 
  ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/4_Exercise/4_Exercise_data_selection.png)
 
 3. Add the data you downloaded to your QGIS project and inspect the features, what do you notice? 
 	- There are still duplicate entries for the Ring Rail Line and there are other entries we do not need and are in the way
-	- We want to end up with only the Ring Rail Line, go through the attribute table and find which entry describes the full ring Rail Line, export (Exercise 3, step 4) this to a new layer, you can remove the original. 
+	- We want to end up with only the Ring Rail Line, go through the attribute table and find which entry describes the full ring Rail Line, export (Exercise 3, step 4) this to a new layer, you can remove the original. igitize, use the Topographic map raster 1: 100 000 available from PaITuli and the plan overview images from the project area as your support. The precise route can be found on page 5 in the Ring Rail Line Brochure PDF (see Moodle). Remember to draw the underground and overground parts (the dash line in the brochure map shows the underground part) as separate segments - this is essential for the visualization stage!).
 
 #### 1.2: Making a map visualization of the new ring rail line
 4. For visualization purposes we want to have underground part of the rail as a separate segment. You can do this by splitting the ring rail line feature you exported into multiple features. 
@@ -83,7 +103,9 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 6. Make a visualization to show the ring rail line. Show on your map: where the railway is underground, which stations are new and whatever else you find convenient. 
 	- Use categorized symobology to show the different types of railway and stations
 	- Don't forget to add a basemap for reference (hint: Use one that contrasts with the data)
-	- Optionally you can add labels to the stations 
+	- Optionally you can add labels to the stations either by digitizing or editing one of the ring rail line features (there’s multiple features with same information). The dataset still contains some extra features, you can keep them for visualization or delete them, as you wish. You can see the route in the Ring Rail Line Brochure PDF (see Moodle).
+
+5. Make a visualization to show the ring rail line. Show on your map: where the railway is underground, which stations are new and whatever else you find convenient. You can use data you have from previous exercises (e.g. sea -layer).
 
 ---
 
@@ -100,11 +122,15 @@ As already mentioned, the Ring Rail line improves the commuter traffic network a
 	- Use *Select by Location* to select the entries from the capital_region_people data that intersect with the buffers
 	- Run *Basic Statistics for Fields* to get the total amount of residents living within the buffer (Input layer: Capital_region_people, selected feature only, Field to calculate: ASYHT(Persons in total in the building))
 		- Look the output log for the SUM output, this shows the total amount
-	- Repeat the same steps for the other buffer
+	- Repeat the same steps for the other buffer500 meters and 1 kilometer from
+	- ...the stations opened in 2015?
+	- ...the new and planned stations combined?
 
 The Ring Rail Line is likely to increase the attraction for the real estate in the nearby area. This, however, will also raise the question of the noise levels caused by the Aircraft traffic around the Helsinki-Vantaa Airport. Thanks to new improved technology the aircraft noise levels have slightly dropped in recent years.
 
-6. Find out how many people approximately live inside the dB zones: 65 or more and 50 or more in Helsinki region based on the noise levels in 2006? And the noise levels in 2010?
+6. Find out how many people approximately live inside the dB zones: 65 or more and 50 or more in Helsinki region based on :
+	- ...the noise levels in 2006? And 
+	- ...the noise levels in 2010?
 	- This time you don't need to create a buffer, as the dB zones already exist
 	- Repeat the same steps as in step 5 to get the number of residents living within the 65 and 50 dB zones in 2006 and 2010
 		- Hint: Look at the attribute tables of the noise layers (use *Selected features only* in *Select by location*)
@@ -118,24 +144,36 @@ Fill in the answers to the Moodle
 
 | **The requirements are as follows** |
 |--|
-| The Hotel & Congress Center has to be located within the maximum **distance of 2 kilometers from the Airport area** (but not inside it) |
-| The Hotel & Congress Center has to be easily accessible, thus located **within the radius of 1 kilometer from the new Ring Rail Line stations** (including the reserved ones) |
-| It has to be **within the radius of 500 meters from the road network**. |
-| The Hotel & Congress Center has to be **outside the ≥ 55 dB noise zones** caused by the airport traffic. |
-| The Hotel & Congress Center **cannot be built on already built up areas**. |
-| The Hotel & Congress Center requires **at least 5000 m2 of free building space**. |
+|:
+- The Hotel & Congress Center has to be located within the maximum **distance of 2 kilometers from the Airport area** (but not inside it) |
+|.
+- The Hotel & Congress Center has to be easily accessible, thus located **within the radius of 1 kilometer from the new Ring Rail Line stations** (including the reserved ones) |
+|
+- It has to be **within the radius of 500 meters from the road network**. |
+|
+- The Hotel & Congress Center has to be **outside the ≥ 55 dB noise zones** caused by the airport traffic. |
+|
+- The Hotel & Congress Center **cannot be built on already built up areas**. |
+|
+- The Hotel & Congress Center requires **at least 5000 m2 of free building space**. |
 
 - Start by creating buffers around the airport area, ring rail line staitons, and road network, setting the distance based on the requirements
 	- You can disolve the result of the buffer to make future steps easier, 
 - Use the *Intersection*  tool to combine intersect these buffers to get the areas which are only within 2km of the airport area, within a 1km radius from the stations, and within 500m from the road network. 
-	- You have to run this intersect with two buffers first, then run the output of that with the final buffer to get the desired result, don't forget to make your outputs permanent in between processing
+	- You have to run this intersect with two buffers first, then run the output of that with the final buffer to get the desired result
+
+*Hint 1: The Multipart to Singlepart- geoprocessing tool can be used to detach the polygons individual features to be able to calculate their areas. This is useful when the overlay operations combine the features, but because their topology information is still stored, they can be separated using this tool.*
+
+*Hint 2: When creating a buffer for the roads, don't forget to make your outputs permanent in between processing
 - No we need to remove the areas that are not suitable from this layer, namely the airport area itself, the stations themselves, the roads themselves, the 55 dB noise zone, and the build up areas. 
 	- We can do this using the *Difference* tool, read its description, what does it do?
 	- In short, it ouputs the parts of the input layer that fall outside the overlay layer. 
 	- So we need to run this for all our areas that we do not want, similar to last time we run *Difference* and then run it again with its output and the next criteria
 		- Use *Selected features only* again where necessary
 - Once we have the final suitable areas we need to determine which have at least 5000m2 of free building space
-	- Look at your current layer and its features, could we select the areas which have at least 5000m2 free space right now? Why not? 
+	- Look atly include ones near the airport area. A buffer or “Select by location” -tool’s buffering parameter can be helpful. Creating a buffer for all of the roads is unnecessary and takes a lot of time to process.*
+
+8. Try to make the map as clear and informative as possible and insert the finished map with all the necessary map elements to your courrent layer and its features, could we select the areas which have at least 5000m2 free space right now? Why not? 
 	- Some features that are not phyiscally connected are still 1 feature, so we need to seperate them. 
 		- Do this by running the *Promote to Multipart* tool on your current layer, this will seperate the features into seperate parts
 	- Let's extract areas of at least 5000m2 using the *Extract by Expression* tool (Hint: Crash Course, step 7)
@@ -143,47 +181,118 @@ Fill in the answers to the Moodle
 
 8. Make your final map of the suitable areas for the new airport hotel & congress center
 
+se report. Write also a short reflection on what was done and why.
 
+## Appendix: Overview map of the ring rail line
+
+- Add picture
+
+Legend in English: Pintarata = Overground, Tunneli = tunnel, Asema = station, Asemavaraus = station reservation, Nykyiset asemat = Current stations, Hämeenlinnanväylän parannus = improvement of Hämeenlinnanväylä
 
 
 
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJWVmhGd2NhNFBxWU9FdERCIjp7In
-N0YXJ0Ijo3ODc3LCJlbmQiOjc5MzUsInRleHQiOiIyLjE6IEFu
-YWx5emluZyB0aGUgZWZmZWN0cyBvbiB0aGUgcGVvcGxlIGluIH
-RoZSBzdHVkeSBhcmVhIn0sIkR4WTl1c1A1SzFhZ2xZNTkiOnsi
-c3RhcnQiOjEwMDcyLCJlbmQiOjEwMTA1LCJ0ZXh0IjoiRmlsbC
-BpbiB0aGUgYW5zd2VycyB0byB0aGUgTW9vZGxlIn0sIjBPdk03
-UTdXUEZEWmRrRmMiOnsic3RhcnQiOjEwMjEzLCJlbmQiOjEwMj
-kzLCJ0ZXh0IjoiIyMjIyAyLjI6IFBsYW5uaW5nIGEgbmV3IGFp
-cnBvcnQgaG90ZWwgJiBjb25ncmVzcyBjZW50ZXIgbmVhciB0aG
-UgcmluZyByYWlsIGxpbmUifSwiWWJDdlI0ZExOMGZvRllNbSI6
-eyJzdGFydCI6MjIyMywiZW5kIjoyMjM1LCJ0ZXh0IjoiIyMgRE
-FUQSBVU0VEIn0sIjJ4T1hZa3hYWkhhNmQzTVQiOnsic3RhcnQi
-OjU4LCJlbmQiOjcxLCJ0ZXh0IjoiIyBFeGVyY2lzZSA0OiJ9fS
-wiY29tbWVudHMiOnsiR1VNbUNUSmhLeGs0UFNpTiI6eyJkaXNj
-dXNzaW9uSWQiOiJWVmhGd2NhNFBxWU9FdERCIiwic3ViIjoiZ2
-g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rpb24gaW4gbW9v
-ZGxlIHdoZXJlIHRvIGZpbGwgaW4gYW5zd2VycyBmb3IgdGhlc2
-UiLCJjcmVhdGVkIjoxNjg2ODk5MjQ0OTk3fSwiZEtCY0gxZ0dn
-cjJsQXc3cyI6eyJkaXNjdXNzaW9uSWQiOiJEeFk5dXNQNUsxYW
-dsWTU5Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiRml4
-IHJlZmVyZW5jZSIsImNyZWF0ZWQiOjE2ODY5ODY0MjkxMDV9LC
-I2NlNwdEp3Skc4T3RWcGtiIjp7ImRpc2N1c3Npb25JZCI6IjBP
-dk03UTdXUEZEWmRrRmMiLCJzdWIiOiJnaDo0MDMwNDc4OCIsIn
-RleHQiOiJPcHRpb25hbGx5IChyZSltb3ZlIHRoaXMgaWYgdG9v
-IGhhcmQiLCJjcmVhdGVkIjoxNjg2OTg4NzQ3MzY5fSwiNWJGb0
-NaWkpSRE9EaHpEWSI6eyJkaXNjdXNzaW9uSWQiOiJZYkN2UjRk
-TE4wZm9GWU1tIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ij
-oiV2hhdCBhcmUgdGhlIGRhdGEgc291cmNlcz8iLCJjcmVhdGVk
-IjoxNjg3MTU4MDU4NzEzfSwiVGhWbEpvT0dkZWZVbjRORCI6ey
-JkaXNjdXNzaW9uSWQiOiIyeE9YWWt4WFpIYTZkM01UIiwic3Vi
-IjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHRpdGxlIiwiY3
-JlYXRlZCI6MTY4NzE3MDQyODQwNn19LCJoaXN0b3J5IjpbLTE4
-MTM2MTI4NDEsMzIwNzU3Mjg5LDEzMTk1MDQyMzUsMTIzODE4ND
-k4NiwxNDI5NDUxNDM4LDEyMTI1OTU4MzYsLTEzMjc3MzUxNTIs
-LTI3NjA3MjExNSwtMzAyNDY1MjEyLC0xOTI5NTI2MDYxLDIxMD
-E5NDM4NTIsNzI0NjE3OTAsLTIwNzMzOTMxMDMsMjAzMzg0NTA3
-NCwtNTA5ODA2NjkxLC00NDkxMTU2MDMsLTI3OTkzNzA4OSwyMD
-ExOTk2NzEwLDE3MDAyMzM4MTksNTExOTk5OTIyXX0=
+eyJkaXNjdXNzaW9ucyI6eyJFdFByYk5zWUdNWWhPWXRSIjp7In
+RleHQiOiJNb29kbGUiLCJzdGFydCI6MzE4OCwiZW5kIjozMTk0
+fSwicjFuaW14MW1CdWx6YVhkViI6eyJ0ZXh0IjoiLSBQaWN0dX
+JlIiwic3RhcnQiOjM3NDUsImVuZCI6Mzc1NH0sIkNVTHg0QmVW
+RFZzMm5GSUEiOnsidGV4dCI6Ii0gUGljdHVyZSIsInN0YXJ0Ij
+o1MjkyLCJlbmQiOjUzMDF9LCJHMTlOS0JJTGloREF2ME5FIjp7
+InRleHQiOiI0LiBGb3IgdmlzdWFsaXphdGlvbiBwdXJwb3Nlcy
+B3ZSB3YW50IHRvIGhhdmUgdW5kZXJncm91bmQgcGFydCBvZiB0
+aGUgcmFpbCBhcyBh4oCmIiwic3RhcnQiOjYzOTIsImVuZCI6OT
+AyMH0sIkw0MmtOUERvR0NjcEZTdGsiOnsidGV4dCI6IjUuIE1h
+a2UgYSB2aXN1YWxpemF0aW9uIHRvIHNob3cgdGhlIHJpbmcgcm
+FpbCBsaW5lLiBTaG93IG9uIHlvdXIgbWFwOiB3aGVyZSB0aGXi
+gKYiLCJzdGFydCI6OTAyMiwiZW5kIjo5MjU2fSwiVlZoRndjYT
+RQcVlPRXREQiI6eyJ0ZXh0IjoiMi4xOiBBbmFseXppbmcgdGhl
+IGVmZmVjdHMgb24gdGhlIHBlb3BsZSBpbiB0aGUgc3R1ZHkgYX
+JlYSIsInN0YXJ0Ijo5MzA4LCJlbmQiOjkzNjZ9LCJYQTNndVBG
+R2FJb245b0dKIjp7InRleHQiOiI1LiBGaW5kIG91dCBob3cgbW
+FueSBhcmUgbm90YWJseSBhZmZlY3RlZCBieSB0aGlzIGJ5IGNh
+bGN1bGF0aW5nIGhvdyBtYW55IHBlb3Bs4oCmIiwic3RhcnQiOj
+k1MzcsImVuZCI6MTA3MTF9LCJteEl5dndvUlBMZkRZWVUzIjp7
+InRleHQiOiI2LiBGaW5kIG91dCBob3cgbWFueSBwZW9wbGUgYX
+Bwcm94aW1hdGVseSBsaXZlIGluc2lkZSB0aGUgZEIgem9uZXM6
+IDY1IG9yIG1vcmXigKYiLCJzdGFydCI6MTExMjAsImVuZCI6MT
+EyNDN9LCJueVhqS0t5czBwRlBDVW5uIjp7InRleHQiOiItIEFk
+ZCBwaWN0dXJlIiwic3RhcnQiOjE1NzE2LCJlbmQiOjE1NzI5fS
+wicmptTVdrTElhMEZZNWpBVCI6eyJ0ZXh0IjoiKipUaGUgcmVx
+dWlyZW1lbnRzIGFyZSBhcyBmb2xsb3dzKio6XG4tIFRoZSBIb3
+RlbCAmIENvbmdyZXNzIENlbnRlciBoYXMgdG8gYmUgbG/igKYi
+LCJzdGFydCI6MTIyMTYsImVuZCI6MTM1MDF9LCJEeFk5dXNQNU
+sxYWdsWTU5Ijp7InRleHQiOiJGaWxsIGluIHRoZSBhbnN3ZXJz
+IHRvIHRoZSBNb29kbGUiLCJzdGFydCI6MTE2MjksImVuZCI6MT
+E2NjJ9LCIwT3ZNN1E3V1BGRFpka0ZjIjp7InRleHQiOiIjIyMj
+IDIuMjogUGxhbm5pbmcgYSBuZXcgYWlycG9ydCBob3RlbCAmIG
+NvbmdyZXNzIGNlbnRlciBuZWFyIHRoZSByaW5nIHJhaWwgbGlu
+ZSIsInN0YXJ0IjoxMTc3MCwiZW5kIjoxMTg1MH0sIlliQ3ZSNG
+RMTjBmb0ZZTW0iOnsidGV4dCI6IiMjIERBVEEgVVNFRCIsInN0
+YXJ0IjoyMzQ1LCJlbmQiOjIzNTd9LCIyeE9YWWt4WFpIYTZkM0
+1UIjp7InRleHQiOiIjIEV4ZXJjaXNlIDQ6Iiwic3RhcnQiOjU4
+LCJlbmQiOjcxfX0sImNvbW1lbnRzIjp7Ikh1MW9sN0dpRjZoQn
+QzY0kiOnsiZGlzY3Vzc2lvbklkIjoiRXRQcmJOc1lHTVloT1l0
+UiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkNvcnJlY3
+QiLCJjcmVhdGVkIjoxNjg2ODk4NDA2ODEyfSwiSXVHN2hOYU9p
+NFJJYWZLZSI6eyJkaXNjdXNzaW9uSWQiOiJyMW5pbXgxbUJ1bH
+phWGRWIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRk
+IHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2ODk4NzU1OTQwfSwiV0
+hPYWxHeDVoeXZFSjhDRSI6eyJkaXNjdXNzaW9uSWQiOiJDVUx4
+NEJlVkRWczJuRklBIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZX
+h0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2ODk4Nzg3
+ODA1fSwidGV6MG0yYXQzelhMZlhyYyI6eyJkaXNjdXNzaW9uSW
+QiOiJHMTlOS0JJTGloREF2ME5FIiwic3ViIjoiZ2g6NDAzMDQ3
+ODgiLCJ0ZXh0IjoiV3JpdGUgdGhpcyBvdXQgd2l0aCBtb3JlIG
+luc3RydWN0aW9ucywgZS5nLiByZW1pbmQgaG93IHRvIGRpZ2l0
+aXplLCBob3cgdG8gZWRpdCBleGlzdGluZyBmZWF0dXJlcywgZX
+RjIiwiY3JlYXRlZCI6MTY4Njg5ODkyNTMxN30sIkVOWmNKcDR0
+RnZYcXp5YkYiOnsiZGlzY3Vzc2lvbklkIjoiRzE5TktCSUxpaE
+RBdjBORSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlRl
+c3QgdGhpcyBzZWN0aW9uIHdoZW4gd3JpdGluZyBzaW5jZSBpdC
+B3YXMgdHJpY2t5IHdoZW4gSSBkaWQgaXQiLCJjcmVhdGVkIjox
+Njg2ODk4OTQwMDkzfSwiaXM4NGdPY0Z6a0R3dE15ViI6eyJkaX
+NjdXNzaW9uSWQiOiJMNDJrTlBEb0dDY3BGU3RrIiwic3ViIjoi
+Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiR2l2ZSBzb21lIG1vcmUgaG
+ludHMgb24gaG93IHRvIGRvIHRoaXMiLCJjcmVhdGVkIjoxNjg2
+ODk5MDA5MDEzfSwiR1VNbUNUSmhLeGs0UFNpTiI6eyJkaXNjdX
+NzaW9uSWQiOiJWVmhGd2NhNFBxWU9FdERCIiwic3ViIjoiZ2g6
+NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rpb24gaW4gbW9vZG
+xlIHdoZXJlIHRvIGZpbGwgaW4gYW5zd2VycyBmb3IgdGhlc2Ui
+LCJjcmVhdGVkIjoxNjg2ODk5MjQ0OTk3fSwiWm02WTZWQUQ3NU
+Z1Y012WCI6eyJkaXNjdXNzaW9uSWQiOiJYQTNndVBGR2FJb245
+b0dKIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiV3JpdG
+Ugb3V0IGhvdyB0byBkbyB0aGlzOiB0aGVpciBmaXJzdCB0aW1l
+IGRvaW5nIGJ1ZmZlciBhbmFseXNpcyIsImNyZWF0ZWQiOjE2OD
+Y4OTkyNzg2Mjl9LCI2aWw3aVNlQkkzTlRNQm9xIjp7ImRpc2N1
+c3Npb25JZCI6Im14SXl2d29SUExmRFlZVTMiLCJzdWIiOiJnaD
+o0MDMwNDc4OCIsInRleHQiOiJXcml0ZSBvdXQgaG93IHRvIGRv
+IHRoaXM6IHRoZWlyIGZpcnMgdHRpbWUgZG9pbmcgYnVmZmVyIG
+FuYWx5c2lzIiwiY3JlYXRlZCI6MTY4Njg5OTI5NzczM30sIlVC
+WmlrSkxhMVpqeWVqaG0iOnsiZGlzY3Vzc2lvbklkIjoibnlYak
+tLeXMwcEZQQ1VubiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4
+dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Njg5OTU5Mz
+AwNX0sImZydDFGd2FQR0J1dU1IZ0kiOnsiZGlzY3Vzc2lvbklk
+IjoicmptTVdrTElhMEZZNWpBVCIsInN1YiI6ImdoOjQwMzA0Nz
+g4IiwidGV4dCI6IkZ1bGx5IGV4cGxhaW4gaG93IHRoZXkgZG8g
+dGhpcyIsImNyZWF0ZWQiOjE2ODY4OTk2MDUwMDV9LCJkS0JjSD
+FnR2dyMmxBdzdzIjp7ImRpc2N1c3Npb25JZCI6IkR4WTl1c1A1
+SzFhZ2xZNTkiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOi
+JGaXggcmVmZXJlbmNlIiwiY3JlYXRlZCI6MTY4Njk4NjQyOTEw
+NX0sIjY2U3B0SndKRzhPdFZwa2IiOnsiZGlzY3Vzc2lvbklkIj
+oiME92TTdRN1dQRkRaZGtGYyIsInN1YiI6ImdoOjQwMzA0Nzg4
+IiwidGV4dCI6Ik9wdGlvbmFsbHkgKHJlKW1vdmUgdGhpcyBpZi
+B0b28gaGFyZCIsImNyZWF0ZWQiOjE2ODY5ODg3NDczNjl9LCI1
+YkZvQ1paSlJET0RoekRZIjp7ImRpc2N1c3Npb25JZCI6IlliQ3
+ZSNGRMTjBmb0ZZTW0iLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRl
+eHQiOiJXaGF0IGFyZSB0aGUgZGF0YSBzb3VyY2VzPyIsImNyZW
+F0ZWQiOjE2ODcxNTgwNTg3MTN9LCJUaFZsSm9PR2RlZlVuNE5E
+Ijp7ImRpc2N1c3Npb25JZCI6IjJ4T1hZa3hYWkhhNmQzTVQiLC
+JzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgdGl0bGUi
+LCJjcmVhdGVkIjoxNjg3MTcwNDI4NDA2fX0sImhpc3RvcnkiOl
+sxMDQ4MzgwNDAxLC0xODEzNjEyODQxLDMyMDc1NzI4OSwxMzE5
+NTA0MjM1LDEyMzgxODQ5ODYsMTQyOTQ1MTQzOCwxMjEyNTk1OD
+M2LC0xMzI3NzM1MTUyLC0yNzYwNzIxMTUsLTMwMjQ2NTIxMiwt
+MTkyOTUyNjA2MSwyMTAxOTQzODUyLDcyNDYxNzkwLC0yMDczMz
+kzMTAzLDIwMzM4NDUwNzQsLTUwOTgwNjY5MSwtNDQ5MTE1NjAz
+LC0yNzk5MzcwODksMjAxMTk5NjcxMCwxNzAwMjMzODE5XX0=
 -->
