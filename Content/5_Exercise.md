@@ -105,15 +105,14 @@ In the earlier phase you already clipped the DEM, calculated the slope and made 
 - Figure
 
 #### 2.1: Defining the unsuitable areas
-7. One initial preparation to be done before starting is to set the environment settings which can be found under the Analysis tab → Environments. Apply the environment settings specified below. It is good to remember that the cell size is always determined by the layer with the lowest resolution. Close the Environment Settings by pressing OK.
 
 - Figure
 
-8. Start off with the water criteria. Go to Buffer -tool and make a 10-meter buffer for the Bodies_of_Water -layer without dissolving.
+7. Start off with the water criteria. Go to Buffer -tool and make a 10-meter buffer for the Bodies_of_Water -layer without dissolving.
 
-9. Next, you have to convert the newly created buffer zone -layer to raster format. As learned before in this practical, use the Feature to Raster -tool to make this rasterization. Choose “FID” as the field to assign the values to the output raster and check that the cell size matches DEM.
+8. Next, you have to convert the newly created buffer zone -layer to raster format. As learned before in this practical, use the Feature to Raster -tool to make this rasterization. Choose “FID” as the field to assign the values to the output raster and check that the cell size matches DEM.
 
-10.  Next navigate to Spatial Analyst Tools → Reclass → Reclassify. In order for the further calculations to succeed, you have to make the NoData acceptable because those areas are the ones without water. Make the changes as below and save the file as “reclass_water”.
+1.  Next navigate to Spatial Analyst Tools → Reclass → Reclassify. In order for the further calculations to succeed, you have to make the NoData acceptable because those areas are the ones without water. Make the changes as below and save the file as “reclass_water”.
 
 - Figure
 
@@ -189,35 +188,35 @@ Ojk3OCwiZW5kIjoxMDIzLCJ0ZXh0IjoiIyMjIFBhcnQgMTogR2
 V0dGluZyBmYW1pbGlhciB3aXRoIHJhc3RlciBkYXRhIn0sIkF2
 RjlqcHFDN1NpWEhrSjgiOnsic3RhcnQiOjYzMDMsImVuZCI6Nj
 MwOSwidGV4dCI6IkZpZ3VyZSJ9LCJqUHpwRlpVTkhxVlVPc3ly
-Ijp7InN0YXJ0Ijo2MzUxLCJlbmQiOjYzNTIsInRleHQiOiI3In
-0sIkI1S2xaaG95M3hrZndxUEEiOnsic3RhcnQiOjY3MDAsImVu
-ZCI6NjcwNiwidGV4dCI6IkZpZ3VyZSJ9LCJrUVJ2UVoyZjlid1
-pxazJ2Ijp7InN0YXJ0Ijo2NzA4LCJlbmQiOjY3MDksInRleHQi
-OiI4In0sInI1MExoT2JOV1BHNmQ2dWYiOnsic3RhcnQiOjY4ND
-QsImVuZCI6Njg0NSwidGV4dCI6IjkifSwiMFlrM0JoVzN3d2FI
-RGFpZSI6eyJzdGFydCI6NzEzNiwiZW5kIjo3MTM4LCJ0ZXh0Ij
-oiMTAifSwiMmpKOENXMDh5bDFDeTVYRSI6eyJzdGFydCI6NzQw
-OCwiZW5kIjo3NDE0LCJ0ZXh0IjoiRmlndXJlIn0sIk1JRjE4Nn
-daNXhuZHpYNTUiOnsic3RhcnQiOjc0MTYsImVuZCI6NzQxOCwi
+Ijp7InN0YXJ0Ijo2MzUxLCJlbmQiOjYzNTEsInRleHQiOiI3In
+0sIkI1S2xaaG95M3hrZndxUEEiOnsic3RhcnQiOjYzNTQsImVu
+ZCI6NjM2MCwidGV4dCI6IkZpZ3VyZSJ9LCJrUVJ2UVoyZjlid1
+pxazJ2Ijp7InN0YXJ0Ijo2MzYzLCJlbmQiOjYzNjIsInRleHQi
+OiI4In0sInI1MExoT2JOV1BHNmQ2dWYiOnsic3RhcnQiOjY0OT
+ksImVuZCI6NjQ5OCwidGV4dCI6IjkifSwiMFlrM0JoVzN3d2FI
+RGFpZSI6eyJzdGFydCI6Njc5MCwiZW5kIjo2NzkxLCJ0ZXh0Ij
+oiMTAifSwiMmpKOENXMDh5bDFDeTVYRSI6eyJzdGFydCI6NzA2
+MSwiZW5kIjo3MDY3LCJ0ZXh0IjoiRmlndXJlIn0sIk1JRjE4Nn
+daNXhuZHpYNTUiOnsic3RhcnQiOjcwNjksImVuZCI6NzA3MSwi
 dGV4dCI6IjExIn0sInVoaFRiRUxxeVIwdnNNMU8iOnsic3Rhcn
-QiOjgwMDEsImVuZCI6ODAwNywidGV4dCI6IkZpZ3VyZSJ9LCJr
-MWpFWVExa1phNjViYk0wIjp7InN0YXJ0Ijo4MDA5LCJlbmQiOj
-gwMTEsInRleHQiOiIxMiJ9LCIyWmw4Q3FKQUV3cUt4RHZUIjp7
-InN0YXJ0Ijo4MzU3LCJlbmQiOjgzNjMsInRleHQiOiJGaWd1cm
-UifSwiQWplYkdkdjJEbVJyRTZFcCI6eyJzdGFydCI6ODQwNCwi
-ZW5kIjo4NDA2LCJ0ZXh0IjoiMTMifSwiTUs0NnpEZk9UdjRvZX
-E2YiI6eyJzdGFydCI6ODg3MywiZW5kIjo4ODgxLCJ0ZXh0Ijoi
+QiOjc2NTQsImVuZCI6NzY2MCwidGV4dCI6IkZpZ3VyZSJ9LCJr
+MWpFWVExa1phNjViYk0wIjp7InN0YXJ0Ijo3NjYyLCJlbmQiOj
+c2NjQsInRleHQiOiIxMiJ9LCIyWmw4Q3FKQUV3cUt4RHZUIjp7
+InN0YXJ0Ijo4MDEwLCJlbmQiOjgwMTYsInRleHQiOiJGaWd1cm
+UifSwiQWplYkdkdjJEbVJyRTZFcCI6eyJzdGFydCI6ODA1Nywi
+ZW5kIjo4MDU5LCJ0ZXh0IjoiMTMifSwiTUs0NnpEZk9UdjRvZX
+E2YiI6eyJzdGFydCI6ODUyNiwiZW5kIjo4NTM0LCJ0ZXh0Ijoi
 LSBGaWd1cmUifSwiU0M1dzk2Ylg2aVNycUZvQyI6eyJzdGFydC
-I6ODg4MywiZW5kIjo4ODg1LCJ0ZXh0IjoiMTQifSwicTFpVjZi
-R3A1ZjRyZkZ3USI6eyJzdGFydCI6OTAyMiwiZW5kIjo5MDI4LC
+I6ODUzNiwiZW5kIjo4NTM4LCJ0ZXh0IjoiMTQifSwicTFpVjZi
+R3A1ZjRyZkZ3USI6eyJzdGFydCI6ODY3NSwiZW5kIjo4NjgxLC
 J0ZXh0IjoiRmlndXJlIn0sIjdwbU1HTlNvb1B6M0pnd0QiOnsi
-c3RhcnQiOjk1MjcsImVuZCI6OTUyOSwidGV4dCI6IjE1In0sIn
-pCTVkwa3BGaXMwblo2amEiOnsic3RhcnQiOjk3MDAsImVuZCI6
-OTcwMSwidGV4dCI6IjE2In0sImNnV3RBVXR3cFhCOVVNVmYiOn
-sic3RhcnQiOjk2OTIsImVuZCI6OTY5OCwidGV4dCI6IkZpZ3Vy
-ZSJ9LCIzNGVxc3JPcmhqak9NN09DIjp7InN0YXJ0Ijo5OTc5LC
-JlbmQiOjk5ODcsInRleHQiOiItIEZpZ3VyZSJ9LCJWVzJCbUJt
-NmZkY3JYWmZkIjp7InN0YXJ0Ijo5OTg5LCJlbmQiOjk5OTEsIn
+c3RhcnQiOjkxODAsImVuZCI6OTE4MiwidGV4dCI6IjE1In0sIn
+pCTVkwa3BGaXMwblo2amEiOnsic3RhcnQiOjkzNTMsImVuZCI6
+OTM1NCwidGV4dCI6IjE2In0sImNnV3RBVXR3cFhCOVVNVmYiOn
+sic3RhcnQiOjkzNDUsImVuZCI6OTM1MSwidGV4dCI6IkZpZ3Vy
+ZSJ9LCIzNGVxc3JPcmhqak9NN09DIjp7InN0YXJ0Ijo5NjMyLC
+JlbmQiOjk2NDAsInRleHQiOiItIEZpZ3VyZSJ9LCJWVzJCbUJt
+NmZkY3JYWmZkIjp7InN0YXJ0Ijo5NjQyLCJlbmQiOjk2NDQsIn
 RleHQiOiIxNyJ9LCJTQm9uc2JOaFNMd0RoZ0JiIjp7InN0YXJ0
 Ijo1NzEsImVuZCI6NTgzLCJ0ZXh0IjoiIyMgREFUQSBVU0VEIn
 0sIk1CclN1Z0lRQUo0MXBrSFciOnsic3RhcnQiOjc0LCJlbmQi
@@ -323,6 +322,6 @@ aE8wbSI6eyJkaXNjdXNzaW9uSWQiOiI2S0pYbktjcGFwUWZ5RF
 FPIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNl
 Y3Rpb24gaW4gbW9vZGxlIHdoZXJlIHBlb3BsZSBjYW4gZmlsbC
 B0aGVzZSBpbiIsImNyZWF0ZWQiOjE2ODcyMzk0MTMwNTJ9fSwi
-aGlzdG9yeSI6WzI5ODkzNTg0NiwyODQ1MjMwODYsODQwMTU0Mz
+aGlzdG9yeSI6WzY1ODY5NTI2OCwyODQ1MjMwODYsODQwMTU0Mz
 ksLTg5MTU5OTIzM119
 -->
