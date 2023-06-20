@@ -119,7 +119,9 @@ In the earlier phase you already clipped the DEM, calculated the slope and made 
 - Figure
 
 10. Let’s continue with defining the unsuitable areas by determining the “bad slopes”. 
-	- Use the Reclassify -tool again, choose this time the slope raster as the input. In the new window choose reduce the number of classes to 2 and set the upper break values on the right manually as 15 and 54. Return to the first page by pressing OK and fill in the rest of the form using the image below as your support.
+	- Use the Reclassify -tool again, choose this time the slope raster as the input
+	- Add the reclassification table as pictured below
+	- In the new window choose reduce the number of classes to 2 and set the upper break values on the right manually as 15 and 54. Return to the first page by pressing OK and fill in the rest of the form using the image below as your support.
 
 The “water buffer” and the “bad slopes” will be classified as “0” so that they can be removed from the calculations later on with multiplication.
 
@@ -194,25 +196,25 @@ MwOSwidGV4dCI6IkZpZ3VyZSJ9LCIyako4Q1cwOHlsMUN5NVhF
 Ijp7InN0YXJ0Ijo3MTAyLCJlbmQiOjcxMDgsInRleHQiOiJGaW
 d1cmUifSwiTUlGMTg2d1o1eG5kelg1NSI6eyJzdGFydCI6NzEx
 MCwiZW5kIjo3MTExLCJ0ZXh0IjoiMTEifSwidWhoVGJFTHF5Uj
-B2c00xTyI6eyJzdGFydCI6NzY2OSwiZW5kIjo3Njc1LCJ0ZXh0
+B2c00xTyI6eyJzdGFydCI6NzcyMywiZW5kIjo3NzI5LCJ0ZXh0
 IjoiRmlndXJlIn0sImsxakVZUTFrWmE2NWJiTTAiOnsic3Rhcn
-QiOjc2NzcsImVuZCI6NzY3OCwidGV4dCI6IjEyIn0sIjJabDhD
-cUpBRXdxS3hEdlQiOnsic3RhcnQiOjgwMjUsImVuZCI6ODAzMS
+QiOjc3MzEsImVuZCI6NzczMiwidGV4dCI6IjEyIn0sIjJabDhD
+cUpBRXdxS3hEdlQiOnsic3RhcnQiOjgwNzksImVuZCI6ODA4NS
 widGV4dCI6IkZpZ3VyZSJ9LCJBamViR2R2MkRtUnJFNkVwIjp7
-InN0YXJ0Ijo4MDcyLCJlbmQiOjgwNzMsInRleHQiOiIxMyJ9LC
-JNSzQ2ekRmT1R2NG9lcTZiIjp7InN0YXJ0Ijo4NTQxLCJlbmQi
-Ojg1NDksInRleHQiOiItIEZpZ3VyZSJ9LCJTQzV3OTZiWDZpU3
-JxRm9DIjp7InN0YXJ0Ijo4NTUxLCJlbmQiOjg1NTIsInRleHQi
-OiIxNCJ9LCJxMWlWNmJHcDVmNHJmRndRIjp7InN0YXJ0Ijo4Nj
-kwLCJlbmQiOjg2OTYsInRleHQiOiJGaWd1cmUifSwiN3BtTUdO
-U29vUHozSmd3RCI6eyJzdGFydCI6OTE5NSwiZW5kIjo5MTk2LC
+InN0YXJ0Ijo4MTI2LCJlbmQiOjgxMjcsInRleHQiOiIxMyJ9LC
+JNSzQ2ekRmT1R2NG9lcTZiIjp7InN0YXJ0Ijo4NTk1LCJlbmQi
+Ojg2MDMsInRleHQiOiItIEZpZ3VyZSJ9LCJTQzV3OTZiWDZpU3
+JxRm9DIjp7InN0YXJ0Ijo4NjA1LCJlbmQiOjg2MDYsInRleHQi
+OiIxNCJ9LCJxMWlWNmJHcDVmNHJmRndRIjp7InN0YXJ0Ijo4Nz
+Q0LCJlbmQiOjg3NTAsInRleHQiOiJGaWd1cmUifSwiN3BtTUdO
+U29vUHozSmd3RCI6eyJzdGFydCI6OTI0OSwiZW5kIjo5MjUwLC
 J0ZXh0IjoiMTUifSwiekJNWTBrcEZpczBuWjZqYSI6eyJzdGFy
-dCI6OTM2OCwiZW5kIjo5MzY5LCJ0ZXh0IjoiMTYifSwiY2dXdE
-FVdHdwWEI5VU1WZiI6eyJzdGFydCI6OTM2MCwiZW5kIjo5MzY2
+dCI6OTQyMiwiZW5kIjo5NDIzLCJ0ZXh0IjoiMTYifSwiY2dXdE
+FVdHdwWEI5VU1WZiI6eyJzdGFydCI6OTQxNCwiZW5kIjo5NDIw
 LCJ0ZXh0IjoiRmlndXJlIn0sIjM0ZXFzck9yaGpqT003T0MiOn
-sic3RhcnQiOjk2NDcsImVuZCI6OTY1NSwidGV4dCI6Ii0gRmln
-dXJlIn0sIlZXMkJtQm02ZmRjclhaZmQiOnsic3RhcnQiOjk2NT
-csImVuZCI6OTY1OCwidGV4dCI6IjE3In0sIlNCb25zYk5oU0x3
+sic3RhcnQiOjk3MDEsImVuZCI6OTcwOSwidGV4dCI6Ii0gRmln
+dXJlIn0sIlZXMkJtQm02ZmRjclhaZmQiOnsic3RhcnQiOjk3MT
+EsImVuZCI6OTcxMiwidGV4dCI6IjE3In0sIlNCb25zYk5oU0x3
 RGhnQmIiOnsic3RhcnQiOjU3MSwiZW5kIjo1ODMsInRleHQiOi
 IjIyBEQVRBIFVTRUQifSwiTUJyU3VnSVFBSjQxcGtIVyI6eyJz
 dGFydCI6NzQsImVuZCI6OTUsInRleHQiOiIjIyBPVkVSVklFVy
@@ -299,7 +301,7 @@ MjIwNTQ4Nn0sIm9VREJRM2t6M0g5YmhPMG0iOnsiZGlzY3Vzc2
 lvbklkIjoiNktKWG5LY3BhcFFmeURRTyIsInN1YiI6ImdoOjQw
 MzA0Nzg4IiwidGV4dCI6IkFkZCBzZWN0aW9uIGluIG1vb2RsZS
 B3aGVyZSBwZW9wbGUgY2FuIGZpbGwgdGhlc2UgaW4iLCJjcmVh
-dGVkIjoxNjg3MjM5NDEzMDUyfX0sImhpc3RvcnkiOlsxMDY2OT
-I4Njg2LC04ODcyMjQ1NjAsMjgxOTA3NDEsLTIxMDgxMDQ4NDgs
+dGVkIjoxNjg3MjM5NDEzMDUyfX0sImhpc3RvcnkiOlsxMTUyND
+Q5MjMzLC04ODcyMjQ1NjAsMjgxOTA3NDEsLTIxMDgxMDQ4NDgs
 Mjg0NTIzMDg2LDg0MDE1NDM5LC04OTE1OTkyMzNdfQ==
 -->
