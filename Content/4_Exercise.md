@@ -157,7 +157,7 @@ Fill in the answers to the Moodle
 |
 - The Hotel & Congress Center requires **at least 5000 m2 of free building space**. |
 
-- Start by creating buffers around the airport area, ring rail line staitons, and road network, setting the distance based on the requirements
+- Start by creating buffers around the airport area, ring rail line stations, and road network, setting the distance based on the requirements
 	- You can disolve the result of the buffer to make future steps easier, 
 - Use the *Intersection*  tool to combine intersect these buffers to get the areas which are only within 2km of the airport area, within a 1km radius from the stations, and within 500m from the road network. 
 	- You have to run this intersect with two buffers first, then run the output of that with the final buffer to get the desired result
@@ -306,11 +306,11 @@ V3h5ZEhicGxPYXZLaWU1Ijp7ImRpc2N1c3Npb25JZCI6ImdEeV
 JTN25WRGFXQWZOd0siLCJzdWIiOiJnaDoyMjE2ODE1NyIsInRl
 eHQiOiJwcm9iYWJseSBiZXR0ZXIgdG8gZ2l2ZSBpbnN0cnVjdG
 lvbnMgaGVyZSIsImNyZWF0ZWQiOjE2ODcyNTQ2NDc0OTh9fSwi
-aGlzdG9yeSI6Wy05OTIwNjQ5MDIsLTE1MTI3MDY4MiwxMDQ4Mz
-gwNDAxLC0xODEzNjEyODQxLDMyMDc1NzI4OSwxMzE5NTA0MjM1
-LDEyMzgxODQ5ODYsMTQyOTQ1MTQzOCwxMjEyNTk1ODM2LC0xMz
-I3NzM1MTUyLC0yNzYwNzIxMTUsLTMwMjQ2NTIxMiwtMTkyOTUy
-NjA2MSwyMTAxOTQzODUyLDcyNDYxNzkwLC0yMDczMzkzMTAzLD
-IwMzM4NDUwNzQsLTUwOTgwNjY5MSwtNDQ5MTE1NjAzLC0yNzk5
-MzcwODldfQ==
+aGlzdG9yeSI6WzE2MTY5NjY4LC05OTIwNjQ5MDIsLTE1MTI3MD
+Y4MiwxMDQ4MzgwNDAxLC0xODEzNjEyODQxLDMyMDc1NzI4OSwx
+MzE5NTA0MjM1LDEyMzgxODQ5ODYsMTQyOTQ1MTQzOCwxMjEyNT
+k1ODM2LC0xMzI3NzM1MTUyLC0yNzYwNzIxMTUsLTMwMjQ2NTIx
+MiwtMTkyOTUyNjA2MSwyMTAxOTQzODUyLDcyNDYxNzkwLC0yMD
+czMzkzMTAzLDIwMzM4NDUwNzQsLTUwOTgwNjY5MSwtNDQ5MTE1
+NjAzXX0=
 -->
