@@ -127,7 +127,7 @@ In the earlier phase you already clipped the DEM, filled the DEM, calculated the
 - Figure
 
 11. Let’s continue with defining the unsuitable areas by determining the “bad slopes”. 
-	- Use the Reclassify -tool again, choose this time the slope raster as the input
+	- Use the *Reclassify by table* tool again, choose this time the slope raster as the input
 	- Add the reclassification table as pictured below
 		- Hint about earlier question: 1 = suitable, 0 = unsuitable
 	- Run the tool and save the output
@@ -139,7 +139,6 @@ The “water buffer” and the “bad slopes” will be classified as “0” so
 12. Now let’s combine the bad criteria layers
 	- Open the *Merge* tool from the *Processing Toolbox* (GDAL > Raster micellaneous > Merge) 
 	- Select the reclassified water layer and reclassified slope layer as input layers, leave the rest on default
-	- Run the tool, save the output
 	- As you will notice, the output has a border around it with the value 0, this is because the merge tool used the extend of the largest layer, which is the water bodies because we added a 10m buffer to this. This is outside our study area, so we need to clip this to the Muurla_Frame again, use the instructions given earlier to do this and save the clipped result for the next steps. 
 
 - Figure of unsuitable areas
@@ -147,10 +146,9 @@ The “water buffer” and the “bad slopes” will be classified as “0” so
 #### 2.2: Defining the suitable areas
 
 13. Now after you have identified the unsuitable areas, your next task it to rank the suitable ones.
-	- To make the “slope rank” go once again to Reclassify
+	- To make the “slope rank” go once again to *Reclassify by table*
 	- Choose the original Slope_Muurla file as the input raster
 	- Add the reclassification table as pictured below
-	- Run the tool and save the output
 
 - Figure of slope rank classifications
 
@@ -158,7 +156,7 @@ Let’s move on to ranking the soil. You can see the explanation for the soil co
 
 - Figure
 
-14. Open the Reclassify -tool and specify the values as in the figure below. The higher the value the better the soil fits for cultivation.
+14. Open the *Reclassify by table* tool and specify the values as in the figure below. The higher the value the better the soil fits for cultivation.
 
 - Figure
 
@@ -213,21 +211,21 @@ V0dGluZyBmYW1pbGlhciB3aXRoIHJhc3RlciBkYXRhIn0sIkF2
 RjlqcHFDN1NpWEhrSjgiOnsic3RhcnQiOjY3ODUsImVuZCI6Nj
 c5MSwidGV4dCI6IkZpZ3VyZSJ9LCIyako4Q1cwOHlsMUN5NVhF
 Ijp7InN0YXJ0Ijo3NjU3LCJlbmQiOjc2NjMsInRleHQiOiJGaW
-d1cmUifSwidWhoVGJFTHF5UjB2c00xTyI6eyJzdGFydCI6ODEz
-NSwiZW5kIjo4MTQxLCJ0ZXh0IjoiRmlndXJlIn0sIk1LNDZ6RG
-ZPVHY0b2VxNmIiOnsic3RhcnQiOjkzMjAsImVuZCI6OTMyOCwi
+d1cmUifSwidWhoVGJFTHF5UjB2c00xTyI6eyJzdGFydCI6ODE0
+NSwiZW5kIjo4MTUxLCJ0ZXh0IjoiRmlndXJlIn0sIk1LNDZ6RG
+ZPVHY0b2VxNmIiOnsic3RhcnQiOjkyNzIsImVuZCI6OTI4MCwi
 dGV4dCI6Ii0gRmlndXJlIn0sIlNDNXc5NmJYNmlTcnFGb0MiOn
-sic3RhcnQiOjkzMzAsImVuZCI6OTMzMSwidGV4dCI6IjE0In0s
-InExaVY2YkdwNWY0cmZGd1EiOnsic3RhcnQiOjk0NzMsImVuZC
-I6OTQ3OSwidGV4dCI6IkZpZ3VyZSJ9LCI3cG1NR05Tb29QejNK
-Z3dEIjp7InN0YXJ0Ijo5OTc4LCJlbmQiOjk5NzksInRleHQiOi
-IxNSJ9LCJ6Qk1ZMGtwRmlzMG5aNmphIjp7InN0YXJ0IjoxMDE1
-MSwiZW5kIjoxMDE1MiwidGV4dCI6IjE2In0sImNnV3RBVXR3cF
-hCOVVNVmYiOnsic3RhcnQiOjEwMTQzLCJlbmQiOjEwMTQ5LCJ0
+sic3RhcnQiOjkyODIsImVuZCI6OTI4MywidGV4dCI6IjE0In0s
+InExaVY2YkdwNWY0cmZGd1EiOnsic3RhcnQiOjk0MzUsImVuZC
+I6OTQ0MSwidGV4dCI6IkZpZ3VyZSJ9LCI3cG1NR05Tb29QejNK
+Z3dEIjp7InN0YXJ0Ijo5OTQwLCJlbmQiOjk5NDEsInRleHQiOi
+IxNSJ9LCJ6Qk1ZMGtwRmlzMG5aNmphIjp7InN0YXJ0IjoxMDEx
+MywiZW5kIjoxMDExNCwidGV4dCI6IjE2In0sImNnV3RBVXR3cF
+hCOVVNVmYiOnsic3RhcnQiOjEwMTA1LCJlbmQiOjEwMTExLCJ0
 ZXh0IjoiRmlndXJlIn0sIjM0ZXFzck9yaGpqT003T0MiOnsic3
-RhcnQiOjEwNDMwLCJlbmQiOjEwNDM4LCJ0ZXh0IjoiLSBGaWd1
-cmUifSwiVlcyQm1CbTZmZGNyWFpmZCI6eyJzdGFydCI6MTA0ND
-AsImVuZCI6MTA0NDEsInRleHQiOiIxNyJ9LCJTQm9uc2JOaFNM
+RhcnQiOjEwMzkyLCJlbmQiOjEwNDAwLCJ0ZXh0IjoiLSBGaWd1
+cmUifSwiVlcyQm1CbTZmZGNyWFpmZCI6eyJzdGFydCI6MTA0MD
+IsImVuZCI6MTA0MDMsInRleHQiOiIxNyJ9LCJTQm9uc2JOaFNM
 d0RoZ0JiIjp7InN0YXJ0Ijo1NzEsImVuZCI6NTgzLCJ0ZXh0Ij
 oiIyMgREFUQSBVU0VEIn0sIk1CclN1Z0lRQUo0MXBrSFciOnsi
 c3RhcnQiOjc0LCJlbmQiOjk1LCJ0ZXh0IjoiIyMgT1ZFUlZJRV
@@ -238,11 +236,11 @@ TlBKMGh1OWhSUUU5aVYiOnsic3RhcnQiOjI5NDgsImVuZCI6Mj
 k2MiwidGV4dCI6ImZpbGwgaXRzIHNpbmtzIn0sIlVKd2lseDl4
 bkZIWFBwdTAiOnsic3RhcnQiOjMzMTMsImVuZCI6MzMxNywidG
 V4dCI6Imljb24ifSwiQlFqazJTWkliUmFMUzRIeSI6eyJzdGFy
-dCI6ODgxNCwiZW5kIjo4ODIyLCJ0ZXh0IjoiLSBGaWd1cmUifS
-wiOHVHaWRIdm5ZanAxREROZCI6eyJzdGFydCI6ODg0NCwiZW5k
-Ijo4ODgxLCJ0ZXh0IjoiIyMjIyAyLjI6IERlZmluaW5nIHRoZS
+dCI6ODc5MSwiZW5kIjo4Nzk5LCJ0ZXh0IjoiLSBGaWd1cmUifS
+wiOHVHaWRIdm5ZanAxREROZCI6eyJzdGFydCI6ODgyMSwiZW5k
+Ijo4ODU4LCJ0ZXh0IjoiIyMjIyAyLjI6IERlZmluaW5nIHRoZS
 BzdWl0YWJsZSBhcmVhcyJ9LCJwdFFHMVNTTzNUR2xqRWkwIjp7
-InN0YXJ0Ijo5MTkwLCJlbmQiOjkyMjgsInRleHQiOiItIEZpZ3
+InN0YXJ0Ijo5MTQyLCJlbmQiOjkxODAsInRleHQiOiItIEZpZ3
 VyZSBvZiBzbG9wZSByYW5rIGNsYXNzaWZpY2F0aW9ucyJ9fSwi
 Y29tbWVudHMiOnsiR2JMb3BWNGI1UFdwRE9pVCI6eyJkaXNjdX
 NzaW9uSWQiOiI3NlpVMUtCVkY1M0JPNDN0Iiwic3ViIjoiZ2g6
@@ -326,9 +324,9 @@ ZSIsImNyZWF0ZWQiOjE2ODcyNDc2MjU3Nzh9LCJvR1lCcWlhcj
 M5ZFY3VFVYIjp7ImRpc2N1c3Npb25JZCI6InB0UUcxU1NPM1RH
 bGpFaTAiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZG
 QgZmlndXJlIiwiY3JlYXRlZCI6MTY4NzI0ODUwNDA2NH19LCJo
-aXN0b3J5IjpbOTkzNDMwOTg3LC0xNDAyMjI0MzMwLDE4MzgwND
-A5OTMsLTEyNjkxNTM3ODAsNDk4NzcwMDQ2LC00MTMyNjQ2ODEs
-MTU4MjI3OTcwNywtODg3MjI0NTYwLDI4MTkwNzQxLC0yMTA4MT
-A0ODQ4LDI4NDUyMzA4Niw4NDAxNTQzOSwtODkxNTk5MjMzXX0=
-
+aXN0b3J5IjpbLTE5MjUyNjE5MDgsLTE0MDIyMjQzMzAsMTgzOD
+A0MDk5MywtMTI2OTE1Mzc4MCw0OTg3NzAwNDYsLTQxMzI2NDY4
+MSwxNTgyMjc5NzA3LC04ODcyMjQ1NjAsMjgxOTA3NDEsLTIxMD
+gxMDQ4NDgsMjg0NTIzMDg2LDg0MDE1NDM5LC04OTE1OTkyMzNd
+fQ==
 -->
