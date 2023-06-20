@@ -164,7 +164,7 @@ Let’s move on to ranking the soil. You can see the explanation for the soil co
 
 #### 2.3: Identifying the final suitability ranking
 
-15. In the last part we will use all the components created to get the suitability map. Use the raster calculator following the formula as shown in the Figure 6.
+15. In the last part we will use all the components created to get the suitability map. Use the raster calculator following the formula as shown in the figure 6.
 
 - Figure
 
@@ -324,9 +324,9 @@ ZSIsImNyZWF0ZWQiOjE2ODcyNDc2MjU3Nzh9LCJvR1lCcWlhcj
 M5ZFY3VFVYIjp7ImRpc2N1c3Npb25JZCI6InB0UUcxU1NPM1RH
 bGpFaTAiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZG
 QgZmlndXJlIiwiY3JlYXRlZCI6MTY4NzI0ODUwNDA2NH19LCJo
-aXN0b3J5IjpbLTE4MDkxOTc3MTUsLTE0MDIyMjQzMzAsMTgzOD
-A0MDk5MywtMTI2OTE1Mzc4MCw0OTg3NzAwNDYsLTQxMzI2NDY4
-MSwxNTgyMjc5NzA3LC04ODcyMjQ1NjAsMjgxOTA3NDEsLTIxMD
-gxMDQ4NDgsMjg0NTIzMDg2LDg0MDE1NDM5LC04OTE1OTkyMzNd
-fQ==
+aXN0b3J5IjpbMjE0NTk0NTkzMywtMTgwOTE5NzcxNSwtMTQwMj
+IyNDMzMCwxODM4MDQwOTkzLC0xMjY5MTUzNzgwLDQ5ODc3MDA0
+NiwtNDEzMjY0NjgxLDE1ODIyNzk3MDcsLTg4NzIyNDU2MCwyOD
+E5MDc0MSwtMjEwODEwNDg0OCwyODQ1MjMwODYsODQwMTU0Mzks
+LTg5MTU5OTIzM119
 -->
