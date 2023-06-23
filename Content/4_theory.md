@@ -12,7 +12,7 @@ Buffer analysis is commonly used in GIS to answer questions about spatial relati
 
 The **process of buffer analysis** involves the following steps:
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/4_Theory_buffer_diagram.drawio_blue.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/4_Theory/4_Theory_buffer_diagram.drawio_blue.png)
 Buffer analysis can be performed using GIS software, which provides tools and functions for creating buffers and analyzing the spatial relationships. The specific capabilities and options for buffer analysis may vary depending on the GIS software being used.
 
 ## Overlay analysis
@@ -20,7 +20,7 @@ GIS overlay analysis, also known as spatial overlay analysis, is a technique use
 
 The **overlay analysis process** involves the following steps:
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/4_Theory_overlay_diagram.drawio.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/4_Theory/4_Theory_overlay_diagram.drawio.png)
     
 Overlay analysis is a powerful tool in GIS because it allows the combination and integration of multiple datasets to generate new information and support decision-making processes. It is commonly used in various applications, such as land-use planning, environmental analysis, market research, demographic analysis, and infrastructure development. GIS software provides tools and functions to perform overlay analysis, and the specific capabilities may vary depending on the software used.
 
@@ -74,8 +74,8 @@ Using the figure above, we are looking for the green circles by spatially compar
 [^3]: https://docs.qgis.org/3.28/en/docs/user_manual/processing_algs/algs_include.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTI1NzI4MywxMTk1NjEyNzYwLC0xOT
-M1NTk3Mzk4LDExMTk3MDAzNzgsMTYzNDEyOTIyMSwtMTEzNTY2
-Mjc1NiwtMTY3MjkwNjk2NiwxNjM2NTkyNzE3LDE2Mjk3OTU0OT
-MsMTIyNzYzMDc3NCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMzMzMzQ5NTg5LDE5OTEyNTcyODMsMTE5NT
+YxMjc2MCwtMTkzNTU5NzM5OCwxMTE5NzAwMzc4LDE2MzQxMjky
+MjEsLTExMzU2NjI3NTYsLTE2NzI5MDY5NjYsMTYzNjU5MjcxNy
+wxNjI5Nzk1NDkzLDEyMjc2MzA3NzQsNzMwOTk4MTE2XX0=
 -->
