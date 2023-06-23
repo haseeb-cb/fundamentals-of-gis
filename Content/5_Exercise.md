@@ -120,8 +120,6 @@ In the earlier phase you already clipped the DEM, filled the DEM, calculated the
 10.  For further calcuations we need to reclassify the data of the water buffer raster layer.
 	- Open the *Reclassify by table* tool
 	- Add the reclassification table as pictured below
-	- Set the ouput no data value to 1, no data in this case means land
-		- What do you think the 1 and 0 values represent in this analysis?
 	- Run the tool and save the output
 
 - Figure
@@ -129,7 +127,7 @@ In the earlier phase you already clipped the DEM, filled the DEM, calculated the
 11. Let’s continue with defining the unsuitable areas by determining the “bad slopes”. 
 	- Use the *Reclassify by table* tool again, choose this time the slope raster as the input
 	- Add the reclassification table as pictured below
-		- Hint about earlier question: 1 = suitable, 0 = unsuitable
+		- What do you think the 1 and 0 values represent in this analysis?
 	- Run the tool and save the output
 
 The “water buffer” and the “bad slopes” will be classified as “0” so that they can be removed from the calculations later on with multiplication.
@@ -211,17 +209,17 @@ Ojk3OCwiZW5kIjoxMDIzLCJ0ZXh0IjoiIyMjIFBhcnQgMTogR2
 V0dGluZyBmYW1pbGlhciB3aXRoIHJhc3RlciBkYXRhIn0sIkF2
 RjlqcHFDN1NpWEhrSjgiOnsic3RhcnQiOjY3ODUsImVuZCI6Nj
 c5MSwidGV4dCI6IkZpZ3VyZSJ9LCIyako4Q1cwOHlsMUN5NVhF
-Ijp7InN0YXJ0Ijo3NjU3LCJlbmQiOjc2NjMsInRleHQiOiJGaW
-d1cmUifSwidWhoVGJFTHF5UjB2c00xTyI6eyJzdGFydCI6ODE0
-NSwiZW5kIjo4MTUxLCJ0ZXh0IjoiRmlndXJlIn0sIk1LNDZ6RG
-ZPVHY0b2VxNmIiOnsic3RhcnQiOjkyNzIsImVuZCI6OTI4MCwi
+Ijp7InN0YXJ0Ijo3NTE5LCJlbmQiOjc1MjUsInRleHQiOiJGaW
+d1cmUifSwidWhoVGJFTHF5UjB2c00xTyI6eyJzdGFydCI6ODAx
+NCwiZW5kIjo4MDIwLCJ0ZXh0IjoiRmlndXJlIn0sIk1LNDZ6RG
+ZPVHY0b2VxNmIiOnsic3RhcnQiOjkxNDEsImVuZCI6OTE0OSwi
 dGV4dCI6Ii0gRmlndXJlIn0sInExaVY2YkdwNWY0cmZGd1EiOn
-sic3RhcnQiOjk2NDgsImVuZCI6OTY1NCwidGV4dCI6IkZpZ3Vy
-ZSJ9LCJjZ1d0QVV0d3BYQjlVTVZmIjp7InN0YXJ0IjoxMDU0My
-wiZW5kIjoxMDU0OSwidGV4dCI6IkZpZ3VyZSJ9LCIzNGVxc3JP
-cmhqak9NN09DIjp7InN0YXJ0IjoxMDgxMiwiZW5kIjoxMDgyMC
+sic3RhcnQiOjk1MTcsImVuZCI6OTUyMywidGV4dCI6IkZpZ3Vy
+ZSJ9LCJjZ1d0QVV0d3BYQjlVTVZmIjp7InN0YXJ0IjoxMDQxMi
+wiZW5kIjoxMDQxOCwidGV4dCI6IkZpZ3VyZSJ9LCIzNGVxc3JP
+cmhqak9NN09DIjp7InN0YXJ0IjoxMDY4MSwiZW5kIjoxMDY4OS
 widGV4dCI6Ii0gRmlndXJlIn0sIlZXMkJtQm02ZmRjclhaZmQi
-Onsic3RhcnQiOjEwODIyLCJlbmQiOjEwODIzLCJ0ZXh0IjoiMT
+Onsic3RhcnQiOjEwNjkxLCJlbmQiOjEwNjkyLCJ0ZXh0IjoiMT
 cifSwiU0JvbnNiTmhTTHdEaGdCYiI6eyJzdGFydCI6NTcxLCJl
 bmQiOjU4MywidGV4dCI6IiMjIERBVEEgVVNFRCJ9LCJNQnJTdW
 dJUUFKNDFwa0hXIjp7InN0YXJ0Ijo3NCwiZW5kIjo5NSwidGV4
@@ -232,11 +230,11 @@ eHQiOiJBbnN3ZXIgdGhlIGZvbGxvd2luZyBxdWVzdGlvbnMgb2
 IjoyOTQ4LCJlbmQiOjI5NjIsInRleHQiOiJmaWxsIGl0cyBzaW
 5rcyJ9LCJVSndpbHg5eG5GSFhQcHUwIjp7InN0YXJ0IjozMzEz
 LCJlbmQiOjMzMTcsInRleHQiOiJpY29uIn0sIkJRamsyU1pJYl
-JhTFM0SHkiOnsic3RhcnQiOjg3OTEsImVuZCI6ODc5OSwidGV4
+JhTFM0SHkiOnsic3RhcnQiOjg2NjAsImVuZCI6ODY2OCwidGV4
 dCI6Ii0gRmlndXJlIn0sIjh1R2lkSHZuWWpwMURETmQiOnsic3
-RhcnQiOjg4MjEsImVuZCI6ODg1OCwidGV4dCI6IiMjIyMgMi4y
+RhcnQiOjg2OTAsImVuZCI6ODcyNywidGV4dCI6IiMjIyMgMi4y
 OiBEZWZpbmluZyB0aGUgc3VpdGFibGUgYXJlYXMifSwicHRRRz
-FTU08zVEdsakVpMCI6eyJzdGFydCI6OTE0MiwiZW5kIjo5MTgw
+FTU08zVEdsakVpMCI6eyJzdGFydCI6OTAxMSwiZW5kIjo5MDQ5
 LCJ0ZXh0IjoiLSBGaWd1cmUgb2Ygc2xvcGUgcmFuayBjbGFzc2
 lmaWNhdGlvbnMifX0sImNvbW1lbnRzIjp7IkdiTG9wVjRiNVBX
 cERPaVQiOnsiZGlzY3Vzc2lvbklkIjoiNzZaVTFLQlZGNTNCTz
@@ -308,10 +306,10 @@ F0ZWQiOjE2ODcyNDc2MjU3Nzh9LCJvR1lCcWlhcjM5ZFY3VFVY
 Ijp7ImRpc2N1c3Npb25JZCI6InB0UUcxU1NPM1RHbGpFaTAiLC
 JzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgZmlndXJl
 IiwiY3JlYXRlZCI6MTY4NzI0ODUwNDA2NH19LCJoaXN0b3J5Ij
-pbMTI4ODk5OTg0NiwtOTMxMjA3MTY4LC0zNzE1ODE3ODcsLTE3
-NDY0NDE5NTYsLTE3NDU3ODYyODQsLTE4MDkxOTc3MTUsLTE0MD
-IyMjQzMzAsMTgzODA0MDk5MywtMTI2OTE1Mzc4MCw0OTg3NzAw
-NDYsLTQxMzI2NDY4MSwxNTgyMjc5NzA3LC04ODcyMjQ1NjAsMj
-gxOTA3NDEsLTIxMDgxMDQ4NDgsMjg0NTIzMDg2LDg0MDE1NDM5
-LC04OTE1OTkyMzNdfQ==
+pbOTIyODUwOTY3LDEyODg5OTk4NDYsLTkzMTIwNzE2OCwtMzcx
+NTgxNzg3LC0xNzQ2NDQxOTU2LC0xNzQ1Nzg2Mjg0LC0xODA5MT
+k3NzE1LC0xNDAyMjI0MzMwLDE4MzgwNDA5OTMsLTEyNjkxNTM3
+ODAsNDk4NzcwMDQ2LC00MTMyNjQ2ODEsMTU4MjI3OTcwNywtOD
+g3MjI0NTYwLDI4MTkwNzQxLC0yMTA4MTA0ODQ4LDI4NDUyMzA4
+Niw4NDAxNTQzOSwtODkxNTk5MjMzXX0=
 -->
