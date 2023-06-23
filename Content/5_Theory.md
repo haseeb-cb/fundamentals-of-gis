@@ -1,14 +1,23 @@
-- DEM
-	- Fill sinks
+
+### Fundamentals of Geographic Information Systems (GIS)
+
+# Theory 4: Digital Elevation Model, Hillshade, and raster overlay analysis
+
+## Digital Elevation Model (DEM)
+- Fill sinks
 	- https://www.youtube.com/watch?v=6rcx4OwnryI
-- Hillshade
-- Slope
+
+### Hillshade
+
+### Slope
+
+## Raster overlay anl
 - Data reclassification
 - Raster calculator
 - Raster overlay analysis (calculations)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg3MjYzNDExLC0zNTEwNzY1ODAsLTEzOT
-AzMzIwNTFdfQ==
+eyJoaXN0b3J5IjpbLTczNjA5MDQ1NCwtMzUxMDc2NTgwLC0xMz
+kwMzMyMDUxXX0=
 -->
