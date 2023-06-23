@@ -178,13 +178,13 @@ Let’s move on to ranking the soil. You can see the explanation for the soil co
 
 - Figure
 
-17. Now, you should see the optimal cultivation areas in the study area. You can add a basemap from the ArcGIS server as in the exercise 2 and see whether your optimal areas match with the real fields located in the area.
+17. Now, you should see the optimal cultivation areas in the study area. You can add a basemap from XYZ tiles or QMS  and see whether your optimal areas match with the real fields located in the area.
 
 ---
 
 ### Part 3: Map visualization time
 
-For suitability analysis it’s common to make a map collection showing the criteria areas and the final suitability analysis map. Make a map collection with following rasters:
+For suitability analysis it’s common to make a map collection showing the criteria areas and the final suitability analysis map. Make maps with following rasters:
 
 • Soil types
 • Terrain (hill shade)
@@ -192,9 +192,7 @@ For suitability analysis it’s common to make a map collection showing the crit
 • Water bodies (can be combined to terrain or slopes)
 • Final suitability analysis map (final rank)
 
-Visualize the rasters as desired. For this type of maps base maps are in general not used. Feel free to include any additional map visualizations.
-
-Besides the map visualization we can also check the proportions of pixels belonging to different classifications from the layer’s attribute table. Open the attribute table and add the Count-value of each classification into the report. It can also be included in your map collection layout.
+Visualize the rasters as desired (hint: you can change the symbology of raster layers as well). For this type of maps base maps are in general not used. Feel free to include any additional map visualizations.
 
 As your final task, write a short reflection on what was done and why and add it also to your report.
 
@@ -318,10 +316,11 @@ b25hbC9hbm90aGVyIGV4ZXJjaXNlIiwiY3JlYXRlZCI6MTY4Nz
 I0NzYyNTc3OH0sIm9HWUJxaWFyMzlkVjdUVVgiOnsiZGlzY3Vz
 c2lvbklkIjoicHRRRzFTU08zVEdsakVpMCIsInN1YiI6ImdoOj
 QwMzA0Nzg4IiwidGV4dCI6IkFkZCBmaWd1cmUiLCJjcmVhdGVk
-IjoxNjg3MjQ4NTA0MDY0fX0sImhpc3RvcnkiOlstOTMxMjA3MT
-Y4LC0zNzE1ODE3ODcsLTE3NDY0NDE5NTYsLTE3NDU3ODYyODQs
-LTE4MDkxOTc3MTUsLTE0MDIyMjQzMzAsMTgzODA0MDk5MywtMT
-I2OTE1Mzc4MCw0OTg3NzAwNDYsLTQxMzI2NDY4MSwxNTgyMjc5
-NzA3LC04ODcyMjQ1NjAsMjgxOTA3NDEsLTIxMDgxMDQ4NDgsMj
-g0NTIzMDg2LDg0MDE1NDM5LC04OTE1OTkyMzNdfQ==
+IjoxNjg3MjQ4NTA0MDY0fX0sImhpc3RvcnkiOls5NjYzNzg3MT
+IsLTkzMTIwNzE2OCwtMzcxNTgxNzg3LC0xNzQ2NDQxOTU2LC0x
+NzQ1Nzg2Mjg0LC0xODA5MTk3NzE1LC0xNDAyMjI0MzMwLDE4Mz
+gwNDA5OTMsLTEyNjkxNTM3ODAsNDk4NzcwMDQ2LC00MTMyNjQ2
+ODEsMTU4MjI3OTcwNywtODg3MjI0NTYwLDI4MTkwNzQxLC0yMT
+A4MTA0ODQ4LDI4NDUyMzA4Niw4NDAxNTQzOSwtODkxNTk5MjMz
+XX0=
 -->
