@@ -150,10 +150,9 @@ Fill in the answers to the Moodle
 	- So we need to run this for all our areas that we do not want to build the hotel (similar to last time we ran *Difference*) and then run it again with its output and the next criteria
 		- Use *Selected features only* again where necessary
 - Once we have the final suitable areas we need to determine which have at least 5000m2 of free building space
-	- Look at
 
 8. Try to make the map as clear and informative as possible and insert the finished map with all the necessary map elements to your current layer and its features. Could we select the areas which have at least 5000m2 free space right now? Why not? 
-	- Some features that are not physically connected are still 1 feature, so we need to seperate them. 
+	- Some features that are not physically connected are still 1 feature, so we need to separate them. 
 		- Do this by running the *Promote to Multipart* tool on your current layer, this will seperate the features into seperate parts
 	- Let's extract areas of at least 5000m2 using the *Extract by Expression* tool (Hint: Crash Course, step 7)
 - Done! You should now have the areas that meet all the criteria
@@ -203,11 +202,10 @@ gxMn0sInBLOWlhRjU1SWk0UHlJN2QiOnsiZGlzY3Vzc2lvbklk
 IjoiMlFIQXlKZFU3bFY5Q2NOcyIsInN1YiI6ImdoOjIyMTY4MT
 U3IiwidGV4dCI6InRoaXMgaXMgYSBsaXR0bGUgdW5jbGVhci4i
 LCJjcmVhdGVkIjoxNjg3MjU0NTcyODgyfX0sImhpc3RvcnkiOl
-stMTg2MTg3MTg3MiwtMTc3NjEyMDc3MiwtMTQwMjQyMTcyMSwt
-NDI2NTk0MzMyLC0zNDg1MTQ5NjAsNzkzMjkyMjMzLC05OTIwNj
-Q5MDIsLTE1MTI3MDY4MiwxMDQ4MzgwNDAxLC0xODEzNjEyODQx
-LDMyMDc1NzI4OSwxMzE5NTA0MjM1LDEyMzgxODQ5ODYsMTQyOT
-Q1MTQzOCwxMjEyNTk1ODM2LC0xMzI3NzM1MTUyLC0yNzYwNzIx
-MTUsLTMwMjQ2NTIxMiwtMTkyOTUyNjA2MSwyMTAxOTQzODUyXX
-0=
+s0NzE2OTQ1OTMsLTE3NzYxMjA3NzIsLTE0MDI0MjE3MjEsLTQy
+NjU5NDMzMiwtMzQ4NTE0OTYwLDc5MzI5MjIzMywtOTkyMDY0OT
+AyLC0xNTEyNzA2ODIsMTA0ODM4MDQwMSwtMTgxMzYxMjg0MSwz
+MjA3NTcyODksMTMxOTUwNDIzNSwxMjM4MTg0OTg2LDE0Mjk0NT
+E0MzgsMTIxMjU5NTgzNiwtMTMyNzczNTE1MiwtMjc2MDcyMTE1
+LC0zMDI0NjUyMTIsLTE5Mjk1MjYwNjEsMjEwMTk0Mzg1Ml19
 -->
