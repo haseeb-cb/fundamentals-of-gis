@@ -157,7 +157,7 @@ Let’s move on to ranking the soil. You can see the explanation for the soil co
 - Figure
 
 14. Open the *Reclassify by table* tool , use the soil raster we converted earlier and specify the values as in the figure below. The higher the value the better the soil fits for cultivation.
-	- This time set the *Range boundaries* under *Advanced Parameters* on "min <= value <= max", why do you think this is necessary? 
+	- This time set the *Range boundaries* under *Advanced Parameters* on "min <= value <= max", why do you think this is necessary? (hint: <= means less than or equal to")
 
 - Figure
 
@@ -174,7 +174,7 @@ Let’s move on to ranking the soil. You can see the explanation for the soil co
 - Figure
 
 16. Open once more *Reclassify by table* and select the suitable areas layer as the input. Reclassify the layer so to have 4 classes so that one represents unsuitable values (0) and others have interval of 1 (with rank values 0, 1, 2, 3, see the figure below
-	- Set the *Range boundaries* under *Advanced Parameters* to "min <= value <= max" again (hint: <= means less than or equal to")
+
 
 - Figure
 
@@ -221,14 +221,14 @@ d1cmUifSwidWhoVGJFTHF5UjB2c00xTyI6eyJzdGFydCI6ODE0
 NSwiZW5kIjo4MTUxLCJ0ZXh0IjoiRmlndXJlIn0sIk1LNDZ6RG
 ZPVHY0b2VxNmIiOnsic3RhcnQiOjkyNzIsImVuZCI6OTI4MCwi
 dGV4dCI6Ii0gRmlndXJlIn0sInExaVY2YkdwNWY0cmZGd1EiOn
-sic3RhcnQiOjk2MDksImVuZCI6OTYxNSwidGV4dCI6IkZpZ3Vy
-ZSJ9LCJ6Qk1ZMGtwRmlzMG5aNmphIjp7InN0YXJ0IjoxMDUxMi
-wiZW5kIjoxMDUxMywidGV4dCI6IjE2In0sImNnV3RBVXR3cFhC
-OVVNVmYiOnsic3RhcnQiOjEwNTA0LCJlbmQiOjEwNTEwLCJ0ZX
+sic3RhcnQiOjk2NDgsImVuZCI6OTY1NCwidGV4dCI6IkZpZ3Vy
+ZSJ9LCJ6Qk1ZMGtwRmlzMG5aNmphIjp7InN0YXJ0IjoxMDU1MS
+wiZW5kIjoxMDU1MiwidGV4dCI6IjE2In0sImNnV3RBVXR3cFhC
+OVVNVmYiOnsic3RhcnQiOjEwNTQzLCJlbmQiOjEwNTQ5LCJ0ZX
 h0IjoiRmlndXJlIn0sIjM0ZXFzck9yaGpqT003T0MiOnsic3Rh
-cnQiOjEwOTAxLCJlbmQiOjEwOTA5LCJ0ZXh0IjoiLSBGaWd1cm
-UifSwiVlcyQm1CbTZmZGNyWFpmZCI6eyJzdGFydCI6MTA5MTEs
-ImVuZCI6MTA5MTIsInRleHQiOiIxNyJ9LCJTQm9uc2JOaFNMd0
+cnQiOjEwODEyLCJlbmQiOjEwODIwLCJ0ZXh0IjoiLSBGaWd1cm
+UifSwiVlcyQm1CbTZmZGNyWFpmZCI6eyJzdGFydCI6MTA4MjIs
+ImVuZCI6MTA4MjMsInRleHQiOiIxNyJ9LCJTQm9uc2JOaFNMd0
 RoZ0JiIjp7InN0YXJ0Ijo1NzEsImVuZCI6NTgzLCJ0ZXh0Ijoi
 IyMgREFUQSBVU0VEIn0sIk1CclN1Z0lRQUo0MXBrSFciOnsic3
 RhcnQiOjc0LCJlbmQiOjk1LCJ0ZXh0IjoiIyMgT1ZFUlZJRVcg
@@ -318,10 +318,10 @@ b25hbC9hbm90aGVyIGV4ZXJjaXNlIiwiY3JlYXRlZCI6MTY4Nz
 I0NzYyNTc3OH0sIm9HWUJxaWFyMzlkVjdUVVgiOnsiZGlzY3Vz
 c2lvbklkIjoicHRRRzFTU08zVEdsakVpMCIsInN1YiI6ImdoOj
 QwMzA0Nzg4IiwidGV4dCI6IkFkZCBmaWd1cmUiLCJjcmVhdGVk
-IjoxNjg3MjQ4NTA0MDY0fX0sImhpc3RvcnkiOlszMDQ2ODkwMT
-MsLTM3MTU4MTc4NywtMTc0NjQ0MTk1NiwtMTc0NTc4NjI4NCwt
-MTgwOTE5NzcxNSwtMTQwMjIyNDMzMCwxODM4MDQwOTkzLC0xMj
-Y5MTUzNzgwLDQ5ODc3MDA0NiwtNDEzMjY0NjgxLDE1ODIyNzk3
-MDcsLTg4NzIyNDU2MCwyODE5MDc0MSwtMjEwODEwNDg0OCwyOD
-Q1MjMwODYsODQwMTU0MzksLTg5MTU5OTIzM119
+IjoxNjg3MjQ4NTA0MDY0fX0sImhpc3RvcnkiOlstOTMxMjA3MT
+Y4LC0zNzE1ODE3ODcsLTE3NDY0NDE5NTYsLTE3NDU3ODYyODQs
+LTE4MDkxOTc3MTUsLTE0MDIyMjQzMzAsMTgzODA0MDk5MywtMT
+I2OTE1Mzc4MCw0OTg3NzAwNDYsLTQxMzI2NDY4MSwxNTgyMjc5
+NzA3LC04ODcyMjQ1NjAsMjgxOTA3NDEsLTIxMDgxMDQ4NDgsMj
+g0NTIzMDg2LDg0MDE1NDM5LC04OTE1OTkyMzNdfQ==
 -->
