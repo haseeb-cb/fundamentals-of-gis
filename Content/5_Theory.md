@@ -40,6 +40,23 @@ A DEM provides the necessary data to perform slope analysis. With a DEM, you can
 Slope analysis using a DEM is valuable in a range of applications, including terrain characterization, land management, environmental assessment, and infrastructure planning. It provides insights into the topographic features of the landscape, supporting decision-making processes and aiding in understanding the terrain's behavior and suitability for various purposes.
 
 ## Raster overlay analysis
+Raster overlay analysis is a fundamental geospatial analysis technique in GIS that involves combining and analyzing multiple raster layers to derive new information or gain insights into the relationships between different spatial datasets. It enables you to perform complex operations by overlaying and integrating raster datasets, pixel by pixel, to generate output layers with new attributes or identify areas that meet specific criteria.
+
+In raster overlay analysis, each raster layer is composed of a grid of cells or pixels, with each cell containing a value representing a specific attribute or measurement. When overlaying two or more raster layers, the values of the corresponding cells are compared and combined based on predefined rules or operations. The most common operations used in raster overlay analysis include:
+
+1.  Overlay operations: These operations combine two or more raster layers to create a new output layer. Examples of overlay operations include:
+    
+    -   Union: Combines the values of overlapping cells from multiple layers, often used to identify areas of overlap or convergence.
+    -   Intersection: Retains only the values of cells where all input layers have non-zero values, useful for identifying areas that satisfy multiple conditions.
+    -   Difference: Compares the values of cells between layers and outputs the difference or change.
+2.  Mathematical operations: These operations perform mathematical calculations on the values of corresponding cells in different layers. Common mathematical operations include addition, subtraction, multiplication, division, and statistical calculations like mean, median, or standard deviation.
+    
+3.  Boolean operations: These operations utilize Boolean logic (AND, OR, NOT) to determine the presence or absence of certain conditions or attributes. They help create binary or categorical output layers based on specified criteria.
+    
+
+Raster overlay analysis is used in various GIS applications, such as land suitability analysis, environmental modeling, habitat analysis, urban planning, and natural resource management. It allows for the integration of diverse datasets, including elevation models, satellite imagery, land cover maps, and thematic data, to generate valuable information and support decision-making processes. By overlaying and combining raster layers, you can explore spatial relationships, identify patterns, quantify spatial characteristics, and derive meaningful insights from the data.
+
+
 - Data reclassification
 - Raster calculator
 - Raster overlay analysis (calculations)
@@ -68,6 +85,6 @@ IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NzU4Mjg0MzM3OX
 0sIlZHeHUyNG5IRWRrYmVuSUgiOnsiZGlzY3Vzc2lvbklkIjoi
 RmJBY1ZGZWRGVTh3UzliYyIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
 widGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NzU4
-Mjk4MzAxOH19LCJoaXN0b3J5IjpbLTE3ODI0NjgwNDgsOTk0Nz
-IwMTkzLC0zNTEwNzY1ODAsLTEzOTAzMzIwNTFdfQ==
+Mjk4MzAxOH19LCJoaXN0b3J5IjpbLTg5NjIyNzI4MSw5OTQ3Mj
+AxOTMsLTM1MTA3NjU4MCwtMTM5MDMzMjA1MV19
 -->
