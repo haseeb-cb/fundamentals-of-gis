@@ -33,7 +33,11 @@ The hillshade technique calculates the illumination and shadows on the terrain s
 The hillshade technique is widely used in cartography, geospatial analysis, and visualization applications. It helps in understanding the topography of an area, identifying landforms, visualizing slopes and ridges, and enhancing the aesthetics of terrain maps.
 
 ### Slope
-A digital elevation model (DEM) provides the necessary data to perform slope analysis. With a DEM, you can calculate and analyze the slope of the terrain at various locations. Slope analysis allows you to understand the steepness of the landscape, identify areas of high or low slope, and assess the terrain characteristics for various applications.
+A DEM provides the necessary data to perform slope analysis. With a DEM, you can calculate and analyze the slope of the terrain at various locations. Slope analysis allows you to understand the steepness of the landscape, identify areas of high or low slope, and assess the terrain characteristics for various applications.
+
+- Slope picture
+
+Slope analysis using a DEM is valuable in a range of applications, including terrain characterization, land management, environmental assessment, and infrastructure planning. It provides insights into the topographic features of the landscape, supporting decision-making processes and aiding in understanding the terrain's behavior and suitability for various purposes.
 
 ## Raster overlay analysis
 - Data reclassification
@@ -49,16 +53,21 @@ sic3RhcnQiOjc1NywiZW5kIjo3OTcsInRleHQiOiItIEV4YW1w
 bGUgcGljdHVyZSBvZiBjYXB0dXJpbmcgdGVjaG5pcXVlIn0sIn
 JTbUZjZjRmalFXNWh5MEYiOnsic3RhcnQiOjMwMTUsImVuZCI6
 MzA0NSwidGV4dCI6Ii0gRXhhbXBsZSBwaWN0dXJlIG9mIGhpbG
-xzaGFkZSJ9fSwiY29tbWVudHMiOnsidHV4aGVoeXN5NGpFbFNV
-RCI6eyJkaXNjdXNzaW9uSWQiOiJZOTg1QlJqQ284RDI1UWFyIi
-wic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1
-cmUiLCJjcmVhdGVkIjoxNjg3NTgyNjAxMDc0fSwiMUg3Z2diNW
-l4TzJxUERzUCI6eyJkaXNjdXNzaW9uSWQiOiI4U2tkb3VEODZh
-UjFMZFJRIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQW
-RkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3NTgyNjM1MTcwfSwi
-SFlsQ1I3MkVQSDJqdnE5dSI6eyJkaXNjdXNzaW9uSWQiOiJyU2
-1GY2Y0ZmpRVzVoeTBGIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0
-ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3NTgyOD
-QzMzc5fX0sImhpc3RvcnkiOlsxMTM0NzY2NTE4LDk5NDcyMDE5
-MywtMzUxMDc2NTgwLC0xMzkwMzMyMDUxXX0=
+xzaGFkZSJ9LCJGYkFjVkZlZEZVOHdTOWJjIjp7InN0YXJ0Ijoz
+ODUwLCJlbmQiOjM4NjUsInRleHQiOiItIFNsb3BlIHBpY3R1cm
+UifX0sImNvbW1lbnRzIjp7InR1eGhlaHlzeTRqRWxTVUQiOnsi
+ZGlzY3Vzc2lvbklkIjoiWTk4NUJSakNvOEQyNVFhciIsInN1Yi
+I6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwi
+Y3JlYXRlZCI6MTY4NzU4MjYwMTA3NH0sIjFIN2dnYjVpeE8ycV
+BEc1AiOnsiZGlzY3Vzc2lvbklkIjoiOFNrZG91RDg2YVIxTGRS
+USIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaW
+N0dXJlIiwiY3JlYXRlZCI6MTY4NzU4MjYzNTE3MH0sIkhZbENS
+NzJFUEgyanZxOXUiOnsiZGlzY3Vzc2lvbklkIjoiclNtRmNmNG
+ZqUVc1aHkwRiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
+IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NzU4Mjg0MzM3OX
+0sIlZHeHUyNG5IRWRrYmVuSUgiOnsiZGlzY3Vzc2lvbklkIjoi
+RmJBY1ZGZWRGVTh3UzliYyIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
+widGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NzU4
+Mjk4MzAxOH19LCJoaXN0b3J5IjpbLTE3ODI0NjgwNDgsOTk0Nz
+IwMTkzLC0zNTEwNzY1ODAsLTEzOTAzMzIwNTFdfQ==
 -->
