@@ -233,9 +233,9 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 
 11. Now it is time for the finishing touches. To make the map easier to interpret, we are going to **add labels** to it.
 	1. Right-click the layer we just visualized and go to *Layer properties* > *Labels*
-		2. Select *Single labels* form the drop-down menu to enable labeling
-		3. Choose the column from the list that contains the area names (name_fi)
-		4. You can edit the label placement and appearance, for example add a halo around it by selecting buffer in the lower section
+	2. Select *Single labels* form the drop-down menu to enable labeling
+	3. Choose the column from the list that contains the area names (name_fi)
+	4. You can edit the label placement and appearance, for example add a halo around it by selecting buffer in the lower section
 
 ---
 
@@ -318,7 +318,7 @@ MTY4NjExNDE3NDc3MX0sIkVyallFYmoyM1pmUmlhNEkiOnsiZG
 lzY3Vzc2lvbklkIjoiQ3VHMXFHSjdkRUk3QTg3SCIsInN1YiI6
 ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSB3aXRoIGZyZX
 NoIGluc3RhbGwiLCJjcmVhdGVkIjoxNjg3MDcxOTExNTI1fX0s
-Imhpc3RvcnkiOlsxNjM4NTU1ODgzLC0xMzY3NjI2MTQzLC0xOT
+Imhpc3RvcnkiOlsxNzQ3MTUyNTk1LC0xMzY3NjI2MTQzLC0xOT
 QxNTY0NDYzLC0yNTQwNzUxMywtODg3MDkwMDUyLC02NzEwMTg4
 NzIsLTM4Mzc5OTA0MSwtMTQ3NjAzMzMwMCwtOTM3MzYxMTU3LC
 0xMzk0OTAwODI5LC0xNTMzMDc2NzA1XX0=
