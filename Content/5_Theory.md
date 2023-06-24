@@ -11,13 +11,13 @@
 
 ### Slope
 
-## Raster overlay anl
+## Raster overlay analysis
 - Data reclassification
 - Raster calculator
 - Raster overlay analysis (calculations)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNjA5MDQ1NCwtMzUxMDc2NTgwLC0xMz
-kwMzMyMDUxXX0=
+eyJoaXN0b3J5IjpbOTk0NzIwMTkzLC0zNTEwNzY1ODAsLTEzOT
+AzMzIwNTFdfQ==
 -->
