@@ -6,7 +6,11 @@
 ## Digital Elevation Model (DEM)
 A digital elevation model (DEM) is a three-dimensional representation of the Earth's surface that is created using elevation data. It is a digital representation of the topography of a particular area, typically displayed as a grid of elevation values.
 
+- Example picture of DEM
+
 DEM data is collected using various methods, including remote sensing techniques such as LiDAR (Light Detection and Ranging), radar, or photogrammetry. These methods involve sending out signals or capturing images from different perspectives to measure the height of the Earth's surface at specific points.
+
+- Example picture of capturing technique
 
 The resulting elevation data is then processed and interpolated to create a continuous representation of the terrain. The grid of elevation values in a DEM is often represented as a raster dataset, where each cell or pixel contains the elevation information for that location.
 
@@ -31,6 +35,18 @@ The process of filling sinks typically involves identifying the depressions or s
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjk4MDkzNzUsOTk0NzIwMTkzLC0zNT
-EwNzY1ODAsLTEzOTAzMzIwNTFdfQ==
+eyJkaXNjdXNzaW9ucyI6eyJZOTg1QlJqQ284RDI1UWFyIjp7In
+N0YXJ0Ijo0MjMsImVuZCI6NDQ3LCJ0ZXh0IjoiLSBFeGFtcGxl
+IHBpY3R1cmUgb2YgREVNIn0sIjhTa2RvdUQ4NmFSMUxkUlEiOn
+sic3RhcnQiOjc1NywiZW5kIjo3OTcsInRleHQiOiItIEV4YW1w
+bGUgcGljdHVyZSBvZiBjYXB0dXJpbmcgdGVjaG5pcXVlIn19LC
+Jjb21tZW50cyI6eyJ0dXhoZWh5c3k0akVsU1VEIjp7ImRpc2N1
+c3Npb25JZCI6Ilk5ODVCUmpDbzhEMjVRYXIiLCJzdWIiOiJnaD
+o0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0
+ZWQiOjE2ODc1ODI2MDEwNzR9LCIxSDdnZ2I1aXhPMnFQRHNQIj
+p7ImRpc2N1c3Npb25JZCI6IjhTa2RvdUQ4NmFSMUxkUlEiLCJz
+dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZS
+IsImNyZWF0ZWQiOjE2ODc1ODI2MzUxNzB9fSwiaGlzdG9yeSI6
+WzE2MTY5OTI0ODIsOTk0NzIwMTkzLC0zNTEwNzY1ODAsLTEzOT
+AzMzIwNTFdfQ==
 -->
