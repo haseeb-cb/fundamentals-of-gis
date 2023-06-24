@@ -3,9 +3,26 @@
 # Exercise 5: 
 
 ## OVERVIEW & PURPOSE
+The purpose of this GIS exercise is to classify the study area based on its suitability for cultivation, specifically considering factors such as water bodies, slope, and soil types. By integrating and analyzing these spatial datasets, we aim to assess the agricultural potential of the study area. Understanding the suitability for cultivation is crucial for effective land management, optimizing agricultural practices, and making informed decisions related to agricultural development.
+
+Studying an area for its suitability for cultivation provides valuable insights and information for various reasons:
+
+1.  **Optimize agricultural productivity**: Assessing the suitability of an area for cultivation allows farmers, landowners, and agricultural planners to identify the most productive areas for agricultural activities. By considering factors such as water bodies, slope, and soil types, it is possible to determine areas that have favorable conditions for crop growth, irrigation, and drainage. This optimization can lead to increased agricultural productivity and improved crop yields.
+    
+2.  **Sustainable land management**: Understanding the suitability of an area for cultivation supports sustainable land management practices. By analyzing factors such as slope and soil types, it becomes possible to identify areas prone to erosion, soil degradation, or nutrient deficiencies. This knowledge enables the implementation of appropriate soil conservation measures, land use planning strategies, and soil improvement techniques to ensure long-term agricultural sustainability.
+    
+3.  **Water resource management**: Considering water bodies as a factor in the suitability analysis helps in effective water resource management for agriculture. Identifying areas with adequate access to water bodies allows for optimized irrigation planning and utilization of water resources. It ensures efficient water use and reduces the risk of water scarcity or over-irrigation, contributing to sustainable agricultural practices.
+    
+4.  **Site selection for specific crops**: The suitability analysis provides insights into the specific requirements of different crops and their compatibility with the study area's conditions. By considering factors such as soil types and water availability, it becomes possible to identify areas that are well-suited for particular crops. This information aids in making informed decisions about crop selection, optimizing yield potential, and diversifying agricultural production.
+    
+5.  **Land use planning and decision-making**: Assessing the suitability for cultivation plays a crucial role in land use planning and decision-making processes. It provides a scientific basis for identifying areas where agricultural development can be prioritized, allocating resources efficiently, and making informed decisions about land use. This information is valuable for policymakers, land managers, and stakeholders involved in agricultural development, rural planning, and food security initiatives.
+
+Studying an area for its suitability for cultivation is essential for optimizing agricultural productivity, promoting sustainable land management practices, ensuring efficient water resource management, selecting appropriate crop choices, and supporting informed decision-making in land use planning and agricultural development. The integration of water bodies, slope, and soil types in this GIS exercise provides a comprehensive assessment of the study area's suitability, facilitating effective agricultural planning and resource allocation.
 
 
 ## OBJECTIVES
+The main objective of this exercise is to 
+
 The aim of this practical is to learn the basics of Raster GIS and to perform cartographic modeling that is based on map algebra. The subject is introduced through an exercise where the goal is to locate the optimal cultivation areas.
 
 The student will also learn how to utilize a Digital Elevation Model (DEM) and make data type conversions from vector to raster. To strengthen the assimilation, a short reflection will be written on what was done and why.
@@ -216,50 +233,50 @@ As your final task, write a short reflection on what was done and why and add it
 *Tip: Find inspiration for visualization by googling “suitability map cultivating”, “soil type map colors”, and so on.*
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI3NlpVMUtCVkY1M0JPNDN0Ijp7In
-N0YXJ0Ijo5OCwiZW5kIjoxMTEsInRleHQiOiIjIyBPQkpFQ1RJ
-VkVTIn0sIjJySkZTQVFKVXZZcjBGd1ciOnsic3RhcnQiOjE1Nj
-QsImVuZCI6MTU3MCwidGV4dCI6Ik1vb2RsZSJ9LCJNZW96RFNx
-azk5TmJrSGFSIjp7InN0YXJ0Ijo5NzgsImVuZCI6MTAyMywidG
-V4dCI6IiMjIyBQYXJ0IDE6IEdldHRpbmcgZmFtaWxpYXIgd2l0
-aCByYXN0ZXIgZGF0YSJ9LCJTQm9uc2JOaFNMd0RoZ0JiIjp7In
-N0YXJ0Ijo1NzEsImVuZCI6NTgzLCJ0ZXh0IjoiIyMgREFUQSBV
-U0VEIn0sIk1CclN1Z0lRQUo0MXBrSFciOnsic3RhcnQiOjc0LC
-JlbmQiOjk1LCJ0ZXh0IjoiIyMgT1ZFUlZJRVcgJiBQVVJQT1NF
-In0sIjZLSlhuS2NwYXBRZnlEUU8iOnsic3RhcnQiOjQ4NDgsIm
-VuZCI6NDg4OSwidGV4dCI6IkFuc3dlciB0aGUgZm9sbG93aW5n
-IHF1ZXN0aW9ucyBvbiBNb29kbGU6In0sIjh1R2lkSHZuWWpwMU
-RETmQiOnsic3RhcnQiOjk1MTksImVuZCI6OTU1NiwidGV4dCI6
-IiMjIyMgMi4yOiBEZWZpbmluZyB0aGUgc3VpdGFibGUgYXJlYX
-MifX0sImNvbW1lbnRzIjp7IkdiTG9wVjRiNVBXcERPaVQiOnsi
-ZGlzY3Vzc2lvbklkIjoiNzZaVTFLQlZGNTNCTzQzdCIsInN1Yi
-I6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlJld3JpdGUiLCJjcmVh
-dGVkIjoxNjg3MTcwNzgxODQ3fSwicVVpd1NqRUxUaDd0aUs1NS
-I6eyJkaXNjdXNzaW9uSWQiOiIyckpGU0FRSlV2WXIwRndXIiwi
-c3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiRml4IHJlZmVyZW
-5jZSIsImNyZWF0ZWQiOjE2ODcxNzA4ODg3NzR9LCJBS0U0WUU3
-bzdPWWY2ZEYzIjp7ImRpc2N1c3Npb25JZCI6Ik1lb3pEU3FrOT
-lOYmtIYVIiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJG
-aXggY291cnNlIHN0cnVjdHVyZSB0byIsImNyZWF0ZWQiOjE2OD
-cxNzE0MjUyNTV9LCJvVFh6N3I2MXIySEhkcnRqIjp7ImRpc2N1
-c3Npb25JZCI6IlNCb25zYk5oU0x3RGhnQmIiLCJzdWIiOiJnaD
-o0MDMwNDc4OCIsInRleHQiOiJBZGQiLCJjcmVhdGVkIjoxNjg3
-MTcyMjAxNTM1fSwiVUYzNFRZeGdZdlIweTFTUiI6eyJkaXNjdX
-NzaW9uSWQiOiJNQnJTdWdJUUFKNDFwa0hXIiwic3ViIjoiZ2g6
-NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIiwiY3JlYXRlZCI6MTY4Nz
-E3MjIwNTQ4Nn0sIm9VREJRM2t6M0g5YmhPMG0iOnsiZGlzY3Vz
-c2lvbklkIjoiNktKWG5LY3BhcFFmeURRTyIsInN1YiI6ImdoOj
-QwMzA0Nzg4IiwidGV4dCI6IkFkZCBzZWN0aW9uIGluIG1vb2Rs
-ZSB3aGVyZSBwZW9wbGUgY2FuIGZpbGwgdGhlc2UgaW4iLCJjcm
-VhdGVkIjoxNjg3MjM5NDEzMDUyfSwieXZYY3RUTzZ2blZDTG80
-RCI6eyJkaXNjdXNzaW9uSWQiOiI4dUdpZEh2bllqcDFERE5kIi
-wic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiRnJvbSBoZXJl
-IGl0IGNvdWxkIGJlIG1hZGUgb3B0aW9uYWwvYW5vdGhlciBleG
-VyY2lzZSIsImNyZWF0ZWQiOjE2ODcyNDc2MjU3Nzh9fSwiaGlz
-dG9yeSI6WzE4NzQ2OTE5ODQsLTc2MTYyNDA0MCwxNTgyNTc3Mz
-c0LDkyMjg1MDk2NywxMjg4OTk5ODQ2LC05MzEyMDcxNjgsLTM3
-MTU4MTc4NywtMTc0NjQ0MTk1NiwtMTc0NTc4NjI4NCwtMTgwOT
-E5NzcxNSwtMTQwMjIyNDMzMCwxODM4MDQwOTkzLC0xMjY5MTUz
-NzgwLDQ5ODc3MDA0NiwtNDEzMjY0NjgxLDE1ODIyNzk3MDcsLT
-g4NzIyNDU2MCwyODE5MDc0MSwtMjEwODEwNDg0OCwyODQ1MjMw
-ODZdfQ==
+N0YXJ0IjozNjc3LCJlbmQiOjM2OTAsInRleHQiOiIjIyBPQkpF
+Q1RJVkVTIn0sIjJySkZTQVFKVXZZcjBGd1ciOnsic3RhcnQiOj
+UxODcsImVuZCI6NTE5MywidGV4dCI6Ik1vb2RsZSJ9LCJNZW96
+RFNxazk5TmJrSGFSIjp7InN0YXJ0Ijo0NjAxLCJlbmQiOjQ2ND
+YsInRleHQiOiIjIyMgUGFydCAxOiBHZXR0aW5nIGZhbWlsaWFy
+IHdpdGggcmFzdGVyIGRhdGEifSwiU0JvbnNiTmhTTHdEaGdCYi
+I6eyJzdGFydCI6NDE5NCwiZW5kIjo0MjA2LCJ0ZXh0IjoiIyMg
+REFUQSBVU0VEIn0sIk1CclN1Z0lRQUo0MXBrSFciOnsic3Rhcn
+QiOjc0LCJlbmQiOjk1LCJ0ZXh0IjoiIyMgT1ZFUlZJRVcgJiBQ
+VVJQT1NFIn0sIjZLSlhuS2NwYXBRZnlEUU8iOnsic3RhcnQiOj
+g0NzEsImVuZCI6ODUxMiwidGV4dCI6IkFuc3dlciB0aGUgZm9s
+bG93aW5nIHF1ZXN0aW9ucyBvbiBNb29kbGU6In0sIjh1R2lkSH
+ZuWWpwMURETmQiOnsic3RhcnQiOjEzMTQyLCJlbmQiOjEzMTc5
+LCJ0ZXh0IjoiIyMjIyAyLjI6IERlZmluaW5nIHRoZSBzdWl0YW
+JsZSBhcmVhcyJ9fSwiY29tbWVudHMiOnsiR2JMb3BWNGI1UFdw
+RE9pVCI6eyJkaXNjdXNzaW9uSWQiOiI3NlpVMUtCVkY1M0JPND
+N0Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiUmV3cml0
+ZSIsImNyZWF0ZWQiOjE2ODcxNzA3ODE4NDd9LCJxVWl3U2pFTF
+RoN3RpSzU1Ijp7ImRpc2N1c3Npb25JZCI6IjJySkZTQVFKVXZZ
+cjBGd1ciLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJGaX
+ggcmVmZXJlbmNlIiwiY3JlYXRlZCI6MTY4NzE3MDg4ODc3NH0s
+IkFLRTRZRTdvN09ZZjZkRjMiOnsiZGlzY3Vzc2lvbklkIjoiTW
+VvekRTcWs5OU5ia0hhUiIsInN1YiI6ImdoOjQwMzA0Nzg4Iiwi
+dGV4dCI6IkZpeCBjb3Vyc2Ugc3RydWN0dXJlIHRvIiwiY3JlYX
+RlZCI6MTY4NzE3MTQyNTI1NX0sIm9UWHo3cjYxcjJISGRydGoi
+OnsiZGlzY3Vzc2lvbklkIjoiU0JvbnNiTmhTTHdEaGdCYiIsIn
+N1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCIsImNyZWF0
+ZWQiOjE2ODcxNzIyMDE1MzV9LCJVRjM0VFl4Z1l2UjB5MVNSIj
+p7ImRpc2N1c3Npb25JZCI6Ik1CclN1Z0lRQUo0MXBrSFciLCJz
+dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQiLCJjcmVhdG
+VkIjoxNjg3MTcyMjA1NDg2fSwib1VEQlEza3ozSDliaE8wbSI6
+eyJkaXNjdXNzaW9uSWQiOiI2S0pYbktjcGFwUWZ5RFFPIiwic3
+ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rpb24g
+aW4gbW9vZGxlIHdoZXJlIHBlb3BsZSBjYW4gZmlsbCB0aGVzZS
+BpbiIsImNyZWF0ZWQiOjE2ODcyMzk0MTMwNTJ9LCJ5dlhjdFRP
+NnZuVkNMbzREIjp7ImRpc2N1c3Npb25JZCI6Ijh1R2lkSHZuWW
+pwMURETmQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJG
+cm9tIGhlcmUgaXQgY291bGQgYmUgbWFkZSBvcHRpb25hbC9hbm
+90aGVyIGV4ZXJjaXNlIiwiY3JlYXRlZCI6MTY4NzI0NzYyNTc3
+OH19LCJoaXN0b3J5IjpbMTIyMDY4NDI2MCwxODc0NjkxOTg0LC
+03NjE2MjQwNDAsMTU4MjU3NzM3NCw5MjI4NTA5NjcsMTI4ODk5
+OTg0NiwtOTMxMjA3MTY4LC0zNzE1ODE3ODcsLTE3NDY0NDE5NT
+YsLTE3NDU3ODYyODQsLTE4MDkxOTc3MTUsLTE0MDIyMjQzMzAs
+MTgzODA0MDk5MywtMTI2OTE1Mzc4MCw0OTg3NzAwNDYsLTQxMz
+I2NDY4MSwxNTgyMjc5NzA3LC04ODcyMjQ1NjAsMjgxOTA3NDEs
+LTIxMDgxMDQ4NDhdfQ==
 -->
