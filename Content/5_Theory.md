@@ -49,12 +49,12 @@ In raster overlay analysis, each raster layer is composed of a grid of cells or 
     -   Union: Combines the values of overlapping cells from multiple layers, often used to identify areas of overlap or convergence.
     -   Intersection: Retains only the values of cells where all input layers have non-zero values, useful for identifying areas that satisfy multiple conditions.
     -   Difference: Compares the values of cells between layers and outputs the difference or change.
+
 2.  Mathematical operations: These operations perform mathematical calculations on the values of corresponding cells in different layers. Common mathematical operations include addition, subtraction, multiplication, division, and statistical calculations like mean, median, or standard deviation.
     
 3.  Boolean operations: These operations utilize Boolean logic (AND, OR, NOT) to determine the presence or absence of certain conditions or attributes. They help create binary or categorical output layers based on specified criteria.
-    
 
-Raster overlay analysis is used in various GIS applications, such as land suitability analysis, environmental modeling, habitat analysis, urban planning, and natural resource management. It allows for the integration of diverse datasets, including elevation models, satellite imagery, land cover maps, and thematic data, to generate valuable information and support decision-making processes. By overlaying and combining raster layers, you can explore spatial relationships, identify patterns, quantify spatial characteristics, and derive meaningful insights from the data.
+Raster overlay analysis is used in various GIS applications, such as land suitability analysis, environmental modeling, habitat analysis, urban planning, and natural resource management. It allows for the integration of diverse datasets, including DEMs, satellite imagery, land cover maps, and thematic data, to generate valuable information and support decision-making processes. By overlaying and combining raster layers, you can explore spatial relationships, identify patterns, quantify spatial characteristics, and derive meaningful insights from the data.
 
 
 - Data reclassification
@@ -72,19 +72,26 @@ JTbUZjZjRmalFXNWh5MEYiOnsic3RhcnQiOjMwMTUsImVuZCI6
 MzA0NSwidGV4dCI6Ii0gRXhhbXBsZSBwaWN0dXJlIG9mIGhpbG
 xzaGFkZSJ9LCJGYkFjVkZlZEZVOHdTOWJjIjp7InN0YXJ0Ijoz
 ODUwLCJlbmQiOjM4NjUsInRleHQiOiItIFNsb3BlIHBpY3R1cm
-UifX0sImNvbW1lbnRzIjp7InR1eGhlaHlzeTRqRWxTVUQiOnsi
-ZGlzY3Vzc2lvbklkIjoiWTk4NUJSakNvOEQyNVFhciIsInN1Yi
-I6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwi
-Y3JlYXRlZCI6MTY4NzU4MjYwMTA3NH0sIjFIN2dnYjVpeE8ycV
-BEc1AiOnsiZGlzY3Vzc2lvbklkIjoiOFNrZG91RDg2YVIxTGRS
-USIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaW
-N0dXJlIiwiY3JlYXRlZCI6MTY4NzU4MjYzNTE3MH0sIkhZbENS
-NzJFUEgyanZxOXUiOnsiZGlzY3Vzc2lvbklkIjoiclNtRmNmNG
-ZqUVc1aHkwRiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
-IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NzU4Mjg0MzM3OX
-0sIlZHeHUyNG5IRWRrYmVuSUgiOnsiZGlzY3Vzc2lvbklkIjoi
-RmJBY1ZGZWRGVTh3UzliYyIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
-widGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NzU4
-Mjk4MzAxOH19LCJoaXN0b3J5IjpbLTg5NjIyNzI4MSw5OTQ3Mj
-AxOTMsLTM1MTA3NjU4MCwtMTM5MDMzMjA1MV19
+UifSwiMDEyenNmdkFJV1htdDFqYiI6eyJzdGFydCI6NTA5Nywi
+ZW5kIjo2MTgxLCJ0ZXh0IjoiMS4gIE92ZXJsYXkgb3BlcmF0aW
+9uczogVGhlc2Ugb3BlcmF0aW9ucyBjb21iaW5lIHR3byBvciBt
+b3JlIHJhc3RlciBsYXllcnMgdG8gY+KApiJ9fSwiY29tbWVudH
+MiOnsidHV4aGVoeXN5NGpFbFNVRCI6eyJkaXNjdXNzaW9uSWQi
+OiJZOTg1QlJqQ284RDI1UWFyIiwic3ViIjoiZ2g6NDAzMDQ3OD
+giLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3
+NTgyNjAxMDc0fSwiMUg3Z2diNWl4TzJxUERzUCI6eyJkaXNjdX
+NzaW9uSWQiOiI4U2tkb3VEODZhUjFMZFJRIiwic3ViIjoiZ2g6
+NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdG
+VkIjoxNjg3NTgyNjM1MTcwfSwiSFlsQ1I3MkVQSDJqdnE5dSI6
+eyJkaXNjdXNzaW9uSWQiOiJyU21GY2Y0ZmpRVzVoeTBGIiwic3
+ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUi
+LCJjcmVhdGVkIjoxNjg3NTgyODQzMzc5fSwiVkd4dTI0bkhFZG
+tiZW5JSCI6eyJkaXNjdXNzaW9uSWQiOiJGYkFjVkZlZEZVOHdT
+OWJjIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIH
+BpY3R1cmUiLCJjcmVhdGVkIjoxNjg3NTgyOTgzMDE4fSwiamdU
+RlBoSWVNTVRIeUdXRiI6eyJkaXNjdXNzaW9uSWQiOiIwMTJ6c2
+Z2QUlXWG10MWpiIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0
+IjoiRGlhZ3JhbT8iLCJjcmVhdGVkIjoxNjg3NTgzMjMzMzIzfX
+0sImhpc3RvcnkiOlstODg1MjkwMzMzLC04OTYyMjcyODEsOTk0
+NzIwMTkzLC0zNTEwNzY1ODAsLTEzOTAzMzIwNTFdfQ==
 -->
