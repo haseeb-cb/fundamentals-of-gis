@@ -6,7 +6,7 @@
 ## Digital Elevation Model (DEM)
 A digital elevation model (DEM) is a three-dimensional representation of the Earth's surface that is created using elevation data. It is a digital representation of the topography of a particular area, typically displayed as a grid of elevation values.
 
-- Example picture of DEM
+![](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Assets/5_Theory/5_Theory_DEM_finland.png?raw=true)
 
 DEM data is collected using various methods, including remote sensing techniques such as LiDAR (Light Detection and Ranging), radar, or photogrammetry. These methods involve sending out signals or capturing images from different perspectives to measure the height of the Earth's surface at specific points.
 
@@ -24,7 +24,7 @@ The process of filling sinks typically involves identifying the depressions or s
 ### Hillshade
 The hillshade technique is a method used to create a shaded relief representation of a DEM or terrain surface. It simulates the effects of lighting on the terrain to enhance the visual perception of the three-dimensional characteristics of the landscape. The resulting hillshade image provides a sense of depth and helps to emphasize the topographic features of the terrain.
 
-- Example picture of hillshade
+![](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Assets/5_Theory/5_Theory_hillsade_finland.png?raw=true)
 
 The hillshade technique calculates the illumination and shadows on the terrain surface based on the direction of the light source, the elevation values of the DEM, and the slope and aspect of each pixel. 
 
@@ -40,7 +40,7 @@ Raster overlay analysis is a fundamental geospatial analysis technique in GIS th
 
 In raster overlay analysis, each raster layer is composed of a grid of cells or pixels, with each cell containing a value representing a specific attribute or measurement. When overlaying two or more raster layers, the values of the corresponding cells are compared and combined based on predefined rules or operations. The most common operations used in raster overlay analysis include:
 
-1.  Overlay operations: These operations combine two or more raster layers to create a new output layer. Examples of overlay operations include:
+1.  **Overlay operations**: These operations combine two or more raster layers to create a new output layer. Examples of overlay operations include:
     
     -   Union: Combines the values of overlapping cells from multiple layers, often used to identify areas of overlap or convergence.
     -   Intersection: Retains only the values of cells where all input layers have non-zero values, useful for identifying areas that satisfy multiple conditions.
@@ -53,31 +53,9 @@ In raster overlay analysis, each raster layer is composed of a grid of cells or 
 Raster overlay analysis is used in various GIS applications, such as land suitability analysis, environmental modeling, habitat analysis, urban planning, and natural resource management. It allows for the integration of diverse datasets, including DEMs, satellite imagery, land cover maps, and thematic data, to generate valuable information and support decision-making processes. By overlaying and combining raster layers, you can explore spatial relationships, identify patterns, quantify spatial characteristics, and derive meaningful insights from the data.
 
 
-- Data reclassification
-- Raster calculator
-- Raster overlay analysis (calculations)
-
 
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJZOTg1QlJqQ284RDI1UWFyIjp7In
-N0YXJ0Ijo0MjMsImVuZCI6NDQ3LCJ0ZXh0IjoiLSBFeGFtcGxl
-IHBpY3R1cmUgb2YgREVNIn0sInJTbUZjZjRmalFXNWh5MEYiOn
-sic3RhcnQiOjI5NzMsImVuZCI6MzAwMywidGV4dCI6Ii0gRXhh
-bXBsZSBwaWN0dXJlIG9mIGhpbGxzaGFkZSJ9LCIwMTJ6c2Z2QU
-lXWG10MWpiIjp7InN0YXJ0Ijo1MDM4LCJlbmQiOjYxMjIsInRl
-eHQiOiIxLiAgT3ZlcmxheSBvcGVyYXRpb25zOiBUaGVzZSBvcG
-VyYXRpb25zIGNvbWJpbmUgdHdvIG9yIG1vcmUgcmFzdGVyIGxh
-eWVycyB0byBj4oCmIn19LCJjb21tZW50cyI6eyJ0dXhoZWh5c3
-k0akVsU1VEIjp7ImRpc2N1c3Npb25JZCI6Ilk5ODVCUmpDbzhE
-MjVRYXIiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZG
-QgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODc1ODI2MDEwNzR9LCJI
-WWxDUjcyRVBIMmp2cTl1Ijp7ImRpc2N1c3Npb25JZCI6InJTbU
-ZjZjRmalFXNWh5MEYiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRl
-eHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODc1ODI4ND
-MzNzl9LCJqZ1RGUGhJZU1NVEh5R1dGIjp7ImRpc2N1c3Npb25J
-ZCI6IjAxMnpzZnZBSVdYbXQxamIiLCJzdWIiOiJnaDo0MDMwND
-c4OCIsInRleHQiOiJEaWFncmFtPyIsImNyZWF0ZWQiOjE2ODc1
-ODMyMzMzMjN9fSwiaGlzdG9yeSI6WzE4MDkwNTY3LDIwMTQxMj
-cxMTcsLTg4NTI5MDMzMywtODk2MjI3MjgxLDk5NDcyMDE5Mywt
-MzUxMDc2NTgwLC0xMzkwMzMyMDUxXX0=
+eyJoaXN0b3J5IjpbNDcxNDI0MTYsMTgwOTA1NjcsMjAxNDEyNz
+ExNywtODg1MjkwMzMzLC04OTYyMjcyODEsOTk0NzIwMTkzLC0z
+NTEwNzY1ODAsLTEzOTAzMzIwNTFdfQ==
 -->
