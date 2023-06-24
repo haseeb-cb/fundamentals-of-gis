@@ -33,6 +33,7 @@ The hillshade technique calculates the illumination and shadows on the terrain s
 The hillshade technique is widely used in cartography, geospatial analysis, and visualization applications. It helps in understanding the topography of an area, identifying landforms, visualizing slopes and ridges, and enhancing the aesthetics of terrain maps.
 
 ### Slope
+A digital elevation model (DEM) provides the necessary data to perform slope analysis. With a DEM, you can calculate and analyze the slope of the terrain at various locations. Slope analysis allows you to understand the steepness of the landscape, identify areas of high or low slope, and assess the terrain characteristics for various applications.
 
 ## Raster overlay analysis
 - Data reclassification
@@ -58,6 +59,6 @@ RkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3NTgyNjM1MTcwfSwi
 SFlsQ1I3MkVQSDJqdnE5dSI6eyJkaXNjdXNzaW9uSWQiOiJyU2
 1GY2Y0ZmpRVzVoeTBGIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0
 ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3NTgyOD
-QzMzc5fX0sImhpc3RvcnkiOlsxNTk0MjI0NDQxLDk5NDcyMDE5
+QzMzc5fX0sImhpc3RvcnkiOlsxMTM0NzY2NTE4LDk5NDcyMDE5
 MywtMzUxMDc2NTgwLC0xMzkwMzMyMDUxXX0=
 -->
