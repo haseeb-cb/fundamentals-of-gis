@@ -217,6 +217,7 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 	7. Right-click the Joined Layer and select *Make permanent* to save the temporary scratch layer for further processing
 	- Temporary layers will be lost when closing QGIS and are best not used for further processing
 	- Make sure to save the data in your project folder when doing this! Double check the location, as QGIS sometimes does weird things and saves it somewhere else. 
+![](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Assets/5_Exercise/5_Exercise_icons_diagram.drawio.png?raw=true)
 	8. Save the joined layer as ESRI Shapefile, with a sensible name (for example "Helsinki_small_areas_HSL.shp"), and within the folder for your project you made earlier
 	9. Delete the temporary Joined Layer from the Layers window
 
@@ -231,7 +232,7 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 10.  Head to the layer’s *symbology* tab and select **Graduated** from the drop-down menu. **Select the PassArea column as the data source and press Classify**. Try out different classification methods, what are their differences and which do you think is best for this purpose? Choose which you think is best and visualize the data as desired. You can edit the class bounds and the legend values manually by double clicking on them. Which areas are the most passenger heavy and which are not? Why?
 
 11. Now it is time for the finishing touches. To make the map easier to interpret, we are going to **add labels** to it.
-		1. Right-click the layer we just visualized and go to *Layer properties* > *Labels*
+	1. Right-click the layer we just visualized and go to *Layer properties* > *Labels*
 		2. Select *Single labels* form the drop-down menu to enable labeling
 		3. Choose the column from the list that contains the area names (name_fi)
 		4. You can edit the label placement and appearance, for example add a halo around it by selecting buffer in the lower section
@@ -317,7 +318,7 @@ MTY4NjExNDE3NDc3MX0sIkVyallFYmoyM1pmUmlhNEkiOnsiZG
 lzY3Vzc2lvbklkIjoiQ3VHMXFHSjdkRUk3QTg3SCIsInN1YiI6
 ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSB3aXRoIGZyZX
 NoIGluc3RhbGwiLCJjcmVhdGVkIjoxNjg3MDcxOTExNTI1fX0s
-Imhpc3RvcnkiOlsxOTI1NzgyNzIzLC0xMzY3NjI2MTQzLC0xOT
+Imhpc3RvcnkiOlsxNjM4NTU1ODgzLC0xMzY3NjI2MTQzLC0xOT
 QxNTY0NDYzLC0yNTQwNzUxMywtODg3MDkwMDUyLC02NzEwMTg4
 NzIsLTM4Mzc5OTA0MSwtMTQ3NjAzMzMwMCwtOTM3MzYxMTU3LC
 0xMzk0OTAwODI5LC0xNTMzMDc2NzA1XX0=
