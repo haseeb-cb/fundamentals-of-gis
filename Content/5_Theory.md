@@ -42,20 +42,20 @@ In raster overlay analysis, each raster layer is composed of a grid of cells or 
 
 1.  **Overlay operations**: These operations combine two or more raster layers to create a new output layer. Examples of overlay operations include:
     
-    -   Union: Combines the values of overlapping cells from multiple layers, often used to identify areas of overlap or convergence.
-    -   Intersection: Retains only the values of cells where all input layers have non-zero values, useful for identifying areas that satisfy multiple conditions.
-    -   Difference: Compares the values of cells between layers and outputs the difference or change.
+    -   *Union*: Combines the values of overlapping cells from multiple layers, often used to identify areas of overlap or convergence.
+    -   *Intersection*: Retains only the values of cells where all input layers have non-zero values, useful for identifying areas that satisfy multiple conditions.
+    -   *Difference*: Compares the values of cells between layers and outputs the difference or change.
 
-2.  Mathematical operations: These operations perform mathematical calculations on the values of corresponding cells in different layers. Common mathematical operations include addition, subtraction, multiplication, division, and statistical calculations like mean, median, or standard deviation.
+2.  **Mathematical operations**: These operations perform mathematical calculations on the values of corresponding cells in different layers. Common mathematical operations include addition, subtraction, multiplication, division, and statistical calculations like mean, median, or standard deviation.
     
-3.  Boolean operations: These operations utilize Boolean logic (AND, OR, NOT) to determine the presence or absence of certain conditions or attributes. They help create binary or categorical output layers based on specified criteria.
+3.  **Boolean operations**: These operations utilize Boolean logic (AND, OR, NOT) to determine the presence or absence of certain conditions or attributes. They help create binary or categorical output layers based on specified criteria.
 
 Raster overlay analysis is used in various GIS applications, such as land suitability analysis, environmental modeling, habitat analysis, urban planning, and natural resource management. It allows for the integration of diverse datasets, including DEMs, satellite imagery, land cover maps, and thematic data, to generate valuable information and support decision-making processes. By overlaying and combining raster layers, you can explore spatial relationships, identify patterns, quantify spatial characteristics, and derive meaningful insights from the data.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcxNDI0MTYsMTgwOTA1NjcsMjAxNDEyNz
-ExNywtODg1MjkwMzMzLC04OTYyMjcyODEsOTk0NzIwMTkzLC0z
-NTEwNzY1ODAsLTEzOTAzMzIwNTFdfQ==
+eyJoaXN0b3J5IjpbLTE5NjU2MDU1NDIsMTgwOTA1NjcsMjAxND
+EyNzExNywtODg1MjkwMzMzLC04OTYyMjcyODEsOTk0NzIwMTkz
+LC0zNTEwNzY1ODAsLTEzOTAzMzIwNTFdfQ==
 -->
