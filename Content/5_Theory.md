@@ -24,9 +24,13 @@ The process of filling sinks typically involves identifying the depressions or s
 (Want to learn more about why and when filling sinks in necessary? Check videos such as: https://www.youtube.com/watch?v=6rcx4OwnryI)
 
 ### Hillshade
-The hillshade technique is a method used to create a shaded relief representation of a digital elevation model (DEM) or terrain surface. It simulates the effects of lighting on the terrain to enhance the visual perception of the three-dimensional characteristics of the landscape. The resulting hillshade image provides a sense of depth and helps to emphasize the topographic features of the terrain.
+The hillshade technique is a method used to create a shaded relief representation of a DEM or terrain surface. It simulates the effects of lighting on the terrain to enhance the visual perception of the three-dimensional characteristics of the landscape. The resulting hillshade image provides a sense of depth and helps to emphasize the topographic features of the terrain.
 
-The hillshade technique calculates the illumination and shadows on the terrain surface based on the direction of the light source, the elevation values of the DEM, and the slope and aspect of each pixel. Here's a general overview of the process:
+- Example picture of hillshade
+
+The hillshade technique calculates the illumination and shadows on the terrain surface based on the direction of the light source, the elevation values of the DEM, and the slope and aspect of each pixel. 
+
+The hillshade technique is widely used in cartography, geospatial analysis, and visualization applications. It helps in understanding the topography of an area, identifying landforms, visualizing slopes and ridges, and enhancing the aesthetics of terrain maps.
 
 ### Slope
 
@@ -41,14 +45,19 @@ eyJkaXNjdXNzaW9ucyI6eyJZOTg1QlJqQ284RDI1UWFyIjp7In
 N0YXJ0Ijo0MjMsImVuZCI6NDQ3LCJ0ZXh0IjoiLSBFeGFtcGxl
 IHBpY3R1cmUgb2YgREVNIn0sIjhTa2RvdUQ4NmFSMUxkUlEiOn
 sic3RhcnQiOjc1NywiZW5kIjo3OTcsInRleHQiOiItIEV4YW1w
-bGUgcGljdHVyZSBvZiBjYXB0dXJpbmcgdGVjaG5pcXVlIn19LC
-Jjb21tZW50cyI6eyJ0dXhoZWh5c3k0akVsU1VEIjp7ImRpc2N1
-c3Npb25JZCI6Ilk5ODVCUmpDbzhEMjVRYXIiLCJzdWIiOiJnaD
-o0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0
-ZWQiOjE2ODc1ODI2MDEwNzR9LCIxSDdnZ2I1aXhPMnFQRHNQIj
-p7ImRpc2N1c3Npb25JZCI6IjhTa2RvdUQ4NmFSMUxkUlEiLCJz
-dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZS
-IsImNyZWF0ZWQiOjE2ODc1ODI2MzUxNzB9fSwiaGlzdG9yeSI6
-WzE1MzExNTMzMDgsOTk0NzIwMTkzLC0zNTEwNzY1ODAsLTEzOT
-AzMzIwNTFdfQ==
+bGUgcGljdHVyZSBvZiBjYXB0dXJpbmcgdGVjaG5pcXVlIn0sIn
+JTbUZjZjRmalFXNWh5MEYiOnsic3RhcnQiOjMwMTUsImVuZCI6
+MzA0NSwidGV4dCI6Ii0gRXhhbXBsZSBwaWN0dXJlIG9mIGhpbG
+xzaGFkZSJ9fSwiY29tbWVudHMiOnsidHV4aGVoeXN5NGpFbFNV
+RCI6eyJkaXNjdXNzaW9uSWQiOiJZOTg1QlJqQ284RDI1UWFyIi
+wic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1
+cmUiLCJjcmVhdGVkIjoxNjg3NTgyNjAxMDc0fSwiMUg3Z2diNW
+l4TzJxUERzUCI6eyJkaXNjdXNzaW9uSWQiOiI4U2tkb3VEODZh
+UjFMZFJRIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQW
+RkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3NTgyNjM1MTcwfSwi
+SFlsQ1I3MkVQSDJqdnE5dSI6eyJkaXNjdXNzaW9uSWQiOiJyU2
+1GY2Y0ZmpRVzVoeTBGIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0
+ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3NTgyOD
+QzMzc5fX0sImhpc3RvcnkiOlsxNTk0MjI0NDQxLDk5NDcyMDE5
+MywtMzUxMDc2NTgwLC0xMzkwMzMyMDUxXX0=
 -->
