@@ -252,6 +252,7 @@ The last phase of this practical will concentrate on creating a map output.
 - To move the window, select *Move item* ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_move_item.png) or press the keyboard shortcut **V** and drag as desired 
 - To move the content on the map, select *Move item content* ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_move_item_content.png) or press the keyboard shortcut C and drag as desired 
 
+	***Hint**: If you are not satisfied with your layers for the final map, you can always go back to the main panel and adjust them while you are in the layout manager.*
 	NB! Remember, that **if you make changes in your working view, you need to press ***Refresh view*** ![](https://docs.qgis.org/3.28/en/_images/mActionRefresh.png) in order to see the changes in the print composer view!
 
 3. A proper map should always have at least these three elements: a **north arrow**, a **scale bar** and a **legend**. All of these can be found in QGIS under the Layout-tab or the left hand-side toolbar in the Print layout. Add the mentioned elements to your map and visualize them as desired.
@@ -318,8 +319,8 @@ MTY4NjExNDE3NDc3MX0sIkVyallFYmoyM1pmUmlhNEkiOnsiZG
 lzY3Vzc2lvbklkIjoiQ3VHMXFHSjdkRUk3QTg3SCIsInN1YiI6
 ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSB3aXRoIGZyZX
 NoIGluc3RhbGwiLCJjcmVhdGVkIjoxNjg3MDcxOTExNTI1fX0s
-Imhpc3RvcnkiOlstMTU0MjAyNjE1NywtMTM2NzYyNjE0MywtMT
-k0MTU2NDQ2MywtMjU0MDc1MTMsLTg4NzA5MDA1MiwtNjcxMDE4
-ODcyLC0zODM3OTkwNDEsLTE0NzYwMzMzMDAsLTkzNzM2MTE1Ny
-wtMTM5NDkwMDgyOSwtMTUzMzA3NjcwNV19
+Imhpc3RvcnkiOlstMzg1MjE0MjQ1LC0xMzY3NjI2MTQzLC0xOT
+QxNTY0NDYzLC0yNTQwNzUxMywtODg3MDkwMDUyLC02NzEwMTg4
+NzIsLTM4Mzc5OTA0MSwtMTQ3NjAzMzMwMCwtOTM3MzYxMTU3LC
+0xMzk0OTAwODI5LC0xNTMzMDc2NzA1XX0=
 -->
