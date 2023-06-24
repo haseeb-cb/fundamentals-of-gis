@@ -246,7 +246,7 @@ The last phase of this practical will concentrate on creating a map output.
 
 1. In QGIS, the map layout is done in a separate window called a **Print layout**. Press on the *New Print layout* button ![](https://docs.qgis.org/3.28/en/_images/mActionNewLayout.png) in the *File toolbar* or go to *Project* > *New print layout*. Give a name for the composer in the opening window, and an empty map window should appear on the screen.
 
-2. The next step is to add the content to the screen. Press the *Add new map* button ![](https://docs.qgis.org/3.28/en/_images/mActionNewMap.png) in the left side panel and drag from the corners to match the paper orientation. Now, you should see the same view as in the working view. If you want, you can change the paper orientation in the right-side *Composition panel* under the section *Paper and quality*.
+2. The next step is to add the content to the screen. Press the *Add map* button ![](https://docs.qgis.org/3.28/en/_images/mActionNewMap.png) in the left side panel and drag from the corners to match the paper orientation. Now, you should see the same view as in the working view. If you want, you can change the paper orientation in the right-side *Composition panel* under the section *Paper and quality*.
 
 	You can orientate in two ways in the composer: 
 - To move the window, select *Move item* ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_move_item.png) or press the keyboard shortcut **V** and drag as desired 
@@ -318,8 +318,8 @@ MTY4NjExNDE3NDc3MX0sIkVyallFYmoyM1pmUmlhNEkiOnsiZG
 lzY3Vzc2lvbklkIjoiQ3VHMXFHSjdkRUk3QTg3SCIsInN1YiI6
 ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSB3aXRoIGZyZX
 NoIGluc3RhbGwiLCJjcmVhdGVkIjoxNjg3MDcxOTExNTI1fX0s
-Imhpc3RvcnkiOlsxNzQ3MTUyNTk1LC0xMzY3NjI2MTQzLC0xOT
-QxNTY0NDYzLC0yNTQwNzUxMywtODg3MDkwMDUyLC02NzEwMTg4
-NzIsLTM4Mzc5OTA0MSwtMTQ3NjAzMzMwMCwtOTM3MzYxMTU3LC
-0xMzk0OTAwODI5LC0xNTMzMDc2NzA1XX0=
+Imhpc3RvcnkiOlstMTU0MjAyNjE1NywtMTM2NzYyNjE0MywtMT
+k0MTU2NDQ2MywtMjU0MDc1MTMsLTg4NzA5MDA1MiwtNjcxMDE4
+ODcyLC0zODM3OTkwNDEsLTE0NzYwMzMzMDAsLTkzNzM2MTE1Ny
+wtMTM5NDkwMDgyOSwtMTUzMzA3NjcwNV19
 -->
