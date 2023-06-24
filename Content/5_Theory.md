@@ -21,10 +21,12 @@ Filling sinks in a DEM is an important preprocessing step that addresses a commo
 
 The process of filling sinks typically involves identifying the depressions or sinks in the DEM and modifying the elevation values within those areas to ensure a continuous and realistic representation of the terrain. This can be done using various algorithms or techniques, such as the breaching or filling algorithms, which raise the elevation of the sinks until they reach the surrounding terrain level. By filling sinks, the DEM becomes more suitable for accurate and reliable analysis and visualization of the terrain.
 
-- Fill sinks
-	- https://www.youtube.com/watch?v=6rcx4OwnryI
+(Want to learn more about why and when filling sinks in necessary? Check videos such as: https://www.youtube.com/watch?v=6rcx4OwnryI)
 
 ### Hillshade
+The hillshade technique is a method used to create a shaded relief representation of a digital elevation model (DEM) or terrain surface. It simulates the effects of lighting on the terrain to enhance the visual perception of the three-dimensional characteristics of the landscape. The resulting hillshade image provides a sense of depth and helps to emphasize the topographic features of the terrain.
+
+The hillshade technique calculates the illumination and shadows on the terrain surface based on the direction of the light source, the elevation values of the DEM, and the slope and aspect of each pixel. Here's a general overview of the process:
 
 ### Slope
 
@@ -47,6 +49,6 @@ ZWQiOjE2ODc1ODI2MDEwNzR9LCIxSDdnZ2I1aXhPMnFQRHNQIj
 p7ImRpc2N1c3Npb25JZCI6IjhTa2RvdUQ4NmFSMUxkUlEiLCJz
 dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZS
 IsImNyZWF0ZWQiOjE2ODc1ODI2MzUxNzB9fSwiaGlzdG9yeSI6
-WzE2MTY5OTI0ODIsOTk0NzIwMTkzLC0zNTEwNzY1ODAsLTEzOT
+WzE1MzExNTMzMDgsOTk0NzIwMTkzLC0zNTEwNzY1ODAsLTEzOT
 AzMzIwNTFdfQ==
 -->
