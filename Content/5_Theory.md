@@ -12,6 +12,11 @@ The resulting elevation data is then processed and interpolated to create a cont
 
 DEM data has numerous applications in various fields, including geography, geology, environmental science, urban planning, and engineering. It is used for visualizing and analyzing terrain characteristics, mapping landforms, identifying slopes and aspect, hydrological modeling, determining visibility and line of sight, and more. DEMs are essential in creating accurate maps, conducting terrain analysis, and supporting decision-making processes in numerous industries and research domains.
 
+### Filling sinks in a DEM
+Filling sinks in a DEM is an important preprocessing step that addresses a common issue in elevation data. A sink refers to a depression or low-lying area in the terrain where water can accumulate, such as a small basin or a closed contour. When sinks are present in a DEM, they can introduce inaccuracies and create problems in subsequent analyses or applications. 
+
+The process of filling sinks typically involves identifying the depressions or sinks in the DEM and modifying the elevation values within those areas to ensure a continuous and realistic representation of the terrain. This can be done using various algorithms or techniques, such as the breaching or filling algorithms, which raise the elevation of the sinks until they reach the surrounding terrain level. By filling sinks, the DEM becomes more suitable for accurate and reliable analysis and visualization of the terrain.
+
 - Fill sinks
 	- https://www.youtube.com/watch?v=6rcx4OwnryI
 
@@ -26,6 +31,6 @@ DEM data has numerous applications in various fields, including geography, geolo
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4NTkyMDQ1LDk5NDcyMDE5MywtMzUxMD
-c2NTgwLC0xMzkwMzMyMDUxXX0=
+eyJoaXN0b3J5IjpbLTExMjk4MDkzNzUsOTk0NzIwMTkzLC0zNT
+EwNzY1ODAsLTEzOTAzMzIwNTFdfQ==
 -->
