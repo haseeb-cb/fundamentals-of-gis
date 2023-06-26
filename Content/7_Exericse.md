@@ -48,6 +48,8 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 7. Let’s also change the symbology of the monitoring stations
 	- Let’s make these a graduated symbol. Choose NO2 as the *Value*.  You will now see a map with the monitoring stations coloured according to the monitored NO2 levels. Does anywhere exceed the EU Air Quality Directive limit of an annual average of 40 micrograms per cubic metre? 
 
+---
+
 ### Part 2 - Spatial Interpolation
 
 8. Now that we have our air monitoring station data loaded, we can see their locations and have an idea of what the annual average NO2 levels recorded at these stations are. But what about where there are no monitoring stations? Can we estimate what the concentrations are in other areas, based on the closest stations? GIS has the ability to interpolate between these data points to estimate concentrations elsewhere.
@@ -62,6 +64,8 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- Run the tool
 
 10. The interpolation has produced a raster from point data. We can see how the IDW algorithm has estimated the concentration of air pollution between the different points as a continuous grid, where each pixel has a value. In reality, the spatial concentration of air pollution is more varying, with differences due to the pres-ence of pollution emission sources, urban canyons, wind, and other factors, and will vary over time as well. But, this gives us an initial estimate of how concentrations change across Helsinki.
+
+---
 
 ### Part 3 - Social factors and exposures
 
@@ -86,8 +90,12 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- Under *Summaries to calculate*, press the box on the right and choose *Count* and *Mean*
 
 14. This will have created a new layer, with the default name Joined Layer. Open the attribute table. What post-code had the most NO2 monitors? How many were there?
- 
- 15. 
+
+---
+
+### Map visualization  
+
+15. You’ve now answered your research questions. Make a nice informative map, showing the interpolated air pollution raster, and the air pollution monitoring points. Insert a legend for concentrations, so we know how the air pollution is varying across the city.
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI5RU9OYjRkcFQ2MVpxcDk0Ijp7In
 N0YXJ0Ijo2MzQsImVuZCI6NjUzLCJ0ZXh0IjoiIyMgREFUQSBV
@@ -101,11 +109,11 @@ bURhVlAyTExsdjFCIjp7InN0YXJ0IjoyMzM3LCJlbmQiOjI0ND
 csInRleHQiOiJEb2VzIGFueXdoZXJlIGV4Y2VlZCB0aGUgRVUg
 QWlyIFF1YWxpdHkgRGlyZWN0aXZlIGxpbWl0IG9mIGFuIGFubn
 VhbCBhdmVyYWdlIG9m4oCmIn0sIllTOXhHeVZoblZGR3VveXQi
-Onsic3RhcnQiOjU4NDAsImVuZCI6NjExOSwidGV4dCI6Ii0gV2
+Onsic3RhcnQiOjU4NTAsImVuZCI6NjEyOSwidGV4dCI6Ii0gV2
 hhdCBpcyB0aGUgcG9zdGNvZGUgd2l0aCB0aGUgaGlnaGVzdCBO
 TzIgY29uY2VudHJhdGlvbnM/IFxuXHQtIFdoYXQgaXMgdGhlIH
 Bvc+KApiJ9LCJySGx2ZlF5N0hwcDA4S1V2Ijp7InN0YXJ0Ijo2
-OTU2LCJlbmQiOjcwMTgsInRleHQiOiJXaGF0IHBvc3QtY29kZS
+OTY2LCJlbmQiOjcwMjgsInRleHQiOiJXaGF0IHBvc3QtY29kZS
 BoYWQgdGhlIG1vc3QgTk8yIG1vbml0b3JzPyBIb3cgbWFueSB3
 ZXJlIHRoZXJlPyJ9fSwiY29tbWVudHMiOnsic3VCZzlTRFVvMT
 drYWtiSiI6eyJkaXNjdXNzaW9uSWQiOiI5RU9OYjRkcFQ2MVpx
@@ -130,6 +138,6 @@ FwYXJPV1JpeWNLRGlpQiI6eyJkaXNjdXNzaW9uSWQiOiJySGx2
 ZlF5N0hwcDA4S1V2Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZX
 h0IjoiQWRkIHNlY3Rpb24gaW4gTW9vZGxlIHRvIGZpbGwgdGhp
 cyBvdXQiLCJjcmVhdGVkIjoxNjg3NzcwMTE4NzU3fX0sImhpc3
-RvcnkiOlstMTM3Nzc5ODcxNiwzNjkyNTU0NCwtMTgzMjU0NzEw
-NSwxNzY3NzA0MTFdfQ==
+RvcnkiOlsyODk3MDM2MjUsMzY5MjU1NDQsLTE4MzI1NDcxMDUs
+MTc2NzcwNDExXX0=
 -->
