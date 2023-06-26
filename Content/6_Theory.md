@@ -17,6 +17,11 @@ To understand the basic idea of Kernel Density Analysis that we use to create a 
 
 When applying the kernel method, QGIS draws a circular neighborhood around each sample point (not each cell) and then applies a math function that goes from 1 at the location of the point to 0 at the neighborhood boundary. Think of a kernel as a smoothly curved surface that is fitted over each point.
 
+![](http://www.geography.hunter.cuny.edu/~jochen/gtech361/lectures/lecture11/concepts/Kernel%20density%20calculations_files/image001.gif)
+When a kernel function is applied to each data point, the effect is like that of an elevation surface, except that the density value for each cell is calculated by adding the values of all the kernel surfaces where they overlay the cell center.
+
+![](http://www.geography.hunter.cuny.edu/~jochen/gtech361/lectures/lecture11/concepts/Kernel%20density%20calculations_files/image002.gif)
+
 - Delimited Text Layer
 - Voronoi/Thiessen polygons
 - Heatmaps (kernel density estimation)
@@ -25,5 +30,6 @@ When applying the kernel method, QGIS draws a circular neighborhood around each 
 	- Kernel shape
 	- Weight
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDUwODQ4OCwtNjkxMzc4NTA5XX0=
+eyJoaXN0b3J5IjpbLTE4NDU0ODA5NzQsMTEyNDUwODQ4OCwtNj
+kxMzc4NTA5XX0=
 -->
