@@ -80,11 +80,8 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 10. Now, we want to **find out which water pumps is closest to the addresses where there have been deaths recorded**. Thiessen polygons are a method used to divide a space into regions based on their proximity to features. That is, within a Thiessen polygon, all the deaths are closer to the point (in this case a pump) that was used to generate that polygon, than to any other point (or pump) in the feature set. Let’s create a set of Thiessen polygons based upon the locations of the Water Pumps in our project.
 	
 	- From the Processing Toolbox, open the *Voronoi polygons* tool 
-	- Inthe Voronoi tool select Water_Pumps as the Input layer
-	- Set the Buffer region to 50%
-	- Press Run
-
-- Figure 6
+	- In the Voronoi tool select Water_Pumps as the Input layer
+	- Set the Buffer region to 50% (What do you think this means?)
 
 11. Now that you have created the Voronoi polygon layer, we can see how many deaths lay within these poly-gons – i.e. the count of deaths within the vicinity of each pump. There are various ways to do this. We could use a spatial join to “allocate” each of the deaths to one of the Voronoi polygons, much like we used spatial joins previously, and then sum the number of deaths. So now, though, let’s look at the map visually. Which polygon do you think has the most deaths? Use the information tool to click on the polygon and find out the name of the pump, and make a note of it.
 
@@ -119,38 +116,33 @@ eyJkaXNjdXNzaW9ucyI6eyJ4MTV3V05CSzZKRHc3Vml2Ijp7In
 RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjE5
 ODksImVuZCI6MjAwOH0sIndQYkR1OUFJVjdpMnprdXciOnsidG
 V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6MjQxMSwiZW5k
-IjoyNDI0fSwibXhEUG9hajJISnI5S0FUMiI6eyJ0ZXh0IjoiLS
-BGaWd1cmUgNiIsInN0YXJ0Ijo3NTkwLCJlbmQiOjc2MDB9LCJi
-TVRCWG93UFR0QlExWUpRIjp7InRleHQiOiItIEZpZ3VyZSA3Ii
-wic3RhcnQiOjkwOTQsImVuZCI6OTEwNH0sImxTOXZtam5MUlRK
-b3k0V1EiOnsidGV4dCI6Ii0gRmlndXJlIDgiLCJzdGFydCI6MT
-AyMTMsImVuZCI6MTAyMjN9LCJYU1Y4dXA3OThXSFpMdXRtIjp7
-InRleHQiOiItIEZpZ3VyZSA5Iiwic3RhcnQiOjEwNDQ3LCJlbm
-QiOjEwNDU3fSwiM2Q4amtCbnA4OUxaVlltZSI6eyJzdGFydCI6
-MjExOCwiZW5kIjoyMTI0LCJ0ZXh0IjoiTW9vZGxlIn19LCJjb2
-1tZW50cyI6eyJHbmRSM2h4aGRxdjluSHIxIjp7ImRpc2N1c3Np
-b25JZCI6IngxNXdXTkJLNkpEdzdWaXYiLCJzdWIiOiJnaDo0MD
-MwNDc4OCIsInRleHQiOiJBZGQgc2VjdGlvbiIsImNyZWF0ZWQi
-OjE2ODY3MjczNzMzODB9LCJmQmprM2xXZk8xek9RbHB1Ijp7Im
-Rpc2N1c3Npb25JZCI6IndQYkR1OUFJVjdpMnprdXciLCJzdWIi
-OiJnaDo0MDMwNDc4OCIsInRleHQiOiJMZXQgc3R1ZGVudHMgZG
-8gdGhpcz8iLCJjcmVhdGVkIjoxNjg2NzI3NTY3MTA4fSwiRUpr
-WGp4Mk5SMkwzVlZuNSI6eyJkaXNjdXNzaW9uSWQiOiJteERQb2
-FqMkhKcjlLQVQyIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0
-IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2NzI4NDgxOT
-I1fSwiZXNSTmJXbEI1NmhkbFRUWCI6eyJkaXNjdXNzaW9uSWQi
-OiJiTVRCWG93UFR0QlExWUpRIiwic3ViIjoiZ2g6NDAzMDQ3OD
-giLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg2
-NzI4NTY1MDcwfSwiamRGRkZ4Q2c4RUFFWWhiWiI6eyJkaXNjdX
-NzaW9uSWQiOiJsUzl2bWpuTFJUSm95NFdRIiwic3ViIjoiZ2g6
-NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdG
-VkIjoxNjg2NzI4NjQ1MDQ0fSwielluQ2pPM0R5dVM0OE9FRSI6
-eyJkaXNjdXNzaW9uSWQiOiJYU1Y4dXA3OThXSFpMdXRtIiwic3
-ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUi
-LCJjcmVhdGVkIjoxNjg2NzI4NjY4NDIwfSwiYmNsY1dISFJxQV
-lLVnJ3TCI6eyJkaXNjdXNzaW9uSWQiOiIzZDhqa0JucDg5TFpW
-WW1lIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiRml4IH
-JlZmVyZW5jZSIsImNyZWF0ZWQiOjE2ODc3NTk2MjU5ODV9fSwi
-aGlzdG9yeSI6WzE4MzIzODgwOTUsNTkyNTgyMjY0LC0xNTEyND
-I3MDYsLTU3MjcwNTYyOCw3NTAzMzAzODhdfQ==
+IjoyNDI0fSwiYk1UQlhvd1BUdEJRMVlKUSI6eyJ0ZXh0IjoiLS
+BGaWd1cmUgNyIsInN0YXJ0Ijo5MTAyLCJlbmQiOjkxMTJ9LCJs
+Uzl2bWpuTFJUSm95NFdRIjp7InRleHQiOiItIEZpZ3VyZSA4Ii
+wic3RhcnQiOjEwMjIxLCJlbmQiOjEwMjMxfSwiWFNWOHVwNzk4
+V0haTHV0bSI6eyJ0ZXh0IjoiLSBGaWd1cmUgOSIsInN0YXJ0Ij
+oxMDQ1NSwiZW5kIjoxMDQ2NX0sIjNkOGprQm5wODlMWlZZbWUi
+Onsic3RhcnQiOjIxMTgsImVuZCI6MjEyNCwidGV4dCI6Ik1vb2
+RsZSJ9fSwiY29tbWVudHMiOnsiR25kUjNoeGhkcXY5bkhyMSI6
+eyJkaXNjdXNzaW9uSWQiOiJ4MTV3V05CSzZKRHc3Vml2Iiwic3
+ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rpb24i
+LCJjcmVhdGVkIjoxNjg2NzI3MzczMzgwfSwiZkJqazNsV2ZPMX
+pPUWxwdSI6eyJkaXNjdXNzaW9uSWQiOiJ3UGJEdTlBSVY3aTJ6
+a3V3Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiTGV0IH
+N0dWRlbnRzIGRvIHRoaXM/IiwiY3JlYXRlZCI6MTY4NjcyNzU2
+NzEwOH0sImVzUk5iV2xCNTZoZGxUVFgiOnsiZGlzY3Vzc2lvbk
+lkIjoiYk1UQlhvd1BUdEJRMVlKUSIsInN1YiI6ImdoOjQwMzA0
+Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MT
+Y4NjcyODU2NTA3MH0sImpkRkZGeENnOEVBRVloYloiOnsiZGlz
+Y3Vzc2lvbklkIjoibFM5dm1qbkxSVEpveTRXUSIsInN1YiI6Im
+doOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3Jl
+YXRlZCI6MTY4NjcyODY0NTA0NH0sInpZbkNqTzNEeXVTNDhPRU
+UiOnsiZGlzY3Vzc2lvbklkIjoiWFNWOHVwNzk4V0haTHV0bSIs
+InN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dX
+JlIiwiY3JlYXRlZCI6MTY4NjcyODY2ODQyMH0sImJjbGNXSEhS
+cUFZS1Zyd0wiOnsiZGlzY3Vzc2lvbklkIjoiM2Q4amtCbnA4OU
+xaVlltZSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkZp
+eCByZWZlcmVuY2UiLCJjcmVhdGVkIjoxNjg3NzU5NjI1OTg1fX
+0sImhpc3RvcnkiOlstMzY1MjUxODg2LDU5MjU4MjI2NCwtMTUx
+MjQyNzA2LC01NzI3MDU2MjgsNzUwMzMwMzg4XX0=
 -->
