@@ -47,7 +47,7 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 		- That two of the fields in the file include spatial information relating to the x and y coordinates. Here, the CRS is EPSG:4326 - WGS 84 (make sure that it is set correctly).
 	- If you press Add and Close, you should see that the addresses have been added to the QGIS map.
 
-6. We have now added the addresses where there were cholera deaths, but it is in a global coordinate system, and this can cause some problems in our analysis because it is in a different coordinate system that the other data that we are going to use. Let’s reproject it to the same as the study area bounding box -EPSG:32630 UTM.
+6. We have now added the addresses where there were cholera deaths, but it is in a global coordinate system, and this can cause some problems in our analysis because it is in a different coordinate system that the other data that we are going to use. Let’s **reproject it to the same as the study area bounding box** -EPSG:32630 UTM.
 	
 	- In the Processing Toolbox, search for "reproject" and open the *Reproject layer* tool
 	- Choose deathAddresses.csv as the Input layer
@@ -62,8 +62,6 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 	- Change the method to *size*. Rather than changing the color of the symbol based on the number of cases, this will change the size of the symbol. You can change the size range, try out what you think looks best. 
 	- Make the Classification Mode Natural Breaks (remember what this means?) with three classes and choose Classify
 	- Press Ok.
-
-- Figure 4
 
 8. We now have the locations of the deaths overlaid on top of a Google image of modern London. But, things have changed a little bit in this area of London since the outbreak. Let’s bring in an old map of the area. 
 	
@@ -122,48 +120,43 @@ eyJkaXNjdXNzaW9ucyI6eyJ4MTV3V05CSzZKRHc3Vml2Ijp7In
 RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjE5
 ODksImVuZCI6MjAwOH0sIndQYkR1OUFJVjdpMnprdXciOnsidG
 V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6MjQxMSwiZW5k
-IjoyNDI0fSwiS05aZUR1amxGWXZ0dzAzSyI6eyJ0ZXh0IjoiLS
-BGaWd1cmUgNCIsInN0YXJ0Ijo2MDExLCJlbmQiOjYwMjF9LCJ6
-QU5Ob3RMcEZ6UFE5RjkyIjp7InRleHQiOiItIEZpZ3VyZSA1Ii
-wic3RhcnQiOjY2NjYsImVuZCI6NjY3Nn0sIm14RFBvYWoySEpy
-OUtBVDIiOnsidGV4dCI6Ii0gRmlndXJlIDYiLCJzdGFydCI6Nz
-czOCwiZW5kIjo3NzQ4fSwiYk1UQlhvd1BUdEJRMVlKUSI6eyJ0
-ZXh0IjoiLSBGaWd1cmUgNyIsInN0YXJ0Ijo5MjQyLCJlbmQiOj
-kyNTJ9LCJsUzl2bWpuTFJUSm95NFdRIjp7InRleHQiOiItIEZp
-Z3VyZSA4Iiwic3RhcnQiOjEwMzYxLCJlbmQiOjEwMzcxfSwiWF
-NWOHVwNzk4V0haTHV0bSI6eyJ0ZXh0IjoiLSBGaWd1cmUgOSIs
-InN0YXJ0IjoxMDU5NSwiZW5kIjoxMDYwNX0sIjNkOGprQm5wOD
-lMWlZZbWUiOnsic3RhcnQiOjIxMTgsImVuZCI6MjEyNCwidGV4
-dCI6Ik1vb2RsZSJ9fSwiY29tbWVudHMiOnsiR25kUjNoeGhkcX
-Y5bkhyMSI6eyJkaXNjdXNzaW9uSWQiOiJ4MTV3V05CSzZKRHc3
-Vml2Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIH
-NlY3Rpb24iLCJjcmVhdGVkIjoxNjg2NzI3MzczMzgwfSwiZkJq
-azNsV2ZPMXpPUWxwdSI6eyJkaXNjdXNzaW9uSWQiOiJ3UGJEdT
-lBSVY3aTJ6a3V3Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0
-IjoiTGV0IHN0dWRlbnRzIGRvIHRoaXM/IiwiY3JlYXRlZCI6MT
-Y4NjcyNzU2NzEwOH0sIkdwbG94dXRwSWJlMU55TmciOnsiZGlz
-Y3Vzc2lvbklkIjoiS05aZUR1amxGWXZ0dzAzSyIsInN1YiI6Im
-doOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3Jl
-YXRlZCI6MTY4NjcyODIyODgyOX0sImFhZGN1WGVyQm9QTHlQcU
-YiOnsiZGlzY3Vzc2lvbklkIjoiekFOTm90THBGelBROUY5MiIs
-InN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dX
-JlIiwiY3JlYXRlZCI6MTY4NjcyODMwMzkwMH0sIkVKa1hqeDJO
-UjJMM1ZWbjUiOnsiZGlzY3Vzc2lvbklkIjoibXhEUG9hajJISn
-I5S0FUMiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFk
-ZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NjcyODQ4MTkyNX0sIm
-VzUk5iV2xCNTZoZGxUVFgiOnsiZGlzY3Vzc2lvbklkIjoiYk1U
-Qlhvd1BUdEJRMVlKUSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidG
-V4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NjcyODU2
-NTA3MH0sImpkRkZGeENnOEVBRVloYloiOnsiZGlzY3Vzc2lvbk
-lkIjoibFM5dm1qbkxSVEpveTRXUSIsInN1YiI6ImdoOjQwMzA0
-Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MT
-Y4NjcyODY0NTA0NH0sInpZbkNqTzNEeXVTNDhPRUUiOnsiZGlz
-Y3Vzc2lvbklkIjoiWFNWOHVwNzk4V0haTHV0bSIsInN1YiI6Im
-doOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3Jl
-YXRlZCI6MTY4NjcyODY2ODQyMH0sImJjbGNXSEhScUFZS1Zyd0
-wiOnsiZGlzY3Vzc2lvbklkIjoiM2Q4amtCbnA4OUxaVlltZSIs
-InN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkZpeCByZWZlcm
-VuY2UiLCJjcmVhdGVkIjoxNjg3NzU5NjI1OTg1fX0sImhpc3Rv
-cnkiOlsxMjgzMjU3OTUwLC01NzI3MDU2MjgsNzUwMzMwMzg4XX
-0=
+IjoyNDI0fSwiekFOTm90THBGelBROUY5MiI6eyJ0ZXh0IjoiLS
+BGaWd1cmUgNSIsInN0YXJ0Ijo2NjU4LCJlbmQiOjY2Njh9LCJt
+eERQb2FqMkhKcjlLQVQyIjp7InRleHQiOiItIEZpZ3VyZSA2Ii
+wic3RhcnQiOjc3MzAsImVuZCI6Nzc0MH0sImJNVEJYb3dQVHRC
+UTFZSlEiOnsidGV4dCI6Ii0gRmlndXJlIDciLCJzdGFydCI6OT
+IzNCwiZW5kIjo5MjQ0fSwibFM5dm1qbkxSVEpveTRXUSI6eyJ0
+ZXh0IjoiLSBGaWd1cmUgOCIsInN0YXJ0IjoxMDM1MywiZW5kIj
+oxMDM2M30sIlhTVjh1cDc5OFdIWkx1dG0iOnsidGV4dCI6Ii0g
+RmlndXJlIDkiLCJzdGFydCI6MTA1ODcsImVuZCI6MTA1OTd9LC
+IzZDhqa0JucDg5TFpWWW1lIjp7InN0YXJ0IjoyMTE4LCJlbmQi
+OjIxMjQsInRleHQiOiJNb29kbGUifX0sImNvbW1lbnRzIjp7Ik
+duZFIzaHhoZHF2OW5IcjEiOnsiZGlzY3Vzc2lvbklkIjoieDE1
+d1dOQks2SkR3N1ZpdiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidG
+V4dCI6IkFkZCBzZWN0aW9uIiwiY3JlYXRlZCI6MTY4NjcyNzM3
+MzM4MH0sImZCamszbFdmTzF6T1FscHUiOnsiZGlzY3Vzc2lvbk
+lkIjoid1BiRHU5QUlWN2kyemt1dyIsInN1YiI6ImdoOjQwMzA0
+Nzg4IiwidGV4dCI6IkxldCBzdHVkZW50cyBkbyB0aGlzPyIsIm
+NyZWF0ZWQiOjE2ODY3Mjc1NjcxMDh9LCJhYWRjdVhlckJvUEx5
+UHFGIjp7ImRpc2N1c3Npb25JZCI6InpBTk5vdExwRnpQUTlGOT
+IiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgcGlj
+dHVyZSIsImNyZWF0ZWQiOjE2ODY3MjgzMDM5MDB9LCJFSmtYan
+gyTlIyTDNWVm41Ijp7ImRpc2N1c3Npb25JZCI6Im14RFBvYWoy
+SEpyOUtBVDIiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOi
+JBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODY3Mjg0ODE5MjV9
+LCJlc1JOYldsQjU2aGRsVFRYIjp7ImRpc2N1c3Npb25JZCI6Im
+JNVEJYb3dQVHRCUTFZSlEiLCJzdWIiOiJnaDo0MDMwNDc4OCIs
+InRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODY3Mj
+g1NjUwNzB9LCJqZEZGRnhDZzhFQUVZaGJaIjp7ImRpc2N1c3Np
+b25JZCI6ImxTOXZtam5MUlRKb3k0V1EiLCJzdWIiOiJnaDo0MD
+MwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQi
+OjE2ODY3Mjg2NDUwNDR9LCJ6WW5Dak8zRHl1UzQ4T0VFIjp7Im
+Rpc2N1c3Npb25JZCI6IlhTVjh1cDc5OFdIWkx1dG0iLCJzdWIi
+OiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZSIsIm
+NyZWF0ZWQiOjE2ODY3Mjg2Njg0MjB9LCJiY2xjV0hIUnFBWUtW
+cndMIjp7ImRpc2N1c3Npb25JZCI6IjNkOGprQm5wODlMWlZZbW
+UiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJGaXggcmVm
+ZXJlbmNlIiwiY3JlYXRlZCI6MTY4Nzc1OTYyNTk4NX19LCJoaX
+N0b3J5IjpbOTg4ODg4ODgzLC01NzI3MDU2MjgsNzUwMzMwMzg4
+XX0=
 -->
