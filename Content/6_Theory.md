@@ -5,6 +5,10 @@
 - Delimited Text Layer
 - Voronoi/Thiessen polygons
 - Heatmaps (kernel density estimation)
+	- Radius
+	- Pixel size
+	- Kernel shape
+	- Weight
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MTE4Mzc1NSwtNjkxMzc4NTA5XX0=
+eyJoaXN0b3J5IjpbLTExMjMxMjMyNDQsLTY5MTM3ODUwOV19
 -->
