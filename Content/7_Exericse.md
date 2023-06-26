@@ -67,9 +67,11 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 
 11. Let’s now examine the concentrations in different postcodes in Helsinki. To do this, we can calculate raster statistics like we did in in a previous tutorial. 
 	- Open the *Zonal Statistics* tool
-	- Under Input Layer, select Postcodes_air_pollution. This tells QGIS that you want to calculate sta-tistics within these postcode boundaries (the ‘zones’)
-	- Under Raster Layer, select your Interpolated air pollution data. This tells QGIS that you want to calculate statistics from this layer.
-d. Press OK. This will create a new vector layer that at first glance looks the same as the postcode layer. However, it now has the summary statistics for the raster joined to each postcode.
+	- Under *Input Layer*, select Postcodes_air_pollution. This tells QGIS that you want to calculate sta-tistics within these postcode boundaries (the ‘zones’)
+	- Under *Raster Layer*, select your Interpolated air pollution data. This tells QGIS that you want to calculate statistics from this layer.
+	- Press *OK*. This will create a new vector layer that at first glance looks the same as the postcode layer. However, it now has the summary statistics for the raster joined to each postcode.
+
+12. Open the *Attribute Table* of the new layer. You will see a column on the right that shows the average concentration. There is also a column called tr_mtu, which is the median income of households. By clicking on the column heading, you can sort the data ascending or descending. What is the postcode with the highest NO2 concentrations? What is the postcode with the lowest? What are the con-centrations in the postcode with the highest median income? What is the pollution in the postcodes with the lowest median income (ignoring those with 0)? Make a note of these for your learning diary.
 
  
 <!--stackedit_data:
@@ -99,6 +101,6 @@ MDA1MTQyfSwiVlNhY2hCWUN1MlZid2ZJaCI6eyJkaXNjdXNzaW
 9uSWQiOiI4SGdnbURhVlAyTExsdjFCIiwic3ViIjoiZ2g6NDAz
 MDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rpb24gaW4gbW9vZGxlIH
 RvIGZpbGwgdGhlc2Ugb3V0IiwiY3JlYXRlZCI6MTY4Nzc2OTAx
-MTE1MH19LCJoaXN0b3J5IjpbMTQ3NzU5MDEyLDM2OTI1NTQ0LC
-0xODMyNTQ3MTA1LDE3Njc3MDQxMV19
+MTE1MH19LCJoaXN0b3J5IjpbMTM5Nzc4MDQ3NywzNjkyNTU0NC
+wtMTgzMjU0NzEwNSwxNzY3NzA0MTFdfQ==
 -->
