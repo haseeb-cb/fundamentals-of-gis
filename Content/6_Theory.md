@@ -1,6 +1,6 @@
 ### Fundamentals of Geographic Information Systems (GIS)
 
-# Theory 5: 
+# Theory 6: 
 
 - Delimited Text Layer
 - Voronoi/Thiessen polygons
@@ -10,5 +10,5 @@
 	- Kernel shape
 	- Weight
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjMxMjMyNDQsLTY5MTM3ODUwOV19
+eyJoaXN0b3J5IjpbLTMyMzU0ODcxNSwtNjkxMzc4NTA5XX0=
 -->
