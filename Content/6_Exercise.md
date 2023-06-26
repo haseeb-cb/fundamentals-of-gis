@@ -3,9 +3,9 @@
 # Exercise 5: 
 
 ## OVERVIEW & PURPOSE
-This tutorial uses data from a historical event in London, which many people consider to be the original use of mapping to understand disease transmission. In the 1800’s, London was a rapidly growing city, with huge amounts of migration from rural England to the city. However, the city lacked modern infrastructure, and disease and over-crowding was rife.
+This exercise uses data from a historical event in London, which many people consider to be the original use of mapping to understand disease transmission. In the 1800’s, London was a rapidly growing city, with huge amounts of migration from rural England to the city. However, the city lacked modern infrastructure, and disease and over-crowding was rife.
 
-In 1854, there was a large cholera outbreak in London, with 120 deaths within three days in the Soho area of the city. Public health officials in the city were convinced that many diseases – including cholera – were spread by ‘miasma’, or toxic air and poor hygiene. However, a doctor and scientist in London, John Snow, was convinced that it was spread through contaminated water, but needed to find evidence to support his theory and convince city offi-cials to close contaminated water pumps. To do this, he surveyed households in the area, plotted the locations of households with deaths, and used this to quantitative data to develop a theory about the contaminated water source.
+In 1854, there was a large cholera outbreak in London, with 120 deaths within three days in the Soho area of the city. Public health officials in the city were convinced that many diseases – including cholera – were spread by ‘miasma’, or toxic air and poor hygiene. However, a doctor and scientist in London, John Snow, was convinced that it was spread through contaminated water, but needed to find evidence to support his theory and convince city officials to close contaminated water pumps. To do this, he surveyed households in the area, plotted the locations of households with deaths, and used this to quantitative data to develop a theory about the contaminated water source.
 
 Henry Whitehead – the local priest – knew the area and residents in Soho well, and initially did not agree with John Snow’s theory about the contaminated water pump because he knew of residents who drank from the well and did not get sick. He began his own study, interviewing residents using a qualitative social science approach, and eventually came to agree with the theory about the contaminated pump. Crucially, it was Whitehead’s interviews that allowed the source of the contamination to be identified.
 
@@ -123,26 +123,26 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJ4MTV3V05CSzZKRHc3Vml2Ijp7In
 RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjE5
-OTEsImVuZCI6MjAxMH0sIjZ1RXQxNkV3VXNNSTFGc0QiOnsidG
-V4dCI6IiMjIENPTVBMRVRJT04iLCJzdGFydCI6MjAxMiwiZW5k
-IjoyMDI1fSwid1BiRHU5QUlWN2kyemt1dyI6eyJ0ZXh0IjoiZ2
-VvcmVmZXJlbmNlZCIsInN0YXJ0IjoyNDEzLCJlbmQiOjI0MjZ9
+OTAsImVuZCI6MjAwOX0sIjZ1RXQxNkV3VXNNSTFGc0QiOnsidG
+V4dCI6IiMjIENPTVBMRVRJT04iLCJzdGFydCI6MjAxMSwiZW5k
+IjoyMDI0fSwid1BiRHU5QUlWN2kyemt1dyI6eyJ0ZXh0IjoiZ2
+VvcmVmZXJlbmNlZCIsInN0YXJ0IjoyNDEyLCJlbmQiOjI0MjV9
 LCJvbnVZNmdaUHVLWnFPMnk2Ijp7InRleHQiOiItIEZpZ3VyZS
-AxIiwic3RhcnQiOjMxODYsImVuZCI6MzE5Nn0sInpURFRhd21H
+AxIiwic3RhcnQiOjMxODUsImVuZCI6MzE5NX0sInpURFRhd21H
 N2ZhdnZZS3oiOnsidGV4dCI6Ii0gRmlndXJlIDIiLCJzdGFydC
-I6NDc0OCwiZW5kIjo0NzU4fSwiQXhISWQ3dXRERktIaGtyMCI6
-eyJ0ZXh0IjoiLSBGaWd1cmUgMyIsInN0YXJ0Ijo1MzkxLCJlbm
-QiOjU0MDF9LCJLTlplRHVqbEZZdnR3MDNLIjp7InRleHQiOiIt
-IEZpZ3VyZSA0Iiwic3RhcnQiOjYwNzUsImVuZCI6NjA4NX0sIn
+I6NDc0NywiZW5kIjo0NzU3fSwiQXhISWQ3dXRERktIaGtyMCI6
+eyJ0ZXh0IjoiLSBGaWd1cmUgMyIsInN0YXJ0Ijo1MzkwLCJlbm
+QiOjU0MDB9LCJLTlplRHVqbEZZdnR3MDNLIjp7InRleHQiOiIt
+IEZpZ3VyZSA0Iiwic3RhcnQiOjYwNzQsImVuZCI6NjA4NH0sIn
 pBTk5vdExwRnpQUTlGOTIiOnsidGV4dCI6Ii0gRmlndXJlIDUi
-LCJzdGFydCI6NjczMCwiZW5kIjo2NzQwfSwibXhEUG9hajJISn
+LCJzdGFydCI6NjcyOSwiZW5kIjo2NzM5fSwibXhEUG9hajJISn
 I5S0FUMiI6eyJ0ZXh0IjoiLSBGaWd1cmUgNiIsInN0YXJ0Ijo3
-ODAyLCJlbmQiOjc4MTJ9LCJiTVRCWG93UFR0QlExWUpRIjp7In
-RleHQiOiItIEZpZ3VyZSA3Iiwic3RhcnQiOjkzMDYsImVuZCI6
-OTMxNn0sImxTOXZtam5MUlRKb3k0V1EiOnsidGV4dCI6Ii0gRm
-lndXJlIDgiLCJzdGFydCI6MTA0MjUsImVuZCI6MTA0MzV9LCJY
+ODAxLCJlbmQiOjc4MTF9LCJiTVRCWG93UFR0QlExWUpRIjp7In
+RleHQiOiItIEZpZ3VyZSA3Iiwic3RhcnQiOjkzMDUsImVuZCI6
+OTMxNX0sImxTOXZtam5MUlRKb3k0V1EiOnsidGV4dCI6Ii0gRm
+lndXJlIDgiLCJzdGFydCI6MTA0MjQsImVuZCI6MTA0MzR9LCJY
 U1Y4dXA3OThXSFpMdXRtIjp7InRleHQiOiItIEZpZ3VyZSA5Ii
-wic3RhcnQiOjEwNjU5LCJlbmQiOjEwNjY5fX0sImNvbW1lbnRz
+wic3RhcnQiOjEwNjU4LCJlbmQiOjEwNjY4fX0sImNvbW1lbnRz
 Ijp7IkduZFIzaHhoZHF2OW5IcjEiOnsiZGlzY3Vzc2lvbklkIj
 oieDE1d1dOQks2SkR3N1ZpdiIsInN1YiI6ImdoOjQwMzA0Nzg4
 IiwidGV4dCI6IkFkZCBzZWN0aW9uIiwiY3JlYXRlZCI6MTY4Nj
@@ -182,5 +182,5 @@ F0ZWQiOjE2ODY3Mjg2NDUwNDR9LCJ6WW5Dak8zRHl1UzQ4T0VF
 Ijp7ImRpc2N1c3Npb25JZCI6IlhTVjh1cDc5OFdIWkx1dG0iLC
 JzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVy
 ZSIsImNyZWF0ZWQiOjE2ODY3Mjg2Njg0MjB9fSwiaGlzdG9yeS
-I6Wzc1MDMzMDM4OF19
+I6WzE2NjIzNzkyODIsNzUwMzMwMzg4XX0=
 -->
