@@ -104,9 +104,9 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 
 13. **Another way to show the distribution of cholera deaths is to create a heatmap**. A heatmap is a data visualization technique that shows magnitude of a phenomenon as color. In QGIS, the Kernel Density Tool calculates a magnitude per unit area from the point features using a kernel function to fit a smoothly tapered surface to each point. The result is a raster dataset which can reveal “hotspots” in the array of point data.
 	
-	- Go to the Processing Toolbox Window and type to search Kernel Density and open the tool Heatmap (Kernel Density Estimation) 
+	- Open the tool *Heatmap (Kernel Density Estimation)* (Where do you find tools?)
 	- Select the deaths_locations layer as the Point Layer.
-	- Set the Radius option to 50 (this is in meters).
+	- Set the Radius option to 50 (this is in meters)
 	- Select Num_Cases as the Weight Field. This will take into account the number of deaths at each address.
 	- Press Run
 
@@ -125,9 +125,9 @@ RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjIw
 MzgsImVuZCI6MjA1N30sIndQYkR1OUFJVjdpMnprdXciOnsidG
 V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6MjgxOCwiZW5k
 IjoyODMxfSwibFM5dm1qbkxSVEpveTRXUSI6eyJ0ZXh0IjoiLS
-BGaWd1cmUgOCIsInN0YXJ0IjoxMDUyOSwiZW5kIjoxMDUzOX0s
+BGaWd1cmUgOCIsInN0YXJ0IjoxMDQ4MiwiZW5kIjoxMDQ5Mn0s
 IlhTVjh1cDc5OFdIWkx1dG0iOnsidGV4dCI6Ii0gRmlndXJlID
-kiLCJzdGFydCI6MTA3NjMsImVuZCI6MTA3NzN9LCIzZDhqa0Ju
+kiLCJzdGFydCI6MTA3MTYsImVuZCI6MTA3MjZ9LCIzZDhqa0Ju
 cDg5TFpWWW1lIjp7InN0YXJ0IjoyNTI1LCJlbmQiOjI1MzEsIn
 RleHQiOiJNb29kbGUifX0sImNvbW1lbnRzIjp7IkduZFIzaHho
 ZHF2OW5IcjEiOnsiZGlzY3Vzc2lvbklkIjoieDE1d1dOQks2Sk
@@ -146,7 +146,7 @@ dHVyZSIsImNyZWF0ZWQiOjE2ODY3Mjg2Njg0MjB9LCJiY2xjV0
 hIUnFBWUtWcndMIjp7ImRpc2N1c3Npb25JZCI6IjNkOGprQm5w
 ODlMWlZZbWUiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOi
 JGaXggcmVmZXJlbmNlIiwiY3JlYXRlZCI6MTY4Nzc1OTYyNTk4
-NX19LCJoaXN0b3J5IjpbLTExMDA5ODY0MDksLTM2NTI1MTg4Ni
-w1OTI1ODIyNjQsLTE1MTI0MjcwNiwtNTcyNzA1NjI4LDc1MDMz
-MDM4OF19
+NX19LCJoaXN0b3J5IjpbNDcxMjEyMDQ0LC0zNjUyNTE4ODYsNT
+kyNTgyMjY0LC0xNTEyNDI3MDYsLTU3MjcwNTYyOCw3NTAzMzAz
+ODhdfQ==
 -->
