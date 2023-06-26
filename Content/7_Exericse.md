@@ -31,9 +31,11 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 
 ### Part 1 - Loading data
 
-1. Save and extract the downloaded GIS data . We have data on the location of air pollution monitoring sites in the Helsinki region.
+1. Save and extract the downloaded GIS data in a folder for this project. We have data on the location of air pollution monitoring sites in the Helsinki region.
 
 2. Load the file Air_pollution_monitoring_points.shp into your QGIS project.
+
+3. Examine the attribute table o fthe layer you added, what d 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI5RU9OYjRkcFQ2MVpxcDk0Ijp7In
 N0YXJ0Ijo2MzQsImVuZCI6NjUzLCJ0ZXh0IjoiIyMgREFUQSBV
@@ -46,5 +48,5 @@ Rpb24iLCJjcmVhdGVkIjoxNjg3NzY4NDYxMjM4fSwibGNVbGF3
 TlJHaWdWcGM4RyI6eyJkaXNjdXNzaW9uSWQiOiJPUHVWWkd5ZH
 cyY1R0ODBMIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ijoi
 QWRkIHNlY3Rpb24iLCJjcmVhdGVkIjoxNjg3NzY4NDc4NjQ2fX
-0sImhpc3RvcnkiOlsxMjk2OTk0MDM0LDE3Njc3MDQxMV19
+0sImhpc3RvcnkiOlstNjcxNjE0ODg3LDE3Njc3MDQxMV19
 -->
