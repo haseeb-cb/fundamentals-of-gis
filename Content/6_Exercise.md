@@ -65,8 +65,8 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 8. We now have the locations of the deaths overlaid on top of a Google image of modern London. But, things have changed a little bit in this area of London since the outbreak. Let’s **bring in an old map of the area**. 
 	
 	- Import the raster Snow-cholera-map-1_modified.tif, which is an old streetmap of the area.
-	- Drag the old streetmap to be on top of the Google map and below the deaths and study area boundary layers. 
-	- Right-click Snow-cholera-map-1_modified.tif and choose properties. Under the *Transparency* tab, choose 65%. This makes the raster slightly transparent, so you can also see the more modern city underneath.
+	- Order the layers in such a way that it makes sense to you 
+	- Right-click Snow-cholera-map-1_modified.tif and choose properties. Under the *Transparency* tab, choose a transparanraster slightly transparent, so you can also see the more modern city underneath.
 
 ---
 
@@ -120,13 +120,13 @@ RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjE5
 ODksImVuZCI6MjAwOH0sIndQYkR1OUFJVjdpMnprdXciOnsidG
 V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6MjQxMSwiZW5k
 IjoyNDI0fSwibXhEUG9hajJISnI5S0FUMiI6eyJ0ZXh0IjoiLS
-BGaWd1cmUgNiIsInN0YXJ0Ijo3NjY5LCJlbmQiOjc2Nzl9LCJi
+BGaWd1cmUgNiIsInN0YXJ0Ijo3NjEyLCJlbmQiOjc2MjJ9LCJi
 TVRCWG93UFR0QlExWUpRIjp7InRleHQiOiItIEZpZ3VyZSA3Ii
-wic3RhcnQiOjkxNzMsImVuZCI6OTE4M30sImxTOXZtam5MUlRK
+wic3RhcnQiOjkxMTYsImVuZCI6OTEyNn0sImxTOXZtam5MUlRK
 b3k0V1EiOnsidGV4dCI6Ii0gRmlndXJlIDgiLCJzdGFydCI6MT
-AyOTIsImVuZCI6MTAzMDJ9LCJYU1Y4dXA3OThXSFpMdXRtIjp7
-InRleHQiOiItIEZpZ3VyZSA5Iiwic3RhcnQiOjEwNTI2LCJlbm
-QiOjEwNTM2fSwiM2Q4amtCbnA4OUxaVlltZSI6eyJzdGFydCI6
+AyMzUsImVuZCI6MTAyNDV9LCJYU1Y4dXA3OThXSFpMdXRtIjp7
+InRleHQiOiItIEZpZ3VyZSA5Iiwic3RhcnQiOjEwNDY5LCJlbm
+QiOjEwNDc5fSwiM2Q4amtCbnA4OUxaVlltZSI6eyJzdGFydCI6
 MjExOCwiZW5kIjoyMTI0LCJ0ZXh0IjoiTW9vZGxlIn19LCJjb2
 1tZW50cyI6eyJHbmRSM2h4aGRxdjluSHIxIjp7ImRpc2N1c3Np
 b25JZCI6IngxNXdXTkJLNkpEdzdWaXYiLCJzdWIiOiJnaDo0MD
@@ -151,6 +151,6 @@ LCJjcmVhdGVkIjoxNjg2NzI4NjY4NDIwfSwiYmNsY1dISFJxQV
 lLVnJ3TCI6eyJkaXNjdXNzaW9uSWQiOiIzZDhqa0JucDg5TFpW
 WW1lIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiRml4IH
 JlZmVyZW5jZSIsImNyZWF0ZWQiOjE2ODc3NTk2MjU5ODV9fSwi
-aGlzdG9yeSI6WzUzMTA4MDIxNiwtMTUxMjQyNzA2LC01NzI3MD
-U2MjgsNzUwMzMwMzg4XX0=
+aGlzdG9yeSI6Wy01MDEwNTkxNzcsLTE1MTI0MjcwNiwtNTcyNz
+A1NjI4LDc1MDMzMDM4OF19
 -->
