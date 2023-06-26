@@ -21,6 +21,7 @@ When applying the kernel method, QGIS draws a circular neighborhood around each 
 When a kernel function is applied to each data point, the effect is like that of an elevation surface, except that the density value for each cell is calculated by adding the values of all the kernel surfaces where they overlay the cell center.
 
 ![](http://www.geography.hunter.cuny.edu/~jochen/gtech361/lectures/lecture11/concepts/Kernel%20density%20calculations_files/image002.gif)
+The kernel function generally creates a smoother-looking surface than one created with the simple method.[^1]
 
 - Delimited Text Layer
 - Voronoi/Thiessen polygons
@@ -29,7 +30,9 @@ When a kernel function is applied to each data point, the effect is like that of
 	- Pixel size
 	- Kernel shape
 	- Weight
+
+[^1]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDU0ODA5NzQsMTEyNDUwODQ4OCwtNj
-kxMzc4NTA5XX0=
+eyJoaXN0b3J5IjpbMTA5NDcxNzQ3MCwxMTI0NTA4NDg4LC02OT
+EzNzg1MDldfQ==
 -->
