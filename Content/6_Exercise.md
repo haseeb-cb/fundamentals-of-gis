@@ -102,7 +102,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- Set the Weight field as Num_Cases. By setting the weight to be the number of cases, we are accounting for the fact that some addresses had multiple deaths when we calculated the average coordinates. 
 	- Click OK to calculate the Mean Center and Close. What water pump is the spatial mean closest to?
 
-13. Another way to show the distribution of cholera deaths is to create a heatmap. A heatmap is a data visuali-zation technique that shows magnitude of a phenomenon as color. In QGIS, the Kernel Density Tool calculates a magnitude per unit area from the point features using a kernel function to fit a smoothly tapered surface to each point. The result is a raster dataset which can reveal “hotspots” in the array of point data.
+13. **Another way to show the distribution of cholera deaths is to create a heatmap**. A heatmap is a data visualization technique that shows magnitude of a phenomenon as color. In QGIS, the Kernel Density Tool calculates a magnitude per unit area from the point features using a kernel function to fit a smoothly tapered surface to each point. The result is a raster dataset which can reveal “hotspots” in the array of point data.
 	
 	- Go to the Processing Toolbox Window and type to search Kernel Density and open the tool Heatmap (Kernel Density Estimation) 
 	- Select the deaths_locations layer as the Point Layer.
@@ -125,9 +125,9 @@ RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjIw
 MzgsImVuZCI6MjA1N30sIndQYkR1OUFJVjdpMnprdXciOnsidG
 V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6MjgxOCwiZW5k
 IjoyODMxfSwibFM5dm1qbkxSVEpveTRXUSI6eyJ0ZXh0IjoiLS
-BGaWd1cmUgOCIsInN0YXJ0IjoxMDUyNiwiZW5kIjoxMDUzNn0s
+BGaWd1cmUgOCIsInN0YXJ0IjoxMDUyOSwiZW5kIjoxMDUzOX0s
 IlhTVjh1cDc5OFdIWkx1dG0iOnsidGV4dCI6Ii0gRmlndXJlID
-kiLCJzdGFydCI6MTA3NjAsImVuZCI6MTA3NzB9LCIzZDhqa0Ju
+kiLCJzdGFydCI6MTA3NjMsImVuZCI6MTA3NzN9LCIzZDhqa0Ju
 cDg5TFpWWW1lIjp7InN0YXJ0IjoyNTI1LCJlbmQiOjI1MzEsIn
 RleHQiOiJNb29kbGUifX0sImNvbW1lbnRzIjp7IkduZFIzaHho
 ZHF2OW5IcjEiOnsiZGlzY3Vzc2lvbklkIjoieDE1d1dOQks2Sk
@@ -146,7 +146,7 @@ dHVyZSIsImNyZWF0ZWQiOjE2ODY3Mjg2Njg0MjB9LCJiY2xjV0
 hIUnFBWUtWcndMIjp7ImRpc2N1c3Npb25JZCI6IjNkOGprQm5w
 ODlMWlZZbWUiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOi
 JGaXggcmVmZXJlbmNlIiwiY3JlYXRlZCI6MTY4Nzc1OTYyNTk4
-NX19LCJoaXN0b3J5IjpbLTc4MjU3NDg5MCwtMzY1MjUxODg2LD
-U5MjU4MjI2NCwtMTUxMjQyNzA2LC01NzI3MDU2MjgsNzUwMzMw
-Mzg4XX0=
+NX19LCJoaXN0b3J5IjpbLTExMDA5ODY0MDksLTM2NTI1MTg4Ni
+w1OTI1ODIyNjQsLTE1MTI0MjcwNiwtNTcyNzA1NjI4LDc1MDMz
+MDM4OF19
 -->
