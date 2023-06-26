@@ -36,7 +36,7 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 4. Let’s bring in some Google Earth data into our map using XYZ tiles to give the map some more context (Hint: Exercise 2 step 3)
 
 
-5. Often the data sets that you want to work with will not come as spatial data sets. They might come, for example, from observations during field work that you record in a spreadsheet. In this step we will add a table of data that contains fields with the latitude and longitude coordinates of the deaths addresses we want to analyze. In our case, this data comes in a comma-separated values (CSV) file, or a text file that uses a comma to separate values.
+5. Often the data sets that you want to work with will not come as spatial data sets. They might come, for example, from observations during field work that you record in a spreadsheet. In this step we will **add a table of data that contains fields with the latitude and longitude coordinates of the deaths addresses we want to analyze**. In our case, this data comes in a comma-separated values (CSV) file, or a text file that uses a comma to separate values.
 	
 	- First let’s look at the file with the deaths data in it. If you double-click it in the folder you saved the file in, it should open in Excel or as a text file, and you will see that it has an ID column (OB-JECTID), the number of cases (Num_Cases ), an Address Column (Address), x coordinates (xcoord), and y coordinates (ycoord). These coordinates are helpful, as they let us import the data into GIS.
 	- In QGIS, go to the *Delimited Text* section in the *Data Source Manager* 
@@ -52,16 +52,15 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 	- In the Processing Toolbox, search for "reproject" and open the *Reproject layer* tool
 	- Choose deathAddresses.csv as the Input layer
 	- Set the Target CRS as the Project CRS: EPSG:32630 UTM – WGS 84 / UTM zone 30N 
-	- Press Run (don't forget to make sure it is permanent after)
+	- Don't forget to make sure it is permanent after
 
-7. Let’s now change the symbology of the deaths_locations layer to identify addresses that had multiple deaths (Figure 3). 
+7. Let’s now **change the symbology of the deaths_locations layer to identify addresses that had multiple deaths**. 
 	
 	- Remove the original deathsAddresses csv layer
 	- Go to the symbology of the new reprojected deaths_locations layer
 	- Make the symbology *graduated* and the value "Num_Cases"
 	- Change the method to *size*. Rather than changing the color of the symbol based on the number of cases, this will change the size of the symbol. You can change the size range, try out what you think looks best. 
-	- Make the Classification Mode Natural Breaks (remember what this means?) with three classes and choose Classify
-	- Press Ok.
+	- Make the classification mode *Natural Breaks (remember what this means?) with three classes
 
 8. We now have the locations of the deaths overlaid on top of a Google image of modern London. But, things have changed a little bit in this area of London since the outbreak. Let’s bring in an old map of the area. 
 	
@@ -121,14 +120,14 @@ RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjE5
 ODksImVuZCI6MjAwOH0sIndQYkR1OUFJVjdpMnprdXciOnsidG
 V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6MjQxMSwiZW5k
 IjoyNDI0fSwiekFOTm90THBGelBROUY5MiI6eyJ0ZXh0IjoiLS
-BGaWd1cmUgNSIsInN0YXJ0Ijo2NjU4LCJlbmQiOjY2Njh9LCJt
+BGaWd1cmUgNSIsInN0YXJ0Ijo2NjExLCJlbmQiOjY2MjF9LCJt
 eERQb2FqMkhKcjlLQVQyIjp7InRleHQiOiItIEZpZ3VyZSA2Ii
-wic3RhcnQiOjc3MzAsImVuZCI6Nzc0MH0sImJNVEJYb3dQVHRC
+wic3RhcnQiOjc2ODMsImVuZCI6NzY5M30sImJNVEJYb3dQVHRC
 UTFZSlEiOnsidGV4dCI6Ii0gRmlndXJlIDciLCJzdGFydCI6OT
-IzNCwiZW5kIjo5MjQ0fSwibFM5dm1qbkxSVEpveTRXUSI6eyJ0
-ZXh0IjoiLSBGaWd1cmUgOCIsInN0YXJ0IjoxMDM1MywiZW5kIj
-oxMDM2M30sIlhTVjh1cDc5OFdIWkx1dG0iOnsidGV4dCI6Ii0g
-RmlndXJlIDkiLCJzdGFydCI6MTA1ODcsImVuZCI6MTA1OTd9LC
+E4NywiZW5kIjo5MTk3fSwibFM5dm1qbkxSVEpveTRXUSI6eyJ0
+ZXh0IjoiLSBGaWd1cmUgOCIsInN0YXJ0IjoxMDMwNiwiZW5kIj
+oxMDMxNn0sIlhTVjh1cDc5OFdIWkx1dG0iOnsidGV4dCI6Ii0g
+RmlndXJlIDkiLCJzdGFydCI6MTA1NDAsImVuZCI6MTA1NTB9LC
 IzZDhqa0JucDg5TFpWWW1lIjp7InN0YXJ0IjoyMTE4LCJlbmQi
 OjIxMjQsInRleHQiOiJNb29kbGUifX0sImNvbW1lbnRzIjp7Ik
 duZFIzaHhoZHF2OW5IcjEiOnsiZGlzY3Vzc2lvbklkIjoieDE1
@@ -157,6 +156,6 @@ NyZWF0ZWQiOjE2ODY3Mjg2Njg0MjB9LCJiY2xjV0hIUnFBWUtW
 cndMIjp7ImRpc2N1c3Npb25JZCI6IjNkOGprQm5wODlMWlZZbW
 UiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJGaXggcmVm
 ZXJlbmNlIiwiY3JlYXRlZCI6MTY4Nzc1OTYyNTk4NX19LCJoaX
-N0b3J5IjpbOTg4ODg4ODgzLC01NzI3MDU2MjgsNzUwMzMwMzg4
-XX0=
+N0b3J5IjpbLTE1MTI0MjcwNiwtNTcyNzA1NjI4LDc1MDMzMDM4
+OF19
 -->
