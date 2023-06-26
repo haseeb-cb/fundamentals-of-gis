@@ -49,9 +49,10 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 
 6. We have now added the addresses where there were cholera deaths, but it is in a global coordinate system, and this can cause some problems in our analysis because it is in a different coordinate system that the other data that we are going to use. Let’s reproject it to the same as the study area bounding box -EPSG:32630 UTM.
 	
-	- In the Processing Toolbox, search for "reproject" and open the *Reproject* layer tool b) Choose deathAddresses.csv as the Input layer
-	- Set the Target CRS as the Project CRS: EPSG:32630 UTM – WGS 84 / UTM zone 30N d) Save it as a new layer, deaths_locations.shp in your file directory
-	- Press Run
+	- In the Processing Toolbox, search for "reproject" and open the *Reproject layer* tool
+	- Choose deathAddresses.csv as the Input layer
+	- Set the Target CRS as the Project CRS: EPSG:32630 UTM – WGS 84 / UTM zone 30N 
+	- Press Run (don't forget to make sure it is permanent after)
 
 - Figure 3
 
@@ -123,18 +124,18 @@ RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjE5
 ODksImVuZCI6MjAwOH0sIndQYkR1OUFJVjdpMnprdXciOnsidG
 V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6MjQxMSwiZW5k
 IjoyNDI0fSwiQXhISWQ3dXRERktIaGtyMCI6eyJ0ZXh0IjoiLS
-BGaWd1cmUgMyIsInN0YXJ0Ijo1Mzg0LCJlbmQiOjUzOTR9LCJL
+BGaWd1cmUgMyIsInN0YXJ0Ijo1MzY0LCJlbmQiOjUzNzR9LCJL
 TlplRHVqbEZZdnR3MDNLIjp7InRleHQiOiItIEZpZ3VyZSA0Ii
-wic3RhcnQiOjYwNjgsImVuZCI6NjA3OH0sInpBTk5vdExwRnpQ
+wic3RhcnQiOjYwNDgsImVuZCI6NjA1OH0sInpBTk5vdExwRnpQ
 UTlGOTIiOnsidGV4dCI6Ii0gRmlndXJlIDUiLCJzdGFydCI6Nj
-cyMywiZW5kIjo2NzMzfSwibXhEUG9hajJISnI5S0FUMiI6eyJ0
-ZXh0IjoiLSBGaWd1cmUgNiIsInN0YXJ0Ijo3Nzk1LCJlbmQiOj
-c4MDV9LCJiTVRCWG93UFR0QlExWUpRIjp7InRleHQiOiItIEZp
-Z3VyZSA3Iiwic3RhcnQiOjkyOTksImVuZCI6OTMwOX0sImxTOX
+cwMywiZW5kIjo2NzEzfSwibXhEUG9hajJISnI5S0FUMiI6eyJ0
+ZXh0IjoiLSBGaWd1cmUgNiIsInN0YXJ0Ijo3Nzc1LCJlbmQiOj
+c3ODV9LCJiTVRCWG93UFR0QlExWUpRIjp7InRleHQiOiItIEZp
+Z3VyZSA3Iiwic3RhcnQiOjkyNzksImVuZCI6OTI4OX0sImxTOX
 Ztam5MUlRKb3k0V1EiOnsidGV4dCI6Ii0gRmlndXJlIDgiLCJz
-dGFydCI6MTA0MTgsImVuZCI6MTA0Mjh9LCJYU1Y4dXA3OThXSF
+dGFydCI6MTAzOTgsImVuZCI6MTA0MDh9LCJYU1Y4dXA3OThXSF
 pMdXRtIjp7InRleHQiOiItIEZpZ3VyZSA5Iiwic3RhcnQiOjEw
-NjUyLCJlbmQiOjEwNjYyfSwiM2Q4amtCbnA4OUxaVlltZSI6ey
+NjMyLCJlbmQiOjEwNjQyfSwiM2Q4amtCbnA4OUxaVlltZSI6ey
 JzdGFydCI6MjExOCwiZW5kIjoyMTI0LCJ0ZXh0IjoiTW9vZGxl
 In19LCJjb21tZW50cyI6eyJHbmRSM2h4aGRxdjluSHIxIjp7Im
 Rpc2N1c3Npb25JZCI6IngxNXdXTkJLNkpEdzdWaXYiLCJzdWIi
@@ -169,6 +170,6 @@ VkIjoxNjg2NzI4NjY4NDIwfSwiYmNsY1dISFJxQVlLVnJ3TCI6
 eyJkaXNjdXNzaW9uSWQiOiIzZDhqa0JucDg5TFpWWW1lIiwic3
 ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiRml4IHJlZmVyZW5j
 ZSIsImNyZWF0ZWQiOjE2ODc3NTk2MjU5ODV9fSwiaGlzdG9yeS
-I6WzE4MDQ3NzY1NTAsLTU3MjcwNTYyOCw3NTAzMzAzODhdfQ==
+I6WzIwNTY5ODYzMTEsLTU3MjcwNTYyOCw3NTAzMzAzODhdfQ==
 
 -->
