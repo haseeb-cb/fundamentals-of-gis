@@ -41,6 +41,12 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 4. Consider if it would be helpful to have some context during this analysis, maybe add aerial imagery or some other basemap for now? 
 
 5. Let’s also add some postcode boundaries. Add the layer *Postcodes_air_pollution.shp* to the QGIS project.
+
+6. Let’s change the symbology of the postcode boundaries to make it so that you can see the aerial imagery beneath them.
+	- Change the symbology in such a way that you can see your basemap under it (e.g. remove the fill or change the transparency)  
+
+7. Let’s also change the symbology of the monitoring stations
+-
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI5RU9OYjRkcFQ2MVpxcDk0Ijp7In
 N0YXJ0Ijo2MzQsImVuZCI6NjUzLCJ0ZXh0IjoiIyMgREFUQSBV
@@ -53,6 +59,6 @@ Rpb24iLCJjcmVhdGVkIjoxNjg3NzY4NDYxMjM4fSwibGNVbGF3
 TlJHaWdWcGM4RyI6eyJkaXNjdXNzaW9uSWQiOiJPUHVWWkd5ZH
 cyY1R0ODBMIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ijoi
 QWRkIHNlY3Rpb24iLCJjcmVhdGVkIjoxNjg3NzY4NDc4NjQ2fX
-0sImhpc3RvcnkiOlstMTgzMjU0NzEwNSwxNzY3NzA0MTFdfQ==
-
+0sImhpc3RvcnkiOlstNDQ1NzI1NzcxLC0xODMyNTQ3MTA1LDE3
+Njc3MDQxMV19
 -->
