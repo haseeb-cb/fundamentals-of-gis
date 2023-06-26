@@ -81,11 +81,13 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- Open the *Join Attributes by Location (Summary)* tool
 	- Under *Input*, choose the layer you produced when you calculated the Zonal Statistics 
 	- Under *Join Layer*, choose Air_pollution_monitoring_points
-	- Select which *Geometric predicate* you think is best (Hint:  There are a few different ways to define the spatial relationship between the layers you are joining. For example, the layers could overlap, one could be completely contained by the other (or vice versa), they may touch, or others. In this case, we want to say that they intersect, or lie on top of each other.
-	- Under Fields to summarise, press the box on the right and choose NO2
-	- Under Summaries to calculate, press the box on the right and choose Count and Mean
-	- Press Run. You may get an error, but it should be fine to continue.
+	- Select which *Geometric predicate* you think is best (Hint: Theory 4)
+	- Under *Fields to summarize*, press the box on the right and choose NO2
+	- Under *Summaries to calculate*, press the box on the right and choose *Count* and *Mean*
+
+14. This will have created a new layer, with the default name Joined Layer. Open the attribute table. What post-code had the most NO2 monitors? How many were there?
  
+ 15. 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI5RU9OYjRkcFQ2MVpxcDk0Ijp7In
 N0YXJ0Ijo2MzQsImVuZCI6NjUzLCJ0ZXh0IjoiIyMgREFUQSBV
@@ -102,25 +104,32 @@ VhbCBhdmVyYWdlIG9m4oCmIn0sIllTOXhHeVZoblZGR3VveXQi
 Onsic3RhcnQiOjU4NDAsImVuZCI6NjExOSwidGV4dCI6Ii0gV2
 hhdCBpcyB0aGUgcG9zdGNvZGUgd2l0aCB0aGUgaGlnaGVzdCBO
 TzIgY29uY2VudHJhdGlvbnM/IFxuXHQtIFdoYXQgaXMgdGhlIH
-Bvc+KApiJ9fSwiY29tbWVudHMiOnsic3VCZzlTRFVvMTdrYWti
-SiI6eyJkaXNjdXNzaW9uSWQiOiI5RU9OYjRkcFQ2MVpxcDk0Ii
-wic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rp
-b24iLCJjcmVhdGVkIjoxNjg3NzY4NDYxMjM4fSwibGNVbGF3Tl
-JHaWdWcGM4RyI6eyJkaXNjdXNzaW9uSWQiOiJPUHVWWkd5ZHcy
-Y1R0ODBMIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQW
-RkIHNlY3Rpb24iLCJjcmVhdGVkIjoxNjg3NzY4NDc4NjQ2fSwi
-S29RMmJlWFpkZzdkQmhDRiI6eyJkaXNjdXNzaW9uSWQiOiJ2SF
-hrZHNpV2tuaUdkbTc0Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0
-ZXh0IjoiQWRkIHNlY3Rpb24gaW4gbW9vZGxlIHRvIGZpbGwgdG
-hlc2Ugb3V0IiwiY3JlYXRlZCI6MTY4Nzc2OTAwNTE0Mn0sIlZT
-YWNoQllDdTJWYndmSWgiOnsiZGlzY3Vzc2lvbklkIjoiOEhnZ2
-1EYVZQMkxMbHYxQiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4
-dCI6IkFkZCBzZWN0aW9uIGluIG1vb2RsZSB0byBmaWxsIHRoZX
-NlIG91dCIsImNyZWF0ZWQiOjE2ODc3NjkwMTExNTB9LCJiMlNu
-SnlDWXRsem1lS29rIjp7ImRpc2N1c3Npb25JZCI6IllTOXhHeV
-ZoblZGR3VveXQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQi
-OiJBZGQgc2VjdGlvbiBpbiBtb29kbGUgdG8gZmlsbCB0aGVzZS
-BvdXQiLCJjcmVhdGVkIjoxNjg3NzY5ODkyMTU3fX0sImhpc3Rv
-cnkiOlstNDIxNzg4MjgsMzY5MjU1NDQsLTE4MzI1NDcxMDUsMT
-c2NzcwNDExXX0=
+Bvc+KApiJ9LCJySGx2ZlF5N0hwcDA4S1V2Ijp7InN0YXJ0Ijo2
+OTU2LCJlbmQiOjcwMTgsInRleHQiOiJXaGF0IHBvc3QtY29kZS
+BoYWQgdGhlIG1vc3QgTk8yIG1vbml0b3JzPyBIb3cgbWFueSB3
+ZXJlIHRoZXJlPyJ9fSwiY29tbWVudHMiOnsic3VCZzlTRFVvMT
+drYWtiSiI6eyJkaXNjdXNzaW9uSWQiOiI5RU9OYjRkcFQ2MVpx
+cDk0Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIH
+NlY3Rpb24iLCJjcmVhdGVkIjoxNjg3NzY4NDYxMjM4fSwibGNV
+bGF3TlJHaWdWcGM4RyI6eyJkaXNjdXNzaW9uSWQiOiJPUHVWWk
+d5ZHcyY1R0ODBMIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0
+IjoiQWRkIHNlY3Rpb24iLCJjcmVhdGVkIjoxNjg3NzY4NDc4Nj
+Q2fSwiS29RMmJlWFpkZzdkQmhDRiI6eyJkaXNjdXNzaW9uSWQi
+OiJ2SFhrZHNpV2tuaUdkbTc0Iiwic3ViIjoiZ2g6NDAzMDQ3OD
+giLCJ0ZXh0IjoiQWRkIHNlY3Rpb24gaW4gbW9vZGxlIHRvIGZp
+bGwgdGhlc2Ugb3V0IiwiY3JlYXRlZCI6MTY4Nzc2OTAwNTE0Mn
+0sIlZTYWNoQllDdTJWYndmSWgiOnsiZGlzY3Vzc2lvbklkIjoi
+OEhnZ21EYVZQMkxMbHYxQiIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
+widGV4dCI6IkFkZCBzZWN0aW9uIGluIG1vb2RsZSB0byBmaWxs
+IHRoZXNlIG91dCIsImNyZWF0ZWQiOjE2ODc3NjkwMTExNTB9LC
+JiMlNuSnlDWXRsem1lS29rIjp7ImRpc2N1c3Npb25JZCI6IllT
+OXhHeVZoblZGR3VveXQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsIn
+RleHQiOiJBZGQgc2VjdGlvbiBpbiBtb29kbGUgdG8gZmlsbCB0
+aGVzZSBvdXQiLCJjcmVhdGVkIjoxNjg3NzY5ODkyMTU3fSwiWT
+FwYXJPV1JpeWNLRGlpQiI6eyJkaXNjdXNzaW9uSWQiOiJySGx2
+ZlF5N0hwcDA4S1V2Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZX
+h0IjoiQWRkIHNlY3Rpb24gaW4gTW9vZGxlIHRvIGZpbGwgdGhp
+cyBvdXQiLCJjcmVhdGVkIjoxNjg3NzcwMTE4NzU3fX0sImhpc3
+RvcnkiOlstMTM3Nzc5ODcxNiwzNjkyNTU0NCwtMTgzMjU0NzEw
+NSwxNzY3NzA0MTFdfQ==
 -->
