@@ -1,7 +1,7 @@
 
 ### Fundamentals of Geographic Information Systems (GIS)
 
-# Theory 4: Digital Elevation Model, Hillshade, and raster overlay analysis
+# Theory 5: Digital Elevation Model, Hillshade, and raster overlay analysis
 
 ## Digital Elevation Model (DEM)
 A digital elevation model (DEM) is a three-dimensional representation of the Earth's surface that is created using elevation data. It is a digital representation of the topography of a particular area, typically displayed as a grid of elevation values.
@@ -55,7 +55,7 @@ Raster overlay analysis is used in various GIS applications, such as land suitab
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjU2MDU1NDIsMTgwOTA1NjcsMjAxND
+eyJoaXN0b3J5IjpbLTE5NDY3NzU0NjEsMTgwOTA1NjcsMjAxND
 EyNzExNywtODg1MjkwMzMzLC04OTYyMjcyODEsOTk0NzIwMTkz
 LC0zNTEwNzY1ODAsLTEzOTAzMzIwNTFdfQ==
 -->
