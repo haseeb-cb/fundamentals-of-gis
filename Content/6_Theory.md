@@ -4,6 +4,7 @@
 
 - Delimited Text Layer
 - Voronoi/Thiessen polygons
+- Heatmaps (kernel density estimation)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTE2MDU0NiwtNjkxMzc4NTA5XX0=
+eyJoaXN0b3J5IjpbMTE3MTE4Mzc1NSwtNjkxMzc4NTA5XX0=
 -->
