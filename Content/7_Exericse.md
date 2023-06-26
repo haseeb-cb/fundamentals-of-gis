@@ -56,6 +56,8 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	-   Open the *IDW Interpolation tool*, in the *IDW Interpolation tool*, set:
 		- *Vector Layer*: Air_pollution_monitoring_points, this means tells QGIS that you want to interpolate from this vector dataset.
 		- *Interpolation Attribute*: NO2, the value associated with the monitoring stations that we want to interpolate.
+		- Click the + symbol to add it to the list of items to interpolate
+		- *Extent*: click the down arrow to the right of the extent box and choose *Calculate from Layer* > Air_pollution_monitoring_points. This will limit the interpolation to the areas covered by the monitoring stations – where we have data. Otherwise, the tool may try to interpolate over a wider area, and could lead to errors.
 		- 
 	- 
 <!--stackedit_data:
@@ -85,6 +87,6 @@ MDA1MTQyfSwiVlNhY2hCWUN1MlZid2ZJaCI6eyJkaXNjdXNzaW
 9uSWQiOiI4SGdnbURhVlAyTExsdjFCIiwic3ViIjoiZ2g6NDAz
 MDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rpb24gaW4gbW9vZGxlIH
 RvIGZpbGwgdGhlc2Ugb3V0IiwiY3JlYXRlZCI6MTY4Nzc2OTAx
-MTE1MH19LCJoaXN0b3J5IjpbMjY1ODEwNTE1LDM2OTI1NTQ0LC
-0xODMyNTQ3MTA1LDE3Njc3MDQxMV19
+MTE1MH19LCJoaXN0b3J5IjpbMTk0ODg0MTE5OCwzNjkyNTU0NC
+wtMTgzMjU0NzEwNSwxNzY3NzA0MTFdfQ==
 -->
