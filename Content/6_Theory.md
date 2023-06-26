@@ -1,6 +1,8 @@
 ### Fundamentals of Geographic Information Systems (GIS)
 
-# Theory 6: 
+# Theory 6: Thiessen polygons and heatmapping (kernel density estimation)
+
+
 
 - Delimited Text Layer
 - Voronoi/Thiessen polygons
@@ -10,5 +12,5 @@
 	- Kernel shape
 	- Weight
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzU0ODcxNSwtNjkxMzc4NTA5XX0=
+eyJoaXN0b3J5IjpbLTU3OTgzODI2OSwtNjkxMzc4NTA5XX0=
 -->
