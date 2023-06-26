@@ -1,6 +1,6 @@
 ### Fundamentals of Geographic Information Systems (GIS)
 
-# Exercise 5: 
+# Exercise 5: Finding the source of a historic disease outbreak
 
 ## OVERVIEW & PURPOSE
 This exercise uses data from a historical event in London, which many people consider to be the original use of mapping to understand disease transmission. In the 1800’s, London was a rapidly growing city, with huge amounts of migration from rural England to the city. However, the city lacked modern infrastructure, and disease and over-crowding was rife.
@@ -92,8 +92,6 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 	- Set the Weight field as Num_Cases. By setting the weight to be the number of cases, we are accounting for the fact that some addresses had multiple deaths when we calculated the average coordinates. 
 	- Click OK to calculate the Mean Center and Close. What water pump is the spatial mean closest to?
 
-- Figure 7 
-
 13. Another way to show the distribution of cholera deaths is to create a heatmap. A heatmap is a data visuali-zation technique that shows magnitude of a phenomenon as color. In QGIS, the Kernel Density Tool cal-culates a magnitude per unit area from the point features using a kernel function to fit a smoothly tapered surface to each point. The result is a raster dataset which can reveal “hotspots” in the array of point data.
 	- Go to the Processing Toolbox Window and type to search Kernel Density and open the tool Heatmap (Kernel Density Estimation) 
 	- Select the deaths_locations layer as the Point Layer.
@@ -112,37 +110,32 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 - Figure 9 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJ4MTV3V05CSzZKRHc3Vml2Ijp7In
-RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjE5
-ODksImVuZCI6MjAwOH0sIndQYkR1OUFJVjdpMnprdXciOnsidG
-V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6MjQxMSwiZW5k
-IjoyNDI0fSwiYk1UQlhvd1BUdEJRMVlKUSI6eyJ0ZXh0IjoiLS
-BGaWd1cmUgNyIsInN0YXJ0Ijo5MDEyLCJlbmQiOjkwMjJ9LCJs
-Uzl2bWpuTFJUSm95NFdRIjp7InRleHQiOiItIEZpZ3VyZSA4Ii
-wic3RhcnQiOjEwMTMxLCJlbmQiOjEwMTQxfSwiWFNWOHVwNzk4
-V0haTHV0bSI6eyJ0ZXh0IjoiLSBGaWd1cmUgOSIsInN0YXJ0Ij
-oxMDM2NSwiZW5kIjoxMDM3NX0sIjNkOGprQm5wODlMWlZZbWUi
-Onsic3RhcnQiOjIxMTgsImVuZCI6MjEyNCwidGV4dCI6Ik1vb2
-RsZSJ9fSwiY29tbWVudHMiOnsiR25kUjNoeGhkcXY5bkhyMSI6
-eyJkaXNjdXNzaW9uSWQiOiJ4MTV3V05CSzZKRHc3Vml2Iiwic3
-ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rpb24i
-LCJjcmVhdGVkIjoxNjg2NzI3MzczMzgwfSwiZkJqazNsV2ZPMX
-pPUWxwdSI6eyJkaXNjdXNzaW9uSWQiOiJ3UGJEdTlBSVY3aTJ6
-a3V3Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiTGV0IH
-N0dWRlbnRzIGRvIHRoaXM/IiwiY3JlYXRlZCI6MTY4NjcyNzU2
-NzEwOH0sImVzUk5iV2xCNTZoZGxUVFgiOnsiZGlzY3Vzc2lvbk
-lkIjoiYk1UQlhvd1BUdEJRMVlKUSIsInN1YiI6ImdoOjQwMzA0
-Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MT
-Y4NjcyODU2NTA3MH0sImpkRkZGeENnOEVBRVloYloiOnsiZGlz
-Y3Vzc2lvbklkIjoibFM5dm1qbkxSVEpveTRXUSIsInN1YiI6Im
-doOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3Jl
-YXRlZCI6MTY4NjcyODY0NTA0NH0sInpZbkNqTzNEeXVTNDhPRU
-UiOnsiZGlzY3Vzc2lvbklkIjoiWFNWOHVwNzk4V0haTHV0bSIs
-InN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dX
-JlIiwiY3JlYXRlZCI6MTY4NjcyODY2ODQyMH0sImJjbGNXSEhS
-cUFZS1Zyd0wiOnsiZGlzY3Vzc2lvbklkIjoiM2Q4amtCbnA4OU
-xaVlltZSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkZp
-eCByZWZlcmVuY2UiLCJjcmVhdGVkIjoxNjg3NzU5NjI1OTg1fX
-0sImhpc3RvcnkiOlsxNjgwODUwNDE5LC0zNjUyNTE4ODYsNTky
-NTgyMjY0LC0xNTEyNDI3MDYsLTU3MjcwNTYyOCw3NTAzMzAzOD
-hdfQ==
+RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjIw
+MzgsImVuZCI6MjA1N30sIndQYkR1OUFJVjdpMnprdXciOnsidG
+V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6MjQ2MCwiZW5k
+IjoyNDczfSwibFM5dm1qbkxSVEpveTRXUSI6eyJ0ZXh0IjoiLS
+BGaWd1cmUgOCIsInN0YXJ0IjoxMDE2NywiZW5kIjoxMDE3N30s
+IlhTVjh1cDc5OFdIWkx1dG0iOnsidGV4dCI6Ii0gRmlndXJlID
+kiLCJzdGFydCI6MTA0MDEsImVuZCI6MTA0MTF9LCIzZDhqa0Ju
+cDg5TFpWWW1lIjp7InN0YXJ0IjoyMTY3LCJlbmQiOjIxNzMsIn
+RleHQiOiJNb29kbGUifX0sImNvbW1lbnRzIjp7IkduZFIzaHho
+ZHF2OW5IcjEiOnsiZGlzY3Vzc2lvbklkIjoieDE1d1dOQks2Sk
+R3N1ZpdiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFk
+ZCBzZWN0aW9uIiwiY3JlYXRlZCI6MTY4NjcyNzM3MzM4MH0sIm
+ZCamszbFdmTzF6T1FscHUiOnsiZGlzY3Vzc2lvbklkIjoid1Bi
+RHU5QUlWN2kyemt1dyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidG
+V4dCI6IkxldCBzdHVkZW50cyBkbyB0aGlzPyIsImNyZWF0ZWQi
+OjE2ODY3Mjc1NjcxMDh9LCJqZEZGRnhDZzhFQUVZaGJaIjp7Im
+Rpc2N1c3Npb25JZCI6ImxTOXZtam5MUlRKb3k0V1EiLCJzdWIi
+OiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZSIsIm
+NyZWF0ZWQiOjE2ODY3Mjg2NDUwNDR9LCJ6WW5Dak8zRHl1UzQ4
+T0VFIjp7ImRpc2N1c3Npb25JZCI6IlhTVjh1cDc5OFdIWkx1dG
+0iLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgcGlj
+dHVyZSIsImNyZWF0ZWQiOjE2ODY3Mjg2Njg0MjB9LCJiY2xjV0
+hIUnFBWUtWcndMIjp7ImRpc2N1c3Npb25JZCI6IjNkOGprQm5w
+ODlMWlZZbWUiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOi
+JGaXggcmVmZXJlbmNlIiwiY3JlYXRlZCI6MTY4Nzc1OTYyNTk4
+NX19LCJoaXN0b3J5IjpbLTExNjg4MTIyMzYsLTM2NTI1MTg4Ni
+w1OTI1ODIyNjQsLTE1MTI0MjcwNiwtNTcyNzA1NjI4LDc1MDMz
+MDM4OF19
 -->
