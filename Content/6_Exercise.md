@@ -106,7 +106,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	
 	- Open the tool *Heatmap (Kernel Density Estimation)* (Where do you find tools?)
 	- Select the deaths_locations layer as the Point Layer.
-	- Try out the radius and pixel size options, what settings do you think would be good? (Hint: Radius 50, pixel 
+	- Try out the radius and pixel size options, what settings do you think would be good? (Hint: Radius 50, pixel 1x1)
 	- Select Num_Cases as the Weight Field. This will take into account the number of deaths at each address.
 	- Press Run
 
@@ -125,9 +125,9 @@ RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjIw
 MzgsImVuZCI6MjA1N30sIndQYkR1OUFJVjdpMnprdXciOnsidG
 V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6MjgxOCwiZW5k
 IjoyODMxfSwibFM5dm1qbkxSVEpveTRXUSI6eyJ0ZXh0IjoiLS
-BGaWd1cmUgOCIsInN0YXJ0IjoxMDU0NCwiZW5kIjoxMDU1NH0s
+BGaWd1cmUgOCIsInN0YXJ0IjoxMDU0OCwiZW5kIjoxMDU1OH0s
 IlhTVjh1cDc5OFdIWkx1dG0iOnsidGV4dCI6Ii0gRmlndXJlID
-kiLCJzdGFydCI6MTA3NzgsImVuZCI6MTA3ODh9LCIzZDhqa0Ju
+kiLCJzdGFydCI6MTA3ODIsImVuZCI6MTA3OTJ9LCIzZDhqa0Ju
 cDg5TFpWWW1lIjp7InN0YXJ0IjoyNTI1LCJlbmQiOjI1MzEsIn
 RleHQiOiJNb29kbGUifX0sImNvbW1lbnRzIjp7IkduZFIzaHho
 ZHF2OW5IcjEiOnsiZGlzY3Vzc2lvbklkIjoieDE1d1dOQks2Sk
@@ -146,7 +146,7 @@ dHVyZSIsImNyZWF0ZWQiOjE2ODY3Mjg2Njg0MjB9LCJiY2xjV0
 hIUnFBWUtWcndMIjp7ImRpc2N1c3Npb25JZCI6IjNkOGprQm5w
 ODlMWlZZbWUiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOi
 JGaXggcmVmZXJlbmNlIiwiY3JlYXRlZCI6MTY4Nzc1OTYyNTk4
-NX19LCJoaXN0b3J5IjpbLTIwMzM0NTQ4MDMsLTM2NTI1MTg4Ni
-w1OTI1ODIyNjQsLTE1MTI0MjcwNiwtNTcyNzA1NjI4LDc1MDMz
-MDM4OF19
+NX19LCJoaXN0b3J5IjpbLTEzNTAyMTgyMTgsLTIwMzM0NTQ4MD
+MsLTM2NTI1MTg4Niw1OTI1ODIyNjQsLTE1MTI0MjcwNiwtNTcy
+NzA1NjI4LDc1MDMzMDM4OF19
 -->
