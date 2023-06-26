@@ -28,6 +28,24 @@ Otherwise, don't worry about it for now and move on!
 
 ## Thiessen polygons/Voronoi diagram
 
+Thiessen polygons, also known as Voronoi polygons or Voronoi diagrams, are a method used to divide a space into regions based on proximity to a set of input points or data. Each polygon represents the area that is closest to a specific point in the dataset.
+
+Here's how Thiessen polygons work:
+
+1.  Input points: The first step is to have a set of input points. These points can represent any geographic feature, such as cities, weather stations, or sampling locations.
+    
+2.  Nearest neighbor determination: For each input point, the nearest neighboring points are identified. This is typically done using a distance-based algorithm, such as Euclidean distance or Manhattan distance.
+    
+3.  Construction of polygons: Once the nearest neighbors are determined, Thiessen polygons are constructed. Each polygon is defined by connecting the input point to its neighboring points, forming a boundary that encloses the area closest to that particular input point.
+    
+4.  Polygon attributes: Each Thiessen polygon is associated with the input point it originated from. This allows for the transfer of attributes or characteristics from the input points to their respective polygons. For example, if the input points represent weather stations, the Thiessen polygons can be used to determine which areas are influenced by each station.
+
+![](https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/GUID-6231F564-FA42-435F-A4A7-CE6A88167144-web.jpg)[^1]
+
+Thiessen polygons have various applications in GIS analysis and spatial modeling. They can be used for proximity analysis, such as determining service areas or catchment areas around facilities. They are also useful for interpolation, as they provide a way to estimate values at unsampled locations based on the values at the input points within each polygon.
+
+
+
 - Delimited Text Layer
 - Thiessen polygons
 - Heatmaps (kernel density estimation)
@@ -37,7 +55,8 @@ Otherwise, don't worry about it for now and move on!
 	- Weight
 
 [^1]: http://www.geography.hunter.cuny.edu/~jochen/gtech361/lectures/lecture11/concepts/Kernel%20density%20calculations.htm
+[^2]:https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/create-thiessen-polygons.htm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODY2MjczMTQsMTEyNDUwODQ4OCwtNj
-kxMzc4NTA5XX0=
+eyJoaXN0b3J5IjpbMTA5OTU3Mzc3OSwxMTI0NTA4NDg4LC02OT
+EzNzg1MDldfQ==
 -->
