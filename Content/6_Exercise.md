@@ -83,7 +83,7 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 	- In the Voronoi tool select Water_Pumps as the Input layer
 	- Set the Buffer region to 50% (What do you think this means?)
 
-11. Now that you have created the Voronoi polygon layer, we can see how many deaths lay within these poly-gons – i.e. the count of deaths within the vicinity of each pump. There are various ways to do this. We could use a spatial join to “allocate” each of the deaths to one of the Voronoi polygons, much like we used spatial joins previously, and then sum the number of deaths. So now, though, let’s look at the map visually. Which polygon do you think has the most deaths? Use the information tool to click on the polygon and find out the name of the pump, and make a note of it.
+11. Now that you have created the Voronoi polygon layer, we can see how many deaths lay within these polygons – i.e. the count of deaths within the vicinity of each pump. There are various ways to do this. We could use a spatial join to “allocate” each of the deaths to one of the Voronoi polygons, much like we used spatial joins previously, and then sum the number of deaths. So now, though, let’s look at the map visually. **Which polygon do you think has the most deaths? Use the information tool to click on the polygon and find out the name of the pump, and make a note of it**.
 
 12. Another possible way to identify the location of the outbreak could be to find the spatial mean of the deaths – or the average x- and y-coordinate of all the features in the study area. It’s useful for tracking changes in the distribution or for comparing the distributions of different types of features. Here, we will use the Mean Center to highlight the distribution of deaths (Figure 7).
 	
@@ -117,11 +117,11 @@ RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjE5
 ODksImVuZCI6MjAwOH0sIndQYkR1OUFJVjdpMnprdXciOnsidG
 V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6MjQxMSwiZW5k
 IjoyNDI0fSwiYk1UQlhvd1BUdEJRMVlKUSI6eyJ0ZXh0IjoiLS
-BGaWd1cmUgNyIsInN0YXJ0Ijo5MTAyLCJlbmQiOjkxMTJ9LCJs
+BGaWd1cmUgNyIsInN0YXJ0Ijo5MTA1LCJlbmQiOjkxMTV9LCJs
 Uzl2bWpuTFJUSm95NFdRIjp7InRleHQiOiItIEZpZ3VyZSA4Ii
-wic3RhcnQiOjEwMjIxLCJlbmQiOjEwMjMxfSwiWFNWOHVwNzk4
+wic3RhcnQiOjEwMjI0LCJlbmQiOjEwMjM0fSwiWFNWOHVwNzk4
 V0haTHV0bSI6eyJ0ZXh0IjoiLSBGaWd1cmUgOSIsInN0YXJ0Ij
-oxMDQ1NSwiZW5kIjoxMDQ2NX0sIjNkOGprQm5wODlMWlZZbWUi
+oxMDQ1OCwiZW5kIjoxMDQ2OH0sIjNkOGprQm5wODlMWlZZbWUi
 Onsic3RhcnQiOjIxMTgsImVuZCI6MjEyNCwidGV4dCI6Ik1vb2
 RsZSJ9fSwiY29tbWVudHMiOnsiR25kUjNoeGhkcXY5bkhyMSI6
 eyJkaXNjdXNzaW9uSWQiOiJ4MTV3V05CSzZKRHc3Vml2Iiwic3
@@ -143,6 +143,7 @@ JlIiwiY3JlYXRlZCI6MTY4NjcyODY2ODQyMH0sImJjbGNXSEhS
 cUFZS1Zyd0wiOnsiZGlzY3Vzc2lvbklkIjoiM2Q4amtCbnA4OU
 xaVlltZSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkZp
 eCByZWZlcmVuY2UiLCJjcmVhdGVkIjoxNjg3NzU5NjI1OTg1fX
-0sImhpc3RvcnkiOlstMzY1MjUxODg2LDU5MjU4MjI2NCwtMTUx
-MjQyNzA2LC01NzI3MDU2MjgsNzUwMzMwMzg4XX0=
+0sImhpc3RvcnkiOlstMTQzNjEzNjQ0NywtMzY1MjUxODg2LDU5
+MjU4MjI2NCwtMTUxMjQyNzA2LC01NzI3MDU2MjgsNzUwMzMwMz
+g4XX0=
 -->
