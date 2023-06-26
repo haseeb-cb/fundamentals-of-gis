@@ -33,9 +33,14 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 
 1. Save and extract the downloaded GIS data in a folder for this project. We have data on the location of air pollution monitoring sites in the Helsinki region.
 
-2. Load the file Air_pollution_monitoring_points.shp into your QGIS project.
+2. Load the file *Air_pollution_monitoring_points.shp* into your QGIS project.
 
-3. Examine the attribute table o fthe layer you added, what d 
+3. Examine the attribute table o fthe layer you added, what do you see?
+	-  We can see that each point has some data associated with it, including the nitrogen dioxide concentration (NO2), the year of the measurement (Vuosi), the type of measurement station (Tyyppi), the location, and more.
+
+4. Consider if it would be helpful to have some context during this analysis, maybe add aerial imagery or some other basemap for now? 
+
+5. Let’s also add some postcode boundaries. Add the layer *Postcodes_air_pollution.shp* to the QGIS project.
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI5RU9OYjRkcFQ2MVpxcDk0Ijp7In
 N0YXJ0Ijo2MzQsImVuZCI6NjUzLCJ0ZXh0IjoiIyMgREFUQSBV
@@ -48,5 +53,6 @@ Rpb24iLCJjcmVhdGVkIjoxNjg3NzY4NDYxMjM4fSwibGNVbGF3
 TlJHaWdWcGM4RyI6eyJkaXNjdXNzaW9uSWQiOiJPUHVWWkd5ZH
 cyY1R0ODBMIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ijoi
 QWRkIHNlY3Rpb24iLCJjcmVhdGVkIjoxNjg3NzY4NDc4NjQ2fX
-0sImhpc3RvcnkiOlstNjcxNjE0ODg3LDE3Njc3MDQxMV19
+0sImhpc3RvcnkiOlstMTgzMjU0NzEwNSwxNzY3NzA0MTFdfQ==
+
 -->
