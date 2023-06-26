@@ -3,7 +3,7 @@
 # Theory 5: 
 
 - Delimited Text Layer
-- Voronoi
+- Voronoi/Thiessen polygons
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MTM3ODUwOV19
+eyJoaXN0b3J5IjpbMTAyOTE2MDU0NiwtNjkxMzc4NTA5XX0=
 -->
