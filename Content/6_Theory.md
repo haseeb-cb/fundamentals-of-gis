@@ -47,6 +47,12 @@ Thiessen polygons have various applications in GIS analysis and spatial modeling
 [^1]: http://www.geography.hunter.cuny.edu/~jochen/gtech361/lectures/lecture11/concepts/Kernel%20density%20calculations.htm
 [^2]:https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/create-thiessen-polygons.htm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYzNTIxNjUsMTEyNDUwODQ4OCwtNjkxMz
-c4NTA5XX0=
+eyJkaXNjdXNzaW9ucyI6eyJTem0yVGd1RUxkNkl2SFI1Ijp7In
+N0YXJ0IjoxMzMsImVuZCI6MTUyLCJ0ZXh0IjoiIyMgSGVhdG1h
+cCBhbmFseXNpcyJ9fSwiY29tbWVudHMiOnsiUFFkQXEwc285OG
+xSZkRoNyI6eyJkaXNjdXNzaW9uSWQiOiJTem0yVGd1RUxkNkl2
+SFI1Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIH
+BpY3R1cmUiLCJjcmVhdGVkIjoxNjg3NzY4MDM3NzE5fX0sImhp
+c3RvcnkiOlstMTczMjc1OTMxMSwxMTI0NTA4NDg4LC02OTEzNz
+g1MDldfQ==
 -->
