@@ -49,6 +49,11 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- Let’s make these a graduated symbol. Choose NO2 as the *Value*.  You will now see a map with the monitoring stations coloured according to the monitored NO2 levels. Does anywhere exceed the EU Air Quality Directive limit of an annual average of 40 micrograms per cubic metre? 
 
 ### Part 2 - Spatial Interpolation
+
+8. Now that we have our air monitoring station data loaded, we can see their locations and have an idea of what the annual average NO2 levels recorded at these stations are. But what about where there are no monitoring stations? Can we estimate what the concentrations are in other areas, based on the closest stations? GIS has the ability to interpolate between these data points to estimate concentrations elsewhere.
+
+9. Let’s interpolate NO2 concentration between the monitoring stations.
+	-   Open the IDW Interpolation tool 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI5RU9OYjRkcFQ2MVpxcDk0Ijp7In
 N0YXJ0Ijo2MzQsImVuZCI6NjUzLCJ0ZXh0IjoiIyMgREFUQSBV
@@ -76,6 +81,6 @@ MDA1MTQyfSwiVlNhY2hCWUN1MlZid2ZJaCI6eyJkaXNjdXNzaW
 9uSWQiOiI4SGdnbURhVlAyTExsdjFCIiwic3ViIjoiZ2g6NDAz
 MDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rpb24gaW4gbW9vZGxlIH
 RvIGZpbGwgdGhlc2Ugb3V0IiwiY3JlYXRlZCI6MTY4Nzc2OTAx
-MTE1MH19LCJoaXN0b3J5IjpbMTIwNTIxMTM0OSwzNjkyNTU0NC
-wtMTgzMjU0NzEwNSwxNzY3NzA0MTFdfQ==
+MTE1MH19LCJoaXN0b3J5IjpbLTIwOTMyNTYzNTIsMzY5MjU1ND
+QsLTE4MzI1NDcxMDUsMTc2NzcwNDExXX0=
 -->
