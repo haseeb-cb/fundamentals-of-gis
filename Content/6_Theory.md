@@ -3,7 +3,7 @@
 # Theory 6: Thiessen polygons and heatmapping (kernel density estimation)
 
 ## Heatmap analysis
-Spatial phenomena tend to vary in intensity across a geographical area. When the occurrence of a certain phenomenon is significantly higher in one area than in the surrounding area, you could describe it as a “hotspot” for that phenomenon. For instance, cities are hotspots of buildings and human activity, forests are hotspots of trees etc. There are many ways to locate these hotspots: interpolation, cluster analysis, and heatmap analysis, to name a few. Today we’re taking a look at employment and industries in the capital city area of Finland with heatmaps and heatmap analysis. Your task is to identify industry clusters with the job location data and create a diagram of Helsinki’s industry structure.
+Spatial phenomena tend to vary in intensity across a geographical area. When the occurrence of a certain phenomenon is significantly higher in one area than in the surrounding area, you could describe it as a “hotspot” for that phenomenon. For instance, cities are hotspots of buildings and human activity, forests are hotspots of trees etc. There are many ways to locate these hotspots: interpolation, cluster analysis, and heatmap analysis, to name a few. Today we’re taking a look at heatmaps and heatmap analysis. 
 
 As the name would suggest, heatmaps describe the “heat,” or intensity, of the phenomenon in question. Heatmaps are generated with point feature data and form a raster layer. In its most rudimentary form, the pixel values of a heatmap depict proximity to other point features within a certain, user-specified, radius. A slightly more advanced form of heatmaps can be given a weight (from the point features’ attribute table) that will influence the pixel values.
 
@@ -19,5 +19,5 @@ One step more advanced form of heatmap will also include modification of the ker
 	- Kernel shape
 	- Weight
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2Mjc0NzgyOCwtNjkxMzc4NTA5XX0=
+eyJoaXN0b3J5IjpbLTI2MjcwMjM4NywtNjkxMzc4NTA5XX0=
 -->
