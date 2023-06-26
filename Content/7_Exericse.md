@@ -46,7 +46,9 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- Change the symbology in such a way that you can see your basemap under it (e.g. remove the fill or change the transparency)  
 
 7. Let’s also change the symbology of the monitoring stations
-- Let’s make these a graduated symbol. Choose NO2 as the *Value*.  You will now see a map with the monitoring stations coloured according to the monitored NO2 levels. Does anywhere exceed the EU Air Quality Directive limit of an annual average of 40 micrograms per cubic metre? 
+	- Let’s make these a graduated symbol. Choose NO2 as the *Value*.  You will now see a map with the monitoring stations coloured according to the monitored NO2 levels. Does anywhere exceed the EU Air Quality Directive limit of an annual average of 40 micrograms per cubic metre? 
+
+### Part 2 - Spatial Interpolation
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI5RU9OYjRkcFQ2MVpxcDk0Ijp7In
 N0YXJ0Ijo2MzQsImVuZCI6NjUzLCJ0ZXh0IjoiIyMgREFUQSBV
@@ -56,8 +58,8 @@ UFVSUE9TRSJ9LCJ2SFhrZHNpV2tuaUdkbTc0Ijp7InN0YXJ0Ij
 o0MTIsImVuZCI6NjMyLCJ0ZXh0IjoiLSBXaGF0IGFyZSB0aGUg
 Y29uY2VudHJhdGlvbnMgb2Ygbml0cm9nZW4gZGlveGlkZSAoTk
 8yKSBhaXIgcG9sbHV0aW9uIGluIHRoZSBIZeKApiJ9LCI4SGdn
-bURhVlAyTExsdjFCIjp7InN0YXJ0IjoyMzM2LCJlbmQiOjI0ND
-YsInRleHQiOiJEb2VzIGFueXdoZXJlIGV4Y2VlZCB0aGUgRVUg
+bURhVlAyTExsdjFCIjp7InN0YXJ0IjoyMzM3LCJlbmQiOjI0ND
+csInRleHQiOiJEb2VzIGFueXdoZXJlIGV4Y2VlZCB0aGUgRVUg
 QWlyIFF1YWxpdHkgRGlyZWN0aXZlIGxpbWl0IG9mIGFuIGFubn
 VhbCBhdmVyYWdlIG9m4oCmIn19LCJjb21tZW50cyI6eyJzdUJn
 OVNEVW8xN2tha2JKIjp7ImRpc2N1c3Npb25JZCI6IjlFT05iNG
@@ -74,6 +76,6 @@ MDA1MTQyfSwiVlNhY2hCWUN1MlZid2ZJaCI6eyJkaXNjdXNzaW
 9uSWQiOiI4SGdnbURhVlAyTExsdjFCIiwic3ViIjoiZ2g6NDAz
 MDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rpb24gaW4gbW9vZGxlIH
 RvIGZpbGwgdGhlc2Ugb3V0IiwiY3JlYXRlZCI6MTY4Nzc2OTAx
-MTE1MH19LCJoaXN0b3J5IjpbMzY5MjU1NDQsLTE4MzI1NDcxMD
-UsMTc2NzcwNDExXX0=
+MTE1MH19LCJoaXN0b3J5IjpbMTIwNTIxMTM0OSwzNjkyNTU0NC
+wtMTgzMjU0NzEwNSwxNzY3NzA0MTFdfQ==
 -->
