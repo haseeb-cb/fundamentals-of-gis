@@ -40,23 +40,13 @@ Here's how Thiessen polygons work:
     
 4.  Polygon attributes: Each Thiessen polygon is associated with the input point it originated from. This allows for the transfer of attributes or characteristics from the input points to their respective polygons. For example, if the input points represent weather stations, the Thiessen polygons can be used to determine which areas are influenced by each station.
 
-![](https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/GUID-6231F564-FA42-435F-A4A7-CE6A88167144-web.jpg)[^1]
+![](https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/GUID-6231F564-FA42-435F-A4A7-CE6A88167144-web.jpg)[^2]
 
 Thiessen polygons have various applications in GIS analysis and spatial modeling. They can be used for proximity analysis, such as determining service areas or catchment areas around facilities. They are also useful for interpolation, as they provide a way to estimate values at unsampled locations based on the values at the input points within each polygon.
-
-
-
-- Delimited Text Layer
-- Thiessen polygons
-- Heatmaps (kernel density estimation)
-	- Radius
-	- Pixel size
-	- Kernel shape
-	- Weight
 
 [^1]: http://www.geography.hunter.cuny.edu/~jochen/gtech361/lectures/lecture11/concepts/Kernel%20density%20calculations.htm
 [^2]:https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/create-thiessen-polygons.htm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTU3Mzc3OSwxMTI0NTA4NDg4LC02OT
-EzNzg1MDldfQ==
+eyJoaXN0b3J5IjpbMjYzNTIxNjUsMTEyNDUwODQ4OCwtNjkxMz
+c4NTA5XX0=
 -->
