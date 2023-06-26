@@ -28,12 +28,23 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 2. A short reflection (200-300 words) on this exercise and your map
 
 ## EXERCISE PHASES
+
+### Part 1 - Loading data
+
+1. Save and extract the downloaded GIS data . We have data on the location of air pollution monitoring sites in the Helsinki region.
+
+2. Load the file Air_pollution_monitoring_points.shp into your QGIS project.
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI5RU9OYjRkcFQ2MVpxcDk0Ijp7In
 N0YXJ0Ijo2MzQsImVuZCI6NjUzLCJ0ZXh0IjoiIyMgREFUQSBV
-U0VEL05FRURFRCJ9fSwiY29tbWVudHMiOnsic3VCZzlTRFVvMT
-drYWtiSiI6eyJkaXNjdXNzaW9uSWQiOiI5RU9OYjRkcFQ2MVpx
-cDk0Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIH
-NlY3Rpb24iLCJjcmVhdGVkIjoxNjg3NzY4NDYxMjM4fX0sImhp
-c3RvcnkiOlstMTIwMDkyODA5NiwxNzY3NzA0MTFdfQ==
+U0VEL05FRURFRCJ9LCJPUHVWWkd5ZHcyY1R0ODBMIjp7InN0YX
+J0Ijo3NCwiZW5kIjo5NSwidGV4dCI6IiMjIE9WRVJWSUVXICYg
+UFVSUE9TRSJ9fSwiY29tbWVudHMiOnsic3VCZzlTRFVvMTdrYW
+tiSiI6eyJkaXNjdXNzaW9uSWQiOiI5RU9OYjRkcFQ2MVpxcDk0
+Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3
+Rpb24iLCJjcmVhdGVkIjoxNjg3NzY4NDYxMjM4fSwibGNVbGF3
+TlJHaWdWcGM4RyI6eyJkaXNjdXNzaW9uSWQiOiJPUHVWWkd5ZH
+cyY1R0ODBMIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ijoi
+QWRkIHNlY3Rpb24iLCJjcmVhdGVkIjoxNjg3NzY4NDc4NjQ2fX
+0sImhpc3RvcnkiOlsxMjk2OTk0MDM0LDE3Njc3MDQxMV19
 -->
