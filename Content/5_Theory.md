@@ -14,14 +14,17 @@ The resulting elevation data is then processed and interpolated to create a cont
 
 DEM data has numerous applications in various fields, including geography, geology, environmental science, urban planning, and engineering. It is used for visualizing and analyzing terrain characteristics, mapping landforms, identifying slopes and aspect, hydrological modeling, determining visibility and line of sight, and more. DEMs are essential in creating accurate maps, conducting terrain analysis, and supporting decision-making processes in numerous industries and research domains.
 
-### Filling sinks in a DEM
+###- DEM
+	- Filling sinks in a DEM
 Filling sinks in a DEM is an important preprocessing step that addresses a common issue in elevation data. A sink refers to a depression or low-lying area in the terrain where water can accumulate, such as a small basin or a closed contour. When sinks are present in a DEM, they can introduce inaccuracies and create problems in subsequent analyses or applications. 
 
 The process of filling sinks typically involves identifying the depressions or sinks in the DEM and modifying the elevation values within those areas to ensure a continuous and realistic representation of the terrain. This can be done using various algorithms or techniques, such as the breaching or filling algorithms, which raise the elevation of the sinks until they reach the surrounding terrain level. By filling sinks, the DEM becomes more suitable for accurate and reliable analysis and visualization of the terrain.
 
-(Want to learn more about why and when filling sinks in necessary? Check videos such as: https://www.youtube.com/watch?v=6rcx4OwnryI)
+(Want to learn more about why and when filling sinks in necessary? Check videos such as:
+	- https://www.youtube.com/watch?v=6rcx4OwnryI)
 
-### Hillshade
+###
+- Hillshade
 The hillshade technique is a method used to create a shaded relief representation of a DEM or terrain surface. It simulates the effects of lighting on the terrain to enhance the visual perception of the three-dimensional characteristics of the landscape. The resulting hillshade image provides a sense of depth and helps to emphasize the topographic features of the terrain.
 
 ![](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Assets/5_Theory/5_Theory_hillsade_finland.png?raw=true)
@@ -51,11 +54,14 @@ In raster overlay analysis, each raster layer is composed of a grid of cells or 
 3.  **Boolean operations**: These operations utilize Boolean logic (AND, OR, NOT) to determine the presence or absence of certain conditions or attributes. They help create binary or categorical output layers based on specified criteria.
 
 Raster overlay analysis is used in various GIS applications, such as land suitability analysis, environmental modeling, habitat analysis, urban planning, and natural resource management. It allows for the integration of diverse datasets, including DEMs, satellite imagery, land cover maps, and thematic data, to generate valuable information and support decision-making processes. By overlaying and combining raster layers, you can explore spatial relationships, identify patterns, quantify spatial characteristics, and derive meaningful insights from the data.
-
+- Slope
+- Data reclassification
+- Raster calculator
+- Raster overlay analysis (calculations)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDY3NzU0NjEsMTgwOTA1NjcsMjAxND
-EyNzExNywtODg1MjkwMzMzLC04OTYyMjcyODEsOTk0NzIwMTkz
-LC0zNTEwNzY1ODAsLTEzOTAzMzIwNTFdfQ==
+eyJoaXN0b3J5IjpbMTUzNDI0MDgyLC0xOTQ2Nzc1NDYxLDE4MD
+kwNTY3LDIwMTQxMjcxMTcsLTg4NTI5MDMzMywtODk2MjI3Mjgx
+LDk5NDcyMDE5MywtMzUxMDc2NTgwLC0xMzkwMzMyMDUxXX0=
 -->
