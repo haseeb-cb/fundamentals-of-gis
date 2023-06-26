@@ -62,13 +62,15 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 	- Change the method to *size*. Rather than changing the color of the symbol based on the number of cases, this will change the size of the symbol. You can change the size range, try out what you think looks best. 
 	- Make the classification mode *Natural Breaks (remember what this means?) with three classes
 
-8. We now have the locations of the deaths overlaid on top of a Google image of modern London. But, things have changed a little bit in this area of London since the outbreak. Let’s bring in an old map of the area. 
+8. We now have the locations of the deaths overlaid on top of a Google image of modern London. But, things have changed a little bit in this area of London since the outbreak. Let’s **bring in an old map of the area**. 
 	
 	- Import the raster Snow-cholera-map-1_modified.tif, which is an old streetmap of the area.
 	- Drag the old streetmap to be on top of the Google map and below the deaths and study area boundary layers. 
 	- Right-click Snow-cholera-map-1_modified.tif and choose Properties. Under the Transparency tab, choose 65% and press Ok. This makes the raster slightly transparent, so you can also see the more modern city underneath.
 
 - Figure 5
+
+---
 
 ### Finding the source of the outbreak
 
@@ -120,14 +122,14 @@ RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjE5
 ODksImVuZCI6MjAwOH0sIndQYkR1OUFJVjdpMnprdXciOnsidG
 V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6MjQxMSwiZW5k
 IjoyNDI0fSwiekFOTm90THBGelBROUY5MiI6eyJ0ZXh0IjoiLS
-BGaWd1cmUgNSIsInN0YXJ0Ijo2NjExLCJlbmQiOjY2MjF9LCJt
+BGaWd1cmUgNSIsInN0YXJ0Ijo2NjE1LCJlbmQiOjY2MjV9LCJt
 eERQb2FqMkhKcjlLQVQyIjp7InRleHQiOiItIEZpZ3VyZSA2Ii
-wic3RhcnQiOjc2ODMsImVuZCI6NzY5M30sImJNVEJYb3dQVHRC
+wic3RhcnQiOjc2OTIsImVuZCI6NzcwMn0sImJNVEJYb3dQVHRC
 UTFZSlEiOnsidGV4dCI6Ii0gRmlndXJlIDciLCJzdGFydCI6OT
-E4NywiZW5kIjo5MTk3fSwibFM5dm1qbkxSVEpveTRXUSI6eyJ0
-ZXh0IjoiLSBGaWd1cmUgOCIsInN0YXJ0IjoxMDMwNiwiZW5kIj
-oxMDMxNn0sIlhTVjh1cDc5OFdIWkx1dG0iOnsidGV4dCI6Ii0g
-RmlndXJlIDkiLCJzdGFydCI6MTA1NDAsImVuZCI6MTA1NTB9LC
+E5NiwiZW5kIjo5MjA2fSwibFM5dm1qbkxSVEpveTRXUSI6eyJ0
+ZXh0IjoiLSBGaWd1cmUgOCIsInN0YXJ0IjoxMDMxNSwiZW5kIj
+oxMDMyNX0sIlhTVjh1cDc5OFdIWkx1dG0iOnsidGV4dCI6Ii0g
+RmlndXJlIDkiLCJzdGFydCI6MTA1NDksImVuZCI6MTA1NTl9LC
 IzZDhqa0JucDg5TFpWWW1lIjp7InN0YXJ0IjoyMTE4LCJlbmQi
 OjIxMjQsInRleHQiOiJNb29kbGUifX0sImNvbW1lbnRzIjp7Ik
 duZFIzaHhoZHF2OW5IcjEiOnsiZGlzY3Vzc2lvbklkIjoieDE1
@@ -156,6 +158,6 @@ NyZWF0ZWQiOjE2ODY3Mjg2Njg0MjB9LCJiY2xjV0hIUnFBWUtW
 cndMIjp7ImRpc2N1c3Npb25JZCI6IjNkOGprQm5wODlMWlZZbW
 UiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJGaXggcmVm
 ZXJlbmNlIiwiY3JlYXRlZCI6MTY4Nzc1OTYyNTk4NX19LCJoaX
-N0b3J5IjpbLTE1MTI0MjcwNiwtNTcyNzA1NjI4LDc1MDMzMDM4
-OF19
+N0b3J5IjpbLTQ5MTMzMjQxNSwtMTUxMjQyNzA2LC01NzI3MDU2
+MjgsNzUwMzMwMzg4XX0=
 -->
