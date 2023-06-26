@@ -11,6 +11,12 @@ For instance, two heatmaps are created out of the same point feature layer (bus 
 
 One step more advanced form of heatmap will also include modification of the kernel shape. Kernel is the statistical function used to give proximity and weight scores to the point features within the radius. Heatmaps are also known as kernel density analysis.
 
+### What happens in Kernel Density Analysis?
+
+To understand the basic idea of Kernel Density Analysis that we use to create a heatmap, you can watch this 9 minutes long video (Point Pattern Analysis Part 5: Kernel Density Estimation): https://www.youtube.com/watch?v=PBZVTjmhl74
+
+When applying the kernel method, QGIS draws a circular neighborhood around each sample point (not each cell) and then applies a math function that goes from 1 at the location of the point to 0 at the neighborhood boundary. Think of a kernel as a smoothly curved surface that is fitted over each point.
+
 - Delimited Text Layer
 - Voronoi/Thiessen polygons
 - Heatmaps (kernel density estimation)
@@ -19,5 +25,5 @@ One step more advanced form of heatmap will also include modification of the ker
 	- Kernel shape
 	- Weight
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MjcwMjM4NywtNjkxMzc4NTA5XX0=
+eyJoaXN0b3J5IjpbMTEyNDUwODQ4OCwtNjkxMzc4NTA5XX0=
 -->
