@@ -72,12 +72,12 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 
 ### Finding the source of the outbreak
 
-9. Now, let’s start trying to identify where the outbreak has come from. First, let’s bring in data on the location of the water pumps. 
+9. Now, let’s start trying to identify where the outbreak has come from. First, let’s **bring in data on the location of the water pumps**. 
 	
 	- Import the file Water_Pumps.geojson
 	- Right-click the layer and look at the Attribute Table. What attributes are associated with each water pump?
 
-10. Now, we want to find out which water pumps is closest to the addresses where there have been deaths rec-orded. Thiessen polygons are a method used to divide a space into regions based on their proximity to fea-tures. That is, within a Thiessen polygon, all the deaths are closer to the point (in this case a pump) that was used to generate that polygon, than to any other point (or pump) in the feature set. Let’s create a set of Thiessen polygons based upon the locations of the Water Pumps in our project (Figure 6).
+10. Now, we want to find out which water pumps is closest to the addresses where there have been deaths recorded. Thiessen polygons are a method used to divide a space into regions based on their proximity to features. That is, within a Thiessen polygon, all the deaths are closer to the point (in this case a pump) that was used to generate that polygon, than to any other point (or pump) in the feature set. Let’s create a set of Thiessen polygons based upon the locations of the Water Pumps in our project (Figure 6).
 	
 	- In the Processing Toolbox Window, search for Voronoi
 	- Double–click the Voronoi polygons tool c) On the Voronoi tool select Water_Pumps as the Input layer
@@ -120,13 +120,13 @@ RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjE5
 ODksImVuZCI6MjAwOH0sIndQYkR1OUFJVjdpMnprdXciOnsidG
 V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6MjQxMSwiZW5k
 IjoyNDI0fSwibXhEUG9hajJISnI5S0FUMiI6eyJ0ZXh0IjoiLS
-BGaWd1cmUgNiIsInN0YXJ0Ijo3NjI4LCJlbmQiOjc2Mzh9LCJi
+BGaWd1cmUgNiIsInN0YXJ0Ijo3NjMwLCJlbmQiOjc2NDB9LCJi
 TVRCWG93UFR0QlExWUpRIjp7InRleHQiOiItIEZpZ3VyZSA3Ii
-wic3RhcnQiOjkxMzIsImVuZCI6OTE0Mn0sImxTOXZtam5MUlRK
+wic3RhcnQiOjkxMzQsImVuZCI6OTE0NH0sImxTOXZtam5MUlRK
 b3k0V1EiOnsidGV4dCI6Ii0gRmlndXJlIDgiLCJzdGFydCI6MT
-AyNTEsImVuZCI6MTAyNjF9LCJYU1Y4dXA3OThXSFpMdXRtIjp7
-InRleHQiOiItIEZpZ3VyZSA5Iiwic3RhcnQiOjEwNDg1LCJlbm
-QiOjEwNDk1fSwiM2Q4amtCbnA4OUxaVlltZSI6eyJzdGFydCI6
+AyNTMsImVuZCI6MTAyNjN9LCJYU1Y4dXA3OThXSFpMdXRtIjp7
+InRleHQiOiItIEZpZ3VyZSA5Iiwic3RhcnQiOjEwNDg3LCJlbm
+QiOjEwNDk3fSwiM2Q4amtCbnA4OUxaVlltZSI6eyJzdGFydCI6
 MjExOCwiZW5kIjoyMTI0LCJ0ZXh0IjoiTW9vZGxlIn19LCJjb2
 1tZW50cyI6eyJHbmRSM2h4aGRxdjluSHIxIjp7ImRpc2N1c3Np
 b25JZCI6IngxNXdXTkJLNkpEdzdWaXYiLCJzdWIiOiJnaDo0MD
@@ -151,6 +151,6 @@ LCJjcmVhdGVkIjoxNjg2NzI4NjY4NDIwfSwiYmNsY1dISFJxQV
 lLVnJ3TCI6eyJkaXNjdXNzaW9uSWQiOiIzZDhqa0JucDg5TFpW
 WW1lIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiRml4IH
 JlZmVyZW5jZSIsImNyZWF0ZWQiOjE2ODc3NTk2MjU5ODV9fSwi
-aGlzdG9yeSI6WzU5MjU4MjI2NCwtMTUxMjQyNzA2LC01NzI3MD
-U2MjgsNzUwMzMwMzg4XX0=
+aGlzdG9yeSI6WzQ5NTY3OTE0MCw1OTI1ODIyNjQsLTE1MTI0Mj
+cwNiwtNTcyNzA1NjI4LDc1MDMzMDM4OF19
 -->
