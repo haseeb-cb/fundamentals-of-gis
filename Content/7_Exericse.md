@@ -78,7 +78,13 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- What is the pollution in the postcodes with the lowest median income (ignoring those with 0)? 
 
 13. We can also join the air pollution monitoring stations point data to the postcodes. This can help us identify the number of monitoring stations in postcodes, and estimate the average concentrations based on only the monitoring stations. To do so, we will perform a spatial join.
-- Open the *Join Attributes by Location (Summary)* tool
+	- Open the *Join Attributes by Location (Summary)* tool
+	- Under *Input*, choose the layer you produced when you calculated the Zonal Statistics 
+	- Under *Join Layer*, choose Air_pollution_monitoring_points
+	- Select which *Geometric predicate* you think is best (Hint:  There are a few different ways to define the spatial relationship between the layers you are joining. For example, the layers could overlap, one could be completely contained by the other (or vice versa), they may touch, or others. In this case, we want to say that they intersect, or lie on top of each other.
+	- Under Fields to summarise, press the box on the right and choose NO2
+	- Under Summaries to calculate, press the box on the right and choose Count and Mean
+	- Press Run. You may get an error, but it should be fine to continue.
  
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI5RU9OYjRkcFQ2MVpxcDk0Ijp7In
@@ -115,6 +121,6 @@ SnlDWXRsem1lS29rIjp7ImRpc2N1c3Npb25JZCI6IllTOXhHeV
 ZoblZGR3VveXQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQi
 OiJBZGQgc2VjdGlvbiBpbiBtb29kbGUgdG8gZmlsbCB0aGVzZS
 BvdXQiLCJjcmVhdGVkIjoxNjg3NzY5ODkyMTU3fX0sImhpc3Rv
-cnkiOlstMTAzOTIyMzI4MCwzNjkyNTU0NCwtMTgzMjU0NzEwNS
-wxNzY3NzA0MTFdfQ==
+cnkiOlstNDIxNzg4MjgsMzY5MjU1NDQsLTE4MzI1NDcxMDUsMT
+c2NzcwNDExXX0=
 -->
