@@ -1,6 +1,6 @@
 ### Fundamentals of Geographic Information Systems (GIS)
 
-# Exercise 5: Finding the source of a historic disease outbreak
+# Exercise 6: Finding the source of a historic disease outbreak
 
 ## OVERVIEW & PURPOSE
 This exercise uses data from a historical event in London, which many people consider to be the original use of mapping to understand disease transmission. In the 1800’s, London was a rapidly growing city, with huge amounts of migration from rural England to the city. However, the city lacked modern infrastructure, and disease and over-crowding was rife.
@@ -118,7 +118,8 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 
 ### Map visualization 
 
-15. All done! Make a final map in the layout manager, showing the locations of deaths, the water pumps, and the heatmap. Remember to include a legend, with information that readers can un-derstand.
+15. All done! Make a final map in the layout manager, showing the locations of deaths, the water pumps, and the heatmap.
+	- You can also make multiple maps, separating the data and making a map with the Thiessen polygons, do what you think is best and argument this in your reflection! 
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJ4MTV3V05CSzZKRHc3Vml2Ijp7In
@@ -137,7 +138,7 @@ dGhpcz8iLCJjcmVhdGVkIjoxNjg2NzI3NTY3MTA4fSwiYmNsY1
 dISFJxQVlLVnJ3TCI6eyJkaXNjdXNzaW9uSWQiOiIzZDhqa0Ju
 cDg5TFpWWW1lIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ij
 oiRml4IHJlZmVyZW5jZSIsImNyZWF0ZWQiOjE2ODc3NTk2MjU5
-ODV9fSwiaGlzdG9yeSI6WzIwMDA4Nzk2MzUsLTIwMzM0NTQ4MD
-MsLTM2NTI1MTg4Niw1OTI1ODIyNjQsLTE1MTI0MjcwNiwtNTcy
-NzA1NjI4LDc1MDMzMDM4OF19
+ODV9fSwiaGlzdG9yeSI6WzYwNzQxNjU5NywtMjAzMzQ1NDgwMy
+wtMzY1MjUxODg2LDU5MjU4MjI2NCwtMTUxMjQyNzA2LC01NzI3
+MDU2MjgsNzUwMzMwMzg4XX0=
 -->
