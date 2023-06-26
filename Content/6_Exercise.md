@@ -36,7 +36,7 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 4. Let’s bring in some Google Earth data into our map using XYZ tiles to give the map some more context (Hint: Exercise 2 step 3)
 
 
-5. Often the data sets that you want to work with will not come as spatial data sets. They might come, for ex-ample, from observations during field work that you record in a spreadsheet. In this step we will add a table of data that contains fields with the latitude and longitude coordinates of the deaths addresses we want to analyze. In our case, this data comes in a comma-separated values (CSV) file, or a text file that uses a comma to separate values.
+5. Often the data sets that you want to work with will not come as spatial data sets. They might come, for example, from observations during field work that you record in a spreadsheet. In this step we will add a table of data that contains fields with the latitude and longitude coordinates of the deaths addresses we want to analyze. In our case, this data comes in a comma-separated values (CSV) file, or a text file that uses a comma to separate values.
 	
 	- First let’s look at the file with the deaths data in it. If you double-click it in the folder you saved the file in, it should open in Excel or as a text file, and you will see that it has an ID column (OB-JECTID), the number of cases (Num_Cases ), an Address Column (Address), x coordinates (xcoord), and y coordinates (ycoord). These coordinates are helpful, as they let us import the data into GIS.
 	- In QGIS, go to Layer -> Add Layer -> Add Delimited Text Layer 
@@ -125,20 +125,20 @@ RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjE5
 ODksImVuZCI6MjAwOH0sIndQYkR1OUFJVjdpMnprdXciOnsidG
 V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6MjQxMSwiZW5k
 IjoyNDI0fSwielREVGF3bUc3ZmF2dllLeiI6eyJ0ZXh0IjoiLS
-BGaWd1cmUgMiIsInN0YXJ0Ijo0NzMzLCJlbmQiOjQ3NDN9LCJB
+BGaWd1cmUgMiIsInN0YXJ0Ijo0NzMyLCJlbmQiOjQ3NDJ9LCJB
 eEhJZDd1dERGS0hoa3IwIjp7InRleHQiOiItIEZpZ3VyZSAzIi
-wic3RhcnQiOjUzNzYsImVuZCI6NTM4Nn0sIktOWmVEdWpsRll2
+wic3RhcnQiOjUzNzUsImVuZCI6NTM4NX0sIktOWmVEdWpsRll2
 dHcwM0siOnsidGV4dCI6Ii0gRmlndXJlIDQiLCJzdGFydCI6Nj
-A2MCwiZW5kIjo2MDcwfSwiekFOTm90THBGelBROUY5MiI6eyJ0
-ZXh0IjoiLSBGaWd1cmUgNSIsInN0YXJ0Ijo2NzE1LCJlbmQiOj
-Y3MjV9LCJteERQb2FqMkhKcjlLQVQyIjp7InRleHQiOiItIEZp
-Z3VyZSA2Iiwic3RhcnQiOjc3ODcsImVuZCI6Nzc5N30sImJNVE
+A1OSwiZW5kIjo2MDY5fSwiekFOTm90THBGelBROUY5MiI6eyJ0
+ZXh0IjoiLSBGaWd1cmUgNSIsInN0YXJ0Ijo2NzE0LCJlbmQiOj
+Y3MjR9LCJteERQb2FqMkhKcjlLQVQyIjp7InRleHQiOiItIEZp
+Z3VyZSA2Iiwic3RhcnQiOjc3ODYsImVuZCI6Nzc5Nn0sImJNVE
 JYb3dQVHRCUTFZSlEiOnsidGV4dCI6Ii0gRmlndXJlIDciLCJz
-dGFydCI6OTI5MSwiZW5kIjo5MzAxfSwibFM5dm1qbkxSVEpveT
-RXUSI6eyJ0ZXh0IjoiLSBGaWd1cmUgOCIsInN0YXJ0IjoxMDQx
-MCwiZW5kIjoxMDQyMH0sIlhTVjh1cDc5OFdIWkx1dG0iOnsidG
-V4dCI6Ii0gRmlndXJlIDkiLCJzdGFydCI6MTA2NDQsImVuZCI6
-MTA2NTR9LCIzZDhqa0JucDg5TFpWWW1lIjp7InN0YXJ0IjoyMT
+dGFydCI6OTI5MCwiZW5kIjo5MzAwfSwibFM5dm1qbkxSVEpveT
+RXUSI6eyJ0ZXh0IjoiLSBGaWd1cmUgOCIsInN0YXJ0IjoxMDQw
+OSwiZW5kIjoxMDQxOX0sIlhTVjh1cDc5OFdIWkx1dG0iOnsidG
+V4dCI6Ii0gRmlndXJlIDkiLCJzdGFydCI6MTA2NDMsImVuZCI6
+MTA2NTN9LCIzZDhqa0JucDg5TFpWWW1lIjp7InN0YXJ0IjoyMT
 E4LCJlbmQiOjIxMjQsInRleHQiOiJNb29kbGUifX0sImNvbW1l
 bnRzIjp7IkduZFIzaHhoZHF2OW5IcjEiOnsiZGlzY3Vzc2lvbk
 lkIjoieDE1d1dOQks2SkR3N1ZpdiIsInN1YiI6ImdoOjQwMzA0
@@ -176,5 +176,5 @@ OjE2ODY3Mjg2Njg0MjB9LCJiY2xjV0hIUnFBWUtWcndMIjp7Im
 Rpc2N1c3Npb25JZCI6IjNkOGprQm5wODlMWlZZbWUiLCJzdWIi
 OiJnaDo0MDMwNDc4OCIsInRleHQiOiJGaXggcmVmZXJlbmNlIi
 wiY3JlYXRlZCI6MTY4Nzc1OTYyNTk4NX19LCJoaXN0b3J5Ijpb
-LTEzNjAwNzk2NDYsLTU3MjcwNTYyOCw3NTAzMzAzODhdfQ==
+LTE4MDY2OTgyOTcsLTU3MjcwNTYyOCw3NTAzMzAzODhdfQ==
 -->
