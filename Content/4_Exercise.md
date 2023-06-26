@@ -157,7 +157,7 @@ Fill in the answers to the Moodle
 	- Let's extract areas of at least 5000m2 using the *Extract by Expression* tool (Hint: Crash Course, step 7)
 - Done! You should now have the areas that meet all the criteria
 
-8. Make your final map of the suitable areas for the new airport hotel & congress center, write also a short reflection on what was done and why.
+8. Make your final map of the suitable areas for the new airport hotel & congress center.
 
 
 
@@ -202,10 +202,10 @@ gxMn0sInBLOWlhRjU1SWk0UHlJN2QiOnsiZGlzY3Vzc2lvbklk
 IjoiMlFIQXlKZFU3bFY5Q2NOcyIsInN1YiI6ImdoOjIyMTY4MT
 U3IiwidGV4dCI6InRoaXMgaXMgYSBsaXR0bGUgdW5jbGVhci4i
 LCJjcmVhdGVkIjoxNjg3MjU0NTcyODgyfX0sImhpc3RvcnkiOl
-s0NzE2OTQ1OTMsLTE3NzYxMjA3NzIsLTE0MDI0MjE3MjEsLTQy
-NjU5NDMzMiwtMzQ4NTE0OTYwLDc5MzI5MjIzMywtOTkyMDY0OT
-AyLC0xNTEyNzA2ODIsMTA0ODM4MDQwMSwtMTgxMzYxMjg0MSwz
-MjA3NTcyODksMTMxOTUwNDIzNSwxMjM4MTg0OTg2LDE0Mjk0NT
-E0MzgsMTIxMjU5NTgzNiwtMTMyNzczNTE1MiwtMjc2MDcyMTE1
-LC0zMDI0NjUyMTIsLTE5Mjk1MjYwNjEsMjEwMTk0Mzg1Ml19
+szMjcxMjk1MzYsNDcxNjk0NTkzLC0xNzc2MTIwNzcyLC0xNDAy
+NDIxNzIxLC00MjY1OTQzMzIsLTM0ODUxNDk2MCw3OTMyOTIyMz
+MsLTk5MjA2NDkwMiwtMTUxMjcwNjgyLDEwNDgzODA0MDEsLTE4
+MTM2MTI4NDEsMzIwNzU3Mjg5LDEzMTk1MDQyMzUsMTIzODE4ND
+k4NiwxNDI5NDUxNDM4LDEyMTI1OTU4MzYsLTEzMjc3MzUxNTIs
+LTI3NjA3MjExNSwtMzAyNDY1MjEyLC0xOTI5NTI2MDYxXX0=
 -->
