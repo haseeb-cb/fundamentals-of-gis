@@ -16,7 +16,17 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 
 ## DATA USED/NEEDED
 
-## COMPLETION
+## Completion
+
+Work in pairs or individually. Complete the exercise and submit a short report containing at least the following:
+
+1. Maps of the outcome of the exercise
+
+	- Remember: all maps should have a legend, a scale bar and a north arrow
+
+	- Use the tips from the Crash Course to improve your map
+
+2. A short reflection (200-300 words) on this exercise and your map
 
 ## EXERCISE PHASES
 
@@ -92,7 +102,8 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 	- Set the Weight field as Num_Cases. By setting the weight to be the number of cases, we are accounting for the fact that some addresses had multiple deaths when we calculated the average coordinates. 
 	- Click OK to calculate the Mean Center and Close. What water pump is the spatial mean closest to?
 
-13. Another way to show the distribution of cholera deaths is to create a heatmap. A heatmap is a data visuali-zation technique that shows magnitude of a phenomenon as color. In QGIS, the Kernel Density Tool cal-culates a magnitude per unit area from the point features using a kernel function to fit a smoothly tapered surface to each point. The result is a raster dataset which can reveal “hotspots” in the array of point data.
+13. Another way to show the distribution of cholera deaths is to create a heatmap. A heatmap is a data visuali-zation technique that shows magnitude of a phenomenon as color. In QGIS, the Kernel Density Tool calculates a magnitude per unit area from the point features using a kernel function to fit a smoothly tapered surface to each point. The result is a raster dataset which can reveal “hotspots” in the array of point data.
+	
 	- Go to the Processing Toolbox Window and type to search Kernel Density and open the tool Heatmap (Kernel Density Estimation) 
 	- Select the deaths_locations layer as the Point Layer.
 	- Set the Radius option to 50 (this is in meters).
@@ -112,12 +123,12 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 eyJkaXNjdXNzaW9ucyI6eyJ4MTV3V05CSzZKRHc3Vml2Ijp7In
 RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjIw
 MzgsImVuZCI6MjA1N30sIndQYkR1OUFJVjdpMnprdXciOnsidG
-V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6MjQ2MCwiZW5k
-IjoyNDczfSwibFM5dm1qbkxSVEpveTRXUSI6eyJ0ZXh0IjoiLS
-BGaWd1cmUgOCIsInN0YXJ0IjoxMDE2NywiZW5kIjoxMDE3N30s
+V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6MjgxOCwiZW5k
+IjoyODMxfSwibFM5dm1qbkxSVEpveTRXUSI6eyJ0ZXh0IjoiLS
+BGaWd1cmUgOCIsInN0YXJ0IjoxMDUyNiwiZW5kIjoxMDUzNn0s
 IlhTVjh1cDc5OFdIWkx1dG0iOnsidGV4dCI6Ii0gRmlndXJlID
-kiLCJzdGFydCI6MTA0MDEsImVuZCI6MTA0MTF9LCIzZDhqa0Ju
-cDg5TFpWWW1lIjp7InN0YXJ0IjoyMTY3LCJlbmQiOjIxNzMsIn
+kiLCJzdGFydCI6MTA3NjAsImVuZCI6MTA3NzB9LCIzZDhqa0Ju
+cDg5TFpWWW1lIjp7InN0YXJ0IjoyNTI1LCJlbmQiOjI1MzEsIn
 RleHQiOiJNb29kbGUifX0sImNvbW1lbnRzIjp7IkduZFIzaHho
 ZHF2OW5IcjEiOnsiZGlzY3Vzc2lvbklkIjoieDE1d1dOQks2Sk
 R3N1ZpdiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFk
@@ -135,7 +146,7 @@ dHVyZSIsImNyZWF0ZWQiOjE2ODY3Mjg2Njg0MjB9LCJiY2xjV0
 hIUnFBWUtWcndMIjp7ImRpc2N1c3Npb25JZCI6IjNkOGprQm5w
 ODlMWlZZbWUiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOi
 JGaXggcmVmZXJlbmNlIiwiY3JlYXRlZCI6MTY4Nzc1OTYyNTk4
-NX19LCJoaXN0b3J5IjpbLTExNjg4MTIyMzYsLTM2NTI1MTg4Ni
-w1OTI1ODIyNjQsLTE1MTI0MjcwNiwtNTcyNzA1NjI4LDc1MDMz
-MDM4OF19
+NX19LCJoaXN0b3J5IjpbLTc4MjU3NDg5MCwtMzY1MjUxODg2LD
+U5MjU4MjI2NCwtMTUxMjQyNzA2LC01NzI3MDU2MjgsNzUwMzMw
+Mzg4XX0=
 -->
