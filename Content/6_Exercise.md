@@ -58,8 +58,8 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 	
 	- Remove the original deathsAddresses csv layer
 	- Go to the symbology of the new reprojected deaths_locations layer
-	- Make the Symbol Graduated and the Value Num_Cases
-	- Change the Method to Size. Rather than changing the colour of the symbol based on the number of cases, this will change the size of the symbol. Make the Size from 10 to 30 Map Units
+	- Make the symbology *graduated* and the value "Num_Cases"
+	- Change the method to *size*. Rather than changing the colour of the symbol based on the number of cases, this will change the size of the symbol. Make the Size from 10 to 30 Map Units
 	- Make the Classification Mode Natural Breaks with three classes and choose Classify
 	- Press Ok.
 
@@ -123,16 +123,16 @@ RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjE5
 ODksImVuZCI6MjAwOH0sIndQYkR1OUFJVjdpMnprdXciOnsidG
 V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6MjQxMSwiZW5k
 IjoyNDI0fSwiS05aZUR1amxGWXZ0dzAzSyI6eyJ0ZXh0IjoiLS
-BGaWd1cmUgNCIsInN0YXJ0Ijo1OTQ2LCJlbmQiOjU5NTZ9LCJ6
+BGaWd1cmUgNCIsInN0YXJ0Ijo1OTU1LCJlbmQiOjU5NjV9LCJ6
 QU5Ob3RMcEZ6UFE5RjkyIjp7InRleHQiOiItIEZpZ3VyZSA1Ii
-wic3RhcnQiOjY2MDEsImVuZCI6NjYxMX0sIm14RFBvYWoySEpy
+wic3RhcnQiOjY2MTAsImVuZCI6NjYyMH0sIm14RFBvYWoySEpy
 OUtBVDIiOnsidGV4dCI6Ii0gRmlndXJlIDYiLCJzdGFydCI6Nz
-Y3MywiZW5kIjo3NjgzfSwiYk1UQlhvd1BUdEJRMVlKUSI6eyJ0
-ZXh0IjoiLSBGaWd1cmUgNyIsInN0YXJ0Ijo5MTc3LCJlbmQiOj
-kxODd9LCJsUzl2bWpuTFJUSm95NFdRIjp7InRleHQiOiItIEZp
-Z3VyZSA4Iiwic3RhcnQiOjEwMjk2LCJlbmQiOjEwMzA2fSwiWF
+Y4MiwiZW5kIjo3NjkyfSwiYk1UQlhvd1BUdEJRMVlKUSI6eyJ0
+ZXh0IjoiLSBGaWd1cmUgNyIsInN0YXJ0Ijo5MTg2LCJlbmQiOj
+kxOTZ9LCJsUzl2bWpuTFJUSm95NFdRIjp7InRleHQiOiItIEZp
+Z3VyZSA4Iiwic3RhcnQiOjEwMzA1LCJlbmQiOjEwMzE1fSwiWF
 NWOHVwNzk4V0haTHV0bSI6eyJ0ZXh0IjoiLSBGaWd1cmUgOSIs
-InN0YXJ0IjoxMDUzMCwiZW5kIjoxMDU0MH0sIjNkOGprQm5wOD
+InN0YXJ0IjoxMDUzOSwiZW5kIjoxMDU0OX0sIjNkOGprQm5wOD
 lMWlZZbWUiOnsic3RhcnQiOjIxMTgsImVuZCI6MjEyNCwidGV4
 dCI6Ik1vb2RsZSJ9fSwiY29tbWVudHMiOnsiR25kUjNoeGhkcX
 Y5bkhyMSI6eyJkaXNjdXNzaW9uSWQiOiJ4MTV3V05CSzZKRHc3
@@ -164,6 +164,6 @@ YXRlZCI6MTY4NjcyODY2ODQyMH0sImJjbGNXSEhScUFZS1Zyd0
 wiOnsiZGlzY3Vzc2lvbklkIjoiM2Q4amtCbnA4OUxaVlltZSIs
 InN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkZpeCByZWZlcm
 VuY2UiLCJjcmVhdGVkIjoxNjg3NzU5NjI1OTg1fX0sImhpc3Rv
-cnkiOlstMTE3NTYzMzk5LC01NzI3MDU2MjgsNzUwMzMwMzg4XX
-0=
+cnkiOlstMjAwMTMwMzI5OSwtNTcyNzA1NjI4LDc1MDMzMDM4OF
+19
 -->
