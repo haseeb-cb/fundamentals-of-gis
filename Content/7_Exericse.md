@@ -71,8 +71,14 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- Under *Raster Layer*, select your Interpolated air pollution data. This tells QGIS that you want to calculate statistics from this layer.
 	- Press *OK*. This will create a new vector layer that at first glance looks the same as the postcode layer. However, it now has the summary statistics for the raster joined to each postcode.
 
-12. Open the *Attribute Table* of the new layer. You will see a column on the right that shows the average concentration. There is also a column called tr_mtu, which is the median income of households. By clicking on the column heading, you can sort the data ascending or descending. What is the postcode with the highest NO2 concentrations? What is the postcode with the lowest? What are the con-centrations in the postcode with the highest median income? What is the pollution in the postcodes with the lowest median income (ignoring those with 0)? Make a note of these for your learning diary.
+12. Open the *Attribute Table* of the new layer. You will see a column on the right that shows the average concentration. There is also a column called tr_mtu, which is the median income of households. By clicking on the column heading, you can sort the data ascending or descending. 
+	- What is the postcode with the highest NO2 concentrations? 
+	- What is the postcode with the lowest? 
+	- What are the concentrations in the postcode with the highest median income? 
+	- What is the pollution in the postcodes with the lowest median income (ignoring those with 0)? 
 
+13. We can also join the air pollution monitoring stations point data to the postcodes. This can help us identify the number of monitoring stations in postcodes, and estimate the average concentrations based on only the monitoring stations. To do so, we will perform a spatial join.
+- Open the *Join Attributes by Location (Summary)* tool
  
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI5RU9OYjRkcFQ2MVpxcDk0Ijp7In
@@ -86,21 +92,29 @@ Y29uY2VudHJhdGlvbnMgb2Ygbml0cm9nZW4gZGlveGlkZSAoTk
 bURhVlAyTExsdjFCIjp7InN0YXJ0IjoyMzM3LCJlbmQiOjI0ND
 csInRleHQiOiJEb2VzIGFueXdoZXJlIGV4Y2VlZCB0aGUgRVUg
 QWlyIFF1YWxpdHkgRGlyZWN0aXZlIGxpbWl0IG9mIGFuIGFubn
-VhbCBhdmVyYWdlIG9m4oCmIn19LCJjb21tZW50cyI6eyJzdUJn
-OVNEVW8xN2tha2JKIjp7ImRpc2N1c3Npb25JZCI6IjlFT05iNG
-RwVDYxWnFwOTQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQi
-OiJBZGQgc2VjdGlvbiIsImNyZWF0ZWQiOjE2ODc3Njg0NjEyMz
-h9LCJsY1VsYXdOUkdpZ1ZwYzhHIjp7ImRpc2N1c3Npb25JZCI6
-Ik9QdVZaR3lkdzJjVHQ4MEwiLCJzdWIiOiJnaDo0MDMwNDc4OC
-IsInRleHQiOiJBZGQgc2VjdGlvbiIsImNyZWF0ZWQiOjE2ODc3
-Njg0Nzg2NDZ9LCJLb1EyYmVYWmRnN2RCaENGIjp7ImRpc2N1c3
-Npb25JZCI6InZIWGtkc2lXa25pR2RtNzQiLCJzdWIiOiJnaDo0
-MDMwNDc4OCIsInRleHQiOiJBZGQgc2VjdGlvbiBpbiBtb29kbG
-UgdG8gZmlsbCB0aGVzZSBvdXQiLCJjcmVhdGVkIjoxNjg3NzY5
-MDA1MTQyfSwiVlNhY2hCWUN1MlZid2ZJaCI6eyJkaXNjdXNzaW
-9uSWQiOiI4SGdnbURhVlAyTExsdjFCIiwic3ViIjoiZ2g6NDAz
-MDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rpb24gaW4gbW9vZGxlIH
-RvIGZpbGwgdGhlc2Ugb3V0IiwiY3JlYXRlZCI6MTY4Nzc2OTAx
-MTE1MH19LCJoaXN0b3J5IjpbMTM5Nzc4MDQ3NywzNjkyNTU0NC
-wtMTgzMjU0NzEwNSwxNzY3NzA0MTFdfQ==
+VhbCBhdmVyYWdlIG9m4oCmIn0sIllTOXhHeVZoblZGR3VveXQi
+Onsic3RhcnQiOjU4NDAsImVuZCI6NjExOSwidGV4dCI6Ii0gV2
+hhdCBpcyB0aGUgcG9zdGNvZGUgd2l0aCB0aGUgaGlnaGVzdCBO
+TzIgY29uY2VudHJhdGlvbnM/IFxuXHQtIFdoYXQgaXMgdGhlIH
+Bvc+KApiJ9fSwiY29tbWVudHMiOnsic3VCZzlTRFVvMTdrYWti
+SiI6eyJkaXNjdXNzaW9uSWQiOiI5RU9OYjRkcFQ2MVpxcDk0Ii
+wic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rp
+b24iLCJjcmVhdGVkIjoxNjg3NzY4NDYxMjM4fSwibGNVbGF3Tl
+JHaWdWcGM4RyI6eyJkaXNjdXNzaW9uSWQiOiJPUHVWWkd5ZHcy
+Y1R0ODBMIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQW
+RkIHNlY3Rpb24iLCJjcmVhdGVkIjoxNjg3NzY4NDc4NjQ2fSwi
+S29RMmJlWFpkZzdkQmhDRiI6eyJkaXNjdXNzaW9uSWQiOiJ2SF
+hrZHNpV2tuaUdkbTc0Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0
+ZXh0IjoiQWRkIHNlY3Rpb24gaW4gbW9vZGxlIHRvIGZpbGwgdG
+hlc2Ugb3V0IiwiY3JlYXRlZCI6MTY4Nzc2OTAwNTE0Mn0sIlZT
+YWNoQllDdTJWYndmSWgiOnsiZGlzY3Vzc2lvbklkIjoiOEhnZ2
+1EYVZQMkxMbHYxQiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4
+dCI6IkFkZCBzZWN0aW9uIGluIG1vb2RsZSB0byBmaWxsIHRoZX
+NlIG91dCIsImNyZWF0ZWQiOjE2ODc3NjkwMTExNTB9LCJiMlNu
+SnlDWXRsem1lS29rIjp7ImRpc2N1c3Npb25JZCI6IllTOXhHeV
+ZoblZGR3VveXQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQi
+OiJBZGQgc2VjdGlvbiBpbiBtb29kbGUgdG8gZmlsbCB0aGVzZS
+BvdXQiLCJjcmVhdGVkIjoxNjg3NzY5ODkyMTU3fX0sImhpc3Rv
+cnkiOlstMTAzOTIyMzI4MCwzNjkyNTU0NCwtMTgzMjU0NzEwNS
+wxNzY3NzA0MTFdfQ==
 -->
