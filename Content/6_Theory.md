@@ -23,6 +23,9 @@ When a kernel function is applied to each data point, the effect is like that of
 ![](http://www.geography.hunter.cuny.edu/~jochen/gtech361/lectures/lecture11/concepts/Kernel%20density%20calculations_files/image002.gif)
 The kernel function generally creates a smoother-looking surface than one created with the simple method[^1].
 
+If you still have difficulty understanding this concept, try out this video: https://www.youtube.com/watch?v=x5zLaWT5KPs
+Otherwise, don't worry about it for now and move on! 
+
 - Delimited Text Layer
 - Voronoi/Thiessen polygons
 - Heatmaps (kernel density estimation)
@@ -33,6 +36,6 @@ The kernel function generally creates a smoother-looking surface than one create
 
 [^1]: http://www.geography.hunter.cuny.edu/~jochen/gtech361/lectures/lecture11/concepts/Kernel%20density%20calculations.htm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzUxMDIwMTgsMTEyNDUwODQ4OCwtNj
-kxMzc4NTA5XX0=
+eyJoaXN0b3J5IjpbODMxNjgyOTg3LDExMjQ1MDg0ODgsLTY5MT
+M3ODUwOV19
 -->
