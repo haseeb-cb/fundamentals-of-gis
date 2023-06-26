@@ -65,7 +65,13 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 
 ### Part 3 - Social factors and exposures
 
-11. Let’s now examine the concentrations in different postcodes in Helsinki. To do this, we can calculate raster statistics like we did in in a previous tutorial. To do this again, search in the Processing Toolbox for Zonal statistics.
+11. Let’s now examine the concentrations in different postcodes in Helsinki. To do this, we can calculate raster statistics like we did in in a previous tutorial. 
+	- Open the *Zonal Statistics* tool
+	- Under Input Layer, select Postcodes_air_pollution. This tells QGIS that you want to calculate sta-tistics within these postcode boundaries (the ‘zones’)
+	- Under Raster Layer, select your Interpolated air pollution data. This tells QGIS that you want to calculate statistics from this layer.
+d. Press OK. This will create a new vector layer that at first glance looks the same as the postcode layer. However, it now has the summary statistics for the raster joined to each postcode.
+
+ 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI5RU9OYjRkcFQ2MVpxcDk0Ijp7In
 N0YXJ0Ijo2MzQsImVuZCI6NjUzLCJ0ZXh0IjoiIyMgREFUQSBV
@@ -93,6 +99,6 @@ MDA1MTQyfSwiVlNhY2hCWUN1MlZid2ZJaCI6eyJkaXNjdXNzaW
 9uSWQiOiI4SGdnbURhVlAyTExsdjFCIiwic3ViIjoiZ2g6NDAz
 MDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rpb24gaW4gbW9vZGxlIH
 RvIGZpbGwgdGhlc2Ugb3V0IiwiY3JlYXRlZCI6MTY4Nzc2OTAx
-MTE1MH19LCJoaXN0b3J5IjpbLTIwNTgxMzQzNzMsMzY5MjU1ND
-QsLTE4MzI1NDcxMDUsMTc2NzcwNDExXX0=
+MTE1MH19LCJoaXN0b3J5IjpbMTQ3NzU5MDEyLDM2OTI1NTQ0LC
+0xODMyNTQ3MTA1LDE3Njc3MDQxMV19
 -->
