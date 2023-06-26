@@ -79,8 +79,8 @@ In this tutorial, we will learn about importing survey data and using QGIS to cr
 
 10. Now, we want to **find out which water pumps is closest to the addresses where there have been deaths recorded**. Thiessen polygons are a method used to divide a space into regions based on their proximity to features. That is, within a Thiessen polygon, all the deaths are closer to the point (in this case a pump) that was used to generate that polygon, than to any other point (or pump) in the feature set. Let’s create a set of Thiessen polygons based upon the locations of the Water Pumps in our project.
 	
-	- In the Processing Toolbox Window, search for Voronoi
-	- Double–click the Voronoi polygons tool c) On the Voronoi tool select Water_Pumps as the Input layer
+	- From the Processing Toolbox, open the *Voronoi polygons* tool 
+	- Inthe Voronoi tool select Water_Pumps as the Input layer
 	- Set the Buffer region to 50%
 	- Press Run
 
@@ -120,13 +120,13 @@ RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjE5
 ODksImVuZCI6MjAwOH0sIndQYkR1OUFJVjdpMnprdXciOnsidG
 V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6MjQxMSwiZW5k
 IjoyNDI0fSwibXhEUG9hajJISnI5S0FUMiI6eyJ0ZXh0IjoiLS
-BGaWd1cmUgNiIsInN0YXJ0Ijo3NjIzLCJlbmQiOjc2MzN9LCJi
+BGaWd1cmUgNiIsInN0YXJ0Ijo3NTkwLCJlbmQiOjc2MDB9LCJi
 TVRCWG93UFR0QlExWUpRIjp7InRleHQiOiItIEZpZ3VyZSA3Ii
-wic3RhcnQiOjkxMjcsImVuZCI6OTEzN30sImxTOXZtam5MUlRK
+wic3RhcnQiOjkwOTQsImVuZCI6OTEwNH0sImxTOXZtam5MUlRK
 b3k0V1EiOnsidGV4dCI6Ii0gRmlndXJlIDgiLCJzdGFydCI6MT
-AyNDYsImVuZCI6MTAyNTZ9LCJYU1Y4dXA3OThXSFpMdXRtIjp7
-InRleHQiOiItIEZpZ3VyZSA5Iiwic3RhcnQiOjEwNDgwLCJlbm
-QiOjEwNDkwfSwiM2Q4amtCbnA4OUxaVlltZSI6eyJzdGFydCI6
+AyMTMsImVuZCI6MTAyMjN9LCJYU1Y4dXA3OThXSFpMdXRtIjp7
+InRleHQiOiItIEZpZ3VyZSA5Iiwic3RhcnQiOjEwNDQ3LCJlbm
+QiOjEwNDU3fSwiM2Q4amtCbnA4OUxaVlltZSI6eyJzdGFydCI6
 MjExOCwiZW5kIjoyMTI0LCJ0ZXh0IjoiTW9vZGxlIn19LCJjb2
 1tZW50cyI6eyJHbmRSM2h4aGRxdjluSHIxIjp7ImRpc2N1c3Np
 b25JZCI6IngxNXdXTkJLNkpEdzdWaXYiLCJzdWIiOiJnaDo0MD
@@ -151,6 +151,6 @@ LCJjcmVhdGVkIjoxNjg2NzI4NjY4NDIwfSwiYmNsY1dISFJxQV
 lLVnJ3TCI6eyJkaXNjdXNzaW9uSWQiOiIzZDhqa0JucDg5TFpW
 WW1lIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiRml4IH
 JlZmVyZW5jZSIsImNyZWF0ZWQiOjE2ODc3NTk2MjU5ODV9fSwi
-aGlzdG9yeSI6WzEzMzc5OTYxMTUsNTkyNTgyMjY0LC0xNTEyND
+aGlzdG9yeSI6WzE4MzIzODgwOTUsNTkyNTgyMjY0LC0xNTEyND
 I3MDYsLTU3MjcwNTYyOCw3NTAzMzAzODhdfQ==
 -->
