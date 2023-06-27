@@ -131,7 +131,23 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 
 ### Map visualization  
 
-10. 
+10. **Compose a map of the outcome**
+	1. Categorize the results using Table 1 like in the previous map
+		- Be critical when interpreting the efficiency values
+
+--- 
+
+### Optional challenge 1
+
+11. Calculate the building efficiency ratio using SeutuCD Real estate registry and building registry datasets.
+
+12. Compose a map of the outcome.
+
+---
+
+### Optional challenge 2
+
+13. 
 
 
 
@@ -194,5 +210,5 @@ ZXh0IjoiQWRkIGhpbnQiLCJjcmVhdGVkIjoxNjg3ODQ3NDA5OD
 UxfSwiRTMycXZrbUMwalBTQkluciI6eyJkaXNjdXNzaW9uSWQi
 OiJ5WnhJR3NSeHVqSFFSWVZnIiwic3ViIjoiZ2g6NDAzMDQ3OD
 giLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3
-ODQ3NTAwMDEyfX0sImhpc3RvcnkiOls4MDc0NTU5MThdfQ==
+ODQ3NTAwMDEyfX0sImhpc3RvcnkiOlstMTIyNzM0MTUwMl19
 -->
