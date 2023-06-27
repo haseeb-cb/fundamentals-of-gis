@@ -1,7 +1,6 @@
+### Fundamentals of Geographic Information Systems (GIS)
 
-
-
-> Written with [StackEdit](https://stackedit.io/).
+# Exercise 9:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTExNTI1Njc0NjFdfQ==
 -->
