@@ -20,9 +20,12 @@ It is important to notice that the IDW interpolation method also has some disadv
 
 In GIS, interpolation results are usually shown as a 2 dimensional raster layer.
 
-
+(Hungry for more? Check out videos on youtube, such as:
+- Spatial Interpolation in GIS: https://www.youtube.com/watch?v=Km7Haa82L7M
+- Spatial Interpolation (IDW) using QGIS: https://www.youtube.com/watch?v=gKPGnN38ReE
+- 
 
 [^1]: https://docs.qgis.org/2.18/en/docs/gentle_gis_introduction/spatial_analysis_interpolation.html 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MTkwOTU0NywtMTgyNjYxMzA0MF19
+eyJoaXN0b3J5IjpbLTE0NTkzMjY3NSwtMTgyNjYxMzA0MF19
 -->
