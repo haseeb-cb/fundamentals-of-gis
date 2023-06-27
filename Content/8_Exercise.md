@@ -61,17 +61,29 @@ Work individually or in pairs. Complete the exercise and write a short reflectio
 1. Download, unzip and open the exercise 3 data in QGIS from the course Moodle page (see tips for effective adding of layers below!). 
 Then explore the attribute tables to familiarize yourself with what sorts of data you actually have (this is always a good practice).
 	1. The fields you want to focus on (total floor area, m2) are: 
-	- kara_yht in the SeutuRAMAVA layer
-	- KERALA2 in the Building registry layer.
-	3.  Have a look at the lowest and highest values and the different field names (you can
-ask your Finnish-speaking peers for help). We have for example ones that seem to refer to municipality (kunta), small area codes (kauposanro), and small area names (nimi).
+		- kara_yht in the SeutuRAMAVA layer
+		- KERALA2 in the Building registry layer
+	2.  Have a look at the lowest and highest values and the different field names (you can ask your Finnish-speaking peers for help). We have for example ones that seem to refer to municipality (kunta), small area codes (kauposanro), and  small area names (nimi).
+
+*TIP 1: Select all your vector layers at once by arranging the files by file type when you are adding your layers. Click on the file type header > click on the first SHP file in the list > press and hold SHIFT key > click on the last SHP file on the list.*
+
+- Figure
+
+*TIP 2: When working with data that will probably contain values with umlauts (Å, Ä, Ö), change the encoding to e.g. UTF-8 already when adding your layers, so you won’t run into problems later. Choose UTF-8 in the Encoding dropdown menu and write UTF-8 into Encoding field.*
+
+- Figure
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJySUlNQ2tUNkZLbkt2V1RKIjp7In
 N0YXJ0IjoxMDk4LCJlbmQiOjExMzgsInRleHQiOiIqKkUgPSB0
-b3RhbCBmbG9vciBhcmVhL3RvdGFsIGxhbmQgYXJlYSoqIn19LC
-Jjb21tZW50cyI6eyJOTHQ0Z05aV01nSjBPemxuIjp7ImRpc2N1
-c3Npb25JZCI6InJJSU1Da1Q2RktuS3ZXVEoiLCJzdWIiOiJnaD
-o0MDMwNDc4OCIsInRleHQiOiJBZGQgZGlhZ3JhbSIsImNyZWF0
-ZWQiOjE2ODc4NDY0MzQyNjB9fSwiaGlzdG9yeSI6Wy0xNjU5Mj
-I5MDU4XX0=
+b3RhbCBmbG9vciBhcmVhL3RvdGFsIGxhbmQgYXJlYSoqIn0sIl
+VzR3N3d05pWVVDdnRLR0giOnsic3RhcnQiOjQzODEsImVuZCI6
+NDM4OSwidGV4dCI6Ii0gRmlndXJlIn19LCJjb21tZW50cyI6ey
+JOTHQ0Z05aV01nSjBPemxuIjp7ImRpc2N1c3Npb25JZCI6InJJ
+SU1Da1Q2RktuS3ZXVEoiLCJzdWIiOiJnaDo0MDMwNDc4OCIsIn
+RleHQiOiJBZGQgZGlhZ3JhbSIsImNyZWF0ZWQiOjE2ODc4NDY0
+MzQyNjB9LCJnYW52SzNORUtGM25DSVk1Ijp7ImRpc2N1c3Npb2
+5JZCI6IlVzR3N3d05pWVVDdnRLR0giLCJzdWIiOiJnaDo0MDMw
+NDc4OCIsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOj
+E2ODc4NDY5MzI2ODN9fSwiaGlzdG9yeSI6Wy01MDEyNDgzOThd
+fQ==
 -->
