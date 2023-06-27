@@ -57,11 +57,13 @@ Work individually or in pairs. Complete the exercise and write a short reflectio
 	
 	1. Unzip the files into a folder for this exercise, and open the files in Libra Office, Excel, or something similar. 
 	2. There are three files that contain latitudinal and longitudinal coordinates (WGS84):
-		-	Tuulivoimakysely_soveltuvat_paikat (preferred places for wind turbines)
-		-	Tuulivoimakysely_kielletyt_paikat (unpreferred places for wind turbines)
-		-	Tuulivoimakysely_omat_paikat (coastal/maritime places that are important to
-the residents)
+		-	Tuulivoimakysely_**soveltuvat**_paikat (**preferred** places for wind turbines)
+		-	Tuulivoimakysely_**kielletyt**_paikat (**unpreferred** places for wind turbines)
+		-	Tuulivoimakysely_**omat**_paikat (coastal/maritime places that are **important to
+the residents**)
 
+2. Since it’s difficult to import Excel’s native file format (.xlsx) spreadsheet data into QGIS, you should **save those three files in csv-format (in Libre Office: csv, in Excel:Windows -csv/CSV (comma delimited)**. On Mac, you may have to use Libre Office.
+3. 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJhdGNRU1NlSXNOV3JrUEhRIjp7In
 N0YXJ0Ijo4NywiZW5kIjoxMDgsInRleHQiOiIjIyBPVkVSVklF
@@ -74,5 +76,5 @@ JjcmVhdGVkIjoxNjg3ODUzODg3MzkwfSwiS3lDNkY1VVZGbWdy
 R0pOciI6eyJkaXNjdXNzaW9uSWQiOiJ5TElpSGN2OUJOZVhPdl
 M5Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiVG9vIG11
 Y2g/IiwiY3JlYXRlZCI6MTY4Nzg1NDQ2ODY2NH19LCJoaXN0b3
-J5IjpbLTc2OTk4MzU1Nl19
+J5IjpbOTA0MDgxMjE2XX0=
 -->
