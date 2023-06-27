@@ -122,7 +122,23 @@ the residents**)
 ### Creating the directional distribution analysis for the region 
 
 10. **Download the plugin *Standard Deviational Ellipse***
-11. 
+	- After the download and installation is complete, it should be found under the Vector
+drop-down menu.
+
+11. **Use the plugin to create the default Yuill ellipses for the unpreferred locations of the Töölö
+and Vuosaari respondents**
+	1. Save the resulting ellipses as shapefiles (Make permanent)
+	2. To make the interpretation easier, you can make the ellipses transparent or have them have outlines only and no fill
+	3. If you wish, you can calculate standard deviational ellipses for other kinds of places, too – e.g., preferred locations, or
+		- If you want to calculate an ellipse that takes into consideration the unpreferred locations of both Töölö and Vuosaari residents, but not those of respondents from other parts: first create a new shapefile layer containing the Töölö and Vuosaari residents using the Merge vector layers tool (found in Processing toolbox), for example.
+
+---
+
+### Map visualization  
+
+10. **Compose a map of the outcome**
+	
+
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJhdGNRU1NlSXNOV3JrUEhRIjp7In
 N0YXJ0Ijo4NywiZW5kIjoxMDgsInRleHQiOiIjIyBPVkVSVklF
@@ -154,6 +170,6 @@ dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nzg1NDg4Mj
 Y1NH0sIjVHVFRmVndqSXhPdFhEdzgiOnsiZGlzY3Vzc2lvbklk
 IjoiSnoxT25XdkRLNjNlWEZHNSIsInN1YiI6ImdoOjQwMzA0Nz
 g4IiwidGV4dCI6IkFkZCBmaWd1cmUiLCJjcmVhdGVkIjoxNjg3
-ODU1NDMwNjI5fX0sImhpc3RvcnkiOlstNjM2NjIzODEwLDI2Mj
+ODU1NDMwNjI5fX0sImhpc3RvcnkiOlsxOTIzNjc0ODY3LDI2Mj
 g0OTE4M119
 -->
