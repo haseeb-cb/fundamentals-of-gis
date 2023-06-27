@@ -9,9 +9,11 @@ For example, in air pollution analysis, spatial interpolation allows for the est
 
 There are several spatial interpolation methods commonly used, each with its own strengths and limitations. The choice of interpolation method depends on the characteristics of the dataset, the spatial patterns of the phenomenon being analyzed, and the desired level of accuracy. It is important to assess the reliability and accuracy of the chosen interpolation technique by considering factors such as the data distribution, spatial dependence, and the underlying assumptions of the method.
 
+### Inverse Distance Weighted (IDW)
+One of the most common spatial interpolation methods is Inverse Distance Weighted (IDW). 
 - Spatial Interpolation
 	- IDW
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ3NTkxNTcyLC0xODI2NjEzMDQwXX0=
+eyJoaXN0b3J5IjpbLTkxODk4NDk3LC0xODI2NjEzMDQwXX0=
 -->
