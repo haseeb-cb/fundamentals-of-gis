@@ -63,18 +63,27 @@ Work individually or in pairs. Complete the exercise and write a short reflectio
 the residents**)
 
 2. Since it’s difficult to import Excel’s native file format (.xlsx) spreadsheet data into QGIS, you should **save those three files in csv-format (in Libre Office: csv, in Excel:Windows -csv/CSV (comma delimited)**. On Mac, you may have to use Libre Office.
-3. 
+
+3. **Import the csv -files into QGIS using Add Delimited Text Layer**
+	1. By default, as you are importing the text file, you will probably run into a cramped mass of text in the Sample Data display, like in the picture below. Instead, the Sample Data should look like something you would find in an Attribute table.
+- Figure
+	2. Change File Format to Regular expression delimiter. As we can see in the Sample Data box, the semicolon ; is being used in the text. Type ; into Expression.
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJhdGNRU1NlSXNOV3JrUEhRIjp7In
 N0YXJ0Ijo4NywiZW5kIjoxMDgsInRleHQiOiIjIyBPVkVSVklF
 VyAmIFBVUlBPU0UifSwieUxJaUhjdjlCTmVYT3ZTOSI6eyJzdG
 FydCI6MzI2NCwiZW5kIjozMjc0LCJ0ZXh0IjoiQ09NUExFVElP
-TiJ9fSwiY29tbWVudHMiOnsiMXJneWlGY1dnNjI2NDY0bSI6ey
-JkaXNjdXNzaW9uSWQiOiJhdGNRU1NlSXNOV3JrUEhRIiwic3Vi
-IjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLC
-JjcmVhdGVkIjoxNjg3ODUzODg3MzkwfSwiS3lDNkY1VVZGbWdy
-R0pOciI6eyJkaXNjdXNzaW9uSWQiOiJ5TElpSGN2OUJOZVhPdl
-M5Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiVG9vIG11
-Y2g/IiwiY3JlYXRlZCI6MTY4Nzg1NDQ2ODY2NH19LCJoaXN0b3
-J5IjpbOTA0MDgxMjE2XX0=
+TiJ9LCJaRE5CUUU0VXJENGR2c0JJIjp7InN0YXJ0Ijo2MDExLC
+JlbmQiOjYwMTksInRleHQiOiItIEZpZ3VyZSJ9fSwiY29tbWVu
+dHMiOnsiMXJneWlGY1dnNjI2NDY0bSI6eyJkaXNjdXNzaW9uSW
+QiOiJhdGNRU1NlSXNOV3JrUEhRIiwic3ViIjoiZ2g6NDAzMDQ3
+ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNj
+g3ODUzODg3MzkwfSwiS3lDNkY1VVZGbWdyR0pOciI6eyJkaXNj
+dXNzaW9uSWQiOiJ5TElpSGN2OUJOZVhPdlM5Iiwic3ViIjoiZ2
+g6NDAzMDQ3ODgiLCJ0ZXh0IjoiVG9vIG11Y2g/IiwiY3JlYXRl
+ZCI6MTY4Nzg1NDQ2ODY2NH0sInVvekIwWWxLdG5KVlE2NEQiOn
+siZGlzY3Vzc2lvbklkIjoiWkROQlFFNFVyRDRkdnNCSSIsInN1
+YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIi
+wiY3JlYXRlZCI6MTY4Nzg1NDc1NzY3OH19LCJoaXN0b3J5Ijpb
+LTEyNjg3OTM2ODJdfQ==
 -->
