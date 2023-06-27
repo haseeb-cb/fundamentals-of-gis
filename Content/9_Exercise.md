@@ -93,7 +93,12 @@ the residents**)
 5. To discover possible NIMBY attitudes of the respondents, we’re going to **extract the answers based on the residential areas of the respondents**.
 	-  Doing this is easy, since one of the fields in attribute data has the zip code of the area where each respondent lives in.
 
-
+6. We’re interested in the respondents that live in **Töölö** and **Vuosaari** city districts. Both districts have three zip code areas, the names of which are:
+	- Vuosaari
+		- Pohjois-Vuosaari (00960)
+		- Etelä-Vuosaari (00980)
+		- Aurinkolahti (00990)
+		- 
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJhdGNRU1NlSXNOV3JrUEhRIjp7In
@@ -121,6 +126,6 @@ widGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nzg1
 NDg0NDU5N30sInFhbWNTd0pTSERkSDZ4TFIiOnsiZGlzY3Vzc2
 lvbklkIjoielBiTDNxRjhiUlVUVjZ5cCIsInN1YiI6ImdoOjQw
 MzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZC
-I6MTY4Nzg1NDg4MjY1NH19LCJoaXN0b3J5IjpbLTcxMTc4MTY2
-MV19
+I6MTY4Nzg1NDg4MjY1NH19LCJoaXN0b3J5IjpbLTExMzU5NTk3
+NjhdfQ==
 -->
