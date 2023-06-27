@@ -112,7 +112,9 @@ the residents**)
 8. **Visualize the point feature layers with different colors in Symbology.**
 	- For example: Unpreferred wind park sites as red, preferred as green, etc.
 
-9. To help with later analysis and map composition, **add a WFS layer showing the zip code areas.**
+9. To help with later analysis and map composition, **add a WFS layer showing the zip code areas.** Do this by connecting to either: 
+	1.  Helsinki Region EnvironmentalServices’WFS, https://kartta.hsy.fi/geoserver/wfs – the title of the right zip code layer is pks_postinumeroalueet_2022, and in the attribute table of this layer, the field name for zip codes is posno – or
+	2. 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJhdGNRU1NlSXNOV3JrUEhRIjp7In
 N0YXJ0Ijo4NywiZW5kIjoxMDgsInRleHQiOiIjIyBPVkVSVklF
@@ -144,5 +146,5 @@ dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nzg1NDg4Mj
 Y1NH0sIjVHVFRmVndqSXhPdFhEdzgiOnsiZGlzY3Vzc2lvbklk
 IjoiSnoxT25XdkRLNjNlWEZHNSIsInN1YiI6ImdoOjQwMzA0Nz
 g4IiwidGV4dCI6IkFkZCBmaWd1cmUiLCJjcmVhdGVkIjoxNjg3
-ODU1NDMwNjI5fX0sImhpc3RvcnkiOls5OTg5ODg4OTVdfQ==
+ODU1NDMwNjI5fX0sImhpc3RvcnkiOlsyNjI4NDkxODNdfQ==
 -->
