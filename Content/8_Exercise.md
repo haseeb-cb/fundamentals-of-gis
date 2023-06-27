@@ -45,7 +45,7 @@ In this exercise your task is to **calculate building efficiency ratio on differ
 
 ## COMPLETION
 
-Work individually or in pairs. Complete the exercise and write a short reflection.
+Work individually or in pairs. Complete the exercise and write a short reflection. Include the following:
 1. At least two maps of building efficiency ratio on different spatial scales.
 	- Remember: all maps should have a legend, a scale bar and a north arrow
 
@@ -53,6 +53,18 @@ Work individually or in pairs. Complete the exercise and write a short reflectio
 	-  What the maps tell of the urbanity within Helsinki
 	-  What is omitted/revealed when switching spatial scales
 	-  How well building efficiency ratio describes urbanity
+
+## EXERCISE PHASES
+
+### Getting familiar with the data
+
+1. Download, unzip and open the exercise 3 data in QGIS from the course Moodle page (see tips for effective adding of layers below!). 
+Then explore the attribute tables to familiarize yourself with what sorts of data you actually have (this is always a good practice).
+	1. The fields you want to focus on (total floor area, m2) are: 
+	- kara_yht in the SeutuRAMAVA layer
+	- KERALA2 in the Building registry layer.
+	3.  Have a look at the lowest and highest values and the different field names (you can
+ask your Finnish-speaking peers for help). We have for example ones that seem to refer to municipality (kunta), small area codes (kauposanro), and small area names (nimi).
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJySUlNQ2tUNkZLbkt2V1RKIjp7In
 N0YXJ0IjoxMDk4LCJlbmQiOjExMzgsInRleHQiOiIqKkUgPSB0
@@ -60,6 +72,6 @@ b3RhbCBmbG9vciBhcmVhL3RvdGFsIGxhbmQgYXJlYSoqIn19LC
 Jjb21tZW50cyI6eyJOTHQ0Z05aV01nSjBPemxuIjp7ImRpc2N1
 c3Npb25JZCI6InJJSU1Da1Q2RktuS3ZXVEoiLCJzdWIiOiJnaD
 o0MDMwNDc4OCIsInRleHQiOiJBZGQgZGlhZ3JhbSIsImNyZWF0
-ZWQiOjE2ODc4NDY0MzQyNjB9fSwiaGlzdG9yeSI6WzE1Mjc1ND
-E4OTBdfQ==
+ZWQiOjE2ODc4NDY0MzQyNjB9fSwiaGlzdG9yeSI6Wy0xNjU5Mj
+I5MDU4XX0=
 -->
