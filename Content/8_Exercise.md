@@ -76,6 +76,8 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 2. **You might want to have a background map to help you get your bearings.**
 	1. Use QuickMapServices or XYZ tiles as we have done earlier
 
+---
+
 ### Calculating regional efficiency
 
 3. **Being familiar with the attribute data, now you’ll have to calculate the building efficiency ratios for each district in Helsinki using SeutuRAMAVA data.**
@@ -83,12 +85,26 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 	2. However, you might’ve noticed that the data covers the entire capital region – but only Helsinki is wanted. You can either:
 		- First calculate the efficiency ratio for all small areas in SeutuRAMAVA, and after the calculations are complete, extract Helsinki’s districts, or
 		- Select/clip Helsinki’s districts before any calculations are done.
-	3. *TIP 1: To help you in including the Helsinki small areas only – the municipalities have unique identifying codes. Helsinki’s municipality code is 091 (KUNTA-field).*
-	4. *TIP 2: You might also want to discard the empty outer sea region (called ALUEMERI in the NIMI field) to make mapping simpler (Hint: )*
 
-4. After calculating the efficiency ratios, compose a map.
+*TIP 1: To help you in including the Helsinki small areas only – the municipalities have unique identifying codes. Helsinki’s municipality code is 091 (KUNTA-field).*
+
+*TIP 2: You might also want to discard the empty outer sea region (called ALUEMERI in the NIMI field) to make mapping simpler (Hint: )*
+
+4. **After calculating the efficiency ratios, compose a map.**
 	1. Which districts have the highest efficiency? What about the lowest?
 	2. Why do these districts have high/low efficiency scores?
+
+*TIP 1: Visualize the map using a similar logic as is found in Table 1 and use the same visualization style for all maps you compose.*
+
+*TIP 2: To remove unnecessary information from the legend of your map, make sure that the Auto Update box is unchecked in the Legend Items section of Item Properties in the print layout composer. Then remove (using the buttons with + and – symbols) and rename (by double-clicking on the title) items as you wish.*
+
+---
+
+### Calculating efficiency in a 250m grid
+
+5. Remember: Make sure your project and layers are all in the same coordinate system.
+
+6. 
 
 
 <!--stackedit_data:
@@ -100,38 +116,45 @@ NDM5MywidGV4dCI6Ii0gRmlndXJlIn0sIjFNdzdXY1p0dG16dm
 ZPb3EiOnsic3RhcnQiOjQ2NzEsImVuZCI6NDY3OSwidGV4dCI6
 Ii0gRmlndXJlIn0sImk1cldmZjgwSFJ5WGJydFAiOnsic3Rhcn
 QiOjM1MTksImVuZCI6MzUyNSwidGV4dCI6Ik1vb2RsZSJ9LCJ5
-ZnRIZXhDTURheG5vWVM5Ijp7InN0YXJ0Ijo1NzI3LCJlbmQiOj
-U3MzEsInRleHQiOiJIaW50In0sIno3Y25CUFlad0NqWFdIY3ci
+ZnRIZXhDTURheG5vWVM5Ijp7InN0YXJ0Ijo1NzI2LCJlbmQiOj
+U3MzAsInRleHQiOiJIaW50In0sIno3Y25CUFlad0NqWFdIY3ci
 Onsic3RhcnQiOjQxMjcsImVuZCI6NDM4MywidGV4dCI6IipUSV
 AgMTogU2VsZWN0IGFsbCB5b3VyIHZlY3RvciBsYXllcnMgYXQg
 b25jZSBieSBhcnJhbmdpbmcgdGhlIGZpbGVzIGJ5IGZpbGUgdH
 nigKYifSwiSHJHZ01qMjQ1ZEN1OWt5TiI6eyJzdGFydCI6NDM5
 NSwiZW5kIjo0NjY5LCJ0ZXh0IjoiKlRJUCAyOiBXaGVuIHdvcm
 tpbmcgd2l0aCBkYXRhIHRoYXQgd2lsbCBwcm9iYWJseSBjb250
-YWluIHZhbHVlcyB3aXRoIHVtbGF1dHMgKOKApiJ9fSwiY29tbW
-VudHMiOnsiTkx0NGdOWldNZ0owT3psbiI6eyJkaXNjdXNzaW9u
-SWQiOiJySUlNQ2tUNkZLbkt2V1RKIiwic3ViIjoiZ2g6NDAzMD
-Q3ODgiLCJ0ZXh0IjoiQWRkIGRpYWdyYW0iLCJjcmVhdGVkIjox
-Njg3ODQ2NDM0MjYwfSwiZ2FudkszTkVLRjNuQ0lZNSI6eyJkaX
-NjdXNzaW9uSWQiOiJVc0dzd3dOaVlVQ3Z0S0dIIiwic3ViIjoi
-Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcm
-VhdGVkIjoxNjg3ODQ2OTMyNjgzfSwiN0dGU3hTVnVqRVlxblFZ
-ViI6eyJkaXNjdXNzaW9uSWQiOiIxTXc3V2NadHRtenZmT29xIi
-wic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1
-cmUiLCJjcmVhdGVkIjoxNjg3ODQ2OTM3NTQ2fSwiOGtOb29WWX
-Frb285VDJzWSI6eyJkaXNjdXNzaW9uSWQiOiJpNXJXZmY4MEhS
-eVhicnRQIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiRm
-l4IHJlZmVyZW5jZSIsImNyZWF0ZWQiOjE2ODc4NDY5OTEzNTV9
-LCJEN1pteklwT3FyUWFyOXlWIjp7ImRpc2N1c3Npb25JZCI6In
-lmdEhleENNRGF4bm9ZUzkiLCJzdWIiOiJnaDo0MDMwNDc4OCIs
-InRleHQiOiJBZGQgcmVmZXJlbmNlIiwiY3JlYXRlZCI6MTY4Nz
-g0NzIwMDMxNH0sImtiU25YNHN6cWdhSmJzUGwiOnsiZGlzY3Vz
-c2lvbklkIjoiejdjbkJQWVp3Q2pYV0hjdyIsInN1YiI6ImdoOj
-QwMzA0Nzg4IiwidGV4dCI6Ik1vdmUgdG8gZWFybGllciBpbiBj
-b3Vyc2UiLCJjcmVhdGVkIjoxNjg3ODQ3MjkzODQzfSwieW1Ebm
-dNakVDSWVRUnliTSI6eyJkaXNjdXNzaW9uSWQiOiJIckdnTWoy
-NDVkQ3U5a3lOIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ij
-oiTW92ZSB0byBlYXJsaWVyIGluIGNvdXJzZSIsImNyZWF0ZWQi
-OjE2ODc4NDcyOTc2NTF9fSwiaGlzdG9yeSI6Wy0xNjMyMzE4MD
-I2XX0=
+YWluIHZhbHVlcyB3aXRoIHVtbGF1dHMgKOKApiJ9LCJ2ZW9VRH
+dTc1FQVG43dWl5Ijp7InN0YXJ0Ijo2MDY4LCJlbmQiOjYzODEs
+InRleHQiOiIqVElQIDI6IFRvIHJlbW92ZSB1bm5lY2Vzc2FyeS
+BpbmZvcm1hdGlvbiBmcm9tIHRoZSBsZWdlbmQgb2YgeW91ciBt
+YXAsIG1ha2Ugc3Vy4oCmIn19LCJjb21tZW50cyI6eyJOTHQ0Z0
+5aV01nSjBPemxuIjp7ImRpc2N1c3Npb25JZCI6InJJSU1Da1Q2
+RktuS3ZXVEoiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOi
+JBZGQgZGlhZ3JhbSIsImNyZWF0ZWQiOjE2ODc4NDY0MzQyNjB9
+LCJnYW52SzNORUtGM25DSVk1Ijp7ImRpc2N1c3Npb25JZCI6Il
+VzR3N3d05pWVVDdnRLR0giLCJzdWIiOiJnaDo0MDMwNDc4OCIs
+InRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODc4ND
+Y5MzI2ODN9LCI3R0ZTeFNWdWpFWXFuUVlWIjp7ImRpc2N1c3Np
+b25JZCI6IjFNdzdXY1p0dG16dmZPb3EiLCJzdWIiOiJnaDo0MD
+MwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQi
+OjE2ODc4NDY5Mzc1NDZ9LCI4a05vb1ZZcWtvbzlUMnNZIjp7Im
+Rpc2N1c3Npb25JZCI6Imk1cldmZjgwSFJ5WGJydFAiLCJzdWIi
+OiJnaDo0MDMwNDc4OCIsInRleHQiOiJGaXggcmVmZXJlbmNlIi
+wiY3JlYXRlZCI6MTY4Nzg0Njk5MTM1NX0sIkQ3Wm16SXBPcXJR
+YXI5eVYiOnsiZGlzY3Vzc2lvbklkIjoieWZ0SGV4Q01EYXhub1
+lTOSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBy
+ZWZlcmVuY2UiLCJjcmVhdGVkIjoxNjg3ODQ3MjAwMzE0fSwia2
+JTblg0c3pxZ2FKYnNQbCI6eyJkaXNjdXNzaW9uSWQiOiJ6N2Nu
+QlBZWndDalhXSGN3Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZX
+h0IjoiTW92ZSB0byBlYXJsaWVyIGluIGNvdXJzZSIsImNyZWF0
+ZWQiOjE2ODc4NDcyOTM4NDN9LCJ5bURuZ01qRUNJZVFSeWJNIj
+p7ImRpc2N1c3Npb25JZCI6IkhyR2dNajI0NWRDdTlreU4iLCJz
+dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJNb3ZlIHRvIGVhcm
+xpZXIgaW4gY291cnNlIiwiY3JlYXRlZCI6MTY4Nzg0NzI5NzY1
+MX0sImxrbnREM3ZMWmh6anZYVXYiOnsiZGlzY3Vzc2lvbklkIj
+oidmVvVUR3U3NRUFRuN3VpeSIsInN1YiI6ImdoOjQwMzA0Nzg4
+IiwidGV4dCI6Ik1vdmUgdG8gZWFybGllciBpbiBjb3Vyc2UiLC
+JjcmVhdGVkIjoxNjg3ODQ3MzM2ODgyfX0sImhpc3RvcnkiOlsx
+ODE0MDc2MzQzXX0=
 -->
