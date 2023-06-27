@@ -12,11 +12,20 @@ There are several spatial interpolation methods commonly used, each with its own
 ### Inverse Distance Weighted (IDW)
 One of the most common spatial interpolation methods is Inverse Distance Weighted (IDW). In the IDW interpolation method, the sample points are weighted during interpolation such that the influence of one point relative to another declines with distance from the unknown point you want to create.
 
-![](https://docs.qgis.org/2.18/en/_images/idw_interpolation.png)
+![](https://docs.qgis.org/2.18/en/_images/idw_interpolation.png)[^1]
+
+Weighting is assigned to sample points through the use of a weighting coefficient that controls how the weighting influence will drop off as the distance from new point increases. The greater the weighting coefficient, the less the effect points will have if they are far from the unknown point during the interpolation process. As the coefficient increases, the value of the unknown point approaches the value of the nearest observational point.
+
+It is important to notice that the IDW interpolation method also has some disadvantages: the quality of the interpolation result can decrease, if the distribution of sample data points is uneven. Furthermore, maximum and minimum values in the interpolated surface can only occur at sample data points. This often results in small peaks and pits around the sample data points.
+
+In GIS, interpolation results are usually shown as a 2 dimensional raster layer[^1].
+
 
 - Spatial Interpolation
 	- IDW
 
+[^1]: https://docs.qgis.org/2.18/en/docs/gentle_gis_introduction/spatial_analysis_interpolation.html#figure-idw-result
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MzA5OTk5MywtMTgyNjYxMzA0MF19
+eyJoaXN0b3J5IjpbLTEzOTA1ODgxNjcsLTE4MjY2MTMwNDBdfQ
+==
 -->
