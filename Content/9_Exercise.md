@@ -98,8 +98,15 @@ the residents**)
 		- Pohjois-Vuosaari (00960)
 		- Etelä-Vuosaari (00980)
 		- Aurinkolahti (00990)
-		- 
+	- Töölö
+		- Etu-Töölö (00100)
+		- Keski-Töölö (00260)
+		- Taka-Töölö (00250)
 
+7. For each of the three layers (preferred/unpreferred/important places layers), **select the entries by respondents from Vuosaari, employing *Select features using an expression*** and the zip code information provided above.
+	1. Save the selections as new shapefile layers.
+	2. Then create layers containing the preferred, unpreferred, and important locations of Töölö respondents only (select the right features using the zip code-based expression on the three
+layers; save the selections as new layers).
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJhdGNRU1NlSXNOV3JrUEhRIjp7In
 N0YXJ0Ijo4NywiZW5kIjoxMDgsInRleHQiOiIjIyBPVkVSVklF
@@ -126,6 +133,6 @@ widGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nzg1
 NDg0NDU5N30sInFhbWNTd0pTSERkSDZ4TFIiOnsiZGlzY3Vzc2
 lvbklkIjoielBiTDNxRjhiUlVUVjZ5cCIsInN1YiI6ImdoOjQw
 MzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZC
-I6MTY4Nzg1NDg4MjY1NH19LCJoaXN0b3J5IjpbLTExMzU5NTk3
-NjhdfQ==
+I6MTY4Nzg1NDg4MjY1NH19LCJoaXN0b3J5IjpbMjA4NDkzNzMz
+Ml19
 -->
