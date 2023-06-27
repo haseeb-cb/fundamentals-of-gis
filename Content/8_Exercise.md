@@ -158,7 +158,7 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 			- How does altering these affect the outcome?
 		3. If you happen to encounter an error, try to reduce the rows and columns values
 
-14. Compose a map of the heatmap analysis, include it in your report and compare it to the other maps in the analysis.
+14. Compose a map of the heatmap analysis
 
 
 
@@ -221,5 +221,5 @@ ZXh0IjoiQWRkIGhpbnQiLCJjcmVhdGVkIjoxNjg3ODQ3NDA5OD
 UxfSwiRTMycXZrbUMwalBTQkluciI6eyJkaXNjdXNzaW9uSWQi
 OiJ5WnhJR3NSeHVqSFFSWVZnIiwic3ViIjoiZ2g6NDAzMDQ3OD
 giLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3
-ODQ3NTAwMDEyfX0sImhpc3RvcnkiOlsxNDIyMzc1NzMwXX0=
+ODQ3NTAwMDEyfX0sImhpc3RvcnkiOlstMTA3MTIzMTgzMV19
 -->
