@@ -136,7 +136,18 @@ and Vuosaari respondents**
 
 ### Optional: Hexa-grid analysis for wind park locations
 
-12. 
+12. UsingMMQGIS plugin, create a hexagonal grid that covers the municipal borders of Helsinki
+	1. A good size for the hexagons could be approximately 500m x ~500m or 750m x ~750m.
+	2. Make sure that the grid has a same coordinate system as your point features. (To change it: Save features as → select the correct coordinate system.)
+
+13. Calculate the number of preferred and unpreferred points within each grid.
+	1. Hint: Count points in polygon -tool might be helpful here
+	2. Create a new field to represent whether the grid has more preferred locations or unpreferred points.
+
+14. Compose a map of the outcome, include it in your report and analysis.
+	- Visualize to highlight the most preferred and most unpreferred areas for wind turbines
+	- What kind of spatial patterns do the preferred and unpreferred places for wind turbines show?
+	- Can you identify any potential conflict areas?
 
 
 ---
@@ -184,6 +195,6 @@ dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nzg1NDg4Mj
 Y1NH0sIjVHVFRmVndqSXhPdFhEdzgiOnsiZGlzY3Vzc2lvbklk
 IjoiSnoxT25XdkRLNjNlWEZHNSIsInN1YiI6ImdoOjQwMzA0Nz
 g4IiwidGV4dCI6IkFkZCBmaWd1cmUiLCJjcmVhdGVkIjoxNjg3
-ODU1NDMwNjI5fX0sImhpc3RvcnkiOlstMjY3ODk2ODY3LDI2Mj
+ODU1NDMwNjI5fX0sImhpc3RvcnkiOlstMzE3MDI2NTQ1LDI2Mj
 g0OTE4M119
 -->
