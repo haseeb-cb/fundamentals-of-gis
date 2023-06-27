@@ -125,6 +125,13 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 		6. Hit Run. This might take a while if your computer is tired. Have a coffee.
 
 9. **Calculate the building efficiency ratio for the grid using field calculator. You need the *area of each cell* for this calculation.**
+	1. Remember to choose an appropriate output field type.
+
+--- 
+
+### Map visualization  
+
+10. 
 
 
 
@@ -187,5 +194,5 @@ ZXh0IjoiQWRkIGhpbnQiLCJjcmVhdGVkIjoxNjg3ODQ3NDA5OD
 UxfSwiRTMycXZrbUMwalBTQkluciI6eyJkaXNjdXNzaW9uSWQi
 OiJ5WnhJR3NSeHVqSFFSWVZnIiwic3ViIjoiZ2g6NDAzMDQ3OD
 giLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3
-ODQ3NTAwMDEyfX0sImhpc3RvcnkiOlsxMzUwOTA5MTA0XX0=
+ODQ3NTAwMDEyfX0sImhpc3RvcnkiOls4MDc0NTU5MThdfQ==
 -->
