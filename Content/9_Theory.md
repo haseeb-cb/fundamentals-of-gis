@@ -4,6 +4,8 @@
 
 
 - PPGIS/SoftGIS
+- Directional Distribution
+	- Standard Deviational Ellipse, SDE
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NDA4MjkyMCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTkxOTU2MDk0NSw3MzA5OTgxMTZdfQ==
 -->
