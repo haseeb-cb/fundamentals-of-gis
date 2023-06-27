@@ -58,7 +58,7 @@ Work individually or in pairs. Complete the exercise and write a short reflectio
 
 ### Getting familiar with the data
 
-1. Download, unzip and open the exercise 3 data in QGIS from the course Moodle page (see tips for effective adding of layers below!). 
+1. **Download, unzip and open the exercise 8 data in QGIS from the course Moodle page** (see tips for effective adding of layers below!). 
 Then explore the attribute tables to familiarize yourself with what sorts of data you actually have (this is always a good practice).
 	1. The fields you want to focus on (total floor area, m2) are: 
 		- kara_yht in the SeutuRAMAVA layer
@@ -72,18 +72,30 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 *TIP 2: When working with data that will probably contain values with umlauts (Å, Ä, Ö), change the encoding to e.g. UTF-8 already when adding your layers, so you won’t run into problems later. Choose UTF-8 in the Encoding dropdown menu and write UTF-8 into Encoding field.*
 
 - Figure
+
+2. **You might want to have a background map to help you get your bearings.**
+	1. Use QuickMapServices o
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJySUlNQ2tUNkZLbkt2V1RKIjp7In
 N0YXJ0IjoxMDk4LCJlbmQiOjExMzgsInRleHQiOiIqKkUgPSB0
 b3RhbCBmbG9vciBhcmVhL3RvdGFsIGxhbmQgYXJlYSoqIn0sIl
-VzR3N3d05pWVVDdnRLR0giOnsic3RhcnQiOjQzODEsImVuZCI6
-NDM4OSwidGV4dCI6Ii0gRmlndXJlIn19LCJjb21tZW50cyI6ey
-JOTHQ0Z05aV01nSjBPemxuIjp7ImRpc2N1c3Npb25JZCI6InJJ
-SU1Da1Q2RktuS3ZXVEoiLCJzdWIiOiJnaDo0MDMwNDc4OCIsIn
-RleHQiOiJBZGQgZGlhZ3JhbSIsImNyZWF0ZWQiOjE2ODc4NDY0
-MzQyNjB9LCJnYW52SzNORUtGM25DSVk1Ijp7ImRpc2N1c3Npb2
-5JZCI6IlVzR3N3d05pWVVDdnRLR0giLCJzdWIiOiJnaDo0MDMw
-NDc4OCIsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOj
-E2ODc4NDY5MzI2ODN9fSwiaGlzdG9yeSI6Wy01MDEyNDgzOThd
-fQ==
+VzR3N3d05pWVVDdnRLR0giOnsic3RhcnQiOjQzODUsImVuZCI6
+NDM5MywidGV4dCI6Ii0gRmlndXJlIn0sIjFNdzdXY1p0dG16dm
+ZPb3EiOnsic3RhcnQiOjQ2NzEsImVuZCI6NDY3OSwidGV4dCI6
+Ii0gRmlndXJlIn0sImk1cldmZjgwSFJ5WGJydFAiOnsic3Rhcn
+QiOjM1MTksImVuZCI6MzUyNSwidGV4dCI6Ik1vb2RsZSJ9fSwi
+Y29tbWVudHMiOnsiTkx0NGdOWldNZ0owT3psbiI6eyJkaXNjdX
+NzaW9uSWQiOiJySUlNQ2tUNkZLbkt2V1RKIiwic3ViIjoiZ2g6
+NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGRpYWdyYW0iLCJjcmVhdG
+VkIjoxNjg3ODQ2NDM0MjYwfSwiZ2FudkszTkVLRjNuQ0lZNSI6
+eyJkaXNjdXNzaW9uSWQiOiJVc0dzd3dOaVlVQ3Z0S0dIIiwic3
+ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUi
+LCJjcmVhdGVkIjoxNjg3ODQ2OTMyNjgzfSwiN0dGU3hTVnVqRV
+lxblFZViI6eyJkaXNjdXNzaW9uSWQiOiIxTXc3V2NadHRtenZm
+T29xIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIH
+BpY3R1cmUiLCJjcmVhdGVkIjoxNjg3ODQ2OTM3NTQ2fSwiOGtO
+b29WWXFrb285VDJzWSI6eyJkaXNjdXNzaW9uSWQiOiJpNXJXZm
+Y4MEhSeVhicnRQIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0
+IjoiRml4IHJlZmVyZW5jZSIsImNyZWF0ZWQiOjE2ODc4NDY5OT
+EzNTV9fSwiaGlzdG9yeSI6WzM4MDYxMTY0NV19
 -->
