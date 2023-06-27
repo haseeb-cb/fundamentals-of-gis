@@ -70,6 +70,10 @@ the residents**)
 	2. Change File Format to Regular expression delimiter. As we can see in the Sample Data box, the semicolon ; is being used in the text. Type ; into Expression.
 - Figure
 	3. If the names of the columns in the sample data are not ID, postinumero, and so on, but field_1, field_2, etc. (compare pictures above and below): make sure to tick the First record has field values checkbox.
+- Figure
+	4.  To transform the geographic information of your text file into a visual map, we have to tell QGIS where in the text locations are specified. Therefore, under Geometry Definition, choose the right **X field** (= Lng) and **Y field** (= Lat) from the menu. Also set the correct **Geometry CRS** (= EPSG:4326 - WGS 84). Then Add.
+		- The coordinate systemused for the points is a global coordinate system WGS84 (also used by e.g. Google Maps/Earth). What do you think might be the reason that the coordinates are inWGS84 instead of a Finnish coordinate system?
+	5. Once you have imported all three text files into QGIS, save each of the layers on your computer in shapefile format. Name these layers informatively (e.g., preferred (‘soveltuvat’), unpreferred (‘kielletyt’), and important (‘omat’)). Fromhere on, continue with the exercise working on these new layers.
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJhdGNRU1NlSXNOV3JrUEhRIjp7In
 N0YXJ0Ijo4NywiZW5kIjoxMDgsInRleHQiOiIjIyBPVkVSVklF
@@ -78,19 +82,24 @@ FydCI6MzI2NCwiZW5kIjozMjc0LCJ0ZXh0IjoiQ09NUExFVElP
 TiJ9LCJaRE5CUUU0VXJENGR2c0JJIjp7InN0YXJ0Ijo2MDExLC
 JlbmQiOjYwMTksInRleHQiOiItIEZpZ3VyZSJ9LCI3THBVekpy
 bkxEQ290cVpoIjp7InN0YXJ0Ijo2MTgxLCJlbmQiOjYxODksIn
-RleHQiOiItIEZpZ3VyZSJ9fSwiY29tbWVudHMiOnsiMXJneWlG
-Y1dnNjI2NDY0bSI6eyJkaXNjdXNzaW9uSWQiOiJhdGNRU1NlSX
-NOV3JrUEhRIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ijoi
-QWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3ODUzODg3MzkwfS
-wiS3lDNkY1VVZGbWdyR0pOciI6eyJkaXNjdXNzaW9uSWQiOiJ5
-TElpSGN2OUJOZVhPdlM5Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLC
-J0ZXh0IjoiVG9vIG11Y2g/IiwiY3JlYXRlZCI6MTY4Nzg1NDQ2
-ODY2NH0sInVvekIwWWxLdG5KVlE2NEQiOnsiZGlzY3Vzc2lvbk
-lkIjoiWkROQlFFNFVyRDRkdnNCSSIsInN1YiI6ImdoOjQwMzA0
-Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MT
-Y4Nzg1NDc1NzY3OH0sIlRUcXRzaG1FV0lvM1I2NFUiOnsiZGlz
-Y3Vzc2lvbklkIjoiN0xwVXpKcm5MRENvdHFaaCIsInN1YiI6Im
-doOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3Jl
-YXRlZCI6MTY4Nzg1NDg0NDU5N319LCJoaXN0b3J5IjpbLTE1Nz
-Y1NTkyMDJdfQ==
+RleHQiOiItIEZpZ3VyZSJ9LCJ6UGJMM3FGOGJSVVRWNnlwIjp7
+InN0YXJ0Ijo2NDAyLCJlbmQiOjY0MTAsInRleHQiOiItIEZpZ3
+VyZSJ9fSwiY29tbWVudHMiOnsiMXJneWlGY1dnNjI2NDY0bSI6
+eyJkaXNjdXNzaW9uSWQiOiJhdGNRU1NlSXNOV3JrUEhRIiwic3
+ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUi
+LCJjcmVhdGVkIjoxNjg3ODUzODg3MzkwfSwiS3lDNkY1VVZGbW
+dyR0pOciI6eyJkaXNjdXNzaW9uSWQiOiJ5TElpSGN2OUJOZVhP
+dlM5Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiVG9vIG
+11Y2g/IiwiY3JlYXRlZCI6MTY4Nzg1NDQ2ODY2NH0sInVvekIw
+WWxLdG5KVlE2NEQiOnsiZGlzY3Vzc2lvbklkIjoiWkROQlFFNF
+VyRDRkdnNCSSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
+IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nzg1NDc1NzY3OH
+0sIlRUcXRzaG1FV0lvM1I2NFUiOnsiZGlzY3Vzc2lvbklkIjoi
+N0xwVXpKcm5MRENvdHFaaCIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
+widGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nzg1
+NDg0NDU5N30sInFhbWNTd0pTSERkSDZ4TFIiOnsiZGlzY3Vzc2
+lvbklkIjoielBiTDNxRjhiUlVUVjZ5cCIsInN1YiI6ImdoOjQw
+MzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZC
+I6MTY4Nzg1NDg4MjY1NH19LCJoaXN0b3J5IjpbLTIwNzI4OTc1
+NThdfQ==
 -->
