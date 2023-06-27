@@ -90,6 +90,10 @@ the residents**)
 
 ### Classification of the data
 
+5. To discover possible NIMBY attitudes of the respondents, we’re going to **extract the answers based on the residential areas of the respondents**.
+	-  Doing this is easy, since one of the fields in attribute data has the zip code of the area where each respondent lives in.
+
+
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJhdGNRU1NlSXNOV3JrUEhRIjp7In
@@ -117,6 +121,6 @@ widGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nzg1
 NDg0NDU5N30sInFhbWNTd0pTSERkSDZ4TFIiOnsiZGlzY3Vzc2
 lvbklkIjoielBiTDNxRjhiUlVUVjZ5cCIsInN1YiI6ImdoOjQw
 MzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZC
-I6MTY4Nzg1NDg4MjY1NH19LCJoaXN0b3J5IjpbLTE4MTM3ODA1
-NzhdfQ==
+I6MTY4Nzg1NDg4MjY1NH19LCJoaXN0b3J5IjpbLTcxMTc4MTY2
+MV19
 -->
