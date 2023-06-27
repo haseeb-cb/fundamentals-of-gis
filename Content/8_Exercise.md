@@ -15,48 +15,44 @@ In this exercise your task is to **calculate building efficiency ratio on differ
 
 1. Calculation of building efficiency ratio on a few different spatial scales
 	
-	a. City district level (Helsinki ‘small areas’)
-	b. 250 m grid level
-	c. Optional: Real estate registry (or property) level
+	- City district level (Helsinki ‘small areas’)
+	- 250 m grid level
+	- Optional: Real estate registry (or property) level
 
 2. Composing at least two maps depicting building efficiency ratios on different spatial scales
 
 3. Thinking about how altering the spatial scale affects a phenomenon depicted on a map
 	
-	a. Be mindful of which efficiency ratio scoring (table 1) you use at different spatial scales when visualizing/interpreting the results.
+	- Be mindful of which efficiency ratio scoring (table 1) you use at different spatial scales when visualizing/interpreting the results.
 
 ## DATA USED/NEEDED
 
 1. SeutuRAMAVA 2016 (zoning data of the Helsinki region)
 
-	1. Spatial scale is at city district (‘small area’) level
+	- Spatial scale is at city district (‘small area’) level
 
 2. HSY’s SeutuCD building registry data 2013
 
-	1. Attribute data has been modified to protect the privacy of the inhabitants
-	2.  KERALA2-field has the total floor area (m2), use this field in the analysis!
+	- Attribute data has been modified to protect the privacy of the inhabitants
+	-  KERALA2-field has the total floor area (m2), use this field in the analysis!
 		- (The original KERALA field also includes NoData -values, which will give you incorrect results – do not use that field. To save you some time, we have already created for you the KERALA2 field, where the original KERALA field’s values with 99999999 (or NoData) have been reassigned to be 0. So, use KERALA2, not KERALA.)
 
 3. A 250-meter grid, which you will create (Plugin: MMQGIS)
-	1. Can be a grid of squares, diamonds or hexagons
+	- Can be a grid of squares, diamonds or hexagons
 
 4. Optional: HSY’s SeutuCD Real estate registry 2013
-	1. This data has been modified for privacy reasons
+	- This data has been modified for privacy reasons
 
 ## COMPLETION
 
-Work individually or in pairs. Complete the exercise and write a short report together (2-3 pages of text, PLUS the visualization(s)) containing at least the following reflections:
+Work individually or in pairs. Complete the exercise and write a short reflection.
 1. At least two maps of building efficiency ratio on different spatial scales.
 	- Remember: all maps should have a legend, a scale bar and a north arrow
 
-2. Describe how said maps were done:
-	- What analysis methods were used (tools employed)
-	-  What was difficult, what was easy
-3. Analysis of the maps, considering:
+2. Analysis of the maps, considering:
 	-  What the maps tell of the urbanity within Helsinki
 	-  What is omitted/revealed when switching spatial scales
-c. How well building efficiency ratio describes urbanity
-3. Return your exercise report to the course Moodle in one week’s time.
+	-  How well building efficiency ratio describes urbanity
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJySUlNQ2tUNkZLbkt2V1RKIjp7In
 N0YXJ0IjoxMDk4LCJlbmQiOjExMzgsInRleHQiOiIqKkUgPSB0
@@ -64,6 +60,6 @@ b3RhbCBmbG9vciBhcmVhL3RvdGFsIGxhbmQgYXJlYSoqIn19LC
 Jjb21tZW50cyI6eyJOTHQ0Z05aV01nSjBPemxuIjp7ImRpc2N1
 c3Npb25JZCI6InJJSU1Da1Q2RktuS3ZXVEoiLCJzdWIiOiJnaD
 o0MDMwNDc4OCIsInRleHQiOiJBZGQgZGlhZ3JhbSIsImNyZWF0
-ZWQiOjE2ODc4NDY0MzQyNjB9fSwiaGlzdG9yeSI6WzgxNzE3NT
-M0Ml19
+ZWQiOjE2ODc4NDY0MzQyNjB9fSwiaGlzdG9yeSI6WzE1Mjc1ND
+E4OTBdfQ==
 -->
