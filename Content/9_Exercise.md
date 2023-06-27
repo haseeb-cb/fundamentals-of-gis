@@ -11,6 +11,28 @@ Today we’re using an online map questionnaire from 2015 about possible wind po
 ### Directional Distribution (Standard Deviational Ellipse, SDE)
 
 We’ll create standard deviational ellipses to summarize the spatial characteristics of geographic features: central tendency, dispersion, and directional trends. Standard Deviation Ellipse shows the area where the majority of the features (here, possible wind power sites)are located:When the underlying spatial pattern of features is concentrated in the center with fewer features toward the periphery (a spatial normal distribution), a standard deviational ellipse polygon will cover approximately 68 percent of the features.
+
+![](https://geol260.academic.wlu.edu/files/lecture_notes/standardellipse_stat.gif)
+(Hungry for more? 
+- http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-statistics-toolbox/directional-distribution.htm
+- http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-statistics-toolbox/h-how-directional-distribution-standard-deviationa.htm)
+
+## OBJECTIVES
+
+1. Getting familiar with SoftGIS/PPGIS (public participation GIS) data from a wind power
+questionnaire
+2. Examining the directional distribution of answers
+3. Studying NIMBY attitudes from two locations
+
+## DATA USED/NEEDED
+
+1. “Helsingin tuulivoimakysely 2015” (“Wind power survey for Helsinki 2015”)
+	-  Find and download this Excel data from http://www.hri.fi/en/
+2. Zip code areas of Helsinki”)
+a. Download this data from Helsinki Region Environmental Authority’sWFS (HSYWFS):
+3
+title pks_postinumeroalueet_2022
+b. Or from the WFS of the city of Helsinki: title Postinumeroalue
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJhdGNRU1NlSXNOV3JrUEhRIjp7In
 N0YXJ0Ijo4NywiZW5kIjoxMDgsInRleHQiOiIjIyBPVkVSVklF
@@ -18,5 +40,5 @@ VyAmIFBVUlBPU0UifX0sImNvbW1lbnRzIjp7IjFyZ3lpRmNXZz
 YyNjQ2NG0iOnsiZGlzY3Vzc2lvbklkIjoiYXRjUVNTZUlzTldy
 a1BIUSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZC
 BwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nzg1Mzg4NzM5MH19LCJo
-aXN0b3J5IjpbMTkwOTM5OTMyNF19
+aXN0b3J5IjpbLTY3MzA5ODEwMF19
 -->
