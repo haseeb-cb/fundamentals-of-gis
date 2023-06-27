@@ -3,6 +3,8 @@
 
 # Theory 7: Spatial Interpolation
 
+![](https://gisgeography.com/wp-content/uploads/2016/05/IDW-Featured-Image-1265x568.png)
+
 Spatial interpolation is a technique used in GIS to estimate values at unsampled locations based on known measurements from surrounding locations. It is a method of creating continuous surfaces or maps of a particular phenomenon across a study area where data points are limited or unevenly distributed.
 
 For example, in air pollution analysis, spatial interpolation allows for the estimation of pollutant concentrations at locations where direct measurements are not available or sparse. It helps fill in data gaps and provides a more comprehensive representation of pollutant levels across the study area. By utilizing mathematical models and statistical techniques, spatial interpolation generates a continuous surface that represents the varying concentration of pollutants, providing a smoother representation of the spatial patterns.
@@ -20,12 +22,13 @@ It is important to notice that the IDW interpolation method also has some disadv
 
 In GIS, interpolation results are usually shown as a 2 dimensional raster layer.
 
-(Hungry for more? Check out videos on youtube, such as:
+(*Hungry for more or learn better using different methods? Check out videos on youtube, such as*:
 - Spatial Interpolation in GIS: https://www.youtube.com/watch?v=Km7Haa82L7M
 - Spatial Interpolation (IDW) using QGIS: https://www.youtube.com/watch?v=gKPGnN38ReE
-- 
+- A "Crash Course" to Spatial Interpolation: https://www.youtube.com/watch?v=i0Zrk68EkFE)
 
 [^1]: https://docs.qgis.org/2.18/en/docs/gentle_gis_introduction/spatial_analysis_interpolation.html 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTkzMjY3NSwtMTgyNjYxMzA0MF19
+eyJoaXN0b3J5IjpbLTEzMDkzNjc5NzYsLTE4MjY2MTMwNDBdfQ
+==
 -->
