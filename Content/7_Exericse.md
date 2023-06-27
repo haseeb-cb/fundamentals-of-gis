@@ -9,11 +9,11 @@ Air pollution analysis using spatial interpolation techniques is a crucial aspec
 
 Air pollution analysis aims to assess the levels of pollutants such as particulate matter, nitrogen dioxide, sulfur dioxide, and ozone in the atmosphere. These pollutants are associated with adverse health effects, including respiratory and cardiovascular diseases, reduced lung function, and increased mortality rates. Additionally, air pollution can have significant social implications, particularly for vulnerable populations residing in highly polluted areas. Environmental justice issues arise when certain communities, often marginalized or low-income, are disproportionately exposed to higher levels of air pollution, exacerbating existing health disparities.
 
-Spatial interpolation techniques, facilitated by Geographic Information Systems (GIS), play a vital role in air pollution analysis. Interpolation enables the estimation of pollutant concentrations at locations where direct measurements are unavailable or sparse. By utilizing mathematical models and available data points, spatial interpolation creates continuous surfaces or maps of pollutant concentrations, providing a comprehensive view of air pollution patterns across the study area. This spatially interpolated information helps identify pollution hotspots, characterize exposure gradients, and assess the spatial distribution of health risks associated with air pollution.
-
 Understanding the social implications of air pollution is crucial for promoting environmental justice and equitable decision-making. Marginalized communities often face a higher burden of pollution due to factors such as proximity to industrial areas, highways, or other pollution sources. Air pollution exacerbates existing socio-economic disparities by compromising the quality of life, limiting economic opportunities, and perpetuating health inequalities. By conducting air pollution analysis and incorporating spatial interpolation techniques, decision-makers and researchers can identify and address these social implications, striving for equitable policies and interventions to protect vulnerable populations.
 
-In summary, air pollution analysis using spatial interpolation techniques is essential for understanding the spatial distribution and impact of pollutants on human health and society. By leveraging GIS and interpolation methods, researchers and policymakers can identify pollution hotspots, assess health risks, and promote environmental justice. These analyses contribute to evidence-based decision-making, enabling the development of targeted interventions and policies to mitigate air pollution's adverse effects on both individuals and communities.
+Spatial interpolation techniques, facilitated by GIS, play a vital role in air pollution analysis. Interpolation enables the estimation of pollutant concentrations at locations where direct measurements are unavailable or sparse. By utilizing mathematical models and available data points, spatial interpolation creates continuous surfaces or maps of pollutant concentrations, providing a comprehensive view of air pollution patterns across the study area. This spatially interpolated information helps identify pollution hotspots, characterize exposure gradients, and assess the spatial distribution of health risks associated with air pollution.
+
+Air pollution analysis using spatial interpolation techniques is essential for understanding the spatial distribution and impact of pollutants on human health and society. By leveraging GIS and interpolation methods, researchers and policymakers can identify pollution hotspots, assess health risks, and promote environmental justice. These analyses contribute to evidence-based decision-making, enabling the development of targeted interventions and policies to mitigate air pollution's adverse effects on both individuals and communities.
 
 ## OBJECTIVES
 
@@ -108,22 +108,22 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 15. You’ve now answered your research questions. Make a nice informative map, showing the interpolated air pollution raster, and the air pollution monitoring points. Insert a legend for concentrations, so we know how the air pollution is varying across the city.
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI5RU9OYjRkcFQ2MVpxcDk0Ijp7In
-N0YXJ0IjozNzg1LCJlbmQiOjM4MDQsInRleHQiOiIjIyBEQVRB
+N0YXJ0IjozNzQwLCJlbmQiOjM3NTksInRleHQiOiIjIyBEQVRB
 IFVTRUQvTkVFREVEIn0sIk9QdVZaR3lkdzJjVHQ4MEwiOnsic3
 RhcnQiOjk3LCJlbmQiOjExOCwidGV4dCI6IiMjIE9WRVJWSUVX
 ICYgUFVSUE9TRSJ9LCJ2SFhrZHNpV2tuaUdkbTc0Ijp7InN0YX
-J0IjozNTYzLCJlbmQiOjM3ODMsInRleHQiOiItIFdoYXQgYXJl
+J0IjozNTE4LCJlbmQiOjM3MzgsInRleHQiOiItIFdoYXQgYXJl
 IHRoZSBjb25jZW50cmF0aW9ucyBvZiBuaXRyb2dlbiBkaW94aW
 RlIChOTzIpIGFpciBwb2xsdXRpb24gaW4gdGhlIEhl4oCmIn0s
-IjhIZ2dtRGFWUDJMTGx2MUIiOnsic3RhcnQiOjU0ODgsImVuZC
-I6NTU5OCwidGV4dCI6IkRvZXMgYW55d2hlcmUgZXhjZWVkIHRo
+IjhIZ2dtRGFWUDJMTGx2MUIiOnsic3RhcnQiOjU0NDMsImVuZC
+I6NTU1MywidGV4dCI6IkRvZXMgYW55d2hlcmUgZXhjZWVkIHRo
 ZSBFVSBBaXIgUXVhbGl0eSBEaXJlY3RpdmUgbGltaXQgb2YgYW
 4gYW5udWFsIGF2ZXJhZ2Ugb2bigKYifSwiWVM5eEd5VmhuVkZH
-dW95dCI6eyJzdGFydCI6OTAwMSwiZW5kIjo5MjgwLCJ0ZXh0Ij
+dW95dCI6eyJzdGFydCI6ODk1NiwiZW5kIjo5MjM1LCJ0ZXh0Ij
 oiLSBXaGF0IGlzIHRoZSBwb3N0Y29kZSB3aXRoIHRoZSBoaWdo
 ZXN0IE5PMiBjb25jZW50cmF0aW9ucz8gXG5cdC0gV2hhdCBpcy
 B0aGUgcG9z4oCmIn0sInJIbHZmUXk3SHBwMDhLVXYiOnsic3Rh
-cnQiOjEwMTE3LCJlbmQiOjEwMTc5LCJ0ZXh0IjoiV2hhdCBwb3
+cnQiOjEwMDcyLCJlbmQiOjEwMTM0LCJ0ZXh0IjoiV2hhdCBwb3
 N0LWNvZGUgaGFkIHRoZSBtb3N0IE5PMiBtb25pdG9ycz8gSG93
 IG1hbnkgd2VyZSB0aGVyZT8ifX0sImNvbW1lbnRzIjp7InN1Qm
 c5U0RVbzE3a2FrYkoiOnsiZGlzY3Vzc2lvbklkIjoiOUVPTmI0
@@ -148,7 +148,7 @@ E1N30sIlkxcGFyT1dSaXljS0RpaUIiOnsiZGlzY3Vzc2lvbklk
 IjoickhsdmZReTdIcHAwOEtVdiIsInN1YiI6ImdoOjQwMzA0Nz
 g4IiwidGV4dCI6IkFkZCBzZWN0aW9uIGluIE1vb2RsZSB0byBm
 aWxsIHRoaXMgb3V0IiwiY3JlYXRlZCI6MTY4Nzc3MDExODc1N3
-19LCJoaXN0b3J5IjpbLTEwNTM2OTg2NTQsLTE4ODczNDI2MTIs
-Mjg5NzAzNjI1LDM2OTI1NTQ0LC0xODMyNTQ3MTA1LDE3Njc3MD
-QxMV19
+19LCJoaXN0b3J5IjpbLTYxMzIxMTUyOCwtMTg4NzM0MjYxMiwy
+ODk3MDM2MjUsMzY5MjU1NDQsLTE4MzI1NDcxMDUsMTc2NzcwND
+ExXX0=
 -->
