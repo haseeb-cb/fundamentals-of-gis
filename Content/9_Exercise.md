@@ -8,7 +8,9 @@ Participatory sensing for GIS has become a useful tool to extract quantitative a
 
 Today we’re using an online map questionnaire from 2015 about possible wind power sites to study the NIMBY (Not in my backyard) phenomenon in Helsinki (if you’re interested in the phenomenon, see Veikko Eranti’s (2017) article “Re-visiting NIMBY: From conflicting interests to conflicting valuations” in Moodle or here: http://urn.fi/URN:NBN:fi:uta-201804051508). This time you’ll have to download the data as it is from an open data portal (www.hri.fi). You’ll get familiar with some of the common difficulties of working with open data and especially open GIS data. You’ll also learn to use a new and helpful tool in QGIS.
 
+### Directional Distribution (Standard Deviational Ellipse, SDE)
 
+We’ll create standard deviational ellipses to summarize the spatial characteristics of geographic features: central tendency, dispersion, and directional trends. Standard Deviation Ellipse shows the area where the majority of the features (here, possible wind power sites)are located:When the underlying spatial pattern of features is concentrated in the center with fewer features toward the periphery (a spatial normal distribution), a standard deviational ellipse polygon will cover approximately 68 percent of the features.
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJhdGNRU1NlSXNOV3JrUEhRIjp7In
 N0YXJ0Ijo4NywiZW5kIjoxMDgsInRleHQiOiIjIyBPVkVSVklF
@@ -16,5 +18,5 @@ VyAmIFBVUlBPU0UifX0sImNvbW1lbnRzIjp7IjFyZ3lpRmNXZz
 YyNjQ2NG0iOnsiZGlzY3Vzc2lvbklkIjoiYXRjUVNTZUlzTldy
 a1BIUSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZC
 BwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nzg1Mzg4NzM5MH19LCJo
-aXN0b3J5IjpbLTIxMzU5MDY2OTVdfQ==
+aXN0b3J5IjpbMTkwOTM5OTMyNF19
 -->
