@@ -114,7 +114,15 @@ the residents**)
 
 9. To help with later analysis and map composition, **add a WFS layer showing the zip code areas.** Do this by connecting to either: 
 	1.  Helsinki Region EnvironmentalServices’WFS, https://kartta.hsy.fi/geoserver/wfs – the title of the right zip code layer is pks_postinumeroalueet_2022, and in the attribute table of this layer, the field name for zip codes is posno – or
-	2. 
+	2. City of HelsinkiWFS, http://kartta.hel.fi/ws/geoserver/avoindata/wfs – the title of the right layer is Postinumeroalue, and the right field is named tunnus
+	3. Select the zip code areas of Vuosaari and Töölö, and save them as separate layers you can use for your visualization.
+
+---
+
+### Creating the directional distribution analysis for the region 
+
+10. **Download the plugin *Standard Deviational Ellipse***
+11. 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJhdGNRU1NlSXNOV3JrUEhRIjp7In
 N0YXJ0Ijo4NywiZW5kIjoxMDgsInRleHQiOiIjIyBPVkVSVklF
@@ -146,5 +154,6 @@ dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nzg1NDg4Mj
 Y1NH0sIjVHVFRmVndqSXhPdFhEdzgiOnsiZGlzY3Vzc2lvbklk
 IjoiSnoxT25XdkRLNjNlWEZHNSIsInN1YiI6ImdoOjQwMzA0Nz
 g4IiwidGV4dCI6IkFkZCBmaWd1cmUiLCJjcmVhdGVkIjoxNjg3
-ODU1NDMwNjI5fX0sImhpc3RvcnkiOlsyNjI4NDkxODNdfQ==
+ODU1NDMwNjI5fX0sImhpc3RvcnkiOlstNjM2NjIzODEwLDI2Mj
+g0OTE4M119
 -->
