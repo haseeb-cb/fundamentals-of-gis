@@ -74,7 +74,16 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 - Figure
 
 2. **You might want to have a background map to help you get your bearings.**
-	1. Use QuickMapServices o
+	1. Use QuickMapServices or XYZ tiles as we have done earlier
+
+### Calculating regional efficiency
+
+3. **Being familiar with the attribute data, now you’ll have to calculate the building efficiency ratios for each district in Helsinki using SeutuRAMAVA data.**
+	1. Remember: **E = total floor area/total land area**
+	2. However, you might’ve noticed that the data covers the entire capital region – but only Helsinki is wanted. You can either:
+		- First calculate the efficiency ratio for all small areas in SeutuRAMAVA, and after the calculations are complete, extract Helsinki’s districts, or
+		- Select/clip Helsinki’s districts before any calculations are done.
+
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJySUlNQ2tUNkZLbkt2V1RKIjp7In
 N0YXJ0IjoxMDk4LCJlbmQiOjExMzgsInRleHQiOiIqKkUgPSB0
@@ -97,5 +106,5 @@ BpY3R1cmUiLCJjcmVhdGVkIjoxNjg3ODQ2OTM3NTQ2fSwiOGtO
 b29WWXFrb285VDJzWSI6eyJkaXNjdXNzaW9uSWQiOiJpNXJXZm
 Y4MEhSeVhicnRQIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0
 IjoiRml4IHJlZmVyZW5jZSIsImNyZWF0ZWQiOjE2ODc4NDY5OT
-EzNTV9fSwiaGlzdG9yeSI6WzM4MDYxMTY0NV19
+EzNTV9fSwiaGlzdG9yeSI6Wy0yODIyNDQ2NTZdfQ==
 -->
