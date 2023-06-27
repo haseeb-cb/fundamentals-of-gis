@@ -116,6 +116,7 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 8. **To join the building registry data into the grid layer:**
 	1. First export the building registry data to Geopackage file format. (The spatial join operation takes an eternity if the layer is in Shapefile format.)
 	2. As usual, save your project and any temporary layers now (in case of crash).
+	3. **Join Attributes by Location (summary).**
 
 
 <!--stackedit_data:
@@ -177,5 +178,5 @@ ZXh0IjoiQWRkIGhpbnQiLCJjcmVhdGVkIjoxNjg3ODQ3NDA5OD
 UxfSwiRTMycXZrbUMwalBTQkluciI6eyJkaXNjdXNzaW9uSWQi
 OiJ5WnhJR3NSeHVqSFFSWVZnIiwic3ViIjoiZ2g6NDAzMDQ3OD
 giLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3
-ODQ3NTAwMDEyfX0sImhpc3RvcnkiOlstMzc0MTI2MTU1XX0=
+ODQ3NTAwMDEyfX0sImhpc3RvcnkiOlstMTgzODM3NDgxMl19
 -->
