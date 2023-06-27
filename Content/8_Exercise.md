@@ -117,6 +117,8 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 	1. First export the building registry data to Geopackage file format. (The spatial join operation takes an eternity if the layer is in Shapefile format.)
 	2. As usual, save your project and any temporary layers now (in case of crash).
 	3. **Join Attributes by Location (summary).**
+		1. Because you want to join building data into the grid, the grid will be your Base layer (or Input layer, depending on QGIS version), and the Geopackaged building data will be your Join layer.
+		2. You want information based on where floor area spatially coincides with your grid elements – what is a good Geometric predicate for this?
 
 
 <!--stackedit_data:
@@ -178,5 +180,5 @@ ZXh0IjoiQWRkIGhpbnQiLCJjcmVhdGVkIjoxNjg3ODQ3NDA5OD
 UxfSwiRTMycXZrbUMwalBTQkluciI6eyJkaXNjdXNzaW9uSWQi
 OiJ5WnhJR3NSeHVqSFFSWVZnIiwic3ViIjoiZ2g6NDAzMDQ3OD
 giLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3
-ODQ3NTAwMDEyfX0sImhpc3RvcnkiOlstMTgzODM3NDgxMl19
+ODQ3NTAwMDEyfX0sImhpc3RvcnkiOlsxMzQ5MTQ1MjQzXX0=
 -->
