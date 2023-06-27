@@ -74,6 +74,15 @@ the residents**)
 	4.  To transform the geographic information of your text file into a visual map, we have to tell QGIS where in the text locations are specified. Therefore, under Geometry Definition, choose the right **X field** (= Lng) and **Y field** (= Lat) from the menu. Also set the correct **Geometry CRS** (= EPSG:4326 - WGS 84). Then Add.
 		- The coordinate systemused for the points is a global coordinate system WGS84 (also used by e.g. Google Maps/Earth). What do you think might be the reason that the coordinates are inWGS84 instead of a Finnish coordinate system?
 	5. Once you have imported all three text files into QGIS, save each of the layers on your computer in shapefile format. Name these layers informatively (e.g., preferred (‘soveltuvat’), unpreferred (‘kielletyt’), and important (‘omat’)). Fromhere on, continue with the exercise working on these new layers.
+
+4. **Explore the attribute tables for the three layers**
+	
+	1. The field Postinumero has the zip codes, which will be important for us
+		- (General notion, no need for action: as you can see, there is the prefix “ZIP_”, which could make joining difficult. Open data or any kind of data can have things like these that make interoperability difficult. However, this not an issue for now, since we are not joining data today.)
+	2. The field Ikä has the age of the respondent, and the field Sukupuoli has the gender of the respondent (m=male, n=female)
+	3. Fun fact: the field Perustelut contains the respondents’ open answers (if any) about why the area would or wouldn’t be suitable for wind turbines
+		- For the important places layer, this field instead has the reasons why the particular place is important to the respondent
+		- 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJhdGNRU1NlSXNOV3JrUEhRIjp7In
 N0YXJ0Ijo4NywiZW5kIjoxMDgsInRleHQiOiIjIyBPVkVSVklF
@@ -100,6 +109,6 @@ widGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nzg1
 NDg0NDU5N30sInFhbWNTd0pTSERkSDZ4TFIiOnsiZGlzY3Vzc2
 lvbklkIjoielBiTDNxRjhiUlVUVjZ5cCIsInN1YiI6ImdoOjQw
 MzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZC
-I6MTY4Nzg1NDg4MjY1NH19LCJoaXN0b3J5IjpbLTIwNzI4OTc1
-NThdfQ==
+I6MTY4Nzg1NDg4MjY1NH19LCJoaXN0b3J5IjpbMTY5MDc4OTEw
+XX0=
 -->
