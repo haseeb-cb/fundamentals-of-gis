@@ -134,9 +134,23 @@ and Vuosaari respondents**
 
 ---
 
+### Optional: Hexa-grid analysis for wind park locations
+
+12. 
+
+
+---
+
 ### Map visualization  
 
-10. **Compose a map of the outcome**
+12. **Compose maps about the possible NIMBY attitudes of Töölö and Vuosaari regarding windmills.**
+	1. You decide the number of maps and what exactly eachmap contains.
+		- But the map should support your analysis and its conclusion
+		- Thinking about what to include and how included features are visualized on the map is always important, but increasingly so when there’s high numbers of features on the map.
+	2. Remember to include a north arrow, a legend, and a scale bar into each map!
+	3. Hint: You can reproject the data on-the-fly to EPSG:3067 for visual purposes – this ought to look better than the global projection. Select current project CRS from the bottom right corner.
+
+
 	
 
 <!--stackedit_data:
@@ -170,6 +184,6 @@ dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nzg1NDg4Mj
 Y1NH0sIjVHVFRmVndqSXhPdFhEdzgiOnsiZGlzY3Vzc2lvbklk
 IjoiSnoxT25XdkRLNjNlWEZHNSIsInN1YiI6ImdoOjQwMzA0Nz
 g4IiwidGV4dCI6IkFkZCBmaWd1cmUiLCJjcmVhdGVkIjoxNjg3
-ODU1NDMwNjI5fX0sImhpc3RvcnkiOlsxOTIzNjc0ODY3LDI2Mj
+ODU1NDMwNjI5fX0sImhpc3RvcnkiOlstMjY3ODk2ODY3LDI2Mj
 g0OTE4M119
 -->
