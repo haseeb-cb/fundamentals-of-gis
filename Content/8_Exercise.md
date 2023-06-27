@@ -83,6 +83,9 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 	2. However, you might’ve noticed that the data covers the entire capital region – but only Helsinki is wanted. You can either:
 		- First calculate the efficiency ratio for all small areas in SeutuRAMAVA, and after the calculations are complete, extract Helsinki’s districts, or
 		- Select/clip Helsinki’s districts before any calculations are done.
+	3. *TIP: To help you in including the Helsinki small areas only – the municipalities have unique identifying codes. Helsinki’s municipality code is 091 (KUNTA-field).*
+	4. *TIP 2: You might also want to discard the empty outer sea region (called ALUEMERI in the NIMI field) to make mapping simpler (Hint: )*
+	5. 
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJySUlNQ2tUNkZLbkt2V1RKIjp7In
@@ -92,19 +95,24 @@ VzR3N3d05pWVVDdnRLR0giOnsic3RhcnQiOjQzODUsImVuZCI6
 NDM5MywidGV4dCI6Ii0gRmlndXJlIn0sIjFNdzdXY1p0dG16dm
 ZPb3EiOnsic3RhcnQiOjQ2NzEsImVuZCI6NDY3OSwidGV4dCI6
 Ii0gRmlndXJlIn0sImk1cldmZjgwSFJ5WGJydFAiOnsic3Rhcn
-QiOjM1MTksImVuZCI6MzUyNSwidGV4dCI6Ik1vb2RsZSJ9fSwi
-Y29tbWVudHMiOnsiTkx0NGdOWldNZ0owT3psbiI6eyJkaXNjdX
-NzaW9uSWQiOiJySUlNQ2tUNkZLbkt2V1RKIiwic3ViIjoiZ2g6
-NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGRpYWdyYW0iLCJjcmVhdG
-VkIjoxNjg3ODQ2NDM0MjYwfSwiZ2FudkszTkVLRjNuQ0lZNSI6
-eyJkaXNjdXNzaW9uSWQiOiJVc0dzd3dOaVlVQ3Z0S0dIIiwic3
-ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUi
-LCJjcmVhdGVkIjoxNjg3ODQ2OTMyNjgzfSwiN0dGU3hTVnVqRV
-lxblFZViI6eyJkaXNjdXNzaW9uSWQiOiIxTXc3V2NadHRtenZm
-T29xIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIH
-BpY3R1cmUiLCJjcmVhdGVkIjoxNjg3ODQ2OTM3NTQ2fSwiOGtO
-b29WWXFrb285VDJzWSI6eyJkaXNjdXNzaW9uSWQiOiJpNXJXZm
-Y4MEhSeVhicnRQIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0
-IjoiRml4IHJlZmVyZW5jZSIsImNyZWF0ZWQiOjE2ODc4NDY5OT
-EzNTV9fSwiaGlzdG9yeSI6Wy0yODIyNDQ2NTZdfQ==
+QiOjM1MTksImVuZCI6MzUyNSwidGV4dCI6Ik1vb2RsZSJ9LCJ5
+ZnRIZXhDTURheG5vWVM5Ijp7InN0YXJ0Ijo1NzI1LCJlbmQiOj
+U3MjksInRleHQiOiJIaW50In19LCJjb21tZW50cyI6eyJOTHQ0
+Z05aV01nSjBPemxuIjp7ImRpc2N1c3Npb25JZCI6InJJSU1Da1
+Q2RktuS3ZXVEoiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQi
+OiJBZGQgZGlhZ3JhbSIsImNyZWF0ZWQiOjE2ODc4NDY0MzQyNj
+B9LCJnYW52SzNORUtGM25DSVk1Ijp7ImRpc2N1c3Npb25JZCI6
+IlVzR3N3d05pWVVDdnRLR0giLCJzdWIiOiJnaDo0MDMwNDc4OC
+IsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODc4
+NDY5MzI2ODN9LCI3R0ZTeFNWdWpFWXFuUVlWIjp7ImRpc2N1c3
+Npb25JZCI6IjFNdzdXY1p0dG16dmZPb3EiLCJzdWIiOiJnaDo0
+MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZW
+QiOjE2ODc4NDY5Mzc1NDZ9LCI4a05vb1ZZcWtvbzlUMnNZIjp7
+ImRpc2N1c3Npb25JZCI6Imk1cldmZjgwSFJ5WGJydFAiLCJzdW
+IiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJGaXggcmVmZXJlbmNl
+IiwiY3JlYXRlZCI6MTY4Nzg0Njk5MTM1NX0sIkQ3Wm16SXBPcX
+JRYXI5eVYiOnsiZGlzY3Vzc2lvbklkIjoieWZ0SGV4Q01EYXhu
+b1lTOSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZC
+ByZWZlcmVuY2UiLCJjcmVhdGVkIjoxNjg3ODQ3MjAwMzE0fX0s
+Imhpc3RvcnkiOls0MzAzOTU5NDhdfQ==
 -->
