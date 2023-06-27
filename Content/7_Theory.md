@@ -9,7 +9,7 @@ For example, in air pollution analysis, spatial interpolation allows for the est
 
 There are several spatial interpolation methods commonly used, each with its own strengths and limitations. The choice of interpolation method depends on the characteristics of the dataset, the spatial patterns of the phenomenon being analyzed, and the desired level of accuracy. It is important to assess the reliability and accuracy of the chosen interpolation technique by considering factors such as the data distribution, spatial dependence, and the underlying assumptions of the method.
 
-### Inverse Distance Weighted (IDW)
+### Inverse Distance Weighted (IDW)[^1]
 One of the most common spatial interpolation methods is Inverse Distance Weighted (IDW). In the IDW interpolation method, the sample points are weighted during interpolation such that the influence of one point relative to another declines with distance from the unknown point you want to create.
 
 ![](https://docs.qgis.org/2.18/en/_images/idw_interpolation.png)[^1]
@@ -18,14 +18,13 @@ Weighting is assigned to sample points through the use of a weighting coefficien
 
 It is important to notice that the IDW interpolation method also has some disadvantages: the quality of the interpolation result can decrease, if the distribution of sample data points is uneven. Furthermore, maximum and minimum values in the interpolated surface can only occur at sample data points. This often results in small peaks and pits around the sample data points.
 
-In GIS, interpolation results are usually shown as a 2 dimensional raster layer[^1].
+In GIS, interpolation results are usually shown as a 2 dimensional raster layer.
 
 
 - Spatial Interpolation
 	- IDW
 
-[^1]: https://docs.qgis.org/2.18/en/docs/gentle_gis_introduction/spatial_analysis_interpolation.html#figure-idw-result
+[^1]: https://docs.qgis.org/2.18/en/docs/gentle_gis_introduction/spatial_analysis_interpolation.html 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTA1ODgxNjcsLTE4MjY2MTMwNDBdfQ
-==
+eyJoaXN0b3J5IjpbLTY1OTA3NDQ4OSwtMTgyNjYxMzA0MF19
 -->
