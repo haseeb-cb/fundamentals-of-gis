@@ -28,11 +28,40 @@ questionnaire
 
 1. “Helsingin tuulivoimakysely 2015” (“Wind power survey for Helsinki 2015”)
 	-  Find and download this Excel data from http://www.hri.fi/en/
-2. Zip code areas of Helsinki”)
-a. Download this data from Helsinki Region Environmental Authority’sWFS (HSYWFS):
-3
-title pks_postinumeroalueet_2022
-b. Or from the WFS of the city of Helsinki: title Postinumeroalue
+2. Zip code areas of Helsinki
+	- Download this data from Helsinki Region Environmental Authority’sWFS (HSYWFS): 
+	Title: pks_postinumeroalueet_2022
+	- Or from the WFS of the city of Helsinki: Postinumeroalue
+
+## COMPLETION
+
+Work individually or in pairs. Complete the exercise and write a short report together (2-3 pages of
+text) containing at least the following:
+1. Downloading the two datasets described above and importing the spreadsheet data as point
+layers
+2. Finding where the respondents from Töölö and Vuosaari (neighbourhoods in Helsinki) prefer
+and don’t prefer to have windmills
+a. Discovering the standard deviational ellipses of the preferences of respondents from
+Töölö and Vuosaari.
+3. Visualizing and composing at least 3 maps of the NIMBY attitudes, including:
+a. Maps depicting Töölö and Vuosaarirespondents’ preferred and unpreferredwind power
+plant locations and personally important places, and
+b. Map of the directional distribution of unpreferred locations.
+4. Analyzing in writing the NIMBY attitudes between the two respondent areas:
+a. Are the preferred locations for wind power turbines located near or far away from the
+respondents’ own neighbourhood? How about unpreferred locations? Pay special
+attention to the sea and coastal areas.
+b. Are the places that are important to the respondents located in the same areas as the
+locations where they prefer not to have wind power turbines? Can you think of
+why/why not?
+c. What do the standard deviational ellipses reveal of the respondents’ preferences? Are
+there any overlaps between the two groups of respondents?
+d. Are there any potential conflict areas?
+
+i. Pros and cons of using Standard Deviational Ellipses for this data. Can you think
+of other ways to analyze the data?
+b. What was difficult, what was not?
+
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJhdGNRU1NlSXNOV3JrUEhRIjp7In
 N0YXJ0Ijo4NywiZW5kIjoxMDgsInRleHQiOiIjIyBPVkVSVklF
@@ -40,5 +69,5 @@ VyAmIFBVUlBPU0UifX0sImNvbW1lbnRzIjp7IjFyZ3lpRmNXZz
 YyNjQ2NG0iOnsiZGlzY3Vzc2lvbklkIjoiYXRjUVNTZUlzTldy
 a1BIUSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZC
 BwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nzg1Mzg4NzM5MH19LCJo
-aXN0b3J5IjpbLTY3MzA5ODEwMF19
+aXN0b3J5IjpbLTY2NDMxNTU2OF19
 -->
