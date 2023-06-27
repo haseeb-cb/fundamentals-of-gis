@@ -68,22 +68,29 @@ the residents**)
 	1. By default, as you are importing the text file, you will probably run into a cramped mass of text in the Sample Data display, like in the picture below. Instead, the Sample Data should look like something you would find in an Attribute table.
 - Figure
 	2. Change File Format to Regular expression delimiter. As we can see in the Sample Data box, the semicolon ; is being used in the text. Type ; into Expression.
+- Figure
+	3. If the names of the columns in the sample data are not ID, postinumero, and so on, but field_1, field_2, etc. (compare pictures above and below): make sure to tick the First record has field values checkbox.
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJhdGNRU1NlSXNOV3JrUEhRIjp7In
 N0YXJ0Ijo4NywiZW5kIjoxMDgsInRleHQiOiIjIyBPVkVSVklF
 VyAmIFBVUlBPU0UifSwieUxJaUhjdjlCTmVYT3ZTOSI6eyJzdG
 FydCI6MzI2NCwiZW5kIjozMjc0LCJ0ZXh0IjoiQ09NUExFVElP
 TiJ9LCJaRE5CUUU0VXJENGR2c0JJIjp7InN0YXJ0Ijo2MDExLC
-JlbmQiOjYwMTksInRleHQiOiItIEZpZ3VyZSJ9fSwiY29tbWVu
-dHMiOnsiMXJneWlGY1dnNjI2NDY0bSI6eyJkaXNjdXNzaW9uSW
-QiOiJhdGNRU1NlSXNOV3JrUEhRIiwic3ViIjoiZ2g6NDAzMDQ3
-ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNj
-g3ODUzODg3MzkwfSwiS3lDNkY1VVZGbWdyR0pOciI6eyJkaXNj
-dXNzaW9uSWQiOiJ5TElpSGN2OUJOZVhPdlM5Iiwic3ViIjoiZ2
-g6NDAzMDQ3ODgiLCJ0ZXh0IjoiVG9vIG11Y2g/IiwiY3JlYXRl
-ZCI6MTY4Nzg1NDQ2ODY2NH0sInVvekIwWWxLdG5KVlE2NEQiOn
-siZGlzY3Vzc2lvbklkIjoiWkROQlFFNFVyRDRkdnNCSSIsInN1
-YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIi
-wiY3JlYXRlZCI6MTY4Nzg1NDc1NzY3OH19LCJoaXN0b3J5Ijpb
-LTEyNjg3OTM2ODJdfQ==
+JlbmQiOjYwMTksInRleHQiOiItIEZpZ3VyZSJ9LCI3THBVekpy
+bkxEQ290cVpoIjp7InN0YXJ0Ijo2MTgxLCJlbmQiOjYxODksIn
+RleHQiOiItIEZpZ3VyZSJ9fSwiY29tbWVudHMiOnsiMXJneWlG
+Y1dnNjI2NDY0bSI6eyJkaXNjdXNzaW9uSWQiOiJhdGNRU1NlSX
+NOV3JrUEhRIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ijoi
+QWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3ODUzODg3MzkwfS
+wiS3lDNkY1VVZGbWdyR0pOciI6eyJkaXNjdXNzaW9uSWQiOiJ5
+TElpSGN2OUJOZVhPdlM5Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLC
+J0ZXh0IjoiVG9vIG11Y2g/IiwiY3JlYXRlZCI6MTY4Nzg1NDQ2
+ODY2NH0sInVvekIwWWxLdG5KVlE2NEQiOnsiZGlzY3Vzc2lvbk
+lkIjoiWkROQlFFNFVyRDRkdnNCSSIsInN1YiI6ImdoOjQwMzA0
+Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MT
+Y4Nzg1NDc1NzY3OH0sIlRUcXRzaG1FV0lvM1I2NFUiOnsiZGlz
+Y3Vzc2lvbklkIjoiN0xwVXpKcm5MRENvdHFaaCIsInN1YiI6Im
+doOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3Jl
+YXRlZCI6MTY4Nzg1NDg0NDU5N319LCJoaXN0b3J5IjpbLTE1Nz
+Y1NTkyMDJdfQ==
 -->
