@@ -42,24 +42,32 @@ Work individually or in pairs. Complete the exercise and write a short reflectio
 	- Discovering the standard deviational ellipses of the preferences of respondents from Töölö and Vuosaari.
 3. Visualizing and composing at least 3 maps of the NIMBY attitudes, including:
 	- Maps depicting Töölö and Vuosaari respondents’ preferred and unpreferred wind power plant locations and personally important places, and
-b. Map of the directional distribution of unpreferred locations.
+	- Map of the directional distribution of unpreferred locations.
 4. Analyzing in writing the NIMBY attitudes between the two respondent areas:
-a. Are the preferred locations for wind power turbines located near or far away from the
-respondents’ own neighbourhood? How about unpreferred locations? Pay special
-attention to the sea and coastal areas.
-b. Are the places that are important to the respondents located in the same areas as the
-locations where they prefer not to have wind power turbines? Can you think of
-why/why not?
-c. What do the standard deviational ellipses reveal of the respondents’ preferences? Are
-there any overlaps between the two groups of respondents?
-d. Are there any potential conflict areas?
+	- Are the preferred locations for wind power turbines located near or far away from the respondents’ own neighbourhood? How about unpreferred locations? Pay special attention to the sea and coastal areas.
+	- Are the places that are important to the respondents located in the same areas as the locations where they prefer not to have wind power turbines? Can you think of why/why not?
+	- What do the standard deviational ellipses reveal of the respondents’ preferences? Are there any overlaps between the two groups of respondents?
+	- Are there any potential conflict areas?
+
+## EXERCISE PHASES
+
+### Getting familiar with the data
+
+1. **Head over to Helsinki Region Infoshare** (http://www.hri.fi/en/), search for “Helsingin
+tuulivoimakysely 2015” or “Wind power survey for Helsinki 2015”, and download the wind
+power survey data (the data are in Excel format)
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJhdGNRU1NlSXNOV3JrUEhRIjp7In
 N0YXJ0Ijo4NywiZW5kIjoxMDgsInRleHQiOiIjIyBPVkVSVklF
-VyAmIFBVUlBPU0UifX0sImNvbW1lbnRzIjp7IjFyZ3lpRmNXZz
-YyNjQ2NG0iOnsiZGlzY3Vzc2lvbklkIjoiYXRjUVNTZUlzTldy
-a1BIUSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZC
-BwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nzg1Mzg4NzM5MH19LCJo
-aXN0b3J5IjpbNjkwOTgyOTY1XX0=
+VyAmIFBVUlBPU0UifSwieUxJaUhjdjlCTmVYT3ZTOSI6eyJzdG
+FydCI6MzI2NCwiZW5kIjozMjc0LCJ0ZXh0IjoiQ09NUExFVElP
+TiJ9fSwiY29tbWVudHMiOnsiMXJneWlGY1dnNjI2NDY0bSI6ey
+JkaXNjdXNzaW9uSWQiOiJhdGNRU1NlSXNOV3JrUEhRIiwic3Vi
+IjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLC
+JjcmVhdGVkIjoxNjg3ODUzODg3MzkwfSwiS3lDNkY1VVZGbWdy
+R0pOciI6eyJkaXNjdXNzaW9uSWQiOiJ5TElpSGN2OUJOZVhPdl
+M5Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiVG9vIG11
+Y2g/IiwiY3JlYXRlZCI6MTY4Nzg1NDQ2ODY2NH19LCJoaXN0b3
+J5IjpbLTU2NzM4NjAzOV19
 -->
