@@ -132,6 +132,7 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 ### Map visualization  
 
 10. **Compose a map of the outcome**
+	
 	1. Categorize the results using Table 1 like in the previous map
 		- Be critical when interpreting the efficiency values
 
@@ -147,7 +148,17 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 
 ### Optional challenge 2
 
-13. 
+13. Create a heatmap visualization of either the building efficiency ratio grid data or/and real estate data.
+	
+	1. Create centroids out of efficiency grid or/and real estate registry data
+		1. Tip: Vector > Geometry Tools > Centroids
+	2. Create a heatmap (Tip: Heatmap (Kernel Density Estimation)) using the centroids
+		1. Set Weight from field to your efficiency ratio field (found under Advanced Parameters)
+		2. Try different radiuses (e.g. 500 m, 1000 m and 2000 m) and kernel shapes
+			- How does altering these affect the outcome?
+		3. If you happen to encounter an error, try to reduce the rows and columns values
+
+14. Compose a map of the heatmap analysis, include it in your report and compare it to the other maps in the analysis.
 
 
 
@@ -210,5 +221,5 @@ ZXh0IjoiQWRkIGhpbnQiLCJjcmVhdGVkIjoxNjg3ODQ3NDA5OD
 UxfSwiRTMycXZrbUMwalBTQkluciI6eyJkaXNjdXNzaW9uSWQi
 OiJ5WnhJR3NSeHVqSFFSWVZnIiwic3ViIjoiZ2g6NDAzMDQ3OD
 giLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3
-ODQ3NTAwMDEyfX0sImhpc3RvcnkiOlstMTIyNzM0MTUwMl19
+ODQ3NTAwMDEyfX0sImhpc3RvcnkiOlsxNDIyMzc1NzMwXX0=
 -->
