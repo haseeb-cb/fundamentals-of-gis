@@ -82,7 +82,15 @@ the residents**)
 	2. The field Ikä has the age of the respondent, and the field Sukupuoli has the gender of the respondent (m=male, n=female)
 	3. Fun fact: the field Perustelut contains the respondents’ open answers (if any) about why the area would or wouldn’t be suitable for wind turbines
 		- For the important places layer, this field instead has the reasons why the particular place is important to the respondent
-		- 
+		- Some of the given reasons are quite opinionated and funny. You can read them mostly in Finnish, but there are some in English and Swedish, too.
+	4. *Optional*: Using the Group Stats plugin is very usefulwhen dealing with large datasets, because one can examine the attribute data by grouping it by variables.
+		- For instance, in this case Group Stats can be used to easily decipher how many women and men answered the survey, or which zip code area had the most respondents. (See also: https://gis.stackexchange.com/questions/229007/whydoes-calculate-button-remain-gray-in-group-stats-plugin-for-qgis)
+
+---
+
+### Classification of the data
+
+
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJhdGNRU1NlSXNOV3JrUEhRIjp7In
 N0YXJ0Ijo4NywiZW5kIjoxMDgsInRleHQiOiIjIyBPVkVSVklF
@@ -109,6 +117,6 @@ widGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nzg1
 NDg0NDU5N30sInFhbWNTd0pTSERkSDZ4TFIiOnsiZGlzY3Vzc2
 lvbklkIjoielBiTDNxRjhiUlVUVjZ5cCIsInN1YiI6ImdoOjQw
 MzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZC
-I6MTY4Nzg1NDg4MjY1NH19LCJoaXN0b3J5IjpbMTY5MDc4OTEw
-XX0=
+I6MTY4Nzg1NDg4MjY1NH19LCJoaXN0b3J5IjpbLTE4MTM3ODA1
+NzhdfQ==
 -->
