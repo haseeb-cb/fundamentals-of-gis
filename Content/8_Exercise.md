@@ -4,22 +4,9 @@
 
 ## OVERVIEW & PURPOSE
 
-Today’s theme is socio-spatial differentiation & social segregation and we’re going to be looking at the
-Helsinki metropolitan area’s population dynamics. Thus far we’ve learned about building efficiency ratios
-as indicators of urban intensity and next week we will talk about clustering of businesses, but cities are
-more than that. One of the key components of the city is missing and as Shakespeare so eloquently put in
-Coriolanus “What is the city, but the people?”
+In this exercise your task is to **calculate building efficiency ratio on different spatial scales**. Efficiency ratios (e) describe the level of land use intensity on zoned city areas. The building efficiency ratio is calculated by **dividing the total floor area** of each story of a building (or buildings) **by the size of the piece of land the building is in**. The piece of land can be the real estate, a neighborhood, a city district or any specified area. This ratio can be used to identify areas which are urban (more efficient) from non-built (less efficient) areas. Conversely, “sparsity ratio” is the total area of all non-built features to the size of the piece of land. When calculating the building efficiency on a city district (or similar) scale, it depicts regional efficiency. When building efficiency is calculated on a property/plot scale it’s known as plot efficiency (see Table 1). During this exercise, you will discover the different forms and levels of urbanity in Helsinki.
 
-Socio-economic features of the inhabitants of the city vary across geographical space and across time.
-Today we are using the Statistics Finland’s Grid Database 2016 about the social structure in 250x250m
-grid cells. Our task today is to study socio-spatial differentiation and pinpoint low-education and lowincome
-grid cells. This could also be an interesting starting point for the analysis if we study segregation
-in the region.
-2
-To do this, the data needs some clean-up, some fields need to be calculated and the lowest quartiles for
-different variables (income, education) have to be found. You will be using the conditional statement
-functionality from the previous practicals. The results are once again to be visualized on a map and to be
-analyzed in the report.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDg5NDExMl19
+eyJoaXN0b3J5IjpbLTYzMTc0MDk1Ml19
 -->
