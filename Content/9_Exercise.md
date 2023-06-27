@@ -105,8 +105,14 @@ the residents**)
 
 7. For each of the three layers (preferred/unpreferred/important places layers), **select the entries by respondents from Vuosaari, employing *Select features using an expression*** and the zip code information provided above.
 	1. Save the selections as new shapefile layers.
-	2. Then create layers containing the preferred, unpreferred, and important locations of Töölö respondents only (select the right features using the zip code-based expression on the three
-layers; save the selections as new layers).
+	2. Then create layers containing the preferred, unpreferred, and important locations of Töölö respondents only (select the right features using the zip code-based expression on the three layers; save the selections as new layers).
+
+- Figure 
+
+8. **Visualize the point feature layers with different colors in Symbology.**
+	- For example: Unpreferred wind park sites as red, preferred as green, etc.
+
+9. To help with later analysis and map composition, **add a WFS layer showing the zip code areas.**
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJhdGNRU1NlSXNOV3JrUEhRIjp7In
 N0YXJ0Ijo4NywiZW5kIjoxMDgsInRleHQiOiIjIyBPVkVSVklF
@@ -117,22 +123,26 @@ JlbmQiOjYwMTksInRleHQiOiItIEZpZ3VyZSJ9LCI3THBVekpy
 bkxEQ290cVpoIjp7InN0YXJ0Ijo2MTgxLCJlbmQiOjYxODksIn
 RleHQiOiItIEZpZ3VyZSJ9LCJ6UGJMM3FGOGJSVVRWNnlwIjp7
 InN0YXJ0Ijo2NDAyLCJlbmQiOjY0MTAsInRleHQiOiItIEZpZ3
-VyZSJ9fSwiY29tbWVudHMiOnsiMXJneWlGY1dnNjI2NDY0bSI6
-eyJkaXNjdXNzaW9uSWQiOiJhdGNRU1NlSXNOV3JrUEhRIiwic3
-ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUi
-LCJjcmVhdGVkIjoxNjg3ODUzODg3MzkwfSwiS3lDNkY1VVZGbW
-dyR0pOciI6eyJkaXNjdXNzaW9uSWQiOiJ5TElpSGN2OUJOZVhP
-dlM5Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiVG9vIG
-11Y2g/IiwiY3JlYXRlZCI6MTY4Nzg1NDQ2ODY2NH0sInVvekIw
-WWxLdG5KVlE2NEQiOnsiZGlzY3Vzc2lvbklkIjoiWkROQlFFNF
-VyRDRkdnNCSSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
-IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nzg1NDc1NzY3OH
-0sIlRUcXRzaG1FV0lvM1I2NFUiOnsiZGlzY3Vzc2lvbklkIjoi
-N0xwVXpKcm5MRENvdHFaaCIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
-widGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nzg1
-NDg0NDU5N30sInFhbWNTd0pTSERkSDZ4TFIiOnsiZGlzY3Vzc2
-lvbklkIjoielBiTDNxRjhiUlVUVjZ5cCIsInN1YiI6ImdoOjQw
-MzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZC
-I6MTY4Nzg1NDg4MjY1NH19LCJoaXN0b3J5IjpbMjA4NDkzNzMz
-Ml19
+VyZSJ9LCJKejFPbld2REs2M2VYRkc1Ijp7InN0YXJ0Ijo5ODc0
+LCJlbmQiOjk4ODIsInRleHQiOiItIEZpZ3VyZSJ9fSwiY29tbW
+VudHMiOnsiMXJneWlGY1dnNjI2NDY0bSI6eyJkaXNjdXNzaW9u
+SWQiOiJhdGNRU1NlSXNOV3JrUEhRIiwic3ViIjoiZ2g6NDAzMD
+Q3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjox
+Njg3ODUzODg3MzkwfSwiS3lDNkY1VVZGbWdyR0pOciI6eyJkaX
+NjdXNzaW9uSWQiOiJ5TElpSGN2OUJOZVhPdlM5Iiwic3ViIjoi
+Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiVG9vIG11Y2g/IiwiY3JlYX
+RlZCI6MTY4Nzg1NDQ2ODY2NH0sInVvekIwWWxLdG5KVlE2NEQi
+OnsiZGlzY3Vzc2lvbklkIjoiWkROQlFFNFVyRDRkdnNCSSIsIn
+N1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJl
+IiwiY3JlYXRlZCI6MTY4Nzg1NDc1NzY3OH0sIlRUcXRzaG1FV0
+lvM1I2NFUiOnsiZGlzY3Vzc2lvbklkIjoiN0xwVXpKcm5MRENv
+dHFaaCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZC
+BwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nzg1NDg0NDU5N30sInFh
+bWNTd0pTSERkSDZ4TFIiOnsiZGlzY3Vzc2lvbklkIjoielBiTD
+NxRjhiUlVUVjZ5cCIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4
+dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nzg1NDg4Mj
+Y1NH0sIjVHVFRmVndqSXhPdFhEdzgiOnsiZGlzY3Vzc2lvbklk
+IjoiSnoxT25XdkRLNjNlWEZHNSIsInN1YiI6ImdoOjQwMzA0Nz
+g4IiwidGV4dCI6IkFkZCBmaWd1cmUiLCJjcmVhdGVkIjoxNjg3
+ODU1NDMwNjI5fX0sImhpc3RvcnkiOls5OTg5ODg4OTVdfQ==
 -->
