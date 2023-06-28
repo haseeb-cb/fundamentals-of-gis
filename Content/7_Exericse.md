@@ -56,7 +56,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- Change the symbology in such a way that you can see your basemap under it (e.g. remove the fill or change the transparency)  
 
 7. Let’s also change the symbology of the monitoring stations
-	- Let’s make these a graduated symbol. Choose NO2 as the *Value*.  You will now see a map with the monitoring stations coloured according to the monitored NO2 levels. Does anywhere exceed the EU Air Quality Directive limit of an annual average of 40 micrograms per cubic metre? 
+	- Let’s make these a graduated symbol. Choose NO2 as the *Value*.  You will now see a map with the monitoring stations colored according to the monitored NO2 levels. Does anywhere exceed the EU Air Quality Directive limit of an annual average of 40 micrograms per cubic metre? 
 
 ---
 
@@ -113,15 +113,15 @@ IFVTRUQvTkVFREVEIn0sInZIWGtkc2lXa25pR2RtNzQiOnsic3
 RhcnQiOjM1MTgsImVuZCI6MzczOCwidGV4dCI6Ii0gV2hhdCBh
 cmUgdGhlIGNvbmNlbnRyYXRpb25zIG9mIG5pdHJvZ2VuIGRpb3
 hpZGUgKE5PMikgYWlyIHBvbGx1dGlvbiBpbiB0aGUgSGXigKYi
-fSwiOEhnZ21EYVZQMkxMbHYxQiI6eyJzdGFydCI6NTQ0MywiZW
-5kIjo1NTUzLCJ0ZXh0IjoiRG9lcyBhbnl3aGVyZSBleGNlZWQg
+fSwiOEhnZ21EYVZQMkxMbHYxQiI6eyJzdGFydCI6NTQ0MiwiZW
+5kIjo1NTUyLCJ0ZXh0IjoiRG9lcyBhbnl3aGVyZSBleGNlZWQg
 dGhlIEVVIEFpciBRdWFsaXR5IERpcmVjdGl2ZSBsaW1pdCBvZi
 BhbiBhbm51YWwgYXZlcmFnZSBvZuKApiJ9LCJZUzl4R3lWaG5W
-Rkd1b3l0Ijp7InN0YXJ0Ijo4OTU2LCJlbmQiOjkyMzUsInRleH
+Rkd1b3l0Ijp7InN0YXJ0Ijo4OTU1LCJlbmQiOjkyMzQsInRleH
 QiOiItIFdoYXQgaXMgdGhlIHBvc3Rjb2RlIHdpdGggdGhlIGhp
 Z2hlc3QgTk8yIGNvbmNlbnRyYXRpb25zPyBcblx0LSBXaGF0IG
 lzIHRoZSBwb3PigKYifSwickhsdmZReTdIcHAwOEtVdiI6eyJz
-dGFydCI6MTAwNzIsImVuZCI6MTAxMzQsInRleHQiOiJXaGF0IH
+dGFydCI6MTAwNzEsImVuZCI6MTAxMzMsInRleHQiOiJXaGF0IH
 Bvc3QtY29kZSBoYWQgdGhlIG1vc3QgTk8yIG1vbml0b3JzPyBI
 b3cgbWFueSB3ZXJlIHRoZXJlPyJ9LCJhWmlBa1UxVUNwNW50cD
 FZIjp7InN0YXJ0Ijo5NywiZW5kIjoxMTgsInRleHQiOiIjIyBP
@@ -148,7 +148,7 @@ Mgb3V0IiwiY3JlYXRlZCI6MTY4Nzc3MDExODc1N30sIkpGZTFK
 alhiNURxbWx4ZTAiOnsiZGlzY3Vzc2lvbklkIjoiYVppQWtVMV
 VDcDVudHAxWSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
 IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4Nzg0NDc5OTI2OH
-19LCJoaXN0b3J5IjpbLTIxMzE0OTE0NywtMTg4NzM0MjYxMiwy
-ODk3MDM2MjUsMzY5MjU1NDQsLTE4MzI1NDcxMDUsMTc2NzcwND
-ExXX0=
+19LCJoaXN0b3J5IjpbMTczNzcyNDU2MiwtMjEzMTQ5MTQ3LC0x
+ODg3MzQyNjEyLDI4OTcwMzYyNSwzNjkyNTU0NCwtMTgzMjU0Nz
+EwNSwxNzY3NzA0MTFdfQ==
 -->
