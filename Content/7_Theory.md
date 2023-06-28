@@ -29,7 +29,11 @@ In GIS, interpolation results are usually shown as a 2 dimensional raster layer.
 
 [^1]: https://gisgeography.com/inverse-distance-weighting-idw-interpolation/
 [^2]: https://docs.qgis.org/2.18/en/docs/gentle_gis_introduction/spatial_analysis_interpolation.html 
+
+- Spatial Interpolation
+	- IDW
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTgzOTIyNzksLTE4MjY2MTMwNDBdfQ
-==
+eyJoaXN0b3J5IjpbMjAxNDk5OTQwMSwtMTA5ODM5MjI3OSwtMT
+gyNjYxMzA0MF19
 -->
