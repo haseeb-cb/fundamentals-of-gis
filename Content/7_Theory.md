@@ -18,7 +18,7 @@ One of the most common spatial interpolation methods is Inverse Distance Weighte
 
 Weighting is assigned to sample points through the use of a weighting coefficient that controls how the weighting influence will drop off as the distance from new point increases. The greater the weighting coefficient, the less the effect points will have if they are far from the unknown point during the interpolation process. As the coefficient increases, the value of the unknown point approaches the value of the nearest observational point.
 
-It is important to notice that the IDW interpolation method also has some disadvantages: the quality of the interpolation result can decrease if the distribution of sample data points is uneven. Furthermore, maximum and minimum values in the interpolated surface can only occur at sample data points. This often results in small peaks and pits around the sample data points. Interpolation can also give misleading ideas about how well be know 
+It is important to notice that the IDW interpolation method also has some disadvantages: the quality of the interpolation result can decrease if the distribution of sample data points is uneven. Furthermore, maximum and minimum values in the interpolated surface can only occur at sample data points. This often results in small peaks and pits around the sample data points. Interpolation can also give misleading ideas about how well 
 
 In GIS, interpolation results are usually shown as a 2 dimensional raster layer.
 
@@ -34,6 +34,6 @@ In GIS, interpolation results are usually shown as a 2 dimensional raster layer.
 	- IDW
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MjU0MDYxMiwyMDE0OTk5NDAxLC0xMD
-k4MzkyMjc5LC0xODI2NjEzMDQwXX0=
+eyJoaXN0b3J5IjpbMjM3MDA0MTMyLC02NzI1NDA2MTIsMjAxND
+k5OTQwMSwtMTA5ODM5MjI3OSwtMTgyNjYxMzA0MF19
 -->
