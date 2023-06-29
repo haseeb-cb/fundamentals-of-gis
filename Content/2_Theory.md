@@ -39,17 +39,17 @@ When some kind of urban development happens, the data we use in GIS needs to upd
 
 For this practice we are going to use the Nokia Arena development in Tampere, as you can see below, there have been a significant amount of changes with this project.
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/21_Theory/GIS_theory1_example.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Theory/GIS_theory1_example.png)
 
 And if we look at the data set we are working with, you can see that some of the demolished buildings are still present and new buildings lacking. 
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/21_Theory/QGIS_theory1_nokia_outdated.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Theory/QGIS_theory1_nokia_outdated.png)
 
 In practice, updating this new development would consist of removing the old buildings from the data, and digitizing the new buildings, which would mean making new buildings in the data by **tracing** the buildings from some kind of reference picture. 
 
 In this case we could potentially use the google imagery of the area, as this has already been updated. But this is not always the case, and satellite imagery is not the most accurate as the resolution is not high enough and pictures are taken at an angle. To get the most accuracy, we would survey the area and record the locations using high-accuracy equipment. But for our purpose we don't require high accuracy and we will use the following project plan as a source for the digitizing. 
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/21_Theory/GIS_theory1_plan.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Theory/GIS_theory1_plan.png)
 
 This source is however missing geographic data, as it is just a picture taken from a PDF. To align this picture with our geographic data, we need to apply a process called georeferencing. 
 
@@ -68,8 +68,8 @@ eyJkaXNjdXNzaW9ucyI6eyJvSmFOSlZwYTFCeDRmd2tpIjp7In
 RleHQiOiJXZSBrZWVwIGEgY29sbGVjdGlvbiBvZiBvdXIga25v
 d24gZGF0YSBzb3VyY2VzIGZvciB5b3VyIHVzZToiLCJzdGFydC
 I6MTI4MCwiZW5kIjoxMzQwfSwiNVB5bHFjTVVpMHVkMUdqViI6
-eyJ0ZXh0IjoiR2VvcmVmZXJlbmNpbmciLCJzdGFydCI6NDMyNS
-wiZW5kIjo0MzM5fX0sImNvbW1lbnRzIjp7Imh3eUI5c1duS3Fv
+eyJ0ZXh0IjoiR2VvcmVmZXJlbmNpbmciLCJzdGFydCI6NDMyMi
+wiZW5kIjo0MzM2fX0sImNvbW1lbnRzIjp7Imh3eUI5c1duS3Fv
 eThyRlciOnsiZGlzY3Vzc2lvbklkIjoib0phTkpWcGExQng0Zn
 draSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBs
 aW5rIiwiY3JlYXRlZCI6MTY4NjMwMzgxMTk1NX0sIlhRNHdQdD
@@ -83,6 +83,6 @@ MsIHByb2plY3RlZCBjb29yZGluYXRlIHN5c3RlbXMsIGFuZCBh
 IGZldyBzZW50ZW5jZXMgYWJvdXQgaG93IEdJUyB0b29scyBzaG
 91bGQgYmUgYWJsZSB0byB0cmFuc2Zvcm0gYmV0d2VlbiB0aGVt
 LiIsImNyZWF0ZWQiOjE2ODY3MzEzNjIyNTh9fSwiaGlzdG9yeS
-I6WzE5NTI4MzU3MDAsMTQwNTU3NTA0Niw1NjY0MDQ1NDQsNzM2
+I6WzE0NjY3OTI4NDksMTQwNTU3NTA0Niw1NjY0MDQ1NDQsNzM2
 NDkzOTc0LDEwOTI0MzM3MDVdfQ==
 -->
