@@ -155,7 +155,7 @@ and Vuosaari respondents**
 ### Map visualization  
 
 12. **Compose maps about the possible NIMBY attitudes of Töölö and Vuosaari regarding windmills.**
-	1. You decide the number of maps and what exactly eachmap contains.
+	1. You decide the number of maps and what exactly each map contains.
 		- But the map should support your analysis and its conclusion
 		- Thinking about what to include and how included features are visualized on the map is always important, but increasingly so when there’s high numbers of features on the map.
 	2. Remember to include a north arrow, a legend, and a scale bar into each map!
@@ -217,6 +217,6 @@ ZW9yeT8iLCJjcmVhdGVkIjoxNjg4MDM3MjQ5Mjg2fSwiNkl6Tk
 RtQTVBa0VyZFVZdyI6eyJkaXNjdXNzaW9uSWQiOiIxWWhpM0ZR
 VWxmdzhNb3hBIiwic3ViIjoiZ2g6MjIxNjgxNTciLCJ0ZXh0Ij
 oib3Igd2hhdD8iLCJjcmVhdGVkIjoxNjg4MDM3OTA2NTExfX0s
-Imhpc3RvcnkiOlstNDAyNDcwODczLDIxMTA3OTEwMjgsLTMxNz
+Imhpc3RvcnkiOlsxNTc5NTcwMjQ5LDIxMTA3OTEwMjgsLTMxNz
 AyNjU0NSwyNjI4NDkxODNdfQ==
 -->
