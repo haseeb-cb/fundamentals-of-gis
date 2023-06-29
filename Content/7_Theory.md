@@ -9,7 +9,7 @@ Spatial interpolation is a technique used in GIS to estimate values at unsampled
 
 For example, in air pollution analysis, spatial interpolation allows for the estimation of pollutant concentrations at locations where direct measurements are not available or sparse. It helps fill in data gaps and provides a more comprehensive representation of pollutant levels across the study area. By utilizing mathematical models and statistical techniques, spatial interpolation generates a continuous surface that represents the varying concentration of pollutants, providing a smoother representation of the spatial patterns.
 
-There are several spatial interpolation methods commonly used, each with its own strengths and limitations. These can incluse, The choice of interpolation method depends on the characteristics of the dataset, the spatial patterns of the phenomenon being analyzed, and the desired level of accuracy. It is important to assess the reliability and accuracy of the chosen interpolation technique by considering factors such as the data distribution, spatial dependence, and the underlying assumptions of the method.
+There are several spatial interpolation methods commonly used, each with its own strengths and limitations. These can include, for example, Inverse Distance Weighting, Nearest Neighbours, and Kriging. The choice of interpolation method depends on the characteristics of the dataset, the spatial patterns of the phenomenon being analyzed, and the desired level of accuracy. It is important to assess the reliability and accuracy of the chosen interpolation technique by considering factors such as the data distribution, spatial dependence, and the underlying assumptions of the method.
 
 ### Inverse Distance Weighted (IDW)[^2]
 One of the most common spatial interpolation methods is Inverse Distance Weighted (IDW). In the IDW interpolation method, the sample points are weighted during interpolation such that the influence of one point relative to another declines with distance from the unknown point you want to create.
@@ -34,6 +34,6 @@ In GIS, interpolation results are usually shown as a 2 dimensional raster layer.
 	- IDW
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NjU3Mjg1MSwyMDE0OTk5NDAxLC0xMD
-k4MzkyMjc5LC0xODI2NjEzMDQwXX0=
+eyJoaXN0b3J5IjpbLTIwODQ0Njg2ODYsMjAxNDk5OTQwMSwtMT
+A5ODM5MjI3OSwtMTgyNjYxMzA0MF19
 -->
