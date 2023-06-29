@@ -119,7 +119,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 ### Map visualization 
 
 15. All done! Make a final map in the layout manager, showing the locations of deaths, the water pumps, and the heatmap.
-	- You can also make multiple maps, separating the data and making a map with the Thiessen polygons, do what you think is best and argue why in your reflection! 
+	- You can also make multiple maps, separating the data and making a map with the Thiessen polygons. Do what you think is best and argue why in your reflection! 
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJ4MTV3V05CSzZKRHc3Vml2Ijp7In
@@ -151,7 +151,7 @@ FkQTBWZHJwZjQiOnsiZGlzY3Vzc2lvbklkIjoiWk5UTU5GTEc3
 c2syVXIydyIsInN1YiI6ImdoOjIyMTY4MTU3IiwidGV4dCI6In
 RoZXJlIGFyZSBvZnRlbiBkYXNoZXMgaW4gb2RkIHBsYWNlcz8i
 LCJjcmVhdGVkIjoxNjg4MDM1NTE0MDQ3fX0sImhpc3RvcnkiOl
-stNDI5OTA1NzMsLTg0MzE3MzA3NCw2MDc0MTY1OTcsLTIwMzM0
-NTQ4MDMsLTM2NTI1MTg4Niw1OTI1ODIyNjQsLTE1MTI0MjcwNi
-wtNTcyNzA1NjI4LDc1MDMzMDM4OF19
+syMTEwNjI5NjIxLC04NDMxNzMwNzQsNjA3NDE2NTk3LC0yMDMz
+NDU0ODAzLC0zNjUyNTE4ODYsNTkyNTgyMjY0LC0xNTEyNDI3MD
+YsLTU3MjcwNTYyOCw3NTAzMzAzODhdfQ==
 -->
