@@ -4,7 +4,7 @@
 # Theory 5: Digital Elevation Model, Hillshade, and raster overlay analysis
 
 ## Digital Elevation Model (DEM)
-A digital elevation model (DEM) is a three-dimensional representation of the Earth's surface that is created using elevation data. It is a digital representation of the topography of a particular area, typically displayed as a grid of elevation values.
+There are various ways to represent three dimensional surfaces in GIS, including contour maps (which you may have seen before) and Digital Elevation Models. A Digital Elevation Model (DEM) is a three-dimensional representation of the Earth's surface that is created using elevation data. It is a digital representation of the topography of a particular area, typically displayed as a grid of elevation values. 
 
 ![](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Assets/5_Theory/5_Theory_DEM_finland.png?raw=true)
 
@@ -61,8 +61,8 @@ Raster overlay analysis is used in various GIS applications, such as land suitab
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwODQwMDIwMSwxMTI3Mzc1NTE5LC0xOT
-Q2Nzc1NDYxLDE4MDkwNTY3LDIwMTQxMjcxMTcsLTg4NTI5MDMz
-MywtODk2MjI3MjgxLDk5NDcyMDE5MywtMzUxMDc2NTgwLC0xMz
-kwMzMyMDUxXX0=
+eyJoaXN0b3J5IjpbLTU0NTg3NjE5MiwxMjA4NDAwMjAxLDExMj
+czNzU1MTksLTE5NDY3NzU0NjEsMTgwOTA1NjcsMjAxNDEyNzEx
+NywtODg1MjkwMzMzLC04OTYyMjcyODEsOTk0NzIwMTkzLC0zNT
+EwNzY1ODAsLTEzOTAzMzIwNTFdfQ==
 -->
