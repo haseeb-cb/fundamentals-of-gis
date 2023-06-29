@@ -7,7 +7,7 @@ This exercise uses data from a historical event in London, which many people con
 
 In 1854, there was a large cholera outbreak in London, with 120 deaths within three days in the Soho area of the city. Public health officials in the city were convinced that many diseases – including cholera – were spread by ‘miasma’, or toxic air and poor hygiene. However, a doctor and scientist in London, John Snow, was convinced that it was spread through contaminated water, but needed to find evidence to support his theory and convince city officials to close contaminated water pumps. To do this, he surveyed households in the area, plotted the locations of households with deaths, and used this to quantitative data to develop a theory about the contaminated water source.
 
-Henry Whitehead – the local priest – knew the area and residents in Soho well, and initially did not agree with John Snow’s theory about the contaminated water pump because he knew of residents who drank from the well and did not get sick. He began his own study, interviewing residents using a qualitative social science approach, and eventually came to agree with the theory about the contaminated pump. Crucially, it was Whitehead’s interviews that allowed the source of the contamination to be identified.
+Henry Whitehead – the local priest – knew the area and residents in Soho well, and initially did not agree with John Snow’s theory about the contaminated water pump because he knew of residents who drank from the well and did not get sick. He began his own study, interviewing residents using a qualitative social science approach, and eventually came to agree with the theory about the contaminated pump. Crucially, it was Whitehead’s interviews that uncovered how the wcontamination to be identified.
 
 ## OBJECTIVES
 
@@ -124,10 +124,10 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJ4MTV3V05CSzZKRHc3Vml2Ijp7In
 RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjIw
-MzgsImVuZCI6MjA1N30sIndQYkR1OUFJVjdpMnprdXciOnsidG
-V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6MjgxOCwiZW5k
-IjoyODMxfSwiM2Q4amtCbnA4OUxaVlltZSI6eyJzdGFydCI6Mj
-UyNSwiZW5kIjoyNTMxLCJ0ZXh0IjoiTW9vZGxlIn19LCJjb21t
+MzEsImVuZCI6MjA1MH0sIndQYkR1OUFJVjdpMnprdXciOnsidG
+V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6MjgxMSwiZW5k
+IjoyODI0fSwiM2Q4amtCbnA4OUxaVlltZSI6eyJ0ZXh0IjoiTW
+9vZGxlIiwic3RhcnQiOjI1MTgsImVuZCI6MjUyNH19LCJjb21t
 ZW50cyI6eyJHbmRSM2h4aGRxdjluSHIxIjp7ImRpc2N1c3Npb2
 5JZCI6IngxNXdXTkJLNkpEdzdWaXYiLCJzdWIiOiJnaDo0MDMw
 NDc4OCIsInRleHQiOiJBZGQgc2VjdGlvbiIsImNyZWF0ZWQiOj
@@ -138,7 +138,7 @@ dGhpcz8iLCJjcmVhdGVkIjoxNjg2NzI3NTY3MTA4fSwiYmNsY1
 dISFJxQVlLVnJ3TCI6eyJkaXNjdXNzaW9uSWQiOiIzZDhqa0Ju
 cDg5TFpWWW1lIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ij
 oiRml4IHJlZmVyZW5jZSIsImNyZWF0ZWQiOjE2ODc3NTk2MjU5
-ODV9fSwiaGlzdG9yeSI6WzYwNzQxNjU5NywtMjAzMzQ1NDgwMy
-wtMzY1MjUxODg2LDU5MjU4MjI2NCwtMTUxMjQyNzA2LC01NzI3
-MDU2MjgsNzUwMzMwMzg4XX0=
+ODV9fSwiaGlzdG9yeSI6Wy0xNDM5Mzc1MDg1LDYwNzQxNjU5Ny
+wtMjAzMzQ1NDgwMywtMzY1MjUxODg2LDU5MjU4MjI2NCwtMTUx
+MjQyNzA2LC01NzI3MDU2MjgsNzUwMzMwMzg4XX0=
 -->
