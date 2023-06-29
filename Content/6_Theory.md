@@ -9,7 +9,7 @@ As the name would suggest, heatmaps describe the “heat,” or intensity, of th
 
 For instance, two heatmaps are created out of the same point feature layer (bus stops). One heatmap wasn’t given a weight, so it only looks for other bus stops within a certain radius, e.g. 500 meters. The other was given a weight, e.g. daily passenger amount, from the attribute table of the bus stops layer. To generate this other heatmap, the GIS software not only looks for bus stops within a radius of 500 meters of each other, but also gives the bus stops with higher passenger amounts a higher weight. Thus, the bus stops with a high daily passenger amount will be “favored” in the resulting heatmap raster layer.
 
-One step more advanced form of heatmap will also include modification of the kernel shape. Kernel is the statistical function used to give proximity and weight scores to the point features within the radius. Heatmaps are also known as kernel density analysis.
+A more advanced form of heatmap can also include modification of the kernel shape. Kernel is the statistical function used to give proximity and weight scores to the point features within the radius. Heatmaps are also known as kernel density analysis.
 
 ### What happens in Kernel Density Analysis?
 
@@ -48,11 +48,11 @@ Thiessen polygons have various applications in GIS analysis and spatial modeling
 [^2]:https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/create-thiessen-polygons.htm
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJTem0yVGd1RUxkNkl2SFI1Ijp7In
-N0YXJ0IjoxMzMsImVuZCI6MTUyLCJ0ZXh0IjoiIyMgSGVhdG1h
-cCBhbmFseXNpcyJ9fSwiY29tbWVudHMiOnsiUFFkQXEwc285OG
+RleHQiOiIjIyBIZWF0bWFwIGFuYWx5c2lzIiwic3RhcnQiOjEz
+MywiZW5kIjoxNTJ9fSwiY29tbWVudHMiOnsiUFFkQXEwc285OG
 xSZkRoNyI6eyJkaXNjdXNzaW9uSWQiOiJTem0yVGd1RUxkNkl2
 SFI1Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIH
 BpY3R1cmUiLCJjcmVhdGVkIjoxNjg3NzY4MDM3NzE5fX0sImhp
-c3RvcnkiOlstMTczMjc1OTMxMSwxMTI0NTA4NDg4LC02OTEzNz
-g1MDldfQ==
+c3RvcnkiOls2NTI4OTU3NjQsLTE3MzI3NTkzMTEsMTEyNDUwOD
+Q4OCwtNjkxMzc4NTA5XX0=
 -->
