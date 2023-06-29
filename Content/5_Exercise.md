@@ -101,7 +101,7 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 *Hint: Layer Properties contain information about the layers, including some statistics)*
 
 #### 1.2: Data type conversions - feature to raster
-It is quite common in GIS that data has to be converted from one type to another; some analyses for instance require a certain file type to work. In part two of this exercise you are going to need the shapefile “Muurla_Soil.shp” as a raster file to be able to perform the raster overlay analyses.
+It is quite common in GIS that data has to be converted from one type to another; some analyses for instance require a certain file type to work. In part two of this exercise you are going to need to convert the vector shapefile “Muurla_Soil.shp” to a raster file to be able to perform the raster overlay analyses.
 
 7. Let's convert the Muurla_Soil.shp to a raster file
 	- Open the *Rasterize (Vector to Raster)* tool
@@ -134,7 +134,7 @@ In the earlier phase you already clipped the DEM, filled the DEM, calculated the
 
 8. Start off with the water criteria. Go to Buffer -tool and make a 10-meter buffer for the Bodies_of_Water -layer without dissolving. (Hint: Exercise 4)
 
-9. Next, you have to convert the newly created buffer zone -layer to raster format. As learned before in this practical, use the *Rasterize (Vector to Raster)* tool to make this rasterization. Choose “Pinta” as the field to assign the values to the output raster and check that the cell size matches DEM.
+9. Next, you have to convert the newly created buffer zone -layer to raster format. As learned before in this practical, use the *Rasterize (Vector to Raster)* tool to make this rasterization. Choose “Pinta” as the field to assign the values to the output raster and check that the cell size matches the DEM.
 
 10.  For further calculations we need to reclassify the data of the water buffer raster layer.
 		- Open the *Reclassify by table* tool
@@ -241,32 +241,39 @@ BRZnlEUU8iOnsidGV4dCI6IkFuc3dlciB0aGUgZm9sbG93aW5n
 IHF1ZXN0aW9ucyBvbiBNb29kbGU6Iiwic3RhcnQiOjgzMzgsIm
 VuZCI6ODM3OX0sIjh1R2lkSHZuWWpwMURETmQiOnsidGV4dCI6
 IiMjIyMgMi4yOiBEZWZpbmluZyB0aGUgc3VpdGFibGUgYXJlYX
-MiLCJzdGFydCI6MTMwMDksImVuZCI6MTMwNDZ9LCJCYWZkYXZ5
+MiLCJzdGFydCI6MTMwMzEsImVuZCI6MTMwNjh9LCJCYWZkYXZ5
 bm5rdHhLMGRNIjp7InN0YXJ0IjoyMjMsImVuZCI6MjM0LCJ0ZX
-h0IjoiY3VsdGl2YXRpb24ifX0sImNvbW1lbnRzIjp7InFVaXdT
-akVMVGg3dGlLNTUiOnsiZGlzY3Vzc2lvbklkIjoiMnJKRlNBUU
-pVdllyMEZ3VyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
-IkZpeCByZWZlcmVuY2UiLCJjcmVhdGVkIjoxNjg3MTcwODg4Nz
-c0fSwiQUtFNFlFN283T1lmNmRGMyI6eyJkaXNjdXNzaW9uSWQi
-OiJNZW96RFNxazk5TmJrSGFSIiwic3ViIjoiZ2g6NDAzMDQ3OD
-giLCJ0ZXh0IjoiRml4IGNvdXJzZSBzdHJ1Y3R1cmUgdG8iLCJj
-cmVhdGVkIjoxNjg3MTcxNDI1MjU1fSwib1VEQlEza3ozSDliaE
-8wbSI6eyJkaXNjdXNzaW9uSWQiOiI2S0pYbktjcGFwUWZ5RFFP
-Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3
-Rpb24gaW4gbW9vZGxlIHdoZXJlIHBlb3BsZSBjYW4gZmlsbCB0
-aGVzZSBpbiIsImNyZWF0ZWQiOjE2ODcyMzk0MTMwNTJ9LCJ5dl
-hjdFRPNnZuVkNMbzREIjp7ImRpc2N1c3Npb25JZCI6Ijh1R2lk
-SHZuWWpwMURETmQiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleH
-QiOiJGcm9tIGhlcmUgaXQgY291bGQgYmUgbWFkZSBvcHRpb25h
-bC9hbm90aGVyIGV4ZXJjaXNlIiwiY3JlYXRlZCI6MTY4NzI0Nz
-YyNTc3OH0sImZXSDdCT1RQdGN2bjFYTGMiOnsiZGlzY3Vzc2lv
-bklkIjoiQmFmZGF2eW5ua3R4SzBkTSIsInN1YiI6ImdoOjIyMT
-Y4MTU3IiwidGV4dCI6ImFncmljdWx0dXJlPyIsImNyZWF0ZWQi
-OjE2ODgwMzM5NDU4MTV9fSwiaGlzdG9yeSI6Wy0xMDEzNjA0MT
-IsNTM4NDMwNzYwLDE4NzQ2OTE5ODQsLTc2MTYyNDA0MCwxNTgy
-NTc3Mzc0LDkyMjg1MDk2NywxMjg4OTk5ODQ2LC05MzEyMDcxNj
-gsLTM3MTU4MTc4NywtMTc0NjQ0MTk1NiwtMTc0NTc4NjI4NCwt
-MTgwOTE5NzcxNSwtMTQwMjIyNDMzMCwxODM4MDQwOTkzLC0xMj
-Y5MTUzNzgwLDQ5ODc3MDA0NiwtNDEzMjY0NjgxLDE1ODIyNzk3
-MDcsLTg4NzIyNDU2MCwyODE5MDc0MV19
+h0IjoiY3VsdGl2YXRpb24ifSwiVlBZMFBXTEZ1MFk1cGNUayI6
+eyJzdGFydCI6NzM4NywiZW5kIjo3Mzk2LCJ0ZXh0IjoiSGlsbH
+NoYWRlIn19LCJjb21tZW50cyI6eyJxVWl3U2pFTFRoN3RpSzU1
+Ijp7ImRpc2N1c3Npb25JZCI6IjJySkZTQVFKVXZZcjBGd1ciLC
+JzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJGaXggcmVmZXJl
+bmNlIiwiY3JlYXRlZCI6MTY4NzE3MDg4ODc3NH0sIkFLRTRZRT
+dvN09ZZjZkRjMiOnsiZGlzY3Vzc2lvbklkIjoiTWVvekRTcWs5
+OU5ia0hhUiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Ik
+ZpeCBjb3Vyc2Ugc3RydWN0dXJlIHRvIiwiY3JlYXRlZCI6MTY4
+NzE3MTQyNTI1NX0sIm9VREJRM2t6M0g5YmhPMG0iOnsiZGlzY3
+Vzc2lvbklkIjoiNktKWG5LY3BhcFFmeURRTyIsInN1YiI6Imdo
+OjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBzZWN0aW9uIGluIG1vb2
+RsZSB3aGVyZSBwZW9wbGUgY2FuIGZpbGwgdGhlc2UgaW4iLCJj
+cmVhdGVkIjoxNjg3MjM5NDEzMDUyfSwieXZYY3RUTzZ2blZDTG
+80RCI6eyJkaXNjdXNzaW9uSWQiOiI4dUdpZEh2bllqcDFERE5k
+Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiRnJvbSBoZX
+JlIGl0IGNvdWxkIGJlIG1hZGUgb3B0aW9uYWwvYW5vdGhlciBl
+eGVyY2lzZSIsImNyZWF0ZWQiOjE2ODcyNDc2MjU3Nzh9LCJmV0
+g3Qk9UUHRjdm4xWExjIjp7ImRpc2N1c3Npb25JZCI6IkJhZmRh
+dnlubmt0eEswZE0iLCJzdWIiOiJnaDoyMjE2ODE1NyIsInRleH
+QiOiJhZ3JpY3VsdHVyZT8iLCJjcmVhdGVkIjoxNjg4MDMzOTQ1
+ODE1fSwidWszMjJwM3FXVVVLS0tuRyI6eyJkaXNjdXNzaW9uSW
+QiOiJWUFkwUFdMRnUwWTVwY1RrIiwic3ViIjoiZ2g6MjIxNjgx
+NTciLCJ0ZXh0IjoiaXMgdGhpcyBhIHRvb2wgKHdoZXJlIHRvIG
+ZpbmQgaXQpIG9yIGEgd2F5IG9mIHNob3dpbmcgdGhlIHN5bWJv
+bG9neT8iLCJjcmVhdGVkIjoxNjg4MDM0MzY2NTk5fX0sImhpc3
+RvcnkiOlstMTUwNjgxODM2MSwtMTAxMzYwNDEyLDUzODQzMDc2
+MCwxODc0NjkxOTg0LC03NjE2MjQwNDAsMTU4MjU3NzM3NCw5Mj
+I4NTA5NjcsMTI4ODk5OTg0NiwtOTMxMjA3MTY4LC0zNzE1ODE3
+ODcsLTE3NDY0NDE5NTYsLTE3NDU3ODYyODQsLTE4MDkxOTc3MT
+UsLTE0MDIyMjQzMzAsMTgzODA0MDk5MywtMTI2OTE1Mzc4MCw0
+OTg3NzAwNDYsLTQxMzI2NDY4MSwxNTgyMjc5NzA3LC04ODcyMj
+Q1NjBdfQ==
 -->
