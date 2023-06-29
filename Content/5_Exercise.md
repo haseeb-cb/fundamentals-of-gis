@@ -156,7 +156,7 @@ The “water buffer” and the “bad slopes” will be classified as “0” so
 12. Now let’s combine the bad criteria layers
 	- Open the *Merge* tool from the *Processing Toolbox* (GDAL > Raster micellaneous > Merge) 
 	- Select the reclassified water layer and reclassified slope layer as input layers, leave the rest on default
-	- As you will notice, the output has a border around it with the value 0, this is because the merge tool used the extent of the largest layer, which is the water bodies because we added a 10m buffer to this. This is outside our study area, so we need to clip this to the Muurla_Frame again, use the instructions given earlier to do this and save the clipped result for the next steps. 
+	- As you will notice, the output has a border around it with the value 0. This is because the merge tool used the extent of the largest layer, which is the water bodies because we added a 10m buffer to this. This is outside our study area, so we need to clip this to the Muurla_Frame again. Use the instructions given earlier to do this and save the clipped result for the next steps. 
 
 The unsuitable areas:
 ![](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Assets/5_Exercise/5_Exercise_unsuitable.png?raw=true)
@@ -269,7 +269,7 @@ QiOiJWUFkwUFdMRnUwWTVwY1RrIiwic3ViIjoiZ2g6MjIxNjgx
 NTciLCJ0ZXh0IjoiaXMgdGhpcyBhIHRvb2wgKHdoZXJlIHRvIG
 ZpbmQgaXQpIG9yIGEgd2F5IG9mIHNob3dpbmcgdGhlIHN5bWJv
 bG9neT8iLCJjcmVhdGVkIjoxNjg4MDM0MzY2NTk5fX0sImhpc3
-RvcnkiOlstMzI5ODc0NzI5LC0xMDEzNjA0MTIsNTM4NDMwNzYw
+RvcnkiOlsxNzEwMDQ0NDM5LC0xMDEzNjA0MTIsNTM4NDMwNzYw
 LDE4NzQ2OTE5ODQsLTc2MTYyNDA0MCwxNTgyNTc3Mzc0LDkyMj
 g1MDk2NywxMjg4OTk5ODQ2LC05MzEyMDcxNjgsLTM3MTU4MTc4
 NywtMTc0NjQ0MTk1NiwtMTc0NTc4NjI4NCwtMTgwOTE5NzcxNS
