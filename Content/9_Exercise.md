@@ -72,7 +72,7 @@ the residents**)
 	3. If the names of the columns in the sample data are not ID, postinumero, and so on, but field_1, field_2, etc. (compare pictures above and below): make sure to tick the First record has field values checkbox.
 - Figure
 	4.  To transform the geographic information of your text file into a visual map, we have to tell QGIS where in the text locations are specified. Therefore, under Geometry Definition, choose the right **X field** (= Lng) and **Y field** (= Lat) from the menu. Also set the correct **Geometry CRS** (= EPSG:4326 - WGS 84). Then Add.
-		- The coordinate systemused for the points is a global coordinate system WGS84 (also used by e.g. Google Maps/Earth). What do you think might be the reason that the coordinates are inWGS84 instead of a Finnish coordinate system?
+		- The coordinate system used for the points is a global coordinate system WGS84 (also used by e.g. Google Maps/Earth). What do you think might be the reason that the coordinates are inWGS84 instead of a Finnish coordinate system?
 	5. Once you have imported all three text files into QGIS, save each of the layers on your computer in shapefile format. Name these layers informatively (e.g., preferred (‘soveltuvat’), unpreferred (‘kielletyt’), and important (‘omat’)). Fromhere on, continue with the exercise working on these new layers.
 
 4. **Explore the attribute tables for the three layers**
@@ -174,8 +174,8 @@ JlbmQiOjYwMjEsInRleHQiOiItIEZpZ3VyZSJ9LCI3THBVekpy
 bkxEQ290cVpoIjp7InN0YXJ0Ijo2MTgzLCJlbmQiOjYxOTEsIn
 RleHQiOiItIEZpZ3VyZSJ9LCJ6UGJMM3FGOGJSVVRWNnlwIjp7
 InN0YXJ0Ijo2NDA0LCJlbmQiOjY0MTIsInRleHQiOiItIEZpZ3
-VyZSJ9LCJKejFPbld2REs2M2VYRkc1Ijp7InN0YXJ0Ijo5ODc2
-LCJlbmQiOjk4ODQsInRleHQiOiItIEZpZ3VyZSJ9LCJhNWVBUW
+VyZSJ9LCJKejFPbld2REs2M2VYRkc1Ijp7InN0YXJ0Ijo5ODc3
+LCJlbmQiOjk4ODUsInRleHQiOiItIEZpZ3VyZSJ9LCJhNWVBUW
 lQTWh5anQ2cVlNIjp7InN0YXJ0IjoxNTY0LCJlbmQiOjE2NzYs
 InRleHQiOiJZb3XigJlsbCBnZXQgZmFtaWxpYXIgd2l0aCBzb2
 1lIG9mIHRoZSBjb21tb24gZGlmZmljdWx0aWVzIG9mIHdvcmtp
@@ -212,6 +212,6 @@ tybzJTIjp7ImRpc2N1c3Npb25JZCI6InNVbURSWmVxMnM0ZEFy
 VUIiLCJzdWIiOiJnaDoyMjE2ODE1NyIsInRleHQiOiJ0aGlzIH
 NlZW1zIHNsaWdodGx5IG91dCBvZiBwbGFjZS4gV091bGQgdGhp
 cyBnbyBpbnRvIHRoZSB0aGVvcnk/IiwiY3JlYXRlZCI6MTY4OD
-AzNzI0OTI4Nn19LCJoaXN0b3J5IjpbMjExMDc5MTAyOCwtMzE3
-MDI2NTQ1LDI2Mjg0OTE4M119
+AzNzI0OTI4Nn19LCJoaXN0b3J5IjpbLTE2MTk2ODMzNzIsMjEx
+MDc5MTAyOCwtMzE3MDI2NTQ1LDI2Mjg0OTE4M119
 -->
