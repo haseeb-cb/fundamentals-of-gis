@@ -8,15 +8,6 @@ Participatory sensing for GIS has become a useful tool to extract quantitative a
 
 Today we’re using an online map questionnaire from 2015 about possible wind power sites to study the NIMBY (Not in my backyard) phenomenon in Helsinki (if you’re interested in the phenomenon, see Veikko Eranti’s (2017) article “Re-visiting NIMBY: From conflicting interests to conflicting valuations” in Moodle or here: http://urn.fi/URN:NBN:fi:uta-201804051508). This time you’ll have to download the data as it is from an open data portal (www.hri.fi). You’ll get familiar with some of the common difficulties of working with open data and especially open GIS data. You’ll also learn to use a new and helpful tool in QGIS.
 
-### Directional Distribution (Standard Deviational Ellipse, SDE)
-
-We’ll create standard deviational ellipses to summarize the spatial characteristics of geographic features: central tendency, dispersion, and directional trends. Standard Deviation Ellipse shows the area where the majority of the features (here, possible wind power sites) are located. When the underlying spatial pattern of features is concentrated in the center with fewer features toward the periphery (a spatial normal distribution), a standard deviational ellipse polygon will cover approximately 68 percent of the features.
-
-![](https://geol260.academic.wlu.edu/files/lecture_notes/standardellipse_stat.gif)
-(Hungry for more? 
-- http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-statistics-toolbox/directional-distribution.htm
-- http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-statistics-toolbox/h-how-directional-distribution-standard-deviationa.htm)
-
 ## OBJECTIVES
 
 1. Getting familiar with SoftGIS/PPGIS (public participation GIS) data from a wind power
@@ -166,25 +157,25 @@ and Vuosaari respondents**
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJhdGNRU1NlSXNOV3JrUEhRIjp7In
-N0YXJ0Ijo4NywiZW5kIjoxMDgsInRleHQiOiIjIyBPVkVSVklF
-VyAmIFBVUlBPU0UifSwieUxJaUhjdjlCTmVYT3ZTOSI6eyJzdG
-FydCI6MzI2NiwiZW5kIjozMjc2LCJ0ZXh0IjoiQ09NUExFVElP
-TiJ9LCJaRE5CUUU0VXJENGR2c0JJIjp7InN0YXJ0Ijo2MDEzLC
-JlbmQiOjYwMjEsInRleHQiOiItIEZpZ3VyZSJ9LCI3THBVekpy
-bkxEQ290cVpoIjp7InN0YXJ0Ijo2MTgzLCJlbmQiOjYxOTEsIn
-RleHQiOiItIEZpZ3VyZSJ9LCJ6UGJMM3FGOGJSVVRWNnlwIjp7
-InN0YXJ0Ijo2NDA0LCJlbmQiOjY0MTIsInRleHQiOiItIEZpZ3
-VyZSJ9LCJKejFPbld2REs2M2VYRkc1Ijp7InN0YXJ0Ijo5ODc4
-LCJlbmQiOjk4ODYsInRleHQiOiItIEZpZ3VyZSJ9LCJhNWVBUW
-lQTWh5anQ2cVlNIjp7InN0YXJ0IjoxNTY0LCJlbmQiOjE2NzYs
-InRleHQiOiJZb3XigJlsbCBnZXQgZmFtaWxpYXIgd2l0aCBzb2
-1lIG9mIHRoZSBjb21tb24gZGlmZmljdWx0aWVzIG9mIHdvcmtp
-bmcgd2l0aCBvcGVuIGTigKYifSwic1VtRFJaZXEyczRkQXJVQi
-I6eyJzdGFydCI6MTczOSwiZW5kIjoxNzk5LCJ0ZXh0IjoiRGly
-ZWN0aW9uYWwgRGlzdHJpYnV0aW9uIChTdGFuZGFyZCBEZXZpYX
-Rpb25hbCBFbGxpcHNlLCBTREUpIn0sIjFZaGkzRlFVbGZ3OE1v
-eEEiOnsic3RhcnQiOjExMzc2LCJlbmQiOjExMzc4LCJ0ZXh0Ij
-oib3IifX0sImNvbW1lbnRzIjp7IjFyZ3lpRmNXZzYyNjQ2NG0i
+RleHQiOiIjIyBPVkVSVklFVyAmIFBVUlBPU0UiLCJzdGFydCI6
+ODcsImVuZCI6MTA4fSwieUxJaUhjdjlCTmVYT3ZTOSI6eyJ0ZX
+h0IjoiQ09NUExFVElPTiIsInN0YXJ0IjoyMzI5LCJlbmQiOjIz
+Mzl9LCJaRE5CUUU0VXJENGR2c0JJIjp7InRleHQiOiItIEZpZ3
+VyZSIsInN0YXJ0Ijo1MDc2LCJlbmQiOjUwODR9LCI3THBVekpy
+bkxEQ290cVpoIjp7InRleHQiOiItIEZpZ3VyZSIsInN0YXJ0Ij
+o1MjQ2LCJlbmQiOjUyNTR9LCJ6UGJMM3FGOGJSVVRWNnlwIjp7
+InRleHQiOiItIEZpZ3VyZSIsInN0YXJ0Ijo1NDY3LCJlbmQiOj
+U0NzV9LCJKejFPbld2REs2M2VYRkc1Ijp7InRleHQiOiItIEZp
+Z3VyZSIsInN0YXJ0Ijo4OTQxLCJlbmQiOjg5NDl9LCJhNWVBUW
+lQTWh5anQ2cVlNIjp7InRleHQiOiJZb3XigJlsbCBnZXQgZmFt
+aWxpYXIgd2l0aCBzb21lIG9mIHRoZSBjb21tb24gZGlmZmljdW
+x0aWVzIG9mIHdvcmtpbmcgd2l0aCBvcGVuIGTigKYiLCJzdGFy
+dCI6MTU2NCwiZW5kIjoxNjc2fSwic1VtRFJaZXEyczRkQXJVQi
+I6eyJ0ZXh0IjoiRGlyZWN0aW9uYWwgRGlzdHJpYnV0aW9uIChT
+dGFuZGFyZCBEZXZpYXRpb25hbCBFbGxpcHNlLCBTREUpIiwic3
+RhcnQiOjE3MzUsImVuZCI6MTczNX0sIjFZaGkzRlFVbGZ3OE1v
+eEEiOnsidGV4dCI6Im9yIiwic3RhcnQiOjEwNDM5LCJlbmQiOj
+EwNDQxfX0sImNvbW1lbnRzIjp7IjFyZ3lpRmNXZzYyNjQ2NG0i
 OnsiZGlzY3Vzc2lvbklkIjoiYXRjUVNTZUlzTldya1BIUSIsIn
 N1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJl
 IiwiY3JlYXRlZCI6MTY4Nzg1Mzg4NzM5MH0sIkt5QzZGNVVWRm
@@ -217,6 +208,6 @@ ZW9yeT8iLCJjcmVhdGVkIjoxNjg4MDM3MjQ5Mjg2fSwiNkl6Tk
 RtQTVBa0VyZFVZdyI6eyJkaXNjdXNzaW9uSWQiOiIxWWhpM0ZR
 VWxmdzhNb3hBIiwic3ViIjoiZ2g6MjIxNjgxNTciLCJ0ZXh0Ij
 oib3Igd2hhdD8iLCJjcmVhdGVkIjoxNjg4MDM3OTA2NTExfX0s
-Imhpc3RvcnkiOlsxNTc5NTcwMjQ5LDIxMTA3OTEwMjgsLTMxNz
-AyNjU0NSwyNjI4NDkxODNdfQ==
+Imhpc3RvcnkiOlstMjA5NjkxMTk5MywxNTc5NTcwMjQ5LDIxMT
+A3OTEwMjgsLTMxNzAyNjU0NSwyNjI4NDkxODNdfQ==
 -->
