@@ -37,13 +37,14 @@ We can create standard deviational ellipses to summarize the spatial characteris
 - http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-statistics-toolbox/h-how-directional-distribution-standard-deviationa.htm)
 
 [^1]: https://wpmu.mah.se/nmict182group2/2018/10/23/the-power-of-maps-participatory-gis-for-disaster-prevention/
-[^2] :https://www.esri.com/arcgis-blog/products/arcgis-online/announcements/whats-new-arcgis-online-september-2018/
+[^2]: https://www.esri.com/arcgis-blog/products/arcgis-online/announcements/whats-new-arcgis-online-september-2018/
+[^3]:
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzYyMTY2OCwtMTMyNTY3OTMzNCw1Nz
-g0NDQxODQsMjk3OTk5NTU2LDYzNTUxMTIxNiwtOTE5NTYwOTQ1
-LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMjQ3OTM1NzEzLC0xMzI1Njc5MzM0LDU3OD
+Q0NDE4NCwyOTc5OTk1NTYsNjM1NTExMjE2LC05MTk1NjA5NDUs
+NzMwOTk4MTE2XX0=
 -->
