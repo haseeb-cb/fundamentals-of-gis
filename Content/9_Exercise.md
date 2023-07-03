@@ -28,7 +28,7 @@ questionnaire
 
 Work individually or in pairs. Complete the exercise and write a short reflection. Include at the following: 
 
-1. Downloading the two datasets described above and importing the spreadsheet data as point layers
+1. Download 9_Exercise_data.zip from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. And importing the spreadsheet data as point layers
 2. Finding where the respondents from Töölö and Vuosaari (neighbourhoods in Helsinki) prefer and don’t prefer to have windmills
 	- Discovering the standard deviational ellipses of the preferences of respondents from Töölö and Vuosaari.
 3. Visualizing and composing at least 3 maps of the NIMBY attitudes, including:
@@ -161,12 +161,12 @@ RleHQiOiIjIyBPVkVSVklFVyAmIFBVUlBPU0UiLCJzdGFydCI6
 ODcsImVuZCI6MTA4fSwieUxJaUhjdjlCTmVYT3ZTOSI6eyJ0ZX
 h0IjoiQ09NUExFVElPTiIsInN0YXJ0IjoyMzI5LCJlbmQiOjIz
 Mzl9LCJaRE5CUUU0VXJENGR2c0JJIjp7InRleHQiOiItIEZpZ3
-VyZSIsInN0YXJ0Ijo1MDc2LCJlbmQiOjUwODR9LCI3THBVekpy
+VyZSIsInN0YXJ0Ijo1MjMzLCJlbmQiOjUyNDF9LCI3THBVekpy
 bkxEQ290cVpoIjp7InRleHQiOiItIEZpZ3VyZSIsInN0YXJ0Ij
-o1MjQ2LCJlbmQiOjUyNTR9LCJ6UGJMM3FGOGJSVVRWNnlwIjp7
-InRleHQiOiItIEZpZ3VyZSIsInN0YXJ0Ijo1NDY3LCJlbmQiOj
-U0NzV9LCJKejFPbld2REs2M2VYRkc1Ijp7InRleHQiOiItIEZp
-Z3VyZSIsInN0YXJ0Ijo4OTQxLCJlbmQiOjg5NDl9LCJhNWVBUW
+o1NDAzLCJlbmQiOjU0MTF9LCJ6UGJMM3FGOGJSVVRWNnlwIjp7
+InRleHQiOiItIEZpZ3VyZSIsInN0YXJ0Ijo1NjI0LCJlbmQiOj
+U2MzJ9LCJKejFPbld2REs2M2VYRkc1Ijp7InRleHQiOiItIEZp
+Z3VyZSIsInN0YXJ0Ijo5MDk4LCJlbmQiOjkxMDZ9LCJhNWVBUW
 lQTWh5anQ2cVlNIjp7InRleHQiOiJZb3XigJlsbCBnZXQgZmFt
 aWxpYXIgd2l0aCBzb21lIG9mIHRoZSBjb21tb24gZGlmZmljdW
 x0aWVzIG9mIHdvcmtpbmcgd2l0aCBvcGVuIGTigKYiLCJzdGFy
@@ -174,8 +174,8 @@ dCI6MTU2NCwiZW5kIjoxNjc2fSwic1VtRFJaZXEyczRkQXJVQi
 I6eyJ0ZXh0IjoiRGlyZWN0aW9uYWwgRGlzdHJpYnV0aW9uIChT
 dGFuZGFyZCBEZXZpYXRpb25hbCBFbGxpcHNlLCBTREUpIiwic3
 RhcnQiOjE3MzUsImVuZCI6MTczNX0sIjFZaGkzRlFVbGZ3OE1v
-eEEiOnsidGV4dCI6Im9yIiwic3RhcnQiOjEwNDM5LCJlbmQiOj
-EwNDQxfX0sImNvbW1lbnRzIjp7IjFyZ3lpRmNXZzYyNjQ2NG0i
+eEEiOnsidGV4dCI6Im9yIiwic3RhcnQiOjEwNTk2LCJlbmQiOj
+EwNTk4fX0sImNvbW1lbnRzIjp7IjFyZ3lpRmNXZzYyNjQ2NG0i
 OnsiZGlzY3Vzc2lvbklkIjoiYXRjUVNTZUlzTldya1BIUSIsIn
 N1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBwaWN0dXJl
 IiwiY3JlYXRlZCI6MTY4Nzg1Mzg4NzM5MH0sIkt5QzZGNVVWRm
@@ -208,6 +208,6 @@ ZW9yeT8iLCJjcmVhdGVkIjoxNjg4MDM3MjQ5Mjg2fSwiNkl6Tk
 RtQTVBa0VyZFVZdyI6eyJkaXNjdXNzaW9uSWQiOiIxWWhpM0ZR
 VWxmdzhNb3hBIiwic3ViIjoiZ2g6MjIxNjgxNTciLCJ0ZXh0Ij
 oib3Igd2hhdD8iLCJjcmVhdGVkIjoxNjg4MDM3OTA2NTExfX0s
-Imhpc3RvcnkiOlstMjA5NjkxMTk5MywxNTc5NTcwMjQ5LDIxMT
-A3OTEwMjgsLTMxNzAyNjU0NSwyNjI4NDkxODNdfQ==
+Imhpc3RvcnkiOls5NTQxMDAzOTksMTU3OTU3MDI0OSwyMTEwNz
+kxMDI4LC0zMTcwMjY1NDUsMjYyODQ5MTgzXX0=
 -->
