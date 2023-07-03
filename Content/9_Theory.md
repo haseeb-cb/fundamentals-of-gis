@@ -17,7 +17,13 @@ There are several PPGIS/SoftGIS tools that have been developed to facilitate pub
 Alternatively, there are also commercial tools like Mappler, CommunityViz, and ArcGIS Survey123, which are also commonly used.
 
 ## Directional Distribution
+Directional distribution refers to the analysis and representation of the spatial pattern or arrangement of data points in relation to their directions or angles. It is commonly used to study phenomena that exhibit directional characteristics, such as wind patterns, animal migration routes, or road networks.
 
+In directional distribution analysis, the focus is on understanding the concentration or dispersion of data points in different directions or sectors. This type of analysis can provide insights into the underlying processes or factors that influence the distribution pattern.
+
+By analyzing the distribution of data points in different directions, researchers can identify dominant directions, assess symmetry or asymmetry in the distribution, determine clustering or dispersion patterns, and explore potential relationships between the directional distribution and other variables.
+
+Directional distribution analysis has applications in various fields, including meteorology, ecology, transportation planning, and geospatial analysis. It helps researchers and practitioners gain a better understanding of how phenomena are distributed in space and how directional factors may influence their patterns.
 
 ### Deviational Ellipses
 We’ll create standard deviational ellipses to summarize the spatial characteristics of geographic features: central tendency, dispersion, and directional trends. 
@@ -25,6 +31,7 @@ We’ll create standard deviational ellipses to summarize the spatial characteri
 Standard Deviation Ellipse shows the area where the majority of the features (here, possible wind power sites) are located. When the underlying spatial pattern of features is concentrated in the center with fewer features toward the periphery (a spatial normal distribution), a standard deviational ellipse polygon will cover approximately 68 percent of the features.
 
 ![](https://geol260.academic.wlu.edu/files/lecture_notes/standardellipse_stat.gif)
+
 (Hungry for more? 
 - http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-statistics-toolbox/directional-distribution.htm
 - http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-statistics-toolbox/h-how-directional-distribution-standard-deviationa.htm)
@@ -32,10 +39,8 @@ Standard Deviation Ellipse shows the area where the majority of the features (he
 
 
 
-- PPGIS/SoftGIS
-- Directional Distribution
-	- Standard Deviational Ellipse, SDE
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NDYyODU3MCw2MzU1MTEyMTYsLTkxOT
-U2MDk0NSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMjk3OTk5NTU2LDYzNTUxMTIxNiwtOTE5NT
+YwOTQ1LDczMDk5ODExNl19
 -->
