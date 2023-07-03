@@ -31,7 +31,7 @@ It is good to be familiar with the area you will be working with in this exercis
 - https://en.wikipedia.org/wiki/Nokia_Arena_(Tampere)
 - https://goo.gl/maps/MifgU6b51S6QKacf7
 
-1. Save the downloaded GIS data in an empty folder for this exercise.
+1. Download 2_Exercise_data.zip from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
 
 2. Open QGIS and load the tampere_buildings.shp, tampere_roads.shp, and tampere_railway.shp into QGIS (See Crash Course exercise 2.1), the project CRS will change to the CRS of these layers (ETS89/TM35FIN).
 
@@ -174,14 +174,14 @@ eyJkaXNjdXNzaW9ucyI6eyJrZG44NXZQZ2xEVEdlVnV4Ijp7In
 RleHQiOiJEYXRhIHVzZWQiLCJzdGFydCI6NjYwLCJlbmQiOjY2
 OX0sIk9IVzh1NFdqVmNaTzBmcDUiOnsidGV4dCI6IiFbXShodH
 RwczovL2RvY3MucWdpcy5vcmcvMy4yOC9lbi9faW1hZ2VzL21B
-Y3Rpb25TZWxlY3QucG5nKSIsInN0YXJ0Ijo4MDY5LCJlbmQiOj
-gxMjl9LCJhM0VpZWxYYWtkZ2NYOE55Ijp7InRleHQiOiItIFVz
+Y3Rpb25TZWxlY3QucG5nKSIsInN0YXJ0Ijo4MjA1LCJlbmQiOj
+gyNjV9LCJhM0VpZWxYYWtkZ2NYOE55Ijp7InRleHQiOiItIFVz
 aW5nIHRoZSAqSWRlbnRpZnkgZmVhdHVyZXMqIHRvb2wsIGNsaW
 NrIG9uIGEgbGluZSBmZWF0dXJlIGluIHRoZSB0YW1wZXJlX3Jv
-4oCmIiwic3RhcnQiOjExMzE5LCJlbmQiOjExNTExfSwiYTEyZE
+4oCmIiwic3RhcnQiOjExNDU1LCJlbmQiOjExNjQ3fSwiYTEyZE
 tHeWVZUDN0TGxYRCI6eyJ0ZXh0IjoiQ29tcGxldGlvbiIsInN0
 YXJ0Ijo2NzQsImVuZCI6Njg0fSwiRk1wazk5R1hBSk84RTRITi
-I6eyJzdGFydCI6Nzc2NSwiZW5kIjo3NzgzLCJ0ZXh0IjoiKkRp
+I6eyJzdGFydCI6NzkwMSwiZW5kIjo3OTE5LCJ0ZXh0IjoiKkRp
 Z2l0aXppbmcgVG9vbGJhciouIn19LCJjb21tZW50cyI6eyJZeV
 JSZWg5TlJUSmRpbzFEIjp7ImRpc2N1c3Npb25JZCI6Imtkbjg1
 dlBnbERUR2VWdXgiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleH
@@ -200,7 +200,7 @@ V3JpdGUgdGhpcyBvdXQgZnVydGhlciIsImNyZWF0ZWQiOjE2OD
 Y0NzYzNjA5NzZ9LCJJMnZKaFJUdWljYkNVUmlLIjp7ImRpc2N1
 c3Npb25JZCI6IkZNcGs5OUdYQUpPOEU0SE4iLCJzdWIiOiJnaD
 o0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0
-ZWQiOjE2ODcwNjcwNDQ5ODZ9fSwiaGlzdG9yeSI6Wy0yMDE1MD
-Q5NTc5LDEyNTU3NTEwNDYsLTk2ODExMDEzMywtMjE0NjkxMDU4
-NiwtODE2MjQyODAxXX0=
+ZWQiOjE2ODcwNjcwNDQ5ODZ9fSwiaGlzdG9yeSI6Wy0xNzEwOD
+YzOTE0LC0yMDE1MDQ5NTc5LDEyNTU3NTEwNDYsLTk2ODExMDEz
+MywtMjE0NjkxMDU4NiwtODE2MjQyODAxXX0=
 -->
