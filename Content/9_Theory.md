@@ -17,6 +17,8 @@ There are several PPGIS/SoftGIS tools that have been developed to facilitate pub
 Alternatively, there are also commercial tools like Mappler, CommunityViz, and ArcGIS Survey123, which are also commonly used.
 
 ## Directional Distribution
+
+
 Directional distribution refers to the analysis and representation of the spatial pattern or arrangement of data points in relation to their directions or angles. It is commonly used to study phenomena that exhibit directional characteristics, such as wind patterns, animal migration routes, or road networks.
 
 In directional distribution analysis, the focus is on understanding the concentration or dispersion of data points in different directions or sectors. This type of analysis can provide insights into the underlying processes or factors that influence the distribution pattern.
@@ -39,6 +41,7 @@ We can create standard deviational ellipses to summarize the spatial characteris
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc4NDQ0MTg0LDI5Nzk5OTU1Niw2MzU1MT
-EyMTYsLTkxOTU2MDk0NSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTc4MTM1NTk3Miw1Nzg0NDQxODQsMjk3OT
+k5NTU2LDYzNTUxMTIxNiwtOTE5NTYwOTQ1LDczMDk5ODExNl19
+
 -->
