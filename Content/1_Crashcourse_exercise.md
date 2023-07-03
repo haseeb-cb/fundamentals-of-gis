@@ -110,7 +110,7 @@ Let’s download a very handy plugin called **QuickMapServices**, which gives ac
 
 ### 2.1 Add and explore data
 
-In order to get a proper touch of QGIS and how the different tools work, we will of course need data.
+In order to get a proper touch of QGIS and how the different tools work, we will of course need data. Download 1_CrashCourse_data.zip from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
 
 1.  Open the Data Source Manager (see 1.2)
 2.  Select *Vector* from the menu
@@ -278,7 +278,7 @@ lOKSwgd2hpY2jigKYiLCJzdGFydCI6NDQwOSwiZW5kIjo0NTM1
 fSwiemlvU2RVZDhwY0tGRUNuUiI6eyJ0ZXh0IjoiVGhlc2UgZG
 F0YSBzZXRzIGFyZSBhbGwgZG93bmxvYWRlZCBmcm9tIFBhSVR1
 bGkgYW5kIEhlbHNpbmtpIFJlZ2lvbiBJbmZvc2hhcmUgZOKApi
-IsInN0YXJ0Ijo5MjM1LCJlbmQiOjk1NDJ9LCJ5bmg1Ym9RaU9N
+IsInN0YXJ0Ijo5NDQxLCJlbmQiOjk3NDh9LCJ5bmg1Ym9RaU9N
 VGlsWk1XIjp7InRleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dH
 BzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9yb3dhbjhr
 L2Z1bmRhbWVudGFscy1vZi1naXMv4oCmIiwic3RhcnQiOjgyLC
@@ -319,8 +319,9 @@ MTY4NjExNDE3NDc3MX0sIkVyallFYmoyM1pmUmlhNEkiOnsiZG
 lzY3Vzc2lvbklkIjoiQ3VHMXFHSjdkRUk3QTg3SCIsInN1YiI6
 ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSB3aXRoIGZyZX
 NoIGluc3RhbGwiLCJjcmVhdGVkIjoxNjg3MDcxOTExNTI1fX0s
-Imhpc3RvcnkiOlstMzg1MjE0MjQ1LC0xMzY3NjI2MTQzLC0xOT
-QxNTY0NDYzLC0yNTQwNzUxMywtODg3MDkwMDUyLC02NzEwMTg4
-NzIsLTM4Mzc5OTA0MSwtMTQ3NjAzMzMwMCwtOTM3MzYxMTU3LC
-0xMzk0OTAwODI5LC0xNTMzMDc2NzA1XX0=
+Imhpc3RvcnkiOlstMTY4MTAzOTY0OSwtMzg1MjE0MjQ1LC0xMz
+Y3NjI2MTQzLC0xOTQxNTY0NDYzLC0yNTQwNzUxMywtODg3MDkw
+MDUyLC02NzEwMTg4NzIsLTM4Mzc5OTA0MSwtMTQ3NjAzMzMwMC
+wtOTM3MzYxMTU3LC0xMzk0OTAwODI5LC0xNTMzMDc2NzA1XX0=
+
 -->
