@@ -12,7 +12,7 @@ SoftGIS is a specific implementation of PPGIS that focuses on user-friendly soft
 The collected data can be used for various purposes, such as urban planning, environmental management, social impact assessments, or community development initiatives. By involving the public in the GIS process, PPGIS/SoftGIS fosters collaboration, empowers local communities, and enhances the quality and relevance of decision-making processes.
 
 ### PPGIS/SoftGIS tools
-
+There are several PPGIS/SoftGIS tools that have been developed to facilitate public participation in spatial data collection and analysis, but only few are freely available. 
 
 
 
@@ -20,6 +20,6 @@ The collected data can be used for various purposes, such as urban planning, env
 - Directional Distribution
 	- Standard Deviational Ellipse, SDE
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM1NTExMjE2LC05MTk1NjA5NDUsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbMTUwNDAxNzY3Myw2MzU1MTEyMTYsLTkxOT
+U2MDk0NSw3MzA5OTgxMTZdfQ==
 -->
