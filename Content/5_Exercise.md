@@ -50,7 +50,7 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 
 ![](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Assets/5_Exercise/5_Exercise_DEM_hillshade.drawio.png?raw=true)
 
-1. Download 2_Exercise_data.zip from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
+1. Download 5_Exercise_data.zip from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
 
 2. You have to download the Digital Elevation Model (DEM) from PaITuli. 
 	- Open the following link: https://paituli.csc.fi/download.html
@@ -264,11 +264,11 @@ aW9uSWQiOiJWUFkwUFdMRnUwWTVwY1RrIiwic3ViIjoiZ2g6Mj
 IxNjgxNTciLCJ0ZXh0IjoiaXMgdGhpcyBhIHRvb2wgKHdoZXJl
 IHRvIGZpbmQgaXQpIG9yIGEgd2F5IG9mIHNob3dpbmcgdGhlIH
 N5bWJvbG9neT8iLCJjcmVhdGVkIjoxNjg4MDM0MzY2NTk5fX0s
-Imhpc3RvcnkiOls3MjE0MjAzNzgsMTcxMDA0NDQzOSwtMTAxMz
-YwNDEyLDUzODQzMDc2MCwxODc0NjkxOTg0LC03NjE2MjQwNDAs
-MTU4MjU3NzM3NCw5MjI4NTA5NjcsMTI4ODk5OTg0NiwtOTMxMj
-A3MTY4LC0zNzE1ODE3ODcsLTE3NDY0NDE5NTYsLTE3NDU3ODYy
-ODQsLTE4MDkxOTc3MTUsLTE0MDIyMjQzMzAsMTgzODA0MDk5My
-wtMTI2OTE1Mzc4MCw0OTg3NzAwNDYsLTQxMzI2NDY4MSwxNTgy
-Mjc5NzA3XX0=
+Imhpc3RvcnkiOlsxNjYwMjgxMjA3LDE3MTAwNDQ0MzksLTEwMT
+M2MDQxMiw1Mzg0MzA3NjAsMTg3NDY5MTk4NCwtNzYxNjI0MDQw
+LDE1ODI1NzczNzQsOTIyODUwOTY3LDEyODg5OTk4NDYsLTkzMT
+IwNzE2OCwtMzcxNTgxNzg3LC0xNzQ2NDQxOTU2LC0xNzQ1Nzg2
+Mjg0LC0xODA5MTk3NzE1LC0xNDAyMjI0MzMwLDE4MzgwNDA5OT
+MsLTEyNjkxNTM3ODAsNDk4NzcwMDQ2LC00MTMyNjQ2ODEsMTU4
+MjI3OTcwN119
 -->
