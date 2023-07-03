@@ -12,9 +12,10 @@ SoftGIS is a specific implementation of PPGIS that focuses on user-friendly soft
 The collected data can be used for various purposes, such as urban planning, environmental management, social impact assessments, or community development initiatives. By involving the public in the GIS process, PPGIS/SoftGIS fosters collaboration, empowers local communities, and enhances the quality and relevance of decision-making processes.
 
 ### PPGIS/SoftGIS tools
-There are several PPGIS/SoftGIS tools that have been developed to facilitate public participation in spatial data collection and analysis, but only few are freely available. A good example of a this is **Epicollect5**, an open mobile data-gathering platform developed by the University of Oxford. It was originally developed to track diseases, but is now freely available to anyone that wants to conduct surveys with location data. Especially worth checking out if you want to conduct some kind of survey with geographical data: https://five.epicollect.net/. Another open-source 
+There are several PPGIS/SoftGIS tools that have been developed to facilitate public participation in spatial data collection and analysis, but only few are freely available. A good example of a this is **Epicollect5**, an open mobile data-gathering platform developed by the University of Oxford. It was originally developed to track diseases, but is now freely available to anyone that wants to conduct surveys with location data. Especially worth checking out if you want to conduct some kind of survey with geographical data: https://five.epicollect.net/. Another open-source application is Ushahidi: https://www.ushahidi.com/
 
-Alternatively, there are also commercial tools 
+Alternatively, there are also commercial tools like Mappler, CommunityViz, and ArcGIS Survey123, which are also commonly used.
+
 
 
 
@@ -24,6 +25,6 @@ Alternatively, there are also commercial tools
 - Directional Distribution
 	- Standard Deviational Ellipse, SDE
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NzA2NjIyNCw2MzU1MTEyMTYsLTkxOT
-U2MDk0NSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTQ5NDMyMzEsNjM1NTExMjE2LC05MTk1Nj
+A5NDUsNzMwOTk4MTE2XX0=
 -->
