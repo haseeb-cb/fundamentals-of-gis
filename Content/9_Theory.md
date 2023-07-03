@@ -18,7 +18,7 @@ There are several PPGIS/SoftGIS tools that have been developed to facilitate pub
 Alternatively, there are also commercial tools like Mappler, CommunityViz, and ArcGIS Survey123, which are also commonly used.
 
 ## Directional Distribution
-![](https://www.esri.com/arcgis-blog/wp-content/uploads/2018/09/sept-18.jpg)
+![](https://www.esri.com/arcgis-blog/wp-content/uploads/2018/09/sept-18.jpg)[^2]
 Directional distribution refers to the analysis and representation of the spatial pattern or arrangement of data points in relation to their directions or angles. It is commonly used to study phenomena that exhibit directional characteristics, such as wind patterns, animal migration routes, or road networks.
 
 In directional distribution analysis, the focus is on understanding the concentration or dispersion of data points in different directions or sectors. This type of analysis can provide insights into the underlying processes or factors that influence the distribution pattern.
@@ -30,7 +30,7 @@ Directional distribution analysis has applications in various fields, including 
 ### Standard Deviational Ellipse
 We can create standard deviational ellipses to summarize the spatial characteristics of geographic features: central tendency, dispersion, and directional trends. Standard Deviation Ellipse shows the area where the majority of the features are located. When the underlying spatial pattern of features is concentrated in the center with fewer features toward the periphery (a spatial normal distribution), a standard deviational ellipse polygon will cover approximately 68 percent of the features.
 
-![](https://geol260.academic.wlu.edu/files/lecture_notes/standardellipse_stat.gif)
+![](https://geol260.academic.wlu.edu/files/lecture_notes/standardellipse_stat.gif)[^3]
 
 (Hungry for more? 
 - http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-statistics-toolbox/directional-distribution.htm
@@ -38,13 +38,13 @@ We can create standard deviational ellipses to summarize the spatial characteris
 
 [^1]: https://wpmu.mah.se/nmict182group2/2018/10/23/the-power-of-maps-participatory-gis-for-disaster-prevention/
 [^2]: https://www.esri.com/arcgis-blog/products/arcgis-online/announcements/whats-new-arcgis-online-september-2018/
-[^3]:
+[^3]: https://geol260.academic.wlu.edu/course-notes/shape-analyses/distribution-of-points-lines-and-polygons/
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ3OTM1NzEzLC0xMzI1Njc5MzM0LDU3OD
-Q0NDE4NCwyOTc5OTk1NTYsNjM1NTExMjE2LC05MTk1NjA5NDUs
-NzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTIxMzQ5OTM3NTgsLTEzMjU2NzkzMzQsNT
+c4NDQ0MTg0LDI5Nzk5OTU1Niw2MzU1MTEyMTYsLTkxOTU2MDk0
+NSw3MzA5OTgxMTZdfQ==
 -->
