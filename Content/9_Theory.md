@@ -25,10 +25,8 @@ By analyzing the distribution of data points in different directions, researcher
 
 Directional distribution analysis has applications in various fields, including meteorology, ecology, transportation planning, and geospatial analysis. It helps researchers and practitioners gain a better understanding of how phenomena are distributed in space and how directional factors may influence their patterns.
 
-### Deviational Ellipses
-We’ll create standard deviational ellipses to summarize the spatial characteristics of geographic features: central tendency, dispersion, and directional trends. 
-
-Standard Deviation Ellipse shows the area where the majority of the features (here, possible wind power sites) are located. When the underlying spatial pattern of features is concentrated in the center with fewer features toward the periphery (a spatial normal distribution), a standard deviational ellipse polygon will cover approximately 68 percent of the features.
+### Standard Deviational Ellipse
+We can create standard deviational ellipses to summarize the spatial characteristics of geographic features: central tendency, dispersion, and directional trends. Standard Deviation Ellipse shows the area where the majority of the features are located. When the underlying spatial pattern of features is concentrated in the center with fewer features toward the periphery (a spatial normal distribution), a standard deviational ellipse polygon will cover approximately 68 percent of the features.
 
 ![](https://geol260.academic.wlu.edu/files/lecture_notes/standardellipse_stat.gif)
 
@@ -41,6 +39,6 @@ Standard Deviation Ellipse shows the area where the majority of the features (he
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk3OTk5NTU2LDYzNTUxMTIxNiwtOTE5NT
-YwOTQ1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNTc4NDQ0MTg0LDI5Nzk5OTU1Niw2MzU1MT
+EyMTYsLTkxOTU2MDk0NSw3MzA5OTgxMTZdfQ==
 -->
