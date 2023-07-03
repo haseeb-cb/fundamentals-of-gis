@@ -3,6 +3,7 @@
 # Theory 9: Public Participation GIS and Directional Distribution
 
 ## Public Participation GIS (PPGIS)/SoftGIS
+![](https://wpmu.mah.se/nmict182group2/files/2018/10/Dl_p7DwXoAAr2zA.jpg)[^1]
 Public Participation GIS, often referred to as PPGIS, is a participatory approach that combines GIS with public involvement in decision-making processes. It aims to engage citizens and stakeholders in mapping and analyzing spatial information to better understand and address local issues.
 
 PPGIS facilitates the collection, visualization, and analysis of geospatial data by involving community members in data collection, interpretation, and decision-making. It recognizes that local knowledge and lived experiences are valuable sources of information that can contribute to a more comprehensive understanding of an area and its challenges.
@@ -35,12 +36,14 @@ We can create standard deviational ellipses to summarize the spatial characteris
 - http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-statistics-toolbox/directional-distribution.htm
 - http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-statistics-toolbox/h-how-directional-distribution-standard-deviationa.htm)
 
+[^1]: https://wpmu.mah.se/nmict182group2/2018/10/23/the-power-of-maps-participatory-gis-for-disaster-prevention/
+[^2] :https://www.esri.com/arcgis-blog/products/arcgis-online/announcements/whats-new-arcgis-online-september-2018/
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjU2NzkzMzQsNTc4NDQ0MTg0LDI5Nz
-k5OTU1Niw2MzU1MTEyMTYsLTkxOTU2MDk0NSw3MzA5OTgxMTZd
-fQ==
+eyJoaXN0b3J5IjpbLTgyNzYyMTY2OCwtMTMyNTY3OTMzNCw1Nz
+g0NDQxODQsMjk3OTk5NTU2LDYzNTUxMTIxNiwtOTE5NTYwOTQ1
+LDczMDk5ODExNl19
 -->
