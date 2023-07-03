@@ -16,7 +16,18 @@ There are several PPGIS/SoftGIS tools that have been developed to facilitate pub
 
 Alternatively, there are also commercial tools like Mappler, CommunityViz, and ArcGIS Survey123, which are also commonly used.
 
+## Directional Distribution
 
+
+### Deviational Ellipses
+We’ll create standard deviational ellipses to summarize the spatial characteristics of geographic features: central tendency, dispersion, and directional trends. 
+
+Standard Deviation Ellipse shows the area where the majority of the features (here, possible wind power sites) are located. When the underlying spatial pattern of features is concentrated in the center with fewer features toward the periphery (a spatial normal distribution), a standard deviational ellipse polygon will cover approximately 68 percent of the features.
+
+![](https://geol260.academic.wlu.edu/files/lecture_notes/standardellipse_stat.gif)
+(Hungry for more? 
+- http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-statistics-toolbox/directional-distribution.htm
+- http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-statistics-toolbox/h-how-directional-distribution-standard-deviationa.htm)
 
 
 
@@ -25,6 +36,6 @@ Alternatively, there are also commercial tools like Mappler, CommunityViz, and A
 - Directional Distribution
 	- Standard Deviational Ellipse, SDE
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NDMyMzEsNjM1NTExMjE2LC05MTk1Nj
-A5NDUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTI1NDYyODU3MCw2MzU1MTEyMTYsLTkxOT
+U2MDk0NSw3MzA5OTgxMTZdfQ==
 -->
