@@ -2,6 +2,8 @@
 
 # Theory 6: Thiessen polygons and heatmapping (kernel density estimation)
 
+*By Rowan van der Kaaden*
+
 ## Heatmap analysis
 Spatial phenomena tend to vary in intensity across a geographical area. When the occurrence of a certain phenomenon is significantly higher in one area than in the surrounding area, you could describe it as a “hotspot” for that phenomenon. For instance, cities are hotspots of buildings and human activity, forests are hotspots of trees etc. There are many ways to locate these hotspots: interpolation, cluster analysis, and heatmap analysis, to name a few. Today we’re taking a look at heatmaps and heatmap analysis. 
 
@@ -50,11 +52,11 @@ Thiessen polygons have various applications in GIS analysis and spatial modeling
 [^2]:https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/create-thiessen-polygons.htm
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJTem0yVGd1RUxkNkl2SFI1Ijp7In
-RleHQiOiIjIyBIZWF0bWFwIGFuYWx5c2lzIiwic3RhcnQiOjEz
-MywiZW5kIjoxNTJ9fSwiY29tbWVudHMiOnsiUFFkQXEwc285OG
+RleHQiOiIjIyBIZWF0bWFwIGFuYWx5c2lzIiwic3RhcnQiOjE2
+MCwiZW5kIjoxNzl9fSwiY29tbWVudHMiOnsiUFFkQXEwc285OG
 xSZkRoNyI6eyJkaXNjdXNzaW9uSWQiOiJTem0yVGd1RUxkNkl2
 SFI1Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIH
 BpY3R1cmUiLCJjcmVhdGVkIjoxNjg3NzY4MDM3NzE5fX0sImhp
-c3RvcnkiOlstMTUxNTI5NjMyMCw2NTI4OTU3NjQsLTE3MzI3NT
-kzMTEsMTEyNDUwODQ4OCwtNjkxMzc4NTA5XX0=
+c3RvcnkiOls1NzI4NjU0NzUsNjUyODk1NzY0LC0xNzMyNzU5Mz
+ExLDExMjQ1MDg0ODgsLTY5MTM3ODUwOV19
 -->
