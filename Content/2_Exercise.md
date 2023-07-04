@@ -2,6 +2,8 @@
 
 # Exercise 2: Georeferencing & digitizing
 
+by 
+
 ## Overview & purpose
 Urban areas undergo continuous development, and maps need to be updated regularly to account for new construction, demolition, and land use changes for example. In this tutorial, the objective is to **edit a GIS layer to show urban development**. In this case, we will be looking at the development of the Nokia Arena in the city centre of Tampere, Finland. 
 
@@ -171,17 +173,17 @@ So, the tampere_buildings data is old and we need to update it – there are now
 # Time to get your hands dirty! Move on to the Crash Course exercise to get started with (Q)GIS. 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJrZG44NXZQZ2xEVEdlVnV4Ijp7In
-RleHQiOiJEYXRhIHVzZWQiLCJzdGFydCI6NjYwLCJlbmQiOjY2
-OX0sIk9IVzh1NFdqVmNaTzBmcDUiOnsidGV4dCI6IiFbXShodH
+RleHQiOiJEYXRhIHVzZWQiLCJzdGFydCI6NjY1LCJlbmQiOjY3
+NH0sIk9IVzh1NFdqVmNaTzBmcDUiOnsidGV4dCI6IiFbXShodH
 RwczovL2RvY3MucWdpcy5vcmcvMy4yOC9lbi9faW1hZ2VzL21B
-Y3Rpb25TZWxlY3QucG5nKSIsInN0YXJ0Ijo4MjA1LCJlbmQiOj
-gyNjV9LCJhM0VpZWxYYWtkZ2NYOE55Ijp7InRleHQiOiItIFVz
+Y3Rpb25TZWxlY3QucG5nKSIsInN0YXJ0Ijo4MjEwLCJlbmQiOj
+gyNzB9LCJhM0VpZWxYYWtkZ2NYOE55Ijp7InRleHQiOiItIFVz
 aW5nIHRoZSAqSWRlbnRpZnkgZmVhdHVyZXMqIHRvb2wsIGNsaW
 NrIG9uIGEgbGluZSBmZWF0dXJlIGluIHRoZSB0YW1wZXJlX3Jv
-4oCmIiwic3RhcnQiOjExNDU1LCJlbmQiOjExNjQ3fSwiYTEyZE
+4oCmIiwic3RhcnQiOjExNDYwLCJlbmQiOjExNjUyfSwiYTEyZE
 tHeWVZUDN0TGxYRCI6eyJ0ZXh0IjoiQ29tcGxldGlvbiIsInN0
-YXJ0Ijo2NzQsImVuZCI6Njg0fSwiRk1wazk5R1hBSk84RTRITi
-I6eyJzdGFydCI6NzkwMSwiZW5kIjo3OTE5LCJ0ZXh0IjoiKkRp
+YXJ0Ijo2NzksImVuZCI6Njg5fSwiRk1wazk5R1hBSk84RTRITi
+I6eyJzdGFydCI6NzkwNiwiZW5kIjo3OTI0LCJ0ZXh0IjoiKkRp
 Z2l0aXppbmcgVG9vbGJhciouIn19LCJjb21tZW50cyI6eyJZeV
 JSZWg5TlJUSmRpbzFEIjp7ImRpc2N1c3Npb25JZCI6Imtkbjg1
 dlBnbERUR2VWdXgiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleH
@@ -200,7 +202,7 @@ V3JpdGUgdGhpcyBvdXQgZnVydGhlciIsImNyZWF0ZWQiOjE2OD
 Y0NzYzNjA5NzZ9LCJJMnZKaFJUdWljYkNVUmlLIjp7ImRpc2N1
 c3Npb25JZCI6IkZNcGs5OUdYQUpPOEU0SE4iLCJzdWIiOiJnaD
 o0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0
-ZWQiOjE2ODcwNjcwNDQ5ODZ9fSwiaGlzdG9yeSI6Wy0xNzEwOD
-YzOTE0LC0yMDE1MDQ5NTc5LDEyNTU3NTEwNDYsLTk2ODExMDEz
+ZWQiOjE2ODcwNjcwNDQ5ODZ9fSwiaGlzdG9yeSI6Wy0xMjc3Nj
+M4OTE3LC0yMDE1MDQ5NTc5LDEyNTU3NTEwNDYsLTk2ODExMDEz
 MywtMjE0NjkxMDU4NiwtODE2MjQyODAxXX0=
 -->
