@@ -2,7 +2,9 @@
  
 # Course introduction
 
-Welcome to the *Fundamentals of Geographic Information Systems (GIS)* course! This is an open course developed by Tampere University meant to give y
+**Welcome to the *Fundamentals of Geographic Information Systems (GIS)* course!** This is an open course developed by Tampere University meant to get you started with GIS and give you the ability to work with GIS independently. 
+
+This course can be 
 
 ## Learning outcomes
 After completing the course you should be able to:
@@ -63,14 +65,14 @@ Following this process will help you **develop the independent troubleshooting s
 - QGIS 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJyVXo5SGtTRnVBOXByQzV2Ijp7In
-RleHQiOiJYIiwic3RhcnQiOjIyMDMsImVuZCI6MjIwNH0sInlW
+RleHQiOiJYIiwic3RhcnQiOjIzMDQsImVuZCI6MjMwNX0sInlW
 aHVwYkd2elBIaks2SGsiOnsidGV4dCI6IkNoYXQgbGluazoiLC
-JzdGFydCI6MzYyMiwiZW5kIjozNjMyfSwiYmE3cG0wTldjVEtq
-UTc0dyI6eyJ0ZXh0IjoidGVhY2hlcnMiLCJzdGFydCI6MzcwOC
-wiZW5kIjozNzE2fSwiajRaeGlFTUkzVWtMZlNENiI6eyJ0ZXh0
-Ijoib3duIiwic3RhcnQiOjM4NjYsImVuZCI6Mzg2OX0sIjRvcz
-ZraW9vaDRreUNkV2IiOnsic3RhcnQiOjM4NzMsImVuZCI6Mzkz
-OCwidGV4dCI6IiMjIFRvb2xzXG4tIEdpdGh1YiAod2hlcmUgdG
+JzdGFydCI6MzcyMywiZW5kIjozNzMzfSwiYmE3cG0wTldjVEtq
+UTc0dyI6eyJ0ZXh0IjoidGVhY2hlcnMiLCJzdGFydCI6MzgwOS
+wiZW5kIjozODE3fSwiajRaeGlFTUkzVWtMZlNENiI6eyJ0ZXh0
+Ijoib3duIiwic3RhcnQiOjM5NjcsImVuZCI6Mzk3MH0sIjRvcz
+ZraW9vaDRreUNkV2IiOnsic3RhcnQiOjM5NzQsImVuZCI6NDAz
+OSwidGV4dCI6IiMjIFRvb2xzXG4tIEdpdGh1YiAod2hlcmUgdG
 8gZG93bmxvYWQgZGF0YSlcbi0gQ2hhdFxuLSBNb29kbGVcbi0g
 UUdJUyJ9fSwiY29tbWVudHMiOnsiZjFtdWpoYWVKcm5LanhPTC
 I6eyJkaXNjdXNzaW9uSWQiOiJyVXo5SGtTRnVBOXByQzV2Iiwi
@@ -89,6 +91,6 @@ JjcmVhdGVkIjoxNjg2NzMwNzc3NDg5fSwiNkdIUzJLNE1GTmdP
 ZE5PQyI6eyJkaXNjdXNzaW9uSWQiOiI0b3M2a2lvb2g0a3lDZF
 diIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNl
 Y3Rpb24iLCJjcmVhdGVkIjoxNjg3MDY0ODgwMzgxfX0sImhpc3
-RvcnkiOlstMjg4MjgwMTgzLDczMzcwMjY0MywxNTYyMTkxMjgs
-ODg1NDE3ODI0LC0xOTI5ODAyMjI5LDExODM1NzI2MjhdfQ==
+RvcnkiOlstMTY1MjU1MzY1Miw3MzM3MDI2NDMsMTU2MjE5MTI4
+LDg4NTQxNzgyNCwtMTkyOTgwMjIyOSwxMTgzNTcyNjI4XX0=
 -->
