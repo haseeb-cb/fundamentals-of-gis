@@ -36,7 +36,7 @@ We can create standard deviational ellipses to summarize the spatial characteris
 - http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-statistics-toolbox/directional-distribution.htm
 - http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-statistics-toolbox/h-how-directional-distribution-standard-deviationa.htm)
 
-# Time to get your hands dirty! Move on to the 9th exercise to apply this new knowledge
+# Time to get your hands dirty! Move on to the [9th exercise](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/9_Exercise.md) to apply this new knowledge
 
 [^1]: https://wpmu.mah.se/nmict182group2/2018/10/23/the-power-of-maps-participatory-gis-for-disaster-prevention/
 [^2]: https://www.esri.com/arcgis-blog/products/arcgis-online/announcements/whats-new-arcgis-online-september-2018/
@@ -46,7 +46,7 @@ We can create standard deviational ellipses to summarize the spatial characteris
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzOTg0OTgwMSwtMjEzNDk5Mzc1OCwtMT
-MyNTY3OTMzNCw1Nzg0NDQxODQsMjk3OTk5NTU2LDYzNTUxMTIx
-NiwtOTE5NTYwOTQ1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTIwMDE0MDYwNTAsLTIxMzQ5OTM3NTgsLT
+EzMjU2NzkzMzQsNTc4NDQ0MTg0LDI5Nzk5OTU1Niw2MzU1MTEy
+MTYsLTkxOTU2MDk0NSw3MzA5OTgxMTZdfQ==
 -->
