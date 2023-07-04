@@ -2,6 +2,9 @@
 
 # Exercise 6: Finding the source of a historic disease outbreak
 
+By Jonathon Taylor
+*Updated by Rowan van der Kaaden* 
+
 ## OVERVIEW & PURPOSE
 This exercise uses data from a historical event in London, which many people consider to be the original use of mapping to understand disease transmission. In the 1800’s, London was a rapidly growing city, with huge amounts of migration from rural England to the city. However, the city lacked modern infrastructure, and disease and over-crowding was rife.
 
@@ -124,12 +127,12 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJ4MTV3V05CSzZKRHc3Vml2Ijp7In
 RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjIw
-MjIsImVuZCI6MjA0MX0sIndQYkR1OUFJVjdpMnprdXciOnsidG
-V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6MjkxOCwiZW5k
-IjoyOTMxfSwiUThYYVVzMndNcTl3OFk2ViI6eyJ0ZXh0IjoiYm
-VjYW1lIiwic3RhcnQiOjE2NjMsImVuZCI6MTY2OX0sIlpOVE1O
-RkxHN3NrMlVyMnciOnsidGV4dCI6Ii0iLCJzdGFydCI6NDM2Mi
-wiZW5kIjo0MzYzfX0sImNvbW1lbnRzIjp7IkduZFIzaHhoZHF2
+NzcsImVuZCI6MjA5Nn0sIndQYkR1OUFJVjdpMnprdXciOnsidG
+V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6Mjk3MywiZW5k
+IjoyOTg2fSwiUThYYVVzMndNcTl3OFk2ViI6eyJ0ZXh0IjoiYm
+VjYW1lIiwic3RhcnQiOjE3MTgsImVuZCI6MTcyNH0sIlpOVE1O
+RkxHN3NrMlVyMnciOnsidGV4dCI6Ii0iLCJzdGFydCI6NDQxNy
+wiZW5kIjo0NDE4fX0sImNvbW1lbnRzIjp7IkduZFIzaHhoZHF2
 OW5IcjEiOnsiZGlzY3Vzc2lvbklkIjoieDE1d1dOQks2SkR3N1
 ZpdiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBz
 ZWN0aW9uIiwiY3JlYXRlZCI6MTY4NjcyNzM3MzM4MH0sImZCam
@@ -146,7 +149,7 @@ eXhXbDFkQTBWZHJwZjQiOnsiZGlzY3Vzc2lvbklkIjoiWk5UTU
 5GTEc3c2syVXIydyIsInN1YiI6ImdoOjIyMTY4MTU3IiwidGV4
 dCI6InRoZXJlIGFyZSBvZnRlbiBkYXNoZXMgaW4gb2RkIHBsYW
 Nlcz8iLCJjcmVhdGVkIjoxNjg4MDM1NTE0MDQ3fX0sImhpc3Rv
-cnkiOlstMTIxNTQyMTEyLDIxMTA2Mjk2MjEsLTg0MzE3MzA3NC
+cnkiOlstNjk4NDQ3NTM4LDIxMTA2Mjk2MjEsLTg0MzE3MzA3NC
 w2MDc0MTY1OTcsLTIwMzM0NTQ4MDMsLTM2NTI1MTg4Niw1OTI1
 ODIyNjQsLTE1MTI0MjcwNiwtNTcyNzA1NjI4LDc1MDMzMDM4OF
 19
