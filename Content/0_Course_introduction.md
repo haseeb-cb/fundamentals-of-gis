@@ -64,8 +64,10 @@ Following this process will help you **develop the independent troubleshooting s
 This is where you will find the course content (theory and exercises) as well as the required data: 
 https://github.com/rowan8k/fundamentals-of-gis/tree/master/Content
 
-It is is recommended that you use Github in ligh tmode 
-- Github (where to download data)
+It is is recommended that you use Github in light mode: https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-your-theme-settings
+
+### Microsoft Teams
+As mentioned earlier, there is a chat available to get support from other people doing this course and teachers. Each exercise has its own channel where you can ask questions a
 - Chat
 - Moodle
 - QGIS 
@@ -77,9 +79,9 @@ It is is recommended that you use Github in ligh tmode
 # Let's get started with the [first theory section](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/1_Crashcourse_theory.md)!
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJLNWRwT0ppTHdGcjV5OTR2Ijp7In
-N0YXJ0Ijo1NjYzLCJlbmQiOjU2NzQsInRleHQiOiIjIyBGZWVk
-YmFjayJ9LCJsazBhVk15ckhUU0RzeW9pIjp7InN0YXJ0Ijo1Nj
-c2LCJlbmQiOjU2ODYsInRleHQiOiIjIyBDcmVkaXRzIn19LCJj
+N0YXJ0Ijo1OTk0LCJlbmQiOjYwMDUsInRleHQiOiIjIyBGZWVk
+YmFjayJ9LCJsazBhVk15ckhUU0RzeW9pIjp7InN0YXJ0Ijo2MD
+A3LCJlbmQiOjYwMTcsInRleHQiOiIjIyBDcmVkaXRzIn19LCJj
 b21tZW50cyI6eyJTaWR3UmRYWU9PZTYxTjE4Ijp7ImRpc2N1c3
 Npb25JZCI6Iks1ZHBPSmlMd0ZyNXk5NHYiLCJzdWIiOiJnaDo0
 MDMwNDc4OCIsInRleHQiOiJBZGQgZmVlZGJhY2sgc2VjdGlvbi
@@ -87,8 +89,8 @@ IsImNyZWF0ZWQiOjE2ODg0NTU0NTYzMTR9LCJRS2J6aXRpQTBz
 SXQxVGRqIjp7ImRpc2N1c3Npb25JZCI6ImxrMGFWTXlySFRTRH
 N5b2kiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQg
 Y3JlZGl0cyBzZWN0aW9uIiwiY3JlYXRlZCI6MTY4ODQ1NTQ3Mj
-MyOX19LCJoaXN0b3J5IjpbOTk0OTg0MzEsLTg5MTcxMzE0NSw0
-MjA1MDI5NjUsLTExMTczMDI5NDUsLTE2NTI1NTM2NTIsNzMzNz
-AyNjQzLDE1NjIxOTEyOCw4ODU0MTc4MjQsLTE5Mjk4MDIyMjks
-MTE4MzU3MjYyOF19
+MyOX19LCJoaXN0b3J5IjpbNjg4NzUzNzg4LC04OTE3MTMxNDUs
+NDIwNTAyOTY1LC0xMTE3MzAyOTQ1LC0xNjUyNTUzNjUyLDczMz
+cwMjY0MywxNTYyMTkxMjgsODg1NDE3ODI0LC0xOTI5ODAyMjI5
+LDExODM1NzI2MjhdfQ==
 -->
