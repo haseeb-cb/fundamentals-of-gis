@@ -74,10 +74,7 @@ You can find the chat here: https://teams.microsoft.com/l/team/19:HduKwpmM4c7LyK
 ### Moodle
 This is only relevant for Tampere University students completing this course for credits. 
 
-The moodle environment is where you will submit your reflections, map outputs, and 
-- Chat
-- Moodle
-- QGIS 
+The Moodle environment is where you will submit your reflections and map outputs, as well as complete some quizzes. If you have enrolled to this course on Sisu but have not been added to the Moodle environment, please contact the person listed as responsible on the Sisu page for this course. 
 
 ## Feedback
 
@@ -86,9 +83,9 @@ The moodle environment is where you will submit your reflections, map outputs, a
 # Let's get started with the [first theory section](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/1_Crashcourse_theory.md)!
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJLNWRwT0ppTHdGcjV5OTR2Ijp7In
-N0YXJ0Ijo2NDQxLCJlbmQiOjY0NTIsInRleHQiOiIjIyBGZWVk
-YmFjayJ9LCJsazBhVk15ckhUU0RzeW9pIjp7InN0YXJ0Ijo2ND
-U0LCJlbmQiOjY0NjQsInRleHQiOiIjIyBDcmVkaXRzIn19LCJj
+N0YXJ0Ijo2NjI3LCJlbmQiOjY2MzgsInRleHQiOiIjIyBGZWVk
+YmFjayJ9LCJsazBhVk15ckhUU0RzeW9pIjp7InN0YXJ0Ijo2Nj
+QwLCJlbmQiOjY2NTAsInRleHQiOiIjIyBDcmVkaXRzIn19LCJj
 b21tZW50cyI6eyJTaWR3UmRYWU9PZTYxTjE4Ijp7ImRpc2N1c3
 Npb25JZCI6Iks1ZHBPSmlMd0ZyNXk5NHYiLCJzdWIiOiJnaDo0
 MDMwNDc4OCIsInRleHQiOiJBZGQgZmVlZGJhY2sgc2VjdGlvbi
@@ -96,7 +93,7 @@ IsImNyZWF0ZWQiOjE2ODg0NTU0NTYzMTR9LCJRS2J6aXRpQTBz
 SXQxVGRqIjp7ImRpc2N1c3Npb25JZCI6ImxrMGFWTXlySFRTRH
 N5b2kiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQg
 Y3JlZGl0cyBzZWN0aW9uIiwiY3JlYXRlZCI6MTY4ODQ1NTQ3Mj
-MyOX19LCJoaXN0b3J5IjpbMTMxNTY1MDE3MywtODkxNzEzMTQ1
+MyOX19LCJoaXN0b3J5IjpbLTQ4NTEwNTYyNSwtODkxNzEzMTQ1
 LDQyMDUwMjk2NSwtMTExNzMwMjk0NSwtMTY1MjU1MzY1Miw3Mz
 M3MDI2NDMsMTU2MjE5MTI4LDg4NTQxNzgyNCwtMTkyOTgwMjIy
 OSwxMTgzNTcyNjI4XX0=
