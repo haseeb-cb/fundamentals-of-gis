@@ -3,6 +3,8 @@
 
 # Theory 5: Digital Elevation Model, Hillshade, and raster overlay analysis
 
+*By Rowan van der Kaaden*
+
 ## Digital Elevation Model (DEM)
 There are various ways to represent three dimensional surfaces in GIS, including contour maps (which you may have seen before) and Digital Elevation Models. A Digital Elevation Model (DEM) is a three-dimensional representation of the Earth's surface that is created using elevation data. It is a digital representation of the topography of a particular area, typically displayed as a grid of elevation values. 
 
@@ -62,9 +64,9 @@ Raster overlay analysis is used in various GIS applications, such as land suitab
 # Time to get your hands dirty! Move on to the [5th exercise](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/5_Exercise.md) to apply this new knowledge
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJRYmU0dGF0bkVJcTZ3N0dCIjp7In
-RleHQiOiJhbmQgRCIsInN0YXJ0IjoyOTYsImVuZCI6MzAxfSwi
+RleHQiOiJhbmQgRCIsInN0YXJ0IjozMjMsImVuZCI6MzI4fSwi
 cHB5UUc2S2N0SlcyQkF0TyI6eyJ0ZXh0Ijoib3ZlcmxheSBhbm
-FseXNpcyIsInN0YXJ0Ijo0OTg4LCJlbmQiOjUwMDR9fSwiY29t
+FseXNpcyIsInN0YXJ0Ijo1MDE1LCJlbmQiOjUwMzF9fSwiY29t
 bWVudHMiOnsiMmNpRXNLRTBiR2J5WDQ1TyI6eyJkaXNjdXNzaW
 9uSWQiOiJRYmU0dGF0bkVJcTZ3N0dCIiwic3ViIjoiZ2g6MjIx
 NjgxNTciLCJ0ZXh0IjoiY291bGQgbWVudGlvbiBUSU4gYW5kIG
@@ -80,9 +82,9 @@ RkZVJ5T2VraSI6eyJkaXNjdXNzaW9uSWQiOiJwcHlRRzZLY3RK
 VzJCQXRPIiwic3ViIjoiZ2g6MjIxNjgxNTciLCJ0ZXh0IjoidG
 hpcyBkZXNjcmlwdGlvbiBpcyBmb3IgYWxsIHJhc3RlcnMgbm90
 IGp1c3QgcmFzdGVyIG92ZXJsYXkgYW5hbHlzaXMiLCJjcmVhdG
-VkIjoxNjg4MDMzODM5NDMwfX0sImhpc3RvcnkiOls0Nzc5Nzgw
-NjEsMTM4MzQ3NDIwNSw2OTI3MzMyMjgsMTIwODQwMDIwMSwxMT
-I3Mzc1NTE5LC0xOTQ2Nzc1NDYxLDE4MDkwNTY3LDIwMTQxMjcx
-MTcsLTg4NTI5MDMzMywtODk2MjI3MjgxLDk5NDcyMDE5MywtMz
-UxMDc2NTgwLC0xMzkwMzMyMDUxXX0=
+VkIjoxNjg4MDMzODM5NDMwfX0sImhpc3RvcnkiOlsxNDE0OTI1
+ODkzLDEzODM0NzQyMDUsNjkyNzMzMjI4LDEyMDg0MDAyMDEsMT
+EyNzM3NTUxOSwtMTk0Njc3NTQ2MSwxODA5MDU2NywyMDE0MTI3
+MTE3LC04ODUyOTAzMzMsLTg5NjIyNzI4MSw5OTQ3MjAxOTMsLT
+M1MTA3NjU4MCwtMTM5MDMzMjA1MV19
 -->
