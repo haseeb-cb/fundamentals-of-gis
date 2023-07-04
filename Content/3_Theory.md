@@ -81,24 +81,24 @@ For this exercise, we will be cleaning up the data by selecting the entries we w
 What do you think is the purpose of this expression?
 
 
-# Time to get your hands dirty! Move on to the 3rd exercise to apply this new knowledge
+# Time to get your hands dirty! Move on to the [3rd exercise](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/3_Exercise.md) to apply this new knowledge
 
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI1c1JndzZETlBmYkJJY2ZpIjp7In
 RleHQiOiItIEV4YW1wbGUgcGljdHVyZSBvZiBHSVMgYW5hbHlz
-aXMiLCJlbmQiOjM3NDQsInN0YXJ0IjozNzQ0fX0sImNvbW1lbn
+aXMiLCJzdGFydCI6Mzc0NCwiZW5kIjozNzQ0fX0sImNvbW1lbn
 RzIjp7ImZMQ0hmczBWZHd4MXFEVVciOnsiZGlzY3Vzc2lvbklk
 IjoiNXNSZ3c2RE5QZmJCSWNmaSIsInN1YiI6ImdoOjQwMzA0Nz
 g4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4
 NjYzNjc3MjU5MH0sInRSUFZnNDEwM3JaYmpYaTEiOnsiZGlzY3
 Vzc2lvbklkIjoiNXNSZ3c2RE5QZmJCSWNmaSIsInN1YiI6Imdo
 OjQwMzA0Nzg4IiwidGV4dCI6IkFkZCByZWZlcmVuY2UiLCJjcm
-VhdGVkIjoxNjg3MDcwNjk2ODIyfX0sImhpc3RvcnkiOlsxNjAw
-MzQyNTIyLDIxMjY3NDEyODAsLTk1MDA4MTc5NCwxNTE0MzgxOT
-A2LDIwODk0ODQ4NjksNzY4Mzg1NjA4LC05MjA5MDM4MTAsMjQz
-ODczODE0LDk2ODkzMTM1NSwtMTYzMjk1MjQxNiwtMTIzNDczMj
-EyNSwtMTM1MTcxNzUxNywtNTczMjQ4MTQzLDE0NDQzODExMjUs
-MTgxOTYxNzcwMCwyMDgzOTkzOTg2LC0xNzU0ODUxNzMsMTMzMj
-M3NDk0OCwtMTcwNTI1ODkyNywtMTU0MzUwNTAxNV19
+VhdGVkIjoxNjg3MDcwNjk2ODIyfX0sImhpc3RvcnkiOlsxOTUw
+OTUzNDMzLDE2MDAzNDI1MjIsMjEyNjc0MTI4MCwtOTUwMDgxNz
+k0LDE1MTQzODE5MDYsMjA4OTQ4NDg2OSw3NjgzODU2MDgsLTky
+MDkwMzgxMCwyNDM4NzM4MTQsOTY4OTMxMzU1LC0xNjMyOTUyND
+E2LC0xMjM0NzMyMTI1LC0xMzUxNzE3NTE3LC01NzMyNDgxNDMs
+MTQ0NDM4MTEyNSwxODE5NjE3NzAwLDIwODM5OTM5ODYsLTE3NT
+Q4NTE3MywxMzMyMzc0OTQ4LC0xNzA1MjU4OTI3XX0=
 -->
