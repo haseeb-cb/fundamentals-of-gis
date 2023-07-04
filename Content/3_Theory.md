@@ -85,13 +85,16 @@ What do you think is the purpose of this expression?
 
 # Time to get your hands dirty! Move on to the [3rd exercise](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/3_Exercise.md) to apply this new knowledge
 
+[^1]: https://www.theguardian.com/cities/gallery/2016/jun/23/south-africa-divided-cities-apartheid-photographed-drone
+[^2]: Hynynen, K. (2020). _Raportti Tampereen kaupunkiseudun asuinalueiden eriytymiskehityksestä ja toimenpidesuositukset eriytymiskehityksen hillintään ja ennaltaehkäisyyn [Report of segregation of residential areas in the Tampere City Region and action proposals for the mitigation and prevention of segregation]_. Tampere City Region.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTg1MTEyNjYsMTYwMDM0MjUyMiwyMT
-I2NzQxMjgwLC05NTAwODE3OTQsMTUxNDM4MTkwNiwyMDg5NDg0
-ODY5LDc2ODM4NTYwOCwtOTIwOTAzODEwLDI0Mzg3MzgxNCw5Nj
-g5MzEzNTUsLTE2MzI5NTI0MTYsLTEyMzQ3MzIxMjUsLTEzNTE3
-MTc1MTcsLTU3MzI0ODE0MywxNDQ0MzgxMTI1LDE4MTk2MTc3MD
-AsMjA4Mzk5Mzk4NiwtMTc1NDg1MTczLDEzMzIzNzQ5NDgsLTE3
-MDUyNTg5MjddfQ==
+eyJoaXN0b3J5IjpbNTc5NzE2OTI2LDE2MDAzNDI1MjIsMjEyNj
+c0MTI4MCwtOTUwMDgxNzk0LDE1MTQzODE5MDYsMjA4OTQ4NDg2
+OSw3NjgzODU2MDgsLTkyMDkwMzgxMCwyNDM4NzM4MTQsOTY4OT
+MxMzU1LC0xNjMyOTUyNDE2LC0xMjM0NzMyMTI1LC0xMzUxNzE3
+NTE3LC01NzMyNDgxNDMsMTQ0NDM4MTEyNSwxODE5NjE3NzAwLD
+IwODM5OTM5ODYsLTE3NTQ4NTE3MywxMzMyMzc0OTQ4LC0xNzA1
+MjU4OTI3XX0=
 -->
