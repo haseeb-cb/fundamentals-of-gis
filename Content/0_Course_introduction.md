@@ -18,7 +18,7 @@ After completing the course you should be able to:
 - Develop the aiblity to perform new anayses, troubleshoot, and find help from the GIS community to solve your problems
 
 ## Structure
-The course consists of **9 exercises**, each accompanied by a piece of theory. It's reco The first exercise is meant to give you the basic skills in GIS and the software we will be using, QGIS. From there on you will build on these basic skills using the other exercises, covering various analyses and methods, and develop a fundamental skillset in GIS and QGIS. 
+The course consists of **9 exercises**, each accompanied by a piece of theory. It's recommended to go through the theory before attempting the exercise. The first exercise is meant to give you the basic skills in GIS and the software we will be using, QGIS. From there on you will build on these basic skills using the other exercises, covering various analyses and methods, and develop a fundamental skillset in GIS and QGIS. 
 
 | Exercise | Topic | Methods |
 |--|--|--|
@@ -64,16 +64,18 @@ Following this process will help you **develop the independent troubleshooting s
 - Chat
 - Moodle
 - QGIS 
+
+# 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJyVXo5SGtTRnVBOXByQzV2Ijp7In
-RleHQiOiJYIiwic3RhcnQiOjMzODMsImVuZCI6MzM4NH0sInlW
+RleHQiOiJYIiwic3RhcnQiOjM0NDcsImVuZCI6MzQ0OH0sInlW
 aHVwYkd2elBIaks2SGsiOnsidGV4dCI6IkNoYXQgbGluazoiLC
-JzdGFydCI6NDgwMiwiZW5kIjo0ODEyfSwiYmE3cG0wTldjVEtq
-UTc0dyI6eyJ0ZXh0IjoidGVhY2hlcnMiLCJzdGFydCI6NDg4OC
-wiZW5kIjo0ODk2fSwiajRaeGlFTUkzVWtMZlNENiI6eyJ0ZXh0
-Ijoib3duIiwic3RhcnQiOjUwNDYsImVuZCI6NTA0OX0sIjRvcz
-ZraW9vaDRreUNkV2IiOnsic3RhcnQiOjUwNTMsImVuZCI6NTEx
-OCwidGV4dCI6IiMjIFRvb2xzXG4tIEdpdGh1YiAod2hlcmUgdG
+JzdGFydCI6NDg2NiwiZW5kIjo0ODc2fSwiYmE3cG0wTldjVEtq
+UTc0dyI6eyJ0ZXh0IjoidGVhY2hlcnMiLCJzdGFydCI6NDk1Mi
+wiZW5kIjo0OTYwfSwiajRaeGlFTUkzVWtMZlNENiI6eyJ0ZXh0
+Ijoib3duIiwic3RhcnQiOjUxMTAsImVuZCI6NTExM30sIjRvcz
+ZraW9vaDRreUNkV2IiOnsic3RhcnQiOjUxMTcsImVuZCI6NTE4
+MiwidGV4dCI6IiMjIFRvb2xzXG4tIEdpdGh1YiAod2hlcmUgdG
 8gZG93bmxvYWQgZGF0YSlcbi0gQ2hhdFxuLSBNb29kbGVcbi0g
 UUdJUyJ9fSwiY29tbWVudHMiOnsiZjFtdWpoYWVKcm5LanhPTC
 I6eyJkaXNjdXNzaW9uSWQiOiJyVXo5SGtTRnVBOXByQzV2Iiwi
@@ -92,7 +94,7 @@ JjcmVhdGVkIjoxNjg2NzMwNzc3NDg5fSwiNkdIUzJLNE1GTmdP
 ZE5PQyI6eyJkaXNjdXNzaW9uSWQiOiI0b3M2a2lvb2g0a3lDZF
 diIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNl
 Y3Rpb24iLCJjcmVhdGVkIjoxNjg3MDY0ODgwMzgxfX0sImhpc3
-RvcnkiOlszMzI0MTEyMiw0MjA1MDI5NjUsLTExMTczMDI5NDUs
-LTE2NTI1NTM2NTIsNzMzNzAyNjQzLDE1NjIxOTEyOCw4ODU0MT
-c4MjQsLTE5Mjk4MDIyMjksMTE4MzU3MjYyOF19
+RvcnkiOls5NDc1NzQyNTYsNDIwNTAyOTY1LC0xMTE3MzAyOTQ1
+LC0xNjUyNTUzNjUyLDczMzcwMjY0MywxNTYyMTkxMjgsODg1ND
+E3ODI0LC0xOTI5ODAyMjI5LDExODM1NzI2MjhdfQ==
 -->
