@@ -9,7 +9,7 @@ This spatial segregation can lead to disparities in quality of life, opportuniti
 
 Understanding socio-spatial differentiation is important for analyzing and addressing social inequalities and urban development challenges. It helps identify areas that may be experiencing higher levels of deprivation or exclusion, and informs policies and interventions aimed at promoting more inclusive and equitable spatial patterns within cities and regions.
 
-![Segregation of urban spaces in South Africa](https://i.guim.co.uk/img/media/2f4f21ad8cfc3328301f1f250c322dc60977e9fc/0_0_3984_2232/master/3984.jpg?width=1900&quality=85&auto=format&fit=max&s=8806dda696925420d60bc36b1a138263)*Kya Sands/Bloubosrand from Unequal Scenes: Segregation of urban spaces in South Africa by Johnny Miller Photograph: Johnny Miller/Millefoto/Rex/Shutterstock*
+![Segregation of urban spaces in South Africa](https://i.guim.co.uk/img/media/2f4f21ad8cfc3328301f1f250c322dc60977e9fc/0_0_3984_2232/master/3984.jpg?width=1900&quality=85&auto=format&fit=max&s=8806dda696925420d60bc36b1a138263)[^1]*Kya Sands/Bloubosrand from Unequal Scenes: Segregation of urban spaces in South Africa by Johnny Miller Photograph: Johnny Miller/Millefoto/Rex/Shutterstock*
 
 GIS is a powerful tool that can be used to analyze and understand socio-spatial differentiation. By **integrating spatial data with social and demographic information**, GIS enables researchers and planners to examine the relationships between different social groups and the spaces they occupy.
 
@@ -19,7 +19,9 @@ With GIS, it is possible to conduct spatial analyses and modeling to assess the 
 
 Furthermore, GIS allows for the monitoring and evaluation of policies and interventions aimed at reducing socio-spatial differentiation. By analyzing spatial data over time, planners can assess the effectiveness of urban development strategies and determine whether they contribute to more equitable spatial patterns and improved social outcomes.
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Theory/3_Theory_socio-spatial_differentiation_analysis_example.png)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Theory/3_Theory_socio-spatial_differentiation_analysis_example.png)*Geographical distribution of relative wellbeing in the Tampere City Region in 2017. The map depicts the two lowest and two highest levels (lowest and highest quintiles) of wellbeing in grid cells based on unemployment rates, median income of inhabitants, and proportion of highly educated people in the respective grid cells.*[^2]
+
+
 Another example of an socio-spatial differentiation study using GIS can be found here: https://helda.helsinki.fi/handle/10138/301865
 
 ## Dataset
@@ -85,20 +87,11 @@ What do you think is the purpose of this expression?
 
 
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyI1c1JndzZETlBmYkJJY2ZpIjp7In
-RleHQiOiItIEV4YW1wbGUgcGljdHVyZSBvZiBHSVMgYW5hbHlz
-aXMiLCJzdGFydCI6Mzc0NCwiZW5kIjozNzQ0fX0sImNvbW1lbn
-RzIjp7ImZMQ0hmczBWZHd4MXFEVVciOnsiZGlzY3Vzc2lvbklk
-IjoiNXNSZ3c2RE5QZmJCSWNmaSIsInN1YiI6ImdoOjQwMzA0Nz
-g4IiwidGV4dCI6IkFkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4
-NjYzNjc3MjU5MH0sInRSUFZnNDEwM3JaYmpYaTEiOnsiZGlzY3
-Vzc2lvbklkIjoiNXNSZ3c2RE5QZmJCSWNmaSIsInN1YiI6Imdo
-OjQwMzA0Nzg4IiwidGV4dCI6IkFkZCByZWZlcmVuY2UiLCJjcm
-VhdGVkIjoxNjg3MDcwNjk2ODIyfX0sImhpc3RvcnkiOlsxOTUw
-OTUzNDMzLDE2MDAzNDI1MjIsMjEyNjc0MTI4MCwtOTUwMDgxNz
-k0LDE1MTQzODE5MDYsMjA4OTQ4NDg2OSw3NjgzODU2MDgsLTky
-MDkwMzgxMCwyNDM4NzM4MTQsOTY4OTMxMzU1LC0xNjMyOTUyND
-E2LC0xMjM0NzMyMTI1LC0xMzUxNzE3NTE3LC01NzMyNDgxNDMs
-MTQ0NDM4MTEyNSwxODE5NjE3NzAwLDIwODM5OTM5ODYsLTE3NT
-Q4NTE3MywxMzMyMzc0OTQ4LC0xNzA1MjU4OTI3XX0=
+eyJoaXN0b3J5IjpbLTE2OTg1MTEyNjYsMTYwMDM0MjUyMiwyMT
+I2NzQxMjgwLC05NTAwODE3OTQsMTUxNDM4MTkwNiwyMDg5NDg0
+ODY5LDc2ODM4NTYwOCwtOTIwOTAzODEwLDI0Mzg3MzgxNCw5Nj
+g5MzEzNTUsLTE2MzI5NTI0MTYsLTEyMzQ3MzIxMjUsLTEzNTE3
+MTc1MTcsLTU3MzI0ODE0MywxNDQ0MzgxMTI1LDE4MTk2MTc3MD
+AsMjA4Mzk5Mzk4NiwtMTc1NDg1MTczLDEzMzIzNzQ5NDgsLTE3
+MDUyNTg5MjddfQ==
 -->
