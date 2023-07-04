@@ -3,6 +3,8 @@
 
 # Theory 7: Spatial Interpolation
 
+*By Rowan van der Kaaden*
+
 ![](https://gisgeography.com/wp-content/uploads/2016/05/IDW-Featured-Image-1265x568.png)[^1]
 
 Spatial interpolation is a technique used in GIS to estimate values at unsampled locations based on known measurements from surrounding locations. It is a method of creating continuous surfaces or maps of a particular phenomenon across a study area where data points are limited or unevenly distributed.
@@ -35,7 +37,7 @@ In GIS, interpolation results are usually shown as a 2 dimensional raster layer.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzg4NDUwMTEsMjc4ODQ0MTUsLTY3Mj
-U0MDYxMiwyMDE0OTk5NDAxLC0xMDk4MzkyMjc5LC0xODI2NjEz
-MDQwXX0=
+eyJoaXN0b3J5IjpbLTYzMzc4OTYzOSwtMTEzODg0NTAxMSwyNz
+g4NDQxNSwtNjcyNTQwNjEyLDIwMTQ5OTk0MDEsLTEwOTgzOTIy
+NzksLTE4MjY2MTMwNDBdfQ==
 -->
