@@ -3,6 +3,8 @@
 
 # Theory 4: Buffer and Overlay Analysis
 
+*By Rowan van der Kaaden*
+
 ## Buffer analysis
 GIS buffer analysis is a spatial analysis technique used to create buffers around spatial features. A buffer is a defined area around a geographic object, such as a point, line, or polygon, that represents a specific distance or range - or zones that represent the proximity to the feature. The buffer can be created by measuring a fixed distance from the object or by using other criteria, such as travel time.
 
@@ -74,9 +76,9 @@ Using the figure above, we are looking for the green circles by spatially compar
 [^3]: https://docs.qgis.org/3.28/en/docs/user_manual/processing_algs/algs_include.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjkwNTY5MzMsMzMzMzQ5NTg5LDE5OT
-EyNTcyODMsMTE5NTYxMjc2MCwtMTkzNTU5NzM5OCwxMTE5NzAw
-Mzc4LDE2MzQxMjkyMjEsLTExMzU2NjI3NTYsLTE2NzI5MDY5Nj
-YsMTYzNjU5MjcxNywxNjI5Nzk1NDkzLDEyMjc2MzA3NzQsNzMw
-OTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTM4MDE5NTIwNywzMzMzNDk1ODksMTk5MT
+I1NzI4MywxMTk1NjEyNzYwLC0xOTM1NTk3Mzk4LDExMTk3MDAz
+NzgsMTYzNDEyOTIyMSwtMTEzNTY2Mjc1NiwtMTY3MjkwNjk2Ni
+wxNjM2NTkyNzE3LDE2Mjk3OTU0OTMsMTIyNzYzMDc3NCw3MzA5
+OTgxMTZdfQ==
 -->
