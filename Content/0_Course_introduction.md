@@ -22,8 +22,8 @@ The course consists of **9 exercises**, each accompanied by a piece of theory. T
 
 | Exercise | Topic | Methods |
 |--|--|--|
-| Crash Course | Introduction | QGIS interface & Vector analysis |
-| 1 | Vector analysis introduction | Digitizing, georeferencing, clipping |
+| [1 Crash Course](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/1_Crashcourse_theory.md) | Introduction | QGIS interface & Vector analysis |
+| [2](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/2_Theory.md) | Vector analysis introduction | Digitizing, georeferencing, clipping |
 | 2 | Socio-spatial differentiation | Raster analysis |
 | 3 | Finding the optimal location for a new development | Buffer analysis, overlay analysis |
 | 4 | Determining optimal land for cultivation | Digital Elevation Model (DEM), slope, hillshade, overlay analysis |
@@ -66,14 +66,14 @@ Following this process will help you **develop the independent troubleshooting s
 - QGIS 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJyVXo5SGtTRnVBOXByQzV2Ijp7In
-RleHQiOiJYIiwic3RhcnQiOjI2NjUsImVuZCI6MjY2Nn0sInlW
+RleHQiOiJYIiwic3RhcnQiOjI4NDMsImVuZCI6Mjg0NH0sInlW
 aHVwYkd2elBIaks2SGsiOnsidGV4dCI6IkNoYXQgbGluazoiLC
-JzdGFydCI6NDA4NCwiZW5kIjo0MDk0fSwiYmE3cG0wTldjVEtq
-UTc0dyI6eyJ0ZXh0IjoidGVhY2hlcnMiLCJzdGFydCI6NDE3MC
-wiZW5kIjo0MTc4fSwiajRaeGlFTUkzVWtMZlNENiI6eyJ0ZXh0
-Ijoib3duIiwic3RhcnQiOjQzMjgsImVuZCI6NDMzMX0sIjRvcz
-ZraW9vaDRreUNkV2IiOnsic3RhcnQiOjQzMzUsImVuZCI6NDQw
-MCwidGV4dCI6IiMjIFRvb2xzXG4tIEdpdGh1YiAod2hlcmUgdG
+JzdGFydCI6NDI2MiwiZW5kIjo0MjcyfSwiYmE3cG0wTldjVEtq
+UTc0dyI6eyJ0ZXh0IjoidGVhY2hlcnMiLCJzdGFydCI6NDM0OC
+wiZW5kIjo0MzU2fSwiajRaeGlFTUkzVWtMZlNENiI6eyJ0ZXh0
+Ijoib3duIiwic3RhcnQiOjQ1MDYsImVuZCI6NDUwOX0sIjRvcz
+ZraW9vaDRreUNkV2IiOnsic3RhcnQiOjQ1MTMsImVuZCI6NDU3
+OCwidGV4dCI6IiMjIFRvb2xzXG4tIEdpdGh1YiAod2hlcmUgdG
 8gZG93bmxvYWQgZGF0YSlcbi0gQ2hhdFxuLSBNb29kbGVcbi0g
 UUdJUyJ9fSwiY29tbWVudHMiOnsiZjFtdWpoYWVKcm5LanhPTC
 I6eyJkaXNjdXNzaW9uSWQiOiJyVXo5SGtTRnVBOXByQzV2Iiwi
@@ -92,7 +92,7 @@ JjcmVhdGVkIjoxNjg2NzMwNzc3NDg5fSwiNkdIUzJLNE1GTmdP
 ZE5PQyI6eyJkaXNjdXNzaW9uSWQiOiI0b3M2a2lvb2g0a3lDZF
 diIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNl
 Y3Rpb24iLCJjcmVhdGVkIjoxNjg3MDY0ODgwMzgxfX0sImhpc3
-RvcnkiOls0MjA1MDI5NjUsLTExMTczMDI5NDUsLTE2NTI1NTM2
-NTIsNzMzNzAyNjQzLDE1NjIxOTEyOCw4ODU0MTc4MjQsLTE5Mj
-k4MDIyMjksMTE4MzU3MjYyOF19
+RvcnkiOlsxMjk0NTg5NjQzLDQyMDUwMjk2NSwtMTExNzMwMjk0
+NSwtMTY1MjU1MzY1Miw3MzM3MDI2NDMsMTU2MjE5MTI4LDg4NT
+QxNzgyNCwtMTkyOTgwMjIyOSwxMTgzNTcyNjI4XX0=
 -->
