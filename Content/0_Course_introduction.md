@@ -65,7 +65,7 @@ Following this process will help you **develop the independent troubleshooting s
 - Moodle
 - QGIS 
 
-# 
+# Let's get started with the [first theory section](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/1_Crashcourse_theory.md)!
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJyVXo5SGtTRnVBOXByQzV2Ijp7In
 RleHQiOiJYIiwic3RhcnQiOjM0NDcsImVuZCI6MzQ0OH0sInlW
@@ -94,7 +94,7 @@ JjcmVhdGVkIjoxNjg2NzMwNzc3NDg5fSwiNkdIUzJLNE1GTmdP
 ZE5PQyI6eyJkaXNjdXNzaW9uSWQiOiI0b3M2a2lvb2g0a3lDZF
 diIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNl
 Y3Rpb24iLCJjcmVhdGVkIjoxNjg3MDY0ODgwMzgxfX0sImhpc3
-RvcnkiOls5NDc1NzQyNTYsNDIwNTAyOTY1LC0xMTE3MzAyOTQ1
-LC0xNjUyNTUzNjUyLDczMzcwMjY0MywxNTYyMTkxMjgsODg1ND
-E3ODI0LC0xOTI5ODAyMjI5LDExODM1NzI2MjhdfQ==
+RvcnkiOlstMTk0MTk0NDk0NSw0MjA1MDI5NjUsLTExMTczMDI5
+NDUsLTE2NTI1NTM2NTIsNzMzNzAyNjQzLDE1NjIxOTEyOCw4OD
+U0MTc4MjQsLTE5Mjk4MDIyMjksMTE4MzU3MjYyOF19
 -->
