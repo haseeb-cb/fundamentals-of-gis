@@ -5,7 +5,7 @@
 
 **Welcome to the *Fundamentals of Geographic Information Systems (GIS)* course!** This is an open course developed by Tampere University meant to get you started with GIS and give you the ability to work with GIS independently. 
 
-This course can be completed independently, or as a student at the Tampere University. 
+This course can be completed independently, or as a student at the Tampere University. Everyone is able to access the course materials and support, with the exception that students have to complete a number of criteria and if they do so, they are eligible for ECTS credits. 
 
 ## Learning outcomes
 After completing the course you should be able to:
@@ -66,14 +66,14 @@ Following this process will help you **develop the independent troubleshooting s
 - QGIS 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJyVXo5SGtTRnVBOXByQzV2Ijp7In
-RleHQiOiJYIiwic3RhcnQiOjI0ODAsImVuZCI6MjQ4MX0sInlW
+RleHQiOiJYIiwic3RhcnQiOjI2NjcsImVuZCI6MjY2OH0sInlW
 aHVwYkd2elBIaks2SGsiOnsidGV4dCI6IkNoYXQgbGluazoiLC
-JzdGFydCI6Mzg5OSwiZW5kIjozOTA5fSwiYmE3cG0wTldjVEtq
-UTc0dyI6eyJ0ZXh0IjoidGVhY2hlcnMiLCJzdGFydCI6Mzk4NS
-wiZW5kIjozOTkzfSwiajRaeGlFTUkzVWtMZlNENiI6eyJ0ZXh0
-Ijoib3duIiwic3RhcnQiOjQxNDMsImVuZCI6NDE0Nn0sIjRvcz
-ZraW9vaDRreUNkV2IiOnsic3RhcnQiOjQxNTAsImVuZCI6NDIx
-NSwidGV4dCI6IiMjIFRvb2xzXG4tIEdpdGh1YiAod2hlcmUgdG
+JzdGFydCI6NDA4NiwiZW5kIjo0MDk2fSwiYmE3cG0wTldjVEtq
+UTc0dyI6eyJ0ZXh0IjoidGVhY2hlcnMiLCJzdGFydCI6NDE3Mi
+wiZW5kIjo0MTgwfSwiajRaeGlFTUkzVWtMZlNENiI6eyJ0ZXh0
+Ijoib3duIiwic3RhcnQiOjQzMzAsImVuZCI6NDMzM30sIjRvcz
+ZraW9vaDRreUNkV2IiOnsic3RhcnQiOjQzMzcsImVuZCI6NDQw
+MiwidGV4dCI6IiMjIFRvb2xzXG4tIEdpdGh1YiAod2hlcmUgdG
 8gZG93bmxvYWQgZGF0YSlcbi0gQ2hhdFxuLSBNb29kbGVcbi0g
 UUdJUyJ9fSwiY29tbWVudHMiOnsiZjFtdWpoYWVKcm5LanhPTC
 I6eyJkaXNjdXNzaW9uSWQiOiJyVXo5SGtTRnVBOXByQzV2Iiwi
@@ -92,7 +92,7 @@ JjcmVhdGVkIjoxNjg2NzMwNzc3NDg5fSwiNkdIUzJLNE1GTmdP
 ZE5PQyI6eyJkaXNjdXNzaW9uSWQiOiI0b3M2a2lvb2g0a3lDZF
 diIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNl
 Y3Rpb24iLCJjcmVhdGVkIjoxNjg3MDY0ODgwMzgxfX0sImhpc3
-RvcnkiOlsxOTk2OTczNDE0LC0xNjUyNTUzNjUyLDczMzcwMjY0
-MywxNTYyMTkxMjgsODg1NDE3ODI0LC0xOTI5ODAyMjI5LDExOD
-M1NzI2MjhdfQ==
+RvcnkiOlstMTExNzMwMjk0NSwtMTY1MjU1MzY1Miw3MzM3MDI2
+NDMsMTU2MjE5MTI4LDg4NTQxNzgyNCwtMTkyOTgwMjIyOSwxMT
+gzNTcyNjI4XX0=
 -->
