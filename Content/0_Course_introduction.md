@@ -26,11 +26,11 @@ The course consists of **9 exercises**, each accompanied by a piece of theory. T
 | [2](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/2_Theory.md) | Vector analysis introduction | Digitizing, georeferencing, clipping |
 | [3](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/3_Theory.md) | Socio-spatial differentiation | Raster analysis |
 | [4](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/4_theory.md) | Finding the optimal location for a new development | Buffer analysis, overlay analysis |
-| 5 | Determining optimal land for cultivation | Digital Elevation Model (DEM), slope, hillshade, overlay analysis |
-| 6 | Understanding disease transmission | Heatmap analysis (Kernel Density), Voronoi diagram, text processing |
-| 7 | Air quality analysis | Spatial interpolation
-| 8 | Calculating building efficiency | Expressions, creating grids |
-| 9 | Wind power NIMBY (Not in my backyard) analysis | Public Participation GIS/SoftGIS, Directional Distribution |
+| [5](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/5_Theory.md) | Determining optimal land for cultivation | Digital Elevation Model (DEM), slope, hillshade, overlay analysis |
+| [6](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/6_Theory.md) | Understanding disease transmission | Heatmap analysis (Kernel Density), Voronoi diagram, text processing |
+| [7](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/7_Theory.md) | Air quality analysis | Spatial interpolation
+| [8](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/8_Theory.md) | Calculating building efficiency | Expressions, creating grids |
+| [9](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/9_Theory.md) | Wind power NIMBY (Not in my backyard) analysis | Public Participation GIS/SoftGIS, Directional Distribution |
 
 ## Evalution
 To get the credits for this course, the following criteria have to be met:
@@ -66,13 +66,13 @@ Following this process will help you **develop the independent troubleshooting s
 - QGIS 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJyVXo5SGtTRnVBOXByQzV2Ijp7In
-RleHQiOiJYIiwic3RhcnQiOjI5OTMsImVuZCI6Mjk5NH0sInlW
+RleHQiOiJYIiwic3RhcnQiOjM0MDMsImVuZCI6MzQwNH0sInlW
 aHVwYkd2elBIaks2SGsiOnsidGV4dCI6IkNoYXQgbGluazoiLC
-JzdGFydCI6NDQxMiwiZW5kIjo0NDIyfSwiYmE3cG0wTldjVEtq
-UTc0dyI6eyJ0ZXh0IjoidGVhY2hlcnMiLCJzdGFydCI6NDQ5OC
-wiZW5kIjo0NTA2fSwiajRaeGlFTUkzVWtMZlNENiI6eyJ0ZXh0
-Ijoib3duIiwic3RhcnQiOjQ2NTYsImVuZCI6NDY1OX0sIjRvcz
-ZraW9vaDRreUNkV2IiOnsic3RhcnQiOjQ2NjMsImVuZCI6NDcy
+JzdGFydCI6NDgyMiwiZW5kIjo0ODMyfSwiYmE3cG0wTldjVEtq
+UTc0dyI6eyJ0ZXh0IjoidGVhY2hlcnMiLCJzdGFydCI6NDkwOC
+wiZW5kIjo0OTE2fSwiajRaeGlFTUkzVWtMZlNENiI6eyJ0ZXh0
+Ijoib3duIiwic3RhcnQiOjUwNjYsImVuZCI6NTA2OX0sIjRvcz
+ZraW9vaDRreUNkV2IiOnsic3RhcnQiOjUwNzMsImVuZCI6NTEz
 OCwidGV4dCI6IiMjIFRvb2xzXG4tIEdpdGh1YiAod2hlcmUgdG
 8gZG93bmxvYWQgZGF0YSlcbi0gQ2hhdFxuLSBNb29kbGVcbi0g
 UUdJUyJ9fSwiY29tbWVudHMiOnsiZjFtdWpoYWVKcm5LanhPTC
@@ -92,7 +92,7 @@ JjcmVhdGVkIjoxNjg2NzMwNzc3NDg5fSwiNkdIUzJLNE1GTmdP
 ZE5PQyI6eyJkaXNjdXNzaW9uSWQiOiI0b3M2a2lvb2g0a3lDZF
 diIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNl
 Y3Rpb24iLCJjcmVhdGVkIjoxNjg3MDY0ODgwMzgxfX0sImhpc3
-RvcnkiOlstMTIwNzM4NDEwOSw0MjA1MDI5NjUsLTExMTczMDI5
+RvcnkiOlstMTM4MTg3MzYzNiw0MjA1MDI5NjUsLTExMTczMDI5
 NDUsLTE2NTI1NTM2NTIsNzMzNzAyNjQzLDE1NjIxOTEyOCw4OD
 U0MTc4MjQsLTE5Mjk4MDIyMjksMTE4MzU3MjYyOF19
 -->
