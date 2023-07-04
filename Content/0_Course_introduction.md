@@ -2,6 +2,8 @@
  
 # Course introduction
 
+Welcome to the *Fundamentals of Geographic Information Systems (GIS)* course! This is an open course developed by Tampere University meant to give y
+
 ## Learning outcomes
 After completing the course you should be able to:
 - Understand the fundamental principles of GIS, including rasters, vector, projections, geoprocessing and analysis
@@ -61,13 +63,13 @@ Following this process will help you **develop the independent troubleshooting s
 - QGIS 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJyVXo5SGtTRnVBOXByQzV2Ijp7In
-RleHQiOiJYIiwic3RhcnQiOjIwNTMsImVuZCI6MjA1NH0sInlW
+RleHQiOiJYIiwic3RhcnQiOjIyMDMsImVuZCI6MjIwNH0sInlW
 aHVwYkd2elBIaks2SGsiOnsidGV4dCI6IkNoYXQgbGluazoiLC
-JzdGFydCI6MzQ3MiwiZW5kIjozNDgyfSwiYmE3cG0wTldjVEtq
-UTc0dyI6eyJ0ZXh0IjoidGVhY2hlcnMiLCJzdGFydCI6MzU1OC
-wiZW5kIjozNTY2fSwiajRaeGlFTUkzVWtMZlNENiI6eyJ0ZXh0
-Ijoib3duIiwic3RhcnQiOjM3MTYsImVuZCI6MzcxOX0sIjRvcz
-ZraW9vaDRreUNkV2IiOnsic3RhcnQiOjM3MjMsImVuZCI6Mzc4
+JzdGFydCI6MzYyMiwiZW5kIjozNjMyfSwiYmE3cG0wTldjVEtq
+UTc0dyI6eyJ0ZXh0IjoidGVhY2hlcnMiLCJzdGFydCI6MzcwOC
+wiZW5kIjozNzE2fSwiajRaeGlFTUkzVWtMZlNENiI6eyJ0ZXh0
+Ijoib3duIiwic3RhcnQiOjM4NjYsImVuZCI6Mzg2OX0sIjRvcz
+ZraW9vaDRreUNkV2IiOnsic3RhcnQiOjM4NzMsImVuZCI6Mzkz
 OCwidGV4dCI6IiMjIFRvb2xzXG4tIEdpdGh1YiAod2hlcmUgdG
 8gZG93bmxvYWQgZGF0YSlcbi0gQ2hhdFxuLSBNb29kbGVcbi0g
 UUdJUyJ9fSwiY29tbWVudHMiOnsiZjFtdWpoYWVKcm5LanhPTC
@@ -87,6 +89,6 @@ JjcmVhdGVkIjoxNjg2NzMwNzc3NDg5fSwiNkdIUzJLNE1GTmdP
 ZE5PQyI6eyJkaXNjdXNzaW9uSWQiOiI0b3M2a2lvb2g0a3lDZF
 diIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNl
 Y3Rpb24iLCJjcmVhdGVkIjoxNjg3MDY0ODgwMzgxfX0sImhpc3
-RvcnkiOls3MzM3MDI2NDMsMTU2MjE5MTI4LDg4NTQxNzgyNCwt
-MTkyOTgwMjIyOSwxMTgzNTcyNjI4XX0=
+RvcnkiOlstMjg4MjgwMTgzLDczMzcwMjY0MywxNTYyMTkxMjgs
+ODg1NDE3ODI0LC0xOTI5ODAyMjI5LDExODM1NzI2MjhdfQ==
 -->
