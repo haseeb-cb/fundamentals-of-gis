@@ -35,7 +35,7 @@ To get the credits for this course, the following criteria have to be met:
  - [ ] Completed the X Moodle exams  
 
 To ensure that your submissions are original:
-- Map output: Your name has to be mentioned on the map output and they are be compared with others
+- Map output: Your name has to be mentioned on the map output and they will be compared with others
 - Map reflection: Anti-plagiarism tool is used
 
 ## Troubleshooting
@@ -63,12 +63,12 @@ Following this process will help you **develop the independent troubleshooting s
 eyJkaXNjdXNzaW9ucyI6eyJyVXo5SGtTRnVBOXByQzV2Ijp7In
 RleHQiOiJYIiwic3RhcnQiOjIwNTMsImVuZCI6MjA1NH0sInlW
 aHVwYkd2elBIaks2SGsiOnsidGV4dCI6IkNoYXQgbGluazoiLC
-JzdGFydCI6MzQ3MSwiZW5kIjozNDgxfSwiYmE3cG0wTldjVEtq
-UTc0dyI6eyJ0ZXh0IjoidGVhY2hlcnMiLCJzdGFydCI6MzU1Ny
-wiZW5kIjozNTY1fSwiajRaeGlFTUkzVWtMZlNENiI6eyJ0ZXh0
-Ijoib3duIiwic3RhcnQiOjM3MTUsImVuZCI6MzcxOH0sIjRvcz
-ZraW9vaDRreUNkV2IiOnsic3RhcnQiOjM3MjIsImVuZCI6Mzc4
-NywidGV4dCI6IiMjIFRvb2xzXG4tIEdpdGh1YiAod2hlcmUgdG
+JzdGFydCI6MzQ3MiwiZW5kIjozNDgyfSwiYmE3cG0wTldjVEtq
+UTc0dyI6eyJ0ZXh0IjoidGVhY2hlcnMiLCJzdGFydCI6MzU1OC
+wiZW5kIjozNTY2fSwiajRaeGlFTUkzVWtMZlNENiI6eyJ0ZXh0
+Ijoib3duIiwic3RhcnQiOjM3MTYsImVuZCI6MzcxOX0sIjRvcz
+ZraW9vaDRreUNkV2IiOnsic3RhcnQiOjM3MjMsImVuZCI6Mzc4
+OCwidGV4dCI6IiMjIFRvb2xzXG4tIEdpdGh1YiAod2hlcmUgdG
 8gZG93bmxvYWQgZGF0YSlcbi0gQ2hhdFxuLSBNb29kbGVcbi0g
 UUdJUyJ9fSwiY29tbWVudHMiOnsiZjFtdWpoYWVKcm5LanhPTC
 I6eyJkaXNjdXNzaW9uSWQiOiJyVXo5SGtTRnVBOXByQzV2Iiwi
@@ -87,6 +87,6 @@ JjcmVhdGVkIjoxNjg2NzMwNzc3NDg5fSwiNkdIUzJLNE1GTmdP
 ZE5PQyI6eyJkaXNjdXNzaW9uSWQiOiI0b3M2a2lvb2g0a3lDZF
 diIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNl
 Y3Rpb24iLCJjcmVhdGVkIjoxNjg3MDY0ODgwMzgxfX0sImhpc3
-RvcnkiOlstMTQ5NDQ2NzAyMSwxNTYyMTkxMjgsODg1NDE3ODI0
-LC0xOTI5ODAyMjI5LDExODM1NzI2MjhdfQ==
+RvcnkiOls3MzM3MDI2NDMsMTU2MjE5MTI4LDg4NTQxNzgyNCwt
+MTkyOTgwMjIyOSwxMTgzNTcyNjI4XX0=
 -->
