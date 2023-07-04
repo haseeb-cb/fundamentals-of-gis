@@ -2,6 +2,8 @@
 
 # Introduction to Geographic Information System (GIS) and QGIS
 
+*By Rowan van der Kaaden*
+
 ## What is GIS and why do we use it?
 
 GIS, which stands for Geographic Information System, is a technology that involves **capturing, storing, analyzing, and presenting geographically referenced data**. It integrates various types of information, such as maps, aerial imagery, and tabular data, into a digital framework that allows users to **view, understand, and analyze spatial patterns and relationships**.
@@ -129,19 +131,19 @@ You can get color advice for your maps here: https://colorbrewer2.org/
 [^1]: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJyZ3F6bUxVTU9MVnc4ZFpGIjp7In
-N0YXJ0Ijo1MzQsImVuZCI6NTk4LCJ0ZXh0IjoiR0lTIGlzIHVz
+N0YXJ0Ijo1NjEsImVuZCI6NjI1LCJ0ZXh0IjoiR0lTIGlzIHVz
 ZWQgaW4gYSB3aWRlIHJhbmdlIG9mIGZpZWxkcyBhbmQgaW5kdX
 N0cmllcywgaW5jbHVkaW5nOiJ9LCJJNlZOcEE0YTlFUHBVUXVI
-Ijp7InN0YXJ0Ijo1MDQ0LCJlbmQiOjUwNzgsInRleHQiOiItIF
+Ijp7InN0YXJ0Ijo1MDcxLCJlbmQiOjUxMDUsInRleHQiOiItIF
 JlYWwgbGlmZSBleGFtcGxlIG9mIHZlY3RvciBkYXRhIn0sInJE
-ejFRNGhSd3VBYTNOeWciOnsic3RhcnQiOjYxNjYsImVuZCI6Nj
-IwMCwidGV4dCI6Ii0gUmVhbCBsaWZlIGV4YW1wbGUgb2YgdmVj
+ejFRNGhSd3VBYTNOeWciOnsic3RhcnQiOjYxOTMsImVuZCI6Nj
+IyNywidGV4dCI6Ii0gUmVhbCBsaWZlIGV4YW1wbGUgb2YgdmVj
 dG9yIGRhdGEifSwiSkFyZmNwQmt6M2ljdW9GZyI6eyJzdGFydC
-I6OTA4NiwiZW5kIjo5MTA4LCJ0ZXh0IjoiIyMjIEdJUyBhbmFs
+I6OTExMywiZW5kIjo5MTM1LCJ0ZXh0IjoiIyMjIEdJUyBhbmFs
 eXNpcyB0eXBlcyJ9LCJOWUJVSVE3WGR1WVpHdWM1Ijp7InN0YX
-J0IjoxMjgyOCwiZW5kIjoxMjg1MCwidGV4dCI6IiMjIFdoYXQg
+J0IjoxMjg1NSwiZW5kIjoxMjg3NywidGV4dCI6IiMjIFdoYXQg
 aXMgYSBnb29kIG1hcD8ifSwiUXk2dHk2Rkgwa2kxZThjRSI6ey
-JzdGFydCI6MzQ5MywiZW5kIjozNTA5LCJ0ZXh0IjoiIyMjIFNw
+JzdGFydCI6MzUyMCwiZW5kIjozNTM2LCJ0ZXh0IjoiIyMjIFNw
 YXRpYWwgZGF0YSJ9fSwiY29tbWVudHMiOnsiMWVwTUZwNWFXVF
 VuMVltcCI6eyJkaXNjdXNzaW9uSWQiOiJyZ3F6bUxVTU9MVnc4
 ZFpGIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIH
@@ -163,7 +165,7 @@ VzIiwiY3JlYXRlZCI6MTY4NzA2ODE0MzQyN30sIm01dE9pVnQ4
 V056ckcxdEoiOnsiZGlzY3Vzc2lvbklkIjoiUXk2dHk2Rkgwa2
 kxZThjRSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFk
 ZCBkYXRhIGZpbGUgdHlwZXMgc2VjdGlvbiIsImNyZWF0ZWQiOj
-E2ODcwNjgyNjU4NDl9fSwiaGlzdG9yeSI6WzEyNDI0OTgzNTQs
+E2ODcwNjgyNjU4NDl9fSwiaGlzdG9yeSI6Wy0xMDIzNDg0MDgs
 LTQ4NDc4MTUwMywtMTcyMTA4NTg4MCw0MjI1OTgzMTYsLTE4Nj
 gyNDkyNDRdfQ==
 -->
