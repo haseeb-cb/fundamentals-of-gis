@@ -44,7 +44,7 @@ Here's how Thiessen polygons work:
 
 Thiessen polygons have various applications in GIS analysis and spatial modeling. They can be used for proximity analysis, such as determining service areas or catchment areas around facilities. They are also useful for interpolation, as they provide a way to estimate values at unsampled locations based on the values at the input points within each polygon.
 
-# Time to get your hands dirty! Move on to the 6th exercise to apply this new knowledge
+# Time to get your hands dirty! Move on to the [6th exercise](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/6_Exercise.md) to apply this new knowledge
 
 [^1]: http://www.geography.hunter.cuny.edu/~jochen/gtech361/lectures/lecture11/concepts/Kernel%20density%20calculations.htm
 [^2]:https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/create-thiessen-polygons.htm
@@ -55,6 +55,6 @@ MywiZW5kIjoxNTJ9fSwiY29tbWVudHMiOnsiUFFkQXEwc285OG
 xSZkRoNyI6eyJkaXNjdXNzaW9uSWQiOiJTem0yVGd1RUxkNkl2
 SFI1Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIH
 BpY3R1cmUiLCJjcmVhdGVkIjoxNjg3NzY4MDM3NzE5fX0sImhp
-c3RvcnkiOlsxNzk1OTc2MjQsNjUyODk1NzY0LC0xNzMyNzU5Mz
-ExLDExMjQ1MDg0ODgsLTY5MTM3ODUwOV19
+c3RvcnkiOlstMTUxNTI5NjMyMCw2NTI4OTU3NjQsLTE3MzI3NT
+kzMTEsMTEyNDUwODQ4OCwtNjkxMzc4NTA5XX0=
 -->
