@@ -2,6 +2,8 @@
 
 # Theory 2: Georeferencing & digitizing
 
+*By Rowan van der Kaaden*
+
 ## Spatial data sources
 
 Spatial data is available through various sources, some of which are restricted, but a good amount is freely available. Common providers of spatial data are governmental institutions, local governments(cities and municipalities), education institutes, crowd sourced data, among others. Even some commercial companies provide open data. But there is also data that is restricted, for example because of commercial motivation, but also privacy or other reasons. It is however good to practice **open science** with GIS as well to make the data and research as accessible as possible.   
@@ -67,9 +69,9 @@ In our case we can use the buildings that remained unchanged and are on the proj
 eyJkaXNjdXNzaW9ucyI6eyJvSmFOSlZwYTFCeDRmd2tpIjp7In
 RleHQiOiJXZSBrZWVwIGEgY29sbGVjdGlvbiBvZiBvdXIga25v
 d24gZGF0YSBzb3VyY2VzIGZvciB5b3VyIHVzZToiLCJzdGFydC
-I6MTI4MCwiZW5kIjoxMzQwfSwiNVB5bHFjTVVpMHVkMUdqViI6
-eyJ0ZXh0IjoiR2VvcmVmZXJlbmNpbmciLCJzdGFydCI6NDMyMi
-wiZW5kIjo0MzM2fX0sImNvbW1lbnRzIjp7Imh3eUI5c1duS3Fv
+I6MTMwNywiZW5kIjoxMzY3fSwiNVB5bHFjTVVpMHVkMUdqViI6
+eyJ0ZXh0IjoiR2VvcmVmZXJlbmNpbmciLCJzdGFydCI6NDM0OS
+wiZW5kIjo0MzYzfX0sImNvbW1lbnRzIjp7Imh3eUI5c1duS3Fv
 eThyRlciOnsiZGlzY3Vzc2lvbklkIjoib0phTkpWcGExQng0Zn
 draSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBs
 aW5rIiwiY3JlYXRlZCI6MTY4NjMwMzgxMTk1NX0sIlhRNHdQdD
@@ -83,6 +85,6 @@ MsIHByb2plY3RlZCBjb29yZGluYXRlIHN5c3RlbXMsIGFuZCBh
 IGZldyBzZW50ZW5jZXMgYWJvdXQgaG93IEdJUyB0b29scyBzaG
 91bGQgYmUgYWJsZSB0byB0cmFuc2Zvcm0gYmV0d2VlbiB0aGVt
 LiIsImNyZWF0ZWQiOjE2ODY3MzEzNjIyNTh9fSwiaGlzdG9yeS
-I6Wy03NTEyMzY5MTksMTQwNTU3NTA0Niw1NjY0MDQ1NDQsNzM2
-NDkzOTc0LDEwOTI0MzM3MDVdfQ==
+I6Wzg5OTEwNzUxLDE0MDU1NzUwNDYsNTY2NDA0NTQ0LDczNjQ5
+Mzk3NCwxMDkyNDMzNzA1XX0=
 -->
