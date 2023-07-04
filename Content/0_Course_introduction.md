@@ -80,25 +80,20 @@ The Moodle environment is where you will submit your reflections and map outputs
 
 This course is continuously developed and we would really appreciate any feedback you have for us! This could consist of issues you run into, but also things you think could be done better, every piece of feedback is welcome. 
 
-You can give feedback through the chat, or anonomously 
+Everyone can give feedback through the chat, and students can write feedback in the feedback form. 
 
 ## Credits
 
 # Let's get started with the [first theory section](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/1_Crashcourse_theory.md)!
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJLNWRwT0ppTHdGcjV5OTR2Ijp7In
-N0YXJ0Ijo2NjI3LCJlbmQiOjY2MzgsInRleHQiOiIjIyBGZWVk
-YmFjayJ9LCJsazBhVk15ckhUU0RzeW9pIjp7InN0YXJ0Ijo2OT
-I1LCJlbmQiOjY5MzUsInRleHQiOiIjIyBDcmVkaXRzIn19LCJj
-b21tZW50cyI6eyJTaWR3UmRYWU9PZTYxTjE4Ijp7ImRpc2N1c3
-Npb25JZCI6Iks1ZHBPSmlMd0ZyNXk5NHYiLCJzdWIiOiJnaDo0
-MDMwNDc4OCIsInRleHQiOiJBZGQgZmVlZGJhY2sgc2VjdGlvbi
-IsImNyZWF0ZWQiOjE2ODg0NTU0NTYzMTR9LCJRS2J6aXRpQTBz
-SXQxVGRqIjp7ImRpc2N1c3Npb25JZCI6ImxrMGFWTXlySFRTRH
-N5b2kiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQg
-Y3JlZGl0cyBzZWN0aW9uIiwiY3JlYXRlZCI6MTY4ODQ1NTQ3Mj
-MyOX19LCJoaXN0b3J5IjpbNzQ2NzE5NDcxLC04OTE3MTMxNDUs
-NDIwNTAyOTY1LC0xMTE3MzAyOTQ1LC0xNjUyNTUzNjUyLDczMz
-cwMjY0MywxNTYyMTkxMjgsODg1NDE3ODI0LC0xOTI5ODAyMjI5
-LDExODM1NzI2MjhdfQ==
+eyJkaXNjdXNzaW9ucyI6eyJsazBhVk15ckhUU0RzeW9pIjp7In
+N0YXJ0Ijo2OTY5LCJlbmQiOjY5NzksInRleHQiOiIjIyBDcmVk
+aXRzIn19LCJjb21tZW50cyI6eyJRS2J6aXRpQTBzSXQxVGRqIj
+p7ImRpc2N1c3Npb25JZCI6ImxrMGFWTXlySFRTRHN5b2kiLCJz
+dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgY3JlZGl0cy
+BzZWN0aW9uIiwiY3JlYXRlZCI6MTY4ODQ1NTQ3MjMyOX19LCJo
+aXN0b3J5IjpbLTE5MTUxNjI5OTQsLTg5MTcxMzE0NSw0MjA1MD
+I5NjUsLTExMTczMDI5NDUsLTE2NTI1NTM2NTIsNzMzNzAyNjQz
+LDE1NjIxOTEyOCw4ODU0MTc4MjQsLTE5Mjk4MDIyMjksMTE4Mz
+U3MjYyOF19
 -->
