@@ -27,7 +27,7 @@ In GIS, interpolation results are usually shown as a 2 dimensional raster layer.
 - Spatial Interpolation (IDW) using QGIS: https://www.youtube.com/watch?v=gKPGnN38ReE
 - A "Crash Course" to Spatial Interpolation: https://www.youtube.com/watch?v=i0Zrk68EkFE)
 
-# Time to get your hands dirty! Move on to the 7th exercise to apply this new knowledge
+# Time to get your hands dirty! Move on to the [7th exercise](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/7_Exericse.md) to apply this new knowledge
 
 [^1]: https://gisgeography.com/inverse-distance-weighting-idw-interpolation/
 [^2]: https://docs.qgis.org/2.18/en/docs/gentle_gis_introduction/spatial_analysis_interpolation.html 
@@ -35,7 +35,7 @@ In GIS, interpolation results are usually shown as a 2 dimensional raster layer.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwODE5Njc4NCwyNzg4NDQxNSwtNjcyNT
-QwNjEyLDIwMTQ5OTk0MDEsLTEwOTgzOTIyNzksLTE4MjY2MTMw
-NDBdfQ==
+eyJoaXN0b3J5IjpbLTExMzg4NDUwMTEsMjc4ODQ0MTUsLTY3Mj
+U0MDYxMiwyMDE0OTk5NDAxLC0xMDk4MzkyMjc5LC0xODI2NjEz
+MDQwXX0=
 -->
