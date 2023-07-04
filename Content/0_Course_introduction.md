@@ -1,4 +1,4 @@
-![](https://github.com/stenvala/tampere-university-logos/blob/master/img/logo-en-purple-small.png?raw=true)
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/logo-en-purple-small.png)
 ### Fundamentals of Geographic Information Systems (GIS)
  
 # Course introduction
@@ -66,14 +66,14 @@ Following this process will help you **develop the independent troubleshooting s
 - QGIS 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJyVXo5SGtTRnVBOXByQzV2Ijp7In
-RleHQiOiJYIiwic3RhcnQiOjI2NjcsImVuZCI6MjY2OH0sInlW
+RleHQiOiJYIiwic3RhcnQiOjI2NjUsImVuZCI6MjY2Nn0sInlW
 aHVwYkd2elBIaks2SGsiOnsidGV4dCI6IkNoYXQgbGluazoiLC
-JzdGFydCI6NDA4NiwiZW5kIjo0MDk2fSwiYmE3cG0wTldjVEtq
-UTc0dyI6eyJ0ZXh0IjoidGVhY2hlcnMiLCJzdGFydCI6NDE3Mi
-wiZW5kIjo0MTgwfSwiajRaeGlFTUkzVWtMZlNENiI6eyJ0ZXh0
-Ijoib3duIiwic3RhcnQiOjQzMzAsImVuZCI6NDMzM30sIjRvcz
-ZraW9vaDRreUNkV2IiOnsic3RhcnQiOjQzMzcsImVuZCI6NDQw
-MiwidGV4dCI6IiMjIFRvb2xzXG4tIEdpdGh1YiAod2hlcmUgdG
+JzdGFydCI6NDA4NCwiZW5kIjo0MDk0fSwiYmE3cG0wTldjVEtq
+UTc0dyI6eyJ0ZXh0IjoidGVhY2hlcnMiLCJzdGFydCI6NDE3MC
+wiZW5kIjo0MTc4fSwiajRaeGlFTUkzVWtMZlNENiI6eyJ0ZXh0
+Ijoib3duIiwic3RhcnQiOjQzMjgsImVuZCI6NDMzMX0sIjRvcz
+ZraW9vaDRreUNkV2IiOnsic3RhcnQiOjQzMzUsImVuZCI6NDQw
+MCwidGV4dCI6IiMjIFRvb2xzXG4tIEdpdGh1YiAod2hlcmUgdG
 8gZG93bmxvYWQgZGF0YSlcbi0gQ2hhdFxuLSBNb29kbGVcbi0g
 UUdJUyJ9fSwiY29tbWVudHMiOnsiZjFtdWpoYWVKcm5LanhPTC
 I6eyJkaXNjdXNzaW9uSWQiOiJyVXo5SGtTRnVBOXByQzV2Iiwi
@@ -92,7 +92,7 @@ JjcmVhdGVkIjoxNjg2NzMwNzc3NDg5fSwiNkdIUzJLNE1GTmdP
 ZE5PQyI6eyJkaXNjdXNzaW9uSWQiOiI0b3M2a2lvb2g0a3lDZF
 diIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNl
 Y3Rpb24iLCJjcmVhdGVkIjoxNjg3MDY0ODgwMzgxfX0sImhpc3
-RvcnkiOlstMTExNzMwMjk0NSwtMTY1MjU1MzY1Miw3MzM3MDI2
-NDMsMTU2MjE5MTI4LDg4NTQxNzgyNCwtMTkyOTgwMjIyOSwxMT
-gzNTcyNjI4XX0=
+RvcnkiOls0MjA1MDI5NjUsLTExMTczMDI5NDUsLTE2NTI1NTM2
+NTIsNzMzNzAyNjQzLDE1NjIxOTEyOCw4ODU0MTc4MjQsLTE5Mj
+k4MDIyMjksMTE4MzU3MjYyOF19
 -->
