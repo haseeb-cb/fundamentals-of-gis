@@ -87,6 +87,11 @@ Everyone can give feedback through the chat, and students can write feedback in 
 This course was made by **Rowan van der Kaaden** and **Jonathon Taylor**.
 
 With help from:
+- Muukkonen, Petteri S
+- Jylhä, Markus J H
+- Arosuo, Haikku I
+- Seppä, Perttu V
+- Ylinen, Kirsi M S
 - 
 
 # Let's get started with the [first theory section](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/1_Crashcourse_theory.md)!
@@ -97,8 +102,8 @@ aXRzIn19LCJjb21tZW50cyI6eyJRS2J6aXRpQTBzSXQxVGRqIj
 p7ImRpc2N1c3Npb25JZCI6ImxrMGFWTXlySFRTRHN5b2kiLCJz
 dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgY3JlZGl0cy
 BzZWN0aW9uIiwiY3JlYXRlZCI6MTY4ODQ1NTQ3MjMyOX19LCJo
-aXN0b3J5IjpbLTEzMzkwNDg5MzAsLTg5MTcxMzE0NSw0MjA1MD
-I5NjUsLTExMTczMDI5NDUsLTE2NTI1NTM2NTIsNzMzNzAyNjQz
-LDE1NjIxOTEyOCw4ODU0MTc4MjQsLTE5Mjk4MDIyMjksMTE4Mz
-U3MjYyOF19
+aXN0b3J5IjpbLTE4MDM4MDgyNTQsLTEzMzkwNDg5MzAsLTg5MT
+cxMzE0NSw0MjA1MDI5NjUsLTExMTczMDI5NDUsLTE2NTI1NTM2
+NTIsNzMzNzAyNjQzLDE1NjIxOTEyOCw4ODU0MTc4MjQsLTE5Mj
+k4MDIyMjksMTE4MzU3MjYyOF19
 -->
