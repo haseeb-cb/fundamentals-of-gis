@@ -2,6 +2,12 @@
 
 # Exercise 8: Building efficiency & grids
 
+By Sara Todorovic & Tatu Leppämäki
+
+*Updated by Rowan van der Kaaden* 
+
+
+
 ## OVERVIEW & PURPOSE
 
 In this exercise your task is to **calculate building efficiency ratio on different spatial scales**. Efficiency ratios (e) describe the level of land use intensity on zoned city areas. The building efficiency ratio is calculated by **dividing the total floor area** of each story of a building (or buildings) **by the size of the piece of land the building is in**. The piece of land can be the real estate, a neighborhood, a city district or any specified area. This ratio can be used to identify areas which are urban (more efficient) from non-built (less efficient) areas. Conversely, “sparsity ratio” is the total area of all non-built features to the size of the piece of land. When calculating the building efficiency on a city district (or similar) scale, it depicts regional efficiency. When building efficiency is calculated on a property/plot scale it’s known as plot efficiency (see Table 1). During this exercise, you will discover the different forms and levels of urbanity in Helsinki.
@@ -165,34 +171,34 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJySUlNQ2tUNkZLbkt2V1RKIjp7In
 RleHQiOiIqKkUgPSB0b3RhbCBmbG9vciBhcmVhL3RvdGFsIGxh
-bmQgYXJlYSoqIiwic3RhcnQiOjExMjYsImVuZCI6MTE2Nn0sIl
+bmQgYXJlYSoqIiwic3RhcnQiOjEyMDAsImVuZCI6MTI0MH0sIl
 VzR3N3d05pWVVDdnRLR0giOnsidGV4dCI6Ii0gRmlndXJlIiwi
-c3RhcnQiOjQ1MzEsImVuZCI6NDUzOX0sIjFNdzdXY1p0dG16dm
-ZPb3EiOnsidGV4dCI6Ii0gRmlndXJlIiwic3RhcnQiOjQ4MTcs
-ImVuZCI6NDgyNX0sImk1cldmZjgwSFJ5WGJydFAiOnsidGV4dC
-I6Ik1vb2RsZSIsInN0YXJ0IjozNjU2LCJlbmQiOjM2NzJ9LCJ5
+c3RhcnQiOjQ2MDUsImVuZCI6NDYxM30sIjFNdzdXY1p0dG16dm
+ZPb3EiOnsidGV4dCI6Ii0gRmlndXJlIiwic3RhcnQiOjQ4OTEs
+ImVuZCI6NDg5OX0sImk1cldmZjgwSFJ5WGJydFAiOnsidGV4dC
+I6Ik1vb2RsZSIsInN0YXJ0IjozNzMwLCJlbmQiOjM3NDZ9LCJ5
 ZnRIZXhDTURheG5vWVM5Ijp7InRleHQiOiJIaW50Iiwic3Rhcn
-QiOjU4NzIsImVuZCI6NTg3Nn0sIno3Y25CUFlad0NqWFdIY3ci
+QiOjU5NDYsImVuZCI6NTk1MH0sIno3Y25CUFlad0NqWFdIY3ci
 OnsidGV4dCI6IipUSVAgMTogU2VsZWN0IGFsbCB5b3VyIHZlY3
 RvciBsYXllcnMgYXQgb25jZSBieSBhcnJhbmdpbmcgdGhlIGZp
-bGVzIGJ5IGZpbGUgdHnigKYiLCJzdGFydCI6NDI3MywiZW5kIj
-o0NTI5fSwiSHJHZ01qMjQ1ZEN1OWt5TiI6eyJ0ZXh0IjoiKlRJ
+bGVzIGJ5IGZpbGUgdHnigKYiLCJzdGFydCI6NDM0NywiZW5kIj
+o0NjAzfSwiSHJHZ01qMjQ1ZEN1OWt5TiI6eyJ0ZXh0IjoiKlRJ
 UCAyOiBXaGVuIHdvcmtpbmcgd2l0aCBkYXRhIHRoYXQgd2lsbC
 Bwcm9iYWJseSBjb250YWluIHZhbHVlcyB3aXRoIHVtbGF1dHMg
-KOKApiIsInN0YXJ0Ijo0NTQxLCJlbmQiOjQ4MTV9LCJ2ZW9VRH
+KOKApiIsInN0YXJ0Ijo0NjE1LCJlbmQiOjQ4ODl9LCJ2ZW9VRH
 dTc1FQVG43dWl5Ijp7InRleHQiOiIqVElQIDI6IFRvIHJlbW92
 ZSB1bm5lY2Vzc2FyeSBpbmZvcm1hdGlvbiBmcm9tIHRoZSBsZW
 dlbmQgb2YgeW91ciBtYXAsIG1ha2Ugc3Vy4oCmIiwic3RhcnQi
-OjYyMTQsImVuZCI6NjUyN30sIjhsdXZpNFgxSURLOEFmWTMiOn
+OjYyODgsImVuZCI6NjYwMX0sIjhsdXZpNFgxSURLOEFmWTMiOn
 sidGV4dCI6IkRvd25sb2FkIGFuZCBpbnN0YWxsIGl0IHVzaW5n
-IHRoZSBQbHVnaW4gbWFuYWdlci4iLCJzdGFydCI6Njc2MiwiZW
-5kIjo2ODExfSwieVp4SUdzUnh1akhRUllWZyI6eyJ0ZXh0Ijoi
-VElQIiwic3RhcnQiOjcxODksImVuZCI6NzE5Mn0sIkIzdFFpWW
-9La2RzTHl6NlYiOnsidGV4dCI6Im1hcCIsInN0YXJ0IjoxOTAy
-LCJlbmQiOjE5MDV9LCJzZjkxV0ZaWDdDZHZISmkyIjp7InRleH
-QiOiJQbHVnaW4iLCJzdGFydCI6Njc5NiwiZW5kIjo2ODAyfSwi
+IHRoZSBQbHVnaW4gbWFuYWdlci4iLCJzdGFydCI6NjgzNiwiZW
+5kIjo2ODg1fSwieVp4SUdzUnh1akhRUllWZyI6eyJ0ZXh0Ijoi
+VElQIiwic3RhcnQiOjcyNjMsImVuZCI6NzI2Nn0sIkIzdFFpWW
+9La2RzTHl6NlYiOnsidGV4dCI6Im1hcCIsInN0YXJ0IjoxOTc2
+LCJlbmQiOjE5Nzl9LCJzZjkxV0ZaWDdDZHZISmkyIjp7InRleH
+QiOiJQbHVnaW4iLCJzdGFydCI6Njg3MCwiZW5kIjo2ODc2fSwi
 aFlFUFFyWlJ5MG5PSHJBZiI6eyJ0ZXh0IjoidmFsdWVzIiwic3
-RhcnQiOjg3MDQsImVuZCI6ODcxMH19LCJjb21tZW50cyI6eyJO
+RhcnQiOjg3NzgsImVuZCI6ODc4NH19LCJjb21tZW50cyI6eyJO
 THQ0Z05aV01nSjBPemxuIjp7ImRpc2N1c3Npb25JZCI6InJJSU
 1Da1Q2RktuS3ZXVEoiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRl
 eHQiOiJBZGQgZGlhZ3JhbSIsImNyZWF0ZWQiOjE2ODc4NDY0Mz
@@ -242,7 +248,7 @@ NjdXNzaW9uSWQiOiJoWUVQUXJaUnkwbk9IckFmIiwic3ViIjoi
 Z2g6MjIxNjgxNTciLCJ0ZXh0IjoiY291bGQgcmVmZXIgYmFjay
 B0byB0aGVvcnkgJ2ludGVycHJldCB0aGUgcmVzdWx0cywgY3Jp
 dGljYWxseSByZWZsZWN0aW5nIG9uIE1BVVAvZXRjXCIiLCJjcm
-VhdGVkIjoxNjg4MDM3MDIwOTczfX0sImhpc3RvcnkiOlsxMTQ2
-MDgxODQ1LC03NTAzOTkzODYsLTEyMDcwNTY5NjksLTEwNzEyMz
-E4MzFdfQ==
+VhdGVkIjoxNjg4MDM3MDIwOTczfX0sImhpc3RvcnkiOlstMTEx
+Mjc4NDYyMywtNzUwMzk5Mzg2LC0xMjA3MDU2OTY5LC0xMDcxMj
+MxODMxXX0=
 -->
