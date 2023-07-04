@@ -59,7 +59,7 @@ Raster overlay analysis is used in various GIS applications, such as land suitab
 - Raster calculator
 - Raster overlay analysis (calculations)
 
-# Time to get your hands dirty! Move on to the 5th exercise to apply this new knowledge
+# Time to get your hands dirty! Move on to the [5th exercise](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/5_Exercise.md) to apply this new knowledge
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJRYmU0dGF0bkVJcTZ3N0dCIjp7In
 RleHQiOiJhbmQgRCIsInN0YXJ0IjoyOTYsImVuZCI6MzAxfSwi
@@ -80,9 +80,9 @@ RkZVJ5T2VraSI6eyJkaXNjdXNzaW9uSWQiOiJwcHlRRzZLY3RK
 VzJCQXRPIiwic3ViIjoiZ2g6MjIxNjgxNTciLCJ0ZXh0IjoidG
 hpcyBkZXNjcmlwdGlvbiBpcyBmb3IgYWxsIHJhc3RlcnMgbm90
 IGp1c3QgcmFzdGVyIG92ZXJsYXkgYW5hbHlzaXMiLCJjcmVhdG
-VkIjoxNjg4MDMzODM5NDMwfX0sImhpc3RvcnkiOlsxNzI0OTA5
-ODEyLDEzODM0NzQyMDUsNjkyNzMzMjI4LDEyMDg0MDAyMDEsMT
-EyNzM3NTUxOSwtMTk0Njc3NTQ2MSwxODA5MDU2NywyMDE0MTI3
-MTE3LC04ODUyOTAzMzMsLTg5NjIyNzI4MSw5OTQ3MjAxOTMsLT
-M1MTA3NjU4MCwtMTM5MDMzMjA1MV19
+VkIjoxNjg4MDMzODM5NDMwfX0sImhpc3RvcnkiOls0Nzc5Nzgw
+NjEsMTM4MzQ3NDIwNSw2OTI3MzMyMjgsMTIwODQwMDIwMSwxMT
+I3Mzc1NTE5LC0xOTQ2Nzc1NDYxLDE4MDkwNTY3LDIwMTQxMjcx
+MTcsLTg4NTI5MDMzMywtODk2MjI3MjgxLDk5NDcyMDE5MywtMz
+UxMDc2NTgwLC0xMzkwMzMyMDUxXX0=
 -->
