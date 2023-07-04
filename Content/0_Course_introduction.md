@@ -5,7 +5,7 @@
 
 **Welcome to the *Fundamentals of Geographic Information Systems (GIS)* course!** This is an open course developed by Tampere University meant to get you started with GIS and give you the ability to work with GIS independently. 
 
-This course can be 
+This course can be completed independently, or as a student at the Tampere University. 
 
 ## Learning outcomes
 After completing the course you should be able to:
@@ -66,14 +66,14 @@ Following this process will help you **develop the independent troubleshooting s
 - QGIS 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJyVXo5SGtTRnVBOXByQzV2Ijp7In
-RleHQiOiJYIiwic3RhcnQiOjI0MTIsImVuZCI6MjQxM30sInlW
+RleHQiOiJYIiwic3RhcnQiOjI0ODAsImVuZCI6MjQ4MX0sInlW
 aHVwYkd2elBIaks2SGsiOnsidGV4dCI6IkNoYXQgbGluazoiLC
-JzdGFydCI6MzgzMSwiZW5kIjozODQxfSwiYmE3cG0wTldjVEtq
-UTc0dyI6eyJ0ZXh0IjoidGVhY2hlcnMiLCJzdGFydCI6MzkxNy
-wiZW5kIjozOTI1fSwiajRaeGlFTUkzVWtMZlNENiI6eyJ0ZXh0
-Ijoib3duIiwic3RhcnQiOjQwNzUsImVuZCI6NDA3OH0sIjRvcz
-ZraW9vaDRreUNkV2IiOnsic3RhcnQiOjQwODIsImVuZCI6NDE0
-NywidGV4dCI6IiMjIFRvb2xzXG4tIEdpdGh1YiAod2hlcmUgdG
+JzdGFydCI6Mzg5OSwiZW5kIjozOTA5fSwiYmE3cG0wTldjVEtq
+UTc0dyI6eyJ0ZXh0IjoidGVhY2hlcnMiLCJzdGFydCI6Mzk4NS
+wiZW5kIjozOTkzfSwiajRaeGlFTUkzVWtMZlNENiI6eyJ0ZXh0
+Ijoib3duIiwic3RhcnQiOjQxNDMsImVuZCI6NDE0Nn0sIjRvcz
+ZraW9vaDRreUNkV2IiOnsic3RhcnQiOjQxNTAsImVuZCI6NDIx
+NSwidGV4dCI6IiMjIFRvb2xzXG4tIEdpdGh1YiAod2hlcmUgdG
 8gZG93bmxvYWQgZGF0YSlcbi0gQ2hhdFxuLSBNb29kbGVcbi0g
 UUdJUyJ9fSwiY29tbWVudHMiOnsiZjFtdWpoYWVKcm5LanhPTC
 I6eyJkaXNjdXNzaW9uSWQiOiJyVXo5SGtTRnVBOXByQzV2Iiwi
@@ -92,7 +92,7 @@ JjcmVhdGVkIjoxNjg2NzMwNzc3NDg5fSwiNkdIUzJLNE1GTmdP
 ZE5PQyI6eyJkaXNjdXNzaW9uSWQiOiI0b3M2a2lvb2g0a3lDZF
 diIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNl
 Y3Rpb24iLCJjcmVhdGVkIjoxNjg3MDY0ODgwMzgxfX0sImhpc3
-RvcnkiOlsxODEyOTc1NDkwLC0xNjUyNTUzNjUyLDczMzcwMjY0
+RvcnkiOlsxOTk2OTczNDE0LC0xNjUyNTUzNjUyLDczMzcwMjY0
 MywxNTYyMTkxMjgsODg1NDE3ODI0LC0xOTI5ODAyMjI5LDExOD
 M1NzI2MjhdfQ==
 -->
