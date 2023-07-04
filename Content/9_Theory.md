@@ -2,6 +2,8 @@
 
 # Theory 9: Public Participation GIS and Directional Distribution
 
+*By Rowan van der Kaaden*
+
 ## Public Participation GIS (PPGIS)/SoftGIS
 ![](https://wpmu.mah.se/nmict182group2/files/2018/10/Dl_p7DwXoAAr2zA.jpg)[^1]
 Public Participation GIS, often referred to as PPGIS, is a participatory approach that combines GIS with public involvement in decision-making processes. It aims to engage citizens and stakeholders in mapping and analyzing spatial information to better understand and address local issues.
@@ -46,7 +48,8 @@ We can create standard deviational ellipses to summarize the spatial characteris
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDE0MDYwNTAsLTIxMzQ5OTM3NTgsLT
-EzMjU2NzkzMzQsNTc4NDQ0MTg0LDI5Nzk5OTU1Niw2MzU1MTEy
-MTYsLTkxOTU2MDk0NSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEzOTk1NTE2OTQsLTIwMDE0MDYwNTAsLT
+IxMzQ5OTM3NTgsLTEzMjU2NzkzMzQsNTc4NDQ0MTg0LDI5Nzk5
+OTU1Niw2MzU1MTEyMTYsLTkxOTU2MDk0NSw3MzA5OTgxMTZdfQ
+==
 -->
