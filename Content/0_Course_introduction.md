@@ -18,7 +18,7 @@ After completing the course you should be able to:
 - Develop the aiblity to perform new anayses, troubleshoot, and find help from the GIS community to solve your problems
 
 ## Structure
-The course consists of **9 exercises**, each accompanied by a piece of theory. The first exercise, which goes with this theory, is meant to give you the basic skills in GIS and the software we will be using, QGIS. From there on you will build on these basic skills using the other exercises, covering vairous analyses and methods, and develop a fundamental skillset in GIS and QGIS. 
+The course consists of **9 exercises**, each accompanied by a piece of theory. It's reco The first exercise is meant to give you the basic skills in GIS and the software we will be using, QGIS. From there on you will build on these basic skills using the other exercises, covering various analyses and methods, and develop a fundamental skillset in GIS and QGIS. 
 
 | Exercise | Topic | Methods |
 |--|--|--|
@@ -66,13 +66,13 @@ Following this process will help you **develop the independent troubleshooting s
 - QGIS 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJyVXo5SGtTRnVBOXByQzV2Ijp7In
-RleHQiOiJYIiwic3RhcnQiOjM0MDMsImVuZCI6MzQwNH0sInlW
+RleHQiOiJYIiwic3RhcnQiOjMzODMsImVuZCI6MzM4NH0sInlW
 aHVwYkd2elBIaks2SGsiOnsidGV4dCI6IkNoYXQgbGluazoiLC
-JzdGFydCI6NDgyMiwiZW5kIjo0ODMyfSwiYmE3cG0wTldjVEtq
-UTc0dyI6eyJ0ZXh0IjoidGVhY2hlcnMiLCJzdGFydCI6NDkwOC
-wiZW5kIjo0OTE2fSwiajRaeGlFTUkzVWtMZlNENiI6eyJ0ZXh0
-Ijoib3duIiwic3RhcnQiOjUwNjYsImVuZCI6NTA2OX0sIjRvcz
-ZraW9vaDRreUNkV2IiOnsic3RhcnQiOjUwNzMsImVuZCI6NTEz
+JzdGFydCI6NDgwMiwiZW5kIjo0ODEyfSwiYmE3cG0wTldjVEtq
+UTc0dyI6eyJ0ZXh0IjoidGVhY2hlcnMiLCJzdGFydCI6NDg4OC
+wiZW5kIjo0ODk2fSwiajRaeGlFTUkzVWtMZlNENiI6eyJ0ZXh0
+Ijoib3duIiwic3RhcnQiOjUwNDYsImVuZCI6NTA0OX0sIjRvcz
+ZraW9vaDRreUNkV2IiOnsic3RhcnQiOjUwNTMsImVuZCI6NTEx
 OCwidGV4dCI6IiMjIFRvb2xzXG4tIEdpdGh1YiAod2hlcmUgdG
 8gZG93bmxvYWQgZGF0YSlcbi0gQ2hhdFxuLSBNb29kbGVcbi0g
 UUdJUyJ9fSwiY29tbWVudHMiOnsiZjFtdWpoYWVKcm5LanhPTC
@@ -92,7 +92,7 @@ JjcmVhdGVkIjoxNjg2NzMwNzc3NDg5fSwiNkdIUzJLNE1GTmdP
 ZE5PQyI6eyJkaXNjdXNzaW9uSWQiOiI0b3M2a2lvb2g0a3lDZF
 diIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNl
 Y3Rpb24iLCJjcmVhdGVkIjoxNjg3MDY0ODgwMzgxfX0sImhpc3
-RvcnkiOlstMTM4MTg3MzYzNiw0MjA1MDI5NjUsLTExMTczMDI5
-NDUsLTE2NTI1NTM2NTIsNzMzNzAyNjQzLDE1NjIxOTEyOCw4OD
-U0MTc4MjQsLTE5Mjk4MDIyMjksMTE4MzU3MjYyOF19
+RvcnkiOlszMzI0MTEyMiw0MjA1MDI5NjUsLTExMTczMDI5NDUs
+LTE2NTI1NTM2NTIsNzMzNzAyNjQzLDE1NjIxOTEyOCw4ODU0MT
+c4MjQsLTE5Mjk4MDIyMjksMTE4MzU3MjYyOF19
 -->
