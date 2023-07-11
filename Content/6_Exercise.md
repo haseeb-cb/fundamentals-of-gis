@@ -52,7 +52,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 
 5. Often the data sets that you want to work with will not come as spatial data sets. They might come, for example, from observations during field work that you record in a spreadsheet. In this step we will **add a table of data that contains fields with the latitude and longitude coordinates of the deaths addresses we want to analyze**. In our case, this data comes in a comma-separated values (CSV) file, or a text file that uses a comma to separate values.
 	
-	- First let’s look at the file with the deaths data in it. If you double-click it in the folder you saved the file in, it should open in Excel or as a text file, and you will see that it has an ID column (OB-JECTID), the number of cases (Num_Cases ), an Address Column (Address), x coordinates (xcoord), and y coordinates (ycoord). These coordinates are helpful, as they let us import the data into GIS.
+	- First let’s look at the file with the deaths data in it. If you double-click it in the folder you saved the file in, it should open in Excel or as a text file, and you will see that it has an ID column (OBJECTID), the number of cases (Num_Cases ), an Address Column (Address), x coordinates (xcoord), and y coordinates (ycoord). These coordinates are helpful, as they let us import the data into GIS.
 	- In QGIS, go to the *Delimited Text* section in the *Data Source Manager* 
 	- Under File name, browse for the deathAddresses.csv file and select Open.
 	- QGIS will read in the file, and should automatically recognize some key features of the file (Figure 2), including:
@@ -130,28 +130,16 @@ eyJkaXNjdXNzaW9ucyI6eyJ4MTV3V05CSzZKRHc3Vml2Ijp7In
 RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjIw
 NzgsImVuZCI6MjA5N30sIndQYkR1OUFJVjdpMnprdXciOnsidG
 V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6Mjk3NCwiZW5k
-IjoyOTg3fSwiUThYYVVzMndNcTl3OFk2ViI6eyJ0ZXh0IjoiYm
-VjYW1lIiwic3RhcnQiOjE3MTksImVuZCI6MTcyNX0sIlpOVE1O
-RkxHN3NrMlVyMnciOnsidGV4dCI6Ii0iLCJzdGFydCI6NDQxOC
-wiZW5kIjo0NDE5fX0sImNvbW1lbnRzIjp7IkduZFIzaHhoZHF2
-OW5IcjEiOnsiZGlzY3Vzc2lvbklkIjoieDE1d1dOQks2SkR3N1
-ZpdiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBz
-ZWN0aW9uIiwiY3JlYXRlZCI6MTY4NjcyNzM3MzM4MH0sImZCam
-szbFdmTzF6T1FscHUiOnsiZGlzY3Vzc2lvbklkIjoid1BiRHU5
-QUlWN2kyemt1dyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dC
-I6IkxldCBzdHVkZW50cyBkbyB0aGlzPyIsImNyZWF0ZWQiOjE2
-ODY3Mjc1NjcxMDh9LCJXdFN0Q2VDWnJDQ1Zra3AyIjp7ImRpc2
-N1c3Npb25JZCI6IlE4WGFVczJ3TXE5dzhZNlYiLCJzdWIiOiJn
-aDoyMjE2ODE1NyIsInRleHQiOiJjaGFuZ2VkIHRoZSB0ZXh0IH
-RvIG1ha2UgaXQgYSBsaXR0bGUgbW9yZSBwcmVjaXNlLlxuXG4o
-SSB3cm90ZSB0aGlzIGZvciB0aGUgc29jaWFsIHNjaWVuY2Ugc3
-R1ZGVudHMpIiwiY3JlYXRlZCI6MTY4ODAzNTE0NjIzN30sIjBo
-eXhXbDFkQTBWZHJwZjQiOnsiZGlzY3Vzc2lvbklkIjoiWk5UTU
-5GTEc3c2syVXIydyIsInN1YiI6ImdoOjIyMTY4MTU3IiwidGV4
-dCI6InRoZXJlIGFyZSBvZnRlbiBkYXNoZXMgaW4gb2RkIHBsYW
-Nlcz8iLCJjcmVhdGVkIjoxNjg4MDM1NTE0MDQ3fX0sImhpc3Rv
-cnkiOlsxOTk3OTY0MDkyLC02OTg0NDc1MzgsMjExMDYyOTYyMS
-wtODQzMTczMDc0LDYwNzQxNjU5NywtMjAzMzQ1NDgwMywtMzY1
-MjUxODg2LDU5MjU4MjI2NCwtMTUxMjQyNzA2LC01NzI3MDU2Mj
-gsNzUwMzMwMzg4XX0=
+IjoyOTg3fX0sImNvbW1lbnRzIjp7IkduZFIzaHhoZHF2OW5Icj
+EiOnsiZGlzY3Vzc2lvbklkIjoieDE1d1dOQks2SkR3N1ZpdiIs
+InN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBzZWN0aW
+9uIiwiY3JlYXRlZCI6MTY4NjcyNzM3MzM4MH0sImZCamszbFdm
+TzF6T1FscHUiOnsiZGlzY3Vzc2lvbklkIjoid1BiRHU5QUlWN2
+kyemt1dyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Ikxl
+dCBzdHVkZW50cyBkbyB0aGlzPyIsImNyZWF0ZWQiOjE2ODY3Mj
+c1NjcxMDh9fSwiaGlzdG9yeSI6Wy0yMDI0OTY1MDA2LDE5OTc5
+NjQwOTIsLTY5ODQ0NzUzOCwyMTEwNjI5NjIxLC04NDMxNzMwNz
+QsNjA3NDE2NTk3LC0yMDMzNDU0ODAzLC0zNjUyNTE4ODYsNTky
+NTgyMjY0LC0xNTEyNDI3MDYsLTU3MjcwNTYyOCw3NTAzMzAzOD
+hdfQ==
 -->
