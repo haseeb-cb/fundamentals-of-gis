@@ -59,6 +59,8 @@ The state of a working session in QGIS is called a **project**. Similarly, to a 
 
 ### 1.1 Toolbars
 
+
+
 Here is a brief introduction to the **basic toolbars** in QGIS. The toolbars can be toggled in *View* \> *Toolbars* by ticking the boxes. If you can’t find a toolbar mentioned below – the toolbar might not be toggled on!
 
 The **Map Navigation toolbar** lets you zoom and pan the map view.
@@ -279,11 +281,11 @@ Fscy1vZi1naXMv4oCmIiwic3RhcnQiOjgyLCJlbmQiOjgyfSwi
 WWJZUW02bGpVNDJmeTZQNiI6eyJ0ZXh0IjoiIVtdKGh0dHBzOi
 8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9yb3dhbjhrL2Z1
 bmRhbWVudGFscy1vZi1naXMvbWFzdGVyL0Fzc2V0c+KApiIsIn
-N0YXJ0Ijo3MjQ0LCJlbmQiOjczNjh9LCJkWnRhMjJPYVdqanFp
+N0YXJ0Ijo3MjQ2LCJlbmQiOjczNzB9LCJkWnRhMjJPYVdqanFp
 UHpNIjp7InRleHQiOiIqKkFkZGluZyBkYXRhIGluIFFHSVM6Ki
 ogVGhlICoqRGF0YSBTb3VyY2UgTWFuYWdlcioqIG9mZmVycyBh
-IGhhbmR5IHdheSB0byBhZGTigKYiLCJzdGFydCI6NTkyNSwiZW
-5kIjo2MjUxfSwiQ3VHMXFHSjdkRUk3QTg3SCI6eyJzdGFydCI6
+IGhhbmR5IHdheSB0byBhZGTigKYiLCJzdGFydCI6NTkyNywiZW
+5kIjo2MjUzfSwiQ3VHMXFHSjdkRUk3QTg3SCI6eyJzdGFydCI6
 MTQwNiwiZW5kIjoxNDgzLCJ0ZXh0IjoiKipMYXVuY2ggUUdJUy
 oqIGFuZCB0aGUgUUdJUyBncmFwaGljYWwgdXNlciBpbnRlcmZh
 Y2UgKEdVSSkgb3BlbnMgKEZpZ3VyZSAxKS4ifX0sImNvbW1lbn
@@ -302,7 +304,7 @@ NzQ3NzF9LCJFcmpZRWJqMjNaZlJpYTRJIjp7ImRpc2N1c3Npb2
 5JZCI6IkN1RzFxR0o3ZEVJN0E4N0giLCJzdWIiOiJnaDo0MDMw
 NDc4OCIsInRleHQiOiJVcGRhdGUgd2l0aCBmcmVzaCBpbnN0YW
 xsIiwiY3JlYXRlZCI6MTY4NzA3MTkxMTUyNX19LCJoaXN0b3J5
-IjpbLTExNzk3NTEyMzksLTE2NDcwMTg4NTYsLTExMjExNjY3NT
+IjpbLTE0NzYyNTI3NTAsLTE2NDcwMTg4NTYsLTExMjExNjY3NT
 MsLTIwODI1NDYwNDMsLTE3Mjg3MjI2MCwtMTY4MTAzOTY0OSwt
 Mzg1MjE0MjQ1LC0xMzY3NjI2MTQzLC0xOTQxNTY0NDYzLC0yNT
 QwNzUxMywtODg3MDkwMDUyLC02NzEwMTg4NzIsLTM4Mzc5OTA0
