@@ -94,10 +94,12 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 11. Click on the tampere_buildings layer in the layers panel to highlight it, then toggle editing on ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png)  in the *Editing Toolbar*.
 
+Editing toolbar:
+![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/QGIS_editing_toolbar.png)
 
 12. First, let’s remove a building that no longer exists. There is one building at the south of the arena that has been demolished .
 
-	- First, choose the *Select* tool ![](https://docs.qgis.org/3.28/en/_images/mActionSelect.png) (if you don’t see it, you may need to add the Selection Toolbar like you did for the Digitizing Toolbar).
+	- First, choose the *Select* tool ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/QGIS_select_tool.png) (if you don’t see it, you may need to add the Selection Toolbar like you did for the Digitizing Toolbar).
 
 	- Select the building to be removed by clicking it. It will turn yellow when selected.
 
@@ -166,20 +168,14 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 # Time to get your hands dirty! Move on to the Crash Course exercise to get started with (Q)GIS. 
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJPSFc4dTRXalZjWk8wZnA1Ijp7In
-RleHQiOiIhW10oaHR0cHM6Ly9kb2NzLnFnaXMub3JnLzMuMjgv
-ZW4vX2ltYWdlcy9tQWN0aW9uU2VsZWN0LnBuZykiLCJzdGFydC
-I6NzkxNCwiZW5kIjo3OTc0fSwiRk1wazk5R1hBSk84RTRITiI6
-eyJzdGFydCI6NzcyNCwiZW5kIjo3NzQyLCJ0ZXh0IjoiKkRpZ2
-l0aXppbmcgVG9vbGJhciouIn19LCJjb21tZW50cyI6eyJxSWE2
-M1lPWFViZU5GdjlFIjp7ImRpc2N1c3Npb25JZCI6Ik9IVzh1NF
-dqVmNaTzBmcDUiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQi
-OiJGaXggcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYyODg2MTc5Nj
-R9LCJJMnZKaFJUdWljYkNVUmlLIjp7ImRpc2N1c3Npb25JZCI6
-IkZNcGs5OUdYQUpPOEU0SE4iLCJzdWIiOiJnaDo0MDMwNDc4OC
-IsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODcw
-NjcwNDQ5ODZ9fSwiaGlzdG9yeSI6Wy03MjQwMjU3ODEsLTczMj
-A3Mzg5Myw5NTI5NjI4NTcsLTMzNDM4MzIwOSwtMjAxNTA0OTU3
-OSwxMjU1NzUxMDQ2LC05NjgxMTAxMzMsLTIxNDY5MTA1ODYsLT
-gxNjI0MjgwMV19
+eyJkaXNjdXNzaW9ucyI6eyJGTXBrOTlHWEFKTzhFNEhOIjp7In
+N0YXJ0Ijo3NzI0LCJlbmQiOjc3NDIsInRleHQiOiIqRGlnaXRp
+emluZyBUb29sYmFyKi4ifX0sImNvbW1lbnRzIjp7IkkydkpoUl
+R1aWNiQ1VSaUsiOnsiZGlzY3Vzc2lvbklkIjoiRk1wazk5R1hB
+Sk84RTRITiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Ik
+FkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NzA2NzA0NDk4Nn19
+LCJoaXN0b3J5IjpbLTE5MTg5MzM4MzMsLTczMjA3Mzg5Myw5NT
+I5NjI4NTcsLTMzNDM4MzIwOSwtMjAxNTA0OTU3OSwxMjU1NzUx
+MDQ2LC05NjgxMTAxMzMsLTIxNDY5MTA1ODYsLTgxNjI0MjgwMV
+19
 -->
