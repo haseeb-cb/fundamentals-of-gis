@@ -112,7 +112,6 @@ So, the tampere_buildings data is old and we need to update it – there are now
 	
 	- When you are finished adding the new buildings, press the *Save* symbol in the Digitizing Toolbar, and toggle off *editing*.
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/Exercise1_figure8.png)
 
 ---
 
@@ -137,7 +136,6 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 	- Press OK
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/Exercise1_figure9.png)
 
 16. We have now created a new layer, but it is empty – there is nothing in it yet. Now, we can edit the new tam-pere_bus_stops layer we have created to add a location and road name. This happens in a similar way to how we edited the buildings layer, but we are also going to use the identify features tool to find out the name of the roads where each bus stop is located and add it to the tampere_bus_stops attribute table as we add points.
 
@@ -156,8 +154,6 @@ So, the tampere_buildings data is old and we need to update it – there are now
 	- Repeat this for each bus stop.
 
 	- *Save the Edits* in the Digitization Toolbar and toggle off *editing*.
-
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/Exercise1_figure10.png)
 
 ---
 
@@ -182,8 +178,8 @@ OiJGaXggcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYyODg2MTc5Nj
 R9LCJJMnZKaFJUdWljYkNVUmlLIjp7ImRpc2N1c3Npb25JZCI6
 IkZNcGs5OUdYQUpPOEU0SE4iLCJzdWIiOiJnaDo0MDMwNDc4OC
 IsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOjE2ODcw
-NjcwNDQ5ODZ9fSwiaGlzdG9yeSI6Wy03MzIwNzM4OTMsOTUyOT
-YyODU3LC0zMzQzODMyMDksLTIwMTUwNDk1NzksMTI1NTc1MTA0
-NiwtOTY4MTEwMTMzLC0yMTQ2OTEwNTg2LC04MTYyNDI4MDFdfQ
-==
+NjcwNDQ5ODZ9fSwiaGlzdG9yeSI6Wy03MjQwMjU3ODEsLTczMj
+A3Mzg5Myw5NTI5NjI4NTcsLTMzNDM4MzIwOSwtMjAxNTA0OTU3
+OSwxMjU1NzUxMDQ2LC05NjgxMTAxMzMsLTIxNDY5MTA1ODYsLT
+gxNjI0MjgwMV19
 -->
