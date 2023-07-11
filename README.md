@@ -104,11 +104,5 @@ Based on work and with help from:
 
 # Let's get started with the [first theory section](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/1_Crashcourse_theory.md)!
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJsazBhVk15ckhUU0RzeW9pIjp7In
-N0YXJ0Ijo2OTY5LCJlbmQiOjY5NzksInRleHQiOiIjIyBDcmVk
-aXRzIn19LCJjb21tZW50cyI6eyJRS2J6aXRpQTBzSXQxVGRqIj
-p7ImRpc2N1c3Npb25JZCI6ImxrMGFWTXlySFRTRHN5b2kiLCJz
-dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgY3JlZGl0cy
-BzZWN0aW9uIiwiY3JlYXRlZCI6MTY4ODQ1NTQ3MjMyOX19LCJo
-aXN0b3J5IjpbLTE2NjY3Njk1MTgsOTIxNDAxNDgzXX0=
+eyJoaXN0b3J5IjpbMzQyMDY0ODUwLDkyMTQwMTQ4M119
 -->
