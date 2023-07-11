@@ -90,7 +90,6 @@ Based on work and with help from:
 - Muukkonen, Petteri S
 - Jylhä, Markus J H
 - Arosuo, Haikku I
-- Seppä, Perttu V
 - Ylinen, Kirsi M S
 - Todorovic, Sara
 - Leppämäki, Tatu
@@ -111,5 +110,5 @@ aXRzIn19LCJjb21tZW50cyI6eyJRS2J6aXRpQTBzSXQxVGRqIj
 p7ImRpc2N1c3Npb25JZCI6ImxrMGFWTXlySFRTRHN5b2kiLCJz
 dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgY3JlZGl0cy
 BzZWN0aW9uIiwiY3JlYXRlZCI6MTY4ODQ1NTQ3MjMyOX19LCJo
-aXN0b3J5IjpbOTIxNDAxNDgzXX0=
+aXN0b3J5IjpbLTE2NjY3Njk1MTgsOTIxNDAxNDgzXX0=
 -->
