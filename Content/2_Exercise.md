@@ -21,7 +21,7 @@ Urban areas undergo continuous development, and maps need to be updated regularl
 	- A free, open geographic database updated and maintained by a community of volunteers via open collaboration.
 	- Used as a source for the buildings, roads, and railways.
 
-- 
+- Tampere City Nokia arena plans
 
 ## Completion
 
@@ -50,8 +50,6 @@ It is good to be familiar with the area you will be working with in this exercis
 4. Take a moment to examine the data you added now, what is it about? What kind of attributes does the data have?
 	- Can you find the location of where the Nokia Arena is constructed? (hint: the coordinates are 328300 east, 6822050 north in the ETS89 / TM35FIN(E,N) coordinate system. Does the arena and new development exist in the tampere_buildings layer? What about in the Google satellite imagery?
 
-![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/Exercise1_figure1.png)
-
 We have a vector layer with the buildings in central Tampere, and a vector layer showing the roads – both of which originally came from OpenStreetMap. This data is old – it shows the area before the development of the arena. In addition, we have a raster image file that shows the designs for the Arena, taken from a planning document. Unfortunately, this raster is not spatially referenced – there is no spatial information associated with each raster cell.
 
 So, the tampere_buildings data is old and we need to update it – there are now new buildings, and an old building has been demolished. City mappers have various ways of updating the spatial databases. Some-times, maps are updated by new aerial imagery. Sometimes, they are updated based on building plans submitted to the city. And, sometimes they might be updated based on measurements carried out by surveyors. In this case, we are going to use an image from the city planning department and add it to our buildings layer, as well as remove some buildings that no longer exist.
@@ -77,20 +75,14 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 	- Repeat this at least three more times in different locations, preferably well distributed across the map.
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/Exercise1_figure2.png)
-
 7. When you are finished adding reference points, you can now perform the georeferencing calculation for the image.
 
 	- Press the *Settings* button ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/QGIS_georeferencer_settings.png) on the *Georeferencer* menu, and set the *Transformation type* to *Projective*, set the *Target SRS* to the *Project CRS*, give your *Output Raster* an informative name (e.g. arena_plan_modified), and save it in your folder. The *Transformation type* describes the type of mathematical algorithm used to modify (like rotate, twist, skew) the raster. Press OK.
 
 	- Press the *Run* arrow in the *Georeferencer* menu, and the georeferencing will start. It will show you the progress on the georeferencing.
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/Exercise1_figure3.png)
-
 8. Once the calculation is complete, close the *Georeferencer* window (there is no need to save the GCP Points). The new raster that has been georeferenced is saved and you will need add it to your QGIS map now (Hint: Use the Data Source Manager and add it as a raster instead of a vector) . Once its been added, you can drag it below the building, road, and railway layers to see how it fits. Now would be a good time to save your QGIS project again.
 	- Check whether the plans line up with the buildings layer (it doesn't have to be perfect for this exercise)! If it doesn't retry the georeferencing with more points and more spacing between them
-
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/Exercise1_figure4.png)
 
 ---
 
@@ -102,7 +94,6 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 11. Click on the tampere_buildings layer in the layers panel to highlight it, then toggle editing on ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png)  in the *Editing Toolbar*.
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/Exercise1_figure5.png)
 
 12. First, let’s remove a building that no longer exists. There is one building at the south of the arena that has been demolished .
 
@@ -112,7 +103,6 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 	- Press *Delete* on your keyboard. The building is now deleted.
 
-![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/Exercise1_figure6.png)
 
 13. Now, let’s add some new buildings to the layer.
 	
@@ -180,33 +170,27 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 # Time to get your hands dirty! Move on to the Crash Course exercise to get started with (Q)GIS. 
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJrZG44NXZQZ2xEVEdlVnV4Ijp7In
-RleHQiOiJEYXRhIHVzZWQiLCJzdGFydCI6NzE2LCJlbmQiOjcy
-NX0sIk9IVzh1NFdqVmNaTzBmcDUiOnsidGV4dCI6IiFbXShodH
-RwczovL2RvY3MucWdpcy5vcmcvMy4yOC9lbi9faW1hZ2VzL21B
-Y3Rpb25TZWxlY3QucG5nKSIsInN0YXJ0Ijo4NDg2LCJlbmQiOj
-g1NDZ9LCJhM0VpZWxYYWtkZ2NYOE55Ijp7InRleHQiOiItIFVz
-aW5nIHRoZSAqSWRlbnRpZnkgZmVhdHVyZXMqIHRvb2wsIGNsaW
-NrIG9uIGEgbGluZSBmZWF0dXJlIGluIHRoZSB0YW1wZXJlX3Jv
-4oCmIiwic3RhcnQiOjExNzM2LCJlbmQiOjExOTI4fSwiRk1waz
-k5R1hBSk84RTRITiI6eyJzdGFydCI6ODE4MiwiZW5kIjo4MjAw
-LCJ0ZXh0IjoiKkRpZ2l0aXppbmcgVG9vbGJhciouIn19LCJjb2
-1tZW50cyI6eyJZeVJSZWg5TlJUSmRpbzFEIjp7ImRpc2N1c3Np
-b25JZCI6Imtkbjg1dlBnbERUR2VWdXgiLCJzdWIiOiJnaDo0MD
-MwNDc4OCIsInRleHQiOiJBc2sgSm9uIGZvciB3aGF0IGRhdGEg
-aGUgdXNlZCIsImNyZWF0ZWQiOjE2ODYyMDg3MjY2ODJ9LCJxSW
-E2M1lPWFViZU5GdjlFIjp7ImRpc2N1c3Npb25JZCI6Ik9IVzh1
-NFdqVmNaTzBmcDUiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleH
-QiOiJGaXggcGljdHVyZSIsImNyZWF0ZWQiOjE2ODYyODg2MTc5
-NjR9LCJsVmh4RHlJUHpUNVNzUjNFIjp7ImRpc2N1c3Npb25JZC
-I6ImEzRWllbFhha2RnY1g4TnkiLCJzdWIiOiJnaDo0MDMwNDc4
-OCIsInRleHQiOiJSb2FkcyBkYXRhIGluIGZvbGRlciBpcyBtaX
-NzaW5nIGF0dHJpYnV0ZXMiLCJjcmVhdGVkIjoxNjg2Mjg5MTk1
-Njk5fSwiSTJ2SmhSVHVpY2JDVVJpSyI6eyJkaXNjdXNzaW9uSW
-QiOiJGTXBrOTlHWEFKTzhFNEhOIiwic3ViIjoiZ2g6NDAzMDQ3
-ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNj
-g3MDY3MDQ0OTg2fX0sImhpc3RvcnkiOlstMTI0MTI0MTQ2LDk1
-Mjk2Mjg1NywtMzM0MzgzMjA5LC0yMDE1MDQ5NTc5LDEyNTU3NT
-EwNDYsLTk2ODExMDEzMywtMjE0NjkxMDU4NiwtODE2MjQyODAx
-XX0=
+eyJkaXNjdXNzaW9ucyI6eyJPSFc4dTRXalZjWk8wZnA1Ijp7In
+RleHQiOiIhW10oaHR0cHM6Ly9kb2NzLnFnaXMub3JnLzMuMjgv
+ZW4vX2ltYWdlcy9tQWN0aW9uU2VsZWN0LnBuZykiLCJzdGFydC
+I6NzkxNCwiZW5kIjo3OTc0fSwiYTNFaWVsWGFrZGdjWDhOeSI6
+eyJ0ZXh0IjoiLSBVc2luZyB0aGUgKklkZW50aWZ5IGZlYXR1cm
+VzKiB0b29sLCBjbGljayBvbiBhIGxpbmUgZmVhdHVyZSBpbiB0
+aGUgdGFtcGVyZV9yb+KApiIsInN0YXJ0IjoxMTAyMiwiZW5kIj
+oxMTIxNH0sIkZNcGs5OUdYQUpPOEU0SE4iOnsic3RhcnQiOjc3
+MjQsImVuZCI6Nzc0MiwidGV4dCI6IipEaWdpdGl6aW5nIFRvb2
+xiYXIqLiJ9fSwiY29tbWVudHMiOnsicUlhNjNZT1hVYmVORnY5
+RSI6eyJkaXNjdXNzaW9uSWQiOiJPSFc4dTRXalZjWk8wZnA1Ii
+wic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiRml4IHBpY3R1
+cmUiLCJjcmVhdGVkIjoxNjg2Mjg4NjE3OTY0fSwibFZoeER5SV
+B6VDVTc1IzRSI6eyJkaXNjdXNzaW9uSWQiOiJhM0VpZWxYYWtk
+Z2NYOE55Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiUm
+9hZHMgZGF0YSBpbiBmb2xkZXIgaXMgbWlzc2luZyBhdHRyaWJ1
+dGVzIiwiY3JlYXRlZCI6MTY4NjI4OTE5NTY5OX0sIkkydkpoUl
+R1aWNiQ1VSaUsiOnsiZGlzY3Vzc2lvbklkIjoiRk1wazk5R1hB
+Sk84RTRITiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Ik
+FkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NzA2NzA0NDk4Nn19
+LCJoaXN0b3J5IjpbMTYwOTM5NDUzNSw5NTI5NjI4NTcsLTMzND
+M4MzIwOSwtMjAxNTA0OTU3OSwxMjU1NzUxMDQ2LC05NjgxMTAx
+MzMsLTIxNDY5MTA1ODYsLTgxNjI0MjgwMV19
 -->
