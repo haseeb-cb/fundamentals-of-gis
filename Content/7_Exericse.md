@@ -60,7 +60,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- Change the symbology in such a way that you can see your basemap under it (e.g. remove the fill or change the transparency)  
 
 7. Let’s also change the symbology of the monitoring stations
-	- Let’s make these a graduated symbol. Choose NO2 as the *Value*.  You will now see a map with the monitoring stations colored according to the monitored NO2 levels. Does anywhere exceed the EU Air Quality Directive limit of an annual average of 40 micrograms per cubic metre? 
+	- Let’s make these a graduated symbol. Choose NO2 as the *Value*.  You will now see a map with the monitoring stations colored according to the monitored NO~2~ levels. Does anywhere exceed the EU Air Quality Directive limit of an annual average of 40 micrograms per cubic metre? 
 
 ---
 
@@ -74,10 +74,10 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 		- *Interpolation Attribute*: NO2, the value associated with the monitoring stations that we want to interpolate.
 		- Click the + symbol to add it to the list of items to interpolate
 		- *Extent*: click the down arrow to the right of the extent box and choose *Calculate from Layer* > Air_pollution_monitoring_points. This will limit the interpolation to the areas covered by the monitoring stations – where we have data. Otherwise, the tool may try to interpolate over a wider area, and could lead to errors when it tries to calcuate concentrations where we do not have data.
-		- *Output Raster Size* will define the spatial resolution of the interpolation – meaning the size of the grid (or pixels). Too small a grid size, and you create a very large file and the results could be mis-leading (i.e. it could make people think we know the pollution in a 1m2 area, which we don’t). Too large, and we won’t get a good idea of the variation because the grid will be so large. We don’t have many monitoring stations, and it is computationally more difficult to produce a large raster, so let’s make it quite coarse. Set the X and Y pixel size as 50 for both.
+		- *Output Raster Size* will define the spatial resolution of the interpolation – meaning the size of the grid (or pixels). Too small a grid size, and you create a very large file and the results could be misleading (i.e. it could make people think we know the pollution in a 1m2 area, which we don’t). Too large, and we won’t get a good idea of the variation because the grid will be so large. We don’t have many monitoring stations, and it is computationally more difficult to produce a large raster, so let’s make it quite coarse. Set the X and Y pixel size as 50 for both, what kind of unit do you think this is?
 	- Run the tool
 
-10. The interpolation has produced a raster from point data. We can see how the IDW algorithm has estimated the concentration of air pollution between the different points as a continuous grid, where each pixel has a value. In reality, the spatial concentration of air pollution is more varying, with differences due to the pres-ence of pollution emission sources, urban canyons, wind, and other factors, and will vary over time as well. But, this gives us an initial estimate of how concentrations change across Helsinki.
+10. The interpolation has produced a raster from point data. We can see how the IDW algorithm has estimated the concentration of air pollution between the different points as a continuous grid, where each pixel has a value. In reality, the spatial concentration of air pollution is more varying, with differences due to the presence of pollution emission sources, urban canyons, wind, and other factors, and will vary over time as well. But, this gives us an initial estimate of how concentrations change across Helsinki.
 
 ---
 
@@ -120,67 +120,56 @@ BpbiB0aGUgSGXigKYiLCJzdGFydCI6MzU3NCwiZW5kIjozNzk0
 fSwiOEhnZ21EYVZQMkxMbHYxQiI6eyJ0ZXh0IjoiRG9lcyBhbn
 l3aGVyZSBleGNlZWQgdGhlIEVVIEFpciBRdWFsaXR5IERpcmVj
 dGl2ZSBsaW1pdCBvZiBhbiBhbm51YWwgYXZlcmFnZSBvZuKApi
-IsInN0YXJ0Ijo1NjIzLCJlbmQiOjU3MzN9LCJZUzl4R3lWaG5W
+IsInN0YXJ0Ijo1NjI1LCJlbmQiOjU3MzV9LCJZUzl4R3lWaG5W
 Rkd1b3l0Ijp7InRleHQiOiItIFdoYXQgaXMgdGhlIHBvc3Rjb2
 RlIHdpdGggdGhlIGhpZ2hlc3QgTk8yIGNvbmNlbnRyYXRpb25z
 PyBcblx0LSBXaGF0IGlzIHRoZSBwb3PigKYiLCJzdGFydCI6OT
-IwMywiZW5kIjo5NDgyfSwickhsdmZReTdIcHAwOEtVdiI6eyJ0
+I0MywiZW5kIjo5NTIyfSwickhsdmZReTdIcHAwOEtVdiI6eyJ0
 ZXh0IjoiV2hhdCBwb3N0LWNvZGUgaGFkIHRoZSBtb3N0IE5PMi
 Btb25pdG9ycz8gSG93IG1hbnkgd2VyZSB0aGVyZT8iLCJzdGFy
-dCI6MTAzMTksImVuZCI6MTAzODF9LCJhWmlBa1UxVUNwNW50cD
+dCI6MTAzNTksImVuZCI6MTA0MjF9LCJhWmlBa1UxVUNwNW50cD
 FZIjp7InRleHQiOiIjIyBPVkVSVklFVyAmIFBVUlBPU0UiLCJz
 dGFydCI6MTUzLCJlbmQiOjE3NH0sImhqRDZoYWpHZklRNjNYRW
 4iOnsidGV4dCI6IjEzLiBXZSBjYW4gYWxzbyBqb2luIHRoZSBh
 aXIgcG9sbHV0aW9uIG1vbml0b3Jpbmcgc3RhdGlvbnMgcG9pbn
-QgZGF0YSB0byB0aGUgcG/igKYiLCJzdGFydCI6OTQ4NSwiZW5k
-IjoxMDIxNX0sIlVydkhSU2Jsank5c0hReEMiOnsidGV4dCI6Ij
+QgZGF0YSB0byB0aGUgcG/igKYiLCJzdGFydCI6OTUyNSwiZW5k
+IjoxMDI1NX0sIlVydkhSU2Jsank5c0hReEMiOnsidGV4dCI6Ij
 ExLiBMZXTigJlzIG5vdyBleGFtaW5lIHRoZSBjb25jZW50cmF0
 aW9ucyBpbiBkaWZmZXJlbnQgcG9zdGNvZGVzIGluIEhlbHNpbm
-tpLiBUb+KApiIsInN0YXJ0Ijo4MjI0LCJlbmQiOjg5MTV9LCIz
-SjlqRGJTRVo4Z3BUd3lTIjp7InRleHQiOiIyIiwic3RhcnQiOj
-U2MTMsImVuZCI6NTYxNH0sIkFhdW0xMjhvQ0ZyTEpWSGkiOnsi
-dGV4dCI6IjUwIiwic3RhcnQiOjc2MjIsImVuZCI6NzYyNH19LC
-Jjb21tZW50cyI6eyJzdUJnOVNEVW8xN2tha2JKIjp7ImRpc2N1
-c3Npb25JZCI6IjlFT05iNGRwVDYxWnFwOTQiLCJzdWIiOiJnaD
-o0MDMwNDc4OCIsInRleHQiOiJBZGQgc2VjdGlvbiIsImNyZWF0
-ZWQiOjE2ODc3Njg0NjEyMzh9LCJLb1EyYmVYWmRnN2RCaENGIj
-p7ImRpc2N1c3Npb25JZCI6InZIWGtkc2lXa25pR2RtNzQiLCJz
-dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgc2VjdGlvbi
-BpbiBtb29kbGUgdG8gZmlsbCB0aGVzZSBvdXQiLCJjcmVhdGVk
-IjoxNjg3NzY5MDA1MTQyfSwiVlNhY2hCWUN1MlZid2ZJaCI6ey
-JkaXNjdXNzaW9uSWQiOiI4SGdnbURhVlAyTExsdjFCIiwic3Vi
-IjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rpb24gaW
-4gbW9vZGxlIHRvIGZpbGwgdGhlc2Ugb3V0IiwiY3JlYXRlZCI6
-MTY4Nzc2OTAxMTE1MH0sImIyU25KeUNZdGx6bWVLb2siOnsiZG
-lzY3Vzc2lvbklkIjoiWVM5eEd5VmhuVkZHdW95dCIsInN1YiI6
-ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBzZWN0aW9uIGluIG
-1vb2RsZSB0byBmaWxsIHRoZXNlIG91dCIsImNyZWF0ZWQiOjE2
-ODc3Njk4OTIxNTd9LCJZMXBhck9XUml5Y0tEaWlCIjp7ImRpc2
-N1c3Npb25JZCI6InJIbHZmUXk3SHBwMDhLVXYiLCJzdWIiOiJn
-aDo0MDMwNDc4OCIsInRleHQiOiJBZGQgc2VjdGlvbiBpbiBNb2
-9kbGUgdG8gZmlsbCB0aGlzIG91dCIsImNyZWF0ZWQiOjE2ODc3
-NzAxMTg3NTd9LCJKRmUxSmpYYjVEcW1seGUwIjp7ImRpc2N1c3
-Npb25JZCI6ImFaaUFrVTFVQ3A1bnRwMVkiLCJzdWIiOiJnaDo0
-MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZW
-QiOjE2ODc4NDQ3OTkyNjh9LCJaVkVUdHlLYTYwUjFvbmlmIjp7
-ImRpc2N1c3Npb25JZCI6ImhqRDZoYWpHZklRNjNYRW4iLCJzdW
-IiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJSZW1vdmUgaW5zdHJ1
-Y3Rpb25zIHRvIGNoYWxsZW5nZSBzdHVkZW50cz8iLCJjcmVhdG
-VkIjoxNjg3OTM1MjgyNzk3fSwicDlQWW1sNE9OdG5Ya3lUNSI6
-eyJkaXNjdXNzaW9uSWQiOiJVcnZIUlNibGp5OXNIUXhDIiwic3
-ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiUmVtb3ZlIGluc3Ry
-dWN0aW9ucyB0byBjaGFsbGVuZ2Ugc3R1ZGVudHM/IiwiY3JlYX
-RlZCI6MTY4NzkzNTI4NjgxMn0sInVIWFlud28xTklDOFRhcHki
-OnsiZGlzY3Vzc2lvbklkIjoiM0o5akRiU0VaOGdwVHd5UyIsIn
-N1YiI6ImdoOjIyMTY4MTU3IiwidGV4dCI6InN1YnNjcmlwdHMu
-IiwiY3JlYXRlZCI6MTY4ODAzNjUzMjUxN30sIlJqUGU3eW9uZT
-lBbWVKMTkiOnsiZGlzY3Vzc2lvbklkIjoiQWF1bTEyOG9DRnJM
-SlZIaSIsInN1YiI6ImdoOjIyMTY4MTU3IiwidGV4dCI6ImlzIG
-l0IHdvcnRoIHNheWluZyB3aGF0IHRoaXMgbWVhbnMgKGUuZy4g
-d2hhdCB0aXMgY29ycmVzcG9uZHMgdG8gaW4gbWFwIHVuaXRzKS
-IsImNyZWF0ZWQiOjE2ODgwMzY2MjU4MTJ9fSwiaGlzdG9yeSI6
-WzEyMTE0NjE0MTgsMTU2MzMwMjcxNCw2MTc2MzY5MDksMTc5Nj
-A4ODAzOCwxNzM3NzI0NTYyLC0yMTMxNDkxNDcsLTE4ODczNDI2
-MTIsMjg5NzAzNjI1LDM2OTI1NTQ0LC0xODMyNTQ3MTA1LDE3Nj
-c3MDQxMV19
+tpLiBUb+KApiIsInN0YXJ0Ijo4MjY0LCJlbmQiOjg5NTV9fSwi
+Y29tbWVudHMiOnsic3VCZzlTRFVvMTdrYWtiSiI6eyJkaXNjdX
+NzaW9uSWQiOiI5RU9OYjRkcFQ2MVpxcDk0Iiwic3ViIjoiZ2g6
+NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rpb24iLCJjcmVhdG
+VkIjoxNjg3NzY4NDYxMjM4fSwiS29RMmJlWFpkZzdkQmhDRiI6
+eyJkaXNjdXNzaW9uSWQiOiJ2SFhrZHNpV2tuaUdkbTc0Iiwic3
+ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rpb24g
+aW4gbW9vZGxlIHRvIGZpbGwgdGhlc2Ugb3V0IiwiY3JlYXRlZC
+I6MTY4Nzc2OTAwNTE0Mn0sIlZTYWNoQllDdTJWYndmSWgiOnsi
+ZGlzY3Vzc2lvbklkIjoiOEhnZ21EYVZQMkxMbHYxQiIsInN1Yi
+I6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBzZWN0aW9uIGlu
+IG1vb2RsZSB0byBmaWxsIHRoZXNlIG91dCIsImNyZWF0ZWQiOj
+E2ODc3NjkwMTExNTB9LCJiMlNuSnlDWXRsem1lS29rIjp7ImRp
+c2N1c3Npb25JZCI6IllTOXhHeVZoblZGR3VveXQiLCJzdWIiOi
+JnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgc2VjdGlvbiBpbiBt
+b29kbGUgdG8gZmlsbCB0aGVzZSBvdXQiLCJjcmVhdGVkIjoxNj
+g3NzY5ODkyMTU3fSwiWTFwYXJPV1JpeWNLRGlpQiI6eyJkaXNj
+dXNzaW9uSWQiOiJySGx2ZlF5N0hwcDA4S1V2Iiwic3ViIjoiZ2
+g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rpb24gaW4gTW9v
+ZGxlIHRvIGZpbGwgdGhpcyBvdXQiLCJjcmVhdGVkIjoxNjg3Nz
+cwMTE4NzU3fSwiSkZlMUpqWGI1RHFtbHhlMCI6eyJkaXNjdXNz
+aW9uSWQiOiJhWmlBa1UxVUNwNW50cDFZIiwic3ViIjoiZ2g6ND
+AzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVk
+IjoxNjg3ODQ0Nzk5MjY4fSwiWlZFVHR5S2E2MFIxb25pZiI6ey
+JkaXNjdXNzaW9uSWQiOiJoakQ2aGFqR2ZJUTYzWEVuIiwic3Vi
+IjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiUmVtb3ZlIGluc3RydW
+N0aW9ucyB0byBjaGFsbGVuZ2Ugc3R1ZGVudHM/IiwiY3JlYXRl
+ZCI6MTY4NzkzNTI4Mjc5N30sInA5UFltbDRPTnRuWGt5VDUiOn
+siZGlzY3Vzc2lvbklkIjoiVXJ2SFJTYmxqeTlzSFF4QyIsInN1
+YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlJlbW92ZSBpbnN0cn
+VjdGlvbnMgdG8gY2hhbGxlbmdlIHN0dWRlbnRzPyIsImNyZWF0
+ZWQiOjE2ODc5MzUyODY4MTJ9fSwiaGlzdG9yeSI6WzEzOTU3NT
+EwMDQsMTU2MzMwMjcxNCw2MTc2MzY5MDksMTc5NjA4ODAzOCwx
+NzM3NzI0NTYyLC0yMTMxNDkxNDcsLTE4ODczNDI2MTIsMjg5Nz
+AzNjI1LDM2OTI1NTQ0LC0xODMyNTQ3MTA1LDE3Njc3MDQxMV19
+
 -->
