@@ -16,8 +16,12 @@ Urban areas undergo continuous development, and maps need to be updated regularl
 - Digitize the bus stops from the arena plans
 
 ## Data used
-- OpenStreetMap
-	- 
+
+- OpenStreetMap: https://www.openstreetmap.org/
+	- A free, open geographic database updated and maintained by a community of volunteers via open collaboration.
+	- Used as a source for the buildings, roads, and railways.
+
+- 
 
 ## Completion
 
@@ -180,12 +184,12 @@ eyJkaXNjdXNzaW9ucyI6eyJrZG44NXZQZ2xEVEdlVnV4Ijp7In
 RleHQiOiJEYXRhIHVzZWQiLCJzdGFydCI6NzE2LCJlbmQiOjcy
 NX0sIk9IVzh1NFdqVmNaTzBmcDUiOnsidGV4dCI6IiFbXShodH
 RwczovL2RvY3MucWdpcy5vcmcvMy4yOC9lbi9faW1hZ2VzL21B
-Y3Rpb25TZWxlY3QucG5nKSIsInN0YXJ0Ijo4MjgxLCJlbmQiOj
-gzNDF9LCJhM0VpZWxYYWtkZ2NYOE55Ijp7InRleHQiOiItIFVz
+Y3Rpb25TZWxlY3QucG5nKSIsInN0YXJ0Ijo4NDg2LCJlbmQiOj
+g1NDZ9LCJhM0VpZWxYYWtkZ2NYOE55Ijp7InRleHQiOiItIFVz
 aW5nIHRoZSAqSWRlbnRpZnkgZmVhdHVyZXMqIHRvb2wsIGNsaW
 NrIG9uIGEgbGluZSBmZWF0dXJlIGluIHRoZSB0YW1wZXJlX3Jv
-4oCmIiwic3RhcnQiOjExNTMxLCJlbmQiOjExNzIzfSwiRk1waz
-k5R1hBSk84RTRITiI6eyJzdGFydCI6Nzk3NywiZW5kIjo3OTk1
+4oCmIiwic3RhcnQiOjExNzM2LCJlbmQiOjExOTI4fSwiRk1waz
+k5R1hBSk84RTRITiI6eyJzdGFydCI6ODE4MiwiZW5kIjo4MjAw
 LCJ0ZXh0IjoiKkRpZ2l0aXppbmcgVG9vbGJhciouIn19LCJjb2
 1tZW50cyI6eyJZeVJSZWg5TlJUSmRpbzFEIjp7ImRpc2N1c3Np
 b25JZCI6Imtkbjg1dlBnbERUR2VWdXgiLCJzdWIiOiJnaDo0MD
@@ -201,7 +205,7 @@ NzaW5nIGF0dHJpYnV0ZXMiLCJjcmVhdGVkIjoxNjg2Mjg5MTk1
 Njk5fSwiSTJ2SmhSVHVpY2JDVVJpSyI6eyJkaXNjdXNzaW9uSW
 QiOiJGTXBrOTlHWEFKTzhFNEhOIiwic3ViIjoiZ2g6NDAzMDQ3
 ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNj
-g3MDY3MDQ0OTg2fX0sImhpc3RvcnkiOlstNjM5ODk3NTIyLDk1
+g3MDY3MDQ0OTg2fX0sImhpc3RvcnkiOlstMTI0MTI0MTQ2LDk1
 Mjk2Mjg1NywtMzM0MzgzMjA5LC0yMDE1MDQ5NTc5LDEyNTU3NT
 EwNDYsLTk2ODExMDEzMywtMjE0NjkxMDU4NiwtODE2MjQyODAx
 XX0=
