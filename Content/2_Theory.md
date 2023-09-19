@@ -17,9 +17,6 @@ Examples of data sources are:
 | OpenStreetMap | https://www.openstreetmap.org/about | Community maintained data |
 | Natural Earth | https://www.naturalearthdata.com/ | Various international datasets |
 
-We keep a collection of our known data sources for your use: 
-If you have any that are missing from this collection, please let us know! 
-
 Data can either be accessed by downloading the dataset locally and importing the data, as we have done in the crash course, or by accessing the data through an online source and importing that. While this has some benefits for the user and provider, it can cause issues when there's any connection issues. Thus, we recommend downloading and saving locally the datasets whenever possible. Some examples of online data access methods are:
 - WMS/WMTS (For raster data viewing)
 - WFS
@@ -66,25 +63,19 @@ In our case we can use the buildings that remained unchanged and are on the proj
 # Time to get your hands dirty! Move on to the [2nd exercise](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/2_Exercise.md) to apply this new knowledge
 
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJvSmFOSlZwYTFCeDRmd2tpIjp7In
-RleHQiOiJXZSBrZWVwIGEgY29sbGVjdGlvbiBvZiBvdXIga25v
-d24gZGF0YSBzb3VyY2VzIGZvciB5b3VyIHVzZToiLCJzdGFydC
-I6MTMwNywiZW5kIjoxMzY3fSwiNVB5bHFjTVVpMHVkMUdqViI6
-eyJ0ZXh0IjoiR2VvcmVmZXJlbmNpbmciLCJzdGFydCI6NDM0OS
-wiZW5kIjo0MzYzfX0sImNvbW1lbnRzIjp7Imh3eUI5c1duS3Fv
-eThyRlciOnsiZGlzY3Vzc2lvbklkIjoib0phTkpWcGExQng0Zn
-draSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBs
-aW5rIiwiY3JlYXRlZCI6MTY4NjMwMzgxMTk1NX0sIlhRNHdQdD
-I2Y3VITnJLdHgiOnsiZGlzY3Vzc2lvbklkIjoiNVB5bHFjTVVp
-MHVkMUdqViIsInN1YiI6ImdoOjIyMTY4MTU3IiwidGV4dCI6Il
-RoaXMgdGhlb3J5IHJlYWRzIGEgbGl0dGxlIG1vcmUgbGlrZSBh
-biBleGVyY2lzZS4gSWYgcG9zc2libGUsIEkgd291bGQgdXNlIH
-RoaXMgb3Bwb3J0dW5pdHkgdG8gcHJvdmlkZSBtb3JlIGJhY2tn
-cm91bmQgb24gZ2VvZ3JhcGhpYyBjb29yZGluYXRlIHN5c3RlbX
-MsIHByb2plY3RlZCBjb29yZGluYXRlIHN5c3RlbXMsIGFuZCBh
-IGZldyBzZW50ZW5jZXMgYWJvdXQgaG93IEdJUyB0b29scyBzaG
-91bGQgYmUgYWJsZSB0byB0cmFuc2Zvcm0gYmV0d2VlbiB0aGVt
-LiIsImNyZWF0ZWQiOjE2ODY3MzEzNjIyNTh9fSwiaGlzdG9yeS
-I6Wzg5OTEwNzUxLDE0MDU1NzUwNDYsNTY2NDA0NTQ0LDczNjQ5
-Mzk3NCwxMDkyNDMzNzA1XX0=
+eyJkaXNjdXNzaW9ucyI6eyI1UHlscWNNVWkwdWQxR2pWIjp7In
+RleHQiOiJHZW9yZWZlcmVuY2luZyIsInN0YXJ0Ijo0MjEwLCJl
+bmQiOjQyMjR9fSwiY29tbWVudHMiOnsiWFE0d1B0MjZjdUhOck
+t0eCI6eyJkaXNjdXNzaW9uSWQiOiI1UHlscWNNVWkwdWQxR2pW
+Iiwic3ViIjoiZ2g6MjIxNjgxNTciLCJ0ZXh0IjoiVGhpcyB0aG
+VvcnkgcmVhZHMgYSBsaXR0bGUgbW9yZSBsaWtlIGFuIGV4ZXJj
+aXNlLiBJZiBwb3NzaWJsZSwgSSB3b3VsZCB1c2UgdGhpcyBvcH
+BvcnR1bml0eSB0byBwcm92aWRlIG1vcmUgYmFja2dyb3VuZCBv
+biBnZW9ncmFwaGljIGNvb3JkaW5hdGUgc3lzdGVtcywgcHJvam
+VjdGVkIGNvb3JkaW5hdGUgc3lzdGVtcywgYW5kIGEgZmV3IHNl
+bnRlbmNlcyBhYm91dCBob3cgR0lTIHRvb2xzIHNob3VsZCBiZS
+BhYmxlIHRvIHRyYW5zZm9ybSBiZXR3ZWVuIHRoZW0uIiwiY3Jl
+YXRlZCI6MTY4NjczMTM2MjI1OH19LCJoaXN0b3J5IjpbMjE0ND
+k4NDIwLDg5OTEwNzUxLDE0MDU1NzUwNDYsNTY2NDA0NTQ0LDcz
+NjQ5Mzk3NCwxMDkyNDMzNzA1XX0=
 -->
