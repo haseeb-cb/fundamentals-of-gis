@@ -110,7 +110,7 @@ As already mentioned, the Ring Rail line improves the commuter traffic network a
 	- Use *Select by Location* to select the entries from the capital_region_people data that intersect with the buffers
 	- Run *Basic Statistics for Fields* to get the total amount of residents living within the buffer (Input layer: Capital_region_people, selected feature only, Field to calculate: ASYHT(Persons in total in the building))
 		- Look the output log for the SUM output, this shows the total amount
-	- Repeat the same steps for the other buffer 500 meters and 1 kilometer from
+	- Repeat the same steps for
 	- ...the stations opened in 2015?
 	- ...the new and planned stations combined?
 
@@ -176,11 +176,11 @@ RleHQiOiIyLjE6IEFuYWx5emluZyB0aGUgZWZmZWN0cyBvbiB0
 aGUgcGVvcGxlIGluIHRoZSBzdHVkeSBhcmVhIiwic3RhcnQiOj
 g0ODUsImVuZCI6ODU0M30sIkR4WTl1c1A1SzFhZ2xZNTkiOnsi
 dGV4dCI6IkZpbGwgaW4gdGhlIGFuc3dlcnMgdG8gdGhlIE1vb2
-RsZSIsInN0YXJ0IjoxMDgwNywiZW5kIjoxMDg0MH0sIjBPdk03
+RsZSIsInN0YXJ0IjoxMDc1OCwiZW5kIjoxMDc5MX0sIjBPdk03
 UTdXUEZEWmRrRmMiOnsidGV4dCI6IiMjIyMgMi4yOiBQbGFubm
 luZyBhIG5ldyBhaXJwb3J0IGhvdGVsICYgY29uZ3Jlc3MgY2Vu
 dGVyIG5lYXIgdGhlIHJpbmcgcmFpbCBsaW5lIiwic3RhcnQiOj
-EwOTQ4LCJlbmQiOjExMDI4fSwiWWJDdlI0ZExOMGZvRllNbSI6
+EwODk5LCJlbmQiOjEwOTc5fSwiWWJDdlI0ZExOMGZvRllNbSI6
 eyJ0ZXh0IjoiIyMgREFUQSBVU0VEIiwic3RhcnQiOjIyNzgsIm
 VuZCI6MjI5MH0sIjc4Sk14cWJzcHFzS041UEIiOnsic3RhcnQi
 OjEwNiwiZW5kIjoxMDgsInRleHQiOiJCeSJ9fSwiY29tbWVudH
@@ -202,7 +202,7 @@ UgdGhlIGRhdGEgc291cmNlcz8iLCJjcmVhdGVkIjoxNjg3MTU4
 MDU4NzEzfSwibkZqbFdMSkxXMjBMUG9VeiI6eyJkaXNjdXNzaW
 9uSWQiOiI3OEpNeHFic3Bxc0tONVBCIiwic3ViIjoiZ2g6NDAz
 MDQ3ODgiLCJ0ZXh0IjoiQWRkIGNyZWRpdHMiLCJjcmVhdGVkIj
-oxNjg4NDU3Mjc3OTQ3fX0sImhpc3RvcnkiOls1MzkxODA3ODYs
+oxNjg4NDU3Mjc3OTQ3fX0sImhpc3RvcnkiOls2MzA5MzE0OTcs
 LTEwNTAwNDEyNDksLTEyNjM1MjE0OTAsMjQyODIxNjg1LC02Nj
 M1ODYxNjUsMTg1OTA4MzEwMSwzMjcxMjk1MzYsNDcxNjk0NTkz
 LC0xNzc2MTIwNzcyLC0xNDAyNDIxNzIxLC00MjY1OTQzMzIsLT
