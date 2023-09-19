@@ -114,7 +114,7 @@ As already mentioned, the Ring Rail line improves the commuter traffic network a
 
 The Ring Rail Line is likely to increase the attraction for the real estate in the nearby area. This, however, will also raise the question of the noise levels caused by the Aircraft traffic around the Helsinki-Vantaa Airport. Thanks to new improved technology the aircraft noise levels have slightly dropped in recent years.
 
-6. Find out how many people approximately live inside the dB zones: 65 or more and 50 or more in Helsinki region based on :
+6. Find out how many people approximately live inside the dB zone: 50 or more in Helsinki region based on :
 	- ...the noise levels in 2006? And 
 	- ...the noise levels in 2010?
 	- This time you don't need to create a buffer, as the dB zones already exist
@@ -174,11 +174,11 @@ RleHQiOiIyLjE6IEFuYWx5emluZyB0aGUgZWZmZWN0cyBvbiB0
 aGUgcGVvcGxlIGluIHRoZSBzdHVkeSBhcmVhIiwic3RhcnQiOj
 g0ODUsImVuZCI6ODU0M30sIkR4WTl1c1A1SzFhZ2xZNTkiOnsi
 dGV4dCI6IkZpbGwgaW4gdGhlIGFuc3dlcnMgdG8gdGhlIE1vb2
-RsZSIsInN0YXJ0IjoxMDcxNywiZW5kIjoxMDc1MH0sIjBPdk03
+RsZSIsInN0YXJ0IjoxMDcwMSwiZW5kIjoxMDczNH0sIjBPdk03
 UTdXUEZEWmRrRmMiOnsidGV4dCI6IiMjIyMgMi4yOiBQbGFubm
 luZyBhIG5ldyBhaXJwb3J0IGhvdGVsICYgY29uZ3Jlc3MgY2Vu
 dGVyIG5lYXIgdGhlIHJpbmcgcmFpbCBsaW5lIiwic3RhcnQiOj
-EwODU4LCJlbmQiOjEwOTM4fSwiWWJDdlI0ZExOMGZvRllNbSI6
+EwODQyLCJlbmQiOjEwOTIyfSwiWWJDdlI0ZExOMGZvRllNbSI6
 eyJ0ZXh0IjoiIyMgREFUQSBVU0VEIiwic3RhcnQiOjIyNzgsIm
 VuZCI6MjI5MH0sIjc4Sk14cWJzcHFzS041UEIiOnsic3RhcnQi
 OjEwNiwiZW5kIjoxMDgsInRleHQiOiJCeSJ9fSwiY29tbWVudH
@@ -200,11 +200,11 @@ UgdGhlIGRhdGEgc291cmNlcz8iLCJjcmVhdGVkIjoxNjg3MTU4
 MDU4NzEzfSwibkZqbFdMSkxXMjBMUG9VeiI6eyJkaXNjdXNzaW
 9uSWQiOiI3OEpNeHFic3Bxc0tONVBCIiwic3ViIjoiZ2g6NDAz
 MDQ3ODgiLCJ0ZXh0IjoiQWRkIGNyZWRpdHMiLCJjcmVhdGVkIj
-oxNjg4NDU3Mjc3OTQ3fX0sImhpc3RvcnkiOlstNDQ0ODk3Njgs
-LTEwNTAwNDEyNDksLTEyNjM1MjE0OTAsMjQyODIxNjg1LC02Nj
-M1ODYxNjUsMTg1OTA4MzEwMSwzMjcxMjk1MzYsNDcxNjk0NTkz
-LC0xNzc2MTIwNzcyLC0xNDAyNDIxNzIxLC00MjY1OTQzMzIsLT
-M0ODUxNDk2MCwtOTkyMDY0OTAyLC0xNTEyNzA2ODIsMTA0ODM4
-MDQwMSwtMTgxMzYxMjg0MSwzMjA3NTcyODksMTMxOTUwNDIzNS
-wxMjM4MTg0OTg2LDE0Mjk0NTE0MzhdfQ==
+oxNjg4NDU3Mjc3OTQ3fX0sImhpc3RvcnkiOlstOTY3MDAyMTg2
+LC00NDQ4OTc2OCwtMTA1MDA0MTI0OSwtMTI2MzUyMTQ5MCwyND
+I4MjE2ODUsLTY2MzU4NjE2NSwxODU5MDgzMTAxLDMyNzEyOTUz
+Niw0NzE2OTQ1OTMsLTE3NzYxMjA3NzIsLTE0MDI0MjE3MjEsLT
+QyNjU5NDMzMiwtMzQ4NTE0OTYwLC05OTIwNjQ5MDIsLTE1MTI3
+MDY4MiwxMDQ4MzgwNDAxLC0xODEzNjEyODQxLDMyMDc1NzI4OS
+wxMzE5NTA0MjM1LDEyMzgxODQ5ODZdfQ==
 -->
