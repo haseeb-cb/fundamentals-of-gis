@@ -55,7 +55,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- First let’s look at the file with the deaths data in it. If you double-click it in the folder you saved the file in, it should open in Excel or as a text file, and you will see that it has an ID column (OBJECTID), the number of cases (Num_Cases ), an Address Column (Address), x coordinates (xcoord), and y coordinates (ycoord). These coordinates are helpful, as they let us import the data into GIS.
 	- In QGIS, go to the *Delimited Text* section in the *Data Source Manager* 
 	- Under File name, browse for the deathAddresses.csv file and select Open.
-	- QGIS will read in the file, and should automatically recognize some key features of the file (Figure 2), including:
+	- QGIS will read in the file, and should automatically recognize some key features of the file, including:
 		- That the file format is comma delimited
 		- That the first record in the file contains the names of the columns rather than data within the columns
 		- That two of the fields in the file include spatial information relating to the x and y coordinates. Here, the CRS is EPSG:4326 - WGS 84 (make sure that it is set correctly).
@@ -73,8 +73,9 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- Remove the original deathsAddresses csv layer
 	- Go to the symbology of the new reprojected deaths_locations layer
 	- Make the symbology *graduated* and the value "Num_Cases"
-	- Change the method to *size*. Rather than changing the color of the symbol based on the number of cases, this will change the size of the symbol. You can change the size range, try out what you think looks best. 
+	- Change the method to *size*. Rather than changing the color of the symbol based on the number of cases, this will change the size of the symbol. 
 	- Make the classification mode *Natural Breaks (remember what this means?) with three classes
+	- You can change the size range, try out what you think looks best. 
 
 8. We now have the locations of the deaths overlaid on top of a Google image of modern London. But, things have changed a little bit in this area of London since the outbreak. Let’s **bring in an old map of the area**. 
 	
@@ -104,7 +105,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- Open the *Mean coordinate(s)* tool from the processing toolbox 
 	- Select deaths_locations as the Input vector layer.
 	- Set the Weight field as Num_Cases. By setting the weight to be the number of cases, we are accounting for the fact that some addresses had multiple deaths when we calculated the average coordinates. 
-	- Click OK to calculate the Mean Center and Close. What water pump is the spatial mean closest to?
+	- Click RUN to calculate the Mean Center and Close. What water pump is the spatial mean closest to?
 
 13. **Another way to show the distribution of cholera deaths is to create a heatmap**. A heatmap is a data visualization technique that shows magnitude of a phenomenon as color. In QGIS, the Kernel Density Tool calculates a magnitude per unit area from the point features using a kernel function to fit a smoothly tapered surface to each point. The result is a raster dataset which can reveal “hotspots” in the array of point data.
 	
@@ -137,9 +138,9 @@ InN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBzZWN0aW
 TzF6T1FscHUiOnsiZGlzY3Vzc2lvbklkIjoid1BiRHU5QUlWN2
 kyemt1dyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Ikxl
 dCBzdHVkZW50cyBkbyB0aGlzPyIsImNyZWF0ZWQiOjE2ODY3Mj
-c1NjcxMDh9fSwiaGlzdG9yeSI6Wy0yMDI0OTY1MDA2LDE5OTc5
-NjQwOTIsLTY5ODQ0NzUzOCwyMTEwNjI5NjIxLC04NDMxNzMwNz
-QsNjA3NDE2NTk3LC0yMDMzNDU0ODAzLC0zNjUyNTE4ODYsNTky
-NTgyMjY0LC0xNTEyNDI3MDYsLTU3MjcwNTYyOCw3NTAzMzAzOD
-hdfQ==
+c1NjcxMDh9fSwiaGlzdG9yeSI6Wy0xMzU1NTcyMTk1LC0yMDI0
+OTY1MDA2LDE5OTc5NjQwOTIsLTY5ODQ0NzUzOCwyMTEwNjI5Nj
+IxLC04NDMxNzMwNzQsNjA3NDE2NTk3LC0yMDMzNDU0ODAzLC0z
+NjUyNTE4ODYsNTkyNTgyMjY0LC0xNTEyNDI3MDYsLTU3MjcwNT
+YyOCw3NTAzMzAzODhdfQ==
 -->
