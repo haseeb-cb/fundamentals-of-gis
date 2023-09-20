@@ -16,8 +16,7 @@ The resulting elevation data is then processed and interpolated to create a cont
 
 DEM data has numerous applications in various fields, including geography, geology, environmental science, urban planning, and engineering. It is used for visualizing and analyzing terrain characteristics, mapping landforms, identifying slopes and aspect, hydrological modeling, determining visibility and line of sight, and more. DEMs are essential in creating accurate maps, conducting terrain analysis, and supporting decision-making processes in numerous industries and research domains.
 
-###- DEM
-	- DEM
+### DEM
 Filling sinks in a DEM is an important preprocessing step that addresses a common issue in elevation data. A sink refers to a depression or low-lying area in the terrain where water can accumulate, such as a small basin or a closed contour. When sinks are present in a DEM, they can introduce inaccuracies and create problems in subsequent analyses or applications. 
 
 The process of filling sinks typically involves identifying the depressions or sinks in the DEM and modifying the elevation values within those areas to ensure a continuous and realistic representation of the terrain. This can be done using various algorithms or techniques, such as the breaching or filling algorithms, which raise the elevation of the sinks until they reach the surrounding terrain level. By filling sinks, the DEM becomes more suitable for accurate and reliable analysis and visualization of the terrain.
@@ -25,8 +24,7 @@ The process of filling sinks typically involves identifying the depressions or s
 (Want to learn more about why and when filling sinks in necessary? Check videos such as:
 	- https://www.youtube.com/watch?v=6rcx4OwnryI)
 
-###
-- Hillshade
+### Hillshade
 The hillshade technique is a method used to create a shaded relief representation of a DEM or terrain surface. It simulates the effects of lighting on the terrain to enhance the visual perception of the three-dimensional characteristics of the landscape. The resulting hillshade image provides a sense of depth and helps to emphasize the topographic features of the terrain.
 
 ![](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Assets/5_Theory/5_Theory_hillsade_finland.png?raw=true)
@@ -66,7 +64,7 @@ Raster overlay analysis is used in various GIS applications, such as land suitab
 eyJkaXNjdXNzaW9ucyI6eyJRYmU0dGF0bkVJcTZ3N0dCIjp7In
 RleHQiOiJhbmQgRCIsInN0YXJ0IjozMjMsImVuZCI6MzI4fSwi
 cHB5UUc2S2N0SlcyQkF0TyI6eyJ0ZXh0Ijoib3ZlcmxheSBhbm
-FseXNpcyIsInN0YXJ0Ijo1MDE1LCJlbmQiOjUwMzF9fSwiY29t
+FseXNpcyIsInN0YXJ0Ijo1MDA1LCJlbmQiOjUwMjF9fSwiY29t
 bWVudHMiOnsiMmNpRXNLRTBiR2J5WDQ1TyI6eyJkaXNjdXNzaW
 9uSWQiOiJRYmU0dGF0bkVJcTZ3N0dCIiwic3ViIjoiZ2g6MjIx
 NjgxNTciLCJ0ZXh0IjoiY291bGQgbWVudGlvbiBUSU4gYW5kIG
@@ -82,9 +80,9 @@ RkZVJ5T2VraSI6eyJkaXNjdXNzaW9uSWQiOiJwcHlRRzZLY3RK
 VzJCQXRPIiwic3ViIjoiZ2g6MjIxNjgxNTciLCJ0ZXh0IjoidG
 hpcyBkZXNjcmlwdGlvbiBpcyBmb3IgYWxsIHJhc3RlcnMgbm90
 IGp1c3QgcmFzdGVyIG92ZXJsYXkgYW5hbHlzaXMiLCJjcmVhdG
-VkIjoxNjg4MDMzODM5NDMwfX0sImhpc3RvcnkiOlsxNDE0OTI1
-ODkzLDEzODM0NzQyMDUsNjkyNzMzMjI4LDEyMDg0MDAyMDEsMT
-EyNzM3NTUxOSwtMTk0Njc3NTQ2MSwxODA5MDU2NywyMDE0MTI3
-MTE3LC04ODUyOTAzMzMsLTg5NjIyNzI4MSw5OTQ3MjAxOTMsLT
-M1MTA3NjU4MCwtMTM5MDMzMjA1MV19
+VkIjoxNjg4MDMzODM5NDMwfX0sImhpc3RvcnkiOls2NTg4MzUw
+NCwxNDE0OTI1ODkzLDEzODM0NzQyMDUsNjkyNzMzMjI4LDEyMD
+g0MDAyMDEsMTEyNzM3NTUxOSwtMTk0Njc3NTQ2MSwxODA5MDU2
+NywyMDE0MTI3MTE3LC04ODUyOTAzMzMsLTg5NjIyNzI4MSw5OT
+Q3MjAxOTMsLTM1MTA3NjU4MCwtMTM5MDMzMjA1MV19
 -->
