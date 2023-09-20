@@ -104,9 +104,11 @@ Based on work and with help from:
 - Riipi, Paula
 - Willberg, Elias
 - Bergroth, Claudia
+- Okkonen, Pasi
+- Conenna, Irene
 
 # Let's get started with the [first theory section](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/1_Crashcourse_theory.md)!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjIyNjQ2LDM0MjA2NDg1MCw5MjE0MD
-E0ODNdfQ==
+eyJoaXN0b3J5IjpbLTQyOTIxMjUzNywyMTI2MjI2NDYsMzQyMD
+Y0ODUwLDkyMTQwMTQ4M119
 -->
