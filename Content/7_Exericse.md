@@ -70,7 +70,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 
 9. Let’s interpolate NO2 concentration between the monitoring stations. 
 	-   Open the *IDW Interpolation tool*, in the *IDW Interpolation tool*, set:
-		- *Vector Layer*: Air_pollution_monitoring_points, this means tells QGIS that you want to interpolate from this vector dataset.
+		- *Vector Layer*: Air_pollution_monitoring_points, this tells QGIS that you want to interpolate from this vector dataset.
 		- *Interpolation Attribute*: NO2, the value associated with the monitoring stations that we want to interpolate.
 		- Click the + symbol to add it to the list of items to interpolate
 		- *Extent*: click the down arrow to the right of the extent box and choose *Calculate from Layer* > Air_pollution_monitoring_points. This will limit the interpolation to the areas covered by the monitoring stations – where we have data. Otherwise, the tool may try to interpolate over a wider area, and could lead to errors when it tries to calcuate concentrations where we do not have data.
@@ -85,7 +85,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 
 11. Let’s now examine the concentrations in different postcodes in Helsinki. To do this, we can calculate raster statistics like we did in in a previous tutorial. 
 	- Open the *Zonal Statistics* tool
-	- Under *Input Layer*, select Postcodes_air_pollution. This tells QGIS that you want to calculate sta-tistics within these postcode boundaries (the ‘zones’)
+	- Under *Input Layer*, select Postcodes_air_pollution. This tells QGIS that you want to calculate statistics within these postcode boundaries (the ‘zones’)
 	- Under *Raster Layer*, select your Interpolated air pollution data. This tells QGIS that you want to calculate statistics from this layer.
 	- Press *OK*. This will create a new vector layer that at first glance looks the same as the postcode layer. However, it now has the summary statistics for the raster joined to each postcode.
 
@@ -124,19 +124,19 @@ IsInN0YXJ0Ijo1NjI1LCJlbmQiOjU3MzV9LCJZUzl4R3lWaG5W
 Rkd1b3l0Ijp7InRleHQiOiItIFdoYXQgaXMgdGhlIHBvc3Rjb2
 RlIHdpdGggdGhlIGhpZ2hlc3QgTk8yIGNvbmNlbnRyYXRpb25z
 PyBcblx0LSBXaGF0IGlzIHRoZSBwb3PigKYiLCJzdGFydCI6OT
-I0MywiZW5kIjo5NTIyfSwickhsdmZReTdIcHAwOEtVdiI6eyJ0
+IzNiwiZW5kIjo5NTE1fSwickhsdmZReTdIcHAwOEtVdiI6eyJ0
 ZXh0IjoiV2hhdCBwb3N0LWNvZGUgaGFkIHRoZSBtb3N0IE5PMi
 Btb25pdG9ycz8gSG93IG1hbnkgd2VyZSB0aGVyZT8iLCJzdGFy
-dCI6MTAzNTksImVuZCI6MTA0MjF9LCJhWmlBa1UxVUNwNW50cD
+dCI6MTAzNTIsImVuZCI6MTA0MTR9LCJhWmlBa1UxVUNwNW50cD
 FZIjp7InRleHQiOiIjIyBPVkVSVklFVyAmIFBVUlBPU0UiLCJz
 dGFydCI6MTUzLCJlbmQiOjE3NH0sImhqRDZoYWpHZklRNjNYRW
 4iOnsidGV4dCI6IjEzLiBXZSBjYW4gYWxzbyBqb2luIHRoZSBh
 aXIgcG9sbHV0aW9uIG1vbml0b3Jpbmcgc3RhdGlvbnMgcG9pbn
-QgZGF0YSB0byB0aGUgcG/igKYiLCJzdGFydCI6OTUyNSwiZW5k
-IjoxMDI1NX0sIlVydkhSU2Jsank5c0hReEMiOnsidGV4dCI6Ij
+QgZGF0YSB0byB0aGUgcG/igKYiLCJzdGFydCI6OTUxOCwiZW5k
+IjoxMDI0OH0sIlVydkhSU2Jsank5c0hReEMiOnsidGV4dCI6Ij
 ExLiBMZXTigJlzIG5vdyBleGFtaW5lIHRoZSBjb25jZW50cmF0
 aW9ucyBpbiBkaWZmZXJlbnQgcG9zdGNvZGVzIGluIEhlbHNpbm
-tpLiBUb+KApiIsInN0YXJ0Ijo4MjY0LCJlbmQiOjg5NTV9fSwi
+tpLiBUb+KApiIsInN0YXJ0Ijo4MjU4LCJlbmQiOjg5NDh9fSwi
 Y29tbWVudHMiOnsic3VCZzlTRFVvMTdrYWtiSiI6eyJkaXNjdX
 NzaW9uSWQiOiI5RU9OYjRkcFQ2MVpxcDk0Iiwic3ViIjoiZ2g6
 NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNlY3Rpb24iLCJjcmVhdG
@@ -167,9 +167,9 @@ ZCI6MTY4NzkzNTI4Mjc5N30sInA5UFltbDRPTnRuWGt5VDUiOn
 siZGlzY3Vzc2lvbklkIjoiVXJ2SFJTYmxqeTlzSFF4QyIsInN1
 YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlJlbW92ZSBpbnN0cn
 VjdGlvbnMgdG8gY2hhbGxlbmdlIHN0dWRlbnRzPyIsImNyZWF0
-ZWQiOjE2ODc5MzUyODY4MTJ9fSwiaGlzdG9yeSI6WzEzOTU3NT
-EwMDQsMTU2MzMwMjcxNCw2MTc2MzY5MDksMTc5NjA4ODAzOCwx
-NzM3NzI0NTYyLC0yMTMxNDkxNDcsLTE4ODczNDI2MTIsMjg5Nz
-AzNjI1LDM2OTI1NTQ0LC0xODMyNTQ3MTA1LDE3Njc3MDQxMV19
-
+ZWQiOjE2ODc5MzUyODY4MTJ9fSwiaGlzdG9yeSI6Wy0xODQ1Nz
+cwODYxLDE1NjMzMDI3MTQsNjE3NjM2OTA5LDE3OTYwODgwMzgs
+MTczNzcyNDU2MiwtMjEzMTQ5MTQ3LC0xODg3MzQyNjEyLDI4OT
+cwMzYyNSwzNjkyNTU0NCwtMTgzMjU0NzEwNSwxNzY3NzA0MTFd
+fQ==
 -->
