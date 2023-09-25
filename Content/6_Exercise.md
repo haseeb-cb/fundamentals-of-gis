@@ -40,7 +40,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- deathAddresses.csv, a file with the locations of households with cholera deaths and the number of deaths 
 	- Study_Area.shp – A shapefile that describes our area of interest.
 	- Snow-cholera-map-1_modified - this is a georeferenced image of the map from John Snow’s original report on the cholera outbreak of 1854 
-	- Water_Pumps.geojson. This shows the location of water pumps. The file type – a geojson – is an-other standard for representing geographical features, commonly used to transmit data in web applications. 
+	- Water_Pumps.geojson. This shows the location of water pumps. The file type – a geojson – is an-other standard for representing geographical vector features, commonly used to transmit data in web applications. 
 	- Snow-cholera-map-1_modified.tif, a raster showing a map of the area in 1854.
 
 2. Open QGIS on your computer and start a new project. Save it with a new name under a folder for this exercise.
@@ -105,6 +105,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- Open the *Mean coordinate(s)* tool from the processing toolbox 
 	- Select deaths_locations as the Input vector layer.
 	- Set the Weight field as Num_Cases. By setting the weight to be the number of cases, we are accounting for the fact that some addresses had multiple deaths when we calculated the average coordinates. 
+		- You can find the weight field under the advanced options
 	- Click RUN to calculate the Mean Center and Close. What water pump is the spatial mean closest to?
 
 13. **Another way to show the distribution of cholera deaths is to create a heatmap**. A heatmap is a data visualization technique that shows magnitude of a phenomenon as color. In QGIS, the Kernel Density Tool calculates a magnitude per unit area from the point features using a kernel function to fit a smoothly tapered surface to each point. The result is a raster dataset which can reveal “hotspots” in the array of point data.
@@ -138,9 +139,9 @@ InN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBzZWN0aW
 TzF6T1FscHUiOnsiZGlzY3Vzc2lvbklkIjoid1BiRHU5QUlWN2
 kyemt1dyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Ikxl
 dCBzdHVkZW50cyBkbyB0aGlzPyIsImNyZWF0ZWQiOjE2ODY3Mj
-c1NjcxMDh9fSwiaGlzdG9yeSI6Wy0xMzU1NTcyMTk1LC0yMDI0
-OTY1MDA2LDE5OTc5NjQwOTIsLTY5ODQ0NzUzOCwyMTEwNjI5Nj
-IxLC04NDMxNzMwNzQsNjA3NDE2NTk3LC0yMDMzNDU0ODAzLC0z
-NjUyNTE4ODYsNTkyNTgyMjY0LC0xNTEyNDI3MDYsLTU3MjcwNT
-YyOCw3NTAzMzAzODhdfQ==
+c1NjcxMDh9fSwiaGlzdG9yeSI6WzE1MzQxMTg5MTksLTEzNTU1
+NzIxOTUsLTIwMjQ5NjUwMDYsMTk5Nzk2NDA5MiwtNjk4NDQ3NT
+M4LDIxMTA2Mjk2MjEsLTg0MzE3MzA3NCw2MDc0MTY1OTcsLTIw
+MzM0NTQ4MDMsLTM2NTI1MTg4Niw1OTI1ODIyNjQsLTE1MTI0Mj
+cwNiwtNTcyNzA1NjI4LDc1MDMzMDM4OF19
 -->
