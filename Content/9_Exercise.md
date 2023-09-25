@@ -24,7 +24,7 @@ questionnaire
 1. “Helsingin tuulivoimakysely 2015” (“Wind power survey for Helsinki 2015”)
 	-  Find and download this Excel data from http://www.hri.fi/en/
 2. Zip code areas of Helsinki
-	- Download this data from Helsinki Region Environmental Authority’sWFS (HSYWFS): 
+	- Download this data from Helsinki Region Environmental Authority’s WFS (HSYWFS): 
 	Title: pks_postinumeroalueet_2022
 	- Or from the WFS of the city of Helsinki: Postinumeroalue
 
@@ -163,14 +163,14 @@ and Vuosaari respondents**
 eyJkaXNjdXNzaW9ucyI6eyJhdGNRU1NlSXNOV3JrUEhRIjp7In
 RleHQiOiIjIyBPVkVSVklFVyAmIFBVUlBPU0UiLCJzdGFydCI6
 Mjg3LCJlbmQiOjMwOH0sInlMSWlIY3Y5Qk5lWE92UzkiOnsidG
-V4dCI6IkNPTVBMRVRJT04iLCJzdGFydCI6MjUyOSwiZW5kIjoy
-NTM5fSwiWkROQlFFNFVyRDRkdnNCSSI6eyJ0ZXh0IjoiLSBGaW
-d1cmUiLCJzdGFydCI6NTQzMywiZW5kIjo1NDQxfSwiN0xwVXpK
+V4dCI6IkNPTVBMRVRJT04iLCJzdGFydCI6MjUzMCwiZW5kIjoy
+NTQwfSwiWkROQlFFNFVyRDRkdnNCSSI6eyJ0ZXh0IjoiLSBGaW
+d1cmUiLCJzdGFydCI6NTQzNCwiZW5kIjo1NDQyfSwiN0xwVXpK
 cm5MRENvdHFaaCI6eyJ0ZXh0IjoiLSBGaWd1cmUiLCJzdGFydC
-I6NTYwMywiZW5kIjo1NjExfSwielBiTDNxRjhiUlVUVjZ5cCI6
-eyJ0ZXh0IjoiLSBGaWd1cmUiLCJzdGFydCI6NTgyNCwiZW5kIj
-o1ODMyfSwiSnoxT25XdkRLNjNlWEZHNSI6eyJ0ZXh0IjoiLSBG
-aWd1cmUiLCJzdGFydCI6OTI5OCwiZW5kIjo5MzA2fSwiYTVlQV
+I6NTYwNCwiZW5kIjo1NjEyfSwielBiTDNxRjhiUlVUVjZ5cCI6
+eyJ0ZXh0IjoiLSBGaWd1cmUiLCJzdGFydCI6NTgyNSwiZW5kIj
+o1ODMzfSwiSnoxT25XdkRLNjNlWEZHNSI6eyJ0ZXh0IjoiLSBG
+aWd1cmUiLCJzdGFydCI6OTI5OSwiZW5kIjo5MzA3fSwiYTVlQV
 FpUE1oeWp0NnFZTSI6eyJ0ZXh0IjoiWW914oCZbGwgZ2V0IGZh
 bWlsaWFyIHdpdGggc29tZSBvZiB0aGUgY29tbW9uIGRpZmZpY3
 VsdGllcyBvZiB3b3JraW5nIHdpdGggb3BlbiBk4oCmIiwic3Rh
@@ -199,8 +199,8 @@ E1ZUFRaVBNaHlqdDZxWU0iLCJzdWIiOiJnaDoyMjE2ODE1NyIs
 InRleHQiOiJJIGxpa2UgdGhpcywgbWF5YmUgd2UgY2FuIGhhdm
 UgdGhpcyBpcyBhbGwgZXhlcmNpc2VzIHdoZXJlIHdlIHRlbGwg
 dGhlIHN0dWRlbnRzIHdoYXQgdGhleSB3aWxsIGxlYXJuLiIsIm
-NyZWF0ZWQiOjE2ODgwMzcxODQ5ODJ9fSwiaGlzdG9yeSI6WzE3
-Mzk1MTExNzgsLTg5MTY5MDM4Nyw5NTQxMDAzOTksMTU3OTU3MD
-I0OSwyMTEwNzkxMDI4LC0zMTcwMjY1NDUsMjYyODQ5MTgzXX0=
-
+NyZWF0ZWQiOjE2ODgwMzcxODQ5ODJ9fSwiaGlzdG9yeSI6WzEw
+NTY2ODEwNCwxNzM5NTExMTc4LC04OTE2OTAzODcsOTU0MTAwMz
+k5LDE1Nzk1NzAyNDksMjExMDc5MTAyOCwtMzE3MDI2NTQ1LDI2
+Mjg0OTE4M119
 -->
