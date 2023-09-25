@@ -64,12 +64,12 @@ Work individually or in pairs. Complete the exercise and write a short reflectio
 
 ### Getting familiar with the data
 
-1. Download 8_Exercise_data.zip from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip.  (see tips for effective adding of layers below!). 
-Then explore the attribute tables to familiarize yourself with what sorts of data you actually have (this is always a good practice).
+1. Download 8_Exercise_data.zip from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip.
+Then explore the attribute tables to familiarize yourself with what sorts of data you actually have.
 	1. The fields you want to focus on (total floor area, m2) are: 
 		- kara_yht in the SeutuRAMAVA layer
 		- KERALA2 in the Building registry layer
-	2.  Have a look at the lowest and highest values and the different field names (you can ask your Finnish-speaking peers for help). We have for example ones that seem to refer to municipality (kunta), small area codes (kauposanro), and  small area names (nimi).
+	2.  Have a look at the lowest and highest values and the different field names. We have for example ones that seem to refer to municipality (kunta), small area codes (kauposanro), and  small area names (nimi).
 
 *TIP 1: Select all your vector layers at once by arranging the files by file type when you are adding your layers. Click on the file type header > click on the first SHP file in the list > press and hold SHIFT key > click on the last SHP file on the list.*
 
@@ -173,27 +173,27 @@ eyJkaXNjdXNzaW9ucyI6eyJySUlNQ2tUNkZLbkt2V1RKIjp7In
 RleHQiOiIqKkUgPSB0b3RhbCBmbG9vciBhcmVhL3RvdGFsIGxh
 bmQgYXJlYSoqIiwic3RhcnQiOjEyMzksImVuZCI6MTI3OX0sIl
 VzR3N3d05pWVVDdnRLR0giOnsidGV4dCI6Ii0gRmlndXJlIiwi
-c3RhcnQiOjQ2NDYsImVuZCI6NDY1NH0sIjFNdzdXY1p0dG16dm
-ZPb3EiOnsidGV4dCI6Ii0gRmlndXJlIiwic3RhcnQiOjQ5MzIs
-ImVuZCI6NDk0MH0sImk1cldmZjgwSFJ5WGJydFAiOnsidGV4dC
+c3RhcnQiOjQ1MTAsImVuZCI6NDUxOH0sIjFNdzdXY1p0dG16dm
+ZPb3EiOnsidGV4dCI6Ii0gRmlndXJlIiwic3RhcnQiOjQ3OTYs
+ImVuZCI6NDgwNH0sImk1cldmZjgwSFJ5WGJydFAiOnsidGV4dC
 I6Ik1vb2RsZSIsInN0YXJ0IjozNzcxLCJlbmQiOjM3ODd9LCJ5
 ZnRIZXhDTURheG5vWVM5Ijp7InRleHQiOiJIaW50Iiwic3Rhcn
-QiOjU5ODcsImVuZCI6NTk5MX0sIno3Y25CUFlad0NqWFdIY3ci
+QiOjU4NTEsImVuZCI6NTg1NX0sIno3Y25CUFlad0NqWFdIY3ci
 OnsidGV4dCI6IipUSVAgMTogU2VsZWN0IGFsbCB5b3VyIHZlY3
 RvciBsYXllcnMgYXQgb25jZSBieSBhcnJhbmdpbmcgdGhlIGZp
-bGVzIGJ5IGZpbGUgdHnigKYiLCJzdGFydCI6NDM4OCwiZW5kIj
-o0NjQ0fSwiSHJHZ01qMjQ1ZEN1OWt5TiI6eyJ0ZXh0IjoiKlRJ
+bGVzIGJ5IGZpbGUgdHnigKYiLCJzdGFydCI6NDI1MiwiZW5kIj
+o0NTA4fSwiSHJHZ01qMjQ1ZEN1OWt5TiI6eyJ0ZXh0IjoiKlRJ
 UCAyOiBXaGVuIHdvcmtpbmcgd2l0aCBkYXRhIHRoYXQgd2lsbC
 Bwcm9iYWJseSBjb250YWluIHZhbHVlcyB3aXRoIHVtbGF1dHMg
-KOKApiIsInN0YXJ0Ijo0NjU2LCJlbmQiOjQ5MzB9LCJ2ZW9VRH
+KOKApiIsInN0YXJ0Ijo0NTIwLCJlbmQiOjQ3OTR9LCJ2ZW9VRH
 dTc1FQVG43dWl5Ijp7InRleHQiOiIqVElQIDI6IFRvIHJlbW92
 ZSB1bm5lY2Vzc2FyeSBpbmZvcm1hdGlvbiBmcm9tIHRoZSBsZW
 dlbmQgb2YgeW91ciBtYXAsIG1ha2Ugc3Vy4oCmIiwic3RhcnQi
-OjYzMjksImVuZCI6NjY0Mn0sIjhsdXZpNFgxSURLOEFmWTMiOn
+OjYxOTMsImVuZCI6NjUwNn0sIjhsdXZpNFgxSURLOEFmWTMiOn
 sidGV4dCI6IkRvd25sb2FkIGFuZCBpbnN0YWxsIGl0IHVzaW5n
-IHRoZSBQbHVnaW4gbWFuYWdlci4iLCJzdGFydCI6Njg3NywiZW
-5kIjo2OTI2fSwieVp4SUdzUnh1akhRUllWZyI6eyJ0ZXh0Ijoi
-VElQIiwic3RhcnQiOjczMDQsImVuZCI6NzMwN319LCJjb21tZW
+IHRoZSBQbHVnaW4gbWFuYWdlci4iLCJzdGFydCI6Njc0MSwiZW
+5kIjo2NzkwfSwieVp4SUdzUnh1akhRUllWZyI6eyJ0ZXh0Ijoi
+VElQIiwic3RhcnQiOjcxNjgsImVuZCI6NzE3MX19LCJjb21tZW
 50cyI6eyJOTHQ0Z05aV01nSjBPemxuIjp7ImRpc2N1c3Npb25J
 ZCI6InJJSU1Da1Q2RktuS3ZXVEoiLCJzdWIiOiJnaDo0MDMwND
 c4OCIsInRleHQiOiJBZGQgZGlhZ3JhbSIsImNyZWF0ZWQiOjE2
@@ -227,7 +227,7 @@ ZXh0IjoiQWRkIGhpbnQiLCJjcmVhdGVkIjoxNjg3ODQ3NDA5OD
 UxfSwiRTMycXZrbUMwalBTQkluciI6eyJkaXNjdXNzaW9uSWQi
 OiJ5WnhJR3NSeHVqSFFSWVZnIiwic3ViIjoiZ2g6NDAzMDQ3OD
 giLCJ0ZXh0IjoiQWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3
-ODQ3NTAwMDEyfX0sImhpc3RvcnkiOlsxNjY5NzcxODQxLDEyMD
-IxNjczMTUsODY0MzYwMzU0LC03NTAzOTkzODYsLTEyMDcwNTY5
-NjksLTEwNzEyMzE4MzFdfQ==
+ODQ3NTAwMDEyfX0sImhpc3RvcnkiOlstMTI5NDg0MTY4MywxMj
+AyMTY3MzE1LDg2NDM2MDM1NCwtNzUwMzk5Mzg2LC0xMjA3MDU2
+OTY5LC0xMDcxMjMxODMxXX0=
 -->
