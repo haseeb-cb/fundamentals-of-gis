@@ -111,7 +111,7 @@ It is quite common in GIS that data has to be converted from one type to another
 	- Open the *Rasterize (Vector to Raster)* tool
 	- Use the Muurla_soil layer as the input
 	- Since rasters can’t have multiple attributes like shapefiles we need to select which field to use, column “PINTA” has the information which we want to use for the analysis, so this is the column you should select for “Field to use for a burn-in value” -parameter. 
-	- Set the size units to Georeferenced units, and the resolution to the same as the resolution of the DEM 
+	- Set the size units to Georeferenced units, and the resolution to the same as the resolution of the DEM (see step 2) 
 	- Run the tool
 	- Don't forget to make your layer permanent
 
@@ -243,8 +243,8 @@ U0fSwiNktKWG5LY3BhcFFmeURRTyI6eyJ0ZXh0IjoiQW5zd2Vy
 IHRoZSBmb2xsb3dpbmcgcXVlc3Rpb25zIG9uIE1vb2RsZToiLC
 JzdGFydCI6ODQxNCwiZW5kIjo4NDU1fSwiOHVHaWRIdm5ZanAx
 REROZCI6eyJ0ZXh0IjoiIyMjIyAyLjI6IERlZmluaW5nIHRoZS
-BzdWl0YWJsZSBhcmVhcyIsInN0YXJ0IjoxMzExMywiZW5kIjox
-MzE1MH0sIlZQWTBQV0xGdTBZNXBjVGsiOnsidGV4dCI6IkhpbG
+BzdWl0YWJsZSBhcmVhcyIsInN0YXJ0IjoxMzEyNiwiZW5kIjox
+MzE2M30sIlZQWTBQV0xGdTBZNXBjVGsiOnsidGV4dCI6IkhpbG
 xzaGFkZSIsInN0YXJ0Ijo3NDU3LCJlbmQiOjc0NjZ9LCIyTXNQ
 N2RqM3p1N09YZmZBIjp7InN0YXJ0IjoxMDksImVuZCI6MTExLC
 J0ZXh0IjoiQnkifX0sImNvbW1lbnRzIjp7IkFLRTRZRTdvN09Z
@@ -268,11 +268,10 @@ ZWQiOjE2ODgwMzQzNjY1OTl9LCJ4aW03NjBJRThVU3ZQb0swIj
 p7ImRpc2N1c3Npb25JZCI6IjJNc1A3ZGozenU3T1hmZkEiLCJz
 dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgY3JlZGl0cy
 IsImNyZWF0ZWQiOjE2ODg0NTcyNjQwNDJ9fSwiaGlzdG9yeSI6
-WzE4ODM0NjcxNzUsNTk4NTc4MTY3LDIwMDk0NjUzNTgsMTcxMD
-A0NDQzOSwtMTAxMzYwNDEyLDUzODQzMDc2MCwxODc0NjkxOTg0
-LC03NjE2MjQwNDAsMTU4MjU3NzM3NCw5MjI4NTA5NjcsMTI4OD
-k5OTg0NiwtOTMxMjA3MTY4LC0zNzE1ODE3ODcsLTE3NDY0NDE5
-NTYsLTE3NDU3ODYyODQsLTE4MDkxOTc3MTUsLTE0MDIyMjQzMz
-AsMTgzODA0MDk5MywtMTI2OTE1Mzc4MCw0OTg3NzAwNDZdfQ==
-
+Wy01MjI2ODM2Nyw1OTg1NzgxNjcsMjAwOTQ2NTM1OCwxNzEwMD
+Q0NDM5LC0xMDEzNjA0MTIsNTM4NDMwNzYwLDE4NzQ2OTE5ODQs
+LTc2MTYyNDA0MCwxNTgyNTc3Mzc0LDkyMjg1MDk2NywxMjg4OT
+k5ODQ2LC05MzEyMDcxNjgsLTM3MTU4MTc4NywtMTc0NjQ0MTk1
+NiwtMTc0NTc4NjI4NCwtMTgwOTE5NzcxNSwtMTQwMjIyNDMzMC
+wxODM4MDQwOTkzLC0xMjY5MTUzNzgwLDQ5ODc3MDA0Nl19
 -->
