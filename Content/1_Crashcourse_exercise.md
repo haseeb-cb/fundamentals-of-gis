@@ -204,7 +204,8 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 	
 	1. Check if the *Processing Toolbox* is active in the top right of the main QGIS window, if not open it by selecting *Processing* > *Toolbox* from the top of the window
 	2. Type “Join attributes by location” into the search bar. Select the one that has (Summary) after it.
-	- Read the information about this function, what do you think it does? 
+		- Read the information about this function, what do you think it does? 
+		- This tool could look different to you depending on the version of your QGIS install. 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_join_attributes_by_location.png)
 	3. The parameter window for the algorithm opens and here you have to specify what the algorithm does and with what data
 	4. Set the follow values:
@@ -291,10 +292,10 @@ k0MzU4NzM1OH0sIkVyallFYmoyM1pmUmlhNEkiOnsiZGlzY3Vz
 c2lvbklkIjoiQ3VHMXFHSjdkRUk3QTg3SCIsInN1YiI6ImdoOj
 QwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSB3aXRoIGZyZXNoIGlu
 c3RhbGwiLCJjcmVhdGVkIjoxNjg3MDcxOTExNTI1fX0sImhpc3
-RvcnkiOlstMTk0NTAzNDA1Nyw5OTYzMzM4MiwtMTY0NzAxODg1
-NiwtMTEyMTE2Njc1MywtMjA4MjU0NjA0MywtMTcyODcyMjYwLC
-0xNjgxMDM5NjQ5LC0zODUyMTQyNDUsLTEzNjc2MjYxNDMsLTE5
-NDE1NjQ0NjMsLTI1NDA3NTEzLC04ODcwOTAwNTIsLTY3MTAxOD
-g3MiwtMzgzNzk5MDQxLC0xNDc2MDMzMzAwLC05MzczNjExNTcs
-LTEzOTQ5MDA4MjksLTE1MzMwNzY3MDVdfQ==
+RvcnkiOlszNTQ3ODAyMDYsLTE5NDUwMzQwNTcsOTk2MzMzODIs
+LTE2NDcwMTg4NTYsLTExMjExNjY3NTMsLTIwODI1NDYwNDMsLT
+E3Mjg3MjI2MCwtMTY4MTAzOTY0OSwtMzg1MjE0MjQ1LC0xMzY3
+NjI2MTQzLC0xOTQxNTY0NDYzLC0yNTQwNzUxMywtODg3MDkwMD
+UyLC02NzEwMTg4NzIsLTM4Mzc5OTA0MSwtMTQ3NjAzMzMwMCwt
+OTM3MzYxMTU3LC0xMzk0OTAwODI5LC0xNTMzMDc2NzA1XX0=
 -->
