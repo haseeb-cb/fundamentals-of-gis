@@ -44,10 +44,11 @@ It is good to be familiar with the area you will be working with in this exercis
 1. Download 2_Exercise_data.zip from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
 
 2. Open QGIS and load the tampere_buildings.shp, tampere_roads.shp, and tampere_railway.shp into QGIS (See Crash Course exercise 2.1), the project CRS will change to the CRS of these layers (ETS89/TM35FIN).
+	- *TIP: Select all your vector layers at once by arranging the files by file type when you are adding your layers. Click on the file type header > click on the first SHP file in the list > press and hold SHIFT key > click on the last SHP file on the list.*
 
-3. Add Google Satellite imagery: Navigate to your browser panel > expand XYZ Tiles > drag "Google Satellite" to you the layers panel (See Crash Course exercise 1.2).
+4. Add Google Satellite imagery: Navigate to your browser panel > expand XYZ Tiles > drag "Google Satellite" to you the layers panel (See Crash Course exercise 1.2).
 
-4. Take a moment to examine the data you added now, what is it about? What kind of attributes does the data have?
+5. Take a moment to examine the data you added now, what is it about? What kind of attributes does the data have?
 	- Can you find the location of where the Nokia Arena is constructed? (hint: the coordinates are 328300 east, 6822050 north in the ETS89 / TM35FIN(E,N) coordinate system. Does the arena and new development exist in the tampere_buildings layer? What about in the Google satellite imagery?
 
 We have a vector layer with the buildings in central Tampere, and a vector layer showing the roads – both of which originally came from OpenStreetMap. This data is old – it shows the area before the development of the arena. In addition, we have a raster image file that shows the designs for the Arena, taken from a planning document. Unfortunately, this raster is not spatially referenced – there is no spatial information associated with each raster cell.
@@ -169,13 +170,13 @@ Editing toolbar:
 # Time to get your hands dirty! Move on to the Crash Course exercise to get started with (Q)GIS. 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJGTXBrOTlHWEFKTzhFNEhOIjp7In
-N0YXJ0Ijo3NzI0LCJlbmQiOjc3NDIsInRleHQiOiIqRGlnaXRp
+N0YXJ0Ijo3OTgyLCJlbmQiOjgwMDAsInRleHQiOiIqRGlnaXRp
 emluZyBUb29sYmFyKi4ifX0sImNvbW1lbnRzIjp7IkkydkpoUl
 R1aWNiQ1VSaUsiOnsiZGlzY3Vzc2lvbklkIjoiRk1wazk5R1hB
 Sk84RTRITiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Ik
 FkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NzA2NzA0NDk4Nn19
-LCJoaXN0b3J5IjpbLTE5MTg5MzM4MzMsLTczMjA3Mzg5Myw5NT
-I5NjI4NTcsLTMzNDM4MzIwOSwtMjAxNTA0OTU3OSwxMjU1NzUx
-MDQ2LC05NjgxMTAxMzMsLTIxNDY5MTA1ODYsLTgxNjI0MjgwMV
-19
+LCJoaXN0b3J5IjpbLTE0NTkyNzgxODEsLTE5MTg5MzM4MzMsLT
+czMjA3Mzg5Myw5NTI5NjI4NTcsLTMzNDM4MzIwOSwtMjAxNTA0
+OTU3OSwxMjU1NzUxMDQ2LC05NjgxMTAxMzMsLTIxNDY5MTA1OD
+YsLTgxNjI0MjgwMV19
 -->
