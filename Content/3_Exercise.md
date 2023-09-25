@@ -58,7 +58,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 
 ### Getting familiar with the data
 
-1. Download 2_Exercise_data.zip from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
+1. Download 3_Exercise_data.zip from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
 
 2. **Go through the attribute table and use the pdf-files to decipher the meanings of each field**. The attribute table consists of a few themes (recognizable by the prefixes) and slightly over 100 fields.
 	- The fields we’re using depict the following:
@@ -203,11 +203,11 @@ reclassified fields for rented dwellings and unemployment.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDA2NjQzNSw5NjcwOTQwNTksNTg1Nj
-c1OTgxLC0xOTc0MjgzNDM1LC0yMDU4OTM5NzY1LDEyODE0NDUy
-NywyNjU5ODc0MzAsMTk4MTA4NzY3LDczNjQxOTcwOCwxMjIxMj
-Y0NDMyLDE4MjUwMzcwNDAsLTM5MTg4MjA1MCwtMTYzNzYwNDE3
-OSwtMTU2ODc2OTc2OSwxMDc1NTg4OTUyLC00Njk2NDE2ODIsLT
-I2OTU1ODc4NSwtMTM2NDE3NDk5MywxNzI2ODEzNjM0LC0xMzEx
-NTI5NDA1XX0=
+eyJoaXN0b3J5IjpbLTE1OTEzMDEyODQsLTE4MDA2NjQzNSw5Nj
+cwOTQwNTksNTg1Njc1OTgxLC0xOTc0MjgzNDM1LC0yMDU4OTM5
+NzY1LDEyODE0NDUyNywyNjU5ODc0MzAsMTk4MTA4NzY3LDczNj
+QxOTcwOCwxMjIxMjY0NDMyLDE4MjUwMzcwNDAsLTM5MTg4MjA1
+MCwtMTYzNzYwNDE3OSwtMTU2ODc2OTc2OSwxMDc1NTg4OTUyLC
+00Njk2NDE2ODIsLTI2OTU1ODc4NSwtMTM2NDE3NDk5MywxNzI2
+ODEzNjM0XX0=
 -->
