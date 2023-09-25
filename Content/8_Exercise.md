@@ -69,9 +69,7 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 		- KERALA2 in the Building registry layer
 	2.  Have a look at the lowest and highest values and the different field names. We have for example ones that seem to refer to municipality (kunta), small area codes (kauposanro), and  small area names (nimi).
 
-*TIP 1: Select all your vector layers at once by arranging the files by file type when you are adding your layers. Click on the file type header > click on the first SHP file in the list > press and hold SHIFT key > click on the last SHP file on the list.*
-
-*TIP 2: When working with data that will probably contain values with umlauts (Å, Ä, Ö), change the encoding to e.g. UTF-8 already when adding your layers, so you won’t run into problems later. Choose UTF-8 in the Encoding dropdown menu and write UTF-8 into Encoding field.*
+*TIP: When working with data that will probably contain values with umlauts (Å, Ä, Ö), change the encoding to e.g. UTF-8 already when adding your layers, so you won’t run into problems later. Choose UTF-8 in the Encoding dropdown menu and write UTF-8 into Encoding field.*
 
 2. **You might want to have a background map to help you get your bearings.**
 	1. Use QuickMapServices or XYZ tiles as we have done earlier
@@ -94,9 +92,7 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 	1. Which districts have the highest efficiency? What about the lowest?
 	2. Why do these districts have high/low efficiency scores?
 
-*TIP 1: Visualize the map using a similar logic as is found in Table 1 and use the same visualization style for all maps you compose.*
-
-*TIP 2: To remove unnecessary information from the legend of your map, make sure that the Auto Update box is unchecked in the Legend Items section of Item Properties in the print layout composer. Then remove (using the buttons with + and – symbols) and rename (by double-clicking on the title) items as you wish.*
+*TIP: Visualize the map using a similar logic as is found in Table 1 and use the same visualization style for all maps you compose.*
 
 ---
 
@@ -163,29 +159,7 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 
 
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJ6N2NuQlBZWndDalhXSGN3Ijp7In
-RleHQiOiIqVElQIDE6IFNlbGVjdCBhbGwgeW91ciB2ZWN0b3Ig
-bGF5ZXJzIGF0IG9uY2UgYnkgYXJyYW5naW5nIHRoZSBmaWxlcy
-BieSBmaWxlIHR54oCmIiwic3RhcnQiOjQzNDEsImVuZCI6NDU5
-N30sIkhyR2dNajI0NWRDdTlreU4iOnsidGV4dCI6IipUSVAgMj
-ogV2hlbiB3b3JraW5nIHdpdGggZGF0YSB0aGF0IHdpbGwgcHJv
-YmFibHkgY29udGFpbiB2YWx1ZXMgd2l0aCB1bWxhdXRzICjigK
-YiLCJzdGFydCI6NDU5OSwiZW5kIjo0ODczfSwidmVvVUR3U3NR
-UFRuN3VpeSI6eyJ0ZXh0IjoiKlRJUCAyOiBUbyByZW1vdmUgdW
-5uZWNlc3NhcnkgaW5mb3JtYXRpb24gZnJvbSB0aGUgbGVnZW5k
-IG9mIHlvdXIgbWFwLCBtYWtlIHN1cuKApiIsInN0YXJ0Ijo2Mj
-UzLCJlbmQiOjY1NjZ9fSwiY29tbWVudHMiOnsia2JTblg0c3px
-Z2FKYnNQbCI6eyJkaXNjdXNzaW9uSWQiOiJ6N2NuQlBZWndDal
-hXSGN3Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiTW92
-ZSB0byBlYXJsaWVyIGluIGNvdXJzZSIsImNyZWF0ZWQiOjE2OD
-c4NDcyOTM4NDN9LCJ5bURuZ01qRUNJZVFSeWJNIjp7ImRpc2N1
-c3Npb25JZCI6IkhyR2dNajI0NWRDdTlreU4iLCJzdWIiOiJnaD
-o0MDMwNDc4OCIsInRleHQiOiJNb3ZlIHRvIGVhcmxpZXIgaW4g
-Y291cnNlIiwiY3JlYXRlZCI6MTY4Nzg0NzI5NzY1MX0sImxrbn
-REM3ZMWmh6anZYVXYiOnsiZGlzY3Vzc2lvbklkIjoidmVvVUR3
-U3NRUFRuN3VpeSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dC
-I6Ik1vdmUgdG8gZWFybGllciBpbiBjb3Vyc2UiLCJjcmVhdGVk
-IjoxNjg3ODQ3MzM2ODgyfX0sImhpc3RvcnkiOlsxNDY5NzI0NT
-Y3LDE2NjM3NTM2NjIsMTIwMjE2NzMxNSw4NjQzNjAzNTQsLTc1
-MDM5OTM4NiwtMTIwNzA1Njk2OSwtMTA3MTIzMTgzMV19
+eyJoaXN0b3J5IjpbLTEyOTc0OTA5NjgsMTY2Mzc1MzY2MiwxMj
+AyMTY3MzE1LDg2NDM2MDM1NCwtNzUwMzk5Mzg2LC0xMjA3MDU2
+OTY5LC0xMDcxMjMxODMxXX0=
 -->
