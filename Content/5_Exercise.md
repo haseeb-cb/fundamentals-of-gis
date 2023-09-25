@@ -193,7 +193,7 @@ Let’s move on to ranking the soil. You can see the explanation for the soil co
 | 22 | Muddy silt |
 
 
-14. Open the *Reclassify by table* tool, use the soil raster we converted earlier and specify the values as in the figure below. The higher the value the better the soil fits for cultivation.
+14. Open the *Reclassify by table* tool, use the soil raster we converted earlier (from step 7) and specify the values as in the figure below. The higher the value the better the soil fits for cultivation.
 	- This time set the *Range boundaries* under *Advanced Parameters* on "min <= value <= max", why do you think this is necessary? (hint: <= means less than or equal to")
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/5_Exercise/5_Exercise_soil_ranking_classifications.png)
@@ -205,6 +205,7 @@ Let’s move on to ranking the soil. You can see the explanation for the soil co
 15. In the last part we will use all the components created to get the suitability map. 
 	- Open the *Raster calculator*
 	- Use the expression from the figure below, don't forget to adjust the names of the layers to correspond to yours
+		- unsuitable_merged_clipped = 
 	- Set the reference layer to the original filled DEM layer (why do you think this reference is necessary?)
 	- Run the calculation and save the output
 
@@ -268,7 +269,7 @@ ZWQiOjE2ODgwMzQzNjY1OTl9LCJ4aW03NjBJRThVU3ZQb0swIj
 p7ImRpc2N1c3Npb25JZCI6IjJNc1A3ZGozenU3T1hmZkEiLCJz
 dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgY3JlZGl0cy
 IsImNyZWF0ZWQiOjE2ODg0NTcyNjQwNDJ9fSwiaGlzdG9yeSI6
-Wy0xNTk1NDgxNDYwLC01MjI2ODM2Nyw1OTg1NzgxNjcsMjAwOT
+Wy0xNzk2ODAyOTkxLC01MjI2ODM2Nyw1OTg1NzgxNjcsMjAwOT
 Q2NTM1OCwxNzEwMDQ0NDM5LC0xMDEzNjA0MTIsNTM4NDMwNzYw
 LDE4NzQ2OTE5ODQsLTc2MTYyNDA0MCwxNTgyNTc3Mzc0LDkyMj
 g1MDk2NywxMjg4OTk5ODQ2LC05MzEyMDcxNjgsLTM3MTU4MTc4
