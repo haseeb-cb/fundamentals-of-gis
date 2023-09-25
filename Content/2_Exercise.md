@@ -60,7 +60,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 ### Georeferencing the arena plans 
 
 5. In the downloaded data, there is a file - nokia_areena_plan.tif – that has been saved from a pdf file downloaded off the Tampere City website. It is a raster file, but it doesn’t have any spatial information associated with the grid cells or pixels. That means that QGIS doesn’t know where the raster is – it cannot project it onto a map. Luckily, there are methods for providing this information to QGIS. This process is called Georeferencing. Let’s now **georeference this image**. To open the georeferencer tool:
-	- From the main window, choose *Raster* -> *Georeferencer*. This will open up the *Georeferencer* window
+	- From the main window, choose *Layers* -> *Georeferencer*. This will open up the *Georeferencer* window
 
 	- In the *Georeferencer* window, choose *File* -> *Open Raster*, and choose the nokia_areena_plan.tif from the folder for this exercise. This will load the image into the *Georeferencer* window. Now, we can provide spatial data to ‘reference’ the image!
 
@@ -148,7 +148,7 @@ Editing toolbar:
 
 	- Find a red point on the georeferenced raster and select the tampere_roads layer in the layers panel.
 
-	- Using the *Identify features* tool, click on a line feature in the tampere_roads layers where is the bus stop is located and scroll through the attributes until you find the name of the road
+	- Using the *Identify features* tool, click on a line feature in the tampere_roads layers where the bus stop is located and scroll through the attributes until you find the name of the road
 
 	- Next, select the tampere_bus_stops layer again. Choose *Add Point Feature* from the *Digitization Toolbar*. You don’t need to close the *Identify features* window to do this.
 
@@ -175,8 +175,8 @@ emluZyBUb29sYmFyKi4ifX0sImNvbW1lbnRzIjp7IkkydkpoUl
 R1aWNiQ1VSaUsiOnsiZGlzY3Vzc2lvbklkIjoiRk1wazk5R1hB
 Sk84RTRITiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Ik
 FkZCBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NzA2NzA0NDk4Nn19
-LCJoaXN0b3J5IjpbLTE0NTkyNzgxODEsLTE5MTg5MzM4MzMsLT
-czMjA3Mzg5Myw5NTI5NjI4NTcsLTMzNDM4MzIwOSwtMjAxNTA0
-OTU3OSwxMjU1NzUxMDQ2LC05NjgxMTAxMzMsLTIxNDY5MTA1OD
-YsLTgxNjI0MjgwMV19
+LCJoaXN0b3J5IjpbLTk0NDEyODk0NCwtMTQ1OTI3ODE4MSwtMT
+kxODkzMzgzMywtNzMyMDczODkzLDk1Mjk2Mjg1NywtMzM0Mzgz
+MjA5LC0yMDE1MDQ5NTc5LDEyNTU3NTEwNDYsLTk2ODExMDEzMy
+wtMjE0NjkxMDU4NiwtODE2MjQyODAxXX0=
 -->
