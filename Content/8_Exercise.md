@@ -81,7 +81,7 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 3. **Being familiar with the attribute data, now you’ll have to calculate the building efficiency ratios for each district in Helsinki using SeutuRAMAVA data.**
 	1. Remember: **E = total floor area/total land area**
 		- You know where to find the total floor area, but how to get the total land area?
-		- 
+		- *Hint: Crash Course step 6* 
 	2. However, you might’ve noticed that the data covers the entire capital region – but only Helsinki is wanted. You can either:
 		- First calculate the efficiency ratio for all small areas in SeutuRAMAVA, and after the calculations are complete, extract Helsinki’s districts, or
 		- Select/clip Helsinki’s districts before any calculations are done.
@@ -161,7 +161,7 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDAyNDgxNDMsMTY2Mzc1MzY2MiwxMj
+eyJoaXN0b3J5IjpbLTIwNDE1MDE3MzAsMTY2Mzc1MzY2MiwxMj
 AyMTY3MzE1LDg2NDM2MDM1NCwtNzUwMzk5Mzg2LC0xMjA3MDU2
 OTY5LC0xMDcxMjMxODMxXX0=
 -->
