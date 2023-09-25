@@ -213,7 +213,7 @@ Let’s move on to ranking the soil. You can see the explanation for the soil co
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/5_Exercise/5_Exericse_final_expression.png)
 
-16. Open once more *Reclassify by table* and select the suitable areas layer as the input. Reclassify the layer so to have 4 classes so that one represents unsuitable values (0) and others have interval of 1 (with rank values 0, 1, 2, 3, see the figure below)
+16. Open once more *Reclassify by table* and select the result from step 15 layer as the input. Reclassify the layer so to have 4 classes so that one represents unsuitable values (0) and others have interval of 1 (with rank values 0, 1, 2, 3, see the figure below)
 
 ![](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Assets/5_Exercise/5_Exericse_final_classifications.png?raw=true)
 
@@ -271,11 +271,10 @@ ZWQiOjE2ODgwMzQzNjY1OTl9LCJ4aW03NjBJRThVU3ZQb0swIj
 p7ImRpc2N1c3Npb25JZCI6IjJNc1A3ZGozenU3T1hmZkEiLCJz
 dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgY3JlZGl0cy
 IsImNyZWF0ZWQiOjE2ODg0NTcyNjQwNDJ9fSwiaGlzdG9yeSI6
-Wy00ODQ4NDExNjMsLTUyMjY4MzY3LDU5ODU3ODE2NywyMDA5ND
-Y1MzU4LDE3MTAwNDQ0MzksLTEwMTM2MDQxMiw1Mzg0MzA3NjAs
-MTg3NDY5MTk4NCwtNzYxNjI0MDQwLDE1ODI1NzczNzQsOTIyOD
-UwOTY3LDEyODg5OTk4NDYsLTkzMTIwNzE2OCwtMzcxNTgxNzg3
-LC0xNzQ2NDQxOTU2LC0xNzQ1Nzg2Mjg0LC0xODA5MTk3NzE1LC
-0xNDAyMjI0MzMwLDE4MzgwNDA5OTMsLTEyNjkxNTM3ODBdfQ==
-
+WzEzMTg3NTM4OSwtNTIyNjgzNjcsNTk4NTc4MTY3LDIwMDk0Nj
+UzNTgsMTcxMDA0NDQzOSwtMTAxMzYwNDEyLDUzODQzMDc2MCwx
+ODc0NjkxOTg0LC03NjE2MjQwNDAsMTU4MjU3NzM3NCw5MjI4NT
+A5NjcsMTI4ODk5OTg0NiwtOTMxMjA3MTY4LC0zNzE1ODE3ODcs
+LTE3NDY0NDE5NTYsLTE3NDU3ODYyODQsLTE4MDkxOTc3MTUsLT
+E0MDIyMjQzMzAsMTgzODA0MDk5MywtMTI2OTE1Mzc4MF19
 -->
