@@ -99,7 +99,7 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 	- Remember to make your layer permanent again
 
 **Answer the following questions on Moodle:**
-- What do the hill shade parameters azimuth and verticle angle mean?
+
 - What is the maximum slope of the study area based on the DEM10m_Muurla?
 - How about the mean slope of the study area based on the DEM10m_Muurla?
 
@@ -247,8 +247,8 @@ U0fSwiNktKWG5LY3BhcFFmeURRTyI6eyJ0ZXh0IjoiQW5zd2Vy
 IHRoZSBmb2xsb3dpbmcgcXVlc3Rpb25zIG9uIE1vb2RsZToiLC
 JzdGFydCI6ODUwMiwiZW5kIjo4NTQzfSwiOHVHaWRIdm5ZanAx
 REROZCI6eyJ0ZXh0IjoiIyMjIyAyLjI6IERlZmluaW5nIHRoZS
-BzdWl0YWJsZSBhcmVhcyIsInN0YXJ0IjoxMzIxNCwiZW5kIjox
-MzI1MX0sIlZQWTBQV0xGdTBZNXBjVGsiOnsidGV4dCI6IkhpbG
+BzdWl0YWJsZSBhcmVhcyIsInN0YXJ0IjoxMzE0NiwiZW5kIjox
+MzE4M30sIlZQWTBQV0xGdTBZNXBjVGsiOnsidGV4dCI6IkhpbG
 xzaGFkZSIsInN0YXJ0Ijo3NTQ1LCJlbmQiOjc1NTR9LCIyTXNQ
 N2RqM3p1N09YZmZBIjp7InN0YXJ0IjoxMDksImVuZCI6MTExLC
 J0ZXh0IjoiQnkifX0sImNvbW1lbnRzIjp7IkFLRTRZRTdvN09Z
@@ -272,7 +272,7 @@ ZWQiOjE2ODgwMzQzNjY1OTl9LCJ4aW03NjBJRThVU3ZQb0swIj
 p7ImRpc2N1c3Npb25JZCI6IjJNc1A3ZGozenU3T1hmZkEiLCJz
 dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgY3JlZGl0cy
 IsImNyZWF0ZWQiOjE2ODg0NTcyNjQwNDJ9fSwiaGlzdG9yeSI6
-Wzc4MzI0MDc5NSwxMzE4NzUzODksLTUyMjY4MzY3LDU5ODU3OD
+WzY2NDg5ODg5OCwxMzE4NzUzODksLTUyMjY4MzY3LDU5ODU3OD
 E2NywyMDA5NDY1MzU4LDE3MTAwNDQ0MzksLTEwMTM2MDQxMiw1
 Mzg0MzA3NjAsMTg3NDY5MTk4NCwtNzYxNjI0MDQwLDE1ODI1Nz
 czNzQsOTIyODUwOTY3LDEyODg5OTk4NDYsLTkzMTIwNzE2OCwt
