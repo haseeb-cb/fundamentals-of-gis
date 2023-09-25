@@ -10,7 +10,7 @@ By Sara Todorovic & Tatu Leppämäki for USP-303 at the Helsinki University.
 
 In this exercise your task is to **calculate building efficiency ratio on different spatial scales**. Efficiency ratios (e) describe the level of land use intensity on zoned city areas. The building efficiency ratio is calculated by **dividing the total floor area** of each story of a building (or buildings) **by the size of the piece of land the building is in**. The piece of land can be the real estate, a neighborhood, a city district or any specified area. This ratio can be used to identify areas which are urban (more efficient) from non-built (less efficient) areas. Conversely, “sparsity ratio” is the total area of all non-built features to the size of the piece of land. When calculating the building efficiency on a city district (or similar) scale, it depicts regional efficiency. When building efficiency is calculated on a property/plot scale it’s known as plot efficiency (see Table 1). During this exercise, you will discover the different forms and levels of urbanity in Helsinki.
 
-![Table 1](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/8_Exercise/8_Exercise_diagram.png) Table 1
+![Table 1](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/8_Exercise/8_Exercise_diagram.png) *Table 1*
 
 **The purpose of this exercise** is to get familiar with efficiency ratios and to understand how different spatial scales affect the apparent intensity of different phenomena (in our case building efficiency ratio). Simultaneously, we’re trying to analyze whether the building efficiency ratio is a sufficient indicator of urbanity.
 
@@ -166,15 +166,15 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 eyJkaXNjdXNzaW9ucyI6eyJ6N2NuQlBZWndDalhXSGN3Ijp7In
 RleHQiOiIqVElQIDE6IFNlbGVjdCBhbGwgeW91ciB2ZWN0b3Ig
 bGF5ZXJzIGF0IG9uY2UgYnkgYXJyYW5naW5nIHRoZSBmaWxlcy
-BieSBmaWxlIHR54oCmIiwic3RhcnQiOjQzMzksImVuZCI6NDU5
-NX0sIkhyR2dNajI0NWRDdTlreU4iOnsidGV4dCI6IipUSVAgMj
+BieSBmaWxlIHR54oCmIiwic3RhcnQiOjQzNDEsImVuZCI6NDU5
+N30sIkhyR2dNajI0NWRDdTlreU4iOnsidGV4dCI6IipUSVAgMj
 ogV2hlbiB3b3JraW5nIHdpdGggZGF0YSB0aGF0IHdpbGwgcHJv
 YmFibHkgY29udGFpbiB2YWx1ZXMgd2l0aCB1bWxhdXRzICjigK
-YiLCJzdGFydCI6NDU5NywiZW5kIjo0ODcxfSwidmVvVUR3U3NR
+YiLCJzdGFydCI6NDU5OSwiZW5kIjo0ODczfSwidmVvVUR3U3NR
 UFRuN3VpeSI6eyJ0ZXh0IjoiKlRJUCAyOiBUbyByZW1vdmUgdW
 5uZWNlc3NhcnkgaW5mb3JtYXRpb24gZnJvbSB0aGUgbGVnZW5k
 IG9mIHlvdXIgbWFwLCBtYWtlIHN1cuKApiIsInN0YXJ0Ijo2Mj
-UxLCJlbmQiOjY1NjR9fSwiY29tbWVudHMiOnsia2JTblg0c3px
+UzLCJlbmQiOjY1NjZ9fSwiY29tbWVudHMiOnsia2JTblg0c3px
 Z2FKYnNQbCI6eyJkaXNjdXNzaW9uSWQiOiJ6N2NuQlBZWndDal
 hXSGN3Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiTW92
 ZSB0byBlYXJsaWVyIGluIGNvdXJzZSIsImNyZWF0ZWQiOjE2OD
@@ -185,7 +185,7 @@ Y291cnNlIiwiY3JlYXRlZCI6MTY4Nzg0NzI5NzY1MX0sImxrbn
 REM3ZMWmh6anZYVXYiOnsiZGlzY3Vzc2lvbklkIjoidmVvVUR3
 U3NRUFRuN3VpeSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dC
 I6Ik1vdmUgdG8gZWFybGllciBpbiBjb3Vyc2UiLCJjcmVhdGVk
-IjoxNjg3ODQ3MzM2ODgyfX0sImhpc3RvcnkiOlstMTY0MDc3OT
-U2MiwxNjYzNzUzNjYyLDEyMDIxNjczMTUsODY0MzYwMzU0LC03
-NTAzOTkzODYsLTEyMDcwNTY5NjksLTEwNzEyMzE4MzFdfQ==
+IjoxNjg3ODQ3MzM2ODgyfX0sImhpc3RvcnkiOlsxNDY5NzI0NT
+Y3LDE2NjM3NTM2NjIsMTIwMjE2NzMxNSw4NjQzNjAzNTQsLTc1
+MDM5OTM4NiwtMTIwNzA1Njk2OSwtMTA3MTIzMTgzMV19
 -->
