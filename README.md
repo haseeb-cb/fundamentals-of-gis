@@ -15,7 +15,7 @@ After completing the course you should be able to:
 	- Gathering GIS data from various sources
 	- Use different types of spatial data
 	- Analyse GIS data to address geosptial problems and/or research questions 
-- Develop the aiblity to perform new anayses, troubleshoot, and find help from the GIS community to solve your problems
+- Develop the ability to perform new analyses, troubleshoot, and find help from the GIS community to solve your problems
 
 ## Structure
 The course consists of **9 exercises**, each accompanied by a piece of theory. It's recommended to go through the theory before attempting the exercise. The first exercise is meant to give you the basic skills in GIS and the software we will be using, QGIS. From there on you will build on these basic skills using the other exercises, covering various analyses and methods, and develop a fundamental skillset in GIS and QGIS. 
@@ -109,6 +109,6 @@ Based on work and with help from:
 
 # Let's get started with the [first theory section](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/1_Crashcourse_theory.md)!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyOTIxMjUzNywyMTI2MjI2NDYsMzQyMD
-Y0ODUwLDkyMTQwMTQ4M119
+eyJoaXN0b3J5IjpbLTE1MDM3MTYzNSwtNDI5MjEyNTM3LDIxMj
+YyMjY0NiwzNDIwNjQ4NTAsOTIxNDAxNDgzXX0=
 -->
