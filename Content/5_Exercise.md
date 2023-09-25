@@ -205,7 +205,9 @@ Let’s move on to ranking the soil. You can see the explanation for the soil co
 15. In the last part we will use all the components created to get the suitability map. 
 	- Open the *Raster calculator*
 	- Use the expression from the figure below, don't forget to adjust the names of the layers to correspond to yours
-		- unsuitable_merged_clipped = 
+		- unsuitable_merged_clipped = result from step 12
+		- slope_ranking = result f
+		- soil_ranking_reclassified = result from step 14
 	- Set the reference layer to the original filled DEM layer (why do you think this reference is necessary?)
 	- Run the calculation and save the output
 
@@ -269,11 +271,11 @@ ZWQiOjE2ODgwMzQzNjY1OTl9LCJ4aW03NjBJRThVU3ZQb0swIj
 p7ImRpc2N1c3Npb25JZCI6IjJNc1A3ZGozenU3T1hmZkEiLCJz
 dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgY3JlZGl0cy
 IsImNyZWF0ZWQiOjE2ODg0NTcyNjQwNDJ9fSwiaGlzdG9yeSI6
-Wy0xNzk2ODAyOTkxLC01MjI2ODM2Nyw1OTg1NzgxNjcsMjAwOT
-Q2NTM1OCwxNzEwMDQ0NDM5LC0xMDEzNjA0MTIsNTM4NDMwNzYw
-LDE4NzQ2OTE5ODQsLTc2MTYyNDA0MCwxNTgyNTc3Mzc0LDkyMj
-g1MDk2NywxMjg4OTk5ODQ2LC05MzEyMDcxNjgsLTM3MTU4MTc4
-NywtMTc0NjQ0MTk1NiwtMTc0NTc4NjI4NCwtMTgwOTE5NzcxNS
-wtMTQwMjIyNDMzMCwxODM4MDQwOTkzLC0xMjY5MTUzNzgwXX0=
+Wy00NjEyODk5MzUsLTUyMjY4MzY3LDU5ODU3ODE2NywyMDA5ND
+Y1MzU4LDE3MTAwNDQ0MzksLTEwMTM2MDQxMiw1Mzg0MzA3NjAs
+MTg3NDY5MTk4NCwtNzYxNjI0MDQwLDE1ODI1NzczNzQsOTIyOD
+UwOTY3LDEyODg5OTk4NDYsLTkzMTIwNzE2OCwtMzcxNTgxNzg3
+LC0xNzQ2NDQxOTU2LC0xNzQ1Nzg2Mjg0LC0xODA5MTk3NzE1LC
+0xNDAyMjI0MzMwLDE4MzgwNDA5OTMsLTEyNjkxNTM3ODBdfQ==
 
 -->
