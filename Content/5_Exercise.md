@@ -87,7 +87,7 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 5. One of the important features of DEM is that it can be used to create a hillshade relief. Hillshade is mostly used in visualization to create an imposing 3D-effect of the surface. Let's create a hillshade using this DEM. 
 	- Open the *Hillshade* tool 
 	- Choose the filled DEM as the Elevation layer
-	- Try out how the hillshade turns out with the default settings. You can change the result by adjusting these default values for azimuth and altitude. Basically, this adjusts from which angle the light hits the ground.
+	- Try out how the hillshade turns out with the default settings. You can change the result by adjusting these default values for azimuth and vertical angle. Basically, this adjusts from which angle the light hits the ground.
 	- Choose settings that you think are good and make that layer permanent, you can remove your test layers
 
 *Tip: Again, name the files! Good name for the first Hillshade could be for example “HillShade_Muurla_def” or “HS_Muurla_def” indicating that it’s a hillshade, study area and default settings – for the next one you could change the name to for example “HS_Muurla_Az180” and so on, based on the chosen settings.*
@@ -98,7 +98,7 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 	- Remember to make your layer permanent again
 
 **Answer the following questions on Moodle:**
-- What do the hill shade parameters azimuth and altitude mean?
+- What do the hill shade parameters azimuth and verticle angle mean?
 - What is the maximum slope of the study area based on the DEM10m_Muurla?
 - How about the mean slope of the study area based on the DEM10m_Muurla?
 
@@ -241,10 +241,10 @@ RleHQiOiIjIyMgUGFydCAxOiBHZXR0aW5nIGZhbWlsaWFyIHdp
 dGggcmFzdGVyIGRhdGEiLCJzdGFydCI6NDUwOSwiZW5kIjo0NT
 U0fSwiNktKWG5LY3BhcFFmeURRTyI6eyJ0ZXh0IjoiQW5zd2Vy
 IHRoZSBmb2xsb3dpbmcgcXVlc3Rpb25zIG9uIE1vb2RsZToiLC
-JzdGFydCI6ODQxMSwiZW5kIjo4NDUyfSwiOHVHaWRIdm5ZanAx
+JzdGFydCI6ODQxNywiZW5kIjo4NDU4fSwiOHVHaWRIdm5ZanAx
 REROZCI6eyJ0ZXh0IjoiIyMjIyAyLjI6IERlZmluaW5nIHRoZS
-BzdWl0YWJsZSBhcmVhcyIsInN0YXJ0IjoxMzEwNCwiZW5kIjox
-MzE0MX0sIlZQWTBQV0xGdTBZNXBjVGsiOnsidGV4dCI6IkhpbG
+BzdWl0YWJsZSBhcmVhcyIsInN0YXJ0IjoxMzExNiwiZW5kIjox
+MzE1M30sIlZQWTBQV0xGdTBZNXBjVGsiOnsidGV4dCI6IkhpbG
 xzaGFkZSIsInN0YXJ0Ijo3NDYwLCJlbmQiOjc0Njl9LCIyTXNQ
 N2RqM3p1N09YZmZBIjp7InN0YXJ0IjoxMDksImVuZCI6MTExLC
 J0ZXh0IjoiQnkifX0sImNvbW1lbnRzIjp7IkFLRTRZRTdvN09Z
@@ -268,11 +268,11 @@ ZWQiOjE2ODgwMzQzNjY1OTl9LCJ4aW03NjBJRThVU3ZQb0swIj
 p7ImRpc2N1c3Npb25JZCI6IjJNc1A3ZGozenU3T1hmZkEiLCJz
 dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgY3JlZGl0cy
 IsImNyZWF0ZWQiOjE2ODg0NTcyNjQwNDJ9fSwiaGlzdG9yeSI6
-WzU5ODU3ODE2NywyMDA5NDY1MzU4LDE3MTAwNDQ0MzksLTEwMT
-M2MDQxMiw1Mzg0MzA3NjAsMTg3NDY5MTk4NCwtNzYxNjI0MDQw
-LDE1ODI1NzczNzQsOTIyODUwOTY3LDEyODg5OTk4NDYsLTkzMT
-IwNzE2OCwtMzcxNTgxNzg3LC0xNzQ2NDQxOTU2LC0xNzQ1Nzg2
-Mjg0LC0xODA5MTk3NzE1LC0xNDAyMjI0MzMwLDE4MzgwNDA5OT
-MsLTEyNjkxNTM3ODAsNDk4NzcwMDQ2LC00MTMyNjQ2ODFdfQ==
+WzE0MDg4MDEyNTEsNTk4NTc4MTY3LDIwMDk0NjUzNTgsMTcxMD
+A0NDQzOSwtMTAxMzYwNDEyLDUzODQzMDc2MCwxODc0NjkxOTg0
+LC03NjE2MjQwNDAsMTU4MjU3NzM3NCw5MjI4NTA5NjcsMTI4OD
+k5OTg0NiwtOTMxMjA3MTY4LC0zNzE1ODE3ODcsLTE3NDY0NDE5
+NTYsLTE3NDU3ODYyODQsLTE4MDkxOTc3MTUsLTE0MDIyMjQzMz
+AsMTgzODA0MDk5MywtMTI2OTE1Mzc4MCw0OTg3NzAwNDZdfQ==
 
 -->
