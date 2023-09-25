@@ -86,7 +86,7 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 
 *TIP 1: To help you in including the Helsinki small areas only – the municipalities have unique identifying codes. Helsinki’s municipality code is 091 (KUNTA-field).*
 
-*TIP 2: You might also want to discard the empty outer sea region (called ALUEMERI in the NIMI field) to make mapping simpler (Hint: Manually select fields using the attribute table or use a tool like select by expression)*
+*TIP 2: You might also want to discard the empty outer sea region (called ALUEMERI in the NIMI field) to make mapping simpler (Hint: Manually select fields using the attribute table or use a tool like select or extract by expression)*
 
 4. **After calculating the efficiency ratios, compose a map.**
 	1. Which districts have the highest efficiency? What about the lowest?
@@ -159,7 +159,7 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTMwNTY2NiwxNjYzNzUzNjYyLDEyMD
+eyJoaXN0b3J5IjpbLTU0MDkyNjg5OCwxNjYzNzUzNjYyLDEyMD
 IxNjczMTUsODY0MzYwMzU0LC03NTAzOTkzODYsLTEyMDcwNTY5
 NjksLTEwNzEyMzE4MzFdfQ==
 -->
