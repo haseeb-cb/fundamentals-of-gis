@@ -77,6 +77,7 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 
 4. Before we can use the DEM, we need to fill its sinks
 	- Open the *Fill sinks (Wang & Liu)* tool (Remember where we search for all our tools?)
+		- You can ignore the warning message that SAGA version....is not officially supported
 	- Choose the clipped DEM as the DEM, leave the rest as default
 	- Run the tool, you can remove the flow directions and watershed basins outputs, save the Filled DEM
 		- The output of this will be the DEM we will be using from now on! 
@@ -244,11 +245,11 @@ RleHQiOiIjIyMgUGFydCAxOiBHZXR0aW5nIGZhbWlsaWFyIHdp
 dGggcmFzdGVyIGRhdGEiLCJzdGFydCI6NDUwOSwiZW5kIjo0NT
 U0fSwiNktKWG5LY3BhcFFmeURRTyI6eyJ0ZXh0IjoiQW5zd2Vy
 IHRoZSBmb2xsb3dpbmcgcXVlc3Rpb25zIG9uIE1vb2RsZToiLC
-JzdGFydCI6ODQxNCwiZW5kIjo4NDU1fSwiOHVHaWRIdm5ZanAx
+JzdGFydCI6ODUwMiwiZW5kIjo4NTQzfSwiOHVHaWRIdm5ZanAx
 REROZCI6eyJ0ZXh0IjoiIyMjIyAyLjI6IERlZmluaW5nIHRoZS
-BzdWl0YWJsZSBhcmVhcyIsInN0YXJ0IjoxMzEyNiwiZW5kIjox
-MzE2M30sIlZQWTBQV0xGdTBZNXBjVGsiOnsidGV4dCI6IkhpbG
-xzaGFkZSIsInN0YXJ0Ijo3NDU3LCJlbmQiOjc0NjZ9LCIyTXNQ
+BzdWl0YWJsZSBhcmVhcyIsInN0YXJ0IjoxMzIxNCwiZW5kIjox
+MzI1MX0sIlZQWTBQV0xGdTBZNXBjVGsiOnsidGV4dCI6IkhpbG
+xzaGFkZSIsInN0YXJ0Ijo3NTQ1LCJlbmQiOjc1NTR9LCIyTXNQ
 N2RqM3p1N09YZmZBIjp7InN0YXJ0IjoxMDksImVuZCI6MTExLC
 J0ZXh0IjoiQnkifX0sImNvbW1lbnRzIjp7IkFLRTRZRTdvN09Z
 ZjZkRjMiOnsiZGlzY3Vzc2lvbklkIjoiTWVvekRTcWs5OU5ia0
@@ -271,10 +272,10 @@ ZWQiOjE2ODgwMzQzNjY1OTl9LCJ4aW03NjBJRThVU3ZQb0swIj
 p7ImRpc2N1c3Npb25JZCI6IjJNc1A3ZGozenU3T1hmZkEiLCJz
 dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgY3JlZGl0cy
 IsImNyZWF0ZWQiOjE2ODg0NTcyNjQwNDJ9fSwiaGlzdG9yeSI6
-WzEzMTg3NTM4OSwtNTIyNjgzNjcsNTk4NTc4MTY3LDIwMDk0Nj
-UzNTgsMTcxMDA0NDQzOSwtMTAxMzYwNDEyLDUzODQzMDc2MCwx
-ODc0NjkxOTg0LC03NjE2MjQwNDAsMTU4MjU3NzM3NCw5MjI4NT
-A5NjcsMTI4ODk5OTg0NiwtOTMxMjA3MTY4LC0zNzE1ODE3ODcs
-LTE3NDY0NDE5NTYsLTE3NDU3ODYyODQsLTE4MDkxOTc3MTUsLT
-E0MDIyMjQzMzAsMTgzODA0MDk5MywtMTI2OTE1Mzc4MF19
+Wzc4MzI0MDc5NSwxMzE4NzUzODksLTUyMjY4MzY3LDU5ODU3OD
+E2NywyMDA5NDY1MzU4LDE3MTAwNDQ0MzksLTEwMTM2MDQxMiw1
+Mzg0MzA3NjAsMTg3NDY5MTk4NCwtNzYxNjI0MDQwLDE1ODI1Nz
+czNzQsOTIyODUwOTY3LDEyODg5OTk4NDYsLTkzMTIwNzE2OCwt
+MzcxNTgxNzg3LC0xNzQ2NDQxOTU2LC0xNzQ1Nzg2Mjg0LC0xOD
+A5MTk3NzE1LC0xNDAyMjI0MzMwLDE4MzgwNDA5OTNdfQ==
 -->
