@@ -10,9 +10,7 @@ By Sara Todorovic & Tatu Leppämäki for USP-303 at the Helsinki University.
 
 In this exercise your task is to **calculate building efficiency ratio on different spatial scales**. Efficiency ratios (e) describe the level of land use intensity on zoned city areas. The building efficiency ratio is calculated by **dividing the total floor area** of each story of a building (or buildings) **by the size of the piece of land the building is in**. The piece of land can be the real estate, a neighborhood, a city district or any specified area. This ratio can be used to identify areas which are urban (more efficient) from non-built (less efficient) areas. Conversely, “sparsity ratio” is the total area of all non-built features to the size of the piece of land. When calculating the building efficiency on a city district (or similar) scale, it depicts regional efficiency. When building efficiency is calculated on a property/plot scale it’s known as plot efficiency (see Table 1). During this exercise, you will discover the different forms and levels of urbanity in Helsinki.
 
-**E = total floor area/total land area**
-
-
+![Table 1](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/8_Exercise/8_Exercise_diagram.png) Table 1
 
 **The purpose of this exercise** is to get familiar with efficiency ratios and to understand how different spatial scales affect the apparent intensity of different phenomena (in our case building efficiency ratio). Simultaneously, we’re trying to analyze whether the building efficiency ratio is a sufficient indicator of urbanity.
 
@@ -165,35 +163,29 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 
 
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJySUlNQ2tUNkZLbkt2V1RKIjp7In
-RleHQiOiIqKkUgPSB0b3RhbCBmbG9vciBhcmVhL3RvdGFsIGxh
-bmQgYXJlYSoqIiwic3RhcnQiOjEyMzksImVuZCI6MTI3OX0sIn
-o3Y25CUFlad0NqWFdIY3ciOnsidGV4dCI6IipUSVAgMTogU2Vs
-ZWN0IGFsbCB5b3VyIHZlY3RvciBsYXllcnMgYXQgb25jZSBieS
-BhcnJhbmdpbmcgdGhlIGZpbGVzIGJ5IGZpbGUgdHnigKYiLCJz
-dGFydCI6NDI1MiwiZW5kIjo0NTA4fSwiSHJHZ01qMjQ1ZEN1OW
-t5TiI6eyJ0ZXh0IjoiKlRJUCAyOiBXaGVuIHdvcmtpbmcgd2l0
-aCBkYXRhIHRoYXQgd2lsbCBwcm9iYWJseSBjb250YWluIHZhbH
-VlcyB3aXRoIHVtbGF1dHMgKOKApiIsInN0YXJ0Ijo0NTEwLCJl
-bmQiOjQ3ODR9LCJ2ZW9VRHdTc1FQVG43dWl5Ijp7InRleHQiOi
-IqVElQIDI6IFRvIHJlbW92ZSB1bm5lY2Vzc2FyeSBpbmZvcm1h
-dGlvbiBmcm9tIHRoZSBsZWdlbmQgb2YgeW91ciBtYXAsIG1ha2
-Ugc3Vy4oCmIiwic3RhcnQiOjYxNjQsImVuZCI6NjQ3N319LCJj
-b21tZW50cyI6eyJOTHQ0Z05aV01nSjBPemxuIjp7ImRpc2N1c3
-Npb25JZCI6InJJSU1Da1Q2RktuS3ZXVEoiLCJzdWIiOiJnaDo0
-MDMwNDc4OCIsInRleHQiOiJBZGQgZGlhZ3JhbSIsImNyZWF0ZW
-QiOjE2ODc4NDY0MzQyNjB9LCJrYlNuWDRzenFnYUpic1BsIjp7
-ImRpc2N1c3Npb25JZCI6Ino3Y25CUFlad0NqWFdIY3ciLCJzdW
-IiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJNb3ZlIHRvIGVhcmxp
-ZXIgaW4gY291cnNlIiwiY3JlYXRlZCI6MTY4Nzg0NzI5Mzg0M3
-0sInltRG5nTWpFQ0llUVJ5Yk0iOnsiZGlzY3Vzc2lvbklkIjoi
-SHJHZ01qMjQ1ZEN1OWt5TiIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
-widGV4dCI6Ik1vdmUgdG8gZWFybGllciBpbiBjb3Vyc2UiLCJj
-cmVhdGVkIjoxNjg3ODQ3Mjk3NjUxfSwibGtudEQzdkxaaHpqdl
-hVdiI6eyJkaXNjdXNzaW9uSWQiOiJ2ZW9VRHdTc1FQVG43dWl5
-Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiTW92ZSB0by
-BlYXJsaWVyIGluIGNvdXJzZSIsImNyZWF0ZWQiOjE2ODc4NDcz
-MzY4ODJ9fSwiaGlzdG9yeSI6WzE2NjM3NTM2NjIsMTIwMjE2Nz
-MxNSw4NjQzNjAzNTQsLTc1MDM5OTM4NiwtMTIwNzA1Njk2OSwt
-MTA3MTIzMTgzMV19
+eyJkaXNjdXNzaW9ucyI6eyJ6N2NuQlBZWndDalhXSGN3Ijp7In
+RleHQiOiIqVElQIDE6IFNlbGVjdCBhbGwgeW91ciB2ZWN0b3Ig
+bGF5ZXJzIGF0IG9uY2UgYnkgYXJyYW5naW5nIHRoZSBmaWxlcy
+BieSBmaWxlIHR54oCmIiwic3RhcnQiOjQzMzksImVuZCI6NDU5
+NX0sIkhyR2dNajI0NWRDdTlreU4iOnsidGV4dCI6IipUSVAgMj
+ogV2hlbiB3b3JraW5nIHdpdGggZGF0YSB0aGF0IHdpbGwgcHJv
+YmFibHkgY29udGFpbiB2YWx1ZXMgd2l0aCB1bWxhdXRzICjigK
+YiLCJzdGFydCI6NDU5NywiZW5kIjo0ODcxfSwidmVvVUR3U3NR
+UFRuN3VpeSI6eyJ0ZXh0IjoiKlRJUCAyOiBUbyByZW1vdmUgdW
+5uZWNlc3NhcnkgaW5mb3JtYXRpb24gZnJvbSB0aGUgbGVnZW5k
+IG9mIHlvdXIgbWFwLCBtYWtlIHN1cuKApiIsInN0YXJ0Ijo2Mj
+UxLCJlbmQiOjY1NjR9fSwiY29tbWVudHMiOnsia2JTblg0c3px
+Z2FKYnNQbCI6eyJkaXNjdXNzaW9uSWQiOiJ6N2NuQlBZWndDal
+hXSGN3Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiTW92
+ZSB0byBlYXJsaWVyIGluIGNvdXJzZSIsImNyZWF0ZWQiOjE2OD
+c4NDcyOTM4NDN9LCJ5bURuZ01qRUNJZVFSeWJNIjp7ImRpc2N1
+c3Npb25JZCI6IkhyR2dNajI0NWRDdTlreU4iLCJzdWIiOiJnaD
+o0MDMwNDc4OCIsInRleHQiOiJNb3ZlIHRvIGVhcmxpZXIgaW4g
+Y291cnNlIiwiY3JlYXRlZCI6MTY4Nzg0NzI5NzY1MX0sImxrbn
+REM3ZMWmh6anZYVXYiOnsiZGlzY3Vzc2lvbklkIjoidmVvVUR3
+U3NRUFRuN3VpeSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dC
+I6Ik1vdmUgdG8gZWFybGllciBpbiBjb3Vyc2UiLCJjcmVhdGVk
+IjoxNjg3ODQ3MzM2ODgyfX0sImhpc3RvcnkiOlstMTY0MDc3OT
+U2MiwxNjYzNzUzNjYyLDEyMDIxNjczMTUsODY0MzYwMzU0LC03
+NTAzOTkzODYsLTEyMDcwNTY5NjksLTEwNzEyMzE4MzFdfQ==
 -->
