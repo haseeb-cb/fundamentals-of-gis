@@ -113,7 +113,7 @@ A **good map**:
 5. Has a legend with explanations of used symbology/colours etc.
 6. Notes the data sources, used projection, and credits
 
-Important to keep in mind is that: **maps are images that inherently selective and result from choices made by a cartographer**. There is no such thing as an "objective map". In reality, maps always emphasize some elements while ignoring others (or pushing them to the "background") and there's power involved. The fact that maps are images also means that a map is often accompanied by a caption that tells the reader what they are expected to see on the map. Making good captions is a skill in itself, as captions influence influence the way in which people interpret the maps (as well as the reality they are attempting to depict).  
+Important to keep in mind is that: **maps are images that inherently selective and result from choices made by a cartographer**. There is no such thing as an "objective map". In reality, maps always emphasize some elements while ignoring others (or pushing them to the "background") and there's power involved. The fact that maps are images also means that a map is often accompanied by a caption that tells the reader what they are expected to see on the map. Making good captions is a skill in itself, as captions influence the way in which people interpret the maps (as well as the reality they are attempting to depict).  
 
 Another important thing to keep in mind is to **make your maps accessible to all readers, including those who have some form of color blindness**. This is relatively simple, since QGIS already has a tool build-in to simulate a few color blind examples:
 
@@ -165,7 +165,7 @@ UxMDYzNTEwMTF9LCJlV0xSVE5jakQyQmtYTUZGIjp7ImRpc2N1
 c3Npb25JZCI6ImREVmxsOVF2OGNYSUhUUzkiLCJzdWIiOiJnaD
 o0MDMwNDc4OCIsInRleHQiOiJBZGQgcmVhbCBsaWZlIGV4YW1w
 bGUgb2YgdmVjdG9yIGRhdGEiLCJjcmVhdGVkIjoxNjk1MTA2Mz
-Y3NjY4fX0sImhpc3RvcnkiOlstMTI4OTI3Nzk4NywtMTAyMzQ4
-NDA4LC00ODQ3ODE1MDMsLTE3MjEwODU4ODAsNDIyNTk4MzE2LC
-0xODY4MjQ5MjQ0XX0=
+Y3NjY4fX0sImhpc3RvcnkiOlstMTMxMjY3NzY4LC0xMDIzNDg0
+MDgsLTQ4NDc4MTUwMywtMTcyMTA4NTg4MCw0MjI1OTgzMTYsLT
+E4NjgyNDkyNDRdfQ==
 -->
