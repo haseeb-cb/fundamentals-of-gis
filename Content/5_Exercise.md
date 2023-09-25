@@ -67,7 +67,7 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 
 3. Add the Digital Elevation Model you downloaded from PaITuli to QGIS (What type of data is this? How do you add that?).
 	- The DEM is a large raster image file and thus rather heavy to process. To make the program run smoother, let's clip the DEM to a smaller extent (Remember what clipping is from the previous theory?). 
-		- Our study area for this exercise is the same as the Muurla_Frame -layer, so we can use this it for the clipping extent.
+		- Our study area for this exercise is the same as the Muurla_Frame -layer, so we can use this for the clipping extent.
 		- Since we are clipping a raster, we need to use the *Clip raster by mask layer* tool, open this from the *Processing Toolbox*
 		- Set the input layer to your DEM and the mask layer ot Muurla_Frame
 		- Click run, make the temporary layer permanent by right-clicking the layer and *Export* > *Save as...* (Temporary raster layers don't have the "Make permanent" option)
@@ -241,11 +241,11 @@ RleHQiOiIjIyMgUGFydCAxOiBHZXR0aW5nIGZhbWlsaWFyIHdp
 dGggcmFzdGVyIGRhdGEiLCJzdGFydCI6NDUwOSwiZW5kIjo0NT
 U0fSwiNktKWG5LY3BhcFFmeURRTyI6eyJ0ZXh0IjoiQW5zd2Vy
 IHRoZSBmb2xsb3dpbmcgcXVlc3Rpb25zIG9uIE1vb2RsZToiLC
-JzdGFydCI6ODQxNywiZW5kIjo4NDU4fSwiOHVHaWRIdm5ZanAx
+JzdGFydCI6ODQxNCwiZW5kIjo4NDU1fSwiOHVHaWRIdm5ZanAx
 REROZCI6eyJ0ZXh0IjoiIyMjIyAyLjI6IERlZmluaW5nIHRoZS
-BzdWl0YWJsZSBhcmVhcyIsInN0YXJ0IjoxMzExNiwiZW5kIjox
-MzE1M30sIlZQWTBQV0xGdTBZNXBjVGsiOnsidGV4dCI6IkhpbG
-xzaGFkZSIsInN0YXJ0Ijo3NDYwLCJlbmQiOjc0Njl9LCIyTXNQ
+BzdWl0YWJsZSBhcmVhcyIsInN0YXJ0IjoxMzExMywiZW5kIjox
+MzE1MH0sIlZQWTBQV0xGdTBZNXBjVGsiOnsidGV4dCI6IkhpbG
+xzaGFkZSIsInN0YXJ0Ijo3NDU3LCJlbmQiOjc0NjZ9LCIyTXNQ
 N2RqM3p1N09YZmZBIjp7InN0YXJ0IjoxMDksImVuZCI6MTExLC
 J0ZXh0IjoiQnkifX0sImNvbW1lbnRzIjp7IkFLRTRZRTdvN09Z
 ZjZkRjMiOnsiZGlzY3Vzc2lvbklkIjoiTWVvekRTcWs5OU5ia0
@@ -268,7 +268,7 @@ ZWQiOjE2ODgwMzQzNjY1OTl9LCJ4aW03NjBJRThVU3ZQb0swIj
 p7ImRpc2N1c3Npb25JZCI6IjJNc1A3ZGozenU3T1hmZkEiLCJz
 dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgY3JlZGl0cy
 IsImNyZWF0ZWQiOjE2ODg0NTcyNjQwNDJ9fSwiaGlzdG9yeSI6
-WzE0MDg4MDEyNTEsNTk4NTc4MTY3LDIwMDk0NjUzNTgsMTcxMD
+WzE4ODM0NjcxNzUsNTk4NTc4MTY3LDIwMDk0NjUzNTgsMTcxMD
 A0NDQzOSwtMTAxMzYwNDEyLDUzODQzMDc2MCwxODc0NjkxOTg0
 LC03NjE2MjQwNDAsMTU4MjU3NzM3NCw5MjI4NTA5NjcsMTI4OD
 k5OTg0NiwtOTMxMjA3MTY4LC0zNzE1ODE3ODcsLTE3NDY0NDE5
