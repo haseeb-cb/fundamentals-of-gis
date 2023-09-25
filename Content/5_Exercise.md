@@ -206,7 +206,7 @@ Let’s move on to ranking the soil. You can see the explanation for the soil co
 	- Open the *Raster calculator*
 	- Use the expression from the figure below, don't forget to adjust the names of the layers to correspond to yours
 		- unsuitable_merged_clipped = result from step 12
-		- slope_ranking = result f
+		- slope_ranking = result from step 13
 		- soil_ranking_reclassified = result from step 14
 	- Set the reference layer to the original filled DEM layer (why do you think this reference is necessary?)
 	- Run the calculation and save the output
@@ -271,7 +271,7 @@ ZWQiOjE2ODgwMzQzNjY1OTl9LCJ4aW03NjBJRThVU3ZQb0swIj
 p7ImRpc2N1c3Npb25JZCI6IjJNc1A3ZGozenU3T1hmZkEiLCJz
 dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgY3JlZGl0cy
 IsImNyZWF0ZWQiOjE2ODg0NTcyNjQwNDJ9fSwiaGlzdG9yeSI6
-Wy00NjEyODk5MzUsLTUyMjY4MzY3LDU5ODU3ODE2NywyMDA5ND
+Wy00ODQ4NDExNjMsLTUyMjY4MzY3LDU5ODU3ODE2NywyMDA5ND
 Y1MzU4LDE3MTAwNDQ0MzksLTEwMTM2MDQxMiw1Mzg0MzA3NjAs
 MTg3NDY5MTk4NCwtNzYxNjI0MDQwLDE1ODI1NzczNzQsOTIyOD
 UwOTY3LDEyODg5OTk4NDYsLTkzMTIwNzE2OCwtMzcxNTgxNzg3
