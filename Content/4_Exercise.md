@@ -55,7 +55,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- Go through the data, what does it describe? What order of layers would be good to work with?
 
 2. We need to have the Ring Rail Line in geospatial format. One option is to digitize it based on a basic map. Other is to find the data online – let’s do that for practice!
-	- HRI offers easy access to open data sources between the cities of Helsinki, Espoo, Vantaa and Kauniainen. Follow the link to Helsinki-Region Transport’s public transport lines from 2021-2022 and open the preview in HSL’s website. https://public-transport-hslhrt.opendata.arcgis.com/data/en_GB/datasets/hsl-n-linjat-4/
+	- HRI offers easy access to open data sources between the cities of Helsinki, Espoo, Vantaa and Kauniainen. Follow the link to Helsinki-Region Transport’s public transport lines from 2021-2022 and open the preview in HSL’s website. https://public-transport-hslhrt.opendata.arcgis.com/datasets/HSLHRT::hsln-linjat-4/explore?location=60.470090%2C25.365467%2C9.39
 	- As you can see, the dataset is big and we don’t need everything it contains. You could download the whole data and edit it on your computer, but you can also filter the data before downloading it. You’d have to figure out what different attributes mean – in this case the information is in Finnish, so needed code explanations are provided here. You can also check them also through the link below and clicking “Aineiston kuvaus (pdf)”.
 		- https://public-transport-hslhrt.opendata.arcgis.com/datasets/HSLHRT::hsln-linjat-4/about
 	- You can select features by clicking “Filter data” on the left of the page.
@@ -172,13 +172,13 @@ Fill in the answers to the Moodle
 eyJkaXNjdXNzaW9ucyI6eyJWVmhGd2NhNFBxWU9FdERCIjp7In
 RleHQiOiIyLjE6IEFuYWx5emluZyB0aGUgZWZmZWN0cyBvbiB0
 aGUgcGVvcGxlIGluIHRoZSBzdHVkeSBhcmVhIiwic3RhcnQiOj
-g0ODUsImVuZCI6ODU0M30sIkR4WTl1c1A1SzFhZ2xZNTkiOnsi
+g1MjYsImVuZCI6ODU4NH0sIkR4WTl1c1A1SzFhZ2xZNTkiOnsi
 dGV4dCI6IkZpbGwgaW4gdGhlIGFuc3dlcnMgdG8gdGhlIE1vb2
-RsZSIsInN0YXJ0IjoxMDcwMSwiZW5kIjoxMDczNH0sIjBPdk03
+RsZSIsInN0YXJ0IjoxMDc0MiwiZW5kIjoxMDc3NX0sIjBPdk03
 UTdXUEZEWmRrRmMiOnsidGV4dCI6IiMjIyMgMi4yOiBQbGFubm
 luZyBhIG5ldyBhaXJwb3J0IGhvdGVsICYgY29uZ3Jlc3MgY2Vu
 dGVyIG5lYXIgdGhlIHJpbmcgcmFpbCBsaW5lIiwic3RhcnQiOj
-EwODQyLCJlbmQiOjEwOTIyfSwiWWJDdlI0ZExOMGZvRllNbSI6
+EwODgzLCJlbmQiOjEwOTYzfSwiWWJDdlI0ZExOMGZvRllNbSI6
 eyJ0ZXh0IjoiIyMgREFUQSBVU0VEIiwic3RhcnQiOjIyNzgsIm
 VuZCI6MjI5MH0sIjc4Sk14cWJzcHFzS041UEIiOnsic3RhcnQi
 OjEwNiwiZW5kIjoxMDgsInRleHQiOiJCeSJ9fSwiY29tbWVudH
@@ -200,11 +200,11 @@ UgdGhlIGRhdGEgc291cmNlcz8iLCJjcmVhdGVkIjoxNjg3MTU4
 MDU4NzEzfSwibkZqbFdMSkxXMjBMUG9VeiI6eyJkaXNjdXNzaW
 9uSWQiOiI3OEpNeHFic3Bxc0tONVBCIiwic3ViIjoiZ2g6NDAz
 MDQ3ODgiLCJ0ZXh0IjoiQWRkIGNyZWRpdHMiLCJjcmVhdGVkIj
-oxNjg4NDU3Mjc3OTQ3fX0sImhpc3RvcnkiOlstOTY3MDAyMTg2
-LC00NDQ4OTc2OCwtMTA1MDA0MTI0OSwtMTI2MzUyMTQ5MCwyND
-I4MjE2ODUsLTY2MzU4NjE2NSwxODU5MDgzMTAxLDMyNzEyOTUz
-Niw0NzE2OTQ1OTMsLTE3NzYxMjA3NzIsLTE0MDI0MjE3MjEsLT
-QyNjU5NDMzMiwtMzQ4NTE0OTYwLC05OTIwNjQ5MDIsLTE1MTI3
-MDY4MiwxMDQ4MzgwNDAxLC0xODEzNjEyODQxLDMyMDc1NzI4OS
-wxMzE5NTA0MjM1LDEyMzgxODQ5ODZdfQ==
+oxNjg4NDU3Mjc3OTQ3fX0sImhpc3RvcnkiOls3NDUzMTczMjUs
+LTk2NzAwMjE4NiwtNDQ0ODk3NjgsLTEwNTAwNDEyNDksLTEyNj
+M1MjE0OTAsMjQyODIxNjg1LC02NjM1ODYxNjUsMTg1OTA4MzEw
+MSwzMjcxMjk1MzYsNDcxNjk0NTkzLC0xNzc2MTIwNzcyLC0xND
+AyNDIxNzIxLC00MjY1OTQzMzIsLTM0ODUxNDk2MCwtOTkyMDY0
+OTAyLC0xNTEyNzA2ODIsMTA0ODM4MDQwMSwtMTgxMzYxMjg0MS
+wzMjA3NTcyODksMTMxOTUwNDIzNV19
 -->
