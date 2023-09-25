@@ -111,7 +111,7 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 7. **After installing MMQGIS, there should be a drop-down menu at the top of the QGIS window with the name MMQGIS:**
 	1. *Create* > *Create Grid Layer*
 		1.  Define whether you want your grid to consist of rectangles, diamonds or hexagons (Geometry Type)
-		2. Define the size of a grid element (X Spacing, Y Spacing, Units). Remember that we want to have a 250-meter grid. *TIP:* 
+		2. Define the size of a grid element (X Spacing, Y Spacing, Units). Remember that we want to have a 250-meter grid. *TIP: Check the units of your layers in the layer properties* 
 		3. Use Helsinki municipality borders as Extent.
 		4. Save the resulting grid layer on your computer with an informative name (e.g. Helsinki_grid_250m)
 
@@ -178,27 +178,22 @@ VlcyB3aXRoIHVtbGF1dHMgKOKApiIsInN0YXJ0Ijo0NTEwLCJl
 bmQiOjQ3ODR9LCJ2ZW9VRHdTc1FQVG43dWl5Ijp7InRleHQiOi
 IqVElQIDI6IFRvIHJlbW92ZSB1bm5lY2Vzc2FyeSBpbmZvcm1h
 dGlvbiBmcm9tIHRoZSBsZWdlbmQgb2YgeW91ciBtYXAsIG1ha2
-Ugc3Vy4oCmIiwic3RhcnQiOjYxNjQsImVuZCI6NjQ3N30sInla
-eElHc1J4dWpIUVJZVmciOnsidGV4dCI6IlRJUCIsInN0YXJ0Ij
-o3MTM5LCJlbmQiOjcxNDJ9fSwiY29tbWVudHMiOnsiTkx0NGdO
-WldNZ0owT3psbiI6eyJkaXNjdXNzaW9uSWQiOiJySUlNQ2tUNk
-ZLbkt2V1RKIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ijoi
-QWRkIGRpYWdyYW0iLCJjcmVhdGVkIjoxNjg3ODQ2NDM0MjYwfS
-wia2JTblg0c3pxZ2FKYnNQbCI6eyJkaXNjdXNzaW9uSWQiOiJ6
-N2NuQlBZWndDalhXSGN3Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLC
-J0ZXh0IjoiTW92ZSB0byBlYXJsaWVyIGluIGNvdXJzZSIsImNy
-ZWF0ZWQiOjE2ODc4NDcyOTM4NDN9LCJ5bURuZ01qRUNJZVFSeW
-JNIjp7ImRpc2N1c3Npb25JZCI6IkhyR2dNajI0NWRDdTlreU4i
-LCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJNb3ZlIHRvIG
-VhcmxpZXIgaW4gY291cnNlIiwiY3JlYXRlZCI6MTY4Nzg0NzI5
-NzY1MX0sImxrbnREM3ZMWmh6anZYVXYiOnsiZGlzY3Vzc2lvbk
-lkIjoidmVvVUR3U3NRUFRuN3VpeSIsInN1YiI6ImdoOjQwMzA0
-Nzg4IiwidGV4dCI6Ik1vdmUgdG8gZWFybGllciBpbiBjb3Vyc2
-UiLCJjcmVhdGVkIjoxNjg3ODQ3MzM2ODgyfSwiRTMycXZrbUMw
-alBTQkluciI6eyJkaXNjdXNzaW9uSWQiOiJ5WnhJR3NSeHVqSF
-FSWVZnIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRk
-IHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3ODQ3NTAwMDEyfX0sIm
-hpc3RvcnkiOlsxMDEyMTUxNTc4LDEyMDIxNjczMTUsODY0MzYw
-MzU0LC03NTAzOTkzODYsLTEyMDcwNTY5NjksLTEwNzEyMzE4Mz
-FdfQ==
+Ugc3Vy4oCmIiwic3RhcnQiOjYxNjQsImVuZCI6NjQ3N319LCJj
+b21tZW50cyI6eyJOTHQ0Z05aV01nSjBPemxuIjp7ImRpc2N1c3
+Npb25JZCI6InJJSU1Da1Q2RktuS3ZXVEoiLCJzdWIiOiJnaDo0
+MDMwNDc4OCIsInRleHQiOiJBZGQgZGlhZ3JhbSIsImNyZWF0ZW
+QiOjE2ODc4NDY0MzQyNjB9LCJrYlNuWDRzenFnYUpic1BsIjp7
+ImRpc2N1c3Npb25JZCI6Ino3Y25CUFlad0NqWFdIY3ciLCJzdW
+IiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJNb3ZlIHRvIGVhcmxp
+ZXIgaW4gY291cnNlIiwiY3JlYXRlZCI6MTY4Nzg0NzI5Mzg0M3
+0sInltRG5nTWpFQ0llUVJ5Yk0iOnsiZGlzY3Vzc2lvbklkIjoi
+SHJHZ01qMjQ1ZEN1OWt5TiIsInN1YiI6ImdoOjQwMzA0Nzg4Ii
+widGV4dCI6Ik1vdmUgdG8gZWFybGllciBpbiBjb3Vyc2UiLCJj
+cmVhdGVkIjoxNjg3ODQ3Mjk3NjUxfSwibGtudEQzdkxaaHpqdl
+hVdiI6eyJkaXNjdXNzaW9uSWQiOiJ2ZW9VRHdTc1FQVG43dWl5
+Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiTW92ZSB0by
+BlYXJsaWVyIGluIGNvdXJzZSIsImNyZWF0ZWQiOjE2ODc4NDcz
+MzY4ODJ9fSwiaGlzdG9yeSI6WzE2NjM3NTM2NjIsMTIwMjE2Nz
+MxNSw4NjQzNjAzNTQsLTc1MDM5OTM4NiwtMTIwNzA1Njk2OSwt
+MTA3MTIzMTgzMV19
 -->
