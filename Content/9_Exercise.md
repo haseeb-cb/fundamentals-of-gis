@@ -32,7 +32,7 @@ questionnaire
 
 Work individually or in pairs. Complete the exercise and write a short reflection. Include at the following: 
 
-1. Download 9_Exercise_data.zip from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. And importing the spreadsheet data as point layers
+1. Download the date from the data sources given above, save it in a folder for this exercise. And importing the spreadsheet data as point layers
 2. Finding where the respondents from Töölö and Vuosaari (neighbourhoods in Helsinki) prefer and don’t prefer to have windmills
 	- Discovering the standard deviational ellipses of the preferences of respondents from Töölö and Vuosaari.
 3. Visualizing and composing at least 3 maps of the NIMBY attitudes, including:
@@ -165,12 +165,12 @@ RleHQiOiIjIyBPVkVSVklFVyAmIFBVUlBPU0UiLCJzdGFydCI6
 Mjg3LCJlbmQiOjMwOH0sInlMSWlIY3Y5Qk5lWE92UzkiOnsidG
 V4dCI6IkNPTVBMRVRJT04iLCJzdGFydCI6MjUzMCwiZW5kIjoy
 NTQwfSwiWkROQlFFNFVyRDRkdnNCSSI6eyJ0ZXh0IjoiLSBGaW
-d1cmUiLCJzdGFydCI6NTQzNCwiZW5kIjo1NDQyfSwiN0xwVXpK
+d1cmUiLCJzdGFydCI6NTMyNCwiZW5kIjo1MzMyfSwiN0xwVXpK
 cm5MRENvdHFaaCI6eyJ0ZXh0IjoiLSBGaWd1cmUiLCJzdGFydC
-I6NTYwNCwiZW5kIjo1NjEyfSwielBiTDNxRjhiUlVUVjZ5cCI6
-eyJ0ZXh0IjoiLSBGaWd1cmUiLCJzdGFydCI6NTgyNSwiZW5kIj
-o1ODMzfSwiSnoxT25XdkRLNjNlWEZHNSI6eyJ0ZXh0IjoiLSBG
-aWd1cmUiLCJzdGFydCI6OTI5OSwiZW5kIjo5MzA3fSwiYTVlQV
+I6NTQ5NCwiZW5kIjo1NTAyfSwielBiTDNxRjhiUlVUVjZ5cCI6
+eyJ0ZXh0IjoiLSBGaWd1cmUiLCJzdGFydCI6NTcxNSwiZW5kIj
+o1NzIzfSwiSnoxT25XdkRLNjNlWEZHNSI6eyJ0ZXh0IjoiLSBG
+aWd1cmUiLCJzdGFydCI6OTE4OSwiZW5kIjo5MTk3fSwiYTVlQV
 FpUE1oeWp0NnFZTSI6eyJ0ZXh0IjoiWW914oCZbGwgZ2V0IGZh
 bWlsaWFyIHdpdGggc29tZSBvZiB0aGUgY29tbW9uIGRpZmZpY3
 VsdGllcyBvZiB3b3JraW5nIHdpdGggb3BlbiBk4oCmIiwic3Rh
@@ -199,8 +199,8 @@ E1ZUFRaVBNaHlqdDZxWU0iLCJzdWIiOiJnaDoyMjE2ODE1NyIs
 InRleHQiOiJJIGxpa2UgdGhpcywgbWF5YmUgd2UgY2FuIGhhdm
 UgdGhpcyBpcyBhbGwgZXhlcmNpc2VzIHdoZXJlIHdlIHRlbGwg
 dGhlIHN0dWRlbnRzIHdoYXQgdGhleSB3aWxsIGxlYXJuLiIsIm
-NyZWF0ZWQiOjE2ODgwMzcxODQ5ODJ9fSwiaGlzdG9yeSI6WzEw
-NTY2ODEwNCwxNzM5NTExMTc4LC04OTE2OTAzODcsOTU0MTAwMz
-k5LDE1Nzk1NzAyNDksMjExMDc5MTAyOCwtMzE3MDI2NTQ1LDI2
-Mjg0OTE4M119
+NyZWF0ZWQiOjE2ODgwMzcxODQ5ODJ9fSwiaGlzdG9yeSI6Wy01
+NDQ1NzYzMjIsMTA1NjY4MTA0LDE3Mzk1MTExNzgsLTg5MTY5MD
+M4Nyw5NTQxMDAzOTksMTU3OTU3MDI0OSwyMTEwNzkxMDI4LC0z
+MTcwMjY1NDUsMjYyODQ5MTgzXX0=
 -->
