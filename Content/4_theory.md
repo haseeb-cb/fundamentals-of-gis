@@ -42,6 +42,7 @@ In addition to the aforementioned vector overlay methods, **other common multipl
 - (e) **Clip**: Used to extract those features from an input point, line, or polygon layer that falls within the spatial extent of the clip layer.
 
 - (f) **Erase**: Whereas the clip tool preserves areas within an input layer, the erase tool preserves only those areas outside the extent of the erase layer.
+	- Note: This tool is called "Difference" in QGIS
 
 - (g) **Split**: Used to divide an input layer into two or more layers based on a split layer.
 
@@ -76,9 +77,9 @@ Using the figure above, we are looking for the green circles by spatially compar
 [^3]: https://docs.qgis.org/3.28/en/docs/user_manual/processing_algs/algs_include.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MDE5NTIwNywzMzMzNDk1ODksMTk5MT
-I1NzI4MywxMTk1NjEyNzYwLC0xOTM1NTk3Mzk4LDExMTk3MDAz
-NzgsMTYzNDEyOTIyMSwtMTEzNTY2Mjc1NiwtMTY3MjkwNjk2Ni
-wxNjM2NTkyNzE3LDE2Mjk3OTU0OTMsMTIyNzYzMDc3NCw3MzA5
-OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEwOTYzMzQzODEsMTM4MDE5NTIwNywzMz
+MzNDk1ODksMTk5MTI1NzI4MywxMTk1NjEyNzYwLC0xOTM1NTk3
+Mzk4LDExMTk3MDAzNzgsMTYzNDEyOTIyMSwtMTEzNTY2Mjc1Ni
+wtMTY3MjkwNjk2NiwxNjM2NTkyNzE3LDE2Mjk3OTU0OTMsMTIy
+NzYzMDc3NCw3MzA5OTgxMTZdfQ==
 -->
