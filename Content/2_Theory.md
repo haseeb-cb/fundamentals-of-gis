@@ -34,7 +34,7 @@ But what if the data we need isn't already available or outdated? That's when we
 
 ## Digitizing
 
-When some kind of urban development happens, the data we use in GIS needs to updated. Someone has to go in and updated the changes to the roads, buildings, and others. This would be done by digitizing the changes, which is the process of **converting geographic data into digital form**. 
+When some kind of urban development happens, the data we use in GIS needs to updated. Someone has to go in and update the changes to the roads, buildings, and others. This would be done by digitizing the changes, which is the process of **converting geographic data into digital form**. 
 
 For this practice we are going to use the Nokia Arena development in Tampere, as you can see below, there have been a significant amount of changes with this project.
 
@@ -64,8 +64,8 @@ In our case we can use the buildings that remained unchanged and are on the proj
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI1UHlscWNNVWkwdWQxR2pWIjp7In
-RleHQiOiJHZW9yZWZlcmVuY2luZyIsInN0YXJ0Ijo0MjEwLCJl
-bmQiOjQyMjR9fSwiY29tbWVudHMiOnsiWFE0d1B0MjZjdUhOck
+RleHQiOiJHZW9yZWZlcmVuY2luZyIsInN0YXJ0Ijo0MjA5LCJl
+bmQiOjQyMjN9fSwiY29tbWVudHMiOnsiWFE0d1B0MjZjdUhOck
 t0eCI6eyJkaXNjdXNzaW9uSWQiOiI1UHlscWNNVWkwdWQxR2pW
 Iiwic3ViIjoiZ2g6MjIxNjgxNTciLCJ0ZXh0IjoiVGhpcyB0aG
 VvcnkgcmVhZHMgYSBsaXR0bGUgbW9yZSBsaWtlIGFuIGV4ZXJj
@@ -75,7 +75,7 @@ biBnZW9ncmFwaGljIGNvb3JkaW5hdGUgc3lzdGVtcywgcHJvam
 VjdGVkIGNvb3JkaW5hdGUgc3lzdGVtcywgYW5kIGEgZmV3IHNl
 bnRlbmNlcyBhYm91dCBob3cgR0lTIHRvb2xzIHNob3VsZCBiZS
 BhYmxlIHRvIHRyYW5zZm9ybSBiZXR3ZWVuIHRoZW0uIiwiY3Jl
-YXRlZCI6MTY4NjczMTM2MjI1OH19LCJoaXN0b3J5IjpbMjE0ND
-k4NDIwLDg5OTEwNzUxLDE0MDU1NzUwNDYsNTY2NDA0NTQ0LDcz
-NjQ5Mzk3NCwxMDkyNDMzNzA1XX0=
+YXRlZCI6MTY4NjczMTM2MjI1OH19LCJoaXN0b3J5IjpbLTc3MD
+gwMjU2MSwyMTQ0OTg0MjAsODk5MTA3NTEsMTQwNTU3NTA0Niw1
+NjY0MDQ1NDQsNzM2NDkzOTc0LDEwOTI0MzM3MDVdfQ==
 -->
