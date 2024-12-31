@@ -122,6 +122,7 @@ drop-down menu.
 
 11. **Use the plugin to create the default Yuill ellipses for the unpreferred locations of the Töölö
 and Vuosaari respondents**
+(Note: The plugin may not open in some GIS versions. If this occurs, please visit the Teams Help Forum Discussions for troubleshooting or skip this step and proceed with the optional hexagon exercise instead)
 	1. Save the resulting ellipses as shapefiles (Make permanent)
 	2. To make the interpretation easier, you can make the ellipses transparent or have them have outlines only and no fill
 	3. If you wish, you can calculate standard deviational ellipses for other kinds of places, too – e.g., preferred locations
